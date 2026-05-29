@@ -16,6 +16,16 @@ const CATEGORY_COLOR = {
   "Vie de quartier":      "bg-teal-950/70 text-teal-300 border-teal-800/60",
 };
 
+// 3px top accent bar color per category
+const CATEGORY_ACCENT = {
+  "Séduction":            "#f43f5e",
+  "Boulot":               "#22d3ee",
+  "Sport & Bien-être":    "#22c55e",
+  "Transports":           "#6366f1",
+  "Services & Commerces": "#f97316",
+  "Vie de quartier":      "#14b8a6",
+};
+
 function CopyButton({ text, colorClass }) {
   const [copied, setCopied] = useState(false);
 
@@ -73,15 +83,22 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
 
   const energyDot = ENERGY_DOT[situation.energie] ?? "bg-slate-500";
   const catColor = CATEGORY_COLOR[situation.categorie] ?? "bg-slate-800 text-slate-300 border-slate-700";
+  const accentColor = CATEGORY_ACCENT[situation.categorie] ?? "#64748b";
 
   return (
     <div
-      className={`bg-slate-900 rounded-2xl border overflow-hidden ${
+      className={`animate-card-in bg-slate-900 rounded-2xl border overflow-hidden ${
         isChallenge
           ? "border-yellow-500/50 shadow-lg shadow-yellow-500/5"
           : "border-slate-800"
       }`}
     >
+      {/* Category accent bar */}
+      <div
+        className="h-[3px] w-full"
+        style={{ background: accentColor }}
+      />
+
       {/* Header */}
       <div className="flex items-start justify-between gap-2 px-4 pt-4 pb-2">
         <div className="flex flex-wrap gap-1.5 flex-1">
@@ -145,18 +162,26 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
 
       {/* Phrase */}
       <div
-        className={`mx-4 mb-3 px-3 pt-3 pb-2.5 rounded-xl border ${
+        className={`relative mx-4 mb-3 px-3 pt-3 pb-2.5 rounded-xl border overflow-hidden ${
           activeTab === "A"
             ? "bg-emerald-950/40 border-emerald-800/50"
             : "bg-sky-950/40 border-sky-800/50"
         }`}
       >
+        {/* Decorative quotation mark */}
+        <span
+          className="absolute top-0 left-2 text-5xl font-serif leading-none pointer-events-none select-none"
+          style={{ opacity: 0.12, color: activeTab === "A" ? "#34d399" : "#38bdf8" }}
+          aria-hidden="true"
+        >
+          &ldquo;
+        </span>
         <p
-          className={`text-sm font-medium leading-relaxed mb-2.5 ${
+          className={`relative text-sm font-medium leading-relaxed mb-2.5 ${
             activeTab === "A" ? "text-emerald-200" : "text-sky-200"
           }`}
         >
-          « {currentPhrase} »
+          &laquo; {currentPhrase} &raquo;
         </p>
         <div className="flex items-center justify-between">
           <span className="text-xs text-slate-700 tabular-nums">
@@ -192,13 +217,13 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
           onClick={() => setRelanceOpen(v => !v)}
           className="w-full flex items-center justify-between px-3 py-2.5 rounded-xl bg-rose-950/40 border border-rose-800/50 text-rose-300 text-xs font-semibold active:bg-rose-900/40 transition-colors"
         >
-          <span>💬 Relance — Sauve-qui-peut</span>
+          <span>&#x1F4AC; Relance &mdash; Sauve-qui-peut</span>
           {relanceOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
         </button>
         {relanceOpen && (
           <div className="mt-1.5 px-3 pt-2.5 pb-2 rounded-xl bg-rose-950/40 border border-rose-800/50">
             <p className="text-sm text-rose-200 leading-relaxed italic mb-2">
-              « {currentRelance} »
+              &laquo; {currentRelance} &raquo;
             </p>
             <div className="flex items-center justify-between">
               <span className="text-xs text-slate-700 tabular-nums">
