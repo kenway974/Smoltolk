@@ -106,7 +106,14 @@ export default function ResultsView({ wizardData, situations, onBack }) {
         {situations.length > 0 ? (
           <>
             <p className="text-xs text-slate-600 mb-3 animate-fade-in">
-              {situations.length} situation{situations.length !== 1 ? "s" : ""} trouv&eacute;{situations.length !== 1 ? "es" : "e"}
+              {(() => {
+                const phrases = situations.reduce(
+                  (n, s) => n + (s.optionA?.length || 0) + (s.optionB?.length || 0),
+                  0
+                );
+                const relances = situations.reduce((n, s) => n + (s.relances?.length || 0), 0);
+                return `${phrases} accroches · ${relances} relances pour ce profil`;
+              })()}
             </p>
             <div className="space-y-3">
               {situations.map((situation, i) => (
