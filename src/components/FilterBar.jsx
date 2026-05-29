@@ -1,44 +1,70 @@
 import React from "react";
-import { Search, ChevronDown, RotateCcw } from "lucide-react";
+import { Search, ChevronDown, RotateCcw, Star } from "lucide-react";
 
-export default function FilterBar({ searchText, onSearchChange, envFilter, onEnvChange, environments, onReset, hasActiveFilters }) {
+export default function FilterBar({
+  searchText,
+  onSearchChange,
+  categoryFilter,
+  onCategoryChange,
+  categories,
+  showFavoritesOnly,
+  onToggleFavorites,
+  favoritesCount,
+  onReset,
+  hasActiveFilters,
+}) {
   return (
     <div className="flex flex-col gap-2">
-      {/* Search input */}
       <div className="relative">
-        <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" strokeWidth={2} />
+        <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
         <input
           type="text"
           value={searchText}
           onChange={e => onSearchChange(e.target.value)}
-          placeholder="Chercher par lieu, profil, thème…"
-          className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-stone-200 bg-white text-sm text-stone-800 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition"
+          placeholder="Lieu, profil, thème…"
+          className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition"
         />
       </div>
 
-      {/* Environment dropdown + reset */}
       <div className="flex gap-2">
         <div className="relative flex-1">
           <select
-            value={envFilter}
-            onChange={e => onEnvChange(e.target.value)}
-            className="w-full appearance-none pl-3 pr-8 py-2.5 rounded-xl border border-stone-200 bg-white text-sm text-stone-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition"
+            value={categoryFilter}
+            onChange={e => onCategoryChange(e.target.value)}
+            className="w-full appearance-none pl-3 pr-8 py-2.5 rounded-xl border border-slate-700 bg-slate-800 text-sm text-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition"
           >
-            <option value="">Tous les environnements</option>
-            {environments.map(env => (
-              <option key={env} value={env}>{env}</option>
+            <option value="">Toutes les catégories</option>
+            {categories.map(cat => (
+              <option key={cat} value={cat}>{cat}</option>
             ))}
           </select>
-          <ChevronDown size={16} className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 pointer-events-none" />
+          <ChevronDown size={15} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 pointer-events-none" />
         </div>
+
+        <button
+          onClick={onToggleFavorites}
+          className={`flex items-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-medium active:scale-95 transition-all duration-150 ${
+            showFavoritesOnly
+              ? "bg-yellow-500/20 border-yellow-500/50 text-yellow-400"
+              : "bg-slate-800 border-slate-700 text-slate-500"
+          }`}
+        >
+          <Star
+            size={15}
+            strokeWidth={showFavoritesOnly ? 0 : 2}
+            fill={showFavoritesOnly ? "currentColor" : "none"}
+          />
+          {favoritesCount > 0 && (
+            <span className="text-xs font-bold">{favoritesCount}</span>
+          )}
+        </button>
 
         {hasActiveFilters && (
           <button
             onClick={onReset}
-            className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl border-2 border-rose-200 bg-rose-50 text-rose-600 text-sm font-medium active:scale-95 transition-all duration-150"
+            className="flex items-center gap-1 px-3 py-2.5 rounded-xl border border-rose-800/60 bg-rose-950/50 text-rose-400 text-sm font-medium active:scale-95 transition-all duration-150"
           >
             <RotateCcw size={14} strokeWidth={2.5} />
-            Reset
           </button>
         )}
       </div>
