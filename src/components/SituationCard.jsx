@@ -42,7 +42,7 @@ function CopyButton({ text, colorClass }) {
     <button
       onClick={handleCopy}
       className={`p-1.5 rounded-lg transition-all duration-150 active:scale-90 ${
-        copied ? "bg-green-800/60 text-green-400" : `${colorClass} active:opacity-70`
+        copied ? "bg-green-800/60 text-green-400 animate-pop" : `${colorClass} active:opacity-70`
       }`}
       title="Copier"
     >
@@ -51,12 +51,14 @@ function CopyButton({ text, colorClass }) {
   );
 }
 
-export default function SituationCard({ situation, isFavorite, onToggleFavorite, isChallenge }) {
+export default function SituationCard({ situation, isFavorite, onToggleFavorite, isChallenge, index = 0 }) {
   const [activeTab, setActiveTab] = useState("A");
   const [phraseIndexA, setPhraseIndexA] = useState(0);
   const [phraseIndexB, setPhraseIndexB] = useState(0);
   const [relanceIndex, setRelanceIndex] = useState(0);
   const [relanceOpen, setRelanceOpen] = useState(false);
+  const [phraseSpin, setPhraseSpin] = useState(false);
+  const [relanceSpin, setRelanceSpin] = useState(false);
 
   const phrasesA = situation.optionA ?? [];
   const phrasesB = situation.optionB ?? [];
@@ -74,11 +76,15 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
     } else {
       setPhraseIndexB(i => (i + 1) % phrasesB.length);
     }
+    setPhraseSpin(true);
+    setTimeout(() => setPhraseSpin(false), 500);
   };
 
   const rotateRelance = (e) => {
     e.stopPropagation();
     setRelanceIndex(i => (i + 1) % relances.length);
+    setRelanceSpin(true);
+    setTimeout(() => setRelanceSpin(false), 500);
   };
 
   const energyDot = ENERGY_DOT[situation.energie] ?? "bg-slate-500";
@@ -87,6 +93,7 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
 
   return (
     <div
+      style={{ animationDelay: `${Math.min(index * 50, 400)}ms` }}
       className={`animate-card-in bg-slate-900 rounded-2xl border overflow-hidden ${
         isChallenge
           ? "border-yellow-500/50 shadow-lg shadow-yellow-500/5"
@@ -123,6 +130,7 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
               size={17}
               strokeWidth={isFavorite ? 0 : 1.5}
               fill={isFavorite ? "currentColor" : "none"}
+              className={isFavorite ? "animate-pop" : ""}
             />
           </button>
         </div>
@@ -177,7 +185,8 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
           &ldquo;
         </span>
         <p
-          className={`relative text-sm font-medium leading-relaxed mb-2.5 ${
+          key={`${activeTab}-${currentIndex}`}
+          className={`relative text-sm font-medium leading-relaxed mb-2.5 animate-fade-in-up ${
             activeTab === "A" ? "text-emerald-200" : "text-sky-200"
           }`}
         >
@@ -197,7 +206,7 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
               }`}
               title="Phrase suivante"
             >
-              <RotateCcw size={13} strokeWidth={2.5} />
+              <RotateCcw size={13} strokeWidth={2.5} className={phraseSpin ? "spin-once" : "spin-rest"} />
             </button>
             <CopyButton
               text={currentPhrase}
@@ -221,8 +230,8 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
           {relanceOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
         </button>
         {relanceOpen && (
-          <div className="mt-1.5 px-3 pt-2.5 pb-2 rounded-xl bg-rose-950/40 border border-rose-800/50">
-            <p className="text-sm text-rose-200 leading-relaxed italic mb-2">
+          <div className="mt-1.5 px-3 pt-2.5 pb-2 rounded-xl bg-rose-950/40 border border-rose-800/50 animate-fade-in-up">
+            <p key={relanceIndex} className="text-sm text-rose-200 leading-relaxed italic mb-2 animate-fade-in">
               &laquo; {currentRelance} &raquo;
             </p>
             <div className="flex items-center justify-between">
@@ -235,7 +244,7 @@ export default function SituationCard({ situation, isFavorite, onToggleFavorite,
                     onClick={rotateRelance}
                     className="p-1.5 rounded-lg bg-rose-800/50 text-rose-400 active:scale-90 active:bg-rose-700/60 transition-all"
                   >
-                    <RotateCcw size={13} strokeWidth={2.5} />
+                    <RotateCcw size={13} strokeWidth={2.5} className={relanceSpin ? "spin-once" : "spin-rest"} />
                   </button>
                 )}
                 <CopyButton text={currentRelance} colorClass="bg-rose-800/50 text-rose-400" />

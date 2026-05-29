@@ -12,6 +12,7 @@ const ENERGY_LABEL = {
 export default function ResultsView({ wizardData, situations, onBack }) {
   const { favorites, toggleFavorite } = useFavorites();
   const [challengeId, setChallengeId] = useState(null);
+  const [shuffleSpin, setShuffleSpin] = useState(false);
 
   const { location, profile, energie } = wizardData;
 
@@ -23,6 +24,8 @@ export default function ResultsView({ wizardData, situations, onBack }) {
     const arr = pool.length > 0 ? pool : situations;
     const random = arr[Math.floor(Math.random() * arr.length)];
     setChallengeId(random.id);
+    setShuffleSpin(true);
+    setTimeout(() => setShuffleSpin(false), 500);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [situations, challengeId]);
 
@@ -66,9 +69,9 @@ export default function ResultsView({ wizardData, situations, onBack }) {
           <button
             onClick={handleDefi}
             disabled={situations.length === 0}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs font-semibold active:scale-95 active:bg-yellow-500/20 transition-all duration-150 disabled:opacity-30 shrink-0"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs font-semibold active:scale-90 active:bg-yellow-500/20 transition-all duration-150 disabled:opacity-30 shrink-0"
           >
-            <Shuffle size={13} strokeWidth={2.5} />
+            <Shuffle size={13} strokeWidth={2.5} className={shuffleSpin ? "spin-once" : "spin-rest"} />
             D&eacute;fi
           </button>
         </div>
@@ -76,7 +79,7 @@ export default function ResultsView({ wizardData, situations, onBack }) {
 
       {/* Challenge card */}
       {challengeSituation && (
-        <div className="mx-4 mt-4">
+        <div className="mx-4 mt-4 animate-fade-in-up">
           <div className="flex items-center gap-2 mb-2 px-1">
             <Shuffle size={13} className="text-yellow-400" />
             <span className="text-xs font-bold text-yellow-400 uppercase tracking-wider">
@@ -102,13 +105,14 @@ export default function ResultsView({ wizardData, situations, onBack }) {
       <main className="flex-1 px-4 pb-10 pt-3">
         {situations.length > 0 ? (
           <>
-            <p className="text-xs text-slate-600 mb-3">
+            <p className="text-xs text-slate-600 mb-3 animate-fade-in">
               {situations.length} situation{situations.length !== 1 ? "s" : ""} trouv&eacute;{situations.length !== 1 ? "es" : "e"}
             </p>
             <div className="space-y-3">
-              {situations.map((situation) => (
+              {situations.map((situation, i) => (
                 <SituationCard
                   key={situation.id}
+                  index={i}
                   situation={situation}
                   isFavorite={favorites.has(situation.id)}
                   onToggleFavorite={() => toggleFavorite(situation.id)}
@@ -117,7 +121,7 @@ export default function ResultsView({ wizardData, situations, onBack }) {
             </div>
           </>
         ) : (
-          <div className="flex flex-col items-center justify-center py-20 text-slate-600">
+          <div className="flex flex-col items-center justify-center py-20 text-slate-600 animate-fade-in-up">
             <MessageCircle size={40} strokeWidth={1.5} className="mb-4 opacity-30" />
             <p className="text-sm font-medium text-slate-500 mb-1">Aucune situation trouv&eacute;e</p>
             <p className="text-xs text-slate-600 text-center mb-5">

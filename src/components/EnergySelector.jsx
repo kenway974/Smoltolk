@@ -34,7 +34,7 @@ export default function EnergySelector({ selected, onChange }) {
           <button
             key={value}
             onClick={() => onChange(isActive ? null : value)}
-            className={`flex-1 flex flex-col items-center gap-1 py-2.5 rounded-xl border-2 font-semibold transition-all duration-150 active:scale-95 ${isActive ? active : inactive}`}
+            className={`flex-1 flex flex-col items-center gap-1 py-2.5 rounded-xl border-2 font-semibold transition-all duration-150 active:scale-95 ${isActive ? `${active} animate-pop` : inactive}`}
           >
             <Icon size={18} strokeWidth={2} />
             <span className="text-xs">{label}</span>

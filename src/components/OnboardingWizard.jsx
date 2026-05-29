@@ -190,21 +190,23 @@ export default function OnboardingWizard({ onComplete, onBack }) {
         </div>
       </div>
 
+      <div key={step} className="flex-1 flex flex-col animate-slide-in-right">
       {/* Step 0 — Location */}
       {step === 0 && (
         <div className="flex-1 px-4 pb-8">
-          <div className="mb-6 mt-2">
+          <div className="mb-6 mt-2 animate-fade-in-up">
             <h2 className="text-xl font-bold mb-1">Où es-tu ?</h2>
             <p className="text-sm text-slate-500">Sélectionne ton environnement actuel</p>
           </div>
           <div className="grid grid-cols-2 gap-2.5">
-            {LOCATIONS.map(({ label, emoji }) => (
+            {LOCATIONS.map(({ label, emoji }, i) => (
               <button
                 key={label}
                 onClick={() => handleLocationSelect(label)}
-                className={`flex items-center gap-2.5 px-4 py-3.5 rounded-2xl border text-sm font-medium text-left transition-all duration-150 active:scale-95 ${
+                style={{ animationDelay: `${i * 45}ms` }}
+                className={`animate-fade-in-up flex items-center gap-2.5 px-4 py-3.5 rounded-2xl border text-sm font-medium text-left transition-all duration-150 active:scale-95 ${
                   location === label
-                    ? "border-violet-500 bg-violet-500/20 text-violet-200"
+                    ? "border-violet-500 bg-violet-500/20 text-violet-200 animate-pop"
                     : "border-slate-700 bg-slate-800/60 text-slate-300 active:border-violet-500/60"
                 }`}
               >
@@ -219,13 +221,13 @@ export default function OnboardingWizard({ onComplete, onBack }) {
       {/* Step 1 — Profile */}
       {step === 1 && (
         <div className="flex-1 flex flex-col px-4 pb-8">
-          <div className="mb-4 mt-2">
+          <div className="mb-4 mt-2 animate-fade-in-up">
             <h2 className="text-xl font-bold mb-1">À qui veux-tu parler ?</h2>
             <p className="text-sm text-slate-500">Choisis le profil de la personne</p>
           </div>
           <div className="flex-1 overflow-y-auto space-y-4 pb-4">
-            {PROFILE_CATEGORIES.map(({ header, profiles }) => (
-              <div key={header}>
+            {PROFILE_CATEGORIES.map(({ header, profiles }, ci) => (
+              <div key={header} className="animate-fade-in-up" style={{ animationDelay: `${ci * 60}ms` }}>
                 <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2 px-1">
                   {header}
                 </p>
@@ -236,7 +238,7 @@ export default function OnboardingWizard({ onComplete, onBack }) {
                       onClick={() => handleProfileSelect(prof)}
                       className={`px-3 py-2 rounded-xl border text-xs font-medium transition-all duration-150 active:scale-95 ${
                         profile === prof
-                          ? "border-violet-500 bg-violet-500/20 text-violet-200"
+                          ? "border-violet-500 bg-violet-500/20 text-violet-200 animate-pop"
                           : "border-slate-700 bg-slate-800/50 text-slate-400 active:border-violet-500/50"
                       }`}
                     >
@@ -248,7 +250,7 @@ export default function OnboardingWizard({ onComplete, onBack }) {
             ))}
           </div>
           {profile && (
-            <div className="pt-3 border-t border-slate-800">
+            <div className="pt-3 border-t border-slate-800 animate-fade-in-up">
               <button
                 onClick={handleProfileContinue}
                 className="w-full flex items-center justify-center gap-2 py-3.5 rounded-2xl text-white text-sm font-bold active:scale-95 transition-transform duration-150"
@@ -265,19 +267,20 @@ export default function OnboardingWizard({ onComplete, onBack }) {
       {/* Step 2 — Energy */}
       {step === 2 && (
         <div className="flex-1 px-4 pb-8">
-          <div className="mb-6 mt-2">
+          <div className="mb-6 mt-2 animate-fade-in-up">
             <h2 className="text-xl font-bold mb-1">Ton énergie ?</h2>
             <p className="text-sm text-slate-500">Comment tu te sens là, maintenant ?</p>
           </div>
           <div className="flex flex-col gap-3">
-            {ENERGIES.map(({ emoji, label, sublabel, value, gradient, glow }) => (
+            {ENERGIES.map(({ emoji, label, sublabel, value, gradient, glow }, i) => (
               <button
                 key={value}
                 onClick={() => handleEnergySelect(value)}
-                className="w-full flex items-center gap-4 px-5 py-4 rounded-2xl border border-white/10 text-left active:scale-95 transition-all duration-150"
+                className="animate-fade-in-up w-full flex items-center gap-4 px-5 py-4 rounded-2xl border border-white/10 text-left active:scale-95 transition-all duration-150"
                 style={{
                   background: "rgba(255,255,255,0.04)",
                   backdropFilter: "blur(8px)",
+                  animationDelay: `${i * 70}ms`,
                 }}
               >
                 <div
@@ -295,6 +298,7 @@ export default function OnboardingWizard({ onComplete, onBack }) {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }

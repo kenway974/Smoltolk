@@ -29,5 +29,104 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 .animate-card-in {
-  animation: card-in 0.25s ease-out forwards;
+  animation: card-in 0.25s ease-out both;
+}
+
+/* ── Reusable keyframes ───────────────────────────── */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-22px); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes pop {
+  0%   { transform: scale(1); }
+  45%  { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 18px rgba(139,92,246,0.35), 0 4px 16px rgba(59,130,246,0.25); }
+  50%      { box-shadow: 0 0 34px rgba(139,92,246,0.65), 0 4px 22px rgba(59,130,246,0.45); }
+}
+
+/* ── Animation utility classes ────────────────────── */
+.animate-fade-in-up   { opacity: 0; animation: fade-in-up 0.5s ease-out forwards; }
+.animate-fade-in      { opacity: 0; animation: fade-in 0.5s ease-out forwards; }
+.animate-scale-in     { opacity: 0; animation: scale-in 0.35s ease-out forwards; }
+.animate-slide-in-right { opacity: 0; animation: slide-in-right 0.4s ease-out forwards; }
+.animate-float        { animation: float 6s ease-in-out infinite; }
+.animate-pop          { animation: pop 0.3s ease-out; }
+.animate-glow-pulse   { animation: glow-pulse 2.8s ease-in-out infinite; }
+
+.animate-shimmer {
+  background-size: 200% auto;
+  animation: shimmer 3.5s linear infinite;
+}
+
+/* Spin-once helper for rotate icons */
+.spin-once { transform: rotate(360deg); transition: transform 0.5s ease; }
+.spin-rest { transform: rotate(0deg); transition: transform 0s; }
+
+/* ── Stagger helper ───────────────────────────────── */
+.stagger-children > * {
+  opacity: 0;
+  animation: fade-in-up 0.5s ease-out forwards;
+}
+.stagger-children > *:nth-child(1)  { animation-delay: 0.04s; }
+.stagger-children > *:nth-child(2)  { animation-delay: 0.09s; }
+.stagger-children > *:nth-child(3)  { animation-delay: 0.14s; }
+.stagger-children > *:nth-child(4)  { animation-delay: 0.19s; }
+.stagger-children > *:nth-child(5)  { animation-delay: 0.24s; }
+.stagger-children > *:nth-child(6)  { animation-delay: 0.29s; }
+.stagger-children > *:nth-child(7)  { animation-delay: 0.34s; }
+.stagger-children > *:nth-child(8)  { animation-delay: 0.39s; }
+.stagger-children > *:nth-child(9)  { animation-delay: 0.44s; }
+.stagger-children > *:nth-child(10) { animation-delay: 0.49s; }
+
+/* Explicit delay utilities */
+.delay-1 { animation-delay: 0.06s; }
+.delay-2 { animation-delay: 0.12s; }
+.delay-3 { animation-delay: 0.18s; }
+.delay-4 { animation-delay: 0.24s; }
+.delay-5 { animation-delay: 0.30s; }
+.delay-6 { animation-delay: 0.36s; }
+.delay-7 { animation-delay: 0.42s; }
+.delay-8 { animation-delay: 0.48s; }
+
+/* ── Reduced motion ───────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  .animate-card-in,
+  .animate-fade-in-up,
+  .animate-fade-in,
+  .animate-scale-in,
+  .animate-slide-in-right,
+  .animate-float,
+  .animate-pop,
+  .animate-glow-pulse,
+  .animate-shimmer,
+  .stagger-children > * {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    opacity: 1 !important;
+  }
+  .spin-once, .spin-rest { transform: none !important; }
 }

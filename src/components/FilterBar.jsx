@@ -45,7 +45,7 @@ export default function FilterBar({
           onClick={onToggleFavorites}
           className={`flex items-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-medium active:scale-95 transition-all duration-150 ${
             showFavoritesOnly
-              ? "bg-yellow-500/20 border-yellow-500/50 text-yellow-400"
+              ? "bg-yellow-500/20 border-yellow-500/50 text-yellow-400 animate-pop"
               : "bg-slate-800 border-slate-700 text-slate-500"
           }`}
         >
