@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { MessageCircle } from "lucide-react";
 import { SITUATIONS_DATA } from "./data/situations";
 import EnergySelector from "./components/EnergySelector";
+import MomentSelector from "./components/MomentSelector";
 import FilterBar from "./components/FilterBar";
 import SituationCard from "./components/SituationCard";
 
@@ -9,38 +10,33 @@ import SituationCard from "./components/SituationCard";
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].sort();
 
 export default function App() {
-  const [energyFilter, setEnergyFilter] = useState(null);
-  const [searchText, setSearchText]     = useState("");
-  const [envFilter, setEnvFilter]       = useState("");
+  const [energyFilter, setEnergyFilter]   = useState(null);
+  const [momentFilter, setMomentFilter]   = useState(null);
+  const [searchText, setSearchText]       = useState("");
+  const [envFilter, setEnvFilter]         = useState("");
 
-  const hasActiveFilters = energyFilter !== null || searchText !== "" || envFilter !== "";
+  const hasActiveFilters = energyFilter !== null || momentFilter !== null || searchText !== "" || envFilter !== "";
 
   const resetFilters = () => {
     setEnergyFilter(null);
+    setMomentFilter(null);
     setSearchText("");
     setEnvFilter("");
   };
 
-  // Cumulative filter: all active conditions must match (AND logic)
-  // useMemo avoids re-scanning the array on unrelated renders
   const filteredSituations = useMemo(() => {
     return SITUATIONS_DATA.filter(s => {
-      // 1. Energy quick-select
       if (energyFilter && s.energie !== energyFilter) return false;
-
-      // 2. Environment dropdown
+      if (momentFilter && s.moment !== momentFilter) return false;
       if (envFilter && s.environnement !== envFilter) return false;
-
-      // 3. Free-text across three searchable fields
       if (searchText.trim()) {
-        const needle    = searchText.toLowerCase();
-        const haystack  = `${s.environnement} ${s.profil} ${s.theme}`.toLowerCase();
+        const needle   = searchText.toLowerCase();
+        const haystack = `${s.environnement} ${s.profil} ${s.theme}`.toLowerCase();
         if (!haystack.includes(needle)) return false;
       }
-
       return true;
     });
-  }, [energyFilter, envFilter, searchText]);
+  }, [energyFilter, momentFilter, envFilter, searchText]);
 
   return (
     <div className="flex flex-col min-h-screen bg-stone-100">
@@ -65,6 +61,11 @@ export default function App() {
         <div>
           <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-2">Mon Énergie</p>
           <EnergySelector selected={energyFilter} onChange={setEnergyFilter} />
+        </div>
+
+        <div>
+          <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-2">Moment de la journée</p>
+          <MomentSelector selected={momentFilter} onChange={setMomentFilter} />
         </div>
 
         <FilterBar

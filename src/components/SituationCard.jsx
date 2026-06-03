@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, User, Heart, Tag, Copy, Check, ChevronDown, ChevronUp } from "lucide-react";
+import { MapPin, User, Heart, Tag, Copy, Check, ChevronDown, ChevronUp, Clock } from "lucide-react";
 
 const ENERGY_DOT = {
   Haute:   "bg-blue-500",
@@ -67,7 +67,11 @@ export default function SituationCard({ situation }) {
       </div>
 
       {/* Card sub-info */}
-      <div className="flex gap-3 px-4 pb-3 text-xs text-stone-400">
+      <div className="flex gap-3 px-4 pb-3 text-xs text-stone-400 flex-wrap">
+        <span className="flex items-center gap-1">
+          <Clock size={11} strokeWidth={2} />
+          {situation.moment}
+        </span>
         <span className="flex items-center gap-1">
           <Heart size={11} strokeWidth={2} />
           {situation.humeur}
