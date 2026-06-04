@@ -6,20 +6,22 @@ import MomentSelector from "./components/MomentSelector";
 import FilterBar from "./components/FilterBar";
 import SituationCard from "./components/SituationCard";
 
-// Deduplicated, sorted list of environments for the dropdown
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].sort();
+const ALL_INTERETS    = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
 
 export default function App() {
   const [energyFilter, setEnergyFilter]   = useState(null);
   const [momentFilter, setMomentFilter]   = useState(null);
+  const [interetFilter, setInteretFilter] = useState("");
   const [searchText, setSearchText]       = useState("");
   const [envFilter, setEnvFilter]         = useState("");
 
-  const hasActiveFilters = energyFilter !== null || momentFilter !== null || searchText !== "" || envFilter !== "";
+  const hasActiveFilters = energyFilter !== null || momentFilter !== null || interetFilter !== "" || searchText !== "" || envFilter !== "";
 
   const resetFilters = () => {
     setEnergyFilter(null);
     setMomentFilter(null);
+    setInteretFilter("");
     setSearchText("");
     setEnvFilter("");
   };
@@ -28,15 +30,16 @@ export default function App() {
     return SITUATIONS_DATA.filter(s => {
       if (energyFilter && s.energie !== energyFilter) return false;
       if (momentFilter && s.moment !== momentFilter) return false;
+      if (interetFilter && s.centreInteret !== interetFilter) return false;
       if (envFilter && s.environnement !== envFilter) return false;
       if (searchText.trim()) {
         const needle   = searchText.toLowerCase();
-        const haystack = `${s.environnement} ${s.profil} ${s.theme}`.toLowerCase();
+        const haystack = `${s.environnement} ${s.profil} ${s.theme} ${s.centreInteret}`.toLowerCase();
         if (!haystack.includes(needle)) return false;
       }
       return true;
     });
-  }, [energyFilter, momentFilter, envFilter, searchText]);
+  }, [energyFilter, momentFilter, interetFilter, envFilter, searchText]);
 
   return (
     <div className="flex flex-col min-h-screen bg-stone-100">
@@ -74,6 +77,9 @@ export default function App() {
           envFilter={envFilter}
           onEnvChange={setEnvFilter}
           environments={ALL_ENVIRONMENTS}
+          interetFilter={interetFilter}
+          onInteretChange={setInteretFilter}
+          interets={ALL_INTERETS}
           onReset={resetFilters}
           hasActiveFilters={hasActiveFilters}
         />

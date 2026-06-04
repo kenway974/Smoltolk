@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, User, Heart, Tag, Copy, Check, ChevronDown, ChevronUp, Clock } from "lucide-react";
+import { MapPin, User, Heart, Tag, Copy, Check, ChevronDown, ChevronUp, Clock, Sparkles } from "lucide-react";
 
 const ENERGY_DOT = {
   Haute:   "bg-blue-500",
@@ -38,9 +38,31 @@ function CopyButton({ text }) {
   );
 }
 
+function RelanceSection({ label, text, colorBg, colorBorder, colorText, colorBody }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div>
+      <button
+        onClick={() => setOpen(v => !v)}
+        className={`w-full flex items-center justify-between px-3 py-2 rounded-xl ${colorBg} border ${colorBorder} ${colorText} text-xs font-semibold active:opacity-80 transition-colors`}
+      >
+        <span>{label}</span>
+        {open ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+      </button>
+      {open && (
+        <div className={`flex items-start gap-2 mt-1.5 px-3 py-2.5 rounded-xl ${colorBg} border ${colorBorder}`}>
+          <p className={`flex-1 text-sm ${colorBody} leading-snug italic`}>
+            « {text} »
+          </p>
+          <CopyButton text={text} />
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function SituationCard({ situation }) {
   const [activeTab, setActiveTab] = useState("A");
-  const [relanceOpen, setRelanceOpen] = useState(false);
 
   const currentPhrase = activeTab === "A" ? situation.accrocheA : situation.accrocheB;
 
@@ -57,6 +79,10 @@ export default function SituationCard({ situation }) {
           <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 text-xs font-medium">
             <User size={11} strokeWidth={2.5} />
             {situation.profil}
+          </span>
+          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-violet-100 text-violet-700 text-xs font-medium">
+            <Sparkles size={11} strokeWidth={2.5} />
+            {situation.centreInteret}
           </span>
         </div>
         {/* Energy dot + label */}
@@ -106,23 +132,24 @@ export default function SituationCard({ situation }) {
         <CopyButton text={currentPhrase} />
       </div>
 
-      {/* Relance section */}
-      <div className="mx-4 mb-4">
-        <button
-          onClick={() => setRelanceOpen(v => !v)}
-          className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold active:bg-rose-100 transition-colors"
-        >
-          <span>💬 Relance ouverte</span>
-          {relanceOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
-        </button>
-        {relanceOpen && (
-          <div className="flex items-start gap-2 mt-1.5 px-3 py-2.5 rounded-xl bg-rose-50 border border-rose-200">
-            <p className="flex-1 text-sm text-rose-800 leading-snug italic">
-              « {situation.relance} »
-            </p>
-            <CopyButton text={situation.relance} />
-          </div>
-        )}
+      {/* Relance + Découverte sections */}
+      <div className="mx-4 mb-4 space-y-2">
+        <RelanceSection
+          label="💬 Relance — sur le sujet"
+          text={situation.relance}
+          colorBg="bg-rose-50"
+          colorBorder="border-rose-200"
+          colorText="text-rose-700"
+          colorBody="text-rose-800"
+        />
+        <RelanceSection
+          label="🔍 En savoir plus sur elle/lui"
+          text={situation.decouverte}
+          colorBg="bg-teal-50"
+          colorBorder="border-teal-200"
+          colorText="text-teal-700"
+          colorBody="text-teal-800"
+        />
       </div>
 
     </div>

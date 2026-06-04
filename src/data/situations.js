@@ -6,11 +6,13 @@ export const SITUATIONS_DATA = [
     humeur: "Condescendant",
     energie: "Haute",
     moment: "Après-midi",
+    centreInteret: "Mode",
     objectif: "Briser la glace",
     theme: "Le standing du lieu",
     accrocheA: "Impressionnant, l'adresse — vous avez eu le bon nez en choisissant cette enseigne.",
     accrocheB: "J'ai failli pas entrer, je pensais que mes baskets allaient déclencher une alarme.",
-    relance: "C'est quoi le profil-type du client qui vous marque le plus ici ?"
+    relance: "C'est quoi le profil-type du client qui vous marque le plus ici ?",
+    decouverte: "Et vous, en dehors de la boutique, vous êtes plutôt quel genre de personne ?"
   },
   {
     id: 2,
@@ -19,11 +21,13 @@ export const SITUATIONS_DATA = [
     humeur: "Débordée",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Quotidien",
     objectif: "Créer de la sympathie",
     theme: "L'affluence du jour",
     accrocheA: "Belle journée pour battre un record d'articles scannés, hein.",
     accrocheB: "Vous avez l'air de gérer ça avec une sérénité que je vous envie sincèrement.",
-    relance: "C'est toujours ce créneau le plus chargé, ou c'est exceptionnel aujourd'hui ?"
+    relance: "C'est toujours ce créneau le plus chargé, ou c'est exceptionnel aujourd'hui ?",
+    decouverte: "Vous avez des projets pour le weekend, ou c'est encore une semaine chargée ?"
   },
   {
     id: 3,
@@ -32,11 +36,13 @@ export const SITUATIONS_DATA = [
     humeur: "Calme",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Nature",
     objectif: "Engager une conversation légère",
     theme: "L'animal",
     accrocheA: "Il a l'air d'avoir décidé lui-même de la direction — vous ou lui qui commande ?",
     accrocheB: "Ce chien a plus de style dans sa démarche que moi un lundi matin.",
-    relance: "C'est quelle race exactement ? Il a un caractère particulier ?"
+    relance: "C'est quelle race exactement ? Il a un caractère particulier ?",
+    decouverte: "Vous habitez le quartier depuis longtemps ?"
   },
   {
     id: 4,
@@ -45,11 +51,13 @@ export const SITUATIONS_DATA = [
     humeur: "Agacé",
     energie: "Fatigué",
     moment: "Matin",
+    centreInteret: "Gastronomie",
     objectif: "Détendre l'atmosphère",
     theme: "La pression du service",
     accrocheA: "Je vois que la machine à café vous obéit mieux que les clients.",
     accrocheB: "Je vais pas vous rajouter une commande compliquée — un expresso, je mérite pas mieux.",
-    relance: "C'est quoi votre formule pour tenir le rythme sur un service pareil ?"
+    relance: "C'est quoi votre formule pour tenir le rythme sur un service pareil ?",
+    decouverte: "En dehors d'ici, vous avez un autre projet en tête en ce moment ?"
   },
   {
     id: 5,
@@ -58,11 +66,13 @@ export const SITUATIONS_DATA = [
     humeur: "Neutre",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Travail",
     objectif: "Humaniser le contact",
     theme: "La routine du poste",
     accrocheA: "Vous avez le badge numéro deux du bâtiment — celui qui sait vraiment tout ce qui se passe ici.",
     accrocheB: "Chaque fois que je passe, j'ai l'impression que vous avez lu dans mes pensées avant même que je parle.",
-    relance: "Au bout de combien de temps on commence à reconnaître les habitudes de tout le monde ?"
+    relance: "Au bout de combien de temps on commence à reconnaître les habitudes de tout le monde ?",
+    decouverte: "Vous faites quoi pour décompresser quand vous rentrez chez vous ?"
   },
   {
     id: 6,
@@ -71,11 +81,13 @@ export const SITUATIONS_DATA = [
     humeur: "Enthousiaste",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Gastronomie",
     objectif: "Valoriser le savoir-faire",
     theme: "La saisonnalité",
     accrocheA: "Ces tomates ont une tête à avoir poussé sous un vrai soleil — pas en serre.",
     accrocheB: "Je suis venu acheter des légumes et je repars avec la liste de mes erreurs culinaires.",
-    relance: "C'est quoi le produit cette semaine dont vous êtes le plus fier ?"
+    relance: "C'est quoi le produit cette semaine dont vous êtes le plus fier ?",
+    decouverte: "Vous avez une passion à côté du marché, ou c'est déjà toute votre vie ?"
   },
   {
     id: 7,
@@ -84,11 +96,13 @@ export const SITUATIONS_DATA = [
     humeur: "Motivé",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Sport",
     objectif: "Créer une connexion rapide",
     theme: "Le cardio",
     accrocheA: "Vous avez le regard de quelqu'un qui a déjà fait les deux premières heures avant que j'arrive.",
     accrocheB: "Je suis entré pour me sentir en forme, je ressors humilié — c'est le deal ?",
-    relance: "Vous coachez plutôt des débutants ou des gens qui cherchent à se dépasser ?"
+    relance: "Vous coachez plutôt des débutants ou des gens qui cherchent à se dépasser ?",
+    decouverte: "C'est quoi votre objectif perso en ce moment, au-delà du sport ?"
   },
   {
     id: 8,
@@ -97,11 +111,13 @@ export const SITUATIONS_DATA = [
     humeur: "Pressé",
     energie: "Fatigué",
     moment: "Matin",
+    centreInteret: "Travail",
     objectif: "Solidarité corporatiste",
     theme: "Les galères du métier",
     accrocheA: "Troisième étage sans ascenseur, c'est pas dans la fiche de poste mais c'est dans la journée.",
     accrocheB: "On n'est pas dans la même boîte mais on est dans la même douleur — santé.",
-    relance: "C'est quoi votre zone aujourd'hui, vous êtes sur quelle tournée ?"
+    relance: "C'est quoi votre zone aujourd'hui, vous êtes sur quelle tournée ?",
+    decouverte: "Vous faites ça depuis longtemps, ou c'est un passage dans votre parcours ?"
   },
   {
     id: 9,
@@ -110,11 +126,13 @@ export const SITUATIONS_DATA = [
     humeur: "Concentré",
     energie: "Basse",
     moment: "Après-midi",
+    centreInteret: "Bien-être",
     objectif: "Alléger l'échange",
     theme: "La file d'attente",
     accrocheA: "Vous gérez trois files en même temps avec un calme chirurgical — chapeau.",
     accrocheB: "J'ai l'ordonnance, mais j'ai perdu ma santé à force d'attendre en ligne.",
-    relance: "C'est souvent comme ça le mercredi, ou c'est moi qui ai mal choisi mon créneau ?"
+    relance: "C'est souvent comme ça le mercredi, ou c'est moi qui ai mal choisi mon créneau ?",
+    decouverte: "Vous avez des astuces pour tenir sur de longues journées comme ça ?"
   },
   {
     id: 10,
@@ -123,11 +141,13 @@ export const SITUATIONS_DATA = [
     humeur: "Pressé",
     energie: "Haute",
     moment: "Après-midi",
+    centreInteret: "Mode",
     objectif: "Capter l'attention",
     theme: "L'exclusivité",
     accrocheA: "Vous êtes quelqu'un qui sait exactement ce qu'il veut avant même d'entrer — ça se voit.",
     accrocheB: "Je vous laisse pas attendre — quelqu'un comme vous a mieux à faire que subir un discours de vente.",
-    relance: "C'est pour vous ou pour offrir ? Ça change complètement ce que je peux vous proposer."
+    relance: "C'est pour vous ou pour offrir ? Ça change complètement ce que je peux vous proposer.",
+    decouverte: "C'est quoi votre prochain projet, là dans les semaines qui viennent ?"
   },
   {
     id: 11,
@@ -136,11 +156,13 @@ export const SITUATIONS_DATA = [
     humeur: "Stressé",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Travail",
     objectif: "Instaurer la confiance",
     theme: "Les délais",
     accrocheA: "Je vous livre dans la fenêtre prévue — un truc de moins sur votre liste ce matin.",
     accrocheB: "Je vois que vous avez le regard de quelqu'un qui jongle avec dix urgences — je vais pas en rajouter une.",
-    relance: "Le chantier il est sur quelle phase là, vous approchez de la livraison ?"
+    relance: "Le chantier il est sur quelle phase là, vous approchez de la livraison ?",
+    decouverte: "En dehors des chantiers, c'est quoi qui vous ressource ?"
   },
   {
     id: 12,
@@ -149,11 +171,13 @@ export const SITUATIONS_DATA = [
     humeur: "Concentré",
     energie: "Basse",
     moment: "Après-midi",
+    centreInteret: "Tech",
     objectif: "Briser l'isolement",
     theme: "Le télétravail",
     accrocheA: "Ça fait du bien de voir que je suis pas le seul à avoir fait du bureau son café.",
     accrocheB: "Vos cinq onglets ouverts m'ont l'air au moins aussi stressants que mon planning.",
-    relance: "Vous trouvez que le bruit de fond ici aide à se concentrer, ou vous en avez juste besoin pour l'illusion ?"
+    relance: "Vous trouvez que le bruit de fond ici aide à se concentrer, ou vous en avez juste besoin pour l'illusion ?",
+    decouverte: "C'est quoi le projet sur lequel vous êtes en ce moment ?"
   },
   {
     id: 13,
@@ -162,11 +186,13 @@ export const SITUATIONS_DATA = [
     humeur: "Impatient",
     energie: "Fatigué",
     moment: "Après-midi",
+    centreInteret: "Quotidien",
     objectif: "Désamorcer la tension",
     theme: "La météo",
     accrocheA: "Avec ce temps dehors, la caisse devient presque agréable finalement.",
     accrocheB: "On a l'air tous les deux d'avoir fait notre shopping en mode survie — respect.",
-    relance: "Vous êtes du quartier ou vous avez fait un détour exprès ?"
+    relance: "Vous êtes du quartier ou vous avez fait un détour exprès ?",
+    decouverte: "C'est quoi la meilleure partie de votre journée en général ?"
   },
   {
     id: 14,
@@ -175,11 +201,13 @@ export const SITUATIONS_DATA = [
     humeur: "Ennuyé",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Quotidien",
     objectif: "Générer de l'intérêt",
     theme: "Le flux de clients",
     accrocheA: "C'est calme ce matin — ou c'est le signe que vous gardez votre meilleure clientèle pour l'après-midi ?",
     accrocheB: "Vous avez l'air philosophe face au vide — j'aurais besoin de votre sérénité.",
-    relance: "C'est quoi votre meilleure heure dans la journée côté passage ?"
+    relance: "C'est quoi votre meilleure heure dans la journée côté passage ?",
+    decouverte: "C'est vous qui avez ouvert cette boutique ou vous avez repris quelqu'un ?"
   },
   {
     id: 15,
@@ -188,11 +216,13 @@ export const SITUATIONS_DATA = [
     humeur: "Bienveillant",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Quotidien",
     objectif: "Fidéliser le contact",
     theme: "La vie de l'immeuble",
     accrocheA: "Vous êtes clairement la mémoire vivante de cet immeuble — tout passe par vous.",
     accrocheB: "Je suis convaincu que vous connaissez les habitudes de chaque locataire mieux qu'eux-mêmes.",
-    relance: "L'immeuble il a changé beaucoup depuis que vous êtes là ?"
+    relance: "L'immeuble il a changé beaucoup depuis que vous êtes là ?",
+    decouverte: "Vous avez des liens forts avec les gens ici, ou vous restez plutôt professionnel ?"
   },
   {
     id: 16,
@@ -201,11 +231,13 @@ export const SITUATIONS_DATA = [
     humeur: "Résigné",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Quotidien",
     objectif: "Solidarité de circonstance",
     theme: "Les retards en transport",
     accrocheA: "Deux ans de trajets et ce couloir n'a toujours pas trouvé d'autre vitesse que l'immobilité.",
     accrocheB: "On est officiellement en train de battre mon record personnel de 'je vais arriver en retard'.",
-    relance: "Vous êtes sur ce trajet tous les jours, ou c'est juste de la malchance ce matin ?"
+    relance: "Vous êtes sur ce trajet tous les jours, ou c'est juste de la malchance ce matin ?",
+    decouverte: "Ce trajet, vous en profitez pour faire quelque chose ou c'est du temps perdu pour vous ?"
   },
   {
     id: 17,
@@ -214,11 +246,13 @@ export const SITUATIONS_DATA = [
     humeur: "Professionnel",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Voyage",
     objectif: "Humaniser l'échange administratif",
     theme: "La logistique de vol",
     accrocheA: "Vous gérez ça avec une précision qui ferait pâlir un chef d'orchestre.",
     accrocheB: "J'ai tout vérifié trois fois — j'espère que le pilote est aussi consciencieux que moi.",
-    relance: "C'est quelle destination la plus chargée au comptoir aujourd'hui ?"
+    relance: "C'est quelle destination la plus chargée au comptoir aujourd'hui ?",
+    decouverte: "Vous avez une destination qui vous fait rêver en ce moment ?"
   },
   {
     id: 18,
@@ -227,11 +261,13 @@ export const SITUATIONS_DATA = [
     humeur: "Bavard",
     energie: "Haute",
     moment: "Après-midi",
+    centreInteret: "Bien-être",
     objectif: "Créer une complicité",
     theme: "Les tendances et les envies",
     accrocheA: "Vous avez l'œil pour lire ce que les gens veulent sans qu'ils le disent clairement — ça s'apprend ça ?",
     accrocheB: "Je viens pour une coupe, je repars en général avec une thérapie en prime — c'est votre spécialité ?",
-    relance: "C'est quoi la demande la plus originale que vous ayez eue cette semaine ?"
+    relance: "C'est quoi la demande la plus originale que vous ayez eue cette semaine ?",
+    decouverte: "C'est quoi votre truc pour vous ressourcer quand vous avez une semaine chargée ?"
   },
   {
     id: 19,
@@ -240,11 +276,13 @@ export const SITUATIONS_DATA = [
     humeur: "Attentif",
     energie: "Haute",
     moment: "Midi",
+    centreInteret: "Gastronomie",
     objectif: "Valoriser le service",
     theme: "La carte et le chef",
     accrocheA: "Le menu du jour a l'air d'avoir été composé par quelqu'un qui aime vraiment manger.",
     accrocheB: "Je vais vous simplifier la vie : recommandez-moi ce que vous mangeriez vous-même.",
-    relance: "C'est le chef qui change la carte souvent, ou il y a des classiques immuables ?"
+    relance: "C'est le chef qui change la carte souvent, ou il y a des classiques immuables ?",
+    decouverte: "Vous êtes passionné de cuisine vous-même, ou c'est plutôt un boulot pour vous ?"
   },
   {
     id: 20,
@@ -253,11 +291,13 @@ export const SITUATIONS_DATA = [
     humeur: "Fatigué",
     energie: "Fatigué",
     moment: "Nuit",
+    centreInteret: "Voyage",
     objectif: "Briser la glace en milieu de nuit",
     theme: "L'arrivée tardive",
     accrocheA: "Merci de tenir la boutique à cette heure — le voyageur retardataire vous est reconnaissant.",
     accrocheB: "Je suis désolé de vous réveiller de votre non-sommeil — j'ai une réservation sous un prénom qui s'épelle mal.",
-    relance: "C'est souvent des arrivées tardives ici, ou je suis le cas exceptionnel de ce soir ?"
+    relance: "C'est souvent des arrivées tardives ici, ou je suis le cas exceptionnel de ce soir ?",
+    decouverte: "Les gens qui voyagent la nuit, ils vous ont raconté des histoires marquantes ?"
   },
   {
     id: 21,
@@ -266,11 +306,13 @@ export const SITUATIONS_DATA = [
     humeur: "Passionné",
     energie: "Haute",
     moment: "Après-midi",
+    centreInteret: "Culture",
     objectif: "Partager une passion et obtenir un conseil",
     theme: "Les coups de cœur littéraires",
     accrocheA: "Vous avez la façon d'arranger les livres de quelqu'un qui les a tous lus — c'est vrai ?",
     accrocheB: "Je cherche un cadeau pour quelqu'un que je connais mal — c'est votre spécialité le livre-radiographie ?",
-    relance: "C'est quoi votre coup de cœur du moment, celui que vous glissez à tout le monde ?"
+    relance: "C'est quoi votre coup de cœur du moment, celui que vous glissez à tout le monde ?",
+    decouverte: "C'est quoi le livre qui vous a le plus changé, personnellement ?"
   },
   {
     id: 22,
@@ -279,11 +321,13 @@ export const SITUATIONS_DATA = [
     humeur: "Philosophe",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Bien-être",
     objectif: "Alléger l'attente",
     theme: "Le temps et la patience",
     accrocheA: "On apprend la patience dans les salles d'attente — c'est peut-être ça, la vraie médecine.",
     accrocheB: "Si l'attente était remboursée par la sécu, je me porterais bien mieux financièrement.",
-    relance: "Vous êtes là souvent, ou c'est votre première visite dans ce cabinet ?"
+    relance: "Vous êtes là souvent, ou c'est votre première visite dans ce cabinet ?",
+    decouverte: "Vous avez quelque chose de sympa de prévu aujourd'hui après ça ?"
   },
   {
     id: 23,
@@ -292,11 +336,13 @@ export const SITUATIONS_DATA = [
     humeur: "Pressé",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Famille",
     objectif: "Créer une alliance de circonstance",
     theme: "La vie scolaire",
     accrocheA: "Votre enfant est dans quelle classe ? Je cherche à comprendre le système de cet établissement.",
     accrocheB: "Ce portail a l'air conçu pour tester la patience des parents — ça ouvre jamais à l'heure ?",
-    relance: "Votre gamin, il aime l'école ou il fait semblant pour vous épargner ?"
+    relance: "Votre gamin, il aime l'école ou il fait semblant pour vous épargner ?",
+    decouverte: "En dehors des enfants, vous arrivez encore à trouver du temps pour vous ?"
   },
   {
     id: 24,
@@ -305,11 +351,13 @@ export const SITUATIONS_DATA = [
     humeur: "Neutre",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Travail",
     objectif: "Rompre le silence gêné",
     theme: "La vie de bureau",
     accrocheA: "On a dû se croiser cent fois ici — je crois qu'on mérite enfin une vraie présentation.",
     accrocheB: "L'ascenseur de bureau — le seul endroit où trente secondes paraissent cinq minutes.",
-    relance: "Vous êtes sur quel étage ? On n'est visiblement pas dans le même univers."
+    relance: "Vous êtes sur quel étage ? On n'est visiblement pas dans le même univers.",
+    decouverte: "C'est quoi votre projet en ce moment, dans le boulot ou ailleurs ?"
   },
   {
     id: 25,
@@ -318,11 +366,13 @@ export const SITUATIONS_DATA = [
     humeur: "Enthousiaste",
     energie: "Haute",
     moment: "Soir",
+    centreInteret: "Travail",
     objectif: "Créer une connexion professionnelle",
     theme: "L'événement et les opportunités",
     accrocheA: "Votre badge m'intrigue — vous êtes dans quel secteur exactement ?",
     accrocheB: "Je viens pour le contenu, je reste pour les conversations de couloir — c'est toujours là que ça se passe vraiment.",
-    relance: "C'est quoi la chose la plus surprenante que vous avez apprise aujourd'hui ?"
+    relance: "C'est quoi la chose la plus surprenante que vous avez apprise aujourd'hui ?",
+    decouverte: "C'est quoi la décision la plus importante que vous avez prise pour votre projet ?"
   },
   {
     id: 26,
@@ -331,11 +381,13 @@ export const SITUATIONS_DATA = [
     humeur: "Bavard",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Quotidien",
     objectif: "Entretenir une conversation spontanée",
     theme: "Le quartier et son évolution",
     accrocheA: "Ce coin a beaucoup changé en quelques années — vous avez connu l'ancien quartier ?",
     accrocheB: "Ce bus a une conception de la ponctualité très personnelle — c'est une tradition ici ?",
-    relance: "Vous habitez le quartier depuis longtemps ?"
+    relance: "Vous habitez le quartier depuis longtemps ?",
+    decouverte: "C'est quoi ce qui occupe le plus votre temps en ce moment ?"
   },
   {
     id: 27,
@@ -344,11 +396,13 @@ export const SITUATIONS_DATA = [
     humeur: "Détendu",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Sport",
     objectif: "Briser la glace autour du sport",
     theme: "La pratique sportive en ville",
     accrocheA: "Vous avez un programme d'entraînement ou vous improvisez selon l'humeur du jour ?",
     accrocheB: "Je vous vois courir ici régulièrement — vous avez l'air de faire ça pour le plaisir et pas pour la punition.",
-    relance: "Vous avez des bons itinéraires à conseiller dans le coin, ou vous variez les parcours ?"
+    relance: "Vous avez des bons itinéraires à conseiller dans le coin, ou vous variez les parcours ?",
+    decouverte: "C'est quoi votre prochain objectif sportif ou personnel ?"
   },
   {
     id: 28,
@@ -357,11 +411,13 @@ export const SITUATIONS_DATA = [
     humeur: "Méfiant",
     energie: "Basse",
     moment: "Soir",
+    centreInteret: "Quotidien",
     objectif: "Instaurer la confiance de voisinage",
     theme: "L'emménagement et le voisinage",
     accrocheA: "Je voulais pas vous laisser vous installer sans au moins me présenter — on est voisins depuis quand ?",
     accrocheB: "Je suis là depuis deux ans et j'apprends qui habite à ma porte — c'est moi qui dois m'améliorer en voisinage.",
-    relance: "Vous venez d'emménager, ou vous étiez juste discret jusqu'ici ?"
+    relance: "Vous venez d'emménager, ou vous étiez juste discret jusqu'ici ?",
+    decouverte: "Vous êtes plutôt du genre à rester dans le quartier le weekend ou à vous échapper ?"
   },
   {
     id: 29,
@@ -370,11 +426,13 @@ export const SITUATIONS_DATA = [
     humeur: "Bavard",
     energie: "Haute",
     moment: "Soir",
+    centreInteret: "Voyage",
     objectif: "Partager le trajet agréablement",
     theme: "La ville et le trafic",
     accrocheA: "Vous connaissez cette ville par cœur — vous avez des raccourcis que les GPS ignorent ?",
     accrocheB: "Avec le trafic d'aujourd'hui, j'ai l'impression que vous faites des miracles rien qu'en avançant.",
-    relance: "C'est quelle heure la pire dans la journée pour circuler dans ce secteur ?"
+    relance: "C'est quelle heure la pire dans la journée pour circuler dans ce secteur ?",
+    decouverte: "Vous faites ça depuis longtemps — c'est votre activité principale ?"
   },
   {
     id: 30,
@@ -383,11 +441,13 @@ export const SITUATIONS_DATA = [
     humeur: "Stressé",
     energie: "Haute",
     moment: "Après-midi",
+    centreInteret: "Travail",
     objectif: "Créer un moment de décompression",
     theme: "La charge de travail",
     accrocheA: "Ce café est la seule pause entre deux réunions — vous aussi vous avez une journée comme ça ?",
     accrocheB: "J'ai compté mes réunions aujourd'hui — je me demande quand on est censé vraiment travailler.",
-    relance: "C'est un pic exceptionnel ou c'est le rythme normal pour vous en ce moment ?"
+    relance: "C'est un pic exceptionnel ou c'est le rythme normal pour vous en ce moment ?",
+    decouverte: "C'est quoi votre moyen de vraiment déconnecter en ce moment ?"
   },
   {
     id: 31,
@@ -396,11 +456,13 @@ export const SITUATIONS_DATA = [
     humeur: "Sociable",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Sport",
     objectif: "Tisser un lien de voisinage",
     theme: "Le vélo en ville",
     accrocheA: "Beau vélo — vous faites du trajet quotidien ou plutôt du weekend ?",
     accrocheB: "Ce local est le seul endroit de l'immeuble où on finit tous par se croiser.",
-    relance: "Vous avez de bons itinéraires à conseiller dans le coin ?"
+    relance: "Vous avez de bons itinéraires à conseiller dans le coin ?",
+    decouverte: "Vous avez des projets de sortie vélo un peu plus longue cet été ?"
   },
   {
     id: 32,
@@ -409,11 +471,13 @@ export const SITUATIONS_DATA = [
     humeur: "Enthousiaste",
     energie: "Haute",
     moment: "Matin",
+    centreInteret: "Gastronomie",
     objectif: "Créer une relation de fidélité",
     theme: "La fournée du matin",
     accrocheA: "Cette odeur à l'entrée est un argument de vente à elle seule — vous le faites exprès ?",
     accrocheB: "Je suis venu pour un pain, je repars avec deux viennoiseries — c'est votre technique habituelle ?",
-    relance: "C'est quoi la pièce dont vous êtes le plus fier dans la fournée de ce matin ?"
+    relance: "C'est quoi la pièce dont vous êtes le plus fier dans la fournée de ce matin ?",
+    decouverte: "C'est une vocation pour vous ce métier, ou ça s'est fait par hasard ?"
   },
   {
     id: 33,
@@ -422,11 +486,13 @@ export const SITUATIONS_DATA = [
     humeur: "Méticuleux",
     energie: "Basse",
     moment: "Après-midi",
+    centreInteret: "Mode",
     objectif: "Instaurer la confiance",
     theme: "Le soin du vêtement",
     accrocheA: "Je vous confie une veste dans un état que j'aurais pas voulu afficher — vous avez l'habitude des cas compliqués ?",
     accrocheB: "Avec vous, mes vêtements ressortent meilleurs qu'au moment où je les ai achetés.",
-    relance: "C'est quoi le tissu ou la tache la plus compliquée à traiter dans votre métier ?"
+    relance: "C'est quoi le tissu ou la tache la plus compliquée à traiter dans votre métier ?",
+    decouverte: "C'est une affaire de famille ce pressing, ou vous l'avez monté vous-même ?"
   },
   {
     id: 34,
@@ -435,11 +501,13 @@ export const SITUATIONS_DATA = [
     humeur: "Contemplatif",
     energie: "Basse",
     moment: "Soir",
+    centreInteret: "Sortie",
     objectif: "Engager une conversation de soirée",
     theme: "La ville et l'ambiance du lieu",
     accrocheA: "Ce coin de terrasse a quelque chose de particulier le soir — vous êtes habitué de l'endroit ?",
     accrocheB: "Je cherchais juste une terrasse tranquille et j'ai l'impression d'avoir trouvé le meilleur siège de la rue.",
-    relance: "Vous venez souvent dans ce quartier ou vous êtes passé par là par hasard ?"
+    relance: "Vous venez souvent dans ce quartier ou vous êtes passé par là par hasard ?",
+    decouverte: "C'est quoi votre endroit préféré dans la ville en ce moment ?"
   },
   {
     id: 35,
@@ -448,11 +516,13 @@ export const SITUATIONS_DATA = [
     humeur: "Fatigué",
     energie: "Fatigué",
     moment: "Après-midi",
+    centreInteret: "Quotidien",
     objectif: "Créer un moment humain rapide",
     theme: "Les prix du carburant",
     accrocheA: "À ce tarif-là, je mets juste de quoi rentrer chez moi — les prix vous font aussi grimacer ?",
     accrocheB: "Je viens faire le plein et je repars à moitié vide côté portefeuille — c'est l'équilibre du monde moderne.",
-    relance: "C'est souvent cette affluence ici, ou j'ai choisi le mauvais moment ?"
+    relance: "C'est souvent cette affluence ici, ou j'ai choisi le mauvais moment ?",
+    decouverte: "C'est quoi ce qui vous donne envie de lever le matin en ce moment ?"
   },
   {
     id: 36,
@@ -461,11 +531,13 @@ export const SITUATIONS_DATA = [
     humeur: "Neutre",
     energie: "Basse",
     moment: "Midi",
+    centreInteret: "Travail",
     objectif: "Briser l'isolement du déjeuner",
     theme: "La pause déjeuner",
     accrocheA: "On se retrouve à cette heure tous les jours mais je crois qu'on n'a jamais vraiment parlé.",
     accrocheB: "La cantine nous a réunis — c'est pas le destin mais c'est déjà quelque chose.",
-    relance: "Vous êtes dans quel service, vous ?"
+    relance: "Vous êtes dans quel service, vous ?",
+    decouverte: "C'est quoi votre projet en ce moment, dans le boulot ou ailleurs ?"
   },
   {
     id: 37,
@@ -474,11 +546,13 @@ export const SITUATIONS_DATA = [
     humeur: "Résigné",
     energie: "Basse",
     moment: "Matin",
+    centreInteret: "Voyage",
     objectif: "Solidarité de trajet",
     theme: "Les retards habituels",
     accrocheA: "Vous avez l'air de connaître ce quai par cœur — c'est votre trajet quotidien ?",
     accrocheB: "Le train a encore sa propre conception du planning — c'est une feature, pas un bug à ce stade.",
-    relance: "Vous faites ce trajet depuis longtemps ?"
+    relance: "Vous faites ce trajet depuis longtemps ?",
+    decouverte: "Ce trajet, vous en profitez pour faire quelque chose ou c'est du temps perdu pour vous ?"
   },
   {
     id: 38,
@@ -487,11 +561,13 @@ export const SITUATIONS_DATA = [
     humeur: "Enthousiaste",
     energie: "Haute",
     moment: "Soir",
+    centreInteret: "Gastronomie",
     objectif: "Valoriser les dernières pièces",
     theme: "Les promotions du soir",
     accrocheA: "Les meilleures pièces se retrouvent souvent là juste avant la fermeture — c'est exprès ?",
     accrocheB: "Je venais juste chercher du pain et vous m'avez converti en carnivore enthousiaste.",
-    relance: "C'est quoi la pièce que vous conseilleriez ce soir pour un repas rapide ?"
+    relance: "C'est quoi la pièce que vous conseilleriez ce soir pour un repas rapide ?",
+    decouverte: "C'est quoi votre recette dont vous êtes le plus fier ?"
   },
   {
     id: 39,
@@ -500,11 +576,13 @@ export const SITUATIONS_DATA = [
     humeur: "Détendu",
     energie: "Basse",
     moment: "Soir",
+    centreInteret: "Sport",
     objectif: "Décompresser après le boulot",
     theme: "Le sport comme exutoire",
     accrocheA: "Le créneau du soir c'est clairement les gens qui fuient leur journée — vous aussi ?",
     accrocheB: "J'arrive stressé, je repars épuisé — c'est pas tout à fait ce que j'avais imaginé comme détente.",
-    relance: "Vous venez souvent le soir, ou vous variez les créneaux selon la semaine ?"
+    relance: "Vous venez souvent le soir, ou vous variez les créneaux selon la semaine ?",
+    decouverte: "C'est quoi votre objectif pour cette année, sportif ou autre ?"
   },
   {
     id: 40,
@@ -513,11 +591,13 @@ export const SITUATIONS_DATA = [
     humeur: "Concentré",
     energie: "Fatigué",
     moment: "Nuit",
+    centreInteret: "Bien-être",
     objectif: "Créer un moment humain",
     theme: "L'urgence nocturne",
     accrocheA: "Merci d'être là à cette heure — les gardes de nuit ne doivent pas être de tout repos.",
     accrocheB: "Je cherche un médicament à 2h du matin — j'espère que ma question est moins dramatique que l'heure.",
-    relance: "C'est souvent des urgences réelles la nuit, ou beaucoup de gens qui ont oublié de faire leur pharmacie ?"
+    relance: "C'est souvent des urgences réelles la nuit, ou beaucoup de gens qui ont oublié de faire leur pharmacie ?",
+    decouverte: "Vous arrivez à garder un rythme de vie normal avec les gardes de nuit ?"
   },
   {
     id: 41,
@@ -526,11 +606,13 @@ export const SITUATIONS_DATA = [
     humeur: "Fatigué",
     energie: "Fatigué",
     moment: "Nuit",
+    centreInteret: "Sortie",
     objectif: "La solidarité nocturne",
     theme: "La faim post-soirée",
     accrocheA: "Vous êtes le dernier héros de la ville à cette heure — merci de tenir.",
     accrocheB: "Je vais pas vous mentir, ce sandwich est la meilleure décision de ma soirée.",
-    relance: "C'est souvent cette affluence après minuit ici ?"
+    relance: "C'est souvent cette affluence après minuit ici ?",
+    decouverte: "Vous êtes plutôt nuit ou matin comme personne ?"
   },
   {
     id: 42,
@@ -539,11 +621,13 @@ export const SITUATIONS_DATA = [
     humeur: "Bienveillant",
     energie: "Basse",
     moment: "Après-midi",
+    centreInteret: "Nature",
     objectif: "Tisser un lien intergénérationnel",
     theme: "La flânerie et le temps libre",
     accrocheA: "Vous avez trouvé le meilleur banc du coin — c'est votre spot habituel ?",
     accrocheB: "J'aurais bien besoin de votre faculté à regarder le temps passer sans stress apparent.",
-    relance: "Vous venez souvent dans ce parc, vous connaissez bien le quartier ?"
+    relance: "Vous venez souvent dans ce parc, vous connaissez bien le quartier ?",
+    decouverte: "C'est quoi la chose que vous n'auriez pas eu le temps de faire avant la retraite ?"
   },
   {
     id: 43,
@@ -552,10 +636,132 @@ export const SITUATIONS_DATA = [
     humeur: "Ennuyé",
     energie: "Basse",
     moment: "Après-midi",
+    centreInteret: "Quotidien",
     objectif: "Tuer le temps ensemble",
     theme: "L'attente des machines",
     accrocheA: "Vous avez trouvé la technique pour ne pas regarder tourner le tambour pendant quarante minutes ?",
     accrocheB: "La laverie — l'endroit le plus niveleur du monde, tout le monde est pareil ici.",
-    relance: "Vous venez souvent ici ou vous avez un problème de machine à la maison ?"
+    relance: "Vous venez souvent ici ou vous avez un problème de machine à la maison ?",
+    decouverte: "C'est quoi votre truc pour rendre les corvées moins pénibles ?"
+  },
+  {
+    id: 44,
+    environnement: "Disquaire",
+    profil: "Vendeur de disques",
+    humeur: "Passionné",
+    energie: "Haute",
+    moment: "Après-midi",
+    centreInteret: "Musique",
+    objectif: "Partager un coup de cœur musical",
+    theme: "Les nouvelles sorties",
+    accrocheA: "Vous rangez ça avec la précision de quelqu'un qui connaît chaque disque par cœur — c'est vrai ?",
+    accrocheB: "Je viens juste jeter un œil et je sors toujours avec quelque chose que j'avais pas prévu — c'est une tactique ?",
+    relance: "C'est quoi la sortie du moment qui vous emballe vraiment ?",
+    decouverte: "C'est quoi le concert qui vous a le plus marqué dans votre vie ?"
+  },
+  {
+    id: 45,
+    environnement: "Cinéma",
+    profil: "Voisin de salle en sortant",
+    humeur: "Pensif",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Cinéma",
+    objectif: "Partager une émotion post-film",
+    theme: "Le film qu'on vient de voir",
+    accrocheA: "Vous avez l'air aussi chamboulé que moi — c'était quoi pour vous la scène qui reste ?",
+    accrocheB: "Je suis sorti sans savoir quoi dire — c'est toujours bon signe pour un film, non ?",
+    relance: "Vous venez souvent dans cette salle, ou c'est une sortie exceptionnelle ?",
+    decouverte: "C'est quoi le film qui vous a le plus marqué personnellement ?"
+  },
+  {
+    id: 46,
+    environnement: "Fromagerie",
+    profil: "Fromager",
+    humeur: "Enthousiaste",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Gastronomie",
+    objectif: "Obtenir un conseil de pro",
+    theme: "Les accords et les saisons",
+    accrocheA: "Vous parlez de vos fromages comme d'autres parlent de leurs enfants — c'est une passion ou c'est le métier ?",
+    accrocheB: "Je voulais juste un camembert et vous m'avez ouvert trois nouvelles perspectives — merci de pas avoir simplifié.",
+    relance: "C'est quoi votre fromage du moment, celui que vous conseillez à tout le monde cette semaine ?",
+    decouverte: "En dehors du fromage, c'est quoi votre grand plaisir à table ?"
+  },
+  {
+    id: 47,
+    environnement: "Chemin de randonnée",
+    profil: "Randonneur croisé",
+    humeur: "Détendu",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Nature",
+    objectif: "Créer une connexion outdoor",
+    theme: "Le sentier et le paysage",
+    accrocheA: "Vous connaissez ce coin mieux que le balisage — vous venez souvent ?",
+    accrocheB: "J'ai pris la mauvaise bifurcation deux fois — vous avez l'air de savoir où vous allez, contrairement à moi.",
+    relance: "C'est quoi votre rando favorite dans la région ?",
+    decouverte: "C'est quoi ce qui vous attire dans la nature — le silence, le mouvement, autre chose ?"
+  },
+  {
+    id: 48,
+    environnement: "Vernissage / Galerie",
+    profil: "Visiteur inconnu",
+    humeur: "Contemplatif",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Art",
+    objectif: "Partager une lecture d'œuvre",
+    theme: "L'exposition et les œuvres",
+    accrocheA: "Vous avez l'air d'avoir votre interprétation bien arrêtée sur celle-là — je me trompe ?",
+    accrocheB: "Je comprends pas tout mais j'aime bien — c'est peut-être la meilleure façon d'aborder l'art.",
+    relance: "C'est quoi l'œuvre dans l'expo qui vous a le plus arrêté ?",
+    decouverte: "Vous pratiquez quelque chose vous-même, ou vous êtes plutôt spectateur ?"
+  },
+  {
+    id: 49,
+    environnement: "Concert / Festival",
+    profil: "Fan dans la file",
+    humeur: "Enthousiaste",
+    energie: "Haute",
+    moment: "Soir",
+    centreInteret: "Musique",
+    objectif: "Créer une complicité de fans",
+    theme: "L'artiste et le programme",
+    accrocheA: "Vous êtes déjà allé les voir en concert, ou c'est votre première fois ?",
+    accrocheB: "Cette file me convient — j'ai le temps de me préparer mentalement à prendre une claque.",
+    relance: "C'est quoi le morceau que vous espérez entendre ce soir ?",
+    decouverte: "C'est quoi le concert qui vous a le plus marqué dans votre vie ?"
+  },
+  {
+    id: 50,
+    environnement: "Jardin Partagé",
+    profil: "Jardinier bénévole",
+    humeur: "Serein",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Nature",
+    objectif: "Partager la passion du vivant",
+    theme: "Les cultures de saison",
+    accrocheA: "Vos plants ont l'air en meilleure santé que la plupart des gens que je connais.",
+    accrocheB: "Je suis venu voir ce que c'est et je repars avec l'envie de me salir les mains — c'est votre effet.",
+    relance: "C'est quoi votre plus grande fierté dans ce jardin cette année ?",
+    decouverte: "C'est quoi ce qui vous a amené au jardinage — un déclic ou une longue histoire ?"
+  },
+  {
+    id: 51,
+    environnement: "Magasin High-tech",
+    profil: "Client hésitant",
+    humeur: "Curieux",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Tech",
+    objectif: "Briser la glace autour d'un achat",
+    theme: "Le choix technologique",
+    accrocheA: "Vous avez l'air d'hésiter entre les mêmes modèles que moi — vous avez trouvé un critère décisif ?",
+    accrocheB: "Je suis venu avec une idée précise et je repars dans le doute — les fiches techniques sont un sport de combat.",
+    relance: "C'est pour quel usage principalement que vous cherchez ça ?",
+    decouverte: "Vous êtes plutôt du genre à suivre les nouveautés ou à attendre que ça soit éprouvé ?"
   }
 ];
