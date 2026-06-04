@@ -3,6 +3,7 @@ import { MessageCircle } from "lucide-react";
 import { SITUATIONS_DATA } from "./data/situations";
 import EnergySelector from "./components/EnergySelector";
 import MomentSelector from "./components/MomentSelector";
+import ProfilSelector, { matchesProfil } from "./components/ProfilSelector";
 import FilterBar from "./components/FilterBar";
 import SituationCard from "./components/SituationCard";
 
@@ -12,15 +13,17 @@ const ALL_INTERETS    = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].
 export default function App() {
   const [energyFilter, setEnergyFilter]   = useState(null);
   const [momentFilter, setMomentFilter]   = useState(null);
+  const [profilFilter, setProfilFilter]   = useState(null);
   const [interetFilter, setInteretFilter] = useState("");
   const [searchText, setSearchText]       = useState("");
   const [envFilter, setEnvFilter]         = useState("");
 
-  const hasActiveFilters = energyFilter !== null || momentFilter !== null || interetFilter !== "" || searchText !== "" || envFilter !== "";
+  const hasActiveFilters = energyFilter !== null || momentFilter !== null || profilFilter !== null || interetFilter !== "" || searchText !== "" || envFilter !== "";
 
   const resetFilters = () => {
     setEnergyFilter(null);
     setMomentFilter(null);
+    setProfilFilter(null);
     setInteretFilter("");
     setSearchText("");
     setEnvFilter("");
@@ -30,6 +33,7 @@ export default function App() {
     return SITUATIONS_DATA.filter(s => {
       if (energyFilter && s.energie !== energyFilter) return false;
       if (momentFilter && s.moment !== momentFilter) return false;
+      if (profilFilter && !matchesProfil(s.profil, profilFilter)) return false;
       if (interetFilter && s.centreInteret !== interetFilter) return false;
       if (envFilter && s.environnement !== envFilter) return false;
       if (searchText.trim()) {
@@ -39,7 +43,7 @@ export default function App() {
       }
       return true;
     });
-  }, [energyFilter, momentFilter, interetFilter, envFilter, searchText]);
+  }, [energyFilter, momentFilter, profilFilter, interetFilter, envFilter, searchText]);
 
   return (
     <div className="flex flex-col min-h-screen bg-stone-100">
@@ -69,6 +73,11 @@ export default function App() {
         <div>
           <p className="text-xs font-black text-stone-500 uppercase tracking-widest mb-2.5">Moment de la journée</p>
           <MomentSelector selected={momentFilter} onChange={setMomentFilter} />
+        </div>
+
+        <div>
+          <p className="text-xs font-black text-stone-500 uppercase tracking-widest mb-2.5">Avec qui ?</p>
+          <ProfilSelector selected={profilFilter} onChange={setProfilFilter} />
         </div>
 
         <FilterBar
