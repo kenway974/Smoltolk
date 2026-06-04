@@ -1,23 +1,13 @@
 import React, { useState } from "react";
-import { MapPin, User, Heart, Tag, Copy, Check, ChevronDown, ChevronUp, Clock, Sparkles } from "lucide-react";
+import { MapPin, User, Tag, Copy, Check, ChevronDown, Sparkles } from "lucide-react";
 
-const ENERGY_DOT = {
-  Haute:   "bg-blue-500",
-  Basse:   "bg-amber-400",
-  Fatigué: "bg-violet-500",
+const VIBE_STYLE = {
+  Ouvert:  "bg-emerald-100 text-emerald-700",
+  Neutre:  "bg-stone-100 text-stone-600",
+  Fermé:   "bg-rose-100 text-rose-700",
 };
 
-const ENERGY_LABEL = {
-  Haute:   "Haute",
-  Basse:   "Basse",
-  Fatigué: "Épuisé",
-};
-
-const ENERGY_LABEL_COLOR = {
-  Haute:   "text-blue-600",
-  Basse:   "text-amber-600",
-  Fatigué: "text-violet-600",
-};
+const VIBE_EMOJI = { Ouvert: "😊", Neutre: "😐", Fermé: "😑" };
 
 function CopyButton({ text }) {
   const [copied, setCopied] = useState(false);
@@ -90,14 +80,15 @@ export default function SituationCard({ situation, index = 0 }) {
             <MapPin size={11} strokeWidth={2.5} />
             {situation.environnement}
           </span>
-          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-700 text-xs font-semibold">
-            <User size={11} strokeWidth={2.5} />
-            {situation.profil}
-          </span>
           <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold">
             <Sparkles size={11} strokeWidth={2.5} />
             {situation.centreInteret}
           </span>
+          {situation.vibe && (
+            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${VIBE_STYLE[situation.vibe]}`}>
+              {VIBE_EMOJI[situation.vibe]} {situation.vibe}
+            </span>
+          )}
         </div>
 
         {/* Objectif — titre de la carte */}
@@ -108,21 +99,18 @@ export default function SituationCard({ situation, index = 0 }) {
         {/* Meta row */}
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-stone-500">
           <span className="flex items-center gap-1.5">
-            <Clock size={12} strokeWidth={2} />
-            {situation.moment}
-          </span>
-          <span className="flex items-center gap-1.5">
-            <Heart size={12} strokeWidth={2} />
-            {situation.humeur}
+            <User size={12} strokeWidth={2} />
+            {situation.profil}
+            {situation.ageGroupe && situation.ageGroupe !== "Tous" && (
+              <span className="text-stone-400">· {situation.ageGroupe}</span>
+            )}
+            {situation.genre && situation.genre !== "Indéfini" && (
+              <span className="text-stone-400">· {situation.genre}</span>
+            )}
           </span>
           <span className="flex items-center gap-1.5">
             <Tag size={12} strokeWidth={2} />
             {situation.theme}
-          </span>
-          {/* Energy inline */}
-          <span className={`flex items-center gap-1.5 font-semibold ${ENERGY_LABEL_COLOR[situation.energie]}`}>
-            <span className={`w-2 h-2 rounded-full ${ENERGY_DOT[situation.energie]}`} />
-            {ENERGY_LABEL[situation.energie]}
           </span>
         </div>
       </div>
