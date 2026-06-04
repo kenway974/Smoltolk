@@ -19,3 +19,46 @@ body {
   margin: 0 auto;
   min-height: 100svh;
 }
+
+/* ── Animations ─────────────────────────────────────────────── */
+
+@keyframes card-enter {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes expand-in {
+  from { opacity: 0; transform: scaleY(0.92) translateY(-6px); }
+  to   { opacity: 1; transform: scaleY(1)    translateY(0); }
+}
+
+@keyframes phrase-swap {
+  from { opacity: 0; transform: translateX(8px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.animate-card-enter {
+  animation: card-enter 0.38s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-expand-in {
+  animation: expand-in 0.22s cubic-bezier(0.16, 1, 0.3, 1) both;
+  transform-origin: top;
+}
+
+.animate-phrase-swap {
+  animation: phrase-swap 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.25s ease both;
+}
+
+/* Hide scrollbar on moment chips */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
