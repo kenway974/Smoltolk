@@ -16,7 +16,7 @@ export default function WizardLayout({ step, children, onBack }) {
 
         {/* Progress dots */}
         <div className="flex items-center gap-2">
-          {[1, 2, 3].map((s) => (
+          {[1, 2, 3, 4].map((s) => (
             <div
               key={s}
               className={`rounded-full transition-all duration-300 ${
@@ -36,7 +36,7 @@ export default function WizardLayout({ step, children, onBack }) {
 
       {/* ── Step indicator ── */}
       <p className="text-center text-xs font-semibold text-stone-400 tracking-widest uppercase mb-2">
-        Étape {step} / 3
+        Étape {step} / 4
       </p>
 
       {/* ── Content ── */}

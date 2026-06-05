@@ -1,4 +1,8 @@
-export const SITUATIONS_DATA = [
+import { SITUATIONS_PACK1 } from "./situations-pack1.js";
+import { SITUATIONS_PACK2 } from "./situations-pack2.js";
+import { SITUATIONS_PACK3 } from "./situations-pack3.js";
+
+const SITUATIONS_BASE = [
   {
     id: 1,
     environnement: "Boutique de Luxe",
@@ -2693,4 +2697,11 @@ export const SITUATIONS_DATA = [
     relance: "C'est quoi la destination qui vous fait envie en ce moment ?",
     decouverte: "C'est quoi le voyage qui vous a le plus changé dans votre vie ?"
   }
+];
+
+export const SITUATIONS_DATA = [
+  ...SITUATIONS_BASE,
+  ...SITUATIONS_PACK1,
+  ...SITUATIONS_PACK2,
+  ...SITUATIONS_PACK3,
 ];

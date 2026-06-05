@@ -1,9 +1,10 @@
 import React from "react";
-import { RotateCcw, MessageCircle, MapPin, Sparkles, Users } from "lucide-react";
+import { RotateCcw, MessageCircle, MapPin, Sparkles, Users, Zap } from "lucide-react";
 import SituationCard from "./SituationCard";
 
-const VIBE_LABEL = { Ouvert: "😊 Ouvert", Neutre: "😐 Neutre", Fermé: "😑 Fermé" };
-const AGE_LABEL  = { Jeune: "Jeune", Adulte: "Adulte", Senior: "Senior" };
+const VIBE_LABEL  = { Ouvert: "😊 Ouvert", Neutre: "😐 Neutre", Fermé: "😑 Fermé" };
+const PROX_EMOJI  = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
+const AUDACE_LABEL = { 1: "😌 Prudent", 2: "😎 Confiant", 3: "🔥 Audacieux" };
 
 function CriterionChip({ icon: Icon, label, color }) {
   return (
@@ -15,10 +16,11 @@ function CriterionChip({ icon: Icon, label, color }) {
 }
 
 export default function ResultsView({ situations, criteria, onRestart }) {
-  const { lieu, avatar, interet } = criteria || {};
+  const { lieu, avatar, contexte, interet } = criteria || {};
   const { ageGroupe, genre, vibe } = avatar || {};
+  const { proximite, audace } = contexte || {};
 
-  const hasAnyFilter = lieu || interet || ageGroupe || genre || vibe;
+  const hasAnyFilter = lieu || interet || ageGroupe || genre || vibe || proximite || audace;
 
   return (
     <div className="flex flex-col min-h-svh bg-stone-100">
@@ -39,7 +41,7 @@ export default function ResultsView({ situations, criteria, onRestart }) {
           </button>
         </div>
 
-        {/* Active criteria */}
+        {/* Active criteria chips */}
         {hasAnyFilter && (
           <div className="flex flex-wrap gap-2">
             {lieu && (
@@ -49,11 +51,21 @@ export default function ResultsView({ situations, criteria, onRestart }) {
               <CriterionChip
                 icon={Users}
                 label={[
-                  ageGroupe && ageGroupe !== "Peu importe" ? AGE_LABEL[ageGroupe] : null,
+                  ageGroupe && ageGroupe !== "Peu importe" ? ageGroupe : null,
                   genre && genre !== "Peu importe" ? genre : null,
                   vibe ? VIBE_LABEL[vibe] : null,
                 ].filter(Boolean).join(" · ")}
                 color="bg-violet-900/60 text-violet-300"
+              />
+            )}
+            {(proximite || audace) && (
+              <CriterionChip
+                icon={Zap}
+                label={[
+                  proximite ? `${PROX_EMOJI[proximite]} ${proximite}` : null,
+                  audace ? AUDACE_LABEL[audace] : null,
+                ].filter(Boolean).join(" · ")}
+                color="bg-amber-900/60 text-amber-300"
               />
             )}
             {interet && (

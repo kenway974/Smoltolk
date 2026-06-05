@@ -1,22 +1,26 @@
 /**
  * Scores and filters situations based on wizard selections.
- * Any null criterion is treated as "don't care" and always matches.
- * Situations tagged "Tous" / "Indéfini" match any demographic criterion.
+ * Null criterion = "don't care", always matches.
+ * "Tous" / "Indéfini" match any demographic filter.
+ * proximite / audace are cumulative: lower level also matches a higher user setting.
  */
-export function matchSituations(situations, { lieu, avatar, interet }) {
+const PROX_ORDER = { Inconnu: 1, Croisé: 2, Connaissance: 3, Habitué: 4, Proche: 5 };
+
+export function matchSituations(situations, { lieu, avatar, interet, contexte }) {
   const { ageGroupe = null, genre = null, vibe = null } = avatar || {};
+  const { proximite = null, audace = null } = contexte || {};
 
   const scored = situations.map(s => {
     let score = 0;
 
     if (lieu) {
       if (s.environnement === lieu) score += 3;
-      else return null; // hard filter on lieu when set
+      else return null;
     }
 
     if (interet) {
       if (s.centreInteret === interet) score += 3;
-      else return null; // hard filter on interet when set
+      else return null;
     }
 
     if (ageGroupe && ageGroupe !== "Peu importe") {
@@ -34,6 +38,19 @@ export function matchSituations(situations, { lieu, avatar, interet }) {
     if (vibe) {
       if (s.vibe === vibe) score += 2;
       else return null;
+    }
+
+    if (proximite) {
+      const userLvl = PROX_ORDER[proximite] || 1;
+      const sitLvl  = PROX_ORDER[s.proximite] || 1; // undefined → "Inconnu"
+      if (sitLvl > userLvl) return null;
+      score += sitLvl === userLvl ? 3 : 1;
+    }
+
+    if (audace !== null && audace !== undefined) {
+      const sitAudace = s.audace || 1; // undefined → 1 (prudent)
+      if (sitAudace > audace) return null;
+      if (sitAudace === audace) score += 2;
     }
 
     return { situation: s, score };

@@ -6,8 +6,15 @@ const VIBE_STYLE = {
   Neutre:  "bg-stone-100 text-stone-600",
   Fermé:   "bg-rose-100 text-rose-700",
 };
-
 const VIBE_EMOJI = { Ouvert: "😊", Neutre: "😐", Fermé: "😑" };
+
+const PROX_EMOJI  = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
+
+const AUDACE_DATA = {
+  1: { emoji: "😌", label: "Prudent",   style: "bg-slate-100 text-slate-600" },
+  2: { emoji: "😎", label: "Confiant",  style: "bg-violet-100 text-violet-700" },
+  3: { emoji: "🔥", label: "Audacieux", style: "bg-red-100 text-red-700" },
+};
 
 function CopyButton({ text }) {
   const [copied, setCopied] = useState(false);
@@ -65,6 +72,7 @@ export default function SituationCard({ situation, index = 0 }) {
   const [activeTab, setActiveTab] = useState("A");
 
   const currentPhrase = activeTab === "A" ? situation.accrocheA : situation.accrocheB;
+  const audaceInfo = situation.audace ? AUDACE_DATA[situation.audace] : null;
 
   return (
     <div
@@ -87,6 +95,16 @@ export default function SituationCard({ situation, index = 0 }) {
           {situation.vibe && (
             <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${VIBE_STYLE[situation.vibe]}`}>
               {VIBE_EMOJI[situation.vibe]} {situation.vibe}
+            </span>
+          )}
+          {situation.proximite && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-700">
+              {PROX_EMOJI[situation.proximite]} {situation.proximite}
+            </span>
+          )}
+          {audaceInfo && (
+            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${audaceInfo.style}`}>
+              {audaceInfo.emoji} {audaceInfo.label}
             </span>
           )}
         </div>

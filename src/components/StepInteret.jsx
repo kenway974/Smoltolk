@@ -17,6 +17,14 @@ const EMOJI_MAP = {
   "Cinéma": "🎬",
   "Sortie": "🍸",
   "Quotidien": "☕",
+  "Philosophie": "🧠",
+  "Actualité": "📰",
+  "Débat": "⚡",
+  "Insolite": "🦄",
+  "Anecdote": "📖",
+  "Sciences": "🔬",
+  "Humour": "😂",
+  "Développement": "🌱",
 };
 
 export default function StepInteret({ value, onChange, onNext, onSkip, options = [] }) {
