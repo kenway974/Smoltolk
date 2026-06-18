@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import { Copy, Check, Plus, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
+import { MapPin, User, Tag, Copy, Check, ChevronDown, Sparkles, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
 
-const ENERGY_DOT = {
-  Haute:   "bg-blue-500",
-  Basse:   "bg-amber-400",
-  Fatigué: "bg-violet-500",
+const VIBE_STYLE = {
+  Ouvert:  "bg-emerald-100 text-emerald-700",
+  Neutre:  "bg-stone-100 text-stone-600",
+  Fermé:   "bg-rose-100 text-rose-700",
+};
+const VIBE_EMOJI  = { Ouvert: "😊", Neutre: "😐", Fermé: "😑" };
+const PROX_EMOJI  = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
+const AUDACE_DATA = {
+  1: { emoji: "😌", label: "Prudent",   style: "bg-slate-100 text-slate-600" },
+  2: { emoji: "😎", label: "Confiant",  style: "bg-violet-100 text-violet-700" },
+  3: { emoji: "🔥", label: "Audacieux", style: "bg-red-100 text-red-700" },
 };
 
-const ENERGY_LABEL = {
-  Haute:   "Haute",
-  Basse:   "Basse",
-  Fatigué: "Épuisé",
-};
-
-// Les 3 niveaux de la pyramide du contexte « Zoom In / Zoom Out ».
 const LEVELS = [
   {
     key: "zoomIn",
@@ -21,7 +21,7 @@ const LEVELS = [
     hint: "Un détail visible sur la personne",
     Icon: ZoomIn,
     activeText: "text-emerald-700",
-    box: "bg-emerald-50/70 border-emerald-100",
+    box: "bg-emerald-50 border-2 border-emerald-200",
     text: "text-emerald-900",
   },
   {
@@ -30,7 +30,7 @@ const LEVELS = [
     hint: "Le lieu, l'instant que vous partagez",
     Icon: Crosshair,
     activeText: "text-sky-700",
-    box: "bg-sky-50/70 border-sky-100",
+    box: "bg-sky-50 border-2 border-sky-200",
     text: "text-sky-900",
   },
   {
@@ -39,7 +39,7 @@ const LEVELS = [
     hint: "L'énergie générale du moment",
     Icon: ZoomOut,
     activeText: "text-violet-700",
-    box: "bg-violet-50/70 border-violet-100",
+    box: "bg-violet-50 border-2 border-violet-200",
     text: "text-violet-900",
   },
 ];
@@ -53,60 +53,103 @@ function CopyButton({ text }) {
       await navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
-    } catch {
-      // fallback silently
-    }
+    } catch { /* fallback silently */ }
   };
 
   return (
     <button
       onClick={handleCopy}
-      className={`shrink-0 p-1.5 rounded-lg transition-all duration-150 active:scale-90 ${copied ? "text-emerald-600" : "text-stone-400 hover:text-stone-700 hover:bg-stone-100"}`}
+      className={`p-2 rounded-xl transition-all duration-200 active:scale-90 flex-shrink-0 ${
+        copied
+          ? "bg-green-100 text-green-600"
+          : "bg-stone-100 text-stone-400 hover:bg-stone-200 hover:text-stone-600"
+      }`}
       title="Copier"
     >
-      {copied ? <Check size={15} strokeWidth={2.5} /> : <Copy size={15} strokeWidth={2} />}
+      {copied ? <Check size={14} strokeWidth={2.5} /> : <Copy size={14} strokeWidth={2} />}
     </button>
   );
 }
 
-export default function SituationCard({ situation }) {
+export default function SituationCard({ situation, index = 0 }) {
   const [activeLevel, setActiveLevel] = useState("zoomIn");
   const [relanceOpen, setRelanceOpen] = useState(false);
 
   const level = LEVELS.find(l => l.key === activeLevel);
-  const data = situation[activeLevel];
+  const data  = situation[activeLevel];
+  const audaceInfo = situation.audace ? AUDACE_DATA[situation.audace] : null;
 
   return (
-    <div className="bg-white rounded-2xl border border-stone-200/80 shadow-[0_1px_2px_rgba(28,25,23,0.04)] p-4">
+    <div
+      className="bg-white rounded-3xl border border-stone-200 overflow-hidden shadow animate-card-enter"
+      style={{ animationDelay: `${Math.min(index * 45, 360)}ms` }}
+    >
+      {/* ── Card header ── */}
+      <div className="px-5 pt-5 pb-3">
 
-      {/* Méta : environnement + énergie */}
-      <div className="flex items-center justify-between gap-2">
-        <p className="text-[11px] font-semibold uppercase tracking-wider text-stone-400 truncate">
-          {situation.environnement}
+        {/* Badges row */}
+        <div className="flex flex-wrap gap-2 mb-3">
+          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-700 text-xs font-semibold">
+            <MapPin size={11} strokeWidth={2.5} />
+            {situation.environnement}
+          </span>
+          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold">
+            <Sparkles size={11} strokeWidth={2.5} />
+            {situation.centreInteret}
+          </span>
+          {situation.vibe && (
+            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${VIBE_STYLE[situation.vibe]}`}>
+              {VIBE_EMOJI[situation.vibe]} {situation.vibe}
+            </span>
+          )}
+          {situation.proximite && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-700">
+              {PROX_EMOJI[situation.proximite]} {situation.proximite}
+            </span>
+          )}
+          {audaceInfo && (
+            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${audaceInfo.style}`}>
+              {audaceInfo.emoji} {audaceInfo.label}
+            </span>
+          )}
+        </div>
+
+        {/* Objectif — card title */}
+        <p className="text-base font-bold text-stone-900 leading-snug mb-3">
+          {situation.objectif}
         </p>
-        <span className="flex items-center gap-1.5 shrink-0 text-[11px] font-medium text-stone-400">
-          <span className={`w-1.5 h-1.5 rounded-full ${ENERGY_DOT[situation.energie]}`} />
-          {ENERGY_LABEL[situation.energie]}
-        </span>
+
+        {/* Meta row */}
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-stone-500">
+          <span className="flex items-center gap-1.5">
+            <User size={12} strokeWidth={2} />
+            {situation.profil}
+            {situation.ageGroupe && situation.ageGroupe !== "Tous" && (
+              <span className="text-stone-400">· {situation.ageGroupe}</span>
+            )}
+            {situation.genre && situation.genre !== "Indéfini" && (
+              <span className="text-stone-400">· {situation.genre}</span>
+            )}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Tag size={12} strokeWidth={2} />
+            {situation.theme}
+          </span>
+        </div>
       </div>
 
-      {/* La personne en face */}
-      <h3 className="mt-1 text-[17px] font-semibold text-stone-800 leading-tight">
-        {situation.profil}
-      </h3>
-      <p className="mt-0.5 text-xs text-stone-400">
-        {situation.humeur} · {situation.theme}
-      </p>
+      {/* ── Divider ── */}
+      <div className="mx-5 border-t border-stone-100" />
 
-      {/* Sélecteur de niveau — pyramide Zoom In / Contexte / Zoom Out */}
-      <div className="mt-3.5 flex gap-1 rounded-xl bg-stone-100 p-1">
+      {/* ── Zoom level switcher ── */}
+      <div className="flex mx-5 mt-4 mb-1 rounded-2xl bg-stone-100 p-1 gap-1">
         {LEVELS.map(({ key, label, Icon, activeText }) => {
           const active = activeLevel === key;
           return (
             <button
               key={key}
               onClick={() => { setActiveLevel(key); setRelanceOpen(false); }}
-              className={`flex-1 flex items-center justify-center gap-1 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
+              className={`flex-1 flex items-center justify-center gap-1 py-2 rounded-xl text-xs font-bold transition-all duration-200 ${
                 active ? `bg-white shadow-sm ${activeText}` : "text-stone-500"
               }`}
             >
@@ -117,43 +160,44 @@ export default function SituationCard({ situation }) {
         })}
       </div>
 
-      {/* Indice pédagogique du niveau actif */}
-      <p className="mt-2.5 text-[11px] text-stone-400 text-center">{level.hint}</p>
+      {/* Level hint */}
+      <p className="mx-5 mb-3 text-[11px] text-stone-400 text-center">{level.hint}</p>
 
-      {/* L'accroche — le héros de la carte */}
-      <div className={`mt-2 rounded-xl border px-4 py-3.5 ${level.box}`}>
-        <div className="flex items-start gap-2">
-          <p className={`flex-1 text-[15px] font-medium leading-relaxed ${level.text}`}>
-            {data.accroche}
-          </p>
-          <CopyButton text={data.accroche} />
-        </div>
+      {/* ── Accroche ── */}
+      <div
+        key={activeLevel}
+        className={`mx-5 mb-4 px-4 py-4 rounded-2xl flex items-start gap-3 animate-phrase-swap ${level.box}`}
+      >
+        <p className={`flex-1 text-sm font-semibold leading-relaxed ${level.text}`}>
+          « {data.accroche} »
+        </p>
+        <CopyButton text={data.accroche} />
       </div>
 
-      {/* Relance — réflexe « Rebond + Ouverture » */}
-      <button
-        onClick={() => setRelanceOpen(v => !v)}
-        className={`mt-2.5 w-full flex items-center gap-1.5 text-xs font-medium transition-colors ${
-          relanceOpen ? "text-stone-700" : "text-stone-400 hover:text-stone-600"
-        }`}
-      >
-        <Plus
-          size={14}
-          strokeWidth={2.5}
-          className={`transition-transform duration-200 ${relanceOpen ? "rotate-45" : ""}`}
-        />
-        Rebond + Ouverture
-      </button>
-
-      {relanceOpen && (
-        <div className="mt-2 flex items-start gap-2 rounded-xl bg-stone-50 border border-stone-100 px-4 py-3">
-          <p className="flex-1 text-sm text-stone-600 leading-relaxed italic">
-            {data.relance}
-          </p>
-          <CopyButton text={data.relance} />
-        </div>
-      )}
-
+      {/* ── Relance (Rebond + Ouverture) ── */}
+      <div className="mx-5 mb-5">
+        <button
+          onClick={() => setRelanceOpen(v => !v)}
+          className={`w-full flex items-center justify-between px-4 py-3 rounded-2xl bg-stone-100 text-xs font-bold tracking-wide transition-all duration-200 active:scale-[0.98] ${
+            relanceOpen ? "text-stone-700" : "text-stone-500"
+          }`}
+        >
+          <span>Rebond + Ouverture</span>
+          <ChevronDown
+            size={15}
+            strokeWidth={2.5}
+            className={`transition-transform duration-200 ${relanceOpen ? "rotate-180" : ""}`}
+          />
+        </button>
+        {relanceOpen && (
+          <div className="flex items-start gap-3 mt-2 px-4 py-3.5 rounded-2xl bg-stone-50 border-2 border-stone-100 animate-expand-in">
+            <p className="flex-1 text-sm text-stone-600 leading-relaxed italic">
+              « {data.relance} »
+            </p>
+            <CopyButton text={data.relance} />
+          </div>
+        )}
+      </div>
     </div>
   );
 }

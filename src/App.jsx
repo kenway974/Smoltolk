@@ -1,99 +1,96 @@
 import React, { useState, useMemo } from "react";
-import { MessageCircle } from "lucide-react";
 import { SITUATIONS_DATA } from "./data/situations";
-import EnergySelector from "./components/EnergySelector";
-import FilterBar from "./components/FilterBar";
-import SituationCard from "./components/SituationCard";
+import { matchSituations } from "./utils/matching";
+import WizardLayout from "./components/WizardLayout";
+import StepLieu from "./components/StepLieu";
+import StepAvatar from "./components/StepAvatar";
+import StepContexte from "./components/StepContexte";
+import StepInteret from "./components/StepInteret";
+import ResultsView from "./components/ResultsView";
 
-// Deduplicated, sorted list of environments for the dropdown
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].sort();
+const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
+
+const INITIAL_AVATAR   = { genre: null, ageGroupe: null, vibe: null };
+const INITIAL_CONTEXTE = { proximite: null, audace: null };
 
 export default function App() {
-  const [energyFilter, setEnergyFilter] = useState(null);
-  const [searchText, setSearchText]     = useState("");
-  const [envFilter, setEnvFilter]       = useState("");
+  const [screen,   setScreen]   = useState("step1");
+  const [lieu,     setLieu]     = useState(null);
+  const [avatar,   setAvatar]   = useState(INITIAL_AVATAR);
+  const [contexte, setContexte] = useState(INITIAL_CONTEXTE);
+  const [interet,  setInteret]  = useState(null);
 
-  const hasActiveFilters = energyFilter !== null || searchText !== "" || envFilter !== "";
+  const results = useMemo(
+    () => matchSituations(SITUATIONS_DATA, { lieu, avatar, interet, contexte }),
+    [lieu, avatar, interet, contexte]
+  );
 
-  const resetFilters = () => {
-    setEnergyFilter(null);
-    setSearchText("");
-    setEnvFilter("");
+  const goResults = () => setScreen("results");
+
+  const handleBack = () => {
+    if (screen === "step2") setScreen("step1");
+    else if (screen === "step3") setScreen("step2");
+    else if (screen === "step4") setScreen("step3");
+    else if (screen === "results") setScreen("step4");
   };
 
-  // Cumulative filter: all active conditions must match (AND logic)
-  // useMemo avoids re-scanning the array on unrelated renders
-  const filteredSituations = useMemo(() => {
-    return SITUATIONS_DATA.filter(s => {
-      if (energyFilter && s.energie !== energyFilter) return false;
-      if (envFilter && s.environnement !== envFilter) return false;
-      if (searchText.trim()) {
-        const needle   = searchText.toLowerCase();
-        const haystack = `${s.environnement} ${s.profil} ${s.theme}`.toLowerCase();
-        if (!haystack.includes(needle)) return false;
-      }
-      return true;
-    });
-  }, [energyFilter, envFilter, searchText]);
+  const handleRestart = () => {
+    setLieu(null);
+    setAvatar(INITIAL_AVATAR);
+    setContexte(INITIAL_CONTEXTE);
+    setInteret(null);
+    setScreen("step1");
+  };
+
+  if (screen === "results") {
+    return (
+      <ResultsView
+        situations={results}
+        criteria={{ lieu, avatar, contexte, interet }}
+        onRestart={handleRestart}
+      />
+    );
+  }
+
+  const stepNum = { step1: 1, step2: 2, step3: 3, step4: 4 }[screen] ?? 1;
 
   return (
-    <div className="flex flex-col min-h-screen">
-
-      {/* ── Header (léger, sticky) ── */}
-      <header className="sticky top-0 z-20 bg-[#f7f6f3]/90 backdrop-blur-md border-b border-stone-200/70 px-5 py-3.5">
-        <div className="flex items-center gap-2">
-          <MessageCircle size={20} strokeWidth={2} className="text-stone-800" />
-          <h1 className="text-[15px] font-bold tracking-tight text-stone-900">Small Talk Coach</h1>
-        </div>
-      </header>
-
-      {/* ── Zone de filtres ── */}
-      <div className="px-5 pt-4 space-y-3">
-        <div>
-          <p className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider mb-2">Mon énergie</p>
-          <EnergySelector selected={energyFilter} onChange={setEnergyFilter} />
-        </div>
-
-        <FilterBar
-          searchText={searchText}
-          onSearchChange={setSearchText}
-          envFilter={envFilter}
-          onEnvChange={setEnvFilter}
-          environments={ALL_ENVIRONMENTS}
-          onReset={resetFilters}
-          hasActiveFilters={hasActiveFilters}
+    <WizardLayout step={stepNum} onBack={stepNum === 1 ? handleRestart : handleBack}>
+      {screen === "step1" && (
+        <StepLieu
+          value={lieu}
+          onChange={setLieu}
+          options={ALL_ENVIRONMENTS}
+          onNext={() => setScreen("step2")}
+          onSkip={() => { setLieu(null); setScreen("step2"); }}
         />
-      </div>
-
-      {/* ── Comptage discret ── */}
-      <div className="px-5 pt-4 pb-1">
-        <p className="text-xs text-stone-400">
-          {filteredSituations.length === SITUATIONS_DATA.length
-            ? `${SITUATIONS_DATA.length} situations`
-            : `${filteredSituations.length} sur ${SITUATIONS_DATA.length}`}
-        </p>
-      </div>
-
-      {/* ── Liste des cartes ── */}
-      <main className="flex-1 px-5 pb-10 space-y-3 pt-1">
-        {filteredSituations.length > 0 ? (
-          filteredSituations.map(situation => (
-            <SituationCard key={situation.id} situation={situation} />
-          ))
-        ) : (
-          <div className="flex flex-col items-center justify-center py-20 text-stone-400">
-            <MessageCircle size={36} strokeWidth={1.5} className="mb-3 opacity-30" />
-            <p className="text-sm font-medium text-stone-500">Aucune situation trouvée</p>
-            <button
-              onClick={resetFilters}
-              className="mt-3 text-xs text-stone-600 font-semibold underline underline-offset-2 hover:text-stone-900"
-            >
-              Réinitialiser les filtres
-            </button>
-          </div>
-        )}
-      </main>
-
-    </div>
+      )}
+      {screen === "step2" && (
+        <StepAvatar
+          value={avatar}
+          onChange={setAvatar}
+          onNext={() => setScreen("step3")}
+          onSkip={() => { setAvatar(INITIAL_AVATAR); setScreen("step3"); }}
+        />
+      )}
+      {screen === "step3" && (
+        <StepContexte
+          value={contexte}
+          onChange={setContexte}
+          onNext={() => setScreen("step4")}
+          onSkip={() => { setContexte(INITIAL_CONTEXTE); setScreen("step4"); }}
+        />
+      )}
+      {screen === "step4" && (
+        <StepInteret
+          value={interet}
+          onChange={setInteret}
+          options={ALL_INTERETS}
+          onNext={goResults}
+          onSkip={() => { setInteret(null); goResults(); }}
+        />
+      )}
+    </WizardLayout>
   );
 }
