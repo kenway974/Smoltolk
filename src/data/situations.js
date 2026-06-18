@@ -5,6 +5,7 @@
 // Chaque niveau a son accroche + sa relance (réflexe « Rebond + Ouverture »).
 
 export const SITUATIONS_DATA = [
+  // ── Situations 1–15 (originales) ────────────────────────────────────────
   {
     id: 1,
     environnement: "Boutique de Luxe",
@@ -318,6 +319,491 @@ export const SITUATIONS_DATA = [
     zoomOut: {
       accroche: "Un dimanche tranquille comme ça, j'imagine que l'immeuble a une tout autre ambiance qu'en semaine.",
       relance: "Moi j'adore ce calme du week-end, ça respire enfin. C'est le moment que vous préférez aussi, ou c'est là que tout se détraque ?"
+    }
+  },
+
+  // ── Situations 16–38 (nouvelles) ────────────────────────────────────────
+  {
+    id: 16,
+    environnement: "Aéroport",
+    profil: "Hôtesse d'enregistrement",
+    humeur: "Professionnelle",
+    energie: "Haute",
+    objectif: "Rendre l'échange humain",
+    theme: "Les voyageurs du jour",
+    zoomIn: {
+      accroche: "Vous avez le sourire de quelqu'un qui gère l'imprévu avant même qu'il arrive — c'est votre routine ou vous êtes du matin naturellement ?",
+      relance: "Moi je suis une catastrophe avant 8h, ça se voit sûrement. Sur ce genre de poste, on devient vite imperméable au stress des gens ?"
+    },
+    contexte: {
+      accroche: "Le terminal est encore calme mais ça va vite changer — c'est toujours cette heure la plus simple de la journée ?",
+      relance: "Je préfère toujours arriver tôt pour éviter la cohue. La tension des passagers en retard, vous arrivez à la laisser glisser ou ça finit par peser ?"
+    },
+    zoomOut: {
+      accroche: "Jours fériés, week-end de pont — j'imagine que la vibe ici change radicalement selon le calendrier.",
+      relance: "Moi là je pars en déplacement pro, loin du glamour. C'est quoi la destination que vous enviez le plus en regardant les billets passer ?"
+    }
+  },
+  {
+    id: 17,
+    environnement: "Gare / Quai SNCF",
+    profil: "Contrôleur",
+    humeur: "Pressé",
+    energie: "Fatigué",
+    objectif: "Alléger le contrôle",
+    theme: "Les retards",
+    zoomIn: {
+      accroche: "Votre veste a l'air d'avoir fait autant de kilomètres que les trains — vous êtes sur cette ligne depuis longtemps ?",
+      relance: "Moi j'aurais les pieds en compote après deux heures debout. Sur les longues lignes, on prend le temps de s'asseoir ou c'est debout de bout en bout ?"
+    },
+    contexte: {
+      accroche: "Vingt minutes de retard annoncées — c'est déjà une bonne journée ou c'est la moyenne habituelle sur ce trajet ?",
+      relance: "Moi je suis monté sans trop y croire, fidèle à moi-même. C'est quoi la ligne la plus capricieuse de votre planning ?"
+    },
+    zoomOut: {
+      accroche: "Un vendredi soir dans ce train, la moitié des gens rentre en mode décompression totale — vous le sentez dans les wagons ?",
+      relance: "Moi je compte les stations comme des victoires ce soir. Les voyageurs du vendredi, c'est une espèce à part comparé au lundi matin ?"
+    }
+  },
+  {
+    id: 18,
+    environnement: "Hôtel",
+    profil: "Réceptionniste",
+    humeur: "Accueillant",
+    energie: "Haute",
+    objectif: "Créer une première impression mémorable",
+    theme: "Le séjour à venir",
+    zoomIn: {
+      accroche: "Vous avez le badge du réceptionniste et l'air de quelqu'un qui a déjà répondu à toutes les questions possibles — c'est quoi la plus bizarre de la semaine ?",
+      relance: "Moi j'aurais séché sur la moitié, j'imagine. Les demandes insolites, ça vous fait encore sourire ou c'est devenu ordinaire ?"
+    },
+    contexte: {
+      accroche: "L'hôtel a une vraie personnalité — vous le recommandez pour autre chose que dormir ?",
+      relance: "Je voyage souvent pour le boulot, j'ai rarement le temps de profiter. C'est quoi le truc que tout le monde manque parce qu'il le sait pas ?"
+    },
+    zoomOut: {
+      accroche: "Un dimanche soir, les arrivées ont une toute autre ambiance que le vendredi — les gens ont la tête à quoi en général ?",
+      relance: "Moi je débarque un peu hagard, clairement. C'est la semaine de la ville ou un week-end de plus qui se finit ici pour la plupart ?"
+    }
+  },
+  {
+    id: 19,
+    environnement: "Salon de Coiffure",
+    profil: "Coiffeur / Coiffeuse",
+    humeur: "Bavard",
+    energie: "Haute",
+    objectif: "Installer une connivence",
+    theme: "Le look et la transformation",
+    zoomIn: {
+      accroche: "Vous avez les ciseaux qui bougent même quand vous parlez — c'est une seconde nature ou vous faites attention ?",
+      relance: "Moi j'arriverais pas à faire deux choses en même temps sans catastrophe. Vous apprenez ça en formation ou ça vient avec l'expérience ?"
+    },
+    contexte: {
+      accroche: "Le salon est plein à cette heure — vous avez encore des créneaux cette semaine ou c'est complet ?",
+      relance: "Moi j'ai repoussé ce rendez-vous depuis trop longtemps. C'est quoi la période la plus folle dans l'année pour vous ?"
+    },
+    zoomOut: {
+      accroche: "On approche de l'été, tout le monde veut changer de tête en même temps — vous voyez vraiment la tendance arriver d'un coup ?",
+      relance: "Moi je suis pris de l'envie de changer mais je sais pas par quoi. C'est quoi la coupe que tout le monde demande en ce moment ?"
+    }
+  },
+  {
+    id: 20,
+    environnement: "Cabinet Médical",
+    profil: "Secrétaire médicale",
+    humeur: "Débordée",
+    energie: "Basse",
+    objectif: "Ne pas alourdir l'attente",
+    theme: "La salle d'attente",
+    zoomIn: {
+      accroche: "Vous jongler entre le téléphone, l'ordi et les patients avec une précision millimétrée — vous avez un système ou c'est l'instinct ?",
+      relance: "Moi j'ai du mal à gérer deux tâches en même temps sans tout rater. À quel moment on atteint ce niveau de maîtrise ?"
+    },
+    contexte: {
+      accroche: "La salle d'attente est bien remplie — je me suis trompé de créneau ou c'est systématiquement comme ça ici ?",
+      relance: "Je suis pris à peu près vers quelle heure ? Je demande juste pour gérer ma journée mentalement."
+    },
+    zoomOut: {
+      accroche: "Vu la météo de cette semaine, j'imagine que les consultations flambent — c'est vraiment lié ou c'est un mythe ?",
+      relance: "Moi je viens à titre préventif, je touche du bois. Le cabinet est plus calme en été ou ça ne change pas grand-chose ?"
+    }
+  },
+  {
+    id: 21,
+    environnement: "Transport en Commun",
+    profil: "Passager assis à côté",
+    humeur: "Neutre",
+    energie: "Basse",
+    objectif: "Rompre le silence de façon naturelle",
+    theme: "Le trajet quotidien",
+    zoomIn: {
+      accroche: "Votre livre a l'air de vous tenir en haleine — c'est quoi, si c'est pas indiscret ?",
+      relance: "Moi j'arrive plus à lire dans les transports, je m'endors ou je regarde mon téléphone. C'est quoi le genre ?"
+    },
+    contexte: {
+      accroche: "Ce trajet est toujours aussi chargé à cette heure — vous le faites tous les jours ou c'est exceptionnel ?",
+      relance: "Moi je change d'horaires exprès pour éviter ça, en général. C'est quoi votre stratégie pour supporter la foule ?"
+    },
+    zoomOut: {
+      accroche: "Un lundi matin dans ce wagon, tout le monde a la même tête de quelqu'un qui a raté l'alarme — solidarité.",
+      relance: "Moi je suis en mode survie jusqu'au café. Vous, vous arrivez à être productif dès le matin ou ça démarre doucement ?"
+    }
+  },
+  {
+    id: 22,
+    environnement: "Librairie",
+    profil: "Libraire",
+    humeur: "Passionné",
+    energie: "Haute",
+    objectif: "Obtenir une recommandation sincère",
+    theme: "Les coups de cœur",
+    zoomIn: {
+      accroche: "Vous avez un livre à portée de main derrière la caisse — c'est ce que vous lisez en ce moment ou votre voisin de comptoir préféré ?",
+      relance: "Moi j'ai honte de ma pile à lire, elle attend depuis des mois. C'est quoi en ce moment qui vous a le plus accroché ?"
+    },
+    contexte: {
+      accroche: "La librairie est bien rangée mais on sent qu'il y a un vrai choix derrière — c'est vous qui faites la sélection ou c'est imposé ?",
+      relance: "Je me perds toujours ici dans le bon sens. C'est quoi le rayon où les gens passent le plus de temps sans s'en rendre compte ?"
+    },
+    zoomOut: {
+      accroche: "En ce moment j'ai envie d'un roman long et dense, un truc qui me coupe du bruit ambiant — vous connaissez ce type de demande ?",
+      relance: "Moi je cherche à décrocher sans culpabiliser. C'est quoi le livre que vous conseillez à quelqu'un qui a la tête pleine ?"
+    }
+  },
+  {
+    id: 23,
+    environnement: "Restaurant",
+    profil: "Serveur",
+    humeur: "Débordé",
+    energie: "Fatigué",
+    objectif: "Faciliter le service",
+    theme: "Le rush du midi",
+    zoomIn: {
+      accroche: "Vous portez quatre assiettes d'un bras sans jamais trébucher — c'est une question d'entraînement ou de concentration pure ?",
+      relance: "Moi je renverse un verre à chaque fois que quelqu'un me regarde. Ça s'apprend vraiment ou faut être câblé différemment ?"
+    },
+    contexte: {
+      accroche: "Le service a l'air de tourner à fond — je commande simple pour vous faciliter la vie, c'est quoi qui sort vite aujourd'hui ?",
+      relance: "Je suis pas pressé, je veux juste pas bloquer une table longtemps. C'est quoi le plat que tout le monde prend sans hésiter ?"
+    },
+    zoomOut: {
+      accroche: "Un midi de semaine comme ça, j'imagine que vous voyez défiler toutes les dynamiques de boulot — tables de managers, repas business, solos pressés.",
+      relance: "Moi je suis en repas solo rapide, clairement pas le plus glamour. C'est quoi le type de table qui vous change le plus de la routine ?"
+    }
+  },
+  {
+    id: 24,
+    environnement: "Taxi / VTC",
+    profil: "Chauffeur",
+    humeur: "Bavard",
+    energie: "Haute",
+    objectif: "Donner la bonne réplique d'ouverture",
+    theme: "La ville et ses anecdotes",
+    zoomIn: {
+      accroche: "Votre voiture est impeccable pour un métier qui passe sa journée dehors — c'est une question d'organisation ou de discipline ?",
+      relance: "Moi ma voiture en dit long sur mon niveau de chaos. Sur de longues journées comme les vôtres, c'est quoi le truc qui fait vraiment la différence ?"
+    },
+    contexte: {
+      accroche: "Ce quartier là, c'est toujours l'enfer ou c'est moi qui choisis les mauvaises heures ?",
+      relance: "Je connais encore mal la ville. C'est quoi le coin que vous évitez à tout prix en journée ?"
+    },
+    zoomOut: {
+      accroche: "Vu ce qui se passe en ville cette semaine, j'imagine que les courses sont plus longues que d'habitude avec les bouchons.",
+      relance: "Moi j'essaie de pas regarder le compteur. C'est quoi les jours où vous faites le meilleur chiffre sans vous épuiser ?"
+    }
+  },
+  {
+    id: 25,
+    environnement: "Parc / Espace vert",
+    profil: "Joggeur de retour",
+    humeur: "Détendu",
+    energie: "Haute",
+    objectif: "Engager un échange complice",
+    theme: "L'effort et la récupération",
+    zoomIn: {
+      accroche: "Vos chaussures ont pris une sacrée raclée — vous avez couru dans quoi, une rivière ?",
+      relance: "Moi je serais rentré au premier signe de boue. C'est quoi votre itinéraire habituel par ici ?"
+    },
+    contexte: {
+      accroche: "Le parc est parfait à cette heure, encore calme — vous courez toujours à ce créneau ou c'est les circonstances qui décident ?",
+      relance: "Moi je n'arrive jamais à m'y mettre le matin. Comment on passe du côté des gens qui courent avant le café ?"
+    },
+    zoomOut: {
+      accroche: "Ce temps de début de printemps remet tout le monde dehors d'un coup — on voit nettement plus de monde qu'il y a deux semaines.",
+      relance: "Moi la lumière qui revient me donne envie de m'y remettre, ça dure jamais longtemps. Vous courez toute l'année ou vous avez vos saisons ?"
+    }
+  },
+  {
+    id: 26,
+    environnement: "Piscine",
+    profil: "Maître nageur",
+    humeur: "Concentré",
+    energie: "Haute",
+    objectif: "Créer un lien avec l'habitué du lieu",
+    theme: "La discipline de l'eau",
+    zoomIn: {
+      accroche: "Votre montre de sport a l'air de pouvoir faire une thèse sur mes performances — vous analysez vraiment tout le monde ou c'est automatique ?",
+      relance: "Moi j'ai pas envie de savoir ce que ça donnerait sur moi. Vous arrivez à désactiver le mode coach ou vous voyez toujours les défauts ?"
+    },
+    contexte: {
+      accroche: "La piscine est encore calme — c'est le bon créneau pour nager sérieusement ou ça change pas tant que ça ?",
+      relance: "Je viens d'essayer de reprendre régulièrement, les premières longueurs sont mortelles. C'est quoi le truc technique qui change tout pour ceux qui reprennent ?"
+    },
+    zoomOut: {
+      accroche: "Début janvier, j'imagine que cette piscine ressemble à un autre endroit — tout le monde avec ses bonnes résolutions.",
+      relance: "Moi j'en fais partie, j'avoue. Vous avez une théorie sur pourquoi les trois quarts abandonnent avant février ?"
+    }
+  },
+  {
+    id: 27,
+    environnement: "Boulangerie",
+    profil: "Boulanger / Vendeuse",
+    humeur: "Énergique",
+    energie: "Haute",
+    objectif: "Commencer la journée sur une bonne note",
+    theme: "Les produits du jour",
+    zoomIn: {
+      accroche: "Vous avez les yeux grands ouverts à cette heure-là — vous êtes du matin naturellement ou le four finit par vous conditionner ?",
+      relance: "Moi à 7h je suis inutilisable. C'est quoi l'heure à laquelle vous vous levez pour que le pain soit là à 6h ?"
+    },
+    contexte: {
+      accroche: "Ça sent incroyablement bon ici ce matin — c'est la fournée classique ou vous avez sorti un truc de spécial ?",
+      relance: "Je viens tous les matins mais je prends toujours la même chose par habitude. C'est quoi le produit que les gens ne pensent jamais à prendre et qui vaut le coup ?"
+    },
+    zoomOut: {
+      accroche: "Un mardi matin comme ça, les gens qui passent ont tous l'air d'avoir besoin de ce croissant comme d'un médicament.",
+      relance: "Moi je compte là-dessus pour démarrer, honnêtement. C'est les mêmes têtes tous les matins ou ça change beaucoup ?"
+    }
+  },
+  {
+    id: 28,
+    environnement: "Banque / Agence",
+    profil: "Conseiller financier",
+    humeur: "Professionnel",
+    energie: "Basse",
+    objectif: "Détendre un rendez-vous formel",
+    theme: "Les finances du quotidien",
+    zoomIn: {
+      accroche: "Vous avez la façon de poser le stylo sur le bureau de quelqu'un qui a fait ça dix mille fois — c'est un tic ou une technique pour mettre les gens à l'aise ?",
+      relance: "Moi dès que j'entre dans une banque j'ai l'impression d'être audité. Comment vous faites pour que les gens se sentent pas jugés ?"
+    },
+    contexte: {
+      accroche: "L'agence est calme à cette heure — j'aurais pensé que ce genre de rendez-vous se faisait plutôt en fin de journée.",
+      relance: "Moi j'ai pris le premier créneau disponible pour éviter de reculer. C'est quoi la question que tout le monde arrive avec en tête mais n'ose pas poser en premier ?"
+    },
+    zoomOut: {
+      accroche: "En ce moment avec tout ce qui bouge sur les taux, j'imagine que vous avez plus de clients stressés qu'à l'habitude.",
+      relance: "Moi je suis clairement pas serein sur le sujet. C'est quoi le discours que vous répétez le plus souvent pour remettre les gens en perspective ?"
+    }
+  },
+  {
+    id: 29,
+    environnement: "Espace de Coworking",
+    profil: "Voisin de bureau",
+    humeur: "Concentré",
+    energie: "Basse",
+    objectif: "Briser la glace sans déranger",
+    theme: "Le travail à distance",
+    zoomIn: {
+      accroche: "Vous avez un setup qui donne envie — c'est le bureau de quelqu'un qui pense à son dos ou à sa productivité en premier ?",
+      relance: "Moi j'ai toujours une chaise pourrie et un câble qui pend. C'est quoi l'investissement qui vous a le plus changé la vie au quotidien ?"
+    },
+    contexte: {
+      accroche: "Ce coworking est pas mal pour la concentration — vous venez souvent ici ou vous testez ?",
+      relance: "Je cherche un endroit régulier, ma cuisine c'est plus possible. C'est quoi le critère qui vous a fait choisir celui-là ?"
+    },
+    zoomOut: {
+      accroche: "Vu la fréquentation cette semaine, j'ai l'impression que les gens fuient un peu le bureau classique en ce moment.",
+      relance: "Moi je télétravaille à mi-temps et je cherche encore l'équilibre. Vous avez trouvé le bon rythme entre chez vous et ici ?"
+    }
+  },
+  {
+    id: 30,
+    environnement: "Cours de Yoga",
+    profil: "Instructeur yoga",
+    humeur: "Calme",
+    energie: "Haute",
+    objectif: "Créer un lien avant le cours",
+    theme: "La détente et le lâcher-prise",
+    zoomIn: {
+      accroche: "Vous avez une façon d'arriver dans la salle qui fait baisser la pression de tout le monde — c'est travaillé ou c'est vous ?",
+      relance: "Moi j'arrive encore stressé de ma journée. Comment on passe du mode boulot au mode présent sans longue transition ?"
+    },
+    contexte: {
+      accroche: "La salle se remplit bien pour ce créneau — c'est un groupe habituel ou ça change beaucoup d'une semaine à l'autre ?",
+      relance: "Je viens pour la première fois, j'espère pas être le seul à galérer. C'est quoi le conseil pour quelqu'un qui commence ?"
+    },
+    zoomOut: {
+      accroche: "Après une semaine comme celle-là, je pense que tout le monde dans cette salle a besoin de souffler autant que moi.",
+      relance: "Moi je viens clairement pour décompresser plus que pour la performance. Vous le sentez, les gens en mode 'urgence de respirer' ?"
+    }
+  },
+  {
+    id: 31,
+    environnement: "Fromagerie / Épicerie Fine",
+    profil: "Fromager",
+    humeur: "Passionné",
+    energie: "Haute",
+    objectif: "Apprendre quelque chose",
+    theme: "Les accords et les saisons",
+    zoomIn: {
+      accroche: "Vous avez le regard de quelqu'un qui sait exactement quel fromage convient à quelle personne en trente secondes — c'est de l'instinct ou de l'expérience ?",
+      relance: "Moi j'arrive toujours en sachant pas quoi prendre. C'est quoi le signe qui vous dit que quelqu'un va aimer les choses corsées ?"
+    },
+    contexte: {
+      accroche: "Il y a un parfum dans cette boutique qui réveille quelque chose — c'est quoi en ce moment la pièce dont vous êtes le plus fier ?",
+      relance: "Je cherche quelque chose qui impressionne sans que ce soit un cliché. C'est quoi l'accord que personne ne pense à faire mais qui tue ?"
+    },
+    zoomOut: {
+      accroche: "On approche des beaux jours, j'imagine que les fromages de saison arrivent — c'est quoi qui change vraiment avec le printemps ?",
+      relance: "Moi je suis resté aux classiques toute l'année. C'est quoi le fromage que vous attendez le plus à cette période ?"
+    }
+  },
+  {
+    id: 32,
+    environnement: "Galerie d'Art",
+    profil: "Galeriste",
+    humeur: "Distant",
+    energie: "Haute",
+    objectif: "Ouvrir un dialogue sans se prendre au sérieux",
+    theme: "Les œuvres du moment",
+    zoomIn: {
+      accroche: "Vous regardez les gens regarder les œuvres — c'est plus intéressant que les tableaux eux-mêmes parfois ?",
+      relance: "Moi j'ai du mal à faire semblant de comprendre ce que je vois. C'est quoi la réaction d'un visiteur qui vous dit que quelque chose a vraiment marché ?"
+    },
+    contexte: {
+      accroche: "L'expo a l'air d'avoir une vraie cohérence — c'est un artiste que vous défendez depuis longtemps ou une découverte récente ?",
+      relance: "Je rentre souvent dans des galeries sans avoir le code. C'est quoi le meilleur endroit pour commencer quand on n'y connaît rien ?"
+    },
+    zoomOut: {
+      accroche: "Le marché de l'art en ce moment, j'imagine que c'est en pleine mutation avec tout ce qui se passe sur le digital — vous le sentez dans les demandes ?",
+      relance: "Moi je comprends pas encore ce qui fait qu'une œuvre prend de la valeur. C'est quoi l'explication la plus honnête que vous donnez quand on vous pose la question ?"
+    }
+  },
+  {
+    id: 33,
+    environnement: "Soirée Privée / Événement",
+    profil: "Invité inconnu au buffet",
+    humeur: "Curieux",
+    energie: "Haute",
+    objectif: "Créer un contact naturel en contexte social",
+    theme: "Les connexions inattendues",
+    zoomIn: {
+      accroche: "Vous tenez votre verre avec le détachement de quelqu'un qui connaît du monde ici — vous êtes du côté de qui ?",
+      relance: "Moi je suis venu par un ami d'un ami, je connais personne. C'est quoi votre lien avec l'hôte ?"
+    },
+    contexte: {
+      accroche: "C'est une bonne ambiance ici — il y a un mélange de gens intéressant ou c'est toujours les mêmes cercles ?",
+      relance: "Je suis pas très doué pour les soirées où je connais personne. Vous, vous arrivez comment à naviguer sans avoir l'air perdu ?"
+    },
+    zoomOut: {
+      accroche: "Une soirée comme ça en pleine semaine, les gens sont soit 'j'en avais besoin' soit 'je sais pas pourquoi je suis là' — vous êtes lequel ?",
+      relance: "Moi clairement le second, mais je suis content d'être sorti. C'est quoi ce qui vous a décidé à venir ?"
+    }
+  },
+  {
+    id: 34,
+    environnement: "Ascenseur de Bureaux",
+    profil: "Collègue d'un autre service",
+    humeur: "Gêné",
+    energie: "Basse",
+    objectif: "Sortir du silence pesant",
+    theme: "La vie de bureau",
+    zoomIn: {
+      accroche: "Vous avez le badge d'un service que je croise peu — vous êtes sur quel étage ?",
+      relance: "Moi je reste souvent dans ma bulle au quatrième, j'ai l'impression de pas connaître la moitié du bâtiment. Ça fait longtemps que vous êtes là ?"
+    },
+    contexte: {
+      accroche: "Cet ascenseur met une éternité — il est toujours aussi lent ou c'est moi qui suis à cran aujourd'hui ?",
+      relance: "J'aurais dû prendre les escaliers, clairement. C'est votre bâtiment habituel ou vous passez ici à titre exceptionnel ?"
+    },
+    zoomOut: {
+      accroche: "Un mercredi après-midi, c'est clairement le creux de la vague de la semaine — tout le monde a l'air en mode pilotage automatique.",
+      relance: "Moi je commence à compter les heures, j'avoue. C'est le moment de la semaine où vous êtes le plus productif, vous ?"
+    }
+  },
+  {
+    id: 35,
+    environnement: "Bureau de Poste",
+    profil: "Agent postal",
+    humeur: "Débordé",
+    energie: "Fatigué",
+    objectif: "Rendre le passage agréable",
+    theme: "Les colis et l'attente",
+    zoomIn: {
+      accroche: "Vous scannez les colis avec la précision d'un chirurgien malgré le rythme — c'est de la concentration pure ou de l'automatisme complet ?",
+      relance: "Moi après une heure je ferais des erreurs à la chaîne. C'est quoi le moment où l'automatisme prend vraiment le dessus ?"
+    },
+    contexte: {
+      accroche: "La file est courte ce matin — j'ai bien choisi mon heure ou c'est toujours plus calme le matin ici ?",
+      relance: "J'ai raté mon colis hier, je voulais pas rater la réouverture. C'est quoi le créneau à éviter absolument ?"
+    },
+    zoomOut: {
+      accroche: "Avec les fêtes qui approchent, j'imagine que le flux de colis ici va exploser dans les deux prochaines semaines.",
+      relance: "Moi j'ai déjà commandé tout en avance pour éviter les galères. C'est quoi la période la plus folle de l'année pour vous ?"
+    }
+  },
+  {
+    id: 36,
+    environnement: "Salle d'Embarquement",
+    profil: "Voyageur stressé à côté",
+    humeur: "Stressé",
+    energie: "Fatigué",
+    objectif: "Désamorcer la tension partagée",
+    theme: "Les retards et l'imprévu",
+    zoomIn: {
+      accroche: "Vous vérifiez votre téléphone avec la fréquence de quelqu'un qui attend une greffe — c'est le vol ou autre chose ?",
+      relance: "Moi j'ai eu un retard de quatre heures une fois, j'ai failli craquer. Vous, vous êtes en correspondance serrée ou c'est juste l'angoisse naturelle ?"
+    },
+    contexte: {
+      accroche: "Le tableau d'affichage ne rassure personne là — vous avez une info sur ce qui se passe avec ce vol ?",
+      relance: "J'essaie de rester calme mais c'est de plus en plus dur. Vous avez un truc pour attendre sans exploser ?"
+    },
+    zoomOut: {
+      accroche: "Une salle d'embarquement bondée, c'est un concentré d'humanité sous pression — les gens réagissent tous pareil ou chacun son mode ?",
+      relance: "Moi je deviens silencieux et je lis, c'est mon truc. Vous, vous gérez comment l'attente quand vous pouvez rien contrôler ?"
+    }
+  },
+  {
+    id: 37,
+    environnement: "Musée",
+    profil: "Guide culturel",
+    humeur: "Passionné",
+    energie: "Haute",
+    objectif: "Alimenter une curiosité sincère",
+    theme: "L'histoire derrière les œuvres",
+    zoomIn: {
+      accroche: "Vous avez le regard de quelqu'un qui a une anecdote précise sur chaque pièce de la salle — laquelle vous préférez raconter ?",
+      relance: "Moi je lis les cartels sans vraiment retenir. C'est quoi le détail sur cette œuvre-là que personne ne remarque tout seul ?"
+    },
+    contexte: {
+      accroche: "Ce musée a une vraie ambiance à cette heure — moins de monde, la lumière naturelle… vous préférez guider avec peu de gens ou avec un grand groupe ?",
+      relance: "Je viens souvent au calme pour prendre le temps. C'est quoi la salle que vous recommandez à quelqu'un qui a une heure et veut pas regretter ?"
+    },
+    zoomOut: {
+      accroche: "Il y a quelque chose dans les musées qui fait que les gens ralentissent naturellement — dans la vie courante, personne prend autant de temps pour regarder.",
+      relance: "Moi je ressors toujours un peu plus calme. Vous, après des années ici, vous voyez encore les œuvres ou elles sont devenues un décor ?"
+    }
+  },
+  {
+    id: 38,
+    environnement: "Immeuble Résidentiel",
+    profil: "Nouveau voisin",
+    humeur: "Réservé",
+    energie: "Haute",
+    objectif: "Poser les bases d'un bon voisinage",
+    theme: "L'installation et le quartier",
+    zoomIn: {
+      accroche: "Vous avez des cartons empilés avec une précision qui dit que vous avez déjà déménagé plusieurs fois — c'est votre système ou de la chance ?",
+      relance: "Moi mon dernier déménagement c'était le chaos absolu. C'est quoi la première chose que vous installez pour que ça ressemble à un chez-soi ?"
+    },
+    contexte: {
+      accroche: "Bienvenue dans l'immeuble — vous venez juste d'arriver ou vous êtes là depuis quelques semaines ?",
+      relance: "Je suis là depuis deux ans et je connais encore à peine mes voisins. C'est quoi votre première impression du coin ?"
+    },
+    zoomOut: {
+      accroche: "Déménager en ce moment avec le marché immobilier comme il est, c'est toute une aventure — vous avez trouvé facilement ?",
+      relance: "Moi j'ai mis six mois à me décider à bouger. C'est quoi le truc que vous cherchiez absolument et que vous avez trouvé ici ?"
     }
   }
 ];
