@@ -1,20 +1,48 @@
 import React, { useState } from "react";
-import { MapPin, User, Tag, Copy, Check, ChevronDown, Sparkles } from "lucide-react";
+import { MapPin, User, Tag, Copy, Check, ChevronDown, Sparkles, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
 
 const VIBE_STYLE = {
   Ouvert:  "bg-emerald-100 text-emerald-700",
   Neutre:  "bg-stone-100 text-stone-600",
   Fermé:   "bg-rose-100 text-rose-700",
 };
-const VIBE_EMOJI = { Ouvert: "😊", Neutre: "😐", Fermé: "😑" };
-
+const VIBE_EMOJI  = { Ouvert: "😊", Neutre: "😐", Fermé: "😑" };
 const PROX_EMOJI  = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
-
 const AUDACE_DATA = {
   1: { emoji: "😌", label: "Prudent",   style: "bg-slate-100 text-slate-600" },
   2: { emoji: "😎", label: "Confiant",  style: "bg-violet-100 text-violet-700" },
   3: { emoji: "🔥", label: "Audacieux", style: "bg-red-100 text-red-700" },
 };
+
+const LEVELS = [
+  {
+    key: "zoomIn",
+    label: "Zoom In",
+    hint: "Un détail visible sur la personne",
+    Icon: ZoomIn,
+    activeText: "text-emerald-700",
+    box: "bg-emerald-50 border-2 border-emerald-200",
+    text: "text-emerald-900",
+  },
+  {
+    key: "contexte",
+    label: "Contexte",
+    hint: "Le lieu, l'instant que vous partagez",
+    Icon: Crosshair,
+    activeText: "text-sky-700",
+    box: "bg-sky-50 border-2 border-sky-200",
+    text: "text-sky-900",
+  },
+  {
+    key: "zoomOut",
+    label: "Zoom Out",
+    hint: "L'énergie générale du moment",
+    Icon: ZoomOut,
+    activeText: "text-violet-700",
+    box: "bg-violet-50 border-2 border-violet-200",
+    text: "text-violet-900",
+  },
+];
 
 function CopyButton({ text }) {
   const [copied, setCopied] = useState(false);
@@ -43,35 +71,12 @@ function CopyButton({ text }) {
   );
 }
 
-function RelanceSection({ label, text, colorBg, colorBorder, colorText, colorBody }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div>
-      <button
-        onClick={() => setOpen(v => !v)}
-        className={`w-full flex items-center justify-between px-4 py-3 rounded-2xl ${colorBg} border-2 ${colorBorder} ${colorText} text-xs font-bold tracking-wide transition-all duration-200 active:scale-[0.98]`}
-      >
-        <span>{label}</span>
-        <span className={`transition-transform duration-200 ${open ? "rotate-180" : "rotate-0"}`}>
-          <ChevronDown size={15} strokeWidth={2.5} />
-        </span>
-      </button>
-      {open && (
-        <div className={`flex items-start gap-3 mt-2 px-4 py-3.5 rounded-2xl ${colorBg} border-2 ${colorBorder} animate-expand-in`}>
-          <p className={`flex-1 text-sm ${colorBody} leading-relaxed italic`}>
-            « {text} »
-          </p>
-          <CopyButton text={text} />
-        </div>
-      )}
-    </div>
-  );
-}
-
 export default function SituationCard({ situation, index = 0 }) {
-  const [activeTab, setActiveTab] = useState("A");
+  const [activeLevel, setActiveLevel] = useState("zoomIn");
+  const [relanceOpen, setRelanceOpen] = useState(false);
 
-  const currentPhrase = activeTab === "A" ? situation.accrocheA : situation.accrocheB;
+  const level = LEVELS.find(l => l.key === activeLevel);
+  const data  = situation[activeLevel];
   const audaceInfo = situation.audace ? AUDACE_DATA[situation.audace] : null;
 
   return (
@@ -109,7 +114,7 @@ export default function SituationCard({ situation, index = 0 }) {
           )}
         </div>
 
-        {/* Objectif — titre de la carte */}
+        {/* Objectif — card title */}
         <p className="text-base font-bold text-stone-900 leading-snug mb-3">
           {situation.objectif}
         </p>
@@ -136,58 +141,62 @@ export default function SituationCard({ situation, index = 0 }) {
       {/* ── Divider ── */}
       <div className="mx-5 border-t border-stone-100" />
 
-      {/* ── Tab switcher ── */}
-      <div className="flex mx-5 mt-4 mb-3 rounded-2xl bg-stone-100 p-1 gap-1">
-        {["A", "B"].map(tab => (
-          <button
-            key={tab}
-            onClick={() => setActiveTab(tab)}
-            className={`flex-1 py-2 text-xs font-bold rounded-xl transition-all duration-200 ${
-              activeTab === tab
-                ? "bg-white text-stone-900 shadow-sm"
-                : "text-stone-400 hover:text-stone-600"
-            }`}
-          >
-            {tab === "A" ? "Option A — Direct" : "Option B — Humour"}
-          </button>
-        ))}
+      {/* ── Zoom level switcher ── */}
+      <div className="flex mx-5 mt-4 mb-1 rounded-2xl bg-stone-100 p-1 gap-1">
+        {LEVELS.map(({ key, label, Icon, activeText }) => {
+          const active = activeLevel === key;
+          return (
+            <button
+              key={key}
+              onClick={() => { setActiveLevel(key); setRelanceOpen(false); }}
+              className={`flex-1 flex items-center justify-center gap-1 py-2 rounded-xl text-xs font-bold transition-all duration-200 ${
+                active ? `bg-white shadow-sm ${activeText}` : "text-stone-500"
+              }`}
+            >
+              <Icon size={13} strokeWidth={2.5} />
+              {label}
+            </button>
+          );
+        })}
       </div>
 
-      {/* ── Phrase display ── */}
+      {/* Level hint */}
+      <p className="mx-5 mb-3 text-[11px] text-stone-400 text-center">{level.hint}</p>
+
+      {/* ── Accroche ── */}
       <div
-        key={activeTab}
-        className={`mx-5 mb-4 px-4 py-4 rounded-2xl flex items-start gap-3 animate-phrase-swap ${
-          activeTab === "A"
-            ? "bg-emerald-50 border-2 border-emerald-200"
-            : "bg-sky-50 border-2 border-sky-200"
-        }`}
+        key={activeLevel}
+        className={`mx-5 mb-4 px-4 py-4 rounded-2xl flex items-start gap-3 animate-phrase-swap ${level.box}`}
       >
-        <p className={`flex-1 text-sm font-semibold leading-relaxed ${
-          activeTab === "A" ? "text-emerald-900" : "text-sky-900"
-        }`}>
-          « {currentPhrase} »
+        <p className={`flex-1 text-sm font-semibold leading-relaxed ${level.text}`}>
+          « {data.accroche} »
         </p>
-        <CopyButton text={currentPhrase} />
+        <CopyButton text={data.accroche} />
       </div>
 
-      {/* ── Relance + Découverte ── */}
-      <div className="mx-5 mb-5 space-y-2.5">
-        <RelanceSection
-          label="💬 Relance — sur le sujet"
-          text={situation.relance}
-          colorBg="bg-rose-50"
-          colorBorder="border-rose-200"
-          colorText="text-rose-700"
-          colorBody="text-rose-900"
-        />
-        <RelanceSection
-          label="🔍 En savoir plus sur elle / lui"
-          text={situation.decouverte}
-          colorBg="bg-teal-50"
-          colorBorder="border-teal-200"
-          colorText="text-teal-700"
-          colorBody="text-teal-900"
-        />
+      {/* ── Relance (Rebond + Ouverture) ── */}
+      <div className="mx-5 mb-5">
+        <button
+          onClick={() => setRelanceOpen(v => !v)}
+          className={`w-full flex items-center justify-between px-4 py-3 rounded-2xl bg-stone-100 text-xs font-bold tracking-wide transition-all duration-200 active:scale-[0.98] ${
+            relanceOpen ? "text-stone-700" : "text-stone-500"
+          }`}
+        >
+          <span>Rebond + Ouverture</span>
+          <ChevronDown
+            size={15}
+            strokeWidth={2.5}
+            className={`transition-transform duration-200 ${relanceOpen ? "rotate-180" : ""}`}
+          />
+        </button>
+        {relanceOpen && (
+          <div className="flex items-start gap-3 mt-2 px-4 py-3.5 rounded-2xl bg-stone-50 border-2 border-stone-100 animate-expand-in">
+            <p className="flex-1 text-sm text-stone-600 leading-relaxed italic">
+              « {data.relance} »
+            </p>
+            <CopyButton text={data.relance} />
+          </div>
+        )}
       </div>
     </div>
   );
