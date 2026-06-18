@@ -42,13 +42,13 @@ export function matchSituations(situations, { lieu, avatar, interet, contexte })
 
     if (proximite) {
       const userLvl = PROX_ORDER[proximite] || 1;
-      const sitLvl  = PROX_ORDER[s.proximite] || 1; // undefined → "Inconnu"
+      const sitLvl  = PROX_ORDER[s.proximite] || 1;
       if (sitLvl > userLvl) return null;
       score += sitLvl === userLvl ? 3 : 1;
     }
 
     if (audace !== null && audace !== undefined) {
-      const sitAudace = s.audace || 1; // undefined → 1 (prudent)
+      const sitAudace = s.audace || 1;
       if (sitAudace > audace) return null;
       if (sitAudace === audace) score += 2;
     }

@@ -10,9 +10,9 @@ const PROXIMITE_OPTIONS = [
 ];
 
 const AUDACE_OPTIONS = [
-  { value: 1, emoji: "😌", label: "Prudent",    desc: "Sûr, sans prise de risque" },
-  { value: 2, emoji: "😎", label: "Confiant",   desc: "Original, légèrement décalé" },
-  { value: 3, emoji: "🔥", label: "Audacieux",  desc: "Direct, surprenant, mémorable" },
+  { value: 1, emoji: "😌", label: "Prudent",   desc: "Sûr, sans prise de risque" },
+  { value: 2, emoji: "😎", label: "Confiant",  desc: "Original, légèrement décalé" },
+  { value: 3, emoji: "🔥", label: "Audacieux", desc: "Direct, surprenant, mémorable" },
 ];
 
 export default function StepContexte({ value = {}, onChange, onNext, onSkip }) {

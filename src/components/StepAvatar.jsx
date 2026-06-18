@@ -1,9 +1,9 @@
 import React from "react";
 import { Users, ArrowRight, SmilePlus, Meh, MinusCircle } from "lucide-react";
 
-const AGE_OPTIONS = ["Jeune", "Adulte", "Senior", "Peu importe"];
+const AGE_OPTIONS   = ["Jeune", "Adulte", "Senior", "Peu importe"];
 const GENRE_OPTIONS = ["Homme", "Femme", "Peu importe"];
-const VIBE_OPTIONS = [
+const VIBE_OPTIONS  = [
   {
     value: "Ouvert",
     label: "Ouvert",

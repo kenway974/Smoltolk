@@ -2,8 +2,8 @@ import React from "react";
 import { RotateCcw, MessageCircle, MapPin, Sparkles, Users, Zap } from "lucide-react";
 import SituationCard from "./SituationCard";
 
-const VIBE_LABEL  = { Ouvert: "😊 Ouvert", Neutre: "😐 Neutre", Fermé: "😑 Fermé" };
-const PROX_EMOJI  = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
+const VIBE_LABEL   = { Ouvert: "😊 Ouvert", Neutre: "😐 Neutre", Fermé: "😑 Fermé" };
+const PROX_EMOJI   = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
 const AUDACE_LABEL = { 1: "😌 Prudent", 2: "😎 Confiant", 3: "🔥 Audacieux" };
 
 function CriterionChip({ icon: Icon, label, color }) {
