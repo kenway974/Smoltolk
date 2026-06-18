@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, User, Heart, Tag, Copy, Check, ChevronDown, ChevronUp, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
+import { Copy, Check, Plus, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
 
 const ENERGY_DOT = {
   Haute:   "bg-blue-500",
@@ -18,25 +18,28 @@ const LEVELS = [
   {
     key: "zoomIn",
     label: "Zoom In",
-    sub: "La personne",
+    hint: "Un détail visible sur la personne",
     Icon: ZoomIn,
-    box: "bg-emerald-50 border-emerald-200",
+    activeText: "text-emerald-700",
+    box: "bg-emerald-50/70 border-emerald-100",
     text: "text-emerald-900",
   },
   {
     key: "contexte",
     label: "Contexte",
-    sub: "Le lieu",
+    hint: "Le lieu, l'instant que vous partagez",
     Icon: Crosshair,
-    box: "bg-sky-50 border-sky-200",
+    activeText: "text-sky-700",
+    box: "bg-sky-50/70 border-sky-100",
     text: "text-sky-900",
   },
   {
     key: "zoomOut",
     label: "Zoom Out",
-    sub: "L'instant",
+    hint: "L'énergie générale du moment",
     Icon: ZoomOut,
-    box: "bg-violet-50 border-violet-200",
+    activeText: "text-violet-700",
+    box: "bg-violet-50/70 border-violet-100",
     text: "text-violet-900",
   },
 ];
@@ -58,10 +61,10 @@ function CopyButton({ text }) {
   return (
     <button
       onClick={handleCopy}
-      className={`p-1.5 rounded-lg transition-all duration-150 active:scale-90 ${copied ? "bg-green-100 text-green-600" : "bg-stone-100 text-stone-500 hover:bg-stone-200"}`}
+      className={`shrink-0 p-1.5 rounded-lg transition-all duration-150 active:scale-90 ${copied ? "text-emerald-600" : "text-stone-400 hover:text-stone-700 hover:bg-stone-100"}`}
       title="Copier"
     >
-      {copied ? <Check size={14} strokeWidth={2.5} /> : <Copy size={14} strokeWidth={2} />}
+      {copied ? <Check size={15} strokeWidth={2.5} /> : <Copy size={15} strokeWidth={2} />}
     </button>
   );
 }
@@ -74,87 +77,82 @@ export default function SituationCard({ situation }) {
   const data = situation[activeLevel];
 
   return (
-    <div className="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+    <div className="bg-white rounded-2xl border border-stone-200/80 shadow-[0_1px_2px_rgba(28,25,23,0.04)] p-4">
 
-      {/* Card header */}
-      <div className="flex items-start justify-between gap-2 px-4 pt-4 pb-3">
-        <div className="flex flex-wrap gap-1.5 flex-1">
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 text-xs font-medium">
-            <MapPin size={11} strokeWidth={2.5} />
-            {situation.environnement}
-          </span>
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 text-xs font-medium">
-            <User size={11} strokeWidth={2.5} />
-            {situation.profil}
-          </span>
-        </div>
-        {/* Energy dot + label */}
-        <span className="flex items-center gap-1.5 shrink-0 mt-0.5">
-          <span className={`w-2.5 h-2.5 rounded-full ${ENERGY_DOT[situation.energie]}`} />
-          <span className="text-xs text-stone-500 font-medium">{ENERGY_LABEL[situation.energie]}</span>
+      {/* Méta : environnement + énergie */}
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-[11px] font-semibold uppercase tracking-wider text-stone-400 truncate">
+          {situation.environnement}
+        </p>
+        <span className="flex items-center gap-1.5 shrink-0 text-[11px] font-medium text-stone-400">
+          <span className={`w-1.5 h-1.5 rounded-full ${ENERGY_DOT[situation.energie]}`} />
+          {ENERGY_LABEL[situation.energie]}
         </span>
       </div>
 
-      {/* Card sub-info */}
-      <div className="flex gap-3 px-4 pb-3 text-xs text-stone-400">
-        <span className="flex items-center gap-1">
-          <Heart size={11} strokeWidth={2} />
-          {situation.humeur}
-        </span>
-        <span className="flex items-center gap-1">
-          <Tag size={11} strokeWidth={2} />
-          {situation.theme}
-        </span>
-      </div>
+      {/* La personne en face */}
+      <h3 className="mt-1 text-[17px] font-semibold text-stone-800 leading-tight">
+        {situation.profil}
+      </h3>
+      <p className="mt-0.5 text-xs text-stone-400">
+        {situation.humeur} · {situation.theme}
+      </p>
 
-      {/* Level switcher — pyramide Zoom In / Contexte / Zoom Out */}
-      <div className="flex mx-4 mb-2 rounded-lg bg-stone-100 p-0.5">
-        {LEVELS.map(({ key, label, sub, Icon }) => {
+      {/* Sélecteur de niveau — pyramide Zoom In / Contexte / Zoom Out */}
+      <div className="mt-3.5 flex gap-1 rounded-xl bg-stone-100 p-1">
+        {LEVELS.map(({ key, label, Icon, activeText }) => {
           const active = activeLevel === key;
           return (
             <button
               key={key}
               onClick={() => { setActiveLevel(key); setRelanceOpen(false); }}
-              className={`flex-1 flex flex-col items-center gap-0.5 py-1.5 rounded-md transition-all duration-150 ${active ? "bg-white shadow-sm" : ""}`}
+              className={`flex-1 flex items-center justify-center gap-1 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
+                active ? `bg-white shadow-sm ${activeText}` : "text-stone-500"
+              }`}
             >
-              <span className={`flex items-center gap-1 text-xs font-semibold ${active ? "text-stone-800" : "text-stone-500"}`}>
-                <Icon size={12} strokeWidth={2.5} />
-                {label}
-              </span>
-              <span className={`text-[10px] leading-none ${active ? "text-stone-400" : "text-stone-300"}`}>
-                {sub}
-              </span>
+              <Icon size={13} strokeWidth={2.5} />
+              {label}
             </button>
           );
         })}
       </div>
 
-      {/* Accroche display */}
-      <div className={`mx-4 mb-3 px-3 py-3 rounded-xl flex items-start gap-2 border ${level.box}`}>
-        <p className={`flex-1 text-sm font-medium leading-snug ${level.text}`}>
-          « {data.accroche} »
-        </p>
-        <CopyButton text={data.accroche} />
+      {/* Indice pédagogique du niveau actif */}
+      <p className="mt-2.5 text-[11px] text-stone-400 text-center">{level.hint}</p>
+
+      {/* L'accroche — le héros de la carte */}
+      <div className={`mt-2 rounded-xl border px-4 py-3.5 ${level.box}`}>
+        <div className="flex items-start gap-2">
+          <p className={`flex-1 text-[15px] font-medium leading-relaxed ${level.text}`}>
+            {data.accroche}
+          </p>
+          <CopyButton text={data.accroche} />
+        </div>
       </div>
 
-      {/* Relance section — réflexe « Rebond + Ouverture » */}
-      <div className="mx-4 mb-4">
-        <button
-          onClick={() => setRelanceOpen(v => !v)}
-          className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold active:bg-rose-100 transition-colors"
-        >
-          <span>💬 Rebond + Ouverture</span>
-          {relanceOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
-        </button>
-        {relanceOpen && (
-          <div className="flex items-start gap-2 mt-1.5 px-3 py-2.5 rounded-xl bg-rose-50 border border-rose-200">
-            <p className="flex-1 text-sm text-rose-800 leading-snug italic">
-              « {data.relance} »
-            </p>
-            <CopyButton text={data.relance} />
-          </div>
-        )}
-      </div>
+      {/* Relance — réflexe « Rebond + Ouverture » */}
+      <button
+        onClick={() => setRelanceOpen(v => !v)}
+        className={`mt-2.5 w-full flex items-center gap-1.5 text-xs font-medium transition-colors ${
+          relanceOpen ? "text-stone-700" : "text-stone-400 hover:text-stone-600"
+        }`}
+      >
+        <Plus
+          size={14}
+          strokeWidth={2.5}
+          className={`transition-transform duration-200 ${relanceOpen ? "rotate-45" : ""}`}
+        />
+        Rebond + Ouverture
+      </button>
+
+      {relanceOpen && (
+        <div className="mt-2 flex items-start gap-2 rounded-xl bg-stone-50 border border-stone-100 px-4 py-3">
+          <p className="flex-1 text-sm text-stone-600 leading-relaxed italic">
+            {data.relance}
+          </p>
+          <CopyButton text={data.relance} />
+        </div>
+      )}
 
     </div>
   );

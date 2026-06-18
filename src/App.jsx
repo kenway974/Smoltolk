@@ -25,45 +25,32 @@ export default function App() {
   // useMemo avoids re-scanning the array on unrelated renders
   const filteredSituations = useMemo(() => {
     return SITUATIONS_DATA.filter(s => {
-      // 1. Energy quick-select
       if (energyFilter && s.energie !== energyFilter) return false;
-
-      // 2. Environment dropdown
       if (envFilter && s.environnement !== envFilter) return false;
-
-      // 3. Free-text across three searchable fields
       if (searchText.trim()) {
-        const needle    = searchText.toLowerCase();
-        const haystack  = `${s.environnement} ${s.profil} ${s.theme}`.toLowerCase();
+        const needle   = searchText.toLowerCase();
+        const haystack = `${s.environnement} ${s.profil} ${s.theme}`.toLowerCase();
         if (!haystack.includes(needle)) return false;
       }
-
       return true;
     });
   }, [energyFilter, envFilter, searchText]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-stone-100">
+    <div className="flex flex-col min-h-screen">
 
-      {/* ── Fixed Header ── */}
-      <header className="sticky top-0 z-20 bg-stone-900 text-white px-4 pt-5 pb-4 shadow-lg">
-        <div className="flex items-center justify-between mb-1">
-          <div className="flex items-center gap-2">
-            <MessageCircle size={22} strokeWidth={2} className="text-blue-400" />
-            <h1 className="text-lg font-bold tracking-tight">Small Talk Coach</h1>
-          </div>
-          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300 font-medium">
-            {SITUATIONS_DATA.length} situations
-          </span>
+      {/* ── Header (léger, sticky) ── */}
+      <header className="sticky top-0 z-20 bg-[#f7f6f3]/90 backdrop-blur-md border-b border-stone-200/70 px-5 py-3.5">
+        <div className="flex items-center gap-2">
+          <MessageCircle size={20} strokeWidth={2} className="text-stone-800" />
+          <h1 className="text-[15px] font-bold tracking-tight text-stone-900">Small Talk Coach</h1>
         </div>
-        <p className="text-xs text-stone-400">Scripts de terrain pour chaque micro-situation</p>
       </header>
 
-      {/* ── Sticky filter zone ── */}
-      <div className="sticky top-[76px] z-10 bg-stone-100 px-4 pt-4 pb-3 border-b border-stone-200 space-y-3">
-
+      {/* ── Zone de filtres ── */}
+      <div className="px-5 pt-4 space-y-3">
         <div>
-          <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-2">Mon Énergie</p>
+          <p className="text-[11px] font-semibold text-stone-400 uppercase tracking-wider mb-2">Mon énergie</p>
           <EnergySelector selected={energyFilter} onChange={setEnergyFilter} />
         </div>
 
@@ -78,31 +65,30 @@ export default function App() {
         />
       </div>
 
-      {/* ── Result count ── */}
-      <div className="px-4 pt-3 pb-1">
-        <p className="text-xs text-stone-500">
+      {/* ── Comptage discret ── */}
+      <div className="px-5 pt-4 pb-1">
+        <p className="text-xs text-stone-400">
           {filteredSituations.length === SITUATIONS_DATA.length
-            ? `Toutes les ${SITUATIONS_DATA.length} situations`
-            : `${filteredSituations.length} situation${filteredSituations.length !== 1 ? "s" : ""} trouvée${filteredSituations.length !== 1 ? "s" : ""}`}
+            ? `${SITUATIONS_DATA.length} situations`
+            : `${filteredSituations.length} sur ${SITUATIONS_DATA.length}`}
         </p>
       </div>
 
-      {/* ── Card stream ── */}
-      <main className="flex-1 px-4 pb-8 space-y-3 pt-2">
+      {/* ── Liste des cartes ── */}
+      <main className="flex-1 px-5 pb-10 space-y-3 pt-1">
         {filteredSituations.length > 0 ? (
           filteredSituations.map(situation => (
             <SituationCard key={situation.id} situation={situation} />
           ))
         ) : (
-          <div className="flex flex-col items-center justify-center py-16 text-stone-400">
-            <MessageCircle size={40} strokeWidth={1.5} className="mb-3 opacity-40" />
-            <p className="text-sm font-medium">Aucune situation trouvée</p>
-            <p className="text-xs mt-1">Modifiez vos filtres ou</p>
+          <div className="flex flex-col items-center justify-center py-20 text-stone-400">
+            <MessageCircle size={36} strokeWidth={1.5} className="mb-3 opacity-30" />
+            <p className="text-sm font-medium text-stone-500">Aucune situation trouvée</p>
             <button
               onClick={resetFilters}
-              className="mt-3 text-xs text-blue-600 font-semibold underline underline-offset-2"
+              className="mt-3 text-xs text-stone-600 font-semibold underline underline-offset-2 hover:text-stone-900"
             >
-              réinitialisez les filtres
+              Réinitialiser les filtres
             </button>
           </div>
         )}

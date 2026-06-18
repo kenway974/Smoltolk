@@ -6,16 +6,23 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   margin: 0;
-  background-color: #f5f3ef;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f6f3;
   color: #1c1917;
   overscroll-behavior: none;
 }
 
 #root {
   width: 100%;
-  max-width: 480px;
+  max-width: 460px;
   margin: 0 auto;
   min-height: 100svh;
 }
