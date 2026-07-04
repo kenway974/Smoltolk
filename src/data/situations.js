@@ -496,7 +496,7 @@ export const SITUATIONS_DATA = [
     environnement: "Hôtel",
     profil: "Réceptionniste",
     humeur: "Accueillant",
-    ageGroupe: "Adulte",
+    ageGroupe: "Tous",
     genre: "Indéfini",
     vibe: "Ouvert",
     energie: "Haute",
@@ -1077,6 +1077,370 @@ export const SITUATIONS_DATA = [
     zoomOut: {
       accroche: "Déménager en ce moment avec le marché immobilier comme il est, c'est toute une aventure — vous avez trouvé facilement ?",
       relance: "Moi j'ai mis six mois à me décider à bouger. C'est quoi le truc que vous cherchiez absolument et que vous avez trouvé ici ?"
+    }
+  },
+  {
+    id: 39,
+    environnement: "Espace de Coworking",
+    profil: "Indépendant souriant",
+    humeur: "Avenant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Travail",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Créer un lien professionnel",
+    theme: "Le quotidien du freelance",
+    zoomIn: {
+      accroche: "Vous avez l'air d'être installé ici comme chez vous, avec votre setup au millimètre — vous êtes un pilier de l'endroit ou c'est juste votre organisation naturelle ?",
+      relance: "Moi je change de place tous les jours, incapable de me poser. C'est quoi votre rituel pour vous mettre en mode boulot le matin ?"
+    },
+    contexte: {
+      accroche: "L'ambiance est plutôt bonne ici ce matin, ça bosse dans le calme — vous venez souvent à cette heure-là ?",
+      relance: "J'hésite à en faire mon QG. C'est quoi selon vous ce qui fait qu'on est vraiment productif dans un lieu comme ça ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou comme le travail a changé, on se retrouve tous à bosser côte à côte sans bosser ensemble — vous le vivez comment ce mode de vie ?",
+      relance: "Moi je me demande parfois si c'est la liberté ou la solitude. C'est quoi le meilleur côté du freelance pour vous ?"
+    }
+  },
+  {
+    id: 40,
+    environnement: "Pharmacie",
+    profil: "Client jovial",
+    humeur: "Bienveillant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Santé",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Détendre l'attente",
+    theme: "Prendre soin de soi",
+    zoomIn: {
+      accroche: "Vous avez l'air de quelqu'un qui garde le sourire même dans la file d'attente d'une pharmacie — c'est un tempérament ou une bonne journée ?",
+      relance: "Moi l'attente ici me plombe toujours. C'est quoi votre secret pour rester de bonne humeur quand c'est un peu long ?"
+    },
+    contexte: {
+      accroche: "Il y a du monde aujourd'hui, on doit être en pleine saison des petits rhumes — vous tenez le coup avec ce temps ?",
+      relance: "Moi j'ai l'impression de tout attraper dès qu'il fait froid. C'est quoi votre réflexe santé quand la saison change ?"
+    },
+    zoomOut: {
+      accroche: "On parle beaucoup de prévention en ce moment, prendre soin de soi avant que ça aille mal — vous êtes plutôt du genre à anticiper ?",
+      relance: "Moi j'attends toujours le dernier moment. C'est quoi la petite habitude santé que vous ne lâcheriez pour rien au monde ?"
+    }
+  },
+  {
+    id: 41,
+    environnement: "Salon de Coiffure",
+    profil: "Cliente à côté",
+    humeur: "Posée",
+    ageGroupe: "Tous",
+    genre: "Femme",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Mode",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Engager la conversation",
+    theme: "Le style et le changement",
+    zoomIn: {
+      accroche: "Vous avez l'air de savoir exactement ce que vous voulez, vous êtes venue avec une idée précise en tête ?",
+      relance: "Moi je change d'avis dans le fauteuil à chaque fois. C'est quoi qui vous a décidée pour ce style-là aujourd'hui ?"
+    },
+    contexte: {
+      accroche: "C'est toujours un petit moment suspendu ici, entre deux miroirs — vous venez dans ce salon depuis longtemps ?",
+      relance: "Moi je teste celui-ci pour la première fois. C'est quoi qui fait qu'on reste fidèle à un coiffeur selon vous ?"
+    },
+    zoomOut: {
+      accroche: "Un changement de tête, ça tombe souvent quand on a envie de tourner une page — c'est un peu ça pour vous en ce moment ?",
+      relance: "Moi je coupe court à chaque fois que je veux repartir à zéro. C'est quoi le changement que vous aviez envie de vous offrir ?"
+    }
+  },
+  {
+    id: 42,
+    environnement: "Parc / Espace vert",
+    profil: "Promeneur de chien",
+    humeur: "Tranquille",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Nature",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Amorcer un échange simple",
+    theme: "Le plein air et les habitudes",
+    zoomIn: {
+      accroche: "Votre chien a l'air de connaître le chemin par cœur, c'est lui qui vous promène ou l'inverse ?",
+      relance: "Moi je croise toujours les mêmes têtes ici sans jamais parler. C'est quoi son coin préféré dans ce parc ?"
+    },
+    contexte: {
+      accroche: "C'est calme à cette heure-ci, le parc est presque à nous — vous venez tous les matins ou c'est selon l'envie ?",
+      relance: "Moi j'essaie de m'y mettre pour commencer la journée. C'est quoi qui vous fait revenir ici plutôt qu'ailleurs ?"
+    },
+    zoomOut: {
+      accroche: "Ça fait du bien ces petits bouts de nature en pleine ville, on en aurait presque besoin comme d'une pause — vous le ressentez aussi ?",
+      relance: "Moi je crois que je sous-estime à quel point ça me recentre. C'est quoi votre moment préféré ici au fil des saisons ?"
+    }
+  },
+  {
+    id: 43,
+    environnement: "Cours de Yoga",
+    profil: "Voisin de tapis",
+    humeur: "Réservé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Bien-être",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Briser la glace avant le cours",
+    theme: "La pratique et le lâcher-prise",
+    zoomIn: {
+      accroche: "Vous avez posé votre tapis pile au même endroit que la dernière fois, on a tous notre petit territoire ici — c'est votre place attitrée ?",
+      relance: "Moi je tourne encore pour trouver la mienne. C'est quoi qui vous a fait choisir ce coin de la salle ?"
+    },
+    contexte: {
+      accroche: "Il y a toujours ce petit silence avant que le cours commence, j'aime bien ce moment — vous venez à cette séance régulièrement ?",
+      relance: "Moi je débute encore. C'est quoi selon vous qui fait qu'on accroche vraiment à un cours plutôt qu'à un autre ?"
+    },
+    zoomOut: {
+      accroche: "On court tous toute la journée et on vient chercher une heure de calme ici, c'est un peu paradoxal — ça vous fait cet effet-là aussi ?",
+      relance: "Moi j'ai du mal à débrancher le cerveau. C'est quoi qui vous a donné envie de vous mettre au yoga au départ ?"
+    }
+  },
+  {
+    id: 44,
+    environnement: "Soirée Privée / Événement",
+    profil: "Invité en retrait",
+    humeur: "Discret",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Social",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Créer du lien dans un groupe",
+    theme: "Les rencontres et le hasard",
+    zoomIn: {
+      accroche: "Vous avez l'air de préférer observer avant de vous lancer, je fais exactement pareil dans ces soirées — vous connaissez beaucoup de monde ici ?",
+      relance: "Moi je suis venu pour à peine deux personnes. C'est quoi votre lien avec l'hôte de la soirée ?"
+    },
+    contexte: {
+      accroche: "C'est toujours le moment un peu flottant où personne n'ose vraiment se parler — vous vous en sortez comment dans ce genre de soirée ?",
+      relance: "Moi je me réfugie près du buffet en général. C'est quoi votre technique pour amorcer une conversation avec un inconnu ?"
+    },
+    zoomOut: {
+      accroche: "C'est marrant comme une soirée peut complètement changer selon une seule rencontre qu'on y fait — vous y croyez à ces hasards-là ?",
+      relance: "Moi les meilleures amitiés je les dois à des soirées où je ne voulais pas aller. C'est quoi la plus belle rencontre que vous ayez faite comme ça ?"
+    }
+  },
+  {
+    id: 45,
+    environnement: "Parc / Espace vert",
+    profil: "Joggeur pressé",
+    humeur: "Concentré",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Nature",
+    proximite: "Croisé",
+    audace: 2,
+    objectif: "Placer un mot malgré la distance",
+    theme: "L'effort et le grand air",
+    zoomIn: {
+      accroche: "Désolé de vous couper en plein effort — vous avez un rythme de vrai habitué, vous courez ce parcours tous les jours ?",
+      relance: "Moi je peine encore à tenir deux tours. C'est quoi le déclic qui vous a fait devenir aussi régulier ?"
+    },
+    contexte: {
+      accroche: "Vous avez trouvé le seul créneau où le parc est encore respirable — c'est pour ça que vous venez si tôt ?",
+      relance: "Moi j'essaie de m'y mettre le matin sans y arriver. C'est quoi qui vous sort du lit à cette heure-là ?"
+    },
+    zoomOut: {
+      accroche: "Courir dehors quand tout le monde dort encore, il y a un truc presque méditatif là-dedans — vous le vivez comme ça ou c'est juste sportif ?",
+      relance: "Moi je crois que je cherche surtout à me vider la tête. C'est quoi qui vous fait revenir chaque matin malgré le froid ?"
+    }
+  },
+  {
+    id: 46,
+    environnement: "Fromagerie / Épicerie Fine",
+    profil: "Client pressé au comptoir",
+    humeur: "Distant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Haute",
+    moment: "Après-midi",
+    centreInteret: "Gastronomie",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Ouvrir un échange malgré la réserve",
+    theme: "Le goût et les bonnes adresses",
+    zoomIn: {
+      accroche: "Vous avez pointé votre choix sans hésiter une seconde, ça sent le client qui sait ce qu'il aime — c'est votre incontournable celui-là ?",
+      relance: "Moi je reste planté devant la vitrine pendant dix minutes. C'est quoi le produit que vous prenez les yeux fermés à chaque fois ?"
+    },
+    contexte: {
+      accroche: "C'est une adresse qui a l'air de tenir la réputation du quartier — vous êtes un habitué ou vous passiez par hasard ?",
+      relance: "Moi je découvre l'endroit aujourd'hui. C'est quoi la spécialité de la maison qu'il ne faut surtout pas rater d'après vous ?"
+    },
+    zoomOut: {
+      accroche: "On revient toujours vers ces petites boutiques quand on veut vraiment bien manger, malgré tout ce qui va vite autour — vous êtes attaché à ça aussi ?",
+      relance: "Moi je fais l'effort seulement pour les grandes occasions. C'est quoi la dernière fois qu'un bon produit vous a vraiment marqué ?"
+    }
+  },
+  {
+    id: 47,
+    environnement: "Salle de Sport",
+    profil: "Sportif concentré",
+    humeur: "Fermé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Haute",
+    moment: "Soir",
+    centreInteret: "Sport",
+    proximite: "Croisé",
+    audace: 2,
+    objectif: "Aborder sans casser la concentration",
+    theme: "L'entraînement et la régularité",
+    zoomIn: {
+      accroche: "Je vais faire vite pour pas casser votre série — vous avez une technique super carrée sur cet exercice, ça fait longtemps que vous vous entraînez ?",
+      relance: "Moi je galère encore sur le mouvement. C'est quoi le conseil qui a tout changé pour vous quand vous avez débuté ?"
+    },
+    contexte: {
+      accroche: "C'est l'heure de pointe, faut jouer des coudes pour les machines — vous venez toujours à ce créneau ?",
+      relance: "Moi j'essaie de trouver le bon moment pour éviter l'affluence. C'est quoi votre astuce pour caler vos séances sans que ce soit blindé ?"
+    },
+    zoomOut: {
+      accroche: "Tenir une routine sport dans une vie chargée, c'est presque le plus dur du truc — vous arrivez à rester régulier comment ?",
+      relance: "Moi je lâche dès que le boulot déborde. C'est quoi qui vous motive à revenir même les soirs sans envie ?"
+    }
+  },
+  {
+    id: 48,
+    environnement: "Cabinet Médical",
+    profil: "Patient en salle d'attente",
+    humeur: "Anxieux",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Fatigué",
+    moment: "Matin",
+    centreInteret: "Santé",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Apaiser une attente tendue",
+    theme: "La patience et le moral",
+    zoomIn: {
+      accroche: "On a tous cette tête un peu ailleurs dans une salle d'attente — vous avez l'air d'avoir trouvé le fauteuil le moins inconfortable, ça fait longtemps que vous patientez ?",
+      relance: "Moi je n'ose jamais demander où on en est. C'est quoi votre astuce pour faire passer le temps ici ?"
+    },
+    contexte: {
+      accroche: "Ils ont l'air débordés ce matin, ça déborde un peu sur les horaires — vous aviez rendez-vous tôt vous aussi ?",
+      relance: "Moi j'ai appris à prévoir large maintenant. C'est quoi qui vous aide à rester zen quand ça traîne comme ça ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou comme on repousse toujours ces rendez-vous jusqu'au moment où on ne peut plus — vous êtes plutôt du genre à anticiper ou à attendre ?",
+      relance: "Moi je prends soin de tout sauf de moi. C'est quoi le truc que vous vous étiez promis de faire pour votre santé cette année ?"
+    }
+  },
+  {
+    id: 49,
+    environnement: "Musée",
+    profil: "Visiteur solitaire",
+    humeur: "Absorbé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Partager un regard sur une œuvre",
+    theme: "L'art et les impressions",
+    zoomIn: {
+      accroche: "Vous êtes resté un bon moment devant cette œuvre, ça se voit que quelque chose vous parle — c'est le détail ou l'ensemble qui vous retient ?",
+      relance: "Moi je passe souvent trop vite sans vraiment regarder. C'est quoi qui fait qu'une pièce vous arrête net comme ça ?"
+    },
+    contexte: {
+      accroche: "C'est agréable de visiter quand c'est aussi calme, on peut vraiment prendre son temps — vous connaissiez déjà cette expo ?",
+      relance: "Moi je suis venu un peu au hasard. C'est quoi la salle qui vaut vraiment le détour d'après vous ?"
+    },
+    zoomOut: {
+      accroche: "On vient chercher quoi au fond dans un musée, un peu de beauté, une pause hors du temps — c'est quoi qui vous y amène vous ?",
+      relance: "Moi je crois que je viens surtout pour ralentir. C'est quoi la dernière œuvre qui vous a vraiment remué ?"
+    }
+  },
+  {
+    id: 50,
+    environnement: "Cours de Yoga",
+    profil: "Pratiquant renfermé",
+    humeur: "Distant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Fatigué",
+    moment: "Soir",
+    centreInteret: "Bien-être",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Créer un lien discret",
+    theme: "Le calme et la récupération",
+    zoomIn: {
+      accroche: "Vous avez l'air d'arriver ici pour vraiment décrocher, pas pour discuter — je comprends, mais je me lance quand même : grosse journée ?",
+      relance: "Moi je viens souvent lessivé aussi. C'est quoi qui vous fait tenir jusqu'au cours plutôt que rentrer direct t'écrouler ?"
+    },
+    contexte: {
+      accroche: "Ce cours du soir a un truc particulier, tout le monde arrive vidé et repart apaisé — ça vous fait cet effet-là aussi ?",
+      relance: "Moi je le garde comme mon sas de décompression. C'est quoi qui vous a fait choisir le créneau du soir ?"
+    },
+    zoomOut: {
+      accroche: "On passe nos journées à donner sans jamais récupérer, et cette heure-là c'est un peu la seule pour soi — vous le voyez comme ça ?",
+      relance: "Moi je culpabilise presque de prendre ce temps. C'est quoi qui vous aide vraiment à recharger les batteries en ce moment ?"
+    }
+  },
+  {
+    id: 51,
+    environnement: "Soirée Privée / Événement",
+    profil: "Invité qui fait tapisserie",
+    humeur: "Timide",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Social",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Sortir quelqu'un de sa réserve",
+    theme: "Le hasard des soirées",
+    zoomIn: {
+      accroche: "On est deux à faire tapisserie dans ce coin, autant s'allier — vous non plus vous ne connaissez pas grand monde ici ?",
+      relance: "Moi je ne connais que la personne qui m'a traîné là. C'est quoi qui vous a décidé à venir ce soir ?"
+    },
+    contexte: {
+      accroche: "Il y a toujours ce moment un peu intimidant où tout le monde a déjà l'air de se connaître — vous vous sentez comment dans ces soirées ?",
+      relance: "Moi je suis clairement pas à l'aise dans les grands groupes. C'est quoi le format de soirée où vous vous sentez vraiment vous-même ?"
+    },
+    zoomOut: {
+      accroche: "C'est étrange comme on peut se sentir seul au milieu d'une pièce pleine de monde — ça vous arrive aussi ou c'est juste moi ce soir ?",
+      relance: "Moi je préfère mille fois une vraie discussion à deux qu'une salle bondée. C'est quoi votre idée d'une bonne soirée à vous ?"
     }
   }
 ];
