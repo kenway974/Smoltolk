@@ -1442,5 +1442,89 @@ export const SITUATIONS_DATA = [
       accroche: "C'est étrange comme on peut se sentir seul au milieu d'une pièce pleine de monde — ça vous arrive aussi ou c'est juste moi ce soir ?",
       relance: "Moi je préfère mille fois une vraie discussion à deux qu'une salle bondée. C'est quoi votre idée d'une bonne soirée à vous ?"
     }
+  },
+  {
+    id: 52,
+    environnement: "Dans la rue",
+    profil: "Passante pressée",
+    humeur: "Sur la défensive",
+    ageGroupe: "Tous",
+    genre: "Femme",
+    vibe: "Fermé",
+    energie: "Haute",
+    moment: "Après-midi",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Aborder avec tact et respect",
+    theme: "Le respect de l'espace",
+    zoomIn: {
+      accroche: "Pardon de vous arrêter deux secondes, je vois que vous êtes pressée alors je fais court — vous auriez pas repéré une bonne adresse dans le coin par hasard ?",
+      relance: "Je débarque dans le quartier et je suis un peu perdu. C'est quoi l'endroit du coin qu'une locale comme vous recommanderait ?"
+    },
+    contexte: {
+      accroche: "Ce quartier bouge tout le temps, on a du mal à suivre entre ce qui ouvre et ce qui ferme — vous êtes du coin ?",
+      relance: "Moi je viens d'emménager à deux rues d'ici. C'est quoi qui a changé dans le quartier ces derniers temps d'après vous ?"
+    },
+    zoomOut: {
+      accroche: "On court tous à cent à l'heure dans cette ville, on prend plus le temps de lever la tête — vous la trouvez comment l'ambiance en ce moment ?",
+      relance: "Moi j'essaie justement de ralentir un peu. C'est quoi votre petit coin préféré pour souffler dans le quartier ?"
+    }
+  },
+  {
+    id: 53,
+    environnement: "Dans la rue",
+    profil: "Personne au style marqué",
+    humeur: "Réservée",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Mode",
+    proximite: "Inconnu",
+    audace: 3,
+    objectif: "Complimenter sans être lourd",
+    theme: "Le style et l'allure",
+    zoomIn: {
+      accroche: "Je me permets juste un mot avant de continuer mon chemin — votre veste est vraiment classe, c'est une trouvaille ou une marque que je devrais connaître ?",
+      relance: "Moi je galère à sortir des sentiers battus côté fringues. C'est quoi votre truc pour avoir un style aussi affirmé ?"
+    },
+    contexte: {
+      accroche: "Il y a des quartiers où les gens osent vraiment côté style, et ici on en fait clairement partie — vous vous habillez où en général ?",
+      relance: "Moi je tourne toujours dans les mêmes boutiques. C'est quoi la bonne adresse mode du coin que les gens connaissent pas ?"
+    },
+    zoomOut: {
+      accroche: "La mode revient tellement vite en boucle qu'on sait plus ce qui est vintage ou tendance — vous suivez ça ou vous faites votre truc ?",
+      relance: "Moi je crois que je m'habille pareil depuis dix ans. C'est quoi la pièce qui pour vous ne se démode jamais ?"
+    }
+  },
+  {
+    id: 54,
+    environnement: "Dans la rue",
+    profil: "Voisin de quartier",
+    humeur: "Avenant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Social",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Transformer un croisement en lien",
+    theme: "La vie de quartier",
+    zoomIn: {
+      accroche: "On se croise tout le temps dans cette rue sans jamais se dire un mot, c'est presque comique — vous habitez par ici depuis longtemps ?",
+      relance: "Moi ça fait un an et je connais personne. C'est quoi le coin où les gens du quartier se retrouvent vraiment ?"
+    },
+    contexte: {
+      accroche: "Belle matinée pour une fois, ça donne envie de traîner dehors — vous commencez la journée par une balade vous aussi ?",
+      relance: "Moi j'essaie de prendre l'air avant de bosser. C'est quoi votre parcours préféré pour un tour le matin ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou comme on peut vivre dans la même rue pendant des années sans se connaître — vous trouvez pas que ça se perd un peu, la vie de quartier ?",
+      relance: "Moi je trouve ça dommage qu'on se parle plus entre voisins. C'est quoi qui créerait plus de lien dans le coin selon vous ?"
+    }
   }
 ];

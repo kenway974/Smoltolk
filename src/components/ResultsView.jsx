@@ -84,6 +84,11 @@ export default function ResultsView({ situations, criteria, onRestart }) {
             ? "1 conversation trouvée"
             : `${situations.length} conversations trouvées`}
         </p>
+        {hasAnyFilter && situations.length > 0 && !situations.some(s => s.__exact) && (
+          <p className="mt-1.5 text-[11px] text-amber-600 leading-snug">
+            Pas de correspondance exacte pour ces critères — voici les situations les plus proches.
+          </p>
+        )}
       </div>
 
       {/* ── Cards ── */}
