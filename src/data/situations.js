@@ -1526,5 +1526,1049 @@ export const SITUATIONS_DATA = [
       accroche: "C'est fou comme on peut vivre dans la même rue pendant des années sans se connaître — vous trouvez pas que ça se perd un peu, la vie de quartier ?",
       relance: "Moi je trouve ça dommage qu'on se parle plus entre voisins. C'est quoi qui créerait plus de lien dans le coin selon vous ?"
     }
+  },
+
+  // ═══════════════ Immeuble de Bureaux ═══════════════
+  {
+    id: 55,
+    environnement: "Immeuble de Bureaux",
+    profil: "Collègue croisé dans le hall",
+    humeur: "Avenant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Social",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Transformer un croisement en lien",
+    theme: "La vie de l'immeuble",
+    zoomIn: {
+      accroche: "On se croise tous les matins devant les ascenseurs sans jamais se parler — vous êtes à quel étage, on est peut-être voisins de palier professionnel ?",
+      relance: "Moi je suis au 4e, la boîte de design. C'est quoi votre boîte, on se demande toujours qui fait quoi dans cet immeuble ?"
+    },
+    contexte: {
+      accroche: "Ce hall a un côté impersonnel fou, on pourrait se croiser dix ans sans se connaître — vous travaillez ici depuis longtemps ?",
+      relance: "Moi ça fait deux ans et je reconnais à peine trois visages. C'est quoi le seul endroit où les gens se parlent vraiment ici ?"
+    },
+    zoomOut: {
+      accroche: "C'est marrant comme on passe plus de temps avec des inconnus de bureau qu'avec nos amis — vous le vivez comment ce rythme ?",
+      relance: "Moi je cours toute la semaine sans lever la tête. C'est quoi qui rend une journée de boulot vraiment agréable pour vous ?"
+    }
+  },
+  {
+    id: 56,
+    environnement: "Immeuble de Bureaux",
+    profil: "Visiteur qui attend en réception",
+    humeur: "Impatient",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Meubler une attente commune",
+    theme: "L'attente et les rendez-vous",
+    zoomIn: {
+      accroche: "On a tous les deux cette tête de gens qui poireautent en réception — vous attendez pour un rendez-vous vous aussi ou vous bossez ici ?",
+      relance: "Moi j'ai vingt minutes d'avance, l'angoisse d'être en retard. C'est quoi votre technique pour gérer l'attente avant un rendez-vous important ?"
+    },
+    contexte: {
+      accroche: "Ces halls d'entreprise sont tous pareils, canapé design et magazines que personne ne lit — vous venez souvent dans ce genre d'endroit ?",
+      relance: "Moi je fais le tour des boîtes toute la semaine pour le boulot. C'est quoi qui fait bonne impression quand on arrive quelque part selon vous ?"
+    },
+    zoomOut: {
+      accroche: "On juge tellement une boîte à son accueil, avant même d'avoir parlé à quelqu'un — vous y êtes sensible aussi à ces premières impressions ?",
+      relance: "Moi je me fais un avis en trente secondes en entrant quelque part. C'est quoi le détail qui vous met tout de suite à l'aise ou pas ?"
+    }
+  },
+
+  // ═══════════════ Marché en plein air ═══════════════
+  {
+    id: 57,
+    environnement: "Marché en plein air",
+    profil: "Client devant l'étal",
+    humeur: "Curieux",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Gastronomie",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Échanger un bon plan cuisine",
+    theme: "Les produits de saison",
+    zoomIn: {
+      accroche: "Vous avez l'œil pour choisir vos légumes, ça se voit que vous savez repérer les bons — c'est un truc que vous avez appris ou de l'instinct ?",
+      relance: "Moi je prends toujours à l'aveugle. C'est quoi le signe qui vous dit qu'un fruit est vraiment mûr et bon ?"
+    },
+    contexte: {
+      accroche: "Ce marché a une sélection vraiment au-dessus des autres du coin — vous faites vos courses ici toutes les semaines ?",
+      relance: "Moi je découvre l'endroit ce matin. C'est quoi l'étal qu'il ne faut surtout pas rater d'après vous ?"
+    },
+    zoomOut: {
+      accroche: "Ça fait du bien de revenir au marché plutôt qu'au supermarché, on redécouvre le goût des saisons — vous êtes attaché à ça aussi ?",
+      relance: "Moi j'essaie de manger plus local. C'est quoi le produit de saison que vous attendez avec impatience en ce moment ?"
+    }
+  },
+  {
+    id: 58,
+    environnement: "Marché en plein air",
+    profil: "Producteur de miel",
+    humeur: "Passionné",
+    ageGroupe: "Tous",
+    genre: "Homme",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Nature",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Apprendre du savoir-faire",
+    theme: "La nature et les abeilles",
+    zoomIn: {
+      accroche: "On sent que derrière votre stand il y a une vraie histoire, vous avez la passion de quelqu'un qui parle de son métier — vous êtes apiculteur depuis longtemps ?",
+      relance: "Moi je fantasme sur cette vie au grand air. C'est quoi qui vous a fait choisir ce métier au départ ?"
+    },
+    contexte: {
+      accroche: "Vos pots ont l'air d'être les stars du marché, ça se bouscule un peu — c'est le miel de la région ?",
+      relance: "Moi je goûte rarement du vrai miel local. C'est quoi qui change vraiment entre un miel de supermarché et le vôtre ?"
+    },
+    zoomOut: {
+      accroche: "On parle beaucoup des abeilles et de l'environnement en ce moment, vous devez être aux premières loges — ça change quoi pour vous ?",
+      relance: "Moi j'ai l'impression qu'on prend enfin conscience de ces choses-là. C'est quoi qui vous inquiète ou vous rend optimiste pour la suite ?"
+    }
+  },
+
+  // ═══════════════ Parking / Livraison ═══════════════
+  {
+    id: 59,
+    environnement: "Parking / Livraison",
+    profil: "Voisin qui charge sa voiture",
+    humeur: "Détendu",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Quotidien",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Créer un lien de voisinage",
+    theme: "Les galères de parking",
+    zoomIn: {
+      accroche: "Vous avez l'art de tout faire rentrer dans le coffre, moi je galère toujours — c'est un déménagement ou juste de grosses courses ?",
+      relance: "Moi je m'y prends toujours mal. C'est quoi votre astuce pour caser tout ça sans jouer au Tetris pendant dix minutes ?"
+    },
+    contexte: {
+      accroche: "Ce parking c'est toujours la guerre pour une place — vous vous garez ici tous les jours vous aussi ?",
+      relance: "Moi je tourne un quart d'heure à chaque fois. C'est quoi votre créneau pour trouver une place sans galérer ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou tout le temps qu'on perd dans ces histoires de voiture et de parking dans une vie — vous y pensez parfois ?",
+      relance: "Moi je me dis que je devrais passer au vélo. C'est quoi qui vous ferait lâcher la voiture, ou jamais de la vie ?"
+    }
+  },
+  {
+    id: 60,
+    environnement: "Parking / Livraison",
+    profil: "Gardien du parking",
+    humeur: "Bourru",
+    ageGroupe: "Tous",
+    genre: "Homme",
+    vibe: "Neutre",
+    energie: "Fatigué",
+    moment: "Soir",
+    centreInteret: "Travail",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Humaniser un échange de service",
+    theme: "Les coulisses du lieu",
+    zoomIn: {
+      accroche: "Vous devez tout voir passer depuis votre poste, les pressés, les perdus, les râleurs — on doit vous en faire voir de belles non ?",
+      relance: "Moi je serais incapable de garder mon calme. C'est quoi le truc le plus improbable que vous ayez vu ici ?"
+    },
+    contexte: {
+      accroche: "Ça tourne sans arrêt un endroit comme ça, vous êtes un peu la mémoire des lieux — vous bossez ici depuis longtemps ?",
+      relance: "Moi je passe tous les jours sans jamais avoir pris le temps de dire bonjour. C'est quoi le meilleur moment de votre journée ici ?"
+    },
+    zoomOut: {
+      accroche: "Il y a plein de métiers de l'ombre comme le vôtre qui font tourner la ville sans qu'on les remarque — vous le vivez comment ça ?",
+      relance: "Moi je trouve qu'on ne dit pas assez merci à ces gens-là. C'est quoi qui vous fait tenir dans ce boulot au quotidien ?"
+    }
+  },
+
+  // ═══════════════ Chantier / Entrepôt ═══════════════
+  {
+    id: 61,
+    environnement: "Chantier / Entrepôt",
+    profil: "Ouvrier à la pause",
+    humeur: "Chaleureux",
+    ageGroupe: "Tous",
+    genre: "Homme",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Social",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Partager un moment de pause",
+    theme: "La camaraderie du chantier",
+    zoomIn: {
+      accroche: "Vous avez l'air d'être celui qui met l'ambiance dans l'équipe, on le sent tout de suite — ça fait longtemps que vous bossez avec eux ?",
+      relance: "Moi j'ai l'impression que la bonne équipe change tout dans ce genre de boulot. C'est quoi qui soude un groupe sur un chantier ?"
+    },
+    contexte: {
+      accroche: "La pause café sur un chantier c'est presque sacré, le seul vrai moment pour souffler — vous êtes sur ce site depuis le début ?",
+      relance: "Moi je passe juste en coup de vent. C'est quoi le chantier le plus dingue sur lequel vous avez bossé ?"
+    },
+    zoomOut: {
+      accroche: "C'est un métier dur physiquement mais il y a une vraie fierté à construire quelque chose de concret — vous le ressentez comme ça ?",
+      relance: "Moi je bosse derrière un écran, j'envie parfois ceux qui voient le résultat de leurs mains. C'est quoi qui vous rend fier dans ce que vous faites ?"
+    }
+  },
+  {
+    id: 62,
+    environnement: "Chantier / Entrepôt",
+    profil: "Cariste de l'entrepôt",
+    humeur: "Concentré",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Haute",
+    moment: "Après-midi",
+    centreInteret: "Travail",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Aborder pendant le travail",
+    theme: "L'organisation et la logistique",
+    zoomIn: {
+      accroche: "Vous manœuvrez cet engin comme si c'était une extension de vous, impressionnant — il faut combien de temps pour être aussi à l'aise ?",
+      relance: "Moi je serais tétanisé aux commandes. C'est quoi le plus dur à maîtriser au début dans ce métier ?"
+    },
+    contexte: {
+      accroche: "Ça n'arrête pas ici, on dirait une fourmilière parfaitement réglée — c'est toujours ce rythme ou c'est un gros jour ?",
+      relance: "Moi je découvre les coulisses, on n'imagine pas le boulot derrière une simple livraison. C'est quoi qui coince le plus dans une journée ?"
+    },
+    zoomOut: {
+      accroche: "Tout le monde commande en ligne sans penser une seconde à la chaîne derrière — vous avez vu le métier changer avec ça ?",
+      relance: "Moi je me rends compte à quel point on dépend de gens comme vous. C'est quoi qui a le plus évolué dans votre travail ces dernières années ?"
+    }
+  },
+
+  // ═══════════════ Aéroport ═══════════════
+  {
+    id: 63,
+    environnement: "Aéroport",
+    profil: "Voyageur dans la file",
+    humeur: "Excité",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Voyage",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Partager l'excitation du départ",
+    theme: "Les destinations et l'évasion",
+    zoomIn: {
+      accroche: "Vous avez cette énergie de quelqu'un qui part pour quelque chose de bien, ça se voit sur votre visage — c'est les vacances ou un voyage spécial ?",
+      relance: "Moi j'adore ce moment juste avant de partir. C'est quoi la destination qui vous fait le plus vibrer là maintenant ?"
+    },
+    contexte: {
+      accroche: "Les files d'attente d'aéroport, c'est le seul endroit où tout le monde va quelque part de différent — vous décollez d'où à peu près ?",
+      relance: "Moi je pars vers le sud. C'est quoi le meilleur voyage que vous ayez commencé depuis cet aéroport ?"
+    },
+    zoomOut: {
+      accroche: "Il y a un truc unique dans les aéroports, cette promesse que tout est possible juste après le contrôle — vous le ressentez aussi ?",
+      relance: "Moi je pourrais rester des heures à regarder les gens partir. C'est quoi le voyage qui a changé quelque chose en vous ?"
+    }
+  },
+  {
+    id: 64,
+    environnement: "Aéroport",
+    profil: "Passager en correspondance",
+    humeur: "Épuisé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Fatigué",
+    moment: "Soir",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Réconforter une attente pénible",
+    theme: "Les galères de transit",
+    zoomIn: {
+      accroche: "Vous avez la tête de quelqu'un qui enchaîne les vols depuis trop longtemps — grosse correspondance vous aussi ?",
+      relance: "Moi ça fait huit heures que je traîne ici. C'est quoi votre secret pour survivre à une escale interminable ?"
+    },
+    contexte: {
+      accroche: "Ces zones de transit c'est un monde à part, hors du temps et hors du sol — vous venez d'où et vous allez où au juste ?",
+      relance: "Moi je rentre d'un déplacement pro qui n'en finit pas. C'est quoi la pire escale que vous ayez vécue ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou comme voyager, censé être un rêve, peut devenir aussi épuisant — vous le vivez comment ce paradoxe ?",
+      relance: "Moi je ne sais plus si j'aime voyager ou juste être arrivé. C'est quoi qui rend un voyage vraiment ressourçant pour vous ?"
+    }
+  },
+
+  // ═══════════════ Gare / Quai SNCF ═══════════════
+  {
+    id: 65,
+    environnement: "Gare / Quai SNCF",
+    profil: "Voyageur sur le quai",
+    humeur: "Détendu",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Voyage",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Amorcer un échange d'attente",
+    theme: "Le charme du train",
+    zoomIn: {
+      accroche: "Vous avez l'air serein alors que tout le monde s'agite, ça fait du bien à voir — vous êtes un habitué de cette ligne ?",
+      relance: "Moi je stresse toujours de rater mon train. C'est quoi votre astuce pour voyager aussi zen ?"
+    },
+    contexte: {
+      accroche: "Il y a quelque chose d'apaisant dans l'attente sur un quai, entre deux trains — vous partez loin aujourd'hui ?",
+      relance: "Moi je rejoins la famille pour le week-end. C'est quoi le trajet en train que vous préférez faire ?"
+    },
+    zoomOut: {
+      accroche: "Le train c'est un peu le dernier endroit où on a le droit de ne rien faire, juste regarder défiler le paysage — vous en profitez comment ?",
+      relance: "Moi je lis ou je regarde par la fenêtre pendant des heures. C'est quoi votre rituel une fois installé dans le train ?"
+    }
+  },
+  {
+    id: 66,
+    environnement: "Gare / Quai SNCF",
+    profil: "Voyageuse pressée et inquiète",
+    humeur: "Stressée",
+    ageGroupe: "Tous",
+    genre: "Femme",
+    vibe: "Fermé",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Rassurer avec tact",
+    theme: "Les aléas des transports",
+    zoomIn: {
+      accroche: "Vous consultez le panneau toutes les dix secondes, je fais pareil quand je stresse — vous avez peur de rater une correspondance ?",
+      relance: "Moi je suis jamais tranquille tant que je suis pas assis dans le train. C'est quoi qui vous met le plus la pression là ?"
+    },
+    contexte: {
+      accroche: "Encore un matin où les affichages font n'importe quoi, on ne sait plus quel quai croire — vous cherchez quelle ligne ?",
+      relance: "Moi je suis perdu avec tous ces changements de quai. C'est quoi votre technique pour ne pas paniquer quand tout est chamboulé ?"
+    },
+    zoomOut: {
+      accroche: "On dépend tellement de ces trains pour nos vies entières que le moindre retard fait tout s'écrouler — vous le vivez comment ce stress-là ?",
+      relance: "Moi j'ai appris à prévoir large pour ne plus subir. C'est quoi qui vous aiderait à voyager plus sereinement au quotidien ?"
+    }
+  },
+
+  // ═══════════════ Hôtel ═══════════════
+  {
+    id: 67,
+    environnement: "Hôtel",
+    profil: "Client au petit-déjeuner",
+    humeur: "Détendu",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Voyage",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Créer un lien entre voyageurs",
+    theme: "Les découvertes en voyage",
+    zoomIn: {
+      accroche: "Vous avez le guide de la ville ouvert à côté de votre café, ça sent le programme chargé — vous découvrez le coin vous aussi ?",
+      relance: "Moi je n'ai encore rien prévu. C'est quoi le premier endroit que vous comptez aller voir ?"
+    },
+    contexte: {
+      accroche: "C'est toujours drôle ces petits-déjeuners d'hôtel où on est tous des voyageurs de passage — vous êtes là pour le travail ou le plaisir ?",
+      relance: "Moi je profite d'un week-end prolongé. C'est quoi qui vous a amené dans cette ville précisément ?"
+    },
+    zoomOut: {
+      accroche: "Il y a un truc particulier à se réveiller dans une ville qu'on ne connaît pas, tout est à explorer — vous aimez ça aussi voyager comme ça ?",
+      relance: "Moi je me perds toujours volontairement le premier jour. C'est quoi votre façon à vous de découvrir une nouvelle ville ?"
+    }
+  },
+  {
+    id: 68,
+    environnement: "Hôtel",
+    profil: "Concierge de l'hôtel",
+    humeur: "Serviable",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Après-midi",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Obtenir de vraies bonnes adresses",
+    theme: "Les secrets de la ville",
+    zoomIn: {
+      accroche: "Vous devez connaître cette ville par cœur à force de conseiller les gens — vous êtes du coin depuis toujours ?",
+      relance: "Moi je veux fuir les pièges à touristes. C'est quoi l'adresse que vous donnez seulement aux gens qui la méritent ?"
+    },
+    contexte: {
+      accroche: "Un bon concierge vaut tous les guides du monde, on le sait entre voyageurs avertis — c'est quoi votre spécialité, les restos, les balades ?",
+      relance: "Moi je cherche un truc authentique pour ce soir. C'est quoi l'endroit où vous iriez vous-même après votre service ?"
+    },
+    zoomOut: {
+      accroche: "Vous voyez défiler des gens du monde entier, ça doit donner une drôle de vision des voyageurs — ils cherchent tous la même chose au fond ?",
+      relance: "Moi je crois qu'on voyage tous pour se sentir un peu vivants. C'est quoi la plus belle rencontre que ce métier vous a offerte ?"
+    }
+  },
+
+  // ═══════════════ Transport en Commun ═══════════════
+  {
+    id: 69,
+    environnement: "Transport en Commun",
+    profil: "Étudiant plongé dans un livre",
+    humeur: "Absorbé",
+    ageGroupe: "Jeune",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Rebondir sur une passion visible",
+    theme: "Les lectures et les idées",
+    zoomIn: {
+      accroche: "Vous êtes tellement dans votre bouquin que vous avez failli rater l'arrêt, ça doit être bon — c'est quoi que vous lisez ?",
+      relance: "Moi je cherche justement ma prochaine lecture. C'est quoi le livre qui vous a le plus marqué récemment ?"
+    },
+    contexte: {
+      accroche: "Le transport c'est le seul moment où on arrive vraiment à lire sans être dérangé — enfin, sauf par des curieux comme moi — vous faites ce trajet souvent ?",
+      relance: "Moi je n'arrive jamais à me concentrer dans le bruit. C'est quoi votre secret pour vous plonger dans un livre au milieu de tout ça ?"
+    },
+    zoomOut: {
+      accroche: "C'est rare de voir encore quelqu'un lire un vrai livre plutôt que scroller sur son téléphone — vous êtes un résistant ?",
+      relance: "Moi je passe trop de temps sur mon écran, ça me déprime. C'est quoi qui vous a gardé accroché à la lecture ?"
+    }
+  },
+  {
+    id: 70,
+    environnement: "Transport en Commun",
+    profil: "Personne avec écouteurs",
+    humeur: "Distante",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Aborder sans être intrusif",
+    theme: "La bulle du trajet",
+    zoomIn: {
+      accroche: "Désolé de percer votre bulle une seconde — vous avez l'air à fond dans votre musique, ça doit être une sacrée playlist pour tenir ce trajet ?",
+      relance: "Moi la musique c'est ma survie dans les transports. C'est quoi qui tourne en boucle chez vous en ce moment ?"
+    },
+    contexte: {
+      accroche: "On est tous chacun dans notre coin avec nos écouteurs, c'est devenu la règle tacite du transport — vous rentrez du boulot vous aussi ?",
+      relance: "Moi cette ligne me pompe toute mon énergie le soir. C'est quoi qui vous aide à décompresser sur le trajet du retour ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou comme on peut être à trente collés les uns aux autres et pourtant chacun dans son monde — ça vous frappe aussi parfois ?",
+      relance: "Moi je trouve ça un peu triste au fond. C'est quoi qui vous ferait lever les yeux et parler à un inconnu, comme là ?"
+    }
+  },
+
+  // ═══════════════ Librairie ═══════════════
+  {
+    id: 71,
+    environnement: "Librairie",
+    profil: "Lecteur dans un rayon",
+    humeur: "Pensif",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Échanger sur une passion commune",
+    theme: "Les coups de cœur littéraires",
+    zoomIn: {
+      accroche: "Vous tournez autour de ce rayon depuis un moment, comme quelqu'un qui hésite entre trop de bonnes options — vous cherchez un titre précis ?",
+      relance: "Moi je repars toujours avec trois livres que je n'avais pas prévus. C'est quoi le dernier qui vous a scotché ?"
+    },
+    contexte: {
+      accroche: "Cette librairie a une sélection vraiment pointue, on sent qu'il y a quelqu'un de passionné derrière — vous venez souvent farfouiller ici ?",
+      relance: "Moi je découvre l'endroit. C'est quoi le rayon où vous pourriez passer des heures ?"
+    },
+    zoomOut: {
+      accroche: "Il y a un plaisir rare à choisir un livre en vrai, à le feuilleter, loin des algorithmes qui décident pour nous — vous êtes attaché à ça ?",
+      relance: "Moi j'ai besoin de toucher les livres avant de choisir. C'est quoi qui fait qu'un bouquin vous appelle depuis une étagère ?"
+    }
+  },
+  {
+    id: 72,
+    environnement: "Librairie",
+    profil: "Client indécis aux nouveautés",
+    humeur: "Hésitant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Soir",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Aider un choix en douceur",
+    theme: "Le vertige du choix",
+    zoomIn: {
+      accroche: "Vous reposez et reprenez le même livre depuis cinq minutes, je connais ce dilemme par cœur — il vous tente mais quelque chose vous freine ?",
+      relance: "Moi j'ai toujours peur de me tromper de lecture. C'est quoi qui vous fait franchir le pas pour un livre au final ?"
+    },
+    contexte: {
+      accroche: "La table des nouveautés c'est un piège, tout a l'air génial et on ne sait plus où donner de la tête — vous cherchez pour vous ou pour offrir ?",
+      relance: "Moi je dois trouver un cadeau et je sèche complètement. C'est quoi le livre que vous offririez les yeux fermés ?"
+    },
+    zoomOut: {
+      accroche: "On a tellement de choix aujourd'hui pour tout que ça en devient paralysant, même pour un simple livre — vous ressentez ça aussi ?",
+      relance: "Moi trop d'options me bloquent complètement. C'est quoi votre méthode pour vous décider sans y passer la soirée ?"
+    }
+  },
+
+  // ═══════════════ Restaurant ═══════════════
+  {
+    id: 73,
+    environnement: "Restaurant",
+    profil: "Client à la table voisine",
+    humeur: "Convivial",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Soir",
+    centreInteret: "Social",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Créer un lien entre tables",
+    theme: "Le plaisir de la table",
+    zoomIn: {
+      accroche: "Votre plat a l'air incroyable, on n'a pas pu s'empêcher de loucher dessus — c'est quoi que vous avez pris ?",
+      relance: "Moi je n'arrive jamais à choisir sur une carte. C'est quoi votre technique pour ne pas regretter votre commande ?"
+    },
+    contexte: {
+      accroche: "Cet endroit a une ambiance vraiment chaleureuse, on se sent bien tout de suite — vous êtes des habitués ou vous découvrez comme nous ?",
+      relance: "Moi c'est ma première fois ici. C'est quoi le plat de la maison qu'il faut absolument goûter d'après vous ?"
+    },
+    zoomOut: {
+      accroche: "Il n'y a rien de tel qu'un bon repas pour rassembler les gens, c'est un peu universel ça — vous êtes plutôt bonne table vous aussi ?",
+      relance: "Moi les meilleurs souvenirs sont toujours autour d'un repas. C'est quoi le dernier resto qui vous a vraiment marqué ?"
+    }
+  },
+  {
+    id: 74,
+    environnement: "Restaurant",
+    profil: "Chef qui sort en salle",
+    humeur: "Passionné",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Soir",
+    centreInteret: "Gastronomie",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Complimenter et apprendre",
+    theme: "La cuisine et le métier",
+    zoomIn: {
+      accroche: "On voit tout de suite la fierté du chef dans votre façon de présenter les plats — ce plat de ce soir, c'est une création à vous ?",
+      relance: "Moi je serais incapable d'inventer un plat. C'est quoi qui vous inspire quand vous imaginez une nouvelle recette ?"
+    },
+    contexte: {
+      accroche: "C'est rare qu'un chef prenne le temps de venir en salle, ça fait plaisir — grosse soirée en cuisine ce soir ?",
+      relance: "Moi j'imagine le stress d'un service complet. C'est quoi le plus dur à gérer un soir d'affluence ?"
+    },
+    zoomOut: {
+      accroche: "La gastronomie française est un vrai patrimoine, vous devez porter ça avec une certaine responsabilité — vous le vivez comment ?",
+      relance: "Moi je trouve qu'on redécouvre le goût du bien manger. C'est quoi qui a le plus changé dans votre métier ces dernières années ?"
+    }
+  },
+
+  // ═══════════════ Taxi / VTC ═══════════════
+  {
+    id: 75,
+    environnement: "Taxi / VTC",
+    profil: "Chauffeur peu bavard",
+    humeur: "Réservé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Fatigué",
+    moment: "Soir",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Briser un silence poli",
+    theme: "Les longues journées au volant",
+    zoomIn: {
+      accroche: "Je vous sens concentré sur la route, je vais pas vous embêter — mais dites, ça fait combien d'heures que vous roulez aujourd'hui ?",
+      relance: "Moi je serais lessivé à votre place. C'est quoi qui vous aide à tenir sur les longues journées au volant ?"
+    },
+    contexte: {
+      accroche: "La ville est calme à cette heure, ça doit être le seul moment tranquille de votre journée — vous préférez rouler le soir ?",
+      relance: "Moi j'aime bien cette ambiance de ville la nuit. C'est quoi votre créneau préféré pour bosser ?"
+    },
+    zoomOut: {
+      accroche: "Vous devez entendre toutes les histoires du monde dans votre voiture, une vraie boîte à confidences sur roues — ça vous marque parfois ?",
+      relance: "Moi je trouve ça fascinant tous ces gens qui passent. C'est quoi la course la plus mémorable que vous ayez faite ?"
+    }
+  },
+  {
+    id: 76,
+    environnement: "Taxi / VTC",
+    profil: "Chauffeur passionné de sa ville",
+    humeur: "Volubile",
+    ageGroupe: "Tous",
+    genre: "Homme",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Après-midi",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Profiter d'un guide local",
+    theme: "Les secrets de la ville",
+    zoomIn: {
+      accroche: "Vous connaissez visiblement chaque raccourci de cette ville, on se sent en sécurité — vous conduisez ici depuis toujours ?",
+      relance: "Moi je débarque et je suis perdu. C'est quoi le quartier que vous préférez dans cette ville ?"
+    },
+    contexte: {
+      accroche: "On passe devant des coins que je n'aurais jamais vus tout seul, c'est mieux qu'une visite guidée — c'est quoi ce bâtiment qu'on vient de croiser ?",
+      relance: "Moi j'adore découvrir une ville par les yeux d'un local. C'est quoi l'endroit que les touristes ratent toujours ?"
+    },
+    zoomOut: {
+      accroche: "Vous voyez la ville changer jour après jour depuis votre voiture, c'est un observatoire unique — elle va dans le bon sens d'après vous ?",
+      relance: "Moi j'ai l'impression que tout va trop vite partout. C'est quoi qui a le plus changé dans votre ville ces dernières années ?"
+    }
+  },
+
+  // ═══════════════ Piscine ═══════════════
+  {
+    id: 77,
+    environnement: "Piscine",
+    profil: "Nageur de la ligne voisine",
+    humeur: "Motivé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Sport",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Partager la motivation sportive",
+    theme: "L'effort et la régularité",
+    zoomIn: {
+      accroche: "Vous avez un crawl super régulier, ça se voit que c'est pas votre première longueur — vous nagez depuis longtemps ?",
+      relance: "Moi je m'essouffle au bout de deux longueurs. C'est quoi le conseil qui vous a fait progresser le plus ?"
+    },
+    contexte: {
+      accroche: "C'est le bon plan de venir tôt, on a presque les lignes pour nous — vous êtes du genre matinal pour nager ?",
+      relance: "Moi j'essaie de m'y tenir mais c'est dur de sortir du lit. C'est quoi qui vous motive à venir aussi tôt ?"
+    },
+    zoomOut: {
+      accroche: "La natation c'est le sport où on est vraiment seul avec sa tête, presque méditatif — vous venez pour le corps ou pour vous vider l'esprit ?",
+      relance: "Moi je crois que je viens surtout pour débrancher. C'est quoi que la nage vous apporte au-delà du sport ?"
+    }
+  },
+  {
+    id: 78,
+    environnement: "Piscine",
+    profil: "Parent au bord du bassin",
+    humeur: "Bienveillant",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Social",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Créer un lien entre parents",
+    theme: "La vie de famille",
+    zoomIn: {
+      accroche: "On est plusieurs à surveiller nos petits du coin de l'œil, la routine du mercredi — c'est le vôtre celui qui saute partout ?",
+      relance: "Moi le mien refuse de sortir de l'eau à chaque fois. C'est quoi votre technique pour les convaincre que le cours est fini ?"
+    },
+    contexte: {
+      accroche: "Ces après-midis piscine avec les enfants, on se retrouve toujours les mêmes au bord du bassin — vous venez tous les mercredis vous aussi ?",
+      relance: "Moi je commence à reconnaître les têtes. C'est quoi les autres activités que vous faites faire aux vôtres ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou tout ce qu'on trimballe nos enfants pour qu'ils s'épanouissent, on ne s'arrête jamais — vous le vivez comment cette course ?",
+      relance: "Moi j'ai parfois l'impression d'être un taxi plus qu'un parent. C'est quoi qui compte le plus pour vous dans tout ça au fond ?"
+    }
+  },
+
+  // ═══════════════ Boulangerie ═══════════════
+  {
+    id: 79,
+    environnement: "Boulangerie",
+    profil: "Client dans la file",
+    humeur: "Pressé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Quotidien",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Partager un moment de file",
+    theme: "Les petits plaisirs du matin",
+    zoomIn: {
+      accroche: "Vous avez repéré les croissants qui sortent du four, moi aussi je les guette — vous craquez pour lesquels d'habitude ?",
+      relance: "Moi j'hésite toujours entre pain au choc et croissant. C'est quoi votre péché mignon du matin ?"
+    },
+    contexte: {
+      accroche: "Cette boulangerie a toujours la queue jusqu'à la porte, c'est bon signe — vous venez ici tous les matins vous aussi ?",
+      relance: "Moi je viens de m'installer dans le quartier. C'est quoi la spécialité de la maison qu'il faut absolument tester ?"
+    },
+    zoomOut: {
+      accroche: "Il y a un vrai bonheur simple dans le pain frais du matin, un truc qui traverse les générations — vous y êtes attaché aussi ?",
+      relance: "Moi c'est mon petit rituel qui rend la journée meilleure. C'est quoi votre petit plaisir quotidien à vous ?"
+    }
+  },
+  {
+    id: 80,
+    environnement: "Boulangerie",
+    profil: "Habitué du matin",
+    humeur: "Jovial",
+    ageGroupe: "Senior",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Social",
+    proximite: "Habitué",
+    audace: 1,
+    objectif: "Nouer un lien de quartier",
+    theme: "Les habitudes et le voisinage",
+    zoomIn: {
+      accroche: "On dirait que la boulangère connaît déjà votre commande par cœur, ça c'est le vrai statut d'habitué — vous venez ici depuis des années ?",
+      relance: "Moi je rêve d'être reconnu comme ça quelque part. C'est quoi qui fait qu'on s'attache à un commerce de quartier ?"
+    },
+    contexte: {
+      accroche: "C'est un peu le cœur du quartier ces boulangeries, on y croise toujours du monde qu'on connaît — vous habitez le coin depuis longtemps ?",
+      relance: "Moi je découvre le quartier. C'est quoi qui a le plus de charme ici selon un ancien comme vous ?"
+    },
+    zoomOut: {
+      accroche: "Ces petits commerces qui résistent, c'est ce qui fait qu'un quartier reste vivant plutôt qu'anonyme — vous le ressentez comme ça ?",
+      relance: "Moi je trouve ça précieux, ces lieux où on se parle encore. C'est quoi qui a le plus changé dans le quartier à vos yeux ?"
+    }
+  },
+
+  // ═══════════════ Banque / Agence ═══════════════
+  {
+    id: 81,
+    environnement: "Banque / Agence",
+    profil: "Personne dans la file d'attente",
+    humeur: "Agacée",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Désamorcer l'agacement partagé",
+    theme: "La patience des démarches",
+    zoomIn: {
+      accroche: "On a tous les deux cette tête de gens qui pensaient en avoir pour cinq minutes — vous êtes là depuis longtemps aussi ?",
+      relance: "Moi je venais pour un truc censé être rapide. C'est quoi votre astuce pour ne pas péter un câble dans ces files ?"
+    },
+    contexte: {
+      accroche: "C'est incroyable qu'il faille encore se déplacer et attendre pour ce genre de démarche en 2024 — vous gérez tout en agence vous aussi ?",
+      relance: "Moi je fais un maximum en ligne mais parfois pas le choix. C'est quoi qui vous oblige à venir sur place aujourd'hui ?"
+    },
+    zoomOut: {
+      accroche: "On passe un temps fou dans ces démarches administratives sans fin, c'est un peu le prix de la vie moderne — vous vivez ça comment ?",
+      relance: "Moi ça me déprime toute cette paperasse. C'est quoi qui vous simplifierait vraiment la vie si ça existait ?"
+    }
+  },
+  {
+    id: 82,
+    environnement: "Banque / Agence",
+    profil: "Client au guichet voisin",
+    humeur: "Posé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Quotidien",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "Amorcer un échange simple",
+    theme: "Les projets et l'argent",
+    zoomIn: {
+      accroche: "Vous avez l'air de quelqu'un qui gère ses affaires tranquillement, sans stress — vous venez pour un projet ou juste de la routine ?",
+      relance: "Moi je viens de me lancer dans un projet un peu fou. C'est quoi votre rapport à ces grandes décisions financières ?"
+    },
+    contexte: {
+      accroche: "C'est calme ce matin, on est loin de la cohue habituelle — vous avez trouvé le bon créneau pour éviter l'attente ?",
+      relance: "Moi je viens toujours à l'ouverture pour ça. C'est quoi votre truc pour que ces passages en agence soient les moins pénibles ?"
+    },
+    zoomOut: {
+      accroche: "On a tous un rapport compliqué à l'argent, entre le nécessaire et l'angoisse — vous êtes plutôt fourmi ou vous profitez du présent ?",
+      relance: "Moi j'oscille entre les deux sans arrêt. C'est quoi votre philosophie pour vivre bien sans passer sa vie à compter ?"
+    }
+  },
+
+  // ═══════════════ Galerie d'Art ═══════════════
+  {
+    id: 83,
+    environnement: "Galerie d'Art",
+    profil: "Visiteur devant une toile",
+    humeur: "Contemplatif",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Partager une émotion artistique",
+    theme: "L'art et le ressenti",
+    zoomIn: {
+      accroche: "Vous êtes captivé par cette toile, ça se voit — moi je reste devant sans savoir ce que ça me fait, c'est quoi qui vous touche là-dedans ?",
+      relance: "Moi j'ai toujours peur de ne pas comprendre l'art. C'est quoi votre façon de regarder une œuvre pour vraiment la ressentir ?"
+    },
+    contexte: {
+      accroche: "Cette expo a une vraie cohérence, on sent une intention forte du début à la fin — vous connaissiez déjà le travail de l'artiste ?",
+      relance: "Moi je suis venu un peu par hasard. C'est quoi l'œuvre de la galerie qui vous a le plus arrêté ?"
+    },
+    zoomOut: {
+      accroche: "On vient chercher quelque chose de particulier dans l'art, une émotion qu'on ne trouve pas ailleurs — c'est quoi qui vous y ramène vous ?",
+      relance: "Moi je crois que je cherche à être bousculé. C'est quoi la dernière œuvre qui vous a vraiment remué au fond ?"
+    }
+  },
+  {
+    id: 84,
+    environnement: "Galerie d'Art",
+    profil: "Artiste exposant",
+    humeur: "Sensible",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Haute",
+    moment: "Soir",
+    centreInteret: "Culture",
+    proximite: "Inconnu",
+    audace: 2,
+    objectif: "Aller à la rencontre du créateur",
+    theme: "Le processus créatif",
+    zoomIn: {
+      accroche: "Attendez, c'est vous l'artiste derrière tout ça ? On sent une vraie signature, une patte — c'est quoi qui vous a mené à ce style ?",
+      relance: "Moi je suis fasciné par ceux qui créent. C'est quoi le déclic qui vous a fait devenir artiste ?"
+    },
+    contexte: {
+      accroche: "Ça doit être vertigineux de voir des inconnus face à vos œuvres, chacun y projetant sa propre histoire — vous le vivez comment ce soir de vernissage ?",
+      relance: "Moi je n'oserais jamais m'exposer comme ça. C'est quoi le plus dur quand on montre son travail au public ?"
+    },
+    zoomOut: {
+      accroche: "Vivre de son art aujourd'hui c'est un vrai pari, entre la passion et la réalité — vous arrivez à tenir cet équilibre ?",
+      relance: "Moi j'admire ceux qui suivent leur voie malgré tout. C'est quoi qui vous fait continuer même dans les moments de doute ?"
+    }
+  },
+
+  // ═══════════════ Ascenseur de Bureaux ═══════════════
+  {
+    id: 85,
+    environnement: "Ascenseur de Bureaux",
+    profil: "Personne pressée entre deux étages",
+    humeur: "Tendue",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Quotidien",
+    proximite: "Croisé",
+    audace: 2,
+    objectif: "Détendre un trajet express",
+    theme: "Le rush du matin",
+    zoomIn: {
+      accroche: "Vous avez la course du matin dans le regard, café dans une main, téléphone dans l'autre — grosse journée qui vous attend ?",
+      relance: "Moi j'ai l'impression de commencer déjà à la bourre. C'est quoi votre carburant pour tenir un matin chargé ?"
+    },
+    contexte: {
+      accroche: "Ces vingt secondes d'ascenseur, c'est le seul moment de calme forcé de la matinée — vous montez tout en haut vous aussi ?",
+      relance: "Moi je suis au dernier, le temps d'un soupir avant l'open space. C'est quoi le service où vous filez comme ça ?"
+    },
+    zoomOut: {
+      accroche: "C'est fou ce rythme qu'on s'impose tous, à courir dès la première minute de la journée — vous arrivez à décrocher parfois ?",
+      relance: "Moi j'ai du mal à lever le pied. C'est quoi qui vous permet vraiment de souffler dans une semaine chargée ?"
+    }
+  },
+  {
+    id: 86,
+    environnement: "Ascenseur de Bureaux",
+    profil: "Nouveau venu qui cherche son étage",
+    humeur: "Hésitant",
+    ageGroupe: "Jeune",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Social",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Accueillir et rassurer",
+    theme: "Les premiers jours",
+    zoomIn: {
+      accroche: "Vous hésitez sur les boutons, je parie que c'est un de vos premiers jours ici — je me trompe ?",
+      relance: "Moi je me souviens d'être arrivé complètement perdu. C'est quoi le poste que vous venez de décrocher ?"
+    },
+    contexte: {
+      accroche: "Ce bâtiment est un vrai labyrinthe au début, tout le monde s'y perd la première semaine — vous cherchez quel service ?",
+      relance: "Moi j'ai mis un mois à trouver la cafèt. C'est quoi qui vous aiderait le plus à prendre vos marques ici ?"
+    },
+    zoomOut: {
+      accroche: "Les premiers jours dans un nouveau boulot, c'est un mélange d'excitation et de trac, ça remue — vous le vivez comment là ?",
+      relance: "Moi j'adore et je déteste ces débuts à la fois. C'est quoi qui vous a donné envie de rejoindre cette boîte ?"
+    }
+  },
+
+  // ═══════════════ Bureau de Poste ═══════════════
+  {
+    id: 87,
+    environnement: "Bureau de Poste",
+    profil: "Personne dans la file",
+    humeur: "Résignée",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Fermé",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Quotidien",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Alléger une attente commune",
+    theme: "Les files interminables",
+    zoomIn: {
+      accroche: "Vous avez l'air aussi résigné que moi devant cette file qui n'avance pas — vous venez pour un colis vous aussi ?",
+      relance: "Moi je viens récupérer un truc censé être livré chez moi. C'est quoi votre technique pour prendre votre mal en patience ici ?"
+    },
+    contexte: {
+      accroche: "La poste, c'est le dernier endroit où le temps semble s'être arrêté, un guichet ouvert sur trois — vous y passez souvent ?",
+      relance: "Moi j'évite au maximum mais là pas le choix. C'est quoi le meilleur horaire pour éviter cette cohue selon vous ?"
+    },
+    zoomOut: {
+      accroche: "C'est marrant, on commande tout en ligne mais on finit toujours par revenir faire la queue ici — le tout numérique n'a pas tout résolu hein ?",
+      relance: "Moi je trouve qu'on a perdu au change parfois. C'est quoi le service à l'ancienne qui vous manque un peu aujourd'hui ?"
+    }
+  },
+  {
+    id: 88,
+    environnement: "Bureau de Poste",
+    profil: "Petit commerçant qui envoie ses colis",
+    humeur: "Affairé",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Haute",
+    moment: "Matin",
+    centreInteret: "Travail",
+    proximite: "Croisé",
+    audace: 1,
+    objectif: "S'intéresser à l'activité de l'autre",
+    theme: "L'entreprise et la débrouille",
+    zoomIn: {
+      accroche: "Vous avez une pile de colis impressionnante, ça sent le petit business qui tourne — c'est vous qui vendez tout ça ?",
+      relance: "Moi je rêve de me lancer dans quelque chose à moi. C'est quoi que vous vendez, si c'est pas indiscret ?"
+    },
+    contexte: {
+      accroche: "Vous avez l'air d'être un habitué du comptoir, ça se voit que l'envoi de colis fait partie de votre quotidien — c'est le rush du matin ?",
+      relance: "Moi je galère à envoyer un seul colis. C'est quoi votre organisation pour gérer tous ces envois sans y passer la journée ?"
+    },
+    zoomOut: {
+      accroche: "Monter son activité aujourd'hui c'est un sacré défi mais aussi une belle liberté — vous le vivez comment cette aventure d'indépendant ?",
+      relance: "Moi j'hésite à sauter le pas depuis des années. C'est quoi le conseil que vous donneriez à quelqu'un qui veut se lancer ?"
+    }
+  },
+
+  // ═══════════════ Salle d'Embarquement ═══════════════
+  {
+    id: 89,
+    environnement: "Salle d'Embarquement",
+    profil: "Grand voyageur détendu",
+    humeur: "Serein",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Ouvert",
+    energie: "Basse",
+    moment: "Après-midi",
+    centreInteret: "Voyage",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Échanger des histoires de voyage",
+    theme: "L'expérience du voyage",
+    zoomIn: {
+      accroche: "Vous attendez l'embarquement avec un calme olympien, ça sent le voyageur aguerri — vous prenez l'avion souvent ?",
+      relance: "Moi je stresse encore à chaque fois. C'est quoi votre secret pour rester aussi zen avant un vol ?"
+    },
+    contexte: {
+      accroche: "Ces salles d'embarquement ont un charme bizarre, ce moment suspendu juste avant de partir — vous décollez vers où aujourd'hui ?",
+      relance: "Moi je pars pour un endroit dont je rêve depuis longtemps. C'est quoi la destination qui vous a le plus marqué jusqu'ici ?"
+    },
+    zoomOut: {
+      accroche: "Voyager change vraiment la façon de voir le monde, ça élargit tout — c'est ce que vous êtes venu chercher dans les voyages vous aussi ?",
+      relance: "Moi chaque voyage me transforme un peu. C'est quoi le pays qui vous a le plus bouleversé vos certitudes ?"
+    }
+  },
+  {
+    id: 90,
+    environnement: "Salle d'Embarquement",
+    profil: "Voyageur qui travaille sur son laptop",
+    humeur: "Concentré",
+    ageGroupe: "Tous",
+    genre: "Indéfini",
+    vibe: "Neutre",
+    energie: "Basse",
+    moment: "Matin",
+    centreInteret: "Travail",
+    proximite: "Inconnu",
+    audace: 1,
+    objectif: "Aborder un pro en déplacement",
+    theme: "Le travail nomade",
+    zoomIn: {
+      accroche: "Vous bossez jusqu'à la dernière minute avant d'embarquer, le vrai réflexe du pro en déplacement — grosse échéance qui vous poursuit ?",
+      relance: "Moi je n'arrive jamais à travailler dans ces conditions. C'est quoi votre secret pour rester concentré au milieu de tout ce bruit ?"
+    },
+    contexte: {
+      accroche: "Les salles d'embarquement sont devenues des bureaux à ciel ouvert, on est plusieurs à pianoter là — vous voyagez pour le travail vous aussi ?",
+      relance: "Moi j'enchaîne les déplacements en ce moment. C'est quoi qui rend un voyage d'affaires supportable pour vous ?"
+    },
+    zoomOut: {
+      accroche: "On peut bosser de partout aujourd'hui, mais du coup on ne décroche jamais vraiment — vous arrivez à poser des limites vous ?",
+      relance: "Moi la frontière boulot-perso a complètement explosé. C'est quoi votre astuce pour vraiment déconnecter quand il le faut ?"
+    }
   }
 ];
