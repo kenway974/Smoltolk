@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, User, Tag, Copy, Check, ChevronDown, Sparkles, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
+import { MapPin, User, Tag, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, Sparkles, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
 
 const VIBE_STYLE = {
   Ouvert:  "bg-emerald-100 text-emerald-700",
@@ -73,10 +73,23 @@ function CopyButton({ text }) {
 
 export default function SituationCard({ situation, index = 0 }) {
   const [activeLevel, setActiveLevel] = useState("zoomIn");
+  const [variantIndex, setVariantIndex] = useState(0);
   const [relanceOpen, setRelanceOpen] = useState(false);
 
   const level = LEVELS.find(l => l.key === activeLevel);
-  const data  = situation[activeLevel];
+  // Chaque niveau peut contenir plusieurs variantes d'accroche.
+  const raw = situation[activeLevel];
+  const variants = Array.isArray(raw) ? raw : [raw];
+  const idx = Math.min(variantIndex, variants.length - 1);
+  const data = variants[idx];
+  const hasVariants = variants.length > 1;
+
+  const goToLevel = (key) => { setActiveLevel(key); setVariantIndex(0); setRelanceOpen(false); };
+  const cycleVariant = (dir) => {
+    setVariantIndex(i => (i + dir + variants.length) % variants.length);
+    setRelanceOpen(false);
+  };
+
   const audaceInfo = situation.audace ? AUDACE_DATA[situation.audace] : null;
 
   return (
@@ -148,7 +161,7 @@ export default function SituationCard({ situation, index = 0 }) {
           return (
             <button
               key={key}
-              onClick={() => { setActiveLevel(key); setRelanceOpen(false); }}
+              onClick={() => goToLevel(key)}
               className={`flex-1 flex items-center justify-center gap-1 py-2 rounded-xl text-xs font-bold transition-all duration-200 ${
                 active ? `bg-white shadow-sm ${activeText}` : "text-stone-500"
               }`}
@@ -165,14 +178,44 @@ export default function SituationCard({ situation, index = 0 }) {
 
       {/* ── Accroche ── */}
       <div
-        key={activeLevel}
-        className={`mx-5 mb-4 px-4 py-4 rounded-2xl flex items-start gap-3 animate-phrase-swap ${level.box}`}
+        key={`${activeLevel}-${idx}`}
+        className={`mx-5 mb-2 px-4 py-4 rounded-2xl flex items-start gap-3 animate-phrase-swap ${level.box}`}
       >
         <p className={`flex-1 text-sm font-semibold leading-relaxed ${level.text}`}>
           « {data.accroche} »
         </p>
         <CopyButton text={data.accroche} />
       </div>
+
+      {/* Navigation entre variantes d'accroche */}
+      {hasVariants && (
+        <div className="mx-5 mb-4 flex items-center justify-center gap-3">
+          <button
+            onClick={() => cycleVariant(-1)}
+            className="p-1 rounded-lg text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition-colors active:scale-90"
+            aria-label="Formulation précédente"
+          >
+            <ChevronLeft size={16} strokeWidth={2.5} />
+          </button>
+          <div className="flex items-center gap-1.5">
+            {variants.map((_, i) => (
+              <span
+                key={i}
+                className={`h-1.5 rounded-full transition-all duration-200 ${
+                  i === idx ? "w-4 bg-stone-500" : "w-1.5 bg-stone-300"
+                }`}
+              />
+            ))}
+          </div>
+          <button
+            onClick={() => cycleVariant(1)}
+            className="p-1 rounded-lg text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition-colors active:scale-90"
+            aria-label="Autre formulation"
+          >
+            <ChevronRight size={16} strokeWidth={2.5} />
+          </button>
+        </div>
+      )}
 
       {/* ── Relance (Rebond + Ouverture) ── */}
       <div className="mx-5 mb-5">
