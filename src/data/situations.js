@@ -1,6 +1,8 @@
 // Structure : wizard fields (matching) + pyramide Zoom In / Contexte / Zoom Out.
 // Chaque niveau (zoomIn / contexte / zoomOut) est un TABLEAU de variantes { accroche, relance }.
-// La carte permet de faire défiler les variantes. Au moins 4 variantes par niveau.
+// La carte permet de faire défiler les variantes.
+// Au moins 4 variantes par niveau ; 6 pour les lieux du quotidien (rue, café, boulangerie,
+// supermarché, transports, sport, pharmacie, parc, marché, restaurant, taxi/VTC, poste, banque).
 //
 // Wizard fields :
 //   centreInteret — sujet principal (filtre StepInteret)
@@ -113,6 +115,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez trouvé le mot gentil pour la dame juste avant moi alors que ça n'arrête pas — vous gardez de l'énergie pour chacun, c'est fou.",
         "relance": "Moi en fin de matinée je serais déjà un zombie sans un mot pour personne. Comment vous faites pour rester humaine avec chaque client quand ça n'arrête jamais ?"
+      },
+      {
+        "accroche": "Vous replacez chaque article dans le bon sens avant de le passer, même quand ça pousse derrière — ce petit soin, c'est machinal chez vous ?",
+        "relance": "Moi je balancerais tout en vrac sur le tapis sans réfléchir. C'est un réflexe qu'on prend au fil des années ou vous avez toujours été soigneuse comme ça ?"
+      },
+      {
+        "accroche": "Vous gardez une voix posée alors que la machine bipe dans tous les sens autour de vous — ce calme, il vous vient d'où au milieu du vacarme ?",
+        "relance": "Moi le bruit me rendrait dingue en une heure à peine. Vous finissez par ne plus l'entendre du tout ou vous vous forcez à rester zen ?"
       }
     ],
     "contexte": [
@@ -131,6 +141,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Les gens du matin ont l'air d'avoir tous leur petit rituel, le même passage, la même heure — vous reconnaissez les habitués rien qu'à leur panier ?",
         "relance": "Moi je débarque n'importe quand, jamais réglé. Y en a que vous voyez arriver comme une horloge, à la minute près ?"
+      },
+      {
+        "accroche": "Les caisses automatiques sont pleines et pourtant tout le monde fait la queue chez vous — les gens préfèrent encore un vrai visage, on dirait ?",
+        "relance": "Moi je choisis toujours la caisse avec quelqu'un, j'avoue. Ils viennent pour le contact ou juste parce que les machines les rendent fous ?"
+      },
+      {
+        "accroche": "On sent que c'est le début du mois, les chariots sont pleins à craquer aujourd'hui — vous le voyez arriver rien qu'à ça ?",
+        "relance": "Moi je fais mes grosses courses toujours au même moment, réglé comme une horloge. Y a des jours dans le mois où vous savez d'avance que ça va être la folie ?"
       }
     ],
     "zoomOut": [
@@ -149,6 +167,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Le lundi tout le monde traîne un peu la patte dans la file, comme si le week-end pesait encore — vous le sentez à l'humeur des gens ?",
         "relance": "Moi le lundi je fais mes courses au ralenti, la tête ailleurs. Les gens sont plus doux en début de semaine ou plus grognons, franchement ?"
+      },
+      {
+        "accroche": "Plus la matinée avance, plus les gens dans la file ont l'air pressés d'en finir, comme si l'estomac les rappelait — vous le sentez monter, cette impatience ?",
+        "relance": "Moi passé onze heures je pense déjà au déjeuner, c'est plus fort que moi. L'humeur des gens change vraiment selon l'heure ou c'est dans ma tête ?"
+      },
+      {
+        "accroche": "Au fond, ce qui défile sur votre tapis raconte toute la vie des gens, leurs habitudes, leurs petits plaisirs — vous devez en deviner, des choses, rien qu'au panier ?",
+        "relance": "Moi mon panier trahit direct que je vis seul et que je cuisine mal. Vous vous faites des idées sur les gens rien qu'à leurs achats ou vous n'y prêtez plus attention ?"
       }
     ]
   },
@@ -183,6 +209,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il s'arrête pile pour renifler chaque coin, il a l'air de connaître le quartier mieux que vous — c'est lui qui a ses habitudes ou vous suivez le mouvement ?",
         "relance": "Moi je me perds encore dans ce quartier alors que lui a l'air d'avoir sa carte en tête. Il vous emmène toujours aux mêmes endroits ou il aime explorer ?"
+      },
+      {
+        "accroche": "Il a une sagesse de vieux monsieur, rien ne le presse — il a toujours été aussi tranquille ou l'âge l'a calmé ?",
+        "relance": "Moi j'imagine un chiot qui tire partout et je flippe déjà. Le caractère se pose vraiment avec les années ou ça dépend surtout de la race ?"
+      },
+      {
+        "accroche": "Il a un petit bandana qui lui donne un genre fou — c'est vous qui l'accessoirisez ou c'est un cadeau de quelqu'un ?",
+        "relance": "Moi je n'oserais jamais habiller un animal, j'aurais trop peur du ridicule. Il se laisse faire ou il déteste qu'on lui mette des trucs ?"
       }
     ],
     "contexte": [
@@ -201,6 +235,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Le quartier a un côté village le matin, on croise toujours les mêmes têtes à la même heure — vous faites partie des réguliers du coin ?",
         "relance": "Moi je débarque et je trouve ça hyper convivial pour une ville. C'est un quartier où les gens se parlent facilement ou c'est le chien qui ouvre les portes ?"
+      },
+      {
+        "accroche": "Il y a ce petit commerce plus bas qui laisse toujours une gamelle d'eau dehors pour les chiens — vous connaissez tous les bons coins pour lui dans le quartier ?",
+        "relance": "Moi je découvre à peine que le quartier est aussi accueillant pour les animaux. Vous avez repéré tous les endroits qui les gâtent ou c'est lui qui vous les a montrés ?"
+      },
+      {
+        "accroche": "Le chemin le long de l'eau juste derrière est parfait pour marcher au calme — vous poussez jusque-là ou vous restez dans les rues ?",
+        "relance": "Moi je découvre encore les recoins verts du coin, je viens d'emménager. C'est le genre d'endroit que seuls les promeneurs connaissent ou tout le monde y va ?"
       }
     ],
     "zoomOut": [
@@ -219,6 +261,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Avoir un chien, ça oblige à ralentir et à vivre au rythme des saisons alors que tout le monde court partout — vous le vivez comme une chance ?",
         "relance": "Moi j'ai l'impression de foncer sans jamais lever les yeux, ça me manque ce truc-là. Il vous a changé, ce rythme imposé, ou vous étiez déjà comme ça ?"
+      },
+      {
+        "accroche": "C'est fou comme un chien vous fait parler à des inconnus qu'on n'aurait jamais abordés autrement — il vous ouvre des portes sans rien demander, non ?",
+        "relance": "Moi je rêverais d'avoir cette excuse pour engager la conversation aussi facilement. Vous avez rencontré des gens que vous n'auriez jamais croisés sans lui ?"
+      },
+      {
+        "accroche": "Au fond, avoir quelqu'un d'aussi content de vous suivre partout dès le matin, c'est une sacrée dose de bonne humeur pour démarrer — il vous booste autant que ça ?",
+        "relance": "Moi je commence mes journées seul et grognon, ça donne presque envie. Vous diriez qu'il change vraiment votre humeur du matin ou vous seriez de bonne humeur de toute façon ?"
       }
     ]
   },
@@ -253,6 +303,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous calez la mousse du cappuccino comme si c'était une œuvre, même en plein coup de feu — vous lâchez jamais sur le détail, hein ?",
         "relance": "Moi je renverserais tout à la première commande. Ça vous agace quand les gens engloutissent sans même regarder le dessin que vous avez fait ?"
+      },
+      {
+        "accroche": "Vous avez un petit badge épinglé sur le tablier, ça a l'air d'avoir une signification — c'est le café qui l'impose ou c'est perso ?",
+        "relance": "Moi je collectionne rien, j'ai peur de m'attacher aux objets. Il vient d'où, celui-là, si c'est pas indiscret ?"
+      },
+      {
+        "accroche": "Vos baskets ont l'air pensées pour tenir debout dix heures d'affilée — c'est le vrai secret de survie du métier, de bonnes chaussures ?",
+        "relance": "Moi mon dos crierait au bout d'une heure derrière ce comptoir. C'est les jambes qui lâchent en premier ou c'est surtout le mental à ce rythme ?"
       }
     ],
     "contexte": [
@@ -271,6 +329,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Je vois que vous avez déjà les tasses alignées pour la prochaine salve, vous anticipez tout — c'est le seul moyen de survivre au rush ?",
         "relance": "Je vais pas vous ralentir, juste un noisette. On tient grâce à l'organisation ou c'est surtout le mental à ce poste ?"
+      },
+      {
+        "accroche": "Je vois qu'il ne vous reste presque plus de croissants, le matin ça part à une vitesse folle — c'est toujours dévalisé aussi tôt ?",
+        "relance": "Je vais me rabattre sur un simple expresso, tant pis. C'est quoi qui part en premier le matin, le sucré ou le salé ?"
+      },
+      {
+        "accroche": "Je vois que c'est quasiment que des cafés à emporter ce matin, personne ne s'assoit — les gens ne prennent même plus le temps, hein ?",
+        "relance": "Je vais faire pareil, un serré à emporter, je suis à la bourre aussi. Ça vous manque, les clients qui restaient s'asseoir tranquilles, ou c'est mieux pour le rythme ?"
       }
     ],
     "zoomOut": [
@@ -289,6 +355,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a un truc universel dans ce premier café du matin, tout le monde en a besoin comme d'une béquille pour démarrer — vous êtes un peu leur premier réconfort de la journée.",
         "relance": "Moi avant la première gorgée je suis même pas sûr d'exister. Ça vous fait quoi d'être le passage obligé qui remet tout le monde d'aplomb ?"
+      },
+      {
+        "accroche": "Un matin comme ça, tout le monde débarque avec la même tête des mauvais jours, comme si personne n'avait choisi d'être réveillé — vous encaissez l'humeur de la ville entière, non ?",
+        "relance": "Moi avant huit heures je suis d'une humeur de chien, je m'excuse d'avance. Vous finissez par prendre sur vous ou l'ambiance maussade déteint sur vous aussi ?"
+      },
+      {
+        "accroche": "Au fond vous êtes peut-être la seule interaction humaine de la journée pour certains qui bossent seuls — vous sentez que pour eux ce passage compte plus qu'un simple café ?",
+        "relance": "Moi je viens autant pour le bonjour que pour la caféine, dit comme ça c'est un peu triste. Vous le remarquez, ceux qui viennent surtout pour échanger deux mots ?"
       }
     ]
   },
@@ -393,6 +467,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous faites goûter avant même qu'on demande, un bout par-ci un bout par-là — c'est votre façon à vous de vendre ?",
         "relance": "Moi je n'oserais jamais tendre un morceau à un inconnu comme ça. Les gens achètent plus quand ils goûtent ou c'est juste le plaisir de partager ?"
+      },
+      {
+        "accroche": "Vous avez le teint de quelqu'un qui vit dehors toute l'année, ça se voit que vous êtes aux champs — vous êtes de la terre depuis toujours ou c'est venu sur le tard ?",
+        "relance": "Moi je vire au homard au moindre rayon de soleil, alors je vous envie. On s'habitue vraiment à bosser dehors par tous les temps ou c'est une école de patience ?"
+      },
+      {
+        "accroche": "Vous avez des variétés que je n'ai jamais vues nulle part, des noms que je ne sais même pas prononcer — vous chassez les trucs rares exprès ou ça pousse comme ça chez vous ?",
+        "relance": "Moi je connais trois légumes et je m'arrête là, c'est dramatique. C'est quoi la variété oubliée que vous adorez faire redécouvrir aux gens ?"
       }
     ],
     "contexte": [
@@ -411,6 +493,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous êtes déjà installé alors que le marché ouvre à peine, tout est frais du matin même — c'est arrivé du champ à l'aube, tout ça ?",
         "relance": "Moi j'achète toujours sans savoir depuis combien de temps c'est cueilli. Ça change vraiment tant que ça, le vrai frais du jour, au goût ?"
+      },
+      {
+        "accroche": "Votre voisin d'étal a l'air de vous chambrer sans arrêt, il y a une sacrée ambiance entre vous — vous vous connaissez tous depuis des années sur ce marché ?",
+        "relance": "Moi je rêverais de bosser dans une ambiance pareille au lieu de mon open space silencieux. Vous formez une vraie petite famille sur le marché ou chacun défend sa boutique ?"
+      },
+      {
+        "accroche": "Avec les nuits qui fraîchissent, j'imagine que ça change déjà ce que vous pouvez sortir cette semaine — la météo vous dicte tout, non ?",
+        "relance": "Moi je ne fais jamais le lien entre le temps qu'il fait et ce que je trouve sur l'étal. C'est quoi le produit qui va bientôt disparaître avec le changement de saison ?"
       }
     ],
     "zoomOut": [
@@ -429,6 +519,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vendre ce qui pousse au fil des mois, c'est presque un métier qui vous rebranche sur le vrai rythme des choses alors qu'on a tout oublié — vous le ressentez comme ça ?",
         "relance": "Moi en supermarché j'ai des tomates en décembre et ça me perturbe même plus. Ça vous agace, vous, cette déconnexion des gens avec les saisons ?"
+      },
+      {
+        "accroche": "On sent que les gens reviennent au marché autant pour savoir d'où vient ce qu'ils mangent que pour la fraîcheur — vous le voyez, ce retour vers le vrai, chez vos clients ?",
+        "relance": "Moi j'ai passé des années à acheter sans jamais me demander d'où ça venait. Vous croyez que c'est une vraie prise de conscience ou juste une mode qui passera ?"
+      },
+      {
+        "accroche": "Faire ce métier, c'est un peu transmettre un savoir que plus grand monde n'a, reconnaître un bon produit, cuisiner de saison — vous avez l'impression de passer un flambeau, non ?",
+        "relance": "Moi je serais infoutu de dire si une tomate est bonne avant de la croquer. Vous prenez le temps d'expliquer aux gens ou ils sont trop pressés pour écouter ?"
       }
     ]
   },
@@ -463,6 +561,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez la craie plein les mains, ça veut dire du sérieux ça — vous êtes plutôt force pure ou technique ?",
         "relance": "Moi je glisse sur la barre au bout de trois reps, c'est pathétique. La magnésie ça aide vraiment ou c'est surtout un truc de puriste ?"
+      },
+      {
+        "accroche": "Votre montre a l'air de tout suivre à la seconde près — vous surveillez vraiment vos pulsations en direct ou c'est plus pour les stats après ?",
+        "relance": "Moi je cours au feeling et je finis rouge écrevisse sans savoir pourquoi. Ça change vraiment quelque chose de bosser avec les chiffres ou c'est un truc de coach ?"
+      },
+      {
+        "accroche": "Vous avez une corde à sauter accrochée à votre sac, on n'en voit plus beaucoup — c'est votre arme secrète pour le cardio, ce vieux truc ?",
+        "relance": "Moi la dernière fois que j'ai sauté à la corde j'avais dix ans et je m'emmêlais les pieds. C'est vraiment aussi efficace qu'on dit ou c'est surtout nostalgique ?"
       }
     ],
     "contexte": [
@@ -481,6 +587,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "La salle est quasi déserte à cette heure, on a le champ libre sur tout — c'est votre créneau à vous aussi, avant que ça se remplisse ?",
         "relance": "Moi je viens tôt surtout pour pas croiser trop de monde. Les habitués du matin, c'est toujours les mêmes ou ça change souvent ?"
+      },
+      {
+        "accroche": "Le coin cardio est encore désert à cette heure, les tapis n'attendent que vous — c'est là que vous commencez toujours ou vous gardez ça pour la fin ?",
+        "relance": "Moi je fuis les tapis, je m'ennuie au bout de cinq minutes. C'est quoi votre astuce pour rendre le cardio moins mortellement long ?"
+      },
+      {
+        "accroche": "La musique est encore à fond alors qu'on n'est que trois dans la salle, ça fait presque séance privée — c'est ce côté tranquille du matin qui vous plaît ?",
+        "relance": "Moi je viens tôt surtout pour ne pas avoir de public quand je galère. Vous préférez cette ambiance calme ou vous carburez mieux quand c'est bondé et que ça pousse ?"
       }
     ],
     "zoomOut": [
@@ -499,6 +613,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Au fond, venir transpirer alors que le monde dort encore, c'est un peu se prouver à soi-même qu'on tient ses engagements — c'est ça qui motive les gens, selon vous ?",
         "relance": "Moi c'est surtout contre moi-même que je me bats en venant. Vous, ce qui vous fait tenir dans ce métier, c'est votre propre discipline ou voir progresser les autres ?"
+      },
+      {
+        "accroche": "C'est marrant, le cardio c'est le truc que tout le monde repousse et fait la grimace, et pourtant personne n'y coupe — vous arrivez à le faire aimer aux gens, vous ?",
+        "relance": "Moi je trouve toujours une bonne excuse pour zapper la partie course. C'est quoi votre argument imparable pour convaincre les récalcitrants comme moi ?"
+      },
+      {
+        "accroche": "Au fond, je crois que les gens viennent transpirer autant pour vider la tête que pour le corps — vous le sentez, que ça se joue souvent dans le mental ?",
+        "relance": "Moi ma meilleure séance c'est toujours après une journée pourrie, ça me lessive les idées. Vous diriez que vous faites plus du mental que du muscle, dans ce métier ?"
       }
     ]
   },
@@ -603,6 +725,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous prenez le temps d'expliquer la posologie même quand la file s'allonge derrière — vous ne bâclez jamais, hein ?",
         "relance": "Moi je me sentirais coupable de faire attendre les autres. Comment vous gérez cette pression de bien faire sans jamais lâcher sur la rigueur ?"
+      },
+      {
+        "accroche": "Vous savez exactement dans quel tiroir plonger sans même chercher, avec des milliers de boîtes derrière vous — vous avez tout ça cartographié dans la tête ?",
+        "relance": "Moi je perds mes clés trois fois par jour dans un studio. Ça rentre au bout de combien de temps, cette mémoire des rayons, ou vous avez un système ?"
+      },
+      {
+        "accroche": "Vous avez rassuré la dame inquiète devant moi en deux phrases, elle est repartie apaisée — c'est presque un métier dans le métier, ça, calmer les gens ?",
+        "relance": "Moi je paniquerais la personne encore plus en essayant de la rassurer. Ça s'apprend, ce ton qui apaise, ou c'est vous qui êtes comme ça naturellement ?"
       }
     ],
     "contexte": [
@@ -621,6 +751,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "En milieu d'après-midi c'est plus posé qu'à la sortie des écoles j'imagine — j'ai bien choisi mon moment ou c'est un hasard ?",
         "relance": "Moi je tombe toujours en pleine cohue, à 17h pile. Y a une heure secrète que les habitués du quartier se refilent pour éviter la queue ?"
+      },
+      {
+        "accroche": "Vous avez installé un petit coin conseil à l'écart de la file, c'est malin pour les échanges plus discrets — c'est pensé pour désengorger l'attente ?",
+        "relance": "Moi j'ai toujours peur qu'on entende mes soucis de santé dans la queue. Les gens osent plus se confier quand c'est un peu à l'écart comme ça ?"
+      },
+      {
+        "accroche": "La file des ordonnances avance vite mais tout le monde s'attarde du côté crèmes et vitamines — c'est là que ça bouchonne vraiment cet après-midi ?",
+        "relance": "Moi je viens pour un truc et je repars avec trois produits dont je n'ai pas besoin. Les gens flânent plus dans les rayons que dans la file, non ?"
       }
     ],
     "zoomOut": [
@@ -639,6 +777,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Au fond, une pharmacie c'est un des derniers endroits où on peut parler de ses petits soucis à quelqu'un qui écoute vraiment — vous le vivez comme ça, ce rôle ?",
         "relance": "Moi je viens pour un bobo et je repars toujours un peu rassuré, c'est bête. Les gens ont autant besoin d'être écoutés que soignés, vous croyez pas ?"
+      },
+      {
+        "accroche": "Au fond vous devez voir passer des gens qui ont déjà tout diagnostiqué sur internet avant d'arriver — vous devez souvent défaire ce que les moteurs de recherche ont fait, non ?",
+        "relance": "Moi je tape trois symptômes et je me crois condamné à chaque fois. Les gens vous font encore confiance ou ils débarquent avec leur avis déjà tout fait ?"
+      },
+      {
+        "accroche": "C'est un des derniers endroits où on accepte encore d'attendre sans râler, parce qu'au fond on sait que ça vaut le coup — les gens sont plus patients ici qu'ailleurs, vous trouvez ?",
+        "relance": "Moi je m'énerve dans toutes les files sauf celle-ci, c'est bizarre. Vous voyez les gens s'impatienter quand même ou ils prennent leur mal en patience ici ?"
       }
     ]
   },
@@ -813,6 +959,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez une deuxième batterie et un multiprise, vous êtes clairement équipé pour tenir le siège ici — vous passez vos journées entières au café ?",
         "relance": "Moi je tombe toujours en rade de batterie au pire moment. C'est devenu votre vrai bureau, cet endroit, ou vous tournez entre plusieurs spots ?"
+      },
+      {
+        "accroche": "Vous avez un petit support pour surélever votre écran, vous prenez le confort au sérieux même en vadrouille — c'est le dos qui vous a appris à vous équiper comme ça ?",
+        "relance": "Moi je bosse plié en deux sur mon ordi posé à plat, une catastrophe. Ça change vraiment quelque chose ou c'est du confort de luxe, ce genre d'accessoire ?"
+      },
+      {
+        "accroche": "Ça fait deux heures que vous faites durer le même café, on est les rois du squat rentable, vous et moi — c'est votre technique pour rester sans culpabiliser ?",
+        "relance": "Moi je commande un truc toutes les heures par culpabilité, ça me ruine. Vous avez trouvé le bon équilibre pour squatter sans vous sentir mal ou vous vous en fichez ?"
       }
     ],
     "contexte": [
@@ -831,6 +985,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "L'après-midi c'est le bon dosage ici, assez de vie pour rester réveillé mais pas le brouhaha du midi — c'est pour ça que vous venez à cette heure précise ?",
         "relance": "Moi le silence total chez moi m'endort, j'ai besoin de ce fond sonore. Vous êtes vraiment plus productif dans ce bruit ou vous vous racontez des histoires comme moi ?"
+      },
+      {
+        "accroche": "Cette table c'est la seule avec une prise à portée, on se l'arrache — vous avez vos habitudes ici au point de connaître les bons spots ?",
+        "relance": "Moi je repère la prise avant même de dire bonjour, c'est devenu un réflexe. Vous avez une table attitrée ou vous prenez ce qui reste comme moi ?"
+      },
+      {
+        "accroche": "Le serveur ne vous demande même plus votre commande, il a l'air de vous connaître par cœur — vous êtes un pilier de l'endroit, on dirait ?",
+        "relance": "Moi je change de café tout le temps de peur de déranger. C'est mieux d'avoir son QG où on vous laisse tranquille ou vous aimez varier les ambiances ?"
       }
     ],
     "zoomOut": [
@@ -849,6 +1011,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Au fond, pouvoir bosser de n'importe où c'est une liberté folle, mais ça veut aussi dire ne jamais vraiment débrancher — vous le vivez comment, ce marché ?",
         "relance": "Moi je réponds à des mails dans mon lit, c'est devenu n'importe quoi. Vous, vous arrivez à couper le soir ou le boulot vous suit partout aussi ?"
+      },
+      {
+        "accroche": "Au fond je crois qu'on vient ici surtout pour entendre du bruit humain, sentir qu'on n'est pas seuls à ramer — le télétravail c'est un peu ça, fuir le silence, non ?",
+        "relance": "Moi mon appart est devenu une cellule, je me parle à moi-même. Vous, ce qui vous manque le plus en bossant seul, c'est le contact ou juste l'ambiance ?"
+      },
+      {
+        "accroche": "C'est quand même dingue de pouvoir décider chaque matin où on va poser son bureau, un café, un parc, chez soi — vous en profitez à fond ou vous finissez toujours au même endroit par habitude ?",
+        "relance": "Moi j'ai cette liberté et je reviens toujours au même café comme un pigeon. Vous êtes du genre à changer de décor tout le temps ou vous avez besoin d'un repère fixe ?"
       }
     ]
   },
@@ -883,6 +1053,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez encore le capuchon de votre manteau sur la tête, vous osez même pas l'enlever — ça caille autant que ça mouille dehors ?",
         "relance": "Moi je me suis habillé pour le printemps, j'ai tout faux comme d'habitude. Vous aviez anticipé ce temps de chien ou ça vous a pris de court aussi ?"
+      },
+      {
+        "accroche": "Vos lunettes se sont embuées à la seconde où vous êtes entré, il fait un froid de canard dehors — ça pince autant que ça en a l'air ?",
+        "relance": "Moi je passe mon temps à les essuyer dès qu'il fait froid, c'est infernal. Vous avez trouvé une astuce contre la buée ou vous subissez comme moi ?"
+      },
+      {
+        "accroche": "Vous, au moins, vous aviez pensé au parapluie, vous êtes du genre prévoyant — vous regardez la météo tous les matins ou c'est l'instinct ?",
+        "relance": "Moi je pars toujours en tee-shirt quand il neige, une vraie plaie. Vous checkez l'appli religieusement chaque matin ou vous flairez le temps qu'il va faire ?"
       }
     ],
     "contexte": [
@@ -901,6 +1079,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Tout le quartier a débarqué en même temps après le boulot, la file n'en finit plus — c'est toujours le bouchon à cette heure-là ici ?",
         "relance": "Moi je fais mes courses toujours au pire moment, épuisé et pressé. Vous connaissez l'heure magique où c'est enfin vide, vous qui avez l'air d'un habitué ?"
+      },
+      {
+        "accroche": "Tout le monde a l'air de faire des réserves ce soir, comme si on annonçait une tempête pour le week-end — vous aussi vous anticipez le mauvais temps ?",
+        "relance": "Moi j'achète toujours trois fois trop dès qu'on annonce de la pluie, allez savoir pourquoi. Vous croyez à ces alertes météo ou vous faites comme si de rien n'était ?"
+      },
+      {
+        "accroche": "On est bien au chaud ici finalement, personne n'est vraiment pressé de replonger dehors sous l'averse — vous faites durer un peu vous aussi ou vous foncez ?",
+        "relance": "Moi je traîne exprès dans les rayons le temps que ça se calme, j'assume. Vous avez une technique pour deviner le bon moment pour ressortir ou vous tentez au flair ?"
       }
     ],
     "zoomOut": [
@@ -919,6 +1105,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a des soirs où toute la file a la même tête de fin de journée, cette fatigue collective qu'on se partage sans se parler — vous le sentez, ce truc ce soir ?",
         "relance": "Moi j'ai clairement épuisé mon quota d'énergie sociale pour aujourd'hui. Vous êtes du genre à rebondir le soir ou à vous écrouler direct comme moi ?"
+      },
+      {
+        "accroche": "C'est fou comme un coup de pluie suffit à ce que des inconnus se mettent à se parler, alors qu'un beau jour tout le monde s'ignore — la météo, c'est le seul truc qui nous relie tous, non ?",
+        "relance": "Moi c'est ma phrase de secours quand je sais pas quoi dire à quelqu'un. Vous trouvez pas que le mauvais temps rend les gens plus bavards, bizarrement ?"
+      },
+      {
+        "accroche": "Il fait déjà nuit noire et il n'est pas si tard, ça donne à tout le monde des envies d'hibernation — vous le sentez aussi, ce coup de mou dès que les jours raccourcissent ?",
+        "relance": "Moi dès que la nuit tombe à cinq heures j'ai envie de me mettre en pyjama direct. Vous êtes du genre à lutter contre ce ralenti de l'hiver ou vous vous laissez porter ?"
       }
     ]
   },
@@ -953,6 +1147,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous connaissez visiblement chaque commerçant de la rue, vous vous faites des signes de loin — c'est toute une petite communauté, ce bout de trottoir ?",
         "relance": "Moi je vis dans le quartier sans connaître personne, c'est triste dit comme ça. Vous vous entraidez entre voisins de rue ou chacun reste dans sa boutique ?"
+      },
+      {
+        "accroche": "Vous avez soigné votre vitrine au millimètre alors que la rue est vide, c'est presque de l'art pour personne — vous la refaites souvent pour attirer l'œil ?",
+        "relance": "Moi je serais découragé de bosser une vitrine que personne ne regarde. Ça attire vraiment les gens à l'intérieur ou c'est surtout pour votre fierté ?"
+      },
+      {
+        "accroche": "Vous avez le journal plié sous le bras, c'est le rituel du matin en attendant que ça bouge — vous le lisez en entier avant le premier client ?",
+        "relance": "Moi je tournerais en rond sans savoir quoi faire de mes dix doigts. C'est un petit plaisir qu'on s'accorde dans les temps morts ou vous préféreriez que ça défile non-stop ?"
       }
     ],
     "contexte": [
@@ -971,6 +1173,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il n'y a presque personne dehors pour l'instant, la rue se réveille au compte-gouttes — c'est le creux du matin ou une journée qui s'annonce molle ?",
         "relance": "Moi je passe devant tous les jours sans jamais oser pousser la porte, je l'avoue. C'est quoi votre meilleur créneau, celui où ça se remplit vraiment ?"
+      },
+      {
+        "accroche": "Le boulanger d'en face a déjà sa file alors que vous attendez encore, chacun son heure de gloire dans la rue — le flux passe de commerce en commerce dans la journée ?",
+        "relance": "Moi je n'avais jamais pensé que les clients tournaient comme ça d'une boutique à l'autre. Vous savez à quelle heure c'est votre tour d'avoir du monde ?"
+      },
+      {
+        "accroche": "C'est jour de marché un peu plus loin, ça devrait vous ramener du passage tout à l'heure — vous profitez du flux des jours comme ça ?",
+        "relance": "Moi je viens toujours au quartier les jours de marché sans réaliser que ça fait vivre tout le monde autour. Ces jours-là changent vraiment la donne pour vous ou pas tant que ça ?"
       }
     ],
     "zoomOut": [
@@ -989,6 +1199,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Passer ses journées à regarder défiler la vie de la rue, c'est presque un poste d'observation sur le quartier entier — vous voyez tout changer au fil des années ?",
         "relance": "Moi j'habite ici et je remarque rien, la tête dans le guidon. Vous, depuis votre seuil, vous avez vu le coin se transformer beaucoup ?"
+      },
+      {
+        "accroche": "Au fond, tenir une boutique de rue aujourd'hui c'est presque un acte de résistance face à tout ce qui se commande en ligne — vous le vivez comme ça, ce métier ?",
+        "relance": "Moi j'achète tout sur internet et je culpabilise en voyant les rideaux baissés. Vous sentez que les gens reviennent vers les petits commerces ou c'est de plus en plus dur ?"
+      },
+      {
+        "accroche": "Il y a un truc presque zen dans votre métier, savoir attendre sans s'agiter pendant que tout le monde court après le temps — c'est une sagesse que le poste vous a apprise ?",
+        "relance": "Moi je supporte pas de ne rien faire deux minutes, ça me rend fou. Vous avez appris à apprécier ces moments suspendus ou ça vous pèse encore parfois ?"
       }
     ]
   },
@@ -1443,6 +1661,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous tenez votre gobelet de café comme une bouée de sauvetage — le vôtre non plus il ne démarre pas sans caféine, ce trajet ?",
         "relance": "Moi sans mon café du matin je suis une menace publique. Vous le prenez toujours à emporter pour le boire ici ou c'est le luxe du jour ?"
+      },
+      {
+        "accroche": "Votre sac de sport à cette heure, vous enchaînez déjà une séance avant le boulot — c'est ça, votre carburant pour la journée ?",
+        "relance": "Moi rien que l'idée de bouger avant midi me fatigue. Vous tenez ce rythme tous les matins ou c'est juste les jours courageux ?"
+      },
+      {
+        "accroche": "Vous faites vos mots croisés à la main pendant que tout le monde scrolle sur son téléphone, ça a un charme fou — c'est votre rituel anti-écran du matin ?",
+        "relance": "Moi je fixe mon téléphone sans rien y faire de valable, c'est déprimant. Ça vous réveille mieux les neurones que le défilement bête, ce genre de jeu ?"
       }
     ],
     "contexte": [
@@ -1461,6 +1687,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a encore de la place assise ce matin, c'est suffisamment rare pour le souligner — vous avez visé un horaire malin ou c'est le hasard du jour ?",
         "relance": "Moi je tombe toujours pile sur la rame bondée, une vraie malédiction. C'est quoi votre astuce d'horaire pour éviter la cohue ?"
+      },
+      {
+        "accroche": "On passe toujours ce pont où toute la rame regarde par la fenêtre en même temps, c'est le seul beau moment du trajet — vous le guettez aussi ou vous ne le voyez même plus ?",
+        "relance": "Moi je ne m'en lasse pas, c'est ma récompense du matin. Vous connaissez ce trajet par cœur au point de ne plus rien remarquer ou vous levez encore les yeux ?"
+      },
+      {
+        "accroche": "Vous avez visé la place près de la vitre comme moi, c'est la meilleure du wagon pour être tranquille — vous avez vos petits repères sur cette ligne ?",
+        "relance": "Moi je fais toujours la course pour ce coin précis, c'est ridicule. Vous avez votre place attitrée dans la tête ou vous prenez ce qui se présente ?"
       }
     ],
     "zoomOut": [
@@ -1479,6 +1713,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On refait tous exactement le même chemin chaque matin sans jamais se croiser vraiment — vous avez déjà remarqué qu'on voit les mêmes visages sans se parler ?",
         "relance": "Moi je reconnais deux ou trois têtes sans jamais oser un mot. Vous croyez qu'on pourrait vraiment se parler dans ces trajets ou c'est contre nature ?"
+      },
+      {
+        "accroche": "Je me dis parfois que ce trajet c'est le seul sas entre la maison et le boulot, le temps de changer de casquette avant d'arriver — vous vous en servez pour ça aussi, souffler entre deux mondes ?",
+        "relance": "Moi sans ce temps mort je débarquerais au bureau la tête encore dans mon petit-déjeuner. Vous en profitez pour vous préparer mentalement ou vous préférez ne penser à rien ?"
+      },
+      {
+        "accroche": "C'est vertigineux si on additionne toutes les heures qu'on passe là-dedans dans une vie, c'est presque une seconde maison mine de rien — vous y pensez parfois ou vaut mieux pas calculer ?",
+        "relance": "Moi j'ai fait le calcul une fois et je l'ai regretté, c'est effrayant. Vous avez fini par apprivoiser ce temps ou vous le subissez encore chaque matin ?"
       }
     ]
   },
@@ -1583,6 +1825,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous repérez d'un coup d'œil quelle table a fini, laquelle attend, laquelle veut l'addition — vous scannez tout ça en permanence sans y penser ?",
         "relance": "Moi je perds le fil dès qu'il y a plus de deux choses à suivre. C'est un radar qui vient avec l'habitude ou vous avez toujours eu l'œil partout ?"
+      },
+      {
+        "accroche": "Vous avez les chaussures d'un pro qui tient debout des heures, c'est le premier investissement du métier, non — vos pieds vous remercient au moins ?",
+        "relance": "Moi après une heure debout je cherche déjà une chaise. C'est les jambes qui lâchent en premier dans ce boulot ou on s'y fait vraiment ?"
+      },
+      {
+        "accroche": "Vous avez le tire-bouchon dégainé avant même que la table le demande, tout est anticipé chez vous — c'est le rush qui vous a appris à toujours avoir un coup d'avance ?",
+        "relance": "Moi je cours chercher chaque truc au dernier moment dans ma cuisine. C'est l'anticipation le vrai secret pour survivre au coup de feu ou c'est surtout de l'endurance ?"
       }
     ],
     "contexte": [
@@ -1601,6 +1851,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il reste ces bonnes odeurs de cuisine qui flottent alors que le plus gros est passé — c'est le creux enfin arrivé ou vous enchaînez déjà sur autre chose ?",
         "relance": "Moi j'arrive toujours pile quand vous pensiez souffler, navré. C'est quand, le vrai moment où vous posez les pieds dans une journée pareille ?"
+      },
+      {
+        "accroche": "Votre ardoise du jour a l'air alléchante mais tout part vite j'imagine — c'est quoi qu'il vous reste avant que la cuisine ne soit à sec ?",
+        "relance": "Moi je choisis toujours en dernier et il ne reste plus rien, une malédiction. C'est le plat du jour qui part en premier ou les gens jouent la sécurité avec la carte ?"
+      },
+      {
+        "accroche": "Vous jetez un œil au carnet de réservations toutes les deux minutes, ça doit être déjà blindé pour ce soir — vous enchaînez sans vraie pause entre midi et le service du soir ?",
+        "relance": "Moi je pensais qu'il y avait un vrai creux l'après-midi dans ce métier. Vous arrivez vraiment à souffler entre les deux ou c'est du non-stop déguisé ?"
       }
     ],
     "zoomOut": [
@@ -1619,6 +1877,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On voit l'assiette arriver mais jamais tout ce que ça demande derrière pour qu'un midi tourne rond — c'est un ballet invisible que personne ne soupçonne, non ?",
         "relance": "Moi je réalise à peine le boulot que ça représente en vous regardant. C'est quoi la partie du métier la plus dure que le client ne voit jamais ?"
+      },
+      {
+        "accroche": "On entend partout que le métier peine à recruter, que c'est de plus en plus dur de tenir ces cadences — vous le vivez au quotidien, cette pression qui monte ?",
+        "relance": "Moi je serais incapable de tenir un seul service à ce rythme, chapeau. Vous croyez que c'est le rythme qui fait fuir les gens du métier ou autre chose ?"
+      },
+      {
+        "accroche": "Au fond vous offrez aux gens une des rares vraies pauses de leur journée, le seul moment où ils s'assoient et décrochent — vous le voyez comme ça, votre rôle ?",
+        "relance": "Moi mon déjeuner c'est souvent un sandwich devant l'ordi, ça me déprime. Vous sentez que les gens savourent vraiment ce moment ou ils sont pressés même à table ?"
       }
     ]
   },
@@ -1653,6 +1919,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous conduisez d'une main tranquille comme si la circulation ne vous atteignait plus du tout — plus rien ne vous stresse au volant après toutes ces heures ?",
         "relance": "Moi je klaxonne et je râle au moindre feu rouge. On finit par devenir zen dans le trafic ou vous avez toujours eu ce sang-froid ?"
+      },
+      {
+        "accroche": "Vous avez un petit porte-bonheur accroché au rétroviseur, ça a l'air d'y tenir une place particulière — il vous suit depuis vos débuts au volant ?",
+        "relance": "Moi je n'accroche jamais rien, j'ai peur de m'encombrer. Il a une histoire, ce petit truc, ou c'est juste pour égayer les longues journées ?"
+      },
+      {
+        "accroche": "Vous aviez la radio calée pile sur les infos trafic avant même de démarrer, vous jouez toujours un coup d'avance — c'est le réflexe de survie du métier ?",
+        "relance": "Moi je découvre le bouchon une fois coincé dedans, trop tard. Vous anticipez tout à la radio ou vous flairez les embouteillages à l'instinct après tant d'années ?"
       }
     ],
     "contexte": [
@@ -1671,6 +1945,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "La ville est plutôt calme sur ce trajet, on glisse tranquille — c'est le bon moment de la journée ou j'ai juste eu de la chance en montant ?",
         "relance": "Moi je tombe systématiquement dans les bouchons, un vrai aimant. C'est quoi l'heure creuse que vous guettez pour rouler peinard ?"
+      },
+      {
+        "accroche": "On vient de passer devant ce vieux bâtiment que tout le monde photographie sans savoir ce que c'est — vous devez connaître son histoire à force de passer devant ?",
+        "relance": "Moi je traverse cette ville sans jamais lever le nez sur ce qui m'entoure. C'est quoi le coin de la ville dont vous racontez toujours l'histoire à vos clients ?"
+      },
+      {
+        "accroche": "Ce quartier a l'air d'avoir complètement changé de tête, il y a des terrasses partout maintenant — vous l'avez vu se métamorphoser au fil de vos courses ?",
+        "relance": "Moi je ne remarque jamais ces changements, la ville défile sans que je la voie. C'est quoi le coin qui a le plus changé depuis que vous roulez ici ?"
       }
     ],
     "zoomOut": [
@@ -1689,6 +1971,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a un truc unique dans votre voiture, ce huis clos où les gens montent, se confient et disparaissent — vous devez recueillir des bouts de vie toute la journée, non ?",
         "relance": "Moi je me lâche direct dès que je suis passager, c'est plus fort que moi. Les gens vous parlent plus facilement parce qu'ils savent qu'ils ne vous reverront jamais ?"
+      },
+      {
+        "accroche": "À force de sillonner partout, vous devez sentir l'humeur de la ville mieux que quiconque, les jours de tension, les soirs de fête — vous êtes un peu le thermomètre du coin, non ?",
+        "relance": "Moi je ne perçois qu'une petite bulle autour de moi, jamais l'ensemble. Vous sentez vraiment quand la ville est électrique ou d'humeur joyeuse, rien qu'en roulant ?"
+      },
+      {
+        "accroche": "C'est un drôle de métier au fond, faire un bout de chemin avec des inconnus qu'on ne reverra jamais, comme des petits voyages minute — vous vous attachez parfois ou c'est trop fugace ?",
+        "relance": "Moi je me confie toujours trop vite à un inconnu de passage, allez savoir pourquoi. Il y a des clients qui vous ont marqué malgré le fait que ça n'a duré que vingt minutes ?"
       }
     ]
   },
@@ -1723,6 +2013,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous reprenez votre souffle avec un calme impressionnant, aucun essoufflement de débutant — vous travaillez la respiration autant que les jambes ?",
         "relance": "Moi je halète comme un phoque au bout de cinq minutes. C'est quoi le secret pour tenir la distance sans finir à bout de souffle comme moi ?"
+      },
+      {
+        "accroche": "Vous avez un strap au genou mais ça ne vous a pas empêché de boucler votre tour — vous composez avec une vieille douleur ou c'est juste du préventif ?",
+        "relance": "Moi une petite gêne et je m'arrête aussitôt, trouillard. C'est quoi le réflexe qui vous permet de courir avec sans que ça empire ?"
+      },
+      {
+        "accroche": "Vous portez des chaussettes de compression, c'est le détail des gens qui prennent la récup au sérieux — ça change vraiment quelque chose ou c'est surtout dans la tête ?",
+        "relance": "Moi je cours en chaussettes de tennis dépareillées, autant vous dire mon niveau. C'est quoi l'équipement de récup qui vaut vraiment l'investissement selon vous ?"
       }
     ],
     "contexte": [
@@ -1741,6 +2039,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a cette lumière un peu dorée à cette heure qui rend même l'effort agréable — c'est pour ça que vous courez le matin plutôt que le soir ?",
         "relance": "Moi je repousse toujours ma sortie au soir et je finis par annuler. C'est vraiment mieux le matin ou c'est juste une question d'organisation ?"
+      },
+      {
+        "accroche": "Il y a ces agrès en bois un peu plus loin que personne n'utilise jamais — vous finissez votre sortie par un peu de renfo là-dessus ou vous zappez complètement ?",
+        "relance": "Moi je passe devant tous les matins sans jamais oser m'y accrocher. Ça vaut le coup de compléter la course avec ce genre de trucs ou c'est gadget ?"
+      },
+      {
+        "accroche": "Cette boucle autour du plan d'eau, elle doit faire un compte rond bien pratique pour se repérer — vous en enchaînez combien de tours en général le matin ?",
+        "relance": "Moi j'abandonne dès que je perds le compte, ça vous dit tout. C'est quoi votre astuce pour tenir la distance sans regarder la montre toutes les deux minutes ?"
       }
     ],
     "zoomOut": [
@@ -1759,6 +2065,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On dirait que courir le matin c'est autant se prouver un truc à soi-même que se dépenser — vous ressentez cette petite fierté de l'avoir fait avant les autres ?",
         "relance": "Moi le simple fait d'être sorti du lit me suffit comme victoire. C'est ce dépassement qui vous accroche ou vous ne vous posez même plus la question ?"
+      },
+      {
+        "accroche": "Il y a un truc rassurant à se dire qu'on entretient la machine tant qu'on peut encore — vous courez un peu pour vieillir en forme aussi, au fond ?",
+        "relance": "Moi je repousse toujours au lundi prochain cette fameuse remise en forme. C'est cette idée de tenir la distance sur des années qui vous motive ou juste le plaisir du moment ?"
+      },
+      {
+        "accroche": "Reprendre après une coupure c'est presque plus dur que de continuer, il faut ravaler son orgueil sur les temps qu'on faisait avant — vous l'avez vécu comment, ce retour ?",
+        "relance": "Moi je me décourage rien qu'en repensant à ce que j'arrivais à faire il y a deux ans. C'est quoi qui vous a fait remettre les baskets malgré cette frustration ?"
       }
     ]
   },
@@ -1863,6 +2177,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous pliez le sac et rendez la monnaie en un seul mouvement, sans même y penser — c'est le genre de cadence qu'on prend à force de matins comme ça ?",
         "relance": "Moi je m'emmêle avec la monnaie dès qu'il y a du monde derrière. C'est quoi le coup de feu de la matinée où tout doit aller vite comme ça ?"
+      },
+      {
+        "accroche": "Vous avez déjà une trace de chocolat sur le tablier, ça sent la pâtisserie en cours derrière — vous faites le salé et le sucré ou chacun son poste ici ?",
+        "relance": "Moi je rate même les gâteaux en sachet, c'est dire mon talent. C'est quoi le truc le plus délicat à réussir dans tout ce que vous sortez le matin ?"
+      },
+      {
+        "accroche": "Vous avez les mains marquées par le four, on voit tout de suite le métier — on finit par s'y faire à cette chaleur ou vous vous brûlez toujours un peu ?",
+        "relance": "Moi je me brûle en sortant une pizza surgelée, alors votre four me terrifie. C'est quoi le geste qu'on apprend à force pour ne plus se cramer ?"
       }
     ],
     "contexte": [
@@ -1881,6 +2203,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "La baguette que vous me tendez est encore tiède, c'est presque un luxe à cette heure — la fournée vient juste de sortir ou vous enchaînez toute la matinée ?",
         "relance": "Moi le pain chaud c'est mon seul vrai bonheur simple de la journée. Vous enchaînez les fournées jusqu'à quelle heure pour qu'il y en ait toujours de frais ?"
+      },
+      {
+        "accroche": "Vous avez marqué une fougasse aux olives sur l'ardoise ce matin, ça change de d'habitude — c'est vous qui décidez des petites nouveautés du jour ?",
+        "relance": "Moi je prends toujours la même baguette par pur réflexe. C'est quoi la fournée spéciale dont vous êtes le plus fier quand vous la mettez à l'ardoise ?"
+      },
+      {
+        "accroche": "C'est encore calme là, juste la radio en fond avant que ça débarque — c'est un peu votre moment préféré de la journée, ce petit creux du matin ?",
+        "relance": "Moi j'adorerais ces cinq minutes de calme avant le rush, dans n'importe quel boulot. C'est quoi le moment de la matinée où au contraire ça part complètement en cavalcade ?"
       }
     ],
     "zoomOut": [
@@ -1899,6 +2229,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous connaissez sûrement le quartier mieux que personne, à voir défiler tout le monde dès l'aube — vous sentez l'humeur du coin rien qu'à la tête des clients du matin ?",
         "relance": "Moi je passe vous voir avant même de dire bonjour à mes collègues, c'est vous dire. Vous êtes un peu le thermomètre du quartier, non, à voir passer tout le monde ?"
+      },
+      {
+        "accroche": "Faire un truc de ses mains que tout le quartier attend chaque matin, il n'y en a plus tant que ça — c'est ça qui vous fait tenir le rythme des levers à quatre heures ?",
+        "relance": "Moi j'ai déjà du mal à me lever pour un boulot que je choisis pas. C'est quoi qui vous accroche vraiment à ce métier au point d'accepter ces horaires de dingue ?"
+      },
+      {
+        "accroche": "On perd des boulangeries un peu partout et pourtant les gens y tiennent comme à rien d'autre — vous le sentez, ce côté un peu résistant de votre métier ?",
+        "relance": "Moi je serais le premier à râler si la mienne fermait, sans jamais rien faire pour. Vous croyez que c'est encore un métier d'avenir ou vous vous faites du souci ?"
       }
     ]
   },
@@ -1933,6 +2271,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez une poignée de main posée, ni molle ni écrasante, la parfaite mesure — c'est un truc que ce métier vous apprend à calibrer ?",
         "relance": "Moi je serre trop fort quand je suis mal à l'aise, ça se sent. C'est important pour vous, cette première seconde où le client se fait un avis ?"
+      },
+      {
+        "accroche": "Vous avez une voix posée qui doit désamorcer pas mal de tensions en face de vous — c'est naturel chez vous ou vous avez appris à parler comme ça aux gens stressés ?",
+        "relance": "Moi je monte dans les aigus dès que je parle argent, ça trahit tout. C'est un vrai outil de votre métier, cette façon de rassurer rien qu'au ton ?"
+      },
+      {
+        "accroche": "Vous avez glissé une petite plante au milieu des dossiers, ça humanise un peu le bureau — c'est votre façon de rendre l'endroit moins froid pour ceux qui s'assoient là ?",
+        "relance": "Moi le décor d'une banque me stresse avant même qu'on ait parlé. Ça compte vraiment, ces petits détails, pour que les gens se lâchent en face de vous ?"
       }
     ],
     "contexte": [
@@ -1951,6 +2297,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Ce fauteuil en face de vous, on s'y assoit toujours un peu raide, comme à un examen — vous faites quelque chose pour désamorcer ça dès le début ?",
         "relance": "Moi j'arrive avec mes chiffres en tête comme si j'allais me faire gronder. C'est quoi votre façon de faire tomber cette tension en une phrase ?"
+      },
+      {
+        "accroche": "On patiente dans ce hall un peu aseptisé avant de vous voir, ça met tout de suite dans l'ambiance chiffres — vous, ça vous fait quoi de bosser dans un décor pareil toute la journée ?",
+        "relance": "Moi rien que la moquette grise me met la pression. Vous finissez par ne plus le voir, cet environnement, ou ça déteint un peu sur l'humeur ?"
+      },
+      {
+        "accroche": "On a pile une demi-heure calée pour parler de toute une vie financière, c'est un peu court quand on y pense — vous arrivez à créer un vrai lien dans ce format minuté ?",
+        "relance": "Moi il me faut déjà dix minutes juste pour oser dire ce qui m'inquiète. C'est quoi votre technique pour aller à l'essentiel sans que ça fasse expédié ?"
       }
     ],
     "zoomOut": [
@@ -1969,6 +2323,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On nous apprend tout à l'école sauf à gérer notre argent, c'est fou quand on y pense — vous devez rattraper cette lacune chez pas mal de gens en face de vous, non ?",
         "relance": "Moi je gère mes comptes complètement à l'instinct, ça fait peur. C'est quoi la base que tout le monde devrait savoir et que presque personne ne maîtrise ?"
+      },
+      {
+        "accroche": "Avec les applis qui font tout maintenant, les gens viennent surtout vous voir quand ça se complique — vous êtes devenu le recours des moments difficiles plus que le conseiller du quotidien ?",
+        "relance": "Moi je gère tout sur mon téléphone jusqu'à ce que ça déraille, et là je panique. Ça a changé votre métier, ce virage, ou ça l'a rendu plus intéressant au fond ?"
+      },
+      {
+        "accroche": "On dirait qu'il y a ceux qui mettent tout de côté par peur et ceux qui claquent tout par principe — vous voyez défiler ces deux camps en face de vous ?",
+        "relance": "Moi je suis clairement dans l'équipe qui dépense d'abord et réfléchit après. C'est quoi le juste milieu que vous essayez de faire trouver aux gens entre les deux ?"
       }
     ]
   },
@@ -2423,6 +2785,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez déjà les mains pleines d'encre à peine la matinée commencée, ça tamponne à toute vitesse dans le coin, c'est ça le vrai rythme ?",
         "relance": "Moi je pensais que le tampon c'était fini depuis longtemps. C'est quoi la tâche qui vous prend le plus de temps dans une journée ?"
+      },
+      {
+        "accroche": "Vos doigts vont plus vite que l'écran on dirait, vous tapez les codes sans même les regarder — c'est le genre de vitesse qu'on prend au bout de combien d'années ?",
+        "relance": "Moi je cherche encore mes touches sur un clavier que je connais par cœur. C'est devenu un automatisme total ou vous restez concentré à fond quand même ?"
+      },
+      {
+        "accroche": "Vous soulevez ces colis énormes sans broncher, c'est presque du portage à la chaîne — on finit par se muscler à ce métier ou vous avez des trucs pour épargner le dos ?",
+        "relance": "Moi je me bloque le dos en portant un pack d'eau, alors chapeau. C'est quoi la partie la plus physique de la journée que les gens n'imaginent même pas ?"
       }
     ],
     "contexte": [
@@ -2441,6 +2811,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez déjà tout le stock de colis derrière qui déborde des étagères et il est à peine neuf heures, la journée s'annonce chargée on dirait ?",
         "relance": "Moi je culpabilise presque de vous rajouter un passage. C'est quoi le jour de la semaine où ça vous submerge le plus ?"
+      },
+      {
+        "accroche": "Il y a cette borne à tickets maintenant, on prend un numéro comme chez le boucher — ça a vraiment fluidifié la file ou les gens râlent pareil qu'avant ?",
+        "relance": "Moi je trouve ça pratique mais j'ai l'impression que ça énerve les habitués. Ça vous a changé la vie au guichet, ce système, ou c'est du pareil au même ?"
+      },
+      {
+        "accroche": "On vient ici pour dix trucs différents, du timbre au retrait d'argent, ça doit compliquer votre matinée — c'est quoi la demande qui vous prend le plus de temps par personne ?",
+        "relance": "Moi j'arrive toujours en me trompant de file, forcément. Vous préférez cette variété ou vous rêveriez d'un guichet qui ne fait qu'une seule chose ?"
       }
     ],
     "zoomOut": [
@@ -2459,6 +2837,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On reçoit tous nos colis à domicile maintenant, du coup venir au bureau de poste c'est presque devenu un truc de nostalgique, vous le vivez comment ce virage ?",
         "relance": "Moi je mets rarement les pieds ici, je fais tout en ligne. C'est quoi qui a le plus changé dans les gens que vous voyez passer au guichet ?"
+      },
+      {
+        "accroche": "Pour pas mal de gens du quartier, surtout les plus âgés, passer ici c'est presque la seule sortie et le seul échange de la journée — vous le ressentez, ce rôle-là ?",
+        "relance": "Moi je vois ma voisine venir chaque jour juste pour parler à quelqu'un, ça m'a touché. Vous vous sentez un peu plus qu'un guichet pour certains habitués ?"
+      },
+      {
+        "accroche": "On veut tout livré le lendemain maintenant, la patience a complètement disparu — vous sentez que les gens attendent de vous une vitesse un peu folle ?",
+        "relance": "Moi le premier je m'agace si mon colis traîne d'un jour, j'ai honte. C'est quoi le truc que les gens ne réalisent pas sur le temps que ça prend vraiment ?"
       }
     ]
   },
@@ -2773,6 +3159,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez un petit sac de tisanes qui dépasse de votre panier, vous êtes plutôt remèdes de grand-mère que cachets vous ?",
         "relance": "Moi je fonce direct sur le médicament sans réfléchir. C'est quoi votre remède naturel qui marche vraiment selon vous ?"
+      },
+      {
+        "accroche": "Vous avez sorti votre propre sac plutôt que de prendre celui du comptoir, on voit le réflexe — vous êtes du genre à faire attention à tout ça au quotidien vous ?",
+        "relance": "Moi j'oublie systématiquement mon sac et je repars les bras chargés. C'est quoi le petit geste écolo que vous tenez vraiment sur la durée vous ?"
+      },
+      {
+        "accroche": "Vous lisez la notice avant même de sortir de la pharmacie, ça c'est du sérieux — vous vérifiez toujours tout ou c'est ce médicament précis qui vous intrigue ?",
+        "relance": "Moi je jette la notice sans jamais l'ouvrir, mauvaise habitude. C'est important pour vous de comprendre ce que vous prenez ou c'est juste de la prudence ?"
       }
     ],
     "contexte": [
@@ -2791,6 +3185,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On attend tranquillement tous les deux et c'est bien l'un des rares endroits où personne ne râle vraiment, vous trouvez pas que la pharmacie a ce petit côté apaisant ?",
         "relance": "Moi j'en profite pour souffler entre deux courses. Vous venez ici par habitude ou parce que c'est la plus proche de chez vous ?"
+      },
+      {
+        "accroche": "Ils ont même mis des petits fauteuils pour patienter maintenant, c'est presque une salle d'attente — vous trouvez pas que la pharmacie est devenue un vrai lieu où on prend le temps ?",
+        "relance": "Moi j'en profite pour souffler cinq minutes entre deux courses. Vous, c'est un passage obligé ou un endroit où vous aimez bien traîner un peu ?"
+      },
+      {
+        "accroche": "Il y a de tout maintenant dans ces rayons, des crèmes aux compléments, on s'y perdrait — vous vous fiez aux conseils du comptoir ou vous piochez un peu au feeling comme moi ?",
+        "relance": "Moi j'achète des flacons que je ne finis jamais, sur un coup de tête. C'est quoi le produit que vous prenez toujours et que vous conseilleriez les yeux fermés ?"
       }
     ],
     "zoomOut": [
@@ -2809,6 +3211,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On dirait qu'en ce moment tout le monde veut ralentir, prendre soin de soi avant que le corps réclame, vous êtes sensible à cette vague-là aussi ?",
         "relance": "Moi je cours partout et je m'écoute jamais assez. C'est quoi le petit geste tout simple qui vous fait le plus de bien au quotidien ?"
+      },
+      {
+        "accroche": "On veut tous se soigner tout seul avec ce qu'on lit en ligne maintenant, avant même de demander — vous êtes plutôt Docteur Google ou vous faites confiance au comptoir vous ?",
+        "relance": "Moi je me diagnostique dix maladies graves par soir sur internet. C'est quoi votre réflexe quand un truc vous inquiète, vous cherchez ou vous demandez direct ?"
+      },
+      {
+        "accroche": "On dit que la santé c'est le seul vrai luxe et on ne le comprend souvent que trop tard — vous en avez pris conscience à quel moment vous ?",
+        "relance": "Moi il a fallu une bonne frayeur pour que je commence à faire un peu attention. C'est quoi le déclic qui vous a fait prendre soin de vous plus sérieusement ?"
       }
     ]
   },
@@ -2913,6 +3323,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez la laisse enroulée autour du poignet comme quelqu'un qui a l'habitude de gérer un sacré tempérament, il vous en fait voir vous ?",
         "relance": "Moi j'ai jamais eu de chien mais ça me tente de plus en plus. C'est quoi le truc qu'on sous-estime totalement avant d'en adopter un ?"
+      },
+      {
+        "accroche": "Il a une allure de chien de berger, ça doit avoir besoin de courir un truc pareil — vous arrivez à le fatiguer avec juste le parc ou il vous en réclame toujours plus ?",
+        "relance": "Moi je serais épuisé avant lui, clairement. C'est quoi le secret pour canaliser un chien qui a autant d'énergie sans y passer la matinée ?"
+      },
+      {
+        "accroche": "Il s'assoit dès que vous ralentissez, sans un mot, c'est bluffant — vous avez bossé le dressage vous-même ou c'est un naturel chez lui ?",
+        "relance": "Moi le mien tirerait comme un fou si j'en avais un, j'en suis sûr. C'est quoi le truc qui a le plus payé quand vous l'avez éduqué ?"
       }
     ],
     "contexte": [
@@ -2931,6 +3349,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Les premières feuilles commencent à joncher les allées, le parc se transforme complètement en ce moment, vous le voyez changer jour après jour vous aussi ?",
         "relance": "Moi je passe toujours trop vite pour vraiment le remarquer. C'est quoi la saison où vous préférez venir marcher ici ?"
+      },
+      {
+        "accroche": "Il y a ce coin clôturé pour les chiens un peu plus loin, je me demande s'il sert vraiment — vous le lâchez là-bas ou vous préférez la balade en liberté dans les allées ?",
+        "relance": "Moi je trouve ça un peu triste ces enclos, mais je connais rien. C'est mieux pour eux ce genre d'espace ou rien ne vaut une vraie balade selon vous ?"
+      },
+      {
+        "accroche": "À cette heure on entend les oiseaux avant tout le reste, la ville est encore endormie — c'est ce calme-là que vous venez chercher chaque matin ?",
+        "relance": "Moi je rate toujours ce moment, je sors quand ça grouille déjà. C'est ça le vrai luxe du lève-tôt selon vous, ce parc encore silencieux ?"
       }
     ],
     "zoomOut": [
@@ -2949,6 +3375,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Commencer la journée dehors plutôt que le nez dans les écrans, ça change tout sur l'humeur, c'est un peu votre sas de décompression ce moment vous ?",
         "relance": "Moi je saute sur mon téléphone dès le réveil, une horreur. C'est quoi qui vous a donné cette bonne habitude de sortir dès le matin ?"
+      },
+      {
+        "accroche": "Au fond c'est un peu lui qui vous impose cette bonne habitude de sortir tous les jours, beau temps mauvais temps — sans lui, vous seriez autant dehors vous croyez ?",
+        "relance": "Moi je resterais collé à mon canapé sans un truc qui me pousse dehors. C'est un vrai moteur ce chien pour vous garder actif, ou vous étiez déjà comme ça avant ?"
+      },
+      {
+        "accroche": "Vous devez voir ce parc changer à chaque saison à force d'y venir tous les jours, un truc que la plupart des gens ratent complètement — ça vous reconnecte un peu au temps qui passe, non ?",
+        "relance": "Moi je serais incapable de dire quel arbre a déjà perdu ses feuilles ici. C'est ça qui vous plaît dans cette routine, remarquer les petits changements ?"
       }
     ]
   },
@@ -3123,6 +3557,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Pardon de vous arrêter net, mais vous respirez encore tranquillement après ce rythme, c'est un souffle qui se construit sur des années ça non ?",
         "relance": "Moi je suis déjà cramé au bout de cinq minutes. C'est quoi le secret pour tenir sur la distance sans exploser en vol ?"
+      },
+      {
+        "accroche": "Pardon, je fais vite — vous courez avec la musique à fond dans les oreilles, c'est votre carburant ou vous avez besoin du silence certains jours ?",
+        "relance": "Moi sans un bon son je m'arrête au bout de dix minutes. C'est quoi qui vous porte vraiment quand les jambes commencent à lâcher, le rythme ou la tête ?"
+      },
+      {
+        "accroche": "Désolé de vous couper — vous êtes en short par ce froid alors que je grelotte en manteau, vous chauffez vraiment si vite que ça une fois lancé ?",
+        "relance": "Moi je pars couvert comme pour une expédition et je le regrette rarement. C'est une question d'habitude, ce rapport au froid, ou vous êtes juste blindé ?"
       }
     ],
     "contexte": [
@@ -3141,6 +3583,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Le sol est encore humide de la nuit et le parc sent bon la terre fraîche, c'est le meilleur moment pour courir ici vous trouvez pas ?",
         "relance": "Moi la fraîcheur du petit matin me décourage tout de suite. C'est quoi qui vous donne le courage d'affronter ça chaque jour ?"
+      },
+      {
+        "accroche": "Pardon deux secondes — cette grande boucle, vous devez la connaître au mètre près à force, elle fait quoi, dans les cinq kilomètres ?",
+        "relance": "Moi je me perds encore dans ce parc au bout d'un an. C'est mieux d'avoir un parcours balisé comme ça dans la tête ou vous variez pour pas vous lasser ?"
+      },
+      {
+        "accroche": "Désolé de vous arrêter — il y a cette montée un peu raide au fond que tout le monde évite soigneusement, vous, vous l'attaquez à chaque tour ?",
+        "relance": "Moi je fais un détour rien que pour ne pas la voir, cette côte. C'est là que ça se joue vraiment, ces portions qui piquent, ou c'est de l'orgueil ?"
       }
     ],
     "zoomOut": [
@@ -3159,6 +3609,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a ce sentiment d'avoir déjà accompli quelque chose avant même que la journée commence quand on court au réveil, ça vous porte pour la suite vous aussi ?",
         "relance": "Moi les matins où je bouge je me sens invincible tout le reste du jour. C'est quoi que la course vous apporte bien au-delà du simple sport ?"
+      },
+      {
+        "accroche": "Sortir courir quand rien ne vous y oblige, dans le froid, c'est presque une école de volonté — vous croyez que ça déteint sur le reste de votre vie ?",
+        "relance": "Moi je lâche à la première excuse venue, dans le sport comme ailleurs. Vous pensez que cette discipline-là finit par vous rendre plus solide partout ?"
+      },
+      {
+        "accroche": "Il y a ce truc de prendre soin de sa machine avant que la journée vous bouffe, un moment rien qu'à vous — c'est devenu non négociable pour vous, ce rendez-vous du matin ?",
+        "relance": "Moi je sacrifie toujours ce moment-là dès que le réveil sonne. C'est quoi qui rend ce rituel intouchable pour vous, au point de vous lever quoi qu'il arrive ?"
       }
     ]
   },
@@ -3263,6 +3721,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Je vous prends dix secondes — vous notez chaque série dans votre carnet, ça sent le mec méthodique, ça vous sert vraiment ce suivi ?",
         "relance": "Moi je fais tout au feeling et je tourne en rond. C'est quoi que vous suivez en priorité pour voir que vous progressez ?"
+      },
+      {
+        "accroche": "Je fais vite pour pas vous déranger — vous avez votre shaker préparé pile à côté, ça sent le mec qui gère aussi la nutrition, ça compte vraiment autant que l'entraînement ?",
+        "relance": "Moi je m'entraîne dur et je ruine tout avec une pizza le soir. C'est quoi la base côté alimentation qui a le plus d'impact selon vous ?"
+      },
+      {
+        "accroche": "Dix secondes promis — vous sortez vos propres sangles et votre ceinture, on voit l'habitué, ça fait vraiment la différence ce petit matériel perso ?",
+        "relance": "Moi j'utilise le matériel de la salle sans savoir à quoi la moitié sert. C'est quoi le premier accessoire qui vaut le coup quand on veut passer un cap ?"
       }
     ],
     "contexte": [
@@ -3281,6 +3747,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "C'est étonnamment calme ce soir pour une fois, on a presque la salle pour nous — vous tombez souvent sur ce genre de créneau tranquille ?",
         "relance": "Moi je rêve d'avoir les machines libres comme ça. C'est quoi le jour ou l'heure en or que vous avez repéré pour être peinard ?"
+      },
+      {
+        "accroche": "La musique est à fond ce soir, ça pousse ou ça finit par vous saouler à la longue — vous mettez vos écouteurs par-dessus vous ?",
+        "relance": "Moi j'ai besoin de ma propre playlist sinon je décroche. C'est quoi qui vous met vraiment dedans pour une grosse séance, l'ambiance ou votre bulle à vous ?"
+      },
+      {
+        "accroche": "On approche de la fermeture, c'est le rush des derniers comme nous — vous venez souvent gratter la dernière heure pour être plus tranquille ?",
+        "relance": "Moi je vise toujours ces créneaux limites pour éviter la foule. C'est quoi le meilleur moment que vous ayez repéré pour avoir les machines à vous ?"
       }
     ],
     "zoomOut": [
@@ -3299,6 +3773,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On voit tellement de corps parfaits partout maintenant que ça fausse tout, on se compare pour rien — vous arrivez à faire abstraction de ça vous ?",
         "relance": "Moi je me décourage à force de comparer. C'est quoi qui vous garde motivé pour vous et pas pour l'image ?"
+      },
+      {
+        "accroche": "Faire du sport le soir pour décharger la journée, il y a ceux que ça détend et ceux que ça tient éveillés toute la nuit — vous, ça vous vide ou ça vous relance ?",
+        "relance": "Moi une séance tardive et je fixe le plafond jusqu'à deux heures. C'est quoi votre rituel pour redescendre après avoir tout donné le soir ?"
+      },
+      {
+        "accroche": "À un moment le sport arrête d'être une corvée et devient juste un truc qu'on est, ça fait partie de soi — vous avez passé ce cap vous ?",
+        "relance": "Moi je suis encore au stade où chaque séance se négocie avec ma flemme. C'est quoi qui a fait basculer ça pour vous, un déclic ou juste le temps ?"
       }
     ]
   },
@@ -3613,6 +4095,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Désolé de vous couper, promis dix secondes — vous avez l'air de connaître, je cherche un endroit sympa pour bosser au calme avec un café, une idée ?",
         "relance": "Moi je viens d'arriver et je bosse à distance. C'est quoi le café du coin où on peut s'installer sans se faire pousser dehors ?"
+      },
+      {
+        "accroche": "Pardon, dix secondes promis — vous tenez un gobelet d'un café que je ne connais pas, et ça c'est souvent bon signe, il est où votre repaire dans le coin ?",
+        "relance": "Moi je débarque et je tourne en rond pour un café correct. C'est quoi l'adresse du coin qu'une habituée comme vous garde jalousement ?"
+      },
+      {
+        "accroche": "Désolé de vous sortir de votre musique deux secondes — vous avez l'air de foncer droit au but, vous sauriez m'indiquer une pharmacie encore ouverte par ici ?",
+        "relance": "Moi je viens d'arriver et je suis complètement paumé dans ce quartier. C'est quoi le repère à connaître pour ne pas se perdre dans le coin ?"
       }
     ],
     "contexte": [
@@ -3631,6 +4121,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a une sacrée animation cet après-midi, on dirait qu'il se passe un truc dans le quartier — vous savez ce que c'est vous ?",
         "relance": "Moi je suis tombé dessus par hasard. C'est quoi le genre d'événement qui vaut le coup de rester dans le coin d'après vous ?"
+      },
+      {
+        "accroche": "Pardon, je vois que vous filez vers l'arrêt — vous savez si le bus passe encore par là avec tous ces travaux, ou faut marcher jusqu'au métro ?",
+        "relance": "Moi je galère avec les transports depuis que je viens d'emménager ici. C'est quoi le moyen le plus simple pour rejoindre le centre quand tout est bloqué ?"
+      },
+      {
+        "accroche": "On est serrés comme des sardines sur ce trottoir cet après-midi, c'est toujours comme ça à cette heure — vous connaissez une rue parallèle plus tranquille par hasard ?",
+        "relance": "Moi je découvre le quartier et je subis la foule sans savoir l'éviter. C'est quoi le petit itinéraire de contournement que seuls les habitués connaissent ?"
       }
     ],
     "zoomOut": [
@@ -3649,6 +4147,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "C'est marrant, on peut vivre des années dans une ville sans jamais échanger un mot avec un inconnu — ça vous manque parfois ce genre de contact ?",
         "relance": "Moi un simple sourire d'inconnu peut changer ma journée. C'est quoi le petit geste qui vous a redonné foi en les gens récemment ?"
+      },
+      {
+        "accroche": "C'est fou comme aborder quelqu'un dans la rue est devenu presque suspect aujourd'hui, alors qu'avant on demandait l'heure sans y penser — vous trouvez pas qu'on s'est un peu barricadés ?",
+        "relance": "Moi j'hésite trois fois avant d'oser demander mon chemin, de peur de déranger. C'est quoi qui vous fait baisser la garde quand un inconnu vous adresse la parole vous ?"
+      },
+      {
+        "accroche": "On dirait que la ville nous met tous en accéléré sans qu'on choisisse vraiment, on avance en pilote automatique — vous arrivez à lever le pied parfois vous ?",
+        "relance": "Moi je marche vite même quand je n'ai nulle part où aller, c'est absurde. C'est quoi votre coin ou votre moment pour vraiment ralentir dans cette course ?"
       }
     ]
   },
@@ -3683,6 +4189,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Pardon de vous aborder comme ça — cette association de couleurs sur vous, c'est super maîtrisé, c'est réfléchi ou instinctif chez vous ?",
         "relance": "Moi je joue toujours safe avec du noir de la tête aux pieds. C'est quoi votre secret pour oser des couleurs sans que ça jure ?"
+      },
+      {
+        "accroche": "Je me permets juste avant de filer — votre sac a un truc, ni tout à fait vintage ni tout neuf, c'est le genre de pièce qui fait l'allure, il vient d'où ?",
+        "relance": "Moi je garde le même sac fatigué depuis des années par flemme. C'est quoi votre façon de dénicher ces pièces qui ont un vrai caractère ?"
+      },
+      {
+        "accroche": "Pardon de vous aborder — cette manière de superposer les pièces, l'écharpe sur la veste, c'est super maîtrisé, ça vous vient d'instinct ou vous préparez vos tenues la veille ?",
+        "relance": "Moi je réfléchis dix minutes le matin pour finir en jean-tee-shirt. C'est quoi le secret pour que les superpositions aient l'air naturelles et pas forcées ?"
       }
     ],
     "contexte": [
@@ -3701,6 +4215,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Les vitrines du quartier se sont mises à leur plus beau cette saison, ça donne envie de tout — vous vous laissez tenter par les nouveautés vous ?",
         "relance": "Moi je regarde sans jamais oser pousser la porte. C'est quoi la boutique du coin où vous êtes sûre de trouver votre bonheur ?"
+      },
+      {
+        "accroche": "On est pile dans le coin des petites boutiques de créateurs, ça tombe bien vu votre allure — vous poussez la porte de ce genre d'endroits vous ?",
+        "relance": "Moi je n'ose jamais entrer, j'ai peur de ne pas être à la hauteur du lieu. C'est quoi l'adresse de créateur du quartier que vous conseilleriez les yeux fermés ?"
+      },
+      {
+        "accroche": "Ce coin de rue c'est un peu le spot où tout le monde vient se montrer en terrasse, on dirait un défilé — vous venez y chercher l'inspiration ou vous êtes juste de passage ?",
+        "relance": "Moi je regarde les gens habillés avec goût comme des extraterrestres, fasciné. C'est quoi qui vous inspire le plus pour votre style, la rue ou autre chose ?"
       }
     ],
     "zoomOut": [
@@ -3719,6 +4241,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Je trouve qu'un vêtement dans lequel on se sent bien, ça change carrément la façon dont on se tient — vous ressentez ça aussi quand vous êtes bien mise ?",
         "relance": "Moi les bons jours ça se voit direct dans ce que je porte. C'est quoi la tenue qui vous donne un vrai coup de boost à vous ?"
+      },
+      {
+        "accroche": "J'ai l'impression que bien s'habiller c'est un peu une armure pour affronter la journée, ça donne de l'assurance — c'est ce que ça vous apporte à vous aussi ?",
+        "relance": "Moi les jours où je me sens mal fringué, je rase les murs toute la journée. C'est quoi la pièce qui vous donne ce petit surplus de confiance quand vous la portez ?"
+      },
+      {
+        "accroche": "On revient tous doucement vers la seconde main, et au fond ça donne des styles bien plus perso que le neuf uniforme des grandes enseignes — vous chinez pour l'originalité ou pour la planète vous ?",
+        "relance": "Moi j'achète encore trop de fast fashion que je jette au bout d'un an. C'est quoi qui vous a fait basculer vers ces pièces plus rares et durables ?"
       }
     ]
   },
@@ -3753,6 +4283,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Je vous vois souvent partir courir à cette heure, ça motive de voir quelqu'un d'aussi régulier — vous avez un circuit dans le quartier ?",
         "relance": "Moi je me remets tout doucement au sport. C'est quoi le parcours sympa pour courir sans se prendre les voitures dans le coin ?"
+      },
+      {
+        "accroche": "Je vous vois toujours partir à vélo le matin, vous avez l'air d'avoir trouvé le bon plan pour éviter les bouchons — vous faites tout le quartier comme ça vous ?",
+        "relance": "Moi je reste bloqué dans les embouteillages en pestant chaque matin. C'est quoi le meilleur itinéraire à vélo pour se déplacer peinard dans le coin ?"
+      },
+      {
+        "accroche": "Vous avez un de ces balcons fleuris qu'on repère depuis la rue, ça met de la vie dans l'immeuble — c'est vous qui avez la main verte du quartier ?",
+        "relance": "Moi je fais mourir même les cactus, c'est un exploit inversé. C'est quoi la plante increvable à mettre pour quelqu'un de nul comme moi selon vous ?"
       }
     ],
     "contexte": [
@@ -3771,6 +4309,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez vu, ils ont ouvert un nouveau café au coin, ça manquait dans le quartier — vous êtes déjà allé le tester vous ?",
         "relance": "Moi je guette qu'il y ait moins de monde pour y aller. C'est quoi l'endroit du quartier où vous aimez traîner le matin ?"
+      },
+      {
+        "accroche": "C'est l'heure où tout le quartier accompagne les enfants à l'école, ça grouille de monde d'un coup — vous avez le même timing tous les matins vous ?",
+        "relance": "Moi je me cale exprès juste après pour éviter la cohue. C'est quoi le petit rythme du quartier que vous avez fini par apprendre à force d'habiter ici ?"
+      },
+      {
+        "accroche": "Ils ont repeint la façade au bout de la rue, le quartier se refait doucement une beauté — vous trouvez qu'il change en bien ou vous regrettez un peu l'ancien ?",
+        "relance": "Moi je viens d'arriver, donc je ne sais pas ce que c'était avant. C'est quoi qui a le plus changé dans le coin depuis que vous y êtes vous ?"
       }
     ],
     "zoomOut": [
@@ -3789,6 +4335,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Je crois que c'est le quartier plus que la ville qui fait qu'on se sent chez soi quelque part — c'est ça qui vous a fait choisir ce coin vous ?",
         "relance": "Moi je suis tombé amoureux de l'ambiance ici avant même de l'appart. C'est quoi qui vous a attaché à ce quartier vous ?"
+      },
+      {
+        "accroche": "Je trouve que ce sont les petits commerçants qui tiennent encore le lien dans un quartier, le jour où ils ferment tout se refroidit d'un coup — vous le ressentez comme ça vous ?",
+        "relance": "Moi j'ai vu ma rue devenir triste quand l'épicier du coin a baissé le rideau. C'est quoi le commerce qui fait vraiment battre le cœur de votre quartier selon vous ?"
+      },
+      {
+        "accroche": "Au fond ça commence par un simple bonjour dans la rue, et de fil en aiguille on finit par se rendre des services — c'est peut-être aussi bête que ça, recréer du lien, non ?",
+        "relance": "Moi j'ai fini par arroser les plantes d'une voisine juste parce qu'on se disait bonjour. C'est quoi le premier pas qui a créé du lien pour vous dans le coin ?"
       }
     ]
   },
@@ -3963,6 +4517,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez choisi ce légume que je n'ai jamais su cuisiner, vous avez l'air de savoir quoi en faire — ça se prépare comment ce truc-là ?",
         "relance": "Moi j'achète des trucs curieux et ils finissent oubliés au frigo. C'est quoi votre recette fétiche pour un légume un peu original ?"
+      },
+      {
+        "accroche": "Vous avez sorti le vrai panier en osier, pas le sac plastique, ça c'est du client de marché convaincu — vous venez faire le plein ici toutes les semaines vous ?",
+        "relance": "Moi je débarque toujours les mains vides et je repars les bras cassés. C'est quoi l'ordre malin pour faire son marché sans tout écraser au fond du sac ?"
+      },
+      {
+        "accroche": "Vous embarquez des tomates par kilos entiers, ça sent la sauce ou les conserves maison — vous mettez de côté pour l'hiver vous ?",
+        "relance": "Moi j'achète toujours au coup par coup et je gaspille la moitié. C'est quoi le geste qui vaut le coup de faire soi-même quand un produit est en pleine saison ?"
       }
     ],
     "contexte": [
@@ -3981,6 +4543,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Les premières fraises viennent d'arriver sur les étals, c'est le signe que la saison change — vous guettez ça vous aussi ?",
         "relance": "Moi j'attends certains produits toute l'année. C'est quoi celui dont vous guettez le retour avec le plus d'impatience ?"
+      },
+      {
+        "accroche": "Le maraîcher fait goûter ses fraises là, c'est rare et ça donne confiance — vous vous fiez à la dégustation ou vous avez déjà vos stands attitrés vous ?",
+        "relance": "Moi je goûte tout et je finis par acheter n'importe quoi, sans méthode. C'est quoi le stand du marché dont vous ne changeriez pour rien au monde ?"
+      },
+      {
+        "accroche": "Les prix ici piquent un peu plus qu'en supermarché mais ça se voit dans l'assiette — vous faites tout votre panier au marché ou vous complétez ailleurs vous ?",
+        "relance": "Moi je craque sur deux-trois trucs ici et je fais le reste en grande surface. C'est quoi le produit pour lequel ça vaut vraiment le coup de payer le prix du marché selon vous ?"
       }
     ],
     "zoomOut": [
@@ -3999,6 +4569,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Je trouve qu'on perd un peu ces recettes toutes simples qui se transmettaient de génération en génération — vous cuisinez des trucs de famille vous ?",
         "relance": "Moi je regrette de ne pas avoir noté celles de ma grand-mère. C'est quoi le plat qui vous rappelle votre enfance à chaque bouchée ?"
+      },
+      {
+        "accroche": "On parle tellement de manger local maintenant, et ici c'est concret, à deux pas de chez le producteur — vous faites ça par conviction ou juste parce que c'est meilleur vous ?",
+        "relance": "Moi je culpabilise sur mes fraises d'Espagne en plein hiver, sans jamais rien changer. C'est quoi qui vous a fait vraiment basculer vers le local vous ?"
+      },
+      {
+        "accroche": "Il y a un truc dans le fait de flâner au marché le matin, ça n'a rien à voir avec pousser un caddie sous les néons — c'est devenu un vrai petit rituel pour vous ce moment ?",
+        "relance": "Moi je fais mes courses en vitesse le soir, sans jamais lever le nez. C'est quoi qui vous plaît le plus ici, les produits ou juste l'ambiance du marché ?"
       }
     ]
   },
@@ -4033,6 +4611,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez accroché des photos de vos ruches en pleine nature, ça donne envie d'y être — c'est par ici que vous les installez ?",
         "relance": "Moi je ne me doutais pas du décor qu'il y avait derrière un pot de miel. C'est quoi le plus beau coin où vous posez vos ruches ?"
+      },
+      {
+        "accroche": "Vous avez un pot un peu à part, presque crémeux, cristallisé, qui intrigue tout le monde — c'est un miel particulier ou juste le temps qui le transforme comme ça ?",
+        "relance": "Moi je croyais bêtement qu'un miel qui durcit était un miel raté. C'est quoi qui fait qu'un miel prend cette texture plutôt qu'une autre ?"
+      },
+      {
+        "accroche": "Vous avez posé un vrai cadre de ruche sur la table, avec la cire et tout, ça change des simples pots alignés — c'est pour montrer aux gens le boulot des abeilles derrière ?",
+        "relance": "Moi je n'avais jamais vu à quoi ça ressemblait vraiment de si près. C'est quoi le truc qui étonne le plus les gens quand vous leur expliquez comment ça marche ?"
       }
     ],
     "contexte": [
@@ -4051,6 +4637,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On est en pleine saison de récolte, vos pots doivent être des plus frais là — c'est le bon moment pour faire le plein vous diriez ?",
         "relance": "Moi je ne sais jamais quand un miel est au top. C'est quoi la période où votre miel est vraiment à son meilleur ?"
+      },
+      {
+        "accroche": "Vous avez marqué que tout vient de vos ruches à quelques kilomètres d'ici, c'est du vrai local — vous êtes le seul apiculteur sur ce marché ou il y a de la concurrence ?",
+        "relance": "Moi j'achète du miel sans jamais regarder d'où il vient, j'avoue. C'est quoi qui change vraiment quand le miel vient d'à côté plutôt que du bout du monde ?"
+      },
+      {
+        "accroche": "Il y a toujours des gamins qui s'arrêtent devant votre stand, fascinés par les abeilles — vous en profitez pour leur glisser deux-trois trucs vous ?",
+        "relance": "Moi enfant j'aurais adoré qu'on m'explique tout ça sur un marché. C'est quoi la question que les enfants vous posent le plus souvent devant vos pots ?"
       }
     ],
     "zoomOut": [
@@ -4069,6 +4663,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Votre métier c'est un peu l'inverse de notre époque pressée, tout se fait au rythme de la nature — ça vous rend plus patient vous croyez ?",
         "relance": "Moi je m'énerve dès que ça ne va pas assez vite. C'est quoi que le contact avec les abeilles vous a appris sur la patience ?"
+      },
+      {
+        "accroche": "On oublie qu'une bonne partie de ce qu'on mange dépend directement de vos abeilles, c'est vertigineux quand on y pense — vous vous sentez un peu gardien d'un truc plus grand que le miel vous ?",
+        "relance": "Moi je réalise à peine à quel point tout est lié à ces petites bêtes. C'est quoi qui vous inquiète le plus quand vous voyez les saisons se dérégler ?"
+      },
+      {
+        "accroche": "Les gens reviennent doucement vers les vrais produits, ceux qui ont une histoire et un visage derrière — vous le sentez, ce retour vers l'authentique sur vos marchés ?",
+        "relance": "Moi je fais plus attention à qui produit ce que j'achète depuis quelques années. C'est quoi qui vous rend optimiste pour la suite quand vous voyez vos clients ?"
       }
     ]
   },
@@ -4803,6 +5405,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous lisez avec un petit sourire au coin des lèvres, ça doit être une sacrée histoire pour vous mettre dans cet état — c'est quoi ce bouquin ?",
         "relance": "Moi je cherche justement un livre qui me fasse cet effet-là. C'est quoi le dernier roman qui vous a fait ressentir quelque chose de fort ?"
+      },
+      {
+        "accroche": "Vous en êtes déjà aux dernières pages et vous ralentissez comme pour le faire durer, je connais ça — c'est le genre de livre qu'on n'a pas envie de finir ?",
+        "relance": "Moi je repousse toujours la fin des bouquins que j'aime. C'est quoi le dernier livre que vous auriez voulu ne jamais terminer ?"
+      },
+      {
+        "accroche": "La tranche de votre bouquin est toute cassée, on dirait un livre que vous avez relu dix fois — c'est un de vos préférés que vous ressortez ?",
+        "relance": "Moi j'ai deux ou trois livres que je relis sans arrêt. C'est quoi le livre que vous pourriez rouvrir encore et encore sans vous lasser ?"
       }
     ],
     "contexte": [
@@ -4821,6 +5431,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On sent la fin des cours dans l'air, le bus se remplit de sacs et de fatigue étudiante — vous rentrez d'une longue journée à la fac vous aussi ?",
         "relance": "Moi j'ai gardé des bouquins des années passées dans les transports étudiant. C'est quoi la matière ou le sujet qui vous passionne le plus en ce moment ?"
+      },
+      {
+        "accroche": "Sur cette ligne on a le temps de caler un bon chapitre avant le terminus, c'est presque fait pour lire — vous avez trouvé le trajet parfait pour ça vous aussi ?",
+        "relance": "Moi j'ai un peu choisi ma ligne pour ça, j'avoue. C'est quoi votre coin préféré pour vous plonger vraiment dans un livre ?"
+      },
+      {
+        "accroche": "Vous vous êtes installé côté fenêtre pour avoir la lumière sur vos pages, le bon réflexe du lecteur — vous prenez toujours cette place-là pour lire ?",
+        "relance": "Moi je me bats toujours pour la place près de la vitre. C'est quoi les conditions parfaites pour que vous vous plongiez complètement dans un bouquin ?"
       }
     ],
     "zoomOut": [
@@ -4839,6 +5457,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a une richesse folle à se plonger dans les pensées d'un autre, comme si on empruntait sa tête le temps d'un livre — c'est ça qui vous attire dans la lecture ?",
         "relance": "Moi j'ai l'impression de grandir à chaque bon bouquin. C'est quoi l'auteur qui a le plus changé votre façon de penser ?"
+      },
+      {
+        "accroche": "Prendre le temps de lire, c'est un peu refuser d'aller à la vitesse de tout le reste, une façon de ralentir — c'est ce que ça vous apporte à vous aussi ?",
+        "relance": "Moi je cours tellement que j'oublie de m'arrêter pour lire. C'est quoi que la lecture arrive à apaiser dans votre tête ?"
+      },
+      {
+        "accroche": "Il y a un truc génial dans le fait qu'un livre peut lancer des débats sans fin entre gens qui l'ont lu, ça crée du lien — vous aimez en discuter autour de vous vous aussi ?",
+        "relance": "Moi j'adore tomber sur quelqu'un qui a lu le même bouquin que moi. C'est quoi le livre dont vous pourriez parler pendant des heures ?"
       }
     ]
   },
@@ -4873,6 +5499,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Pardon de vous sortir de votre monde une seconde — vous fermez les yeux comme si la musique vous emportait ailleurs, ça doit être quelque chose — c'est quoi ce son ?",
         "relance": "Moi la musique c'est ma façon de m'évader dans la foule. C'est quoi la chanson qui vous transporte complètement à chaque écoute ?"
+      },
+      {
+        "accroche": "Pardon de m'immiscer une seconde — vous articulez les paroles sans le vouloir, ça doit être un morceau que vous adorez — c'est quoi qui tourne là ?",
+        "relance": "Moi il y a des chansons que je connais par cœur sans même m'en rendre compte. C'est quoi le morceau dont vous connaissez chaque parole par cœur ?"
+      },
+      {
+        "accroche": "Désolé de vous interrompre — vous avez l'air suspendu à ce que vous écoutez, on dirait presque une histoire plus qu'une musique — c'est un podcast qui vous tient en haleine ?",
+        "relance": "Moi les podcasts me font oublier des trajets entiers. C'est quoi que vous écoutez qui vous captive au point d'oublier où vous êtes ?"
       }
     ],
     "contexte": [
@@ -4891,6 +5525,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il fait déjà nuit dehors et le wagon avance dans le noir, ça a un côté un peu suspendu ces trajets du soir — vous faites ce chemin tous les jours ?",
         "relance": "Moi j'aime bien ce moment un peu flottant entre le travail et la maison. C'est quoi qui vous fait le plus de bien pendant ce sas du soir ?"
+      },
+      {
+        "accroche": "On finit par croiser les mêmes visages sur ce trajet du soir sans jamais se parler, c'est amusant — vous prenez cette ligne tous les jours vous aussi ?",
+        "relance": "Moi je reconnais des gens sans leur avoir jamais adressé un mot. C'est quoi qui vous ferait enfin briser la glace avec un habitué du trajet ?"
+      },
+      {
+        "accroche": "Le balancement du wagon a presque endormi la moitié des gens, c'est l'effet des trajets du soir — vous luttez pour ne pas piquer du nez vous aussi ?",
+        "relance": "Moi je rate mon arrêt une fois sur deux tellement ça berce. C'est quoi qui vous tient éveillé sur le chemin du retour ?"
       }
     ],
     "zoomOut": [
@@ -4909,6 +5551,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On a tous besoin de ce petit refuge pour tenir le rythme de la ville, un coin de silence au milieu du vacarme — la musique c'est le vôtre j'imagine ?",
         "relance": "Moi sans mon casque je crois que la ville m'épuiserait. C'est quoi qui vous permet de vous ressourcer au milieu de tout ce bruit ?"
+      },
+      {
+        "accroche": "C'est fou de penser qu'on a tous notre propre bande-son qui accompagne les mêmes rues grises, ça transforme le décor — la musique change votre regard sur le trajet vous ?",
+        "relance": "Moi une bonne chanson peut rendre magique le trajet le plus banal. C'est quoi le morceau qui embellit n'importe quel moment pour vous ?"
+      },
+      {
+        "accroche": "Après une journée où on est sollicité de partout, se couper du monde un moment c'est presque vital — ces écouteurs c'est votre façon de souffler j'imagine ?",
+        "relance": "Moi j'ai besoin de ce sas de silence avant de rentrer chez moi. C'est quoi qui vous aide vraiment à couper avec la journée une fois dedans ?"
       }
     ]
   },
@@ -5083,6 +5733,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez l'air de bien connaître la maison, vous n'avez même pas ouvert la carte — vous venez souvent ou vous avez vos petites habitudes ici ?",
         "relance": "Moi je découvre l'endroit ce soir. C'est quoi le plat qu'il ne faut surtout pas rater quand on met les pieds ici pour la première fois ?"
+      },
+      {
+        "accroche": "Vous avez pris une belle planche à partager au milieu de la table, c'est convivial ça donne envie — vous êtes plutôt du genre à picorer dans tout vous ?",
+        "relance": "Moi j'adore quand on partage les plats, on goûte à tout. C'est quoi le plat que vous commandez toujours pour le mettre au centre et partager ?"
+      },
+      {
+        "accroche": "Vous avez immortalisé votre assiette avant d'y toucher, elle devait valoir le coup — c'est si beau que ça ce qu'on vous a servi ?",
+        "relance": "Moi je photographie mes plats et je me fais charrier à chaque fois. C'est quoi le plus beau plat qu'on vous ait jamais posé devant vous ?"
       }
     ],
     "contexte": [
@@ -5101,6 +5759,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Ça rit fort à toutes les tables ce soir, il y a une ambiance de fête contagieuse ici — vous célébrez une occasion spéciale de votre côté ?",
         "relance": "Moi on s'est réunis pour souffler un peu après une grosse période. C'est quoi la meilleure fête que vous ayez passée autour d'une table ?"
+      },
+      {
+        "accroche": "Cette salle est pleine à craquer un soir de semaine, il faut réserver des semaines à l'avance paraît-il — vous aviez anticipé ou vous avez eu de la chance pour la table ?",
+        "relance": "Moi j'ai tenté ma chance sans réserver, j'ai eu du bol. C'est quoi le resto le plus dur à décrocher où vous ayez fini par manger ?"
+      },
+      {
+        "accroche": "On voit la cuisine ouverte d'ici, c'est un spectacle en soi de les regarder s'activer — ça vous a attiré aussi cette ambiance vous ?",
+        "relance": "Moi je pourrais rester à regarder une brigade en action pendant des heures. C'est quoi qui vous fait choisir un resto, l'assiette ou l'ambiance ?"
       }
     ],
     "zoomOut": [
@@ -5119,6 +5785,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a cette idée que ce qui compte vraiment, ce n'est pas tant le plat que les gens avec qui on le partage — vous êtes d'accord avec ça vous aussi ?",
         "relance": "Moi les meilleurs plats restent fades sans la bonne compagnie. C'est quoi le repas qui vous a marqué plus pour les gens que pour l'assiette ?"
+      },
+      {
+        "accroche": "Goûter une cuisine qu'on ne connaît pas, c'est un peu voyager sans bouger de sa chaise — vous êtes du genre curieux qui teste tout au resto vous ?",
+        "relance": "Moi je commande toujours le truc que je n'ai jamais goûté. C'est quoi le plat le plus dépaysant qui vous ait surpris en bien ?"
+      },
+      {
+        "accroche": "Une sortie au resto, ça garde toujours ce petit air de fête même sans occasion, ça casse la routine — vous vous offrez ça souvent vous ?",
+        "relance": "Moi je trouve que ça remonte le moral mieux que tout. C'est quoi la sortie resto qui vous a le plus fait de bien récemment ?"
       }
     ]
   },
@@ -5153,6 +5827,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous parlez de vos plats avec des étoiles dans les yeux, on voit tout de suite la vraie passion — vous cuisinez depuis tout petit ou c'est venu plus tard ?",
         "relance": "Moi je cuisine à peine des pâtes correctement. C'est quoi le moment où vous avez su que la cuisine, ce serait votre vie ?"
+      },
+      {
+        "accroche": "Vous avez encore le tablier marqué du service, on voit que vous sortez à peine des fourneaux — vous ne quittez jamais vraiment votre cuisine des yeux hein ?",
+        "relance": "Moi je ne tiendrais pas la chaleur d'un piano cinq minutes. C'est quoi qui vous fait tenir debout derrière les fourneaux tout un service ?"
+      },
+      {
+        "accroche": "Vous prenez le temps d'expliquer le plat en le posant, avec les mots justes, on sent que chaque assiette a son histoire — celle-ci elle vient d'où ?",
+        "relance": "Moi j'aime savoir ce que je mange et d'où ça vient. C'est quoi le plat de votre carte qui cache la plus belle histoire ?"
       }
     ],
     "contexte": [
@@ -5171,6 +5853,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On devine des produits vraiment travaillés, ça sent le circuit court et le producteur du coin — vous choisissez vos fournisseurs vous-même ?",
         "relance": "Moi je fais de plus en plus attention à la provenance de ce que je mange. C'est quoi le producteur ou l'ingrédient dont vous êtes le plus fier ?"
+      },
+      {
+        "accroche": "Le gros du service est passé, vous faites votre tournée des tables tranquillement, c'est le bon moment pour souffler — c'est votre rituel de fin de soirée ça ?",
+        "relance": "Moi après un coup de feu pareil je m'écroulerais. C'est quoi qui vous fait le plus plaisir une fois le dernier plat envoyé ?"
+      },
+      {
+        "accroche": "Votre ardoise change tous les jours à ce que je vois, vous devez composer avec ce que vous trouvez le matin — c'est un casse-tête ou un plaisir cette contrainte ?",
+        "relance": "Moi j'aurais peur de la page blanche chaque matin. C'est quoi qui vous inspire quand vous découvrez les produits du jour ?"
       }
     ],
     "zoomOut": [
@@ -5189,6 +5879,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Nourrir les gens, c'est presque prendre soin d'eux d'une certaine façon, c'est plus qu'un métier — vous le vivez comme ça vous aussi ?",
         "relance": "Moi je trouve qu'un bon repas peut vraiment consoler quelqu'un. C'est quoi la plus belle réaction qu'un de vos plats ait provoquée chez un client ?"
+      },
+      {
+        "accroche": "C'est un métier qui bouffe les soirs et les week-ends, il faut une sacrée passion pour tenir dans la durée — qu'est-ce qui vous fait aimer ça encore après tout ce temps ?",
+        "relance": "Moi je respecte ceux qui bossent quand les autres font la fête. C'est quoi qui vous donne encore la même flamme qu'au premier jour ?"
+      },
+      {
+        "accroche": "On dirait qu'on revient à une cuisine plus simple, plus vraie, moins de chichis et plus de goût — vous sentez ce virage dans votre métier vous aussi ?",
+        "relance": "Moi je trouve qu'on redonne enfin sa valeur au produit brut. C'est quoi la mode en cuisine qui vous agace et celle qui vous réjouit ?"
       }
     ]
   },
@@ -5223,6 +5921,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous connaissez ce raccourci sans même regarder le GPS, on sent le chauffeur qui a la ville dans la peau — vous roulez dans ce coin depuis longtemps ?",
         "relance": "Moi je serais perdu sans mon téléphone. C'est quoi le quartier que vous préférez traverser dans cette ville, celui que vous ne vous lassez pas de sillonner ?"
+      },
+      {
+        "accroche": "Vous avez mis une petite musique douce en fond, ça rend le trajet apaisant, je vais pas casser l'ambiance — c'est ce qui vous détend sur les longues courses ?",
+        "relance": "Moi le silence au volant me pèserait vite. C'est quoi qui vous tient compagnie pendant vos heures de conduite ?"
+      },
+      {
+        "accroche": "Je vois une petite photo accrochée à votre rétro, ça doit faire du bien d'avoir un repère comme ça pendant les longues soirées — c'est votre bulle à vous ce coin-là ?",
+        "relance": "Moi j'aurais besoin d'un petit truc perso pour tenir des heures. C'est quoi qui vous rattache à la maison quand vous enchaînez les courses ?"
       }
     ],
     "contexte": [
@@ -5241,6 +5947,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On croise à peine deux voitures, la ville semble vous appartenir à cette heure — c'est plus reposant de bosser quand tout est calme comme ça ?",
         "relance": "Moi j'aime cette impression de ville endormie. C'est quoi le trajet que vous prenez toujours plaisir à faire une fois le silence installé ?"
+      },
+      {
+        "accroche": "À cette heure c'est peut-être une de vos dernières courses avant de rentrer, la fin est proche — vous vous fixez un nombre d'heures ou vous roulez tant que ça tourne ?",
+        "relance": "Moi je ne saurais jamais quand m'arrêter à votre place. C'est quoi le signe qui vous dit qu'il est temps de rentrer le soir ?"
+      },
+      {
+        "accroche": "Il y a une ambiance particulière la nuit dans une voiture, presque hors du temps, feutrée — c'est un moment que vous appréciez malgré la fatigue vous ?",
+        "relance": "Moi je trouve la nuit plus douce mais plus solitaire aussi. C'est quoi qui rend vos trajets de nuit différents de ceux de la journée ?"
       }
     ],
     "zoomOut": [
@@ -5259,6 +5973,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Passer ses journées entre deux vies, à conduire des inconnus vers leurs moments importants sans jamais en faire partie, c'est un drôle de rôle — vous le ressentez comment ?",
         "relance": "Moi je me demande ce que ça fait d'être ce passeur discret. C'est quoi le trajet qui vous a le plus touché sans que le client s'en doute une seconde ?"
+      },
+      {
+        "accroche": "Rouler quand tout le monde dort ou fait la fête, c'est un rythme à part, un peu à contre-courant du monde — vous vous y êtes fait avec le temps vous ?",
+        "relance": "Moi je crois que je perdrais la notion du jour et de la nuit. C'est quoi le plus dur à sacrifier dans ces horaires décalés ?"
+      },
+      {
+        "accroche": "Au fond vous êtes votre propre patron dans cet habitacle, personne sur le dos, juste la route — c'est cette liberté qui vous a plu dans le métier vous ?",
+        "relance": "Moi j'aime bien l'idée de n'avoir de comptes à rendre à personne. C'est quoi qui vous plaît le plus dans le fait de bosser seul comme ça ?"
       }
     ]
   },
@@ -5293,6 +6015,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez collé un petit fanion de l'équipe locale au rétro, ça sent le vrai supporter du cru — vous êtes de la ville de cœur j'imagine ?",
         "relance": "Moi je n'ai jamais eu de ville à défendre comme ça. C'est quoi qui vous rend le plus fier quand on parle de votre ville à un étranger ?"
+      },
+      {
+        "accroche": "Vous avez un petit porte-clés à l'effigie d'un monument d'ici qui pend au contact, ça sent le fier de sa ville — vous ne vous verriez vivre nulle part ailleurs vous ?",
+        "relance": "Moi je n'ai jamais eu ce lien fort avec un endroit. C'est quoi qui vous attache autant à cette ville plutôt qu'une autre ?"
+      },
+      {
+        "accroche": "Vous commentez chaque rue qu'on croise comme un vrai guide, vous devez connaître cette ville par cœur — vous en seriez incollable sur son histoire j'imagine ?",
+        "relance": "Moi je serais infoutu de raconter l'histoire de ma propre rue. C'est quoi l'anecdote sur cette ville que personne ne connaît et que vous adorez raconter ?"
       }
     ],
     "contexte": [
@@ -5311,6 +6041,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Là vous ralentissez pile devant une petite place que je n'aurais jamais remarquée, vous avez l'œil du guide — c'est un coin qui compte pour vous celui-là ?",
         "relance": "Moi je passe à côté de tout sans rien voir quand je conduis. C'est quoi le petit endroit de la ville où vous emmèneriez un ami de passage ?"
+      },
+      {
+        "accroche": "On traverse là un quartier qui grouille de vie, ça sent le coin authentique loin des cartes postales — c'est ici qu'il faut venir pour sentir la vraie ville selon vous ?",
+        "relance": "Moi je serais passé à côté sans m'arrêter. C'est quoi le quartier où il faut traîner pour comprendre l'âme de cette ville ?"
+      },
+      {
+        "accroche": "On passe devant un endroit qui a l'air d'avoir une sacrée histoire, vous devez en voir des changements dans cette ville au fil des années — elle a beaucoup bougé selon vous ?",
+        "relance": "Moi j'aime bien quand une ville garde des traces de son passé. C'est quoi qui a le plus changé ici depuis que vous y roulez ?"
       }
     ],
     "zoomOut": [
@@ -5329,6 +6067,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "À force de sillonner les mêmes rues jour et nuit, vous devez avoir une lecture de la ville que personne d'autre n'a — vous la comprenez mieux que ses habitants non ?",
         "relance": "Moi je crois qu'on ne connaît jamais vraiment la ville où on vit. C'est quoi que les gens d'ici ignorent complètement de leur propre ville selon vous ?"
+      },
+      {
+        "accroche": "On sent que vous portez votre ville haut, prêt à la défendre contre ceux qui n'y voient rien, c'est beau cet attachement — d'où ça vous vient cet amour du coin vous ?",
+        "relance": "Moi j'envie ceux qui ont des racines aussi fortes quelque part. C'est quoi qui rend votre ville irremplaçable à vos yeux face à toutes les autres ?"
+      },
+      {
+        "accroche": "On dirait que chaque ville a son caractère, sa personnalité, comme quelqu'un qu'on apprend à connaître — la vôtre, vous la décririez comment à un inconnu ?",
+        "relance": "Moi je trouve qu'on ressent l'âme d'un endroit sans savoir l'expliquer. C'est quoi le mot qui résume le mieux le tempérament de votre ville selon vous ?"
       }
     ]
   },
@@ -5503,6 +6249,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez sorti votre monnaie pile à l'avance, prêt à filer sans traîner, le vrai pro du matin — vous prenez toujours la même chose pour aller plus vite ?",
         "relance": "Moi je fais poireauter toute la file à hésiter devant le comptoir. C'est quoi la commande que vous pourriez passer les yeux fermés le matin ?"
+      },
+      {
+        "accroche": "Vous avez déjà un café à la main et vous visez le comptoir, le combo parfait du matin — c'est votre rituel café-viennoiserie pour bien démarrer vous ?",
+        "relance": "Moi sans mon café le matin je ne suis même pas là. C'est quoi le duo gagnant qui vous lance vraiment la journée ?"
+      },
+      {
+        "accroche": "Vous lorgnez le dernier pain au chocolat en vitrine, je l'avais repéré aussi, va falloir jouer serré — vous seriez prêt à vous battre pour lui vous ?",
+        "relance": "Moi je serais capable de doubler tout le monde pour le dernier. C'est quoi la viennoiserie pour laquelle vous feriez la queue une heure ?"
       }
     ],
     "contexte": [
@@ -5521,6 +6275,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On entend le four qui tourne derrière, la fournée de dix heures va bientôt sortir, ça se sent — vous calez votre passage sur les sorties de fournée vous ?",
         "relance": "Moi je viens toujours à la mauvaise heure quand tout est refroidi. C'est quoi le moment idéal pour avoir le pain encore tiède selon vous ?"
+      },
+      {
+        "accroche": "À cette heure c'est le défilé des gens pressés qui attrapent leur pain avant le boulot, un vrai ballet — vous faites partie des habitués de la première heure vous ?",
+        "relance": "Moi je viens toujours dans la même tranche horaire par habitude. C'est quoi qui vous fait venir à cette heure précise plutôt qu'une autre ?"
+      },
+      {
+        "accroche": "On m'a dit que leur spécialité valait le détour, c'est pour ça que je tente ma chance ici — vous confirmez la réputation de la maison vous qui devez connaître ?",
+        "relance": "Moi je me fie toujours au bouche-à-oreille pour ces choses-là. C'est quoi le produit de cette boulangerie qui mérite vraiment qu'on fasse la queue ?"
       }
     ],
     "zoomOut": [
@@ -5539,6 +6301,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Il y a des gestes du matin qu'on répète sans y penser mais qui nous ancrent, comme ce passage au chaud avant le froid dehors — vous tenez à ces habitudes vous ?",
         "relance": "Moi si je saute mon rituel du matin je suis décalé toute la journée. C'est quoi l'habitude toute bête qui vous met dans les bons rails ?"
+      },
+      {
+        "accroche": "Même pressé, on trouve toujours deux minutes pour se faire ce petit plaisir, comme si on refusait de sacrifier ça — vous non plus vous ne zappez jamais ce moment vous ?",
+        "relance": "Moi je zappe le petit-déj mais jamais ma viennoiserie. C'est quoi le petit plaisir que vous refusez de sacrifier même les jours de rush ?"
+      },
+      {
+        "accroche": "Il y a des odeurs de boulangerie qui nous ramènent direct en enfance, c'est plus fort que nous — ça vous fait le même effet à vous cette odeur au réveil ?",
+        "relance": "Moi ça me rappelle les dimanches matin chez mes grands-parents. C'est quoi le goût ou l'odeur qui vous replonge direct en enfance ?"
       }
     ]
   },
@@ -5573,6 +6343,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "La vendeuse a déjà mis votre pain de côté avant même que vous demandiez, ça c'est le privilège du fidèle — vous venez à la même heure tous les jours ?",
         "relance": "Moi je rêve qu'on anticipe mes envies comme ça quelque part. C'est quoi le petit rituel qui vous fait tenir à ce rendez-vous du matin ?"
+      },
+      {
+        "accroche": "Vous avez sorti votre cabas comme si vous connaissiez la maison par cœur, ça sent le rituel bien rodé — vous faites votre tournée des commerces chaque matin vous ?",
+        "relance": "Moi j'aimerais avoir cette petite routine qui rythme mes journées. C'est quoi votre parcours immuable du matin dans le coin ?"
+      },
+      {
+        "accroche": "Vous avez lancé une petite blague à la vendeuse comme un vieux copain, on voit les années de complicité — ça fait combien de temps que vous vous connaissez tous ?",
+        "relance": "Moi j'adorerais avoir ce genre de complicité avec mes commerçants. C'est quoi qui crée ce lien à force, au-delà du simple bonjour ?"
       }
     ],
     "contexte": [
@@ -5591,6 +6369,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Le quartier a l'air d'avoir gardé son âme de village malgré tout, avec ses commerçants qu'on salue par leur prénom — c'était déjà comme ça avant vous ?",
         "relance": "Moi je cherche justement un quartier avec cette chaleur-là. C'est quoi qui donne encore cette ambiance de village à ce coin selon vous ?"
+      },
+      {
+        "accroche": "Vous devez avoir vu ce quartier changer au fil des années, les commerces qui vont et viennent — il reste beaucoup de l'esprit d'avant selon vous ?",
+        "relance": "Moi je débarque et je n'ai pas connu tout ça. C'est quoi qui a disparu du quartier et qui vous manque le plus aujourd'hui ?"
+      },
+      {
+        "accroche": "Vous saluez la moitié des gens qu'on croise sur le trottoir, on dirait que tout le monde vous connaît ici — c'est le genre de quartier où on se dit tous bonjour encore ?",
+        "relance": "Moi je ne connais même pas le nom de mes voisins de palier. C'est quoi qui fait qu'un quartier reste soudé comme le vôtre ?"
       }
     ],
     "zoomOut": [
@@ -5609,6 +6395,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On parle de solitude partout, et pourtant il suffit d'un lieu comme ici pour retisser du lien tous les matins — vous croyez que ça peut sauver un quartier vous ?",
         "relance": "Moi je pense qu'on sous-estime le pouvoir de ces petits rendez-vous. C'est quoi qui manquerait vraiment aux gens du coin si ce lieu fermait ?"
+      },
+      {
+        "accroche": "Les gens comme vous qui connaissent le quartier depuis toujours, c'est une mémoire vivante qu'on n'écoute plus assez — vous trouvez qu'on prend encore le temps d'écouter les anciens vous ?",
+        "relance": "Moi je regrette de ne pas avoir plus questionné mes grands-parents. C'est quoi ce que votre génération aurait à transmettre qu'on est en train de perdre ?"
+      },
+      {
+        "accroche": "Il y a quelque chose de précieux dans ces petites habitudes qui rythment les journées, ça leur donne une saveur — c'est ce qui rend vos matins agréables à vous aussi ?",
+        "relance": "Moi je cours tellement que mes journées se ressemblent toutes. C'est quoi le secret pour garder du plaisir dans les gestes de tous les jours ?"
       }
     ]
   },
@@ -5643,6 +6437,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez déjà rangé et ressorti vos papiers trois fois, signe qu'on désespère de passer un jour — vous êtes venu pour un truc simple aussi j'imagine ?",
         "relance": "Moi je venais pour une signature de rien du tout. C'est quoi la démarche la plus absurde pour laquelle on vous a déjà fait poireauter ici ?"
+      },
+      {
+        "accroche": "Vous tapez du pied à un rythme qui trahit un ras-le-bol que je partage totalement — vous aviez sûrement mieux à faire de votre après-midi vous aussi ?",
+        "relance": "Moi j'avais mille trucs de prévus après ça. C'est quoi qui vous agace le plus, l'attente ou l'impression de perdre votre temps pour rien ?"
+      },
+      {
+        "accroche": "On fixe tous les deux ce seul guichet ouvert en espérant un miracle, la solidarité des désespérés — vous y croyez encore à passer avant la fermeture vous ?",
+        "relance": "Moi j'ai renoncé à faire des plans pour la fin d'après-midi. C'est quoi le record d'attente absurde que vous ayez déjà battu quelque part ?"
       }
     ],
     "contexte": [
@@ -5661,6 +6463,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Ils ferment deux guichets pile à l'heure où tout le monde débarque, c'est un timing à se demander s'ils le font exprès — vous avez déjà compris leur logique vous ?",
         "relance": "Moi je crois que personne ne comprend leurs horaires. C'est quoi le créneau miracle que vous visez pour éviter cette galère ?"
+      },
+      {
+        "accroche": "Le compteur des numéros est bloqué depuis dix minutes, on se demande s'il fonctionne encore, c'est du grand art — vous avez compris comment ça marche vous ?",
+        "relance": "Moi je crois que ce tableau se moque de nous. C'est quoi le pire système d'attente sur lequel vous soyez déjà tombé ?"
+      },
+      {
+        "accroche": "Il faut poser une demi-journée pour venir tellement leurs horaires collent avec ceux de tout le monde qui bosse — vous avez dû vous arranger pour être là vous aussi ?",
+        "relance": "Moi j'ai carrément posé mon après-midi pour ça. C'est quoi le truc qui vous a le plus compliqué la vie à cause de ces horaires impossibles ?"
       }
     ],
     "zoomOut": [
@@ -5679,6 +6489,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "À force de tout automatiser, on a l'impression d'être devenu un numéro qu'on fait patienter sans égard — vous ressentez cette déshumanisation vous aussi ?",
         "relance": "Moi je regrette le temps où un guichetier vous connaissait. C'est quoi le petit geste humain qui rendrait ces démarches moins glaçantes selon vous ?"
+      },
+      {
+        "accroche": "On nous promet que tout va plus vite et pourtant on n'a jamais autant attendu, c'est un comble — vous avez l'impression d'avoir gagné du temps avec le progrès vous ?",
+        "relance": "Moi je cours plus qu'avant alors que tout est censé être plus rapide. C'est quoi qui vous ferait vraiment gagner du temps dans votre quotidien ?"
+      },
+      {
+        "accroche": "On a tous désappris à attendre, le moindre délai nous rend fou aujourd'hui, moi le premier — vous trouvez qu'on est devenus trop impatients nous aussi vous ?",
+        "relance": "Moi je m'énerve pour trois minutes de retard maintenant. C'est quoi qui vous aide à relativiser quand tout va trop lentement ?"
       }
     ]
   },
@@ -5713,6 +6531,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez pris le temps de tout relire avant de passer au guichet, pas du genre à foncer tête baissée — vous préparez toujours vos rendez-vous comme ça vous ?",
         "relance": "Moi je découvre mes propres papiers sur place à chaque fois. C'est quoi votre méthode pour ne jamais vous laisser surprendre par ces démarches ?"
+      },
+      {
+        "accroche": "Vous avez sorti un petit carnet où vous notez vos chiffres, la vieille école qui a du bon — vous tenez vos comptes à la main comme ça vous ?",
+        "relance": "Moi je ne sais jamais où passe mon argent, tout est flou. C'est quoi votre système pour garder l'œil sur vos finances ?"
+      },
+      {
+        "accroche": "Vous attendez votre tour sans la moindre impatience, plongé dans vos papiers, ça change des gens tendus ici — vous prenez toujours ces démarches avec ce calme vous ?",
+        "relance": "Moi ce genre d'endroit me stresse d'avance. C'est quoi votre secret pour rester zen face à la paperasse et aux chiffres ?"
       }
     ],
     "contexte": [
@@ -5731,6 +6557,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On hésite tous entre le comptoir express et le rendez-vous conseiller, jamais sûr de faire le bon choix — vous, vous fonctionnez comment d'habitude ici ?",
         "relance": "Moi je regrette toujours mon choix une fois sur place. C'est quoi qui vous décide à passer en agence plutôt qu'à tout faire par écran ?"
+      },
+      {
+        "accroche": "On est parmi les premiers ce matin, ça a un côté agréable une agence encore endormie — vous aimez expédier ce genre de corvée dès le matin vous ?",
+        "relance": "Moi je préfère régler l'ennuyeux en premier pour être tranquille. C'est quoi votre façon d'organiser vos corvées pour qu'elles pèsent moins ?"
+      },
+      {
+        "accroche": "On est quelques irréductibles à venir en personne plutôt que de tout faire par écran, ça a du bon le contact humain — vous préférez traiter ces choses en face vous aussi ?",
+        "relance": "Moi je ne fais confiance à personne au téléphone pour l'argent. C'est quoi qui vous décide à vous déplacer plutôt qu'à cliquer de chez vous ?"
       }
     ],
     "zoomOut": [
@@ -5749,6 +6583,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "On passe notre vie à mettre de côté pour un après qui n'arrive jamais, c'est un drôle d'équilibre à trouver — vous penchez vers l'épargne ou vers l'instant vous ?",
         "relance": "Moi j'ai peur de sacrifier le présent pour un futur incertain. C'est quoi qui vous aide à trouver le bon dosage entre prévoir et profiter ?"
+      },
+      {
+        "accroche": "Au fond l'argent n'est qu'un moyen, c'est ce qu'on en fait qui compte vraiment, les projets, les gens — vous voyez ça comme ça vous aussi ?",
+        "relance": "Moi j'essaie de ne pas en faire une fin en soi mais c'est dur. C'est quoi qui donne du sens à l'argent que vous mettez de côté ?"
+      },
+      {
+        "accroche": "On travaille tous un peu pour se sentir en sécurité, ce fameux matelas qui rassure — c'est ça qui vous motive vous ou vous cherchez autre chose ?",
+        "relance": "Moi la sécurité passe avant tout pour moi, peut-être trop. C'est quoi qui vous rassure vraiment quand vous pensez à l'avenir ?"
       }
     ]
   },
@@ -6063,6 +6905,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous vérifiez votre numéro de ticket toutes les dix secondes en priant qu'on l'appelle, exactement mon manège — vous êtes loin dans la file vous aussi ?",
         "relance": "Moi je crois que le mien ne passera jamais. C'est quoi votre stratégie pour occuper l'esprit pendant tout ce temps mort ?"
+      },
+      {
+        "accroche": "Vous jonglez avec un colis pas commode à porter, on voit que vous n'êtes pas là par plaisir non plus — vous en avez pour longtemps à patienter avec ça vous ?",
+        "relance": "Moi j'ai un paquet encombrant qui me scie les bras. C'est quoi votre technique pour tenir sans craquer dans une file pareille ?"
+      },
+      {
+        "accroche": "Vous consultez l'heure sans arrêt, on partage visiblement la même angoisse de voir l'après-midi y passer — vous aviez autre chose de prévu vous aussi ?",
+        "relance": "Moi j'ai un truc derrière que je vais finir par rater. C'est quoi la fois où une file d'attente vous a fait louper quelque chose d'important ?"
       }
     ],
     "contexte": [
@@ -6081,6 +6931,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Ils ont mis un panneau d'excuse pour le manque de personnel, ça résume bien l'ambiance du jour — vous avez déjà tenté de venir un autre créneau vous ?",
         "relance": "Moi j'ai essayé toutes les heures sans jamais trouver la bonne. C'est quoi le jour de la semaine où c'est le moins cauchemardesque ici selon vous ?"
+      },
+      {
+        "accroche": "Le pauvre guichetier fait tout tout seul, on ne peut même pas lui en vouloir vu la cadence — vous venez souvent affronter ça ou c'est exceptionnel vous ?",
+        "relance": "Moi je le plains autant que je nous plains. C'est quoi l'heure creuse que vous visez pour éviter ce genre de scène ?"
+      },
+      {
+        "accroche": "Ils vont bientôt fermer et la file n'a pas bougé, on joue tous contre la montre là — vous pensez passer avant le rideau vous ?",
+        "relance": "Moi je me suis déjà fait recaler à une minute de la fermeture. C'est quoi le pire moment pour tomber ici selon votre expérience ?"
       }
     ],
     "zoomOut": [
@@ -6099,6 +6957,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "C'est marrant, on fuit tous ces endroits mais ce sont peut-être les derniers où on croise vraiment ses voisins de galère — vous y voyez du positif malgré tout vous ?",
         "relance": "Moi je me surprends parfois à discuter avec l'inconnu de la file. C'est quoi la rencontre improbable que vous avez déjà faite en faisant la queue ?"
+      },
+      {
+        "accroche": "Ces bureaux disparaissent un à un, bientôt il faudra tout faire seul derrière un écran, ça a un côté triste — ça vous manquerait ce genre d'endroit malgré la galère vous ?",
+        "relance": "Moi je râle mais je serais nostalgique s'ils fermaient. C'est quoi le service à l'ancienne dont la disparition vous attristerait le plus ?"
+      },
+      {
+        "accroche": "Au fond c'est peut-être un des rares moments où on est forcé de ne rien faire, une pause qu'on ne s'accorde jamais autrement — vous arrivez à en profiter un peu vous ?",
+        "relance": "Moi j'ai oublié comment ne rien faire sans culpabiliser. C'est quoi qui vous occuperait l'esprit agréablement pendant une attente comme celle-là ?"
       }
     ]
   },
@@ -6133,6 +6999,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous connaissez déjà le tarif et le format par cœur avant même que le guichetier ouvre la bouche, ça c'est le vrai vétéran de l'expédition — vous envoyez tous les jours ?",
         "relance": "Moi je pose mille questions à chaque envoi tellement je m'y perds. C'est quoi le truc à savoir absolument pour ne pas se ruiner en frais de port ?"
+      },
+      {
+        "accroche": "Vos colis ont un petit emballage soigné avec votre marque dessus, on sent le pro qui a le souci de l'image — vous glissez un petit mot perso à vos clients vous ?",
+        "relance": "Moi je trouve ça malin de soigner l'emballage comme ça. C'est quoi le détail qui fait que vos clients se souviennent de vous à la réception ?"
+      },
+      {
+        "accroche": "Vous avez des colis de toutes les tailles avec des étiquettes fragile partout, ça sent le produit fait main et délicat — c'est vous qui fabriquez ce que vous vendez ?",
+        "relance": "Moi j'ai toujours admiré ceux qui créent de leurs mains. C'est quoi le plus dur, fabriquer le produit ou réussir à le vendre ?"
       }
     ],
     "contexte": [
@@ -6151,6 +7025,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Vous avez tout regroupé en une seule fournée pour ne venir qu'une fois, l'optimisation du pro qui compte son temps — vous groupez toujours vos envois comme ça vous ?",
         "relance": "Moi je fais des allers-retours dans tous les sens sans logique. C'est quoi votre système pour ne pas passer votre vie au comptoir de la poste ?"
+      },
+      {
+        "accroche": "Le guichetier vous connaît déjà et vous saluez tout le monde, on voit que vous faites partie du décor ici — c'est votre passage obligé de chaque matin ce comptoir ?",
+        "relance": "Moi je débarque comme un touriste à chaque fois. C'est quoi qui a fait de la poste un rendez-vous quotidien pour vous plutôt qu'une corvée ?"
+      },
+      {
+        "accroche": "Avec cette pile, vos affaires ont l'air de bien tourner en ce moment, il y a des périodes plus chargées que d'autres j'imagine — c'est le coup de feu pour vous là ?",
+        "relance": "Moi je ne mesure pas ce que représente gérer les pics de commandes. C'est quoi la période de l'année qui vous met le plus sous pression ?"
       }
     ],
     "zoomOut": [
@@ -6169,6 +7051,14 @@ export const SITUATIONS_DATA = [
       {
         "accroche": "Ce lien direct avec le client, le colis emballé à la main, c'est justement ce que les géants ne sauront jamais offrir — c'est ça votre vraie carte à jouer vous ?",
         "relance": "Moi je crois que les gens ont soif de ce côté humain qu'on a perdu. C'est quoi le petit geste qui fidélise vos clients mieux que n'importe quelle pub ?"
+      },
+      {
+        "accroche": "Quand on est seul aux commandes, on est à la fois patron, vendeur, livreur et comptable, c'est du sport — vous arrivez à tout porter sans y laisser votre santé vous ?",
+        "relance": "Moi rien que d'y penser ça me donne le vertige. C'est quoi la casquette que vous détestez le plus porter dans votre activité ?"
+      },
+      {
+        "accroche": "Il y a une fierté particulière à vivre de quelque chose qu'on a créé de zéro, ça n'a pas de prix — c'est ça qui vous fait tenir malgré les galères vous ?",
+        "relance": "Moi un boulot qui a du sens ça me ferait tout accepter. C'est quoi le moment où vous vous êtes dit que vous aviez eu raison de vous lancer ?"
       }
     ]
   },
