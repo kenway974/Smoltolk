@@ -4,46 +4,39 @@ import { ArrowLeft } from "lucide-react";
 export default function WizardLayout({ step, total = 4, children, onBack }) {
   const steps = Array.from({ length: total }, (_, i) => i + 1);
   return (
-    <div className="min-h-svh bg-stone-100 flex flex-col">
+    <div className="min-h-svh flex flex-col">
       {/* ── Top bar ── */}
-      <div className="flex items-center justify-between px-4 pt-5 pb-3">
+      <div className="flex items-center justify-between px-5 pt-6 pb-4">
         <button
           onClick={onBack}
-          className="flex items-center justify-center w-10 h-10 rounded-2xl bg-white border border-stone-200 text-stone-600 hover:bg-stone-50 active:scale-95 transition-all duration-200 shadow-sm"
+          className="flex items-center justify-center w-9 h-9 rounded-xl bg-white border border-stone-200 text-stone-500 hover:bg-stone-50 active:scale-95 transition-colors duration-200"
           aria-label="Retour"
         >
-          <ArrowLeft size={18} strokeWidth={2} />
+          <ArrowLeft size={17} strokeWidth={2} />
         </button>
 
-        {/* Progress dots */}
-        <div className="flex items-center gap-2">
+        {/* Progress */}
+        <div className="flex items-center gap-1.5">
           {steps.map((s) => (
             <div
               key={s}
-              className={`rounded-full transition-all duration-300 ${
-                s < step
-                  ? "w-6 h-2.5 bg-blue-600"
-                  : s === step
-                  ? "w-6 h-2.5 bg-blue-600 opacity-100"
-                  : "w-2.5 h-2.5 bg-stone-300"
+              className={`h-1.5 rounded-full transition-all duration-300 ${
+                s === step ? "w-5 bg-stone-900" : s < step ? "w-1.5 bg-stone-900" : "w-1.5 bg-stone-300"
               }`}
             />
           ))}
         </div>
 
-        {/* Spacer to balance the back button */}
-        <div className="w-10" />
+        <div className="w-9" />
       </div>
 
       {/* ── Step indicator ── */}
-      <p className="text-center text-xs font-semibold text-stone-400 tracking-widest uppercase mb-2">
+      <p className="text-center text-[11px] font-medium text-stone-400 tracking-[0.15em] uppercase mb-4">
         Étape {step} / {total}
       </p>
 
       {/* ── Content ── */}
-      <div className="flex-1 animate-fade-in">
-        {children}
-      </div>
+      <div className="flex-1 animate-fade-in">{children}</div>
     </div>
   );
 }
