@@ -1,7 +1,8 @@
 import React from "react";
 import { ArrowLeft } from "lucide-react";
 
-export default function WizardLayout({ step, children, onBack }) {
+export default function WizardLayout({ step, total = 4, children, onBack }) {
+  const steps = Array.from({ length: total }, (_, i) => i + 1);
   return (
     <div className="min-h-svh bg-stone-100 flex flex-col">
       {/* ── Top bar ── */}
@@ -16,7 +17,7 @@ export default function WizardLayout({ step, children, onBack }) {
 
         {/* Progress dots */}
         <div className="flex items-center gap-2">
-          {[1, 2, 3, 4].map((s) => (
+          {steps.map((s) => (
             <div
               key={s}
               className={`rounded-full transition-all duration-300 ${
@@ -36,7 +37,7 @@ export default function WizardLayout({ step, children, onBack }) {
 
       {/* ── Step indicator ── */}
       <p className="text-center text-xs font-semibold text-stone-400 tracking-widest uppercase mb-2">
-        Étape {step} / 4
+        Étape {step} / {total}
       </p>
 
       {/* ── Content ── */}

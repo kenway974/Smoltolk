@@ -20,7 +20,7 @@ const PROX_ORDER = { Inconnu: 1, Croisé: 2, Connaissance: 3, Habitué: 4, Proch
 // toute la base). Quand un lieu est choisi, on renvoie toutes ses situations.
 const MAX_WITHOUT_LIEU = 12;
 
-export function matchSituations(situations, { lieu, avatar, interet, contexte }) {
+export function matchSituations(situations, { lieu, avatar, interet, contexte, intention }) {
   const { ageGroupe = null, genre = null, vibe = null } = avatar || {};
   const { proximite = null, audace = null } = contexte || {};
 
@@ -31,6 +31,11 @@ export function matchSituations(situations, { lieu, avatar, interet, contexte })
     let exact = true; // vrai si la situation matche parfaitement chaque critère choisi
 
     if (lieu) score += 5; // bonus lieu (garanti ici)
+
+    if (intention) {
+      if (s.intention === intention) score += 6; // l'intention prime : registre de l'accroche
+      else exact = false;
+    }
 
     if (interet) {
       if (s.centreInteret === interet) score += 4;

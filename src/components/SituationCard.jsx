@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MapPin, User, Tag, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, Sparkles, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
+import { INTENTION_BY_LABEL } from "../data/intentions";
 
 const VIBE_STYLE = {
   Ouvert:  "bg-emerald-100 text-emerald-700",
@@ -110,6 +111,11 @@ export default function SituationCard({ situation, index = 0 }) {
             <Sparkles size={11} strokeWidth={2.5} />
             {situation.centreInteret}
           </span>
+          {situation.intention && INTENTION_BY_LABEL[situation.intention] && (
+            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${INTENTION_BY_LABEL[situation.intention].style}`}>
+              {INTENTION_BY_LABEL[situation.intention].emoji} {situation.intention}
+            </span>
+          )}
           {situation.vibe && (
             <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold ${VIBE_STYLE[situation.vibe]}`}>
               {VIBE_EMOJI[situation.vibe]} {situation.vibe}

@@ -1,17 +1,9 @@
-// Structure : wizard fields (matching) + pyramide Zoom In / Contexte / Zoom Out.
+// Structure : wizard fields (matching) + intention + pyramide Zoom In / Contexte / Zoom Out.
 // Chaque niveau (zoomIn / contexte / zoomOut) est un TABLEAU de variantes { accroche, relance }.
-// La carte permet de faire défiler les variantes.
-// Au moins 4 variantes par niveau ; 6 pour les lieux du quotidien (rue, café, boulangerie,
-// supermarché, transports, sport, pharmacie, parc, marché, restaurant, taxi/VTC, poste, banque).
 //
-// Wizard fields :
-//   centreInteret — sujet principal (filtre StepInteret)
-//   vibe          — Ouvert / Neutre / Fermé
-//   ageGroupe     — Jeune / Adulte / Senior / Tous
-//   genre         — Homme / Femme / Indéfini
-//   proximite     — Inconnu / Croisé / Connaissance / Habitué / Proche
-//   audace        — 1 (Prudent) · 2 (Confiant) · 3 (Audacieux)
-//   moment        — Matin / Après-midi / Soir / Tous
+// Champs wizard :
+//   centreInteret · vibe (Ouvert/Neutre/Fermé) · ageGroupe · genre · proximite · audace · moment
+//   intention — Faire connaissance / Pluie et beau temps / Demander un conseil / Flirter
 
 export const SITUATIONS_DATA = [
   {
@@ -29,6 +21,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Briser la glace",
     "theme": "Le standing du lieu",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre stylo n'a pas l'air d'être là par hasard — c'est un outil de travail ou une signature personnelle ?",
@@ -99,6 +92,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer de la sympathie",
     "theme": "L'affluence du jour",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous gardez le sourire alors que le tapis n'arrête pas — c'est naturel ou c'est de la haute discipline ?",
@@ -193,6 +187,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Engager une conversation légère",
     "theme": "L'animal",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Il a une démarche qui décide de tout — c'est vous ou lui qui mène la balade ?",
@@ -287,6 +282,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Détendre l'atmosphère",
     "theme": "La pression du service",
+    "intention": "Pluie et beau temps",
     "zoomIn": [
       {
         "accroche": "Votre tatouage sur l'avant-bras a l'air d'avoir une histoire — c'est un truc qui veut dire quelque chose ?",
@@ -381,6 +377,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Humaniser le contact",
     "theme": "La routine du poste",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez une montre qui a l'air de tout faire sauf le café — c'est un choix de geek ou de fonction ?",
@@ -451,6 +448,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Valoriser le savoir-faire",
     "theme": "La saisonnalité",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vos mains disent que vous touchez vraiment la terre — vous produisez vous-même ou vous revendez ?",
@@ -545,6 +543,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Créer une connexion rapide",
     "theme": "Le cardio",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vos chaussures ont l'air taillées pour le squat — c'est quelle marque ? Je galère à trouver une paire stable.",
@@ -639,6 +638,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Solidarité corporatiste",
     "theme": "Les galères du métier",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre diable a vu du pays, on dirait — vous êtes sur cette tournée depuis longtemps ?",
@@ -709,6 +709,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Alléger l'échange",
     "theme": "La file d'attente",
+    "intention": "Pluie et beau temps",
     "zoomIn": [
       {
         "accroche": "Vous avez le geste qui ne tremble jamais derrière le comptoir — c'est l'habitude ou c'est dans le tempérament ?",
@@ -803,6 +804,7 @@ export const SITUATIONS_DATA = [
     "audace": 3,
     "objectif": "Capter l'attention",
     "theme": "L'exclusivité",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre montre n'est pas un hasard — vous l'avez chinée ou c'est un coup de cœur assumé ?",
@@ -873,6 +875,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Instaurer la confiance",
     "theme": "Les délais",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre casque a plus de stickers qu'un vieux skate — y en a un derrière chaque chantier ou c'est juste pour le style ?",
@@ -943,6 +946,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Briser l'isolement",
     "theme": "Le télétravail",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre casque a l'air de vous couper du monde entier — c'est le secret pour bosser dans le bruit ?",
@@ -1037,6 +1041,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Désamorcer la tension",
     "theme": "La météo",
+    "intention": "Pluie et beau temps",
     "zoomIn": [
       {
         "accroche": "Votre veste est trempée — il s'est remis à tomber dehors, ou vous avez couru pour échapper à la file ?",
@@ -1131,6 +1136,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Générer de l'intérêt",
     "theme": "Le flux de clients",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air philosophe à regarder la rue passer — c'est la pause ou la vraie vie du métier, ces moments-là ?",
@@ -1225,6 +1231,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Fidéliser le contact",
     "theme": "La vie de l'immeuble",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre trousseau pourrait ouvrir la moitié de la ville — vous retenez chaque clé par cœur ou y a un système ?",
@@ -1295,6 +1302,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Rendre l'échange humain",
     "theme": "Les voyageurs du jour",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez le sourire de quelqu'un qui gère l'imprévu avant même qu'il arrive — c'est votre routine ou vous êtes du matin naturellement ?",
@@ -1365,6 +1373,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Alléger le contrôle",
     "theme": "Les retards",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre veste a l'air d'avoir fait autant de kilomètres que les trains — vous êtes sur cette ligne depuis longtemps ?",
@@ -1435,6 +1444,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Créer une première impression mémorable",
     "theme": "Le séjour à venir",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez le badge du réceptionniste et l'air de quelqu'un qui a déjà répondu à toutes les questions possibles — c'est quoi la plus bizarre de la semaine ?",
@@ -1505,6 +1515,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Installer une connivence",
     "theme": "Le look et la transformation",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez les ciseaux qui bougent même quand vous parlez — c'est une seconde nature ou vous faites attention ?",
@@ -1575,6 +1586,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Ne pas alourdir l'attente",
     "theme": "La salle d'attente",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous jongler entre le téléphone, l'ordi et les patients avec une précision millimétrée — vous avez un système ou c'est l'instinct ?",
@@ -1645,6 +1657,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Rompre le silence de façon naturelle",
     "theme": "Le trajet quotidien",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre livre a l'air de vous tenir en haleine — c'est quoi, si c'est pas indiscret ?",
@@ -1739,6 +1752,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Obtenir une recommandation sincère",
     "theme": "Les coups de cœur",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez un livre à portée de main derrière la caisse — c'est ce que vous lisez en ce moment ou votre voisin de comptoir préféré ?",
@@ -1809,6 +1823,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Faciliter le service",
     "theme": "Le rush du midi",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous portez quatre assiettes d'un bras sans jamais trébucher — c'est une question d'entraînement ou de concentration pure ?",
@@ -1903,6 +1918,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Donner la bonne réplique d'ouverture",
     "theme": "La ville et ses anecdotes",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre voiture est impeccable pour un métier qui passe sa journée dehors — c'est une question d'organisation ou de discipline ?",
@@ -1997,6 +2013,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Engager un échange complice",
     "theme": "L'effort et la récupération",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vos chaussures ont pris une sacrée raclée — vous avez couru dans quoi, une rivière ?",
@@ -2091,6 +2108,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien avec l'habitué du lieu",
     "theme": "La discipline de l'eau",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre montre de sport a l'air de pouvoir faire une thèse sur mes performances — vous analysez vraiment tout le monde ou c'est automatique ?",
@@ -2161,6 +2179,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Commencer la journée sur une bonne note",
     "theme": "Les produits du jour",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez les yeux grands ouverts à cette heure-là — vous êtes du matin naturellement ou le four finit par vous conditionner ?",
@@ -2255,6 +2274,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Détendre un rendez-vous formel",
     "theme": "Les finances du quotidien",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez la façon de poser le stylo sur le bureau de quelqu'un qui a fait ça dix mille fois — c'est un tic ou une technique pour mettre les gens à l'aise ?",
@@ -2349,6 +2369,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Briser la glace sans déranger",
     "theme": "Le travail à distance",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez un setup qui donne envie — c'est le bureau de quelqu'un qui pense à son dos ou à sa productivité en premier ?",
@@ -2419,6 +2440,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien avant le cours",
     "theme": "La détente et le lâcher-prise",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez une façon d'arriver dans la salle qui fait baisser la pression de tout le monde — c'est travaillé ou c'est vous ?",
@@ -2489,6 +2511,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Apprendre quelque chose",
     "theme": "Les accords et les saisons",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez le regard de quelqu'un qui sait exactement quel fromage convient à quelle personne en trente secondes — c'est de l'instinct ou de l'expérience ?",
@@ -2559,6 +2582,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Ouvrir un dialogue sans se prendre au sérieux",
     "theme": "Les œuvres du moment",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous regardez les gens regarder les œuvres — c'est plus intéressant que les tableaux eux-mêmes parfois ?",
@@ -2629,6 +2653,7 @@ export const SITUATIONS_DATA = [
     "audace": 3,
     "objectif": "Créer un contact naturel en contexte social",
     "theme": "Les connexions inattendues",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous tenez votre verre avec le détachement de quelqu'un qui connaît du monde ici — vous êtes du côté de qui ?",
@@ -2699,6 +2724,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Sortir du silence pesant",
     "theme": "La vie de bureau",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez le badge d'un service que je croise peu — vous êtes sur quel étage ?",
@@ -2769,6 +2795,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Rendre le passage agréable",
     "theme": "Les colis et l'attente",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous scannez les colis avec la précision d'un chirurgien malgré le rythme — c'est de la concentration pure ou de l'automatisme complet ?",
@@ -2863,6 +2890,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Désamorcer la tension partagée",
     "theme": "Les retards et l'imprévu",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous vérifiez votre téléphone avec la fréquence de quelqu'un qui attend une greffe — c'est le vol ou autre chose ?",
@@ -2933,6 +2961,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Alimenter une curiosité sincère",
     "theme": "L'histoire derrière les œuvres",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez le regard de quelqu'un qui a une anecdote précise sur chaque pièce de la salle — laquelle vous préférez raconter ?",
@@ -3003,6 +3032,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Poser les bases d'un bon voisinage",
     "theme": "L'installation et le quartier",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez des cartons empilés avec une précision qui dit que vous avez déjà déménagé plusieurs fois — c'est votre système ou de la chance ?",
@@ -3073,6 +3103,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien professionnel",
     "theme": "Le quotidien du freelance",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air d'être installé ici comme chez vous, avec votre setup au millimètre — vous êtes un pilier de l'endroit ou c'est juste votre organisation naturelle ?",
@@ -3143,6 +3174,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Détendre l'attente",
     "theme": "Prendre soin de soi",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de quelqu'un qui garde le sourire même dans la file d'attente d'une pharmacie — c'est un tempérament ou une bonne journée ?",
@@ -3237,6 +3269,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Engager la conversation",
     "theme": "Le style et le changement",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de savoir exactement ce que vous voulez, vous êtes venue avec une idée précise en tête ?",
@@ -3307,6 +3340,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Amorcer un échange simple",
     "theme": "Le plein air et les habitudes",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre chien a l'air de connaître le chemin par cœur, c'est lui qui vous promène ou l'inverse ?",
@@ -3401,6 +3435,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Briser la glace avant le cours",
     "theme": "La pratique et le lâcher-prise",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez posé votre tapis pile au même endroit que la dernière fois, on a tous notre petit territoire ici — c'est votre place attitrée ?",
@@ -3471,6 +3506,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Créer du lien dans un groupe",
     "theme": "Les rencontres et le hasard",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de préférer observer avant de vous lancer, je fais exactement pareil dans ces soirées — vous connaissez beaucoup de monde ici ?",
@@ -3541,6 +3577,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Placer un mot malgré la distance",
     "theme": "L'effort et le grand air",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Désolé de vous couper en plein effort — vous avez un rythme de vrai habitué, vous courez ce parcours tous les jours ?",
@@ -3635,6 +3672,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Ouvrir un échange malgré la réserve",
     "theme": "Le goût et les bonnes adresses",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez pointé votre choix sans hésiter une seconde, ça sent le client qui sait ce qu'il aime — c'est votre incontournable celui-là ?",
@@ -3705,6 +3743,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Aborder sans casser la concentration",
     "theme": "L'entraînement et la régularité",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Je vais faire vite pour pas casser votre série — vous avez une technique super carrée sur cet exercice, ça fait longtemps que vous vous entraînez ?",
@@ -3799,6 +3838,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Apaiser une attente tendue",
     "theme": "La patience et le moral",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On a tous cette tête un peu ailleurs dans une salle d'attente — vous avez l'air d'avoir trouvé le fauteuil le moins inconfortable, ça fait longtemps que vous patientez ?",
@@ -3869,6 +3909,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Partager un regard sur une œuvre",
     "theme": "L'art et les impressions",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous êtes resté un bon moment devant cette œuvre, ça se voit que quelque chose vous parle — c'est le détail ou l'ensemble qui vous retient ?",
@@ -3939,6 +3980,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien discret",
     "theme": "Le calme et la récupération",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air d'arriver ici pour vraiment décrocher, pas pour discuter — je comprends, mais je me lance quand même : grosse journée ?",
@@ -4009,6 +4051,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Sortir quelqu'un de sa réserve",
     "theme": "Le hasard des soirées",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On est deux à faire tapisserie dans ce coin, autant s'allier — vous non plus vous ne connaissez pas grand monde ici ?",
@@ -4079,6 +4122,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Aborder avec tact et respect",
     "theme": "Le respect de l'espace",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Pardon de vous arrêter deux secondes, je vois que vous êtes pressée alors je fais court — vous auriez pas repéré une bonne adresse dans le coin par hasard ?",
@@ -4173,6 +4217,7 @@ export const SITUATIONS_DATA = [
     "audace": 3,
     "objectif": "Complimenter sans être lourd",
     "theme": "Le style et l'allure",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Je me permets juste un mot avant de continuer mon chemin — votre veste est vraiment classe, c'est une trouvaille ou une marque que je devrais connaître ?",
@@ -4267,6 +4312,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Transformer un croisement en lien",
     "theme": "La vie de quartier",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On se croise tout le temps dans cette rue sans jamais se dire un mot, c'est presque comique — vous habitez par ici depuis longtemps ?",
@@ -4361,6 +4407,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Transformer un croisement en lien",
     "theme": "La vie de l'immeuble",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On se croise tous les matins devant les ascenseurs sans jamais se parler — vous êtes à quel étage, on est peut-être voisins de palier professionnel ?",
@@ -4431,6 +4478,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Meubler une attente commune",
     "theme": "L'attente et les rendez-vous",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On a tous les deux cette tête de gens qui poireautent en réception — vous attendez pour un rendez-vous vous aussi ou vous bossez ici ?",
@@ -4501,6 +4549,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Échanger un bon plan cuisine",
     "theme": "Les produits de saison",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'œil pour choisir vos légumes, ça se voit que vous savez repérer les bons — c'est un truc que vous avez appris ou de l'instinct ?",
@@ -4595,6 +4644,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Apprendre du savoir-faire",
     "theme": "La nature et les abeilles",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On sent que derrière votre stand il y a une vraie histoire, vous avez la passion de quelqu'un qui parle de son métier — vous êtes apiculteur depuis longtemps ?",
@@ -4689,6 +4739,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien de voisinage",
     "theme": "Les galères de parking",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'art de tout faire rentrer dans le coffre, moi je galère toujours — c'est un déménagement ou juste de grosses courses ?",
@@ -4759,6 +4810,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Humaniser un échange de service",
     "theme": "Les coulisses du lieu",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous devez tout voir passer depuis votre poste, les pressés, les perdus, les râleurs — on doit vous en faire voir de belles non ?",
@@ -4829,6 +4881,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Partager un moment de pause",
     "theme": "La camaraderie du chantier",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air d'être celui qui met l'ambiance dans l'équipe, on le sent tout de suite — ça fait longtemps que vous bossez avec eux ?",
@@ -4899,6 +4952,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Aborder pendant le travail",
     "theme": "L'organisation et la logistique",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous manœuvrez cet engin comme si c'était une extension de vous, impressionnant — il faut combien de temps pour être aussi à l'aise ?",
@@ -4969,6 +5023,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Partager l'excitation du départ",
     "theme": "Les destinations et l'évasion",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez cette énergie de quelqu'un qui part pour quelque chose de bien, ça se voit sur votre visage — c'est les vacances ou un voyage spécial ?",
@@ -5039,6 +5094,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Réconforter une attente pénible",
     "theme": "Les galères de transit",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez la tête de quelqu'un qui enchaîne les vols depuis trop longtemps — grosse correspondance vous aussi ?",
@@ -5109,6 +5165,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Amorcer un échange d'attente",
     "theme": "Le charme du train",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air serein alors que tout le monde s'agite, ça fait du bien à voir — vous êtes un habitué de cette ligne ?",
@@ -5179,6 +5236,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Rassurer avec tact",
     "theme": "Les aléas des transports",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous consultez le panneau toutes les dix secondes, je fais pareil quand je stresse — vous avez peur de rater une correspondance ?",
@@ -5249,6 +5307,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien entre voyageurs",
     "theme": "Les découvertes en voyage",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez le guide de la ville ouvert à côté de votre café, ça sent le programme chargé — vous découvrez le coin vous aussi ?",
@@ -5319,6 +5378,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Obtenir de vraies bonnes adresses",
     "theme": "Les secrets de la ville",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous devez connaître cette ville par cœur à force de conseiller les gens — vous êtes du coin depuis toujours ?",
@@ -5389,6 +5449,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Rebondir sur une passion visible",
     "theme": "Les lectures et les idées",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous êtes tellement dans votre bouquin que vous avez failli rater l'arrêt, ça doit être bon — c'est quoi que vous lisez ?",
@@ -5483,6 +5544,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Aborder sans être intrusif",
     "theme": "La bulle du trajet",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Désolé de percer votre bulle une seconde — vous avez l'air à fond dans votre musique, ça doit être une sacrée playlist pour tenir ce trajet ?",
@@ -5577,6 +5639,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Échanger sur une passion commune",
     "theme": "Les coups de cœur littéraires",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous tournez autour de ce rayon depuis un moment, comme quelqu'un qui hésite entre trop de bonnes options — vous cherchez un titre précis ?",
@@ -5647,6 +5710,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Aider un choix en douceur",
     "theme": "Le vertige du choix",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous reposez et reprenez le même livre depuis cinq minutes, je connais ce dilemme par cœur — il vous tente mais quelque chose vous freine ?",
@@ -5717,6 +5781,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Créer un lien entre tables",
     "theme": "Le plaisir de la table",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Votre plat a l'air incroyable, on n'a pas pu s'empêcher de loucher dessus — c'est quoi que vous avez pris ?",
@@ -5811,6 +5876,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Complimenter et apprendre",
     "theme": "La cuisine et le métier",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On voit tout de suite la fierté du chef dans votre façon de présenter les plats — ce plat de ce soir, c'est une création à vous ?",
@@ -5905,6 +5971,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Briser un silence poli",
     "theme": "Les longues journées au volant",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Je vous sens concentré sur la route, je vais pas vous embêter — mais dites, ça fait combien d'heures que vous roulez aujourd'hui ?",
@@ -5999,6 +6066,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Profiter d'un guide local",
     "theme": "Les secrets de la ville",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous connaissez visiblement chaque raccourci de cette ville, on se sent en sécurité — vous conduisez ici depuis toujours ?",
@@ -6093,6 +6161,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Partager la motivation sportive",
     "theme": "L'effort et la régularité",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez un crawl super régulier, ça se voit que c'est pas votre première longueur — vous nagez depuis longtemps ?",
@@ -6163,6 +6232,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Créer un lien entre parents",
     "theme": "La vie de famille",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On est plusieurs à surveiller nos petits du coin de l'œil, la routine du mercredi — c'est le vôtre celui qui saute partout ?",
@@ -6233,6 +6303,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Partager un moment de file",
     "theme": "Les petits plaisirs du matin",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez repéré les croissants qui sortent du four, moi aussi je les guette — vous craquez pour lesquels d'habitude ?",
@@ -6327,6 +6398,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Nouer un lien de quartier",
     "theme": "Les habitudes et le voisinage",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On dirait que la boulangère connaît déjà votre commande par cœur, ça c'est le vrai statut d'habitué — vous venez ici depuis des années ?",
@@ -6421,6 +6493,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Désamorcer l'agacement partagé",
     "theme": "La patience des démarches",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "On a tous les deux cette tête de gens qui pensaient en avoir pour cinq minutes — vous êtes là depuis longtemps aussi ?",
@@ -6515,6 +6588,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Amorcer un échange simple",
     "theme": "Les projets et l'argent",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de quelqu'un qui gère ses affaires tranquillement, sans stress — vous venez pour un projet ou juste de la routine ?",
@@ -6609,6 +6683,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Partager une émotion artistique",
     "theme": "L'art et le ressenti",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous êtes captivé par cette toile, ça se voit — moi je reste devant sans savoir ce que ça me fait, c'est quoi qui vous touche là-dedans ?",
@@ -6679,6 +6754,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Aller à la rencontre du créateur",
     "theme": "Le processus créatif",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Attendez, c'est vous l'artiste derrière tout ça ? On sent une vraie signature, une patte — c'est quoi qui vous a mené à ce style ?",
@@ -6749,6 +6825,7 @@ export const SITUATIONS_DATA = [
     "audace": 2,
     "objectif": "Détendre un trajet express",
     "theme": "Le rush du matin",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez la course du matin dans le regard, café dans une main, téléphone dans l'autre — grosse journée qui vous attend ?",
@@ -6819,6 +6896,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Accueillir et rassurer",
     "theme": "Les premiers jours",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous hésitez sur les boutons, je parie que c'est un de vos premiers jours ici — je me trompe ?",
@@ -6889,6 +6967,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Alléger une attente commune",
     "theme": "Les files interminables",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air aussi résigné que moi devant cette file qui n'avance pas — vous venez pour un colis vous aussi ?",
@@ -6983,6 +7062,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "S'intéresser à l'activité de l'autre",
     "theme": "L'entreprise et la débrouille",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous avez une pile de colis impressionnante, ça sent le petit business qui tourne — c'est vous qui vendez tout ça ?",
@@ -7077,6 +7157,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Échanger des histoires de voyage",
     "theme": "L'expérience du voyage",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous attendez l'embarquement avec un calme olympien, ça sent le voyageur aguerri — vous prenez l'avion souvent ?",
@@ -7147,6 +7228,7 @@ export const SITUATIONS_DATA = [
     "audace": 1,
     "objectif": "Aborder un pro en déplacement",
     "theme": "Le travail nomade",
+    "intention": "Faire connaissance",
     "zoomIn": [
       {
         "accroche": "Vous bossez jusqu'à la dernière minute avant d'embarquer, le vrai réflexe du pro en déplacement — grosse échéance qui vous poursuit ?",

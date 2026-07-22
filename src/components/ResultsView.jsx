@@ -1,6 +1,7 @@
 import React from "react";
-import { RotateCcw, MessageCircle, MapPin, Sparkles, Users, Zap } from "lucide-react";
+import { RotateCcw, MessageCircle, MapPin, Sparkles, Users, Zap, Target } from "lucide-react";
 import SituationCard from "./SituationCard";
+import { INTENTION_BY_LABEL } from "../data/intentions";
 
 const VIBE_LABEL   = { Ouvert: "😊 Ouvert", Neutre: "😐 Neutre", Fermé: "😑 Fermé" };
 const PROX_EMOJI   = { Inconnu: "🤝", Croisé: "👀", Connaissance: "👋", Habitué: "💬", Proche: "😊" };
@@ -16,11 +17,12 @@ function CriterionChip({ icon: Icon, label, color }) {
 }
 
 export default function ResultsView({ situations, criteria, onRestart }) {
-  const { lieu, avatar, contexte, interet } = criteria || {};
+  const { lieu, moi, avatar, contexte, interet, intention } = criteria || {};
   const { ageGroupe, genre, vibe } = avatar || {};
   const { proximite, audace } = contexte || {};
+  const moiLabel = [moi?.ageGroupe, moi?.genre].filter(Boolean).join(" · ");
 
-  const hasAnyFilter = lieu || interet || ageGroupe || genre || vibe || proximite || audace;
+  const hasAnyFilter = lieu || interet || ageGroupe || genre || vibe || proximite || audace || intention || moiLabel;
 
   return (
     <div className="flex flex-col min-h-svh bg-stone-100">
@@ -46,6 +48,15 @@ export default function ResultsView({ situations, criteria, onRestart }) {
           <div className="flex flex-wrap gap-2">
             {lieu && (
               <CriterionChip icon={MapPin} label={lieu} color="bg-blue-900/60 text-blue-300" />
+            )}
+            {intention && (
+              <CriterionChip
+                label={`${INTENTION_BY_LABEL[intention]?.emoji ?? "🎯"} ${intention}`}
+                color="bg-amber-900/60 text-amber-200"
+              />
+            )}
+            {moiLabel && (
+              <CriterionChip icon={Target} label={`Moi : ${moiLabel}`} color="bg-indigo-900/60 text-indigo-300" />
             )}
             {(ageGroupe || genre || vibe) && (
               <CriterionChip
