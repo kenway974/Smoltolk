@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ArrowLeft, Plus } from "lucide-react";
 
 /* ── Petits blocs réutilisables ── */
@@ -66,9 +66,9 @@ function Gate({ items, verdict }) {
   );
 }
 
-function Palier({ depth, title, goal, intro, children }) {
+function Palier({ depth, title, goal, intro, children, anchor }) {
   return (
-    <section className="mt-14 scroll-mt-4">
+    <section id={anchor ? `palier-${anchor}` : undefined} className="mt-14 scroll-mt-[68px]">
       <div className="flex items-baseline gap-3 flex-wrap border-b border-stone-200 pb-2.5 mb-3">
         <span className="text-[12px] font-bold tracking-[0.06em] bg-stone-900 text-white px-2 py-1 rounded">{depth}</span>
         <h2 className="font-serif-guide text-[26px] font-semibold text-stone-900 tracking-tight">{title}</h2>
@@ -91,7 +91,17 @@ function MiniCard({ title, children }) {
 
 /* ── La page ── */
 
-export default function GuideView({ onBack }) {
+export default function GuideView({ onBack, focus }) {
+  useEffect(() => {
+    if (!focus) return;
+    const el = document.getElementById(`palier-${focus}`);
+    if (!el) return;
+    // Ouvre le premier nœud du palier ciblé pour montrer immédiatement le contenu.
+    const firstNode = el.querySelector("details");
+    if (firstNode) firstNode.open = true;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [focus]);
+
   return (
     <div className="guide min-h-svh">
       {/* Barre supérieure */}
@@ -128,7 +138,7 @@ export default function GuideView({ onBack }) {
         </div>
 
         {/* P0 */}
-        <Palier depth="P0" title="Ouvrir" goal="Objectif : exister, 8 secondes"
+        <Palier anchor="p0" depth="P0" title="Ouvrir" goal="Objectif : exister, 8 secondes"
           intro="À ce stade le contenu ne compte presque pas. Ce qui compte : que tu ne demandes rien, que tu sois ancré au contexte, et que tu laisses une porte de sortie évidente. La personne doit pouvoir t'ignorer sans gêne — c'est justement ça qui la met à l'aise.">
           <Node title="L'observation partagée" tag="Défaut" tagTone="open" defaultOpen>
             <Why>Le passe-partout. Tu commentes une chose que vous vivez tous les deux, à la seconde. Impossible à mal prendre parce que ce n'est pas sur elle.</Why>
@@ -168,7 +178,7 @@ export default function GuideView({ onBack }) {
         </Palier>
 
         {/* P1 */}
-        <Palier depth="P1" title="Cadrer" goal="Objectif : trouver la matière"
+        <Palier anchor="p1" depth="P1" title="Cadrer" goal="Objectif : trouver la matière"
           intro="Tu cherches un fil, pas un CV. La question « tu fais quoi dans la vie » n'est pas interdite, elle est juste pauvre : elle donne une étiquette, pas une matière. Reformule-la pour obtenir du vécu.">
           <Node title="Les quatre questions de cadrage (à la place de « tu fais quoi ? »)">
             <Say>« Qu'est-ce qui t'occupe le plus en ce moment ? »</Say>
@@ -209,7 +219,7 @@ export default function GuideView({ onBack }) {
         </Palier>
 
         {/* P2 */}
-        <Palier depth="P2" title="Colorer" goal="Objectif : sortir du factuel, entrer dans le goût"
+        <Palier anchor="p2" depth="P2" title="Colorer" goal="Objectif : sortir du factuel, entrer dans le goût"
           intro="Ici tu quittes ce qu'elle fait pour ce qu'elle aime, déteste, choisit. C'est le palier où une conversation devient reconnaissable, où elle cesse d'être interchangeable. La plupart des gens n'y arrivent jamais et se demandent pourquoi leurs conversations sont plates.">
           <Node title="Les questions de goût et de caractère">
             <Say>« C'est quoi le dernier truc qui t'a vraiment scotchée ? Film, bouquin, n'importe. »</Say>
@@ -251,7 +261,7 @@ export default function GuideView({ onBack }) {
         </Palier>
 
         {/* P3 */}
-        <Palier depth="P3" title="Approfondir" goal="Objectif : la vulnérabilité réciproque"
+        <Palier anchor="p3" depth="P3" title="Approfondir" goal="Objectif : la vulnérabilité réciproque"
           intro="Le palier de l'intimité. Il obéit à une loi stricte : tu donnes en premier, et à la même profondeur que ce que tu demandes. Poser une question profonde sans t'être exposé toi-même, ce n'est pas de la proximité, c'est un interrogatoire. Et ça se sent immédiatement.">
           <Node title="La mécanique : donner avant de demander" tag="Loi" tagTone="deep">
             <p className="text-[15px] text-stone-700 my-2.5 leading-relaxed">Structure en trois temps, toujours la même :</p>
@@ -286,7 +296,7 @@ export default function GuideView({ onBack }) {
         </Palier>
 
         {/* Sortir */}
-        <Palier depth="FIN" title="Sortir" goal="Objectif : partir au bon moment"
+        <Palier anchor="sortir" depth="FIN" title="Sortir" goal="Objectif : partir au bon moment"
           intro="La compétence la plus rare. Quasiment personne ne rate une rencontre au début — on les rate en s'accrochant à la fin. Pars pendant que c'est bon, jamais après.">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-1">
             <MiniCard title="La sortie haute">Juste après un rire : « Faut que j'y aille. J'ai passé un très bon moment — on refait ça, donne-moi ton numéro. » Direct, assumé, sans justification.</MiniCard>
@@ -297,7 +307,7 @@ export default function GuideView({ onBack }) {
         </Palier>
 
         {/* Socle */}
-        <Palier depth="SOCLE" title="Ce qui tient tout l'arbre" goal="À relire avant de sortir" intro="">
+        <Palier anchor="socle" depth="SOCLE" title="Ce qui tient tout l'arbre" goal="À relire avant de sortir" intro="">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-1">
             <MiniCard title="Le ratio 60/40">Elle parle 60 %, toi 40. En dessous de 30 % pour toi, tu fais passer un entretien. Au-dessus de 50 %, un monologue.</MiniCard>
             <MiniCard title="Deux relances, puis on change">Un sujet qui ne prend pas après deux tentatives est mort. Ce n'est pas toi, c'est le sujet. Change d'angle sans commenter.</MiniCard>

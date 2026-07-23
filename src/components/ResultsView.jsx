@@ -96,7 +96,7 @@ export default function ResultsView({ situations, criteria, onRestart, onOpenGui
       <main className="flex-1 px-5 pb-12 pt-2 space-y-3">
         {situations.length > 0 ? (
           situations.map((situation, index) => (
-            <SituationCard key={situation.id} situation={situation} index={index} />
+            <SituationCard key={situation.id} situation={situation} index={index} onOpenGuide={onOpenGuide} />
           ))
         ) : (
           <div className="flex flex-col items-center justify-center py-20 text-stone-400 animate-fade-in">

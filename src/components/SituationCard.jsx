@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
+import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair, ArrowRight } from "lucide-react";
 import { INTENTION_BY_LABEL } from "../data/intentions";
 import { ROLE_BY_LABEL } from "../data/roles";
+import { guidePalier, PALIERS_INFO } from "../data/guideMap";
 
 const LEVELS = [
   { key: "zoomIn",   label: "Zoom In",  hint: "Un détail visible sur la personne", Icon: ZoomIn },
@@ -32,7 +33,7 @@ function CopyButton({ text }) {
   );
 }
 
-export default function SituationCard({ situation, index = 0 }) {
+export default function SituationCard({ situation, index = 0, onOpenGuide }) {
   const [activeLevel, setActiveLevel] = useState("zoomIn");
   const [variantIndex, setVariantIndex] = useState(0);
   const [relanceOpen, setRelanceOpen] = useState(false);
@@ -52,6 +53,8 @@ export default function SituationCard({ situation, index = 0 }) {
 
   const intentionEmoji = INTENTION_BY_LABEL[situation.intention]?.emoji;
   const roleInfo = situation.role && situation.role !== "Tous" ? ROLE_BY_LABEL[situation.role] : null;
+  const palierKey = guidePalier(situation);
+  const palier = PALIERS_INFO[palierKey];
 
   // Ligne de méta discrète (remplace les pastilles colorées)
   const meta = [
@@ -179,6 +182,22 @@ export default function SituationCard({ situation, index = 0 }) {
           </div>
         )}
       </div>
+
+      {/* ── Et après ? → palier du guide ── */}
+      {onOpenGuide && (
+        <button
+          onClick={() => onOpenGuide(palierKey)}
+          className="w-full flex items-center justify-between gap-2 px-5 py-3.5 border-t border-stone-100 text-left group active:bg-stone-50 transition-colors"
+        >
+          <span className="flex flex-col">
+            <span className="text-[11px] font-medium uppercase tracking-[0.1em] text-stone-400">Et après&nbsp;?</span>
+            <span className="text-sm font-semibold text-stone-800">
+              {palier.label} <span className="font-normal text-stone-400">· {palier.tagline}</span>
+            </span>
+          </span>
+          <ArrowRight size={16} strokeWidth={2} className="text-stone-300 group-hover:text-stone-700 group-hover:translate-x-0.5 transition-all flex-shrink-0" />
+        </button>
+      )}
     </div>
   );
 }

@@ -36,8 +36,15 @@ export default function App() {
   const [contexte, setContexte] = useState(INITIAL_CONTEXTE);
   const [interet,  setInteret]  = useState(null);
   const [guideReturn, setGuideReturn] = useState("home");
+  const [guideFocus, setGuideFocus] = useState(null);
 
-  const openGuide  = () => { setGuideReturn(screen); setScreen("guide"); };
+  // focus peut être une clé de palier (ex. "p2") ; les boutons génériques passent
+  // un event, qu'on ignore.
+  const openGuide  = (focus) => {
+    setGuideReturn(screen);
+    setGuideFocus(typeof focus === "string" ? focus : null);
+    setScreen("guide");
+  };
   const closeGuide = () => setScreen(guideReturn);
 
   const results = useMemo(
@@ -86,7 +93,7 @@ export default function App() {
   }
 
   if (screen === "guide") {
-    return <GuideView onBack={closeGuide} />;
+    return <GuideView onBack={closeGuide} focus={guideFocus} />;
   }
 
   if (screen === "results") {
