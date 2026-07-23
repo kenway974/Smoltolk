@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair } from "lucide-react";
 import { INTENTION_BY_LABEL } from "../data/intentions";
+import { ROLE_BY_LABEL } from "../data/roles";
 
 const LEVELS = [
   { key: "zoomIn",   label: "Zoom In",  hint: "Un détail visible sur la personne", Icon: ZoomIn },
@@ -50,10 +51,12 @@ export default function SituationCard({ situation, index = 0 }) {
   };
 
   const intentionEmoji = INTENTION_BY_LABEL[situation.intention]?.emoji;
+  const roleInfo = situation.role && situation.role !== "Tous" ? ROLE_BY_LABEL[situation.role] : null;
 
   // Ligne de méta discrète (remplace les pastilles colorées)
   const meta = [
     situation.profil,
+    situation.humeur,
     situation.ageGroupe && situation.ageGroupe !== "Tous" ? situation.ageGroupe : null,
     situation.genre && situation.genre !== "Indéfini" ? situation.genre : null,
     situation.vibe,
@@ -67,16 +70,23 @@ export default function SituationCard({ situation, index = 0 }) {
     >
       {/* ── Header ── */}
       <div className="px-5 pt-5 pb-4">
-        <div className="flex items-center justify-between gap-3 mb-3">
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium text-stone-500">
+        <div className="flex items-start justify-between gap-3 mb-3">
+          <span className="inline-flex items-center gap-1.5 text-xs font-medium text-stone-500 pt-1">
             <MapPin size={12} strokeWidth={2} className="text-stone-400" />
             {situation.environnement}
           </span>
-          {situation.intention && (
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-600 text-xs font-medium">
-              {intentionEmoji} {situation.intention}
-            </span>
-          )}
+          <div className="flex flex-wrap justify-end gap-1.5">
+            {roleInfo && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-500 text-xs font-medium">
+                {roleInfo.emoji} {situation.role}
+              </span>
+            )}
+            {situation.intention && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-600 text-xs font-medium">
+                {intentionEmoji} {situation.intention}
+              </span>
+            )}
+          </div>
         </div>
 
         <p className="text-[17px] font-semibold text-stone-900 leading-snug">{situation.objectif}</p>

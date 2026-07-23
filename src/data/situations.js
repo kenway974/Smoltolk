@@ -1,10 +1,10 @@
-// Structure : wizard fields (matching) + intention + pyramide Zoom In / Contexte / Zoom Out.
+// Structure : wizard fields (matching) + intention + rôle (moi vs le lieu) + pyramide zoom.
 // Chaque niveau (zoomIn / contexte / zoomOut) est un TABLEAU de variantes { accroche, relance }.
-// Chaque lieu × intention couvre les deux genres et une profondeur de proximité variée.
 //
 // Champs wizard :
-//   centreInteret · vibe (Ouvert/Neutre/Fermé) · ageGroupe · genre · proximite · audace · moment
+//   centreInteret · vibe · ageGroupe · genre · proximite · audace · moment
 //   intention — Faire connaissance / Pluie et beau temps / Demander un conseil / Flirter
+//   role      — J'y travaille / Client ou visiteur / De passage / Je découvre / Tous
 
 export const SITUATIONS_DATA = [
   {
@@ -23,6 +23,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Le standing du lieu",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre stylo n'a pas l'air d'être là par hasard — c'est un outil de travail ou une signature personnelle ?",
@@ -94,6 +95,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer de la sympathie",
     "theme": "L'affluence du jour",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous gardez le sourire alors que le tapis n'arrête pas — c'est naturel ou c'est de la haute discipline ?",
@@ -189,6 +191,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager une conversation légère",
     "theme": "L'animal",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Il a une démarche qui décide de tout — c'est vous ou lui qui mène la balade ?",
@@ -284,6 +287,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Détendre l'atmosphère",
     "theme": "La pression du service",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tatouage sur l'avant-bras a l'air d'avoir une histoire — c'est un truc qui veut dire quelque chose ?",
@@ -379,6 +383,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Humaniser le contact",
     "theme": "La routine du poste",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez une montre qui a l'air de tout faire sauf le café — c'est un choix de geek ou de fonction ?",
@@ -450,6 +455,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Valoriser le savoir-faire",
     "theme": "La saisonnalité",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos mains disent que vous touchez vraiment la terre — vous produisez vous-même ou vous revendez ?",
@@ -545,6 +551,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une connexion rapide",
     "theme": "Le cardio",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos chaussures ont l'air taillées pour le squat — c'est quelle marque ? Je galère à trouver une paire stable.",
@@ -640,6 +647,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Solidarité corporatiste",
     "theme": "Les galères du métier",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre diable a vu du pays, on dirait — vous êtes sur cette tournée depuis longtemps ?",
@@ -711,6 +719,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Alléger l'échange",
     "theme": "La file d'attente",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le geste qui ne tremble jamais derrière le comptoir — c'est l'habitude ou c'est dans le tempérament ?",
@@ -806,6 +815,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Capter l'attention",
     "theme": "L'exclusivité",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre montre n'est pas un hasard — vous l'avez chinée ou c'est un coup de cœur assumé ?",
@@ -877,6 +887,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Instaurer la confiance",
     "theme": "Les délais",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Votre casque a plus de stickers qu'un vieux skate — y en a un derrière chaque chantier ou c'est juste pour le style ?",
@@ -948,6 +959,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser l'isolement",
     "theme": "Le télétravail",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre casque a l'air de vous couper du monde entier — c'est le secret pour bosser dans le bruit ?",
@@ -1043,6 +1055,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Désamorcer la tension",
     "theme": "La météo",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre veste est trempée — il s'est remis à tomber dehors, ou vous avez couru pour échapper à la file ?",
@@ -1138,6 +1151,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Générer de l'intérêt",
     "theme": "Le flux de clients",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air philosophe à regarder la rue passer — c'est la pause ou la vraie vie du métier, ces moments-là ?",
@@ -1233,6 +1247,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Fidéliser le contact",
     "theme": "La vie de l'immeuble",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre trousseau pourrait ouvrir la moitié de la ville — vous retenez chaque clé par cœur ou y a un système ?",
@@ -1304,6 +1319,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rendre l'échange humain",
     "theme": "Les voyageurs du jour",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez le sourire de quelqu'un qui gère l'imprévu avant même qu'il arrive — c'est votre routine ou vous êtes du matin naturellement ?",
@@ -1375,6 +1391,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Alléger le contrôle",
     "theme": "Les retards",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre veste a l'air d'avoir fait autant de kilomètres que les trains — vous êtes sur cette ligne depuis longtemps ?",
@@ -1446,6 +1463,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une première impression mémorable",
     "theme": "Le séjour à venir",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le badge du réceptionniste et l'air de quelqu'un qui a déjà répondu à toutes les questions possibles — c'est quoi la plus bizarre de la semaine ?",
@@ -1517,6 +1535,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Installer une connivence",
     "theme": "Le look et la transformation",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez les ciseaux qui bougent même quand vous parlez — c'est une seconde nature ou vous faites attention ?",
@@ -1588,6 +1607,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Ne pas alourdir l'attente",
     "theme": "La salle d'attente",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous jongler entre le téléphone, l'ordi et les patients avec une précision millimétrée — vous avez un système ou c'est l'instinct ?",
@@ -1659,6 +1679,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rompre le silence de façon naturelle",
     "theme": "Le trajet quotidien",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre livre a l'air de vous tenir en haleine — c'est quoi, si c'est pas indiscret ?",
@@ -1754,6 +1775,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Obtenir une recommandation sincère",
     "theme": "Les coups de cœur",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un livre à portée de main derrière la caisse — c'est ce que vous lisez en ce moment ou votre voisin de comptoir préféré ?",
@@ -1825,6 +1847,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faciliter le service",
     "theme": "Le rush du midi",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous portez quatre assiettes d'un bras sans jamais trébucher — c'est une question d'entraînement ou de concentration pure ?",
@@ -1920,6 +1943,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Donner la bonne réplique d'ouverture",
     "theme": "La ville et ses anecdotes",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre voiture est impeccable pour un métier qui passe sa journée dehors — c'est une question d'organisation ou de discipline ?",
@@ -2015,6 +2039,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager un échange complice",
     "theme": "L'effort et la récupération",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos chaussures ont pris une sacrée raclée — vous avez couru dans quoi, une rivière ?",
@@ -2110,6 +2135,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien avec l'habitué du lieu",
     "theme": "La discipline de l'eau",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre montre de sport a l'air de pouvoir faire une thèse sur mes performances — vous analysez vraiment tout le monde ou c'est automatique ?",
@@ -2181,6 +2207,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Commencer la journée sur une bonne note",
     "theme": "Les produits du jour",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez les yeux grands ouverts à cette heure-là — vous êtes du matin naturellement ou le four finit par vous conditionner ?",
@@ -2276,6 +2303,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Détendre un rendez-vous formel",
     "theme": "Les finances du quotidien",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez la façon de poser le stylo sur le bureau de quelqu'un qui a fait ça dix mille fois — c'est un tic ou une technique pour mettre les gens à l'aise ?",
@@ -2371,6 +2399,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace sans déranger",
     "theme": "Le travail à distance",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez un setup qui donne envie — c'est le bureau de quelqu'un qui pense à son dos ou à sa productivité en premier ?",
@@ -2442,6 +2471,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien avant le cours",
     "theme": "La détente et le lâcher-prise",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une façon d'arriver dans la salle qui fait baisser la pression de tout le monde — c'est travaillé ou c'est vous ?",
@@ -2513,6 +2543,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Apprendre quelque chose",
     "theme": "Les accords et les saisons",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le regard de quelqu'un qui sait exactement quel fromage convient à quelle personne en trente secondes — c'est de l'instinct ou de l'expérience ?",
@@ -2584,6 +2615,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Ouvrir un dialogue sans se prendre au sérieux",
     "theme": "Les œuvres du moment",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous regardez les gens regarder les œuvres — c'est plus intéressant que les tableaux eux-mêmes parfois ?",
@@ -2655,6 +2687,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un contact naturel en contexte social",
     "theme": "Les connexions inattendues",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous tenez votre verre avec le détachement de quelqu'un qui connaît du monde ici — vous êtes du côté de qui ?",
@@ -2726,6 +2759,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Sortir du silence pesant",
     "theme": "La vie de bureau",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez le badge d'un service que je croise peu — vous êtes sur quel étage ?",
@@ -2797,6 +2831,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rendre le passage agréable",
     "theme": "Les colis et l'attente",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous scannez les colis avec la précision d'un chirurgien malgré le rythme — c'est de la concentration pure ou de l'automatisme complet ?",
@@ -2892,6 +2927,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Désamorcer la tension partagée",
     "theme": "Les retards et l'imprévu",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous vérifiez votre téléphone avec la fréquence de quelqu'un qui attend une greffe — c'est le vol ou autre chose ?",
@@ -2963,6 +2999,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Alimenter une curiosité sincère",
     "theme": "L'histoire derrière les œuvres",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le regard de quelqu'un qui a une anecdote précise sur chaque pièce de la salle — laquelle vous préférez raconter ?",
@@ -3034,6 +3071,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Poser les bases d'un bon voisinage",
     "theme": "L'installation et le quartier",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez des cartons empilés avec une précision qui dit que vous avez déjà déménagé plusieurs fois — c'est votre système ou de la chance ?",
@@ -3105,6 +3143,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien professionnel",
     "theme": "Le quotidien du freelance",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air d'être installé ici comme chez vous, avec votre setup au millimètre — vous êtes un pilier de l'endroit ou c'est juste votre organisation naturelle ?",
@@ -3176,6 +3215,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Détendre l'attente",
     "theme": "Prendre soin de soi",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de quelqu'un qui garde le sourire même dans la file d'attente d'une pharmacie — c'est un tempérament ou une bonne journée ?",
@@ -3271,6 +3311,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager la conversation",
     "theme": "Le style et le changement",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de savoir exactement ce que vous voulez, vous êtes venue avec une idée précise en tête ?",
@@ -3342,6 +3383,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Amorcer un échange simple",
     "theme": "Le plein air et les habitudes",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre chien a l'air de connaître le chemin par cœur, c'est lui qui vous promène ou l'inverse ?",
@@ -3437,6 +3479,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace avant le cours",
     "theme": "La pratique et le lâcher-prise",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez posé votre tapis pile au même endroit que la dernière fois, on a tous notre petit territoire ici — c'est votre place attitrée ?",
@@ -3508,6 +3551,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer du lien dans un groupe",
     "theme": "Les rencontres et le hasard",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de préférer observer avant de vous lancer, je fais exactement pareil dans ces soirées — vous connaissez beaucoup de monde ici ?",
@@ -3579,6 +3623,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Placer un mot malgré la distance",
     "theme": "L'effort et le grand air",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Désolé de vous couper en plein effort — vous avez un rythme de vrai habitué, vous courez ce parcours tous les jours ?",
@@ -3674,6 +3719,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Ouvrir un échange malgré la réserve",
     "theme": "Le goût et les bonnes adresses",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez pointé votre choix sans hésiter une seconde, ça sent le client qui sait ce qu'il aime — c'est votre incontournable celui-là ?",
@@ -3745,6 +3791,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aborder sans casser la concentration",
     "theme": "L'entraînement et la régularité",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vais faire vite pour pas casser votre série — vous avez une technique super carrée sur cet exercice, ça fait longtemps que vous vous entraînez ?",
@@ -3840,6 +3887,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Apaiser une attente tendue",
     "theme": "La patience et le moral",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On a tous cette tête un peu ailleurs dans une salle d'attente — vous avez l'air d'avoir trouvé le fauteuil le moins inconfortable, ça fait longtemps que vous patientez ?",
@@ -3911,6 +3959,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager un regard sur une œuvre",
     "theme": "L'art et les impressions",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes resté un bon moment devant cette œuvre, ça se voit que quelque chose vous parle — c'est le détail ou l'ensemble qui vous retient ?",
@@ -3982,6 +4031,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien discret",
     "theme": "Le calme et la récupération",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air d'arriver ici pour vraiment décrocher, pas pour discuter — je comprends, mais je me lance quand même : grosse journée ?",
@@ -4053,6 +4103,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Sortir quelqu'un de sa réserve",
     "theme": "Le hasard des soirées",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On est deux à faire tapisserie dans ce coin, autant s'allier — vous non plus vous ne connaissez pas grand monde ici ?",
@@ -4124,6 +4175,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aborder avec tact et respect",
     "theme": "Le respect de l'espace",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Pardon de vous arrêter deux secondes, je vois que vous êtes pressée alors je fais court — vous auriez pas repéré une bonne adresse dans le coin par hasard ?",
@@ -4219,6 +4271,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Complimenter sans être lourd",
     "theme": "Le style et l'allure",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Je me permets juste un mot avant de continuer mon chemin — votre veste est vraiment classe, c'est une trouvaille ou une marque que je devrais connaître ?",
@@ -4314,6 +4367,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Transformer un croisement en lien",
     "theme": "La vie de quartier",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On se croise tout le temps dans cette rue sans jamais se dire un mot, c'est presque comique — vous habitez par ici depuis longtemps ?",
@@ -4409,6 +4463,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Transformer un croisement en lien",
     "theme": "La vie de l'immeuble",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "On se croise tous les matins devant les ascenseurs sans jamais se parler — vous êtes à quel étage, on est peut-être voisins de palier professionnel ?",
@@ -4480,6 +4535,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Meubler une attente commune",
     "theme": "L'attente et les rendez-vous",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "On a tous les deux cette tête de gens qui poireautent en réception — vous attendez pour un rendez-vous vous aussi ou vous bossez ici ?",
@@ -4551,6 +4607,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Échanger un bon plan cuisine",
     "theme": "Les produits de saison",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'œil pour choisir vos légumes, ça se voit que vous savez repérer les bons — c'est un truc que vous avez appris ou de l'instinct ?",
@@ -4646,6 +4703,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Apprendre du savoir-faire",
     "theme": "La nature et les abeilles",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On sent que derrière votre stand il y a une vraie histoire, vous avez la passion de quelqu'un qui parle de son métier — vous êtes apiculteur depuis longtemps ?",
@@ -4741,6 +4799,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien de voisinage",
     "theme": "Les galères de parking",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'art de tout faire rentrer dans le coffre, moi je galère toujours — c'est un déménagement ou juste de grosses courses ?",
@@ -4812,6 +4871,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Humaniser un échange de service",
     "theme": "Les coulisses du lieu",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous devez tout voir passer depuis votre poste, les pressés, les perdus, les râleurs — on doit vous en faire voir de belles non ?",
@@ -4883,6 +4943,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager un moment de pause",
     "theme": "La camaraderie du chantier",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air d'être celui qui met l'ambiance dans l'équipe, on le sent tout de suite — ça fait longtemps que vous bossez avec eux ?",
@@ -4954,6 +5015,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aborder pendant le travail",
     "theme": "L'organisation et la logistique",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous manœuvrez cet engin comme si c'était une extension de vous, impressionnant — il faut combien de temps pour être aussi à l'aise ?",
@@ -5025,6 +5087,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager l'excitation du départ",
     "theme": "Les destinations et l'évasion",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez cette énergie de quelqu'un qui part pour quelque chose de bien, ça se voit sur votre visage — c'est les vacances ou un voyage spécial ?",
@@ -5096,6 +5159,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Réconforter une attente pénible",
     "theme": "Les galères de transit",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez la tête de quelqu'un qui enchaîne les vols depuis trop longtemps — grosse correspondance vous aussi ?",
@@ -5167,6 +5231,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Amorcer un échange d'attente",
     "theme": "Le charme du train",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air serein alors que tout le monde s'agite, ça fait du bien à voir — vous êtes un habitué de cette ligne ?",
@@ -5238,6 +5303,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rassurer avec tact",
     "theme": "Les aléas des transports",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous consultez le panneau toutes les dix secondes, je fais pareil quand je stresse — vous avez peur de rater une correspondance ?",
@@ -5309,6 +5375,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien entre voyageurs",
     "theme": "Les découvertes en voyage",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le guide de la ville ouvert à côté de votre café, ça sent le programme chargé — vous découvrez le coin vous aussi ?",
@@ -5380,6 +5447,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Obtenir de vraies bonnes adresses",
     "theme": "Les secrets de la ville",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous devez connaître cette ville par cœur à force de conseiller les gens — vous êtes du coin depuis toujours ?",
@@ -5451,6 +5519,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rebondir sur une passion visible",
     "theme": "Les lectures et les idées",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous êtes tellement dans votre bouquin que vous avez failli rater l'arrêt, ça doit être bon — c'est quoi que vous lisez ?",
@@ -5546,6 +5615,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aborder sans être intrusif",
     "theme": "La bulle du trajet",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Désolé de percer votre bulle une seconde — vous avez l'air à fond dans votre musique, ça doit être une sacrée playlist pour tenir ce trajet ?",
@@ -5641,6 +5711,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Échanger sur une passion commune",
     "theme": "Les coups de cœur littéraires",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous tournez autour de ce rayon depuis un moment, comme quelqu'un qui hésite entre trop de bonnes options — vous cherchez un titre précis ?",
@@ -5712,6 +5783,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aider un choix en douceur",
     "theme": "Le vertige du choix",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous reposez et reprenez le même livre depuis cinq minutes, je connais ce dilemme par cœur — il vous tente mais quelque chose vous freine ?",
@@ -5783,6 +5855,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien entre tables",
     "theme": "Le plaisir de la table",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre plat a l'air incroyable, on n'a pas pu s'empêcher de loucher dessus — c'est quoi que vous avez pris ?",
@@ -5878,6 +5951,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Complimenter et apprendre",
     "theme": "La cuisine et le métier",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On voit tout de suite la fierté du chef dans votre façon de présenter les plats — ce plat de ce soir, c'est une création à vous ?",
@@ -5973,6 +6047,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser un silence poli",
     "theme": "Les longues journées au volant",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Je vous sens concentré sur la route, je vais pas vous embêter — mais dites, ça fait combien d'heures que vous roulez aujourd'hui ?",
@@ -6068,6 +6143,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Profiter d'un guide local",
     "theme": "Les secrets de la ville",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous connaissez visiblement chaque raccourci de cette ville, on se sent en sécurité — vous conduisez ici depuis toujours ?",
@@ -6163,6 +6239,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager la motivation sportive",
     "theme": "L'effort et la régularité",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un crawl super régulier, ça se voit que c'est pas votre première longueur — vous nagez depuis longtemps ?",
@@ -6234,6 +6311,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien entre parents",
     "theme": "La vie de famille",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On est plusieurs à surveiller nos petits du coin de l'œil, la routine du mercredi — c'est le vôtre celui qui saute partout ?",
@@ -6305,6 +6383,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager un moment de file",
     "theme": "Les petits plaisirs du matin",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez repéré les croissants qui sortent du four, moi aussi je les guette — vous craquez pour lesquels d'habitude ?",
@@ -6400,6 +6479,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Nouer un lien de quartier",
     "theme": "Les habitudes et le voisinage",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On dirait que la boulangère connaît déjà votre commande par cœur, ça c'est le vrai statut d'habitué — vous venez ici depuis des années ?",
@@ -6495,6 +6575,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Désamorcer l'agacement partagé",
     "theme": "La patience des démarches",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On a tous les deux cette tête de gens qui pensaient en avoir pour cinq minutes — vous êtes là depuis longtemps aussi ?",
@@ -6590,6 +6671,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Amorcer un échange simple",
     "theme": "Les projets et l'argent",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de quelqu'un qui gère ses affaires tranquillement, sans stress — vous venez pour un projet ou juste de la routine ?",
@@ -6685,6 +6767,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager une émotion artistique",
     "theme": "L'art et le ressenti",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes captivé par cette toile, ça se voit — moi je reste devant sans savoir ce que ça me fait, c'est quoi qui vous touche là-dedans ?",
@@ -6756,6 +6839,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aller à la rencontre du créateur",
     "theme": "Le processus créatif",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Attendez, c'est vous l'artiste derrière tout ça ? On sent une vraie signature, une patte — c'est quoi qui vous a mené à ce style ?",
@@ -6827,6 +6911,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Détendre un trajet express",
     "theme": "Le rush du matin",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez la course du matin dans le regard, café dans une main, téléphone dans l'autre — grosse journée qui vous attend ?",
@@ -6898,6 +6983,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Accueillir et rassurer",
     "theme": "Les premiers jours",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous hésitez sur les boutons, je parie que c'est un de vos premiers jours ici — je me trompe ?",
@@ -6969,6 +7055,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Alléger une attente commune",
     "theme": "Les files interminables",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air aussi résigné que moi devant cette file qui n'avance pas — vous venez pour un colis vous aussi ?",
@@ -7064,6 +7151,7 @@ export const SITUATIONS_DATA = [
     "objectif": "S'intéresser à l'activité de l'autre",
     "theme": "L'entreprise et la débrouille",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une pile de colis impressionnante, ça sent le petit business qui tourne — c'est vous qui vendez tout ça ?",
@@ -7159,6 +7247,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Échanger des histoires de voyage",
     "theme": "L'expérience du voyage",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous attendez l'embarquement avec un calme olympien, ça sent le voyageur aguerri — vous prenez l'avion souvent ?",
@@ -7230,6 +7319,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Aborder un pro en déplacement",
     "theme": "Le travail nomade",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous bossez jusqu'à la dernière minute avant d'embarquer, le vrai réflexe du pro en déplacement — grosse échéance qui vous poursuit ?",
@@ -7301,6 +7391,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le style",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Cette veste que vous tenez a un vrai caractère, elle vous ressemble je trouve. Vous la prenez pour une occasion spéciale ?",
@@ -7372,6 +7463,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon choix",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître chaque pièce du magasin par cœur, votre regard s'y arrête avec assurance. Vous me conseilleriez quoi pour un entretien important ?",
@@ -7443,6 +7535,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Le choix",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez pris trois fois le même pull dans des couleurs différentes, on est deux à galérer je crois. Vous partez sur laquelle ?",
@@ -7514,6 +7607,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon soulier",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez soulevé cette paire comme quelqu'un qui connaît le cuir, ça se voit tout de suite. Elle vaut son prix selon vous ?",
@@ -7585,6 +7679,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Les baskets",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Ces baskets que vous essayez ont un sacré style, elles vous vont trop bien. Vous les prenez pour sortir ou pour tous les jours ?",
@@ -7656,6 +7751,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "L'attente",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez déjà trois boîtes empilées à vos pieds, la mission a l'air sérieuse. Vous trouvez votre bonheur ?",
@@ -7727,6 +7823,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "L'attente",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous consultez l'appli toutes les dix secondes, je fais pareil de mon côté. Il annonce quoi, votre écran ?",
@@ -7798,6 +7895,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La météo",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti l'écharpe alors qu'il faisait doux ce matin, vous avez senti le changement venir. Ça se rafraîchit pour de bon vous croyez ?",
@@ -7869,6 +7967,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "L'attente partagée",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre tote bag couvert de badges raconte visiblement plein d'histoires. Il y en a un qui a une signification particulière ?",
@@ -7940,6 +8039,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "L'attente en réception",
     "intention": "Faire connaissance",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Votre badge visiteur est comme le mien, on doit être les deux invités du jour. Vous venez pour quel service, vous ?",
@@ -8011,6 +8111,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "L'expérience du métier",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Votre badge indique un poste à responsabilités, vous devez connaître la maison sur le bout des doigts. Vous auriez un conseil pour un premier entretien ici ?",
@@ -8082,6 +8183,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le début de journée",
     "intention": "Pluie et beau temps",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez le manteau encore tout mouillé, la pluie de ce matin ne vous a pas raté non plus. Le trajet a été rude ?",
@@ -8153,6 +8255,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Le choix du menu",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous fixez le menu depuis un moment, on est deux à hésiter devant les nouveautés. Vous partez sur quoi, vous ?",
@@ -8224,6 +8327,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La gourmandise",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez commandé un supplément de frites sans hésiter, j'admire l'assurance. Vous assumez la gourmandise jusqu'au bout, vous ?",
@@ -8295,6 +8399,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon choix au comptoir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous connaissez visiblement la carte par cœur, vous servez avec une aisance impressionnante. Vous me conseilleriez quoi pour un premier essai ?",
@@ -8366,6 +8471,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un premier lien simple",
     "theme": "Silence studieux",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos surligneurs sont classés par couleur, ça a l'air super carré votre méthode, vous fonctionnez comment ?",
@@ -8437,6 +8543,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir une recommandation de lecture",
     "theme": "Transmission littéraire",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une pile de romans historiques impressionnante, vous auriez un titre à conseiller à un débutant comme moi ?",
@@ -8508,6 +8615,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle avec délicatesse",
     "theme": "Charme feutré",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Un homme qui traîne au rayon poésie un mardi après-midi, ça m'intrigue, c'est quoi votre poète secret ?",
@@ -8579,6 +8687,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager une conversation simple",
     "theme": "Avant la séance",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez pris le format XXL de pop-corn, vous jouez dans la cour des vrais amateurs, c'est sucré ou salé la vraie religion ?",
@@ -8650,6 +8759,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec légèreté",
     "theme": "Rencontre pétillante",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous hésitez depuis un moment devant les glaces, je peux vous aider à faire ce choix crucial de la soirée ?",
@@ -8721,6 +8831,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter en attendant sans enjeu",
     "theme": "Petite pause bavarde",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez pris un chocolat chaud alors qu'on est en pleine journée, c'est le genre de petit plaisir qui réchauffe, hein ?",
@@ -8792,6 +8903,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Obtenir une astuce pratique",
     "theme": "Sagesse du quotidien",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de savoir exactement quel programme lancer, moi je suis un peu perdu, vous auriez un conseil pour les couleurs ?",
@@ -8863,6 +8975,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Meubler l'attente en discutant",
     "theme": "Discussion sans enjeu",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti un bouquin pour patienter, bonne idée, il est bien au moins pour tuer le temps ?",
@@ -8934,6 +9047,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire connaissance simplement",
     "theme": "Premier contact",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tote-bag a un logo d'une fac que je connais, vous étudiez dans le coin ?",
@@ -9005,6 +9119,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec charme et tact",
     "theme": "Flirt estival",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre livre a l'air de vous passionner, vous n'avez pas levé les yeux depuis un moment, il est si captivant que ça ?",
@@ -9076,6 +9191,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander conseil à un connaisseur",
     "theme": "Savoir du littoral",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez tout un attirail de pêche vraiment sérieux, vous auriez un conseil pour un total débutant comme moi ?",
@@ -9147,6 +9263,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Lier connaissance entre voisins de plage",
     "theme": "Voisinage estival",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre serviette a un imprimé que j'adore, ça vient d'un voyage ou d'une boutique du coin ?",
@@ -9218,6 +9335,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une connexion dans l'euphorie",
     "theme": "Étincelle sous les projecteurs",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous connaissez toutes les paroles par cœur, vous êtes clairement la plus grande fan ici, depuis quand vous les suivez ?",
@@ -9289,6 +9407,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir les conseils d'un vétéran",
     "theme": "Mémoire des concerts",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre t-shirt d'un vieux festival mythique en jette, vous avez vu passer les grandes heures, un conseil pour un novice ?",
@@ -9360,6 +9479,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Discuter de tout et de rien en attendant",
     "theme": "Papotage de file d'attente",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez repéré ce qui a l'air bon sur la carte ? Moi je suis perdu devant tous ces choix, vous partez sur quoi ?",
@@ -9431,6 +9551,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager la conversation avec charme",
     "theme": "Ambiance et musique",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "J'adore votre sourire, il éclaire toute la piste. C'est la musique qui vous met dans cet état ?",
@@ -9502,6 +9623,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une complicité en douceur",
     "theme": "Verres et regards",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre veste a une coupe vraiment élégante, ça change de l'ambiance. Vous l'avez dénichée où ?",
@@ -9573,6 +9695,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Se mêler à un groupe sympathique",
     "theme": "Pause en terrasse",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tee-shirt de groupe est génial, un vrai clin d'oeil. Vous les avez vus en concert ?",
@@ -9644,6 +9767,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Obtenir un conseil de route",
     "theme": "Itinéraire et bons plans",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre voiture a l'air d'avoir avalé pas mal de kilomètres. Elle tient bien la route sur long trajet ?",
@@ -9715,6 +9839,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter le temps du plein",
     "theme": "Météo et petit matin",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre mug de café a l'air de vous sauver la vie ce matin. Il fallait ça pour démarrer ?",
@@ -9786,6 +9911,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Sympathiser autour d'une pause repas",
     "theme": "Pause gourmande sur la route",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre sandwich a l'air bien plus appétissant que le mien. C'est quoi votre commande ?",
@@ -9857,6 +9983,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire connaissance avec le voisinage",
     "theme": "Vie de camping",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tente a une couleur superbe, on la repère de loin. Vous campez souvent avec ?",
@@ -9928,6 +10055,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander conseil sur le matériel",
     "theme": "Astuces de plein air",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre installation est impressionnante, tout est parfaitement pensé. Vous campez depuis longtemps ?",
@@ -9999,6 +10127,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec délicatesse au coucher du soleil",
     "theme": "Coucher de soleil au bord de l'eau",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre regard est happé par ce coucher de soleil, ça se comprend. Vous venez ici chaque soir ?",
@@ -10070,6 +10199,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un conseil d'entrainement",
     "theme": "Progression et technique",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos chaussures ont l'air taillées pour la performance. Vous les conseilleriez pour débuter ?",
@@ -10141,6 +10271,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter avant la séance",
     "theme": "Petites discussions du vestiaire",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre sac de sport a l'air d'en avoir vu, des séances. Vous venez souvent, vous ?",
@@ -10212,6 +10343,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Mettre à l'aise une nouvelle venue",
     "theme": "Premiers pas à la salle",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tenue est vraiment sympa, ça donne envie de s'y mettre. Vous débutez ici, vous aussi ?",
@@ -10283,6 +10415,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Détendre l'attente par un brin de causette",
     "theme": "Tuer le temps ensemble",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre magazine a l'air plus intéressant que ceux du présentoir. Il parle de quoi ?",
@@ -10354,6 +10487,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire connaissance autour d'une curiosité",
     "theme": "Passions et découvertes",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre carnet est couvert de croquis, ça a l'air passionnant. Vous dessinez depuis longtemps ?",
@@ -10425,6 +10559,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un conseil de vie",
     "theme": "Sagesse et expérience",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre foulard est magnifique, il a un vrai cachet. Vous avez l'oeil pour ces choses-là ?",
@@ -10496,6 +10631,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un moment complice",
     "theme": "Séduction discrète en voyage",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre foulard a une couleur incroyable, il vous vient d où ?",
@@ -10567,6 +10703,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager un échange simple",
     "theme": "Rencontre entre voyageurs",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Joli badge de conférence, vous êtes là pour l événement du hall aussi ?",
@@ -10638,6 +10775,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Petite conversation d ascenseur",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un parapluie tout trempé, ça tombe fort dehors ?",
@@ -10709,6 +10847,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un lien chaleureux",
     "theme": "Ambiance festive partagée",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre vin chaud a l air délicieux, il vient de quel chalet ?",
@@ -10780,6 +10919,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis éclairé",
     "theme": "Conseils d un connaisseur",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos confitures ont l air faites maison, vous me conseillez laquelle pour offrir ?",
@@ -10851,6 +10991,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec légèreté",
     "theme": "Complicité sous les lumières",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vos joues rosies par le froid vous vont vraiment bien, c est le vin chaud ou l air d ici ?",
@@ -10922,6 +11063,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un conseil avisé",
     "theme": "L oeil du connaisseur",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous manipulez cette pièce comme un habitué, elle vaut quelque chose selon vous ?",
@@ -10993,6 +11135,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire connaissance simplement",
     "theme": "Passion commune pour la chine",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Joli sac plein de trouvailles, vous avez déjà fait de belles prises ce matin ?",
@@ -11064,6 +11207,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Solliciter son expertise",
     "theme": "Le regard d une habituée",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez de belles pièces sur votre stand, laquelle me conseilleriez vous pour débuter une collection ?",
@@ -11135,6 +11279,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer un contact rapide",
     "theme": "Rencontre sur la route",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Belle plaque, vous venez de loin comme moi ?",
@@ -11206,6 +11351,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Échanger sur le trajet",
     "theme": "Météo et conditions de route",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre pare brise est couvert de gouttes, il pleut fort sur votre route ?",
@@ -11277,6 +11423,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Charme d une pause partagée",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vos lunettes de soleil vous donnent un air de road trip parfait, vous partez à l aventure ?",
@@ -11348,6 +11495,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace en voiture",
     "theme": "Premiers échanges de trajet",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Joli sac de rando, vous partez pour un week end en pleine nature ?",
@@ -11419,6 +11567,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter sans forcer",
     "theme": "Petite conversation de route",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez pris le pull alors qu il fait bon, vous vous attendez à un temps plus frais à l arrivée ?",
@@ -11490,6 +11639,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec délicatesse",
     "theme": "Complicité pendant le trajet",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez un sourire qui rend ce trajet déjà plus agréable, votre journée s est bien passée ?",
@@ -11561,6 +11711,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un bon tuyau",
     "theme": "Les longues routes",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez la carte routière posée à côté du café alors que tout le monde suit le GPS — vous connaissez des raccourcis que la machine ignore ?",
@@ -11632,6 +11783,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Obtenir un repère local",
     "theme": "Les habitudes du quartier",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez le bon ticket déjà en main alors que je galère avec l'appli — vous connaissez toutes les combines du réseau, vous ?",
@@ -11703,6 +11855,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Décrocher une bonne adresse",
     "theme": "L'art de bien voyager",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre valise a des étiquettes de partout, elle a l'air d'avoir vu du pays — vous voyagez pour le travail ou par pur plaisir ?",
@@ -11774,6 +11927,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Détendre l'ambiance",
     "theme": "Les petits riens du bureau",
     "intention": "Pluie et beau temps",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Votre gobelet de café fume encore, vous avez l'air d'être passé par la machine avant même d'arriver — première dose de la journée ?",
@@ -11845,6 +11999,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Profiter d'un mentor",
     "theme": "L'expérience du métier",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours ce petit carnet à la main plutôt que le téléphone, ça m'intrigue — c'est là que vous notez tout ce qui compte ?",
@@ -11916,6 +12071,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une jolie complicité",
     "theme": "L'étincelle du matin",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez un sourire qui détonne complètement avec l'ambiance grise de ce lundi matin — c'est un talent ou juste une très bonne nuit ?",
@@ -11987,6 +12143,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Tuer le temps agréablement",
     "theme": "L'attente avant l'embarquement",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air parfaitement zen alors que le vol affiche déjà du retard — c'est de la sagesse ou juste de la résignation ?",
@@ -12058,6 +12215,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil de baroudeur",
     "theme": "La sagesse du voyageur",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre passeport est tellement tamponné qu'il en déborde, vous avez visiblement roulé votre bosse — c'était surtout le boulot ou le plaisir ?",
@@ -12129,6 +12287,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une parenthèse complice",
     "theme": "La rencontre de passage",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous regardez les avions décoller avec un petit sourire rêveur, ça vous va bien — vous partez quelque part qui vous fait envie ?",
@@ -12200,6 +12359,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rendre l'attente moins pesante",
     "theme": "La file d'attente",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un dossier entier bien rangé sous le bras alors que j'ai à peine ma carte — vous êtes venu régler quelque chose de sérieux ?",
@@ -12271,6 +12431,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Profiter d'un regard éclairé",
     "theme": "La gestion et l'expérience",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez tous vos papiers classés dans des pochettes bien ordonnées, on sent la méthode — c'est l'habitude d'une vie de bien tout gérer ?",
@@ -12342,6 +12503,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Transformer l'attente en jolie parenthèse",
     "theme": "L'attente à deux",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes bien la seule personne à sourire dans cette salle d'attente plutôt austère — c'est votre nature ou vous savez un secret qu'on ignore ?",
@@ -12413,6 +12575,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Échanger un mot complice",
     "theme": "Le calme des livres",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une pile de livres qui menace de s'effondrer, ça donne le vertige rien qu'à la regarder — vous comptez vraiment tout lire ?",
@@ -12484,6 +12647,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager un moment gourmand",
     "theme": "Le rituel du pain frais",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous hésitez devant les viennoiseries avec la même gourmandise que moi, ça se voit — croissant ou pain au chocolat, le dilemme du matin ?",
@@ -12555,6 +12719,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Apprendre du savoir-faire",
     "theme": "Le métier du bon pain",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore un peu de farine sur les mains, on sent que vous sortez tout juste du fournil — vous êtes debout depuis quelle heure, vous ?",
@@ -12626,6 +12791,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une complicité gourmande",
     "theme": "La gourmandise partagée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous hésitez devant les viennoiseries avec un sérieux qui me touche, comme si le sort du monde en dépendait — je peux vous aider à trancher ?",
@@ -12697,6 +12863,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter sans pression",
     "theme": "Le plaisir de flâner",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous prenez le temps de tout regarder sans vous presser, ça fait du bien de voir quelqu'un flâner vraiment — vous êtes plutôt du genre contemplative ?",
@@ -12768,6 +12935,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Bénéficier d'un œil expert",
     "theme": "L'élégance qui dure",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez repéré la coupe qui m'irait avant même que je la voie, l'œil du métier — vous conseillez les clients depuis longtemps pour avoir ce flair ?",
@@ -12839,6 +13007,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Engager une complicité raffinée",
     "theme": "Le goût des belles choses",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un goût très sûr, à voir la pièce sur laquelle vous vous êtes arrêtée — c'est un vrai coup de cœur ou vous étiez venue pour elle ?",
@@ -12910,6 +13079,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace en légèreté",
     "theme": "L'ambiance de la soirée",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez trouvé le seul coin un peu au calme de toute la boîte, malin — vous fuyez le gros de la foule ou vous prenez juste une pause ?",
@@ -12981,6 +13151,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "L'art du bon verre",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous dosez chaque cocktail sans même regarder la mesure, ça se voit que vous avez des années de comptoir derrière vous — je prendrais quoi pour une soirée où je veux rester lucide ?",
@@ -13052,6 +13223,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Les trouvailles du jour",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous soupesez cette vieille lampe comme si vous connaissiez déjà sa valeur — vous avez repéré une pépite ce matin ?",
@@ -13123,6 +13295,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le coup de cœur partagé",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On lorgnait le même vieux vinyle tous les deux, je crois que vous avez très bon goût — vous me le laissez ou on doit se le disputer ?",
@@ -13194,6 +13367,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "L'attente au guichet",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous serrez votre colis comme un trésor, il a l'air fragile celui-là — c'est un cadeau que vous envoyez ?",
@@ -13265,6 +13439,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon envoi",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître tous les tarifs par cœur, ça se voit à votre assurance — pour envoyer ça sans que ça coûte une fortune, vous me conseilleriez quoi ?",
@@ -13336,6 +13511,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "L'attente qui rapproche",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez emballé votre colis avec un ruban assorti, c'est adorable ce soin du détail — c'est un cadeau pour quelqu'un de chanceux ?",
@@ -13407,6 +13583,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "L'attente du rendez-vous",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous feuilletez ce vieux magazine avec un courage admirable, ils datent tous d'il y a trois ans ici — vous avez trouvé un article qui tient le coup ?",
@@ -13478,6 +13655,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon réflexe santé",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître ce cabinet comme votre poche, vous saluez tout le monde d'un signe — vous le trouvez comment, ce médecin, franchement ?",
@@ -13549,6 +13727,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "L'attente partagée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous lisez un roman plutôt qu'un vieux magazine, ça vous donne un petit air à part dans cette salle — c'est quoi ce livre qui vous absorbe autant ?",
@@ -13620,6 +13799,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon choix à la carte",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous récitez la carte de mémoire à chaque table sans jamais hésiter, ça se voit que vous connaissez la maison par cœur — vous me conseilleriez quoi aujourd'hui, vous ?",
@@ -13691,6 +13871,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La pause en terrasse",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous lisez à la terrasse avec un calme qui donne envie de ralentir aussi, c'est joli à voir — c'est quoi ce livre qui vous tient compagnie ?",
@@ -13762,6 +13943,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La vie au camping",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez monté un vrai petit campement organisé au carré, ça se voit que vous êtes un habitué des vacances en tente — vous partez souvent comme ça, vous ?",
@@ -13833,6 +14015,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Les aléas du chantier",
     "intention": "Pluie et beau temps",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez déjà les bottes pleines de boue à peine arrivé, ça promet pour la journée — le terrain est aussi impraticable qu'il en a l'air ?",
@@ -13904,6 +14087,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le savoir-faire du métier",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez repéré le défaut sur le mur d'un seul coup d'œil alors que personne ne voyait rien, ça se voit que vous avez l'expérience — vous partiriez sur quelle méthode pour rattraper ça, vous ?",
@@ -13975,6 +14159,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La complicité à la pause",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous manipulez ce matériel avec une assurance qui impose le respect, on ne dirait pas une nouvelle recrue — vous avez de la bouteille cachée quelque part, vous ?",
@@ -14046,6 +14231,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon film à voir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous étudiez les affiches avec l'œil de quelqu'un qui a tout vu, ça se voit tout de suite — je devrais partir sur lequel ce soir selon vous ?",
@@ -14117,6 +14303,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "L'avant-cours tranquille",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous déroulez votre tapis toujours au même endroit, on sent le petit rituel bien rodé — vous venez à ce cours depuis longtemps, vous ?",
@@ -14188,6 +14375,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les bons débuts en yoga",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous corrigez les postures d'un simple geste, avec une douceur qui rassure tout le monde, on sent l'expérience — pour une vraie débutante, vous conseilleriez de commencer par quoi ?",
@@ -14259,6 +14447,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La complicité sur le tapis",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous tenez cette posture avec une grâce qui force l'admiration, ça se voit que vous pratiquez avec le cœur — vous faites ça depuis longtemps, vous ?",
@@ -14330,6 +14519,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les bons plans du voyageur",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous connaissez la route par cœur, vous anticipez chaque virage sans regarder le GPS, ça se voit que vous la faites souvent — vous me conseilleriez quoi comme itinéraire, vous ?",
@@ -14401,6 +14591,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le temps qu'il fait",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti le parapluie pile au bon moment, vous, alors que le ciel avait l'air clément — vous aviez vu venir l'averse ?",
@@ -14472,6 +14663,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Les bonnes adresses du coin",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de bien connaître le coin, avec votre cabas et votre pas assuré — je peux vous demander un petit renseignement ?",
@@ -14543,6 +14735,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La rencontre spontanée",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Je vais être honnête, votre sourire m'a fait ralentir le pas en pleine rue — vous avez toujours cet effet sur les passants ?",
@@ -14614,6 +14807,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La pause café",
     "intention": "Pluie et beau temps",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez opté pour le grand mug ce matin, vous aussi, on dirait que la journée s'annonce longue — dure semaine ?",
@@ -14685,6 +14879,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Le parcours professionnel",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "On sent que vous avez de la bouteille dans votre domaine, vous gérez plusieurs dossiers sans stresser — je peux vous demander un conseil ?",
@@ -14756,6 +14951,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le voisin de bureau",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Ça fait trois jours qu'on est voisins de bureau et je crois bien que votre concentration me déconcentre — c'est un peu injuste, non ?",
@@ -14827,6 +15023,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La file d'attente",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air aussi indécis que moi devant le menu, on est deux à galérer — vous prenez toujours la même chose ou vous testez ?",
@@ -14898,6 +15095,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "L'ambiance du concert",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre t-shirt du groupe a l'air d'avoir vécu quelques concerts, celui-là — c'est votre premier ou vous les suivez partout ?",
@@ -14969,6 +15167,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Les bons produits",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous humez ce fromage avec des yeux de connaisseur, ça ne trompe pas — vous êtes un vrai amateur, vous ?",
@@ -15040,6 +15239,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Le choix du bon produit",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On voit que vous connaissez vos fromages sur le bout des doigts, chaque geste est sûr — je peux m'en remettre à votre expertise ?",
@@ -15111,6 +15311,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le plaisir gourmand partagé",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un goût très sûr, à voir ce que vous choisissez, j'en suis presque intimidé — vous êtes une vraie gourmande, vous ?",
@@ -15182,6 +15383,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Les œuvres exposées",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes resté un long moment devant cette toile, elle a l'air de vous parler — elle vous fait quel effet, à vous ?",
@@ -15253,6 +15455,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Comprendre l'art",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de vraiment vous y connaître, à voir votre façon de regarder les œuvres — je peux vous demander votre éclairage ?",
@@ -15324,6 +15527,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La rencontre devant une œuvre",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous observe depuis un moment devant cette toile, et j'avoue que votre regard est plus captivant que l'œuvre — elle vous touche à ce point ?",
@@ -15395,6 +15599,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "L'attente du train",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous fixez le panneau d'affichage comme moi, on guette tous les deux le même retard, on dirait — vous partez loin, vous ?",
@@ -15466,6 +15671,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Les astuces de voyage",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez tout l'air d'un voyageur aguerri, valise impeccable et pas assuré — je peux vous demander un petit conseil ?",
@@ -15537,6 +15743,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La rencontre sur le quai",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On attend le même train depuis dix minutes et je crois bien que c'est le plus beau retard de ma vie — vous partez dans quelle direction, vous ?",
@@ -15608,6 +15815,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le séjour et la ville",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de bien connaître les lieux, vous vous êtes installé au meilleur fauteuil du lobby — vous séjournez ici depuis longtemps, vous ?",
@@ -15679,6 +15887,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Les bons plans de la ville",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître la maison comme votre poche, le personnel vous salue par votre nom — je peux vous demander un conseil ?",
@@ -15750,6 +15959,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La rencontre au bar de l'hôtel",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes la plus belle raison que j'aie trouvée de m'attarder au bar ce soir, je l'avoue — vous séjournez ici, vous aussi ?",
@@ -15821,6 +16031,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La vie de l'immeuble",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti le parapluie alors qu'il fait grand soleil ce matin — vous savez quelque chose que j'ignore sur la météo du jour ?",
@@ -15892,6 +16103,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les astuces de l'immeuble",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours une caisse à outils impeccable quand je vous croise — vous vous y connaissez en bricolage, non ? J'ai un robinet qui goutte et je sèche complètement.",
@@ -15963,6 +16175,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La rencontre de palier",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous portez vos cartons avec un sourire alors que déménager c'est l'enfer — soit vous êtes très bien organisée, soit vous cachez bien votre jeu.",
@@ -16034,6 +16247,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La météo et le bureau",
     "intention": "Pluie et beau temps",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous êtes arrivé trempé comme moi, on dirait — le déluge de ce matin vous a eu aussi entre le métro et l'entrée ?",
@@ -16105,6 +16319,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les codes du métier",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours l'air serein même les jours de rush, ça se voit à votre façon de traverser le hall — c'est quoi votre secret pour ne jamais paraître débordé ?",
@@ -16176,6 +16391,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La complicité de bureau",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez un mug avec une réplique de film que j'adore, ça m'a fait sourire de loin — soit vous avez très bon goût, soit c'est un heureux hasard.",
@@ -16247,6 +16463,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "L'attente qui rapproche",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez amené un bouquin plutôt qu'un téléphone pour tuer le temps, ça se voit plus tellement — c'est quoi cette petite pépite que vous lisez ?",
@@ -16318,6 +16535,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "L'abri de la librairie",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore les gouttes de pluie sur votre manteau, vous vous êtes réfugiée ici juste à temps aussi — le ciel s'est vraiment ouvert d'un coup, non ?",
@@ -16389,6 +16607,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "La recommandation littéraire",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître chaque livre de ce rayon par cœur, ça se voit à la façon dont vous les rangez — vous auriez une pépite à me conseiller là-dedans ?",
@@ -16460,6 +16679,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La complicité littéraire",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous tenez un roman que j'ai adoré et que je recommande à tout le monde, ça m'a fait sourire de vous voir hésiter — vous voulez un avis totalement partial dessus ?",
@@ -16531,6 +16751,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Le métier du conseil",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez repéré tout de suite le modèle qui m'irait avant même que je dise quoi que ce soit — c'est de l'expérience ou vous avez un vrai œil pour ça ?",
@@ -16602,6 +16823,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "S'habiller pour la saison",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous hésitez devant les manteaux alors qu'il fait encore doux dehors — vous anticipez déjà le froid qui arrive, vous aussi ?",
@@ -16673,6 +16895,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le froid et la magie de Noël",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le vin chaud à la main et le bonnet enfoncé jusqu'aux yeux, la panoplie parfaite contre ce froid — vous êtes bien équipé pour tenir la soirée, on dirait ?",
@@ -16744,6 +16967,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le marché au fil des saisons",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti les bottes en caoutchouc alors que le ciel est encore bleu, on sent la prévoyante — vous savez quelque chose que j'ignore sur la météo du jour ?",
@@ -16815,6 +17039,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le savoir du terroir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'œil pour choisir vos plus beaux fruits et les mettre devant, ça se voit — vous m'apprendriez à repérer un melon vraiment mûr ? Je me trompe à tous les coups.",
@@ -16886,6 +17111,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La gourmandise partagée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un panier rempli de produits que seuls les vrais gourmands connaissent, ça m'intrigue — vous êtes une fine cuisinière ou juste une belle curieuse comme moi ?",
@@ -16957,6 +17183,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le refuge culturel",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore le parapluie qui goutte à la main, on s'est réfugiés ici pour la même raison on dirait — le déluge de dehors vous a surpris aussi ?",
@@ -17028,6 +17255,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "La visite éclairée",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous parlez de ce tableau avec une passion qui donne envie d'en savoir plus, ça se voit que vous connaissez la maison — vous m'orienteriez vers l'œuvre à ne surtout pas manquer ?",
@@ -17099,6 +17327,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La contemplation partagée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes restée un long moment devant ce tableau, complètement absorbée, ça se voit qu'il vous parle — qu'est-ce qui vous retient autant, si je peux me permettre ?",
@@ -17170,6 +17399,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La nature au fil du temps",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le visage tourné vers le soleil comme pour en profiter à fond, on sent que vous attendiez ce beau temps — c'est la première vraie belle journée depuis longtemps, non ?",
@@ -17241,6 +17471,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "L'entretien des plantes",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous manipulez ce sécateur comme si vous aviez fait ça toute votre vie — vous auriez un conseil pour quelqu'un qui n'ose pas tailler ses plantes de peur de tout abîmer ?",
@@ -17312,6 +17543,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le plaisir du plein air",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un sourire qui donne le sourire à toute l'allée, c'est assez rare le matin — vous êtes toujours de si bonne humeur à cette heure-ci ?",
@@ -17383,6 +17615,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter un instant",
     "theme": "Les petits tracas du jour",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de jongler avec autant de sacs que moi, on doit avoir vidé le même magasin — vous vous en sortez, ou c'est aussi épique que chez moi ?",
@@ -17454,6 +17687,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Les astuces du métier de la route",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous manœuvrez ce camion dans un mouchoir de poche sans transpirer, ça force le respect — vous auriez une astuce pour quelqu'un qui galère à se garer en créneau ?",
@@ -17525,6 +17759,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le hasard de la rencontre",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez un fou rire tout seul devant votre coffre qui ne se ferme pas, c'est communicatif — vous voulez un coup de main ou je vous laisse à votre combat ?",
@@ -17596,6 +17831,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Les petits maux du quotidien",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez cette façon d'écouter avant même qu'on ait fini de parler, ça met en confiance — vous auriez un conseil pour quelqu'un qui dort mal en ce moment ?",
@@ -17667,6 +17903,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "La douceur d'un échange",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une voix posée qui rassure tout de suite, même moi qui venais juste pour un pansement — c'est un talent que vous cultivez ou c'est naturel ?",
@@ -17738,6 +17975,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter un instant",
     "theme": "L'ambiance du bassin",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez le bonnet et les lunettes du vrai nageur du matin, pas du dimanche — vous êtes plutôt longueurs tranquilles ou vous vous arrachez, vous ?",
@@ -17809,6 +18047,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "La technique de nage",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous repérez d'un coup d'œil qui nage mal dans tout le bassin, c'est impressionnant — vous auriez un conseil pour quelqu'un qui s'essouffle trop vite en crawl ?",
@@ -17880,6 +18119,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "La complicité au bord de l'eau",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un crawl d'une régularité hypnotique, je vous ai regardée faire deux longueurs sans m'en rendre compte — vous nagez depuis toujours ou c'est du travail ?",
@@ -17951,6 +18191,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter un instant",
     "theme": "Le temps qu'il fait au bord de mer",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez installé le parasol comme un vrai pro, orienté pile contre le vent, ça force le respect — vous êtes un habitué des plages venteuses, vous ?",
@@ -18022,6 +18263,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter un instant",
     "theme": "Le plaisir de la table",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre plat a l'air divin, j'ai hésité avec le même en arrivant — vous en pensez quoi, j'aurais dû me lancer, vous croyez ?",
@@ -18093,6 +18335,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "L'accord des mets et des vins",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous parlez de vos vins avec une passion qui donnerait soif à un abstinent — vous auriez un conseil pour quelqu'un qui n'y connaît vraiment rien mais veut apprendre ?",
@@ -18164,6 +18407,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'alchimie d'un dîner",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez ce petit rire discret devant votre assiette, comme si vous saviez un secret que le chef ignore — c'est si bon que ça ou c'est votre nature joyeuse ?",
@@ -18235,6 +18479,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'échappée d'une soirée pro",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous êtes la seule personne de cette soirée à avoir l'air de vraiment vous amuser, ça se voit à votre sourire — vous connaissez un secret que les autres ignorent ?",
@@ -18306,6 +18551,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter un instant",
     "theme": "L'attente avant le départ",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez la valise cabine bouclée au millimètre, l'organisation du voyageur aguerri — vous êtes plutôt du genre à tout prévoir ou ça cache un stress du départ ?",
@@ -18377,6 +18623,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Les astuces du voyageur aguerri",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez ce bagage compact et malin, tout semble pensé pour l'efficacité — vous auriez un conseil pour quelqu'un qui emporte toujours deux fois trop d'affaires ?",
@@ -18448,6 +18695,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "La promesse d'un ailleurs",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez ce sac couvert d'étiquettes de destinations, comme un carnet de voyage ambulant, ça donne envie — vous rentrez d'un beau périple ou vous en commencez un ?",
@@ -18519,6 +18767,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le charme d'une attente partagée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes la seule ici à sourire dans cette salle d'attente sinistre, ça change tout le décor — vous avez un secret pour rester de bonne humeur dans un endroit pareil ?",
@@ -18590,6 +18839,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter un instant",
     "theme": "La routine de l'entraînement",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous enchaînez les séries sans jamais souffler, moi je suis déjà à bout entre deux — vous carburez à quoi pour tenir ce rythme, vous ?",
@@ -18661,6 +18911,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "La bonne routine",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous enchaînez vos séries avec une régularité de métronome, ça se voit que ce n'est pas votre premier jour — je débute, vous auriez un conseil pour ne pas me cramer en deux semaines ?",
@@ -18732,6 +18983,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le sourire à l'effort",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous jure, vous êtes la seule personne ici à sourire en pleine série de squats — c'est quoi votre secret pour rendre la souffrance aussi jolie ?",
@@ -18803,6 +19055,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "Le petit moment de pause",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une façon de manier les ciseaux qui donne l'impression que vous pourriez le faire les yeux fermés — c'est une grosse journée aujourd'hui ?",
@@ -18874,6 +19127,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Le bon choix de coupe",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de savoir exactement ce qui irait à chacun rien qu'en regardant le visage — vous me conseilleriez quoi, vous, avec une tête comme la mienne ?",
@@ -18945,6 +19199,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'attente complice",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous feuilletez ce magazine avec un petit sourire depuis tout à l'heure — vous êtes tombée sur une coupe qui vous fait de l'œil ?",
@@ -19016,6 +19271,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "Le buffet et l'ambiance",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez pris le même petit-four que moi, on a visiblement bon goût tous les deux — vous avez repéré le meilleur du buffet ou vous testez au hasard ?",
@@ -19087,6 +19343,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "L'art de recevoir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air parfaitement à l'aise à circuler d'un groupe à l'autre, ça se voit que c'est un art chez vous — vous auriez un conseil pour quelqu'un qui ne connaît personne ?",
@@ -19158,6 +19415,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "La complicité au bord de la piste",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes clairement la personne qui a le rire le plus communicatif de la pièce, on vous entend jusqu'ici — c'est quoi qui vous met dans cet état ce soir ?",
@@ -19229,6 +19487,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "La pause sur la route",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez une carte routière toute cornée sur le tableau de bord, on ne voit plus ça souvent — vous êtes team papier contre le GPS ou c'est de la nostalgie ?",
@@ -19300,6 +19559,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Le bon produit au bon prix",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous choisissez vos fruits en les soupesant un par un, ça se voit que vous avez l'œil — vous me diriez lequel prendre là-dedans, moi je suis perdu ?",
@@ -19371,6 +19631,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le hasard des rayons",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous fixez ce rayon de chocolats avec une intensité que je respecte profondément — vous hésitez sérieusement ou vous savourez juste le dilemme ?",
@@ -19442,6 +19703,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "La route et la météo",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître chaque raccourci de la ville par cœur, vous ne regardez même pas le GPS — c'est l'habitude de tous ces trajets ?",
@@ -19513,6 +19775,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Les bons plans de la ville",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air de connaître cette ville comme votre poche à force de la sillonner — je débarque ici, vous me conseilleriez quoi à voir absolument ?",
@@ -19584,6 +19847,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le trajet partagé",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On partage la même course et vous avez tout de suite proposé de faire un détour pour moi, c'est rare comme délicatesse — vous êtes toujours aussi attentionnée ?",
@@ -19655,6 +19919,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "Le trajet du matin",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez un parapluie qui goutte encore, la pluie vous a rattrapé aussi ce matin apparemment — vous avez couru pour attraper la rame, vous aussi ?",
@@ -19726,6 +19991,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil",
     "theme": "Se repérer dans le réseau",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez déplié votre plan sans même le regarder, vous connaissez ce réseau par cœur apparemment — vous me diriez où changer pour aller vers le centre ?",
@@ -19797,6 +20063,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le regard qui se croise",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous lisez un roman qui a l'air de vous happer complètement, vous n'avez pas levé les yeux depuis trois stations — il est si bon que ça ?",
@@ -19868,6 +20135,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'après-effort complice",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air aussi rincé que moi mais vous gardez le sourire, c'est presque insolent après une séance pareille — c'est quoi votre secret pour rayonner malgré l'effort ?",
@@ -19939,6 +20207,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Le temps qui change",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Tiens, vous avez ressorti l'écharpe en laine aujourd'hui — c'est le signe que l'automne s'installe pour de bon, vous croyez ?",
@@ -20010,6 +20279,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis avisé",
     "theme": "Le choix qui dure",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On s'est déjà croisés, vous m'aviez donné un bon tuyau la dernière fois — j'hésite justement entre ces deux teintes, laquelle tient le mieux dans le temps selon vous ?",
@@ -20081,6 +20351,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le goût qui intrigue",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "J'ai vu que vous avez reposé trois modèles pour revenir au premier — vous avez l'air de savoir exactement ce que vous aimez, c'est rare, ça vient d'où chez vous ?",
@@ -20152,6 +20423,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Reprendre le fil",
     "theme": "Les retrouvailles au rayon",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Ah mais c'est le grand panier des jours de réception, ça — vous recevez du monde ce week-end ou vous vous gâtez rien que pour vous ?",
@@ -20223,6 +20495,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter une astuce",
     "theme": "Le bon produit",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On se croise souvent devant ce rayon, vous avez l'œil pour bien choisir — ces melons, vous les prendriez lesquels, moi je tombe toujours à côté ?",
@@ -20294,6 +20567,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec légèreté",
     "theme": "La complicité du rayon",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre panier ne contient que des bonnes choses, ça inspire confiance — vous cuisinez pour deux ou vous vous gâtez rien que pour vous ce soir ?",
@@ -20365,6 +20639,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander une recommandation",
     "theme": "Le bon choix à la carte",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On s'est déjà parlé ici l'autre matin — vous prenez toujours la même chose, ça a l'air délicieux, vous me conseilleriez de tenter ou de rester sur mon café ?",
@@ -20436,6 +20711,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec charme",
     "theme": "La table d'à côté",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous lisez depuis un moment sans lever les yeux, ça doit être un sacré bon bouquin — il mérite qu'on interrompe votre lecture deux minutes ou pas du tout ?",
@@ -20507,6 +20783,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Solliciter un avis de fond",
     "theme": "Le recul du métier",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez cette tête concentrée que je vous connais bien avant les gros dossiers — justement, j'ai un truc épineux, je peux avoir votre avis deux minutes ?",
@@ -20578,6 +20855,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec finesse",
     "theme": "Le hasard des couloirs",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez un badge d'un étage que je ne connais pas — soit vous êtes nouveau, soit je passe ma vie dans le mauvais ascenseur, laquelle des deux ?",
@@ -20649,6 +20927,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter au fil des étals",
     "theme": "La météo du marché",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Tiens, vous avez sorti le grand ciré ce matin, vous, vous avez dû flairer l'averse — la météo annonçait du vilain, vous l'aviez vue venir ?",
@@ -20720,6 +20999,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Glaner un savoir-faire",
     "theme": "Bien choisir sur l'étal",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On s'est déjà croisées ici l'autre jour — vous avez toujours le panier le mieux garni, ces tomates, vous les choisiriez comment pour une bonne sauce ?",
@@ -20791,6 +21071,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec entrain",
     "theme": "La complicité de l'étal",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez pris exactement les mêmes légumes que moi, à croire qu'on cuisine le même plat ce soir — grand esprit ou pure coïncidence, vous ?",
@@ -20862,6 +21143,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis d'expérience",
     "theme": "La bonne routine",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une posture parfaite sur cet exercice, ça se voit que vous maîtrisez — moi je force sur le dos à tous les coups, vous me corrigeriez comment ?",
@@ -20933,6 +21215,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec respect",
     "theme": "L'énergie partagée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez une sacrée technique sur cet exercice, ça n'a rien d'évident — vous pratiquez depuis longtemps ou vous êtes juste naturellement doué ?",
@@ -21004,6 +21287,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter en passant",
     "theme": "Le temps qu'il fait",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti le grand parapluie ce matin, vous, vous avez bien fait, ça menace sévère — vous aviez vu la météo ou c'est le réflexe de prudence ?",
@@ -21075,6 +21359,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un service avisé",
     "theme": "L'entraide de voisinage",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On s'est déjà parlé dans le hall l'autre jour — vous receviez justement une livraison, vous, ils se sont montrés fiables ? J'attends un colis et je stresse un peu.",
@@ -21146,6 +21431,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec spontanéité",
     "theme": "La rencontre du parking",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous jonglez avec vos cartons comme un pro, mais je crois qu'il y en a un qui va tomber — laissez-moi vous aider avant la catastrophe, c'est un déménagement ?",
@@ -21217,6 +21503,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis de santé",
     "theme": "Le bon réflexe santé",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours ce regard attentif qui met en confiance dès qu'on entre — justement, je traîne un petit rhume qui ne passe pas, vous me conseilleriez quoi de simple ?",
@@ -21288,6 +21575,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec délicatesse",
     "theme": "L'attente qui rapproche",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez l'air en pleine forme, ça détonne dans une file de pharmacie où tout le monde fait grise mine — vous accompagnez quelqu'un ou juste un petit ravitaillement ?",
@@ -21359,6 +21647,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter à la pause",
     "theme": "Le temps et le boulot",
     "intention": "Pluie et beau temps",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti les bottes fourrées ce matin, vous ne vous êtes pas laissé avoir, vous — le sol devait être une vraie patinoire en arrivant, non ?",
@@ -21430,6 +21719,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Obtenir un conseil de terrain",
     "theme": "L'organisation de l'entrepôt",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez ce carnet corné que vous consultez sans arrêt, on dirait la mémoire de tout l'entrepôt — je peux vous demander un truc de terrain ?",
@@ -21501,6 +21791,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter dans le hall",
     "theme": "La vie de l'immeuble",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Tiens, vous avez ressorti la petite veste, on dirait que vous avez senti le fond de l'air fraîchir — vous croyez que ça va durer ?",
@@ -21572,6 +21863,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un tuyau pratique",
     "theme": "Les bons plans du quartier",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours ce cabas qui déborde de légumes du marché, vous devez connaître les bons coins — je pourrais vous demander une adresse ?",
@@ -21643,6 +21935,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le hasard du voisinage",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous portez ce carton de déménagement en équilibre comme une pro — vous venez d'emménager dans l'immeuble ?",
@@ -21714,6 +22007,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil de voyageuse",
     "theme": "Les astuces de voyage",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre valise a des étiquettes de partout, vous devez être une sacrée baroudeuse — je peux vous demander un conseil de voyage ?",
@@ -21785,6 +22079,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Charmer avant l'embarquement",
     "theme": "Les départs",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre carte d'embarquement dépasse de votre poche, j'ai pas pu m'empêcher de regarder — on part dans la même direction par hasard ?",
@@ -21856,6 +22151,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter au fauteuil",
     "theme": "Le temps qu'il fait",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez ressorti les manches longues aujourd'hui, vous avez senti le temps tourner — on annonce quoi pour la semaine, vous qui écoutez tout le monde ?",
@@ -21927,6 +22223,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un conseil coiffure",
     "theme": "Le changement de tête",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours l'œil pour ce qui m'irait avant même que je le demande — vous me conseilleriez quoi pour changer un peu cette fois ?",
@@ -21998,6 +22295,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Amorcer un flirt léger",
     "theme": "Le relooking",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous suivez la coupe dans le miroir avec un œil de pro, ça se voit que vous savez ce que vous voulez — c'est un grand changement aujourd'hui ?",
@@ -22069,6 +22367,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un conseil de patiente",
     "theme": "L'attente chez le médecin",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez ce petit carnet de santé bien tenu à la main, on voit que vous êtes rigoureuse — je peux vous demander un conseil de patiente aguerrie ?",
@@ -22140,6 +22439,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un conseil d'habituée",
     "theme": "Les trajets du quotidien",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours votre mot fléché entamé à cette heure-ci, c'est votre rituel du trajet — dites, vous auriez un conseil, moi je sèche sur le mien ?",
@@ -22211,6 +22511,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le hasard du trajet",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre sourire quand la rame a freiné, ça a illuminé tout le wagon — vous rentrez d'une bonne soirée ?",
@@ -22282,6 +22583,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Les habitudes de lecture",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Encore le nez dans les polars à ce que je vois — vous les enchaînez à quelle vitesse en ce moment ?",
@@ -22353,6 +22655,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le bon livre à offrir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours des lectures pointues quand je vous croise ici — je cherche un roman à offrir, vous auriez une idée qui sort de l'ordinaire ?",
@@ -22424,6 +22727,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "La complicité littéraire",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous hésitez devant ce roman depuis un moment, et il se trouve que je l'ai adoré — je peux vous convaincre de le prendre ?",
@@ -22495,6 +22799,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Le choix du menu",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous connaissez cette maison par cœur, vous — sincèrement, je prends le poisson ou je me laisse tenter par le plat du jour ?",
@@ -22566,6 +22871,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le hasard des tables voisines",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez commandé exactement ce que j'hésitais à prendre — verdict, j'ai eu tort de ne pas oser ?",
@@ -22637,6 +22943,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "La météo et la route",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez encore changé le petit désodorisant, celui-là sent bon le monoï — c'est vous qui choisissez selon l'humeur ?",
@@ -22708,6 +23015,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les bonnes adresses locales",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous connaissez la ville mieux que n'importe quel guide, ça se sent — pour un bon petit restaurant sans piège à touristes, vous me diriez quoi ?",
@@ -22779,6 +23087,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec tact",
     "theme": "Le hasard d'un trajet partagé",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On partage cette course par hasard et vous avez déjà l'air plus intéressant que ma soirée — vous rentrez ou vous sortez à cette heure ?",
@@ -22850,6 +23159,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Les saisons du parc",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez ressorti la casquette et le short dès le premier vrai rayon, vous — vous ne résistez jamais au beau temps hein ?",
@@ -22921,6 +23231,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un conseil d'habituée",
     "theme": "Les bons réflexes du parc",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez des chaussures de marche qui ont l'air d'avoir avalé tous les sentiers du coin — vous auriez une boucle à me conseiller pour un débutant ?",
@@ -22992,6 +23303,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle avec tact",
     "theme": "L'attrait d'une rencontre au grand air",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un sourire qui détonne dans un parc où tout le monde fait la tête — c'est la course qui vous met de bonne humeur comme ça ?",
@@ -23063,6 +23375,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement entre deux longueurs",
     "theme": "Le rituel de la piscine",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez déjà votre bonnet et vos lunettes prêts alors que je cherche encore mon casier — vous êtes rodée, vous, le matin, non ?",
@@ -23134,6 +23447,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Profiter de son expérience",
     "theme": "Progresser dans l'eau",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore battu votre nombre de longueurs, ça se voit à votre sourire — dites-moi votre secret, je stagne complètement en ce moment.",
@@ -23205,6 +23519,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une connexion avec élégance",
     "theme": "Le charme au bord de l'eau",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un crawl qui fait presque de l'ombre à tout le bassin — vous nagez en club ou c'est juste que vous rendez ça trop facile ?",
@@ -23276,6 +23591,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Partager un moment léger dans la file",
     "theme": "Les petits plaisirs du matin",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours votre baguette sous le bras avant même d'avoir payé, comme un vrai réflexe — vous venez tous les matins ici, vous ?",
@@ -23347,6 +23663,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un bon conseil gourmand",
     "theme": "Bien choisir ses achats",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous repartez toujours avec ce même pain aux céréales, je vous ai remarquée l'autre jour — il est si bon que ça, vous me conseilleriez ?",
@@ -23418,6 +23735,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Amorcer une rencontre avec légèreté",
     "theme": "Le charme d'un matin gourmand",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez hésité un bon moment devant les éclairs, j'ai cru que vous alliez craquer — alors, la gourmandise l'a emporté ?",
@@ -23489,6 +23807,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Solliciter un avis avisé",
     "theme": "Gérer ses affaires sereinement",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un dossier bien rangé sous le bras, vous, alors que je viens toujours les mains vides et la tête vide — vous préparez tout à l'avance ?",
@@ -23560,6 +23879,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Rendre l'attente moins banale",
     "theme": "Une étincelle dans la salle d'attente",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes le seul à sourire dans une salle d'attente de banque, c'est presque suspect — vous avez une bonne nouvelle ou c'est votre nature ?",
@@ -23631,6 +23951,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter avant le cours",
     "theme": "La détente en fin de journée",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours votre tapis bien à vous, un peu usé aux bons endroits — il a dû en voir passer, des séances, celui-là ?",
@@ -23702,6 +24023,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Profiter de son expérience",
     "theme": "Progresser en douceur",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous tenez cette posture d'équilibre sans trembler alors que je m'écroule à chaque fois — vous auriez un conseil pour un débutant comme moi ?",
@@ -23773,6 +24095,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Bénéficier de son palais aguerri",
     "theme": "Bien accorder ses achats",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous humez chaque fromage avant de choisir, un vrai rituel — vous me diriez lequel prendre pour un dîner un peu spécial ce soir ?",
@@ -23844,6 +24167,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un conseil de connaisseuse",
     "theme": "L'art de bien recevoir et se mêler",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous passez d'un groupe à l'autre avec une aisance folle, moi je reste planté près du buffet — vous auriez un conseil pour oser aborder les gens comme vous ?",
@@ -23915,6 +24239,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une complicité dans la soirée",
     "theme": "L'étincelle d'une rencontre de soirée",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes le seul à ne pas fixer votre téléphone dans cette soirée, ça vous distingue tout de suite — vous préférez le vrai monde aux écrans, vous ?",
@@ -23986,6 +24311,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Glaner un conseil professionnel",
     "theme": "Les ficelles du métier",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours ce dossier impeccable sous le bras alors que je cours après mes papiers — vous auriez une méthode pour rester aussi organisée ?",
@@ -24057,6 +24383,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Marquer les esprits en quelques étages",
     "theme": "Une étincelle entre deux étages",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous êtes le seul à sourire un lundi matin dans cet ascenseur, ça détonne agréablement — c'est le café qui fait effet ou vous êtes toujours comme ça ?",
@@ -24128,6 +24455,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Bénéficier de son expérience pratique",
     "theme": "Simplifier ses démarches",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez déjà tous vos colis étiquetés et prêts, vous, alors que je m'y prends toujours au guichet — vous préparez tout à la maison ? Apprenez-moi.",
@@ -24199,6 +24527,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir des conseils de voyageuse aguerrie",
     "theme": "Voyager l'esprit léger",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez un bagage cabine parfaitement organisé, chaque chose à sa place, ça se voit — vous auriez un conseil pour quelqu'un qui bourre tout n'importe comment ?",
@@ -24270,6 +24599,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Transformer une attente en rencontre",
     "theme": "L'aventure d'une rencontre en transit",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez ce sac de voyage plein d'autocollants de destinations, ça raconte déjà toute une histoire — laquelle vous a le plus marqué ?",
@@ -24341,6 +24671,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Profiter de son regard averti",
     "theme": "Mieux apprécier les œuvres",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous prenez des notes devant certaines toiles avec un vrai regard de connaisseur — vous me diriez laquelle mérite qu'on s'y attarde vraiment dans cette salle ?",
@@ -24412,6 +24743,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le regard sur l'art",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tote bag couvert de pin's d'expos, on dirait que vous collectionnez les musées comme d'autres les timbres — c'est lequel votre plus belle prise ?",
@@ -24483,6 +24815,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter tranquillement",
     "theme": "La saison qui change",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore sorti la doudoune alors qu'on crève de chaud dans ce magasin — vous vous habillez toujours pour la météo d'il y a trois jours, non ?",
@@ -24554,6 +24887,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "Le bon choix vestimentaire",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous croise souvent dans ce rayon et vous avez toujours l'œil sur les belles matières — cette laine-là, elle tient dans le temps selon vous ?",
@@ -24625,6 +24959,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le style qui accroche l'œil",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous tenez deux chemises presque identiques depuis cinq minutes sans arriver à trancher — je me permets, vous voulez un avis totalement partial ?",
@@ -24696,6 +25031,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Approfondir le lien",
     "theme": "Les retrouvailles au magasin",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous reconnais, on avait échangé deux mots la dernière fois près des chaussures de rando — toujours en quête de la paire parfaite pour marcher, vous ?",
@@ -24767,6 +25103,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "Le choix à deux",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours eu meilleur goût que moi pour les chaussures, alors dites-moi franchement — ces deux-là, laquelle vous prendriez à ma place ?",
@@ -24838,6 +25175,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le hasard des rayons",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous testez la même paire sous tous les angles dans le miroir depuis un moment, ça se joue à pas grand-chose — je vous donne la voix qui fait pencher la balance ?",
@@ -24909,6 +25247,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter tranquillement",
     "theme": "Le temps qu'il fait",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez ressorti les lunettes de soleil ce matin, vous y croyez vous à cette éclaircie qui ne va pas durer ?",
@@ -24980,6 +25319,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "Les bons plans du coin",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On avait parlé de vos balades la dernière fois, vous connaissez le quartier par cœur — vous me conseilleriez quel coin pour une promenade tranquille le dimanche ?",
@@ -25051,6 +25391,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'instant suspendu",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous fredonnez sans même vous en rendre compte depuis tout à l'heure, c'est plutôt charmant — c'est quoi la chanson qui vous trotte dans la tête, si je peux ?",
@@ -25122,6 +25463,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "Le conseil d'expérience",
     "intention": "Demander un conseil",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous m'avez toujours dit la vérité quand j'en avais besoin, alors j'ose — vous me conseilleriez d'accepter cette promotion ou de rester où je suis ?",
@@ -25193,6 +25535,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'aparté dans la foule",
     "intention": "Flirter",
+    "role": "J'y travaille",
     "zoomIn": [
       {
         "accroche": "Vous tenez votre verre sans y toucher depuis un moment, vous avez l'air ailleurs — je me trompe ou cette soirée vous ennuie autant que moi ?",
@@ -25264,6 +25607,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "Le bon choix au comptoir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous vois souvent ici, vous devez connaître la carte mieux que moi — vous prendriez quoi vous, entre le nouveau menu et le classique, à ma place ?",
@@ -25335,6 +25679,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "La complicité du comptoir",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous fixez le menu avec le sérieux de quelqu'un qui prend une décision capitale, c'est adorable — je vous aide à trancher ou vous préférez souffrir seul ?",
@@ -25406,6 +25751,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Approfondir le lien",
     "theme": "Les habitués de la lecture",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On s'était croisés au rayon voyages la dernière fois, je m'en souviens — vous préparez encore une escapade ou c'était juste pour rêver un peu, vous ?",
@@ -25477,6 +25823,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "Le partage de lectures",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours le nez sur les nouveautés avant tout le monde, alors dites-moi — je repars avec lequel de ces deux romans à votre avis ?",
@@ -25548,6 +25895,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "Le charme studieux",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez souligné une phrase avec un tel soin que ça m'intrigue, elle a dû vous marquer — je peux vous demander ce qu'elle a de spécial, sans être indiscret ?",
@@ -25619,6 +25967,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Recueillir un avis",
     "theme": "La séance à choisir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous croise souvent aux séances du soir, vous devez tout voir ici — vous me conseilleriez lequel entre les deux qui sortent cette semaine, vous ?",
@@ -25690,6 +26039,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle",
     "theme": "L'avant-séance",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous étudiez les affiches avec une vraie hésitation, on dirait que le choix vous tient à cœur — vous cherchez à rêver ou à réfléchir ce soir, vous ?",
@@ -25761,6 +26111,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Approfondir le lien",
     "theme": "L'attente partagée",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On avait parlé de vos projets la dernière fois entre deux essorages, je m'en souviens — ça a avancé depuis, ou c'est toujours au point mort, vous ?",
@@ -25832,6 +26183,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter tranquillement",
     "theme": "Le temps qui passe",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes arrivé trempé jusqu'aux os, vous vous êtes encore fait surprendre par l'averse vous — vous ne regardez jamais le ciel avant de sortir, hein ?",
@@ -25903,6 +26255,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les astuces de linge",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous pliez vos affaires au carré à peine sorties du sèche-linge, moi ça finit en boule dans le panier — vous auriez une astuce pour que ça ne froisse pas ?",
@@ -25974,6 +26327,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les habitudes de plage",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre chapeau de paille tient tête au vent alors que le mien s'envole toutes les cinq minutes — vous l'avez déniché où ?",
@@ -26045,6 +26399,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec classe",
     "theme": "La liberté du bord de mer",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre planche a l'air d'avoir de belles histoires à raconter, elle est bien amochée sur les bords — vous rentrez juste de l'eau ?",
@@ -26116,6 +26471,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Bien vivre un festival",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti vos bouchons d'oreille avant même le premier morceau, vous êtes rodée — vous me conseilleriez lesquels ?",
@@ -26187,6 +26543,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec classe",
     "theme": "L'énergie du festival",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre veste couverte de badges de groupes raconte toute une vie de concerts — il y en a un là-dedans que personne ne connaît ?",
@@ -26258,6 +26615,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "L'art de sortir",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez troqué les talons pour des chaussures plates dès l'entrée, vous êtes visiblement rodée — c'est le secret pour tenir toute la nuit ?",
@@ -26329,6 +26687,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Les rencontres de la route",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez encore ce joli porte-clés en forme de coquillage, je l'avais remarqué la dernière fois — il vient d'un endroit particulier ?",
@@ -26400,6 +26759,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "Le temps qui change",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez ressorti la grosse écharpe ce matin, vous, c'est que ça caille vraiment — je ne rêve pas ?",
@@ -26471,6 +26831,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les astuces de la route",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous vérifiez la pression de vos pneus avec un vrai savoir-faire, moi ça me dépasse — vous me montreriez comment on fait ?",
@@ -26542,6 +26903,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec classe",
     "theme": "L'appel de la route",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre voiture a une drôle d'allure vintage, on ne voit plus ça sur la route — c'est un héritage ou une vraie passion ?",
@@ -26613,6 +26975,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "L'esprit camping",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre auvent est monté au cordeau, pas un pli qui dépasse — vous êtes un vieux routier du camping, vous ?",
@@ -26684,6 +27047,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Les secrets du plein air",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore réussi votre feu du soir alors que le mien fume et s'éteint — vous me montrez enfin votre secret ?",
@@ -26755,6 +27119,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec classe",
     "theme": "L'insouciance des vacances",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre hamac tendu entre deux arbres, c'est la meilleure idée du camping, tout le monde vous jalouse — vous l'installez partout comme ça ?",
@@ -26826,6 +27191,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "La routine sportive",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez un strapping impeccable au genou, ça sent le sportif qui connaît son affaire — vieille blessure ou simple précaution ?",
@@ -26897,6 +27263,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "Le temps de la saison",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous êtes arrivée trempée jusqu'aux os, le déluge vous a eue aussi — vous avez couru sans parapluie ?",
@@ -26968,6 +27335,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Bouger avec le corps qu'on a",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore ce petit rouleau de massage dans votre sac, moi mes courbatures ne passent jamais — ça soulage vraiment ?",
@@ -27039,6 +27407,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Les habituées de l'attente",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez toujours un thermos qui a l'air de vous tenir compagnie pendant l'attente, maligne — c'est du thé maison là-dedans ?",
@@ -27110,6 +27479,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter léger",
     "theme": "La pluie et le beau temps",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez posé votre parapluie dégoulinant à l'entrée, vous, il tombe toujours autant dehors ?",
@@ -27181,6 +27551,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Demander un avis",
     "theme": "Traverser les années sereinement",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez apporté vos mots croisés comme toujours, moi je sèche sur le mien depuis dix minutes — vous me donneriez un coup de main ?",
@@ -27252,6 +27623,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Séduire avec classe",
     "theme": "L'imprévu de l'attente",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre tote bag avec la citation me fait sourire, c'est exactement mon humeur dans cette salle — vous l'avez trouvé où ?",
@@ -27323,6 +27695,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Briser la glace",
     "theme": "Les habitués de l'hôtel",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre foulard de soie est absolument ravissant, il illumine cet ascenseur un peu terne — c'est un souvenir de voyage ?",
@@ -27394,6 +27767,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter sans se prendre la tête",
     "theme": "Petites conversations d ascenseur",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Tiens, encore vous avec le journal sous le bras, vous avez trouvé quelque chose d intéressant ce matin ?",
@@ -27465,6 +27839,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un bon conseil",
     "theme": "Demander un avis à une amie de séjour",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous qui avez toujours l œil, vous pensez que cette veste passe pour le dîner de ce soir ?",
@@ -27536,6 +27911,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle avec tact",
     "theme": "Flirt discret entre deux étages",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre montre a un cadran superbe, elle a une petite histoire ou juste bon goût ?",
@@ -27607,6 +27983,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire enfin connaissance",
     "theme": "Se parler entre habitués du marché",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Je vous reconnais, vous prenez toujours un vin chaud au même stand, il est si bon que ça ?",
@@ -27678,6 +28055,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Trouver le bon stand",
     "theme": "Demander un conseil entre deux stands",
     "intention": "Demander un conseil",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "On s est déjà croisées la semaine dernière, vous aviez un pain d épices qui sentait divinement bon, c était quel stand ?",
@@ -27749,6 +28127,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire naître un sourire complice",
     "theme": "Flirt léger dans la magie des lumières",
     "intention": "Flirter",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Votre écharpe a exactement la couleur des guirlandes derrière vous, c est calculé ?",
@@ -27820,6 +28199,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Prolonger la complicité",
     "theme": "Retrouvailles entre chineurs",
     "intention": "Faire connaissance",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez encore l œil qui pétille, vous avez déniché une trouvaille ce matin ?",
@@ -27891,6 +28271,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter légèrement",
     "theme": "Bavardage de brocante",
     "intention": "Pluie et beau temps",
+    "role": "Client ou visiteur",
     "zoomIn": [
       {
         "accroche": "Vous avez bien fait de sortir les bottes ce matin, le sol est un vrai marécage non ?",
@@ -27962,6 +28343,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire connaissance sur la route",
     "theme": "Deux voyageurs qui se reconnaissent",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On s est déjà vues à la station d avant je crois, vous faites la même route que moi ?",
@@ -28033,6 +28415,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter à la pause",
     "theme": "Pause complice sur la route",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez déjà les yeux qui piquent, la route vous fatigue là non ?",
@@ -28104,6 +28487,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un bon tuyau",
     "theme": "Conseil d une habituée de la route",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Je vous vois souvent ici, vous devez connaître, le café de cette station il est buvable ou pas ?",
@@ -28175,6 +28559,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une étincelle en chemin",
     "theme": "Rencontre imprévue sur la route",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez un tee shirt de festival, vous rentrez de la fête ou vous y allez ?",
@@ -28246,6 +28631,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Faire connaissance pour le trajet",
     "theme": "Briser la glace en covoiturage",
     "intention": "Faire connaissance",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On a déjà partagé un trajet je crois, vous aviez ce même joli foulard, vous vous souvenez ?",
@@ -28317,6 +28703,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Papoter pendant le trajet",
     "theme": "Bavardage complice en covoiturage",
     "intention": "Pluie et beau temps",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Vous avez sorti le gros pull ce matin, vous aviez senti le froid arriver vous aussi ?",
@@ -28388,6 +28775,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Récolter un conseil pratique",
     "theme": "Conseil entre habitués du covoiturage",
     "intention": "Demander un conseil",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "On fait souvent ce trajet ensemble, vous qui êtes rodée, l appli pour réserver, vous la trouvez fiable vous ?",
@@ -28459,6 +28847,7 @@ export const SITUATIONS_DATA = [
     "objectif": "Créer une belle complicité",
     "theme": "Flirt tout en douceur sur la banquette",
     "intention": "Flirter",
+    "role": "De passage",
     "zoomIn": [
       {
         "accroche": "Votre carnet a l air bien rempli, vous écrivez ou vous dessinez pendant la route ?",

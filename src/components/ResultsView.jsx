@@ -2,6 +2,7 @@ import React from "react";
 import { RotateCcw, MessageCircle } from "lucide-react";
 import SituationCard from "./SituationCard";
 import { INTENTION_BY_LABEL } from "../data/intentions";
+import { ROLE_BY_LABEL } from "../data/roles";
 
 const VIBE_LABEL   = { Ouvert: "Ouvert", Neutre: "Neutre", Fermé: "Fermé" };
 const AUDACE_LABEL = { 1: "Prudent", 2: "Confiant", 3: "Audacieux" };
@@ -15,7 +16,7 @@ function Chip({ label }) {
 }
 
 export default function ResultsView({ situations, criteria, onRestart }) {
-  const { lieu, moi, avatar, contexte, interet, intention } = criteria || {};
+  const { lieu, moi, avatar, contexte, interet, intention, role } = criteria || {};
   const { ageGroupe, genre, vibe } = avatar || {};
   const { proximite, audace } = contexte || {};
   const moiLabel = [moi?.ageGroupe, moi?.genre].filter(Boolean).join(" · ");
@@ -31,7 +32,7 @@ export default function ResultsView({ situations, criteria, onRestart }) {
     audace ? AUDACE_LABEL[audace] : null,
   ].filter(Boolean).join(" · ");
 
-  const hasAnyFilter = lieu || interet || enFace || proximite || audace || intention || moiLabel;
+  const hasAnyFilter = lieu || interet || enFace || proximite || audace || intention || moiLabel || role;
 
   return (
     <div className="flex flex-col min-h-svh">
@@ -56,6 +57,7 @@ export default function ResultsView({ situations, criteria, onRestart }) {
             {lieu && <Chip label={lieu} />}
             {intention && <Chip label={`${INTENTION_BY_LABEL[intention]?.emoji ?? ""} ${intention}`.trim()} />}
             {moiLabel && <Chip label={`Moi : ${moiLabel}`} />}
+            {role && <Chip label={`${ROLE_BY_LABEL[role]?.emoji ?? ""} ${role}`.trim()} />}
             {enFace && <Chip label={`En face : ${enFace}`} />}
             {ctx && <Chip label={ctx} />}
             {interet && <Chip label={interet} />}

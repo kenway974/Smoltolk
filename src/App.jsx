@@ -2,10 +2,12 @@ import React, { useState, useMemo } from "react";
 import { SITUATIONS_DATA } from "./data/situations";
 import { matchSituations } from "./utils/matching";
 import { suggestIntention } from "./data/intentions";
+import { suggestRole } from "./data/roles";
 import WizardLayout from "./components/WizardLayout";
 import StepLieu from "./components/StepLieu";
 import StepDuo from "./components/StepDuo";
 import StepIntention from "./components/StepIntention";
+import StepRole from "./components/StepRole";
 import StepContexte from "./components/StepContexte";
 import StepInteret from "./components/StepInteret";
 import ResultsView from "./components/ResultsView";
@@ -17,8 +19,8 @@ const INITIAL_MOI      = { genre: null, ageGroupe: null };
 const INITIAL_AVATAR   = { genre: null, ageGroupe: null, vibe: null };
 const INITIAL_CONTEXTE = { proximite: null, audace: null };
 
-const TOTAL_STEPS = 5;
-const STEP_NUM = { step1: 1, step2: 2, step3: 3, step4: 4, step5: 5 };
+const TOTAL_STEPS = 6;
+const STEP_NUM = { step1: 1, step2: 2, step3: 3, step4: 4, step5: 5, step6: 6 };
 
 export default function App() {
   const [screen,   setScreen]   = useState("step1");
@@ -27,42 +29,47 @@ export default function App() {
   const [avatar,   setAvatar]   = useState(INITIAL_AVATAR);
   const [intention, setIntention] = useState(null);
   const [intentionTouched, setIntentionTouched] = useState(false);
+  const [role,     setRole]     = useState(null);
+  const [roleTouched, setRoleTouched] = useState(false);
   const [contexte, setContexte] = useState(INITIAL_CONTEXTE);
   const [interet,  setInteret]  = useState(null);
 
   const results = useMemo(
-    () => matchSituations(SITUATIONS_DATA, { lieu, moi, avatar, interet, contexte, intention }),
-    [lieu, moi, avatar, interet, contexte, intention]
+    () => matchSituations(SITUATIONS_DATA, { lieu, moi, avatar, interet, contexte, intention, role }),
+    [lieu, moi, avatar, interet, contexte, intention, role]
   );
 
   const goResults = () => setScreen("results");
 
-  // En quittant l'étape Duo, on pré-remplit l'intention suggérée (sauf si l'utilisateur
-  // l'a déjà choisie manuellement).
+  // En quittant l'étape Duo, on pré-remplit l'intention suggérée.
   const leaveDuo = () => {
     if (!intentionTouched) setIntention(suggestIntention(moi, avatar));
     setScreen("step3");
   };
+  const chooseIntention = (val) => { setIntentionTouched(true); setIntention(val); };
 
-  const chooseIntention = (val) => {
-    setIntentionTouched(true);
-    setIntention(val);
+  // En quittant l'étape Intention, on pré-remplit le rôle suggéré selon le lieu.
+  const leaveIntention = () => {
+    if (!roleTouched) setRole(suggestRole(lieu));
+    setScreen("step4");
   };
+  const chooseRole = (val) => { setRoleTouched(true); setRole(val); };
 
   const handleBack = () => {
     if (screen === "step2") setScreen("step1");
     else if (screen === "step3") setScreen("step2");
     else if (screen === "step4") setScreen("step3");
     else if (screen === "step5") setScreen("step4");
-    else if (screen === "results") setScreen("step5");
+    else if (screen === "step6") setScreen("step5");
+    else if (screen === "results") setScreen("step6");
   };
 
   const handleRestart = () => {
     setLieu(null);
     setMoi(INITIAL_MOI);
     setAvatar(INITIAL_AVATAR);
-    setIntention(null);
-    setIntentionTouched(false);
+    setIntention(null); setIntentionTouched(false);
+    setRole(null); setRoleTouched(false);
     setContexte(INITIAL_CONTEXTE);
     setInteret(null);
     setScreen("step1");
@@ -72,7 +79,7 @@ export default function App() {
     return (
       <ResultsView
         situations={results}
-        criteria={{ lieu, moi, avatar, contexte, interet, intention }}
+        criteria={{ lieu, moi, avatar, contexte, interet, intention, role }}
         onRestart={handleRestart}
       />
     );
@@ -106,19 +113,28 @@ export default function App() {
           value={intention}
           suggested={suggestIntention(moi, avatar)}
           onChange={chooseIntention}
-          onNext={() => setScreen("step4")}
-          onSkip={() => { setIntention(null); setIntentionTouched(false); setScreen("step4"); }}
+          onNext={leaveIntention}
+          onSkip={() => { setIntention(null); setIntentionTouched(false); leaveIntention(); }}
         />
       )}
       {screen === "step4" && (
-        <StepContexte
-          value={contexte}
-          onChange={setContexte}
+        <StepRole
+          value={role}
+          suggested={suggestRole(lieu)}
+          onChange={chooseRole}
           onNext={() => setScreen("step5")}
-          onSkip={() => { setContexte(INITIAL_CONTEXTE); setScreen("step5"); }}
+          onSkip={() => { setRole(null); setRoleTouched(false); setScreen("step5"); }}
         />
       )}
       {screen === "step5" && (
+        <StepContexte
+          value={contexte}
+          onChange={setContexte}
+          onNext={() => setScreen("step6")}
+          onSkip={() => { setContexte(INITIAL_CONTEXTE); setScreen("step6"); }}
+        />
+      )}
+      {screen === "step6" && (
         <StepInteret
           value={interet}
           onChange={setInteret}
