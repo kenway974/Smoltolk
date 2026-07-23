@@ -14,7 +14,7 @@ import ResultsView from "./components/ResultsView";
 import GuideView from "./components/GuideView";
 import HomeView from "./components/HomeView";
 
-const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].sort();
+const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
 
 const INITIAL_MOI      = { genre: null, ageGroupe: null };

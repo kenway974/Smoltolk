@@ -27,6 +27,11 @@ const EMOJI_MAP = {
   "Développement":"🌱",
   "Santé":        "💊",
   "Social":       "🤝",
+  "Animaux":      "🐾",
+  "Jeux vidéo":   "🎮",
+  "Lecture":      "📚",
+  "Argent":       "💰",
+  "Séries":       "📺",
 };
 
 export default function StepInteret({ value, onChange, onNext, onSkip, options = [] }) {

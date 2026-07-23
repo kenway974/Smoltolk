@@ -24,13 +24,20 @@ export function matchSituations(situations, { lieu, avatar, interet, contexte, i
   const { ageGroupe = null, genre = null, vibe = null } = avatar || {};
   const { proximite = null, audace = null } = contexte || {};
 
-  const pool = lieu ? situations.filter(s => s.environnement === lieu) : situations;
+  // Les lanceurs de sujet universels (environnement "Partout") ne sont pas des lieux :
+  // ils n'apparaissent que si un sujet est choisi, mais alors dans n'importe quel lieu.
+  const base = lieu
+    ? situations.filter(s => s.environnement === lieu)
+    : situations.filter(s => s.environnement !== "Partout");
+  const pool = interet
+    ? base.concat(situations.filter(s => s.environnement === "Partout" && s.centreInteret === interet))
+    : base;
 
   const scored = pool.map(s => {
     let score = 0;
     let exact = true; // vrai si la situation matche parfaitement chaque critère choisi
 
-    if (lieu) score += 5; // bonus lieu (garanti ici)
+    if (lieu && s.environnement === lieu) score += 5; // bonus lieu (au vrai lieu seulement)
 
     if (intention) {
       if (s.intention === intention) score += 6; // l'intention prime : registre de l'accroche
