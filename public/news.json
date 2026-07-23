@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T13:31:19.390Z",
+  "generatedAt": "2026-07-23T13:33:44.681Z",
   "categories": [
     {
       "key": "une",
@@ -53,6 +53,61 @@
           "link": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-l-iran-dit-avoir-arrete-trois-petroliers-dans-le-detroit-d-ormuz_8118755.html#xtor=RSS-3-[lestitres]",
           "summary": "Le baril de Brent, qui fait référence pour le prix du pétrole, n'avait pas atteint les 100 dollars depuis le 26 mai. Son cours s'envole jeudi, avec l'extension du conflit en mer…",
           "pubDate": "2026-07-23T13:25:22.000Z"
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "label": "Sport",
+      "source": "franceinfo",
+      "items": [
+        {
+          "title": "REPORTAGE. \"C'est une fierté\" : Paul Seixas, le prodige du cyclisme français fait vibrer les clubs de son enfance",
+          "link": "https://www.franceinfo.fr/sports/cyclisme/paul-seixas/reportage-c-est-une-fierte-paul-seixas-le-prodige-du-cyclisme-francais-fait-vibrer-les-clubs-de-son-enfance_8118851.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le champion de 19 ans suscite l'admiration de nombreux spectateurs du Tour de France, à commencer par ceux qui l'ont vu débuter dans le milieu du cyclisme. La \"Seixasmania\"…",
+          "pubDate": "2026-07-23T10:54:20.000Z"
+        },
+        {
+          "title": "\"Quand on contourne une règle, on s'engage sur une pente glissante\" : la fédération norvégienne va porter plainte auprès de la Fifa après l'intervention de Trump dans l'affaire Balogun",
+          "link": "https://www.franceinfo.fr/coupe-du-monde/la-federation-norvegienne-annonce-porter-plainte-aupres-du-comite-d-ethique-de-la-fifa-concernant-l-intervention-de-donald-trump-dans-l-affaire-folarin-balogun_8118965.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le joueur américain avait écopé d'un carton rouge avant de voir lever sa suspension par la Fifa après l'intervention du président américain, lui permettant ainsi de jouer le…",
+          "pubDate": "2026-07-23T11:10:07.000Z"
+        },
+        {
+          "title": "Le président de la FFF, Philippe Diallo, présentera le successeur de Didier Deschamps à la tête de l'équipe de France mardi 28 juillet",
+          "link": "https://www.franceinfo.fr/sports/foot/philippe-diallo-annoncera-le-nom-du-prochain-selectionneur-de-l-equipe-de-france-mardi-28-juillet_8118938.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le président de la Fédération française de football (FFF) présentera le prochain sélectionneur des Bleus, mardi, à 11 heures, lors d'une conférence de presse, a annoncé la \"3F\"…",
+          "pubDate": "2026-07-23T08:38:07.000Z"
+        },
+        {
+          "title": "DIRECT. Tour de France 2026 : le peloton accorde un bon de sortie à l'échappée, Valentin Paret-Peintre lancé dans la chasse au maillot à pois... Suivez l'étape Voiron-Orcières-Merlette avec nous",
+          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-la-derniere-chance-pour-une-victoire-francaise-suivez-la-redoutable-etape-alpine-entre-voiron-et-orcieres-merlette-avec-nous_8118881.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le premier volet de la trilogie alpine du Tour constitue la dernière occasion pour un baroudeur de s'imposer. Mais il devra s'agir d'un coureur particulièrement costaud vu les 3…",
+          "pubDate": "2026-07-23T13:31:57.000Z"
+        },
+        {
+          "title": "Antoine Griezmann a inscrit son premier but avec son nouveau club d'Orlando pour ses débuts en MLS",
+          "link": "https://www.franceinfo.fr/sports/foot/antoine-griezmann/antoine-griezmann-a-inscrit-son-premier-but-avec-son-nouveau-club-d-orlando-pour-son-premier-match-en-mls_8118896.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Pour son premier match officiel outre-Atlantique, l'ancien joueur de l'équipe de France s'est déjà fait remarquer avec une première réalisation, mercredi.",
+          "pubDate": "2026-07-23T09:19:32.000Z"
+        },
+        {
+          "title": "Les Français ont misé un montant record d'1,3 milliard d'euros en paris sportifs pendant la Coupe du monde",
+          "link": "https://www.franceinfo.fr/coupe-du-monde/les-francais-ont-mise-un-montant-record-d-1-3-milliard-d-euros-en-paris-sportifs-pendant-la-coupe-du-monde_8118779.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Révélé en exclusivité par France Inter, ce chiffre s'explique, selon l'Autorité nationale des jeux, par l'ampleur de la compétition : 48 équipes en lice. Et c'est sans surprise la…",
+          "pubDate": "2026-07-23T06:02:26.000Z"
+        },
+        {
+          "title": "\"Un rêve devenu réalité\" : Victor Wembanyama superstar de la jaquette du jeu vidéo NBA 2K27",
+          "link": "https://www.franceinfo.fr/sports/basket/victor-wembanyama/un-reve-devenu-realite-victor-wembanyama-superstar-de-la-jaquette-du-jeu-video-nba-2k27_8118677.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "C'est la première fois qu'un joueur tricolore apparaît seul sur la jaquette de l'édition standard du jeu vidéo. Avant lui, seul Tony Parker avait figuré... mais sur la seule…",
+          "pubDate": "2026-07-23T05:26:54.000Z"
+        },
+        {
+          "title": "Tour de France 2026 : la bataille pour le podium va-t-elle s'intensifier avec le retour en montagne entre Evenepoel, Del Toro et Seixas ? La 18e étape en questions",
+          "link": "https://www.franceinfo.fr/tour-de-france/tour-de-france-2026-la-bataille-pour-le-podium-va-t-elle-s-intensifier-avec-le-retour-en-montagne-entre-evenepoel-del-toro-et-seixas-la-18e-etape-en-questions_8115167.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le peloton s'attaque, jeudi, à la première des trois dernières étapes de montagne avant l'arrivée à Paris.",
+          "pubDate": "2026-07-23T04:45:01.000Z"
         }
       ]
     },
