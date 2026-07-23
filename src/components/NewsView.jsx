@@ -45,7 +45,10 @@ function NewsItem({ item, index }) {
       <div className="px-4 pt-4 pb-3">
         <p className="text-[15px] font-semibold text-stone-900 leading-snug">{item.title}</p>
         {item.summary && <p className="mt-1.5 text-sm text-stone-500 leading-relaxed">{item.summary}</p>}
-        <div className="mt-2.5 flex items-center gap-2 text-[11px] text-stone-400">
+        <div className="mt-2.5 flex items-center gap-2 flex-wrap text-[11px] text-stone-400">
+          {item.source && (
+            <span className="px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 font-medium">{item.source}</span>
+          )}
           {item.pubDate && <span>{timeAgo(item.pubDate)}</span>}
           <a
             href={item.link}
@@ -133,7 +136,6 @@ export default function NewsView({ onBack }) {
                   <h2 className="text-lg font-semibold text-stone-900">
                     {CAT_EMOJI[cat.key] || "•"} {cat.label}
                   </h2>
-                  {cat.source && <span className="text-[11px] text-stone-400">via {cat.source}</span>}
                 </div>
                 <div className="flex flex-col gap-3">
                   {cat.items.map((item, i) => <NewsItem key={item.link || i} item={item} index={i} />)}
