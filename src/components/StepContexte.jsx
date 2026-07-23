@@ -25,7 +25,7 @@ export default function StepContexte({ value = {}, onChange, onNext, onSkip }) {
       {/* Header */}
       <div className="flex flex-col gap-1.5">
         <div className="flex items-center gap-2.5">
-          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-stone-100 text-stone-400">
+          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-amber-100 text-amber-600">
             <Zap size={16} strokeWidth={2} />
           </span>
           <h2 className="text-xl font-semibold text-stone-900 tracking-tight">Le contexte</h2>
@@ -45,16 +45,16 @@ export default function StepContexte({ value = {}, onChange, onNext, onSkip }) {
               <button
                 key={v}
                 onClick={() => update("proximite", isActive ? null : v)}
-                className={`flex items-center gap-3 px-4 py-3 rounded-xl border text-left transition-colors duration-200 active:scale-[0.99] ${
+                className={`flex items-center gap-3 px-4 py-3 rounded-xl border text-left transition-all duration-200 active:scale-[0.99] ${
                   isActive
-                    ? "bg-stone-900 text-white border-stone-900"
-                    : "bg-white text-stone-800 border-stone-200 hover:border-stone-400"
+                    ? "bg-amber-500 text-white border-amber-500 shadow-md shadow-amber-200"
+                    : "bg-white text-stone-800 border-stone-200 hover:border-amber-300"
                 }`}
               >
                 <span className="text-base leading-none flex-shrink-0">{emoji}</span>
                 <div className="flex flex-col min-w-0">
                   <span className="font-semibold text-sm">{label}</span>
-                  <span className={`text-xs leading-snug ${isActive ? "text-stone-300" : "text-stone-400"}`}>
+                  <span className={`text-xs leading-snug ${isActive ? "text-white/80" : "text-stone-400"}`}>
                     {desc}
                   </span>
                 </div>
@@ -76,15 +76,15 @@ export default function StepContexte({ value = {}, onChange, onNext, onSkip }) {
               <button
                 key={v}
                 onClick={() => update("audace", isActive ? null : v)}
-                className={`flex-1 flex flex-col items-center gap-1 py-3.5 px-2 rounded-xl border text-xs font-medium transition-colors duration-200 active:scale-[0.98] ${
+                className={`flex-1 flex flex-col items-center gap-1 py-3.5 px-2 rounded-xl border text-xs font-medium transition-all duration-200 active:scale-[0.98] ${
                   isActive
-                    ? "bg-stone-900 text-white border-stone-900"
-                    : "bg-white text-stone-800 border-stone-200 hover:border-stone-400"
+                    ? "bg-rose-500 text-white border-rose-500 shadow-md shadow-rose-200"
+                    : "bg-white text-stone-800 border-stone-200 hover:border-rose-300"
                 }`}
               >
                 <span className="text-lg leading-none">{emoji}</span>
                 <span className="text-center font-semibold">{label}</span>
-                <span className={`text-center font-normal leading-tight ${isActive ? "text-stone-300" : "text-stone-400"}`}>
+                <span className={`text-center font-normal leading-tight ${isActive ? "text-white/80" : "text-stone-400"}`}>
                   {desc}
                 </span>
               </button>

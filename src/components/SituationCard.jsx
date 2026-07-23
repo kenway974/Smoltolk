@@ -5,9 +5,12 @@ import { ROLE_BY_LABEL } from "../data/roles";
 import { guidePalier, PALIERS_INFO } from "../data/guideMap";
 
 const LEVELS = [
-  { key: "zoomIn",   label: "Zoom In",  hint: "Un détail visible sur la personne", Icon: ZoomIn },
-  { key: "contexte", label: "Contexte", hint: "Le lieu, l'instant que vous partagez", Icon: Crosshair },
-  { key: "zoomOut",  label: "Zoom Out", hint: "L'énergie générale du moment", Icon: ZoomOut },
+  { key: "zoomIn",   label: "Zoom In",  hint: "Un détail visible sur la personne", Icon: ZoomIn,
+    activeText: "text-emerald-700", box: "bg-emerald-50 border-emerald-200", text: "text-emerald-900" },
+  { key: "contexte", label: "Contexte", hint: "Le lieu, l'instant que vous partagez", Icon: Crosshair,
+    activeText: "text-sky-700", box: "bg-sky-50 border-sky-200", text: "text-sky-900" },
+  { key: "zoomOut",  label: "Zoom Out", hint: "L'énergie générale du moment", Icon: ZoomOut,
+    activeText: "text-violet-700", box: "bg-violet-50 border-violet-200", text: "text-violet-900" },
 ];
 
 function CopyButton({ text }) {
@@ -80,12 +83,12 @@ export default function SituationCard({ situation, index = 0, onOpenGuide }) {
           </span>
           <div className="flex flex-wrap justify-end gap-1.5">
             {roleInfo && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-500 text-xs font-medium">
+              <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ${roleInfo.style}`}>
                 {roleInfo.emoji} {situation.role}
               </span>
             )}
             {situation.intention && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-stone-100 text-stone-600 text-xs font-medium">
+              <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ${INTENTION_BY_LABEL[situation.intention]?.style || "bg-stone-100 text-stone-600"}`}>
                 {intentionEmoji} {situation.intention}
               </span>
             )}
@@ -102,14 +105,14 @@ export default function SituationCard({ situation, index = 0, onOpenGuide }) {
 
       {/* ── Zoom level switcher ── */}
       <div className="flex mx-5 rounded-xl bg-stone-100 p-1 gap-1">
-        {LEVELS.map(({ key, label, Icon }) => {
+        {LEVELS.map(({ key, label, Icon, activeText }) => {
           const active = activeLevel === key;
           return (
             <button
               key={key}
               onClick={() => goToLevel(key)}
               className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
-                active ? "bg-white text-stone-900 shadow-sm" : "text-stone-400"
+                active ? `bg-white shadow-sm ${activeText}` : "text-stone-400"
               }`}
             >
               <Icon size={13} strokeWidth={2} />
@@ -124,9 +127,9 @@ export default function SituationCard({ situation, index = 0, onOpenGuide }) {
       {/* ── Accroche ── */}
       <div
         key={`${activeLevel}-${idx}`}
-        className="mx-5 mb-2.5 px-4 py-4 rounded-xl bg-stone-50 border border-stone-100 flex items-start gap-3 animate-phrase-swap"
+        className={`mx-5 mb-2.5 px-4 py-4 rounded-xl border flex items-start gap-3 animate-phrase-swap ${level.box}`}
       >
-        <p className="flex-1 text-[15px] text-stone-800 leading-relaxed">« {data.accroche} »</p>
+        <p className={`flex-1 text-[15px] leading-relaxed ${level.text}`}>« {data.accroche} »</p>
         <CopyButton text={data.accroche} />
       </div>
 

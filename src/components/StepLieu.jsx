@@ -7,7 +7,7 @@ export default function StepLieu({ value, onChange, onNext, onSkip, options = []
       {/* Header */}
       <div className="flex flex-col gap-1.5">
         <div className="flex items-center gap-2.5">
-          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-stone-100 text-stone-400">
+          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-blue-100 text-blue-600">
             <MapPin size={16} strokeWidth={2} />
           </span>
           <h2 className="text-xl font-semibold text-stone-900 tracking-tight">Où es-tu&nbsp;?</h2>
@@ -25,8 +25,8 @@ export default function StepLieu({ value, onChange, onNext, onSkip, options = []
               onClick={() => onChange(isActive ? null : lieu)}
               className={`flex items-center justify-center text-center px-3 py-3 rounded-xl border text-sm font-medium transition-colors duration-200 active:scale-[0.98] ${
                 isActive
-                  ? "bg-stone-900 text-white border-stone-900"
-                  : "bg-white text-stone-600 border-stone-200 hover:border-stone-400"
+                  ? "bg-blue-600 text-white border-blue-600 shadow-md shadow-blue-200"
+                  : "bg-white text-stone-600 border-stone-200 hover:border-blue-300"
               }`}
             >
               {lieu}

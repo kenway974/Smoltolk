@@ -8,6 +8,15 @@ const CAT_EMOJI = {
   musique: "🎵", livres: "📚", medias: "📡", idees: "💭", education: "🎓", sport: "⚽",
 };
 
+// Teinte de la pastille par domaine (couleur douce, garde l'esprit épuré).
+const CAT_TINT = {
+  une: "bg-blue-100", monde: "bg-sky-100", politique: "bg-indigo-100", societe: "bg-cyan-100",
+  justice: "bg-slate-200", economie: "bg-amber-100", emploi: "bg-yellow-100", sante: "bg-emerald-100",
+  sciences: "bg-teal-100", environnement: "bg-green-100", tech: "bg-violet-100", jeuxvideo: "bg-fuchsia-100",
+  auto: "bg-orange-100", culture: "bg-rose-100", cinema: "bg-red-100", musique: "bg-pink-100",
+  livres: "bg-lime-100", medias: "bg-stone-200", idees: "bg-purple-100", education: "bg-blue-100", sport: "bg-rose-100",
+};
+
 function timeAgo(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -134,10 +143,11 @@ export default function NewsView({ onBack }) {
           <div className="flex flex-col gap-8">
             {cats.filter((c) => c.items?.length).map((cat) => (
               <section key={cat.key}>
-                <div className="flex items-baseline gap-2 mb-3">
-                  <h2 className="text-lg font-semibold text-stone-900">
-                    {CAT_EMOJI[cat.key] || "•"} {cat.label}
-                  </h2>
+                <div className="flex items-center gap-2.5 mb-3">
+                  <span className={`flex items-center justify-center w-8 h-8 rounded-lg text-base ${CAT_TINT[cat.key] || "bg-stone-100"}`}>
+                    {CAT_EMOJI[cat.key] || "•"}
+                  </span>
+                  <h2 className="text-lg font-semibold text-stone-900">{cat.label}</h2>
                 </div>
                 <div className="flex flex-col gap-3">
                   {cat.items.map((item, i) => <NewsItem key={item.link || i} item={item} index={i} />)}

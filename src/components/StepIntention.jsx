@@ -8,7 +8,7 @@ export default function StepIntention({ value, suggested, onChange, onNext, onSk
       {/* Header */}
       <div className="flex flex-col gap-1.5">
         <div className="flex items-center gap-2.5">
-          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-stone-100 text-stone-400">
+          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-amber-100 text-amber-600">
             <Target size={16} strokeWidth={2} />
           </span>
           <h2 className="text-xl font-semibold text-stone-900 tracking-tight">Ton intention&nbsp;?</h2>
@@ -18,29 +18,27 @@ export default function StepIntention({ value, suggested, onChange, onNext, onSk
 
       {/* Intentions */}
       <div className="flex flex-col gap-2">
-        {INTENTIONS.map(({ key, label, emoji, hint }) => {
+        {INTENTIONS.map(({ key, label, emoji, hint, color, activeColor }) => {
           const isActive = value === label;
           const isSuggested = suggested === label;
           return (
             <button
               key={key}
               onClick={() => onChange(isActive ? null : label)}
-              className={`relative text-left px-4 py-3.5 rounded-xl border transition-colors duration-200 active:scale-[0.99] ${
-                isActive
-                  ? "bg-stone-900 text-white border-stone-900"
-                  : "bg-white text-stone-800 border-stone-200 hover:border-stone-400"
+              className={`relative text-left px-4 py-3.5 rounded-xl border transition-all duration-200 active:scale-[0.99] ${
+                isActive ? activeColor : `${color} hover:brightness-[0.97]`
               }`}
             >
               <div className="flex items-center gap-3">
                 <span className="text-xl leading-none">{emoji}</span>
                 <div className="flex-1 min-w-0">
                   <p className="font-semibold text-[15px] leading-tight">{label}</p>
-                  <p className={`text-xs mt-0.5 leading-snug ${isActive ? "text-stone-300" : "text-stone-400"}`}>
+                  <p className={`text-xs mt-0.5 leading-snug ${isActive ? "opacity-90" : "opacity-70"}`}>
                     {hint}
                   </p>
                 </div>
                 {isSuggested && !isActive && (
-                  <span className="flex items-center gap-1 px-2 py-1 rounded-full bg-stone-100 text-stone-500 text-[10px] font-semibold uppercase tracking-wide">
+                  <span className="flex items-center gap-1 px-2 py-1 rounded-full bg-white/70 text-[10px] font-semibold uppercase tracking-wide">
                     <Sparkles size={10} strokeWidth={2} /> Suggéré
                   </span>
                 )}

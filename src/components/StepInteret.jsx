@@ -40,7 +40,7 @@ export default function StepInteret({ value, onChange, onNext, onSkip, options =
       {/* Header */}
       <div className="flex flex-col gap-1.5">
         <div className="flex items-center gap-2.5">
-          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-stone-100 text-stone-400">
+          <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-rose-100 text-rose-500">
             <Sparkles size={16} strokeWidth={2} />
           </span>
           <h2 className="text-xl font-semibold text-stone-900 tracking-tight">Quel sujet&nbsp;?</h2>
@@ -59,8 +59,8 @@ export default function StepInteret({ value, onChange, onNext, onSkip, options =
               onClick={() => onChange(isActive ? null : interet)}
               className={`flex flex-col items-center gap-1.5 py-3.5 px-2 rounded-xl border text-xs font-medium transition-colors duration-200 active:scale-[0.98] ${
                 isActive
-                  ? "bg-stone-900 text-white border-stone-900"
-                  : "bg-white text-stone-600 border-stone-200 hover:border-stone-400"
+                  ? "bg-rose-500 text-white border-rose-500 shadow-md shadow-rose-200"
+                  : "bg-white text-stone-600 border-stone-200 hover:border-rose-300"
               }`}
             >
               <span className="text-xl leading-none">{emoji}</span>

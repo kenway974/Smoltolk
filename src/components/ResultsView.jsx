@@ -7,9 +7,9 @@ import { ROLE_BY_LABEL } from "../data/roles";
 const VIBE_LABEL   = { Ouvert: "Ouvert", Neutre: "Neutre", Fermé: "Fermé" };
 const AUDACE_LABEL = { 1: "Prudent", 2: "Confiant", 3: "Audacieux" };
 
-function Chip({ label }) {
+function Chip({ label, color = "bg-white border border-stone-200 text-stone-500" }) {
   return (
-    <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-stone-200 text-xs font-medium text-stone-500">
+    <span className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium ${color}`}>
       {label}
     </span>
   );
@@ -65,13 +65,13 @@ export default function ResultsView({ situations, criteria, onRestart, onOpenGui
 
         {hasAnyFilter && (
           <div className="flex flex-wrap gap-1.5">
-            {lieu && <Chip label={lieu} />}
-            {intention && <Chip label={`${INTENTION_BY_LABEL[intention]?.emoji ?? ""} ${intention}`.trim()} />}
-            {moiLabel && <Chip label={`Moi : ${moiLabel}`} />}
-            {role && <Chip label={`${ROLE_BY_LABEL[role]?.emoji ?? ""} ${role}`.trim()} />}
-            {enFace && <Chip label={`En face : ${enFace}`} />}
-            {ctx && <Chip label={ctx} />}
-            {interet && <Chip label={interet} />}
+            {lieu && <Chip label={lieu} color="bg-blue-50 text-blue-700 border border-blue-200" />}
+            {intention && <Chip label={`${INTENTION_BY_LABEL[intention]?.emoji ?? ""} ${intention}`.trim()} color={INTENTION_BY_LABEL[intention]?.style} />}
+            {moiLabel && <Chip label={`Moi : ${moiLabel}`} color="bg-indigo-50 text-indigo-700 border border-indigo-200" />}
+            {role && <Chip label={`${ROLE_BY_LABEL[role]?.emoji ?? ""} ${role}`.trim()} color={ROLE_BY_LABEL[role]?.style} />}
+            {enFace && <Chip label={`En face : ${enFace}`} color="bg-violet-50 text-violet-700 border border-violet-200" />}
+            {ctx && <Chip label={ctx} color="bg-amber-50 text-amber-700 border border-amber-200" />}
+            {interet && <Chip label={interet} color="bg-rose-50 text-rose-700 border border-rose-200" />}
           </div>
         )}
       </header>

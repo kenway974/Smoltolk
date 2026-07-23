@@ -1,14 +1,14 @@
 import React from "react";
 import { MessageCircle, Compass, BookOpen, Newspaper, ArrowRight } from "lucide-react";
 
-function EntryCard({ icon: Icon, title, desc, meta, onClick }) {
+function EntryCard({ icon: Icon, title, desc, meta, onClick, tile = "bg-stone-900", hover = "hover:border-stone-400" }) {
   return (
     <button
       onClick={onClick}
-      className="group w-full text-left rounded-2xl border border-stone-200 bg-white p-5 hover:border-stone-400 active:scale-[0.99] transition-colors duration-200"
+      className={`group w-full text-left rounded-2xl border border-stone-200 bg-white p-5 active:scale-[0.99] transition-colors duration-200 ${hover}`}
     >
       <div className="flex items-start gap-4">
-        <span className="flex items-center justify-center w-11 h-11 rounded-xl bg-stone-900 text-white flex-shrink-0">
+        <span className={`flex items-center justify-center w-11 h-11 rounded-xl text-white flex-shrink-0 ${tile}`}>
           <Icon size={20} strokeWidth={2} />
         </span>
         <div className="flex-1 min-w-0">
@@ -50,6 +50,8 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews }) {
           desc="Le lieu, la personne, ton intention — et tu obtiens des accroches prêtes à dire, adaptées au moment."
           meta="Le lanceur"
           onClick={onStart}
+          tile="bg-blue-600"
+          hover="hover:border-blue-300"
         />
         <EntryCard
           icon={BookOpen}
@@ -57,6 +59,8 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews }) {
           desc="L'arbre de conversation : comment ouvrir, cadrer, approfondir, et partir au bon moment. Palier par palier."
           meta="La méthode"
           onClick={onOpenGuide}
+          tile="bg-amber-500"
+          hover="hover:border-amber-300"
         />
         <EntryCard
           icon={Newspaper}
@@ -64,6 +68,8 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews }) {
           desc="L'actu fraîche du jour — à la une, sport, culture, tech — avec une accroche prête pour lancer la conversation dessus."
           meta="Le déclencheur"
           onClick={onOpenNews}
+          tile="bg-rose-500"
+          hover="hover:border-rose-300"
         />
       </div>
 

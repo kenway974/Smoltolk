@@ -66,11 +66,16 @@ function Gate({ items, verdict }) {
   );
 }
 
+const DEPTH_COLOR = {
+  P0: "bg-emerald-600", P1: "bg-sky-600", P2: "bg-amber-500",
+  P3: "bg-violet-600", FIN: "bg-rose-500", SOCLE: "bg-stone-700",
+};
+
 function Palier({ depth, title, goal, intro, children, anchor }) {
   return (
     <section id={anchor ? `palier-${anchor}` : undefined} className="mt-14 scroll-mt-[68px]">
       <div className="flex items-baseline gap-3 flex-wrap border-b border-stone-200 pb-2.5 mb-3">
-        <span className="text-[12px] font-bold tracking-[0.06em] bg-stone-900 text-white px-2 py-1 rounded">{depth}</span>
+        <span className={`text-[12px] font-bold tracking-[0.06em] text-white px-2 py-1 rounded ${DEPTH_COLOR[depth] || "bg-stone-900"}`}>{depth}</span>
         <h2 className="font-serif-guide text-[26px] font-semibold text-stone-900 tracking-tight">{title}</h2>
         <span className="text-[11px] font-medium uppercase tracking-[0.1em] text-stone-400">{goal}</span>
       </div>
