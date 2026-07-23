@@ -1,10 +1,24 @@
 {
-  "generatedAt": "2026-07-23T13:42:13.518Z",
+  "generatedAt": "2026-07-23T13:46:39.694Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
+        {
+          "title": "Un biopic sur Snoop Dogg sortira en août 2027",
+          "link": "https://www.bfmtv.com/culture/cinema-series/un-biopic-sur-snoop-dogg-sortira-en-aout-2027_AN-202607230443.html",
+          "summary": "Un long-métrage sur la carrière du rappeur américain, célèbre pour ses tubes \"Drop It Like It's Hot\" ou \"Nuthin' But A G Thang\", est en préparation chez Universal avec une sortie…",
+          "pubDate": "2026-07-23T13:43:23.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Affaire Epstein: une association dénonce la \"lenteur\" de la justice et dit vouloir poursuivre l'État après la mort de Daniel Siad",
+          "link": "https://www.bfmtv.com/police-justice/affaire-epstein-une-association-denonce-la-lenteur-de-la-justice-et-dit-vouloir-poursuivre-l-etat-apres-la-mort-de-daniel-siad_AD-202607230442.html",
+          "summary": "L'association Innocence en danger a déclaré ce jeudi 23 juillet son intention de poursuivre l'État pour \"déni de justice\" après la mort de Daniel Siad, qui était soupçonné d'être…",
+          "pubDate": "2026-07-23T13:42:14.000Z",
+          "source": "BFMTV"
+        },
         {
           "title": "\"Vous ne me verrez pas partir avant 2027\", assure la présidente de la BCE Christine Lagarde",
           "link": "https://www.bfmtv.com/economie/video-vous-ne-me-verrez-pas-partir-avant-2027-assure-la-presidente-de-la-bce-christine-lagarde_VN-202607230440.html",
@@ -25,34 +39,6 @@
           "summary": "La présidente de la BCE Christine Lagarde s'exprime lors d'une conférence à Francfort, jeudi 22 juillet.",
           "pubDate": "2026-07-23T13:29:29.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Sous ce seuil symbolique depuis fin mai, le baril de Brent atteint de nouveau les 100 dollars après des attaques contre des pétroliers saoudiens en mer Rouge",
-          "link": "https://www.bfmtv.com/economie/entreprises/energie/sous-ce-seuil-symbolique-depuis-fin-mai-le-baril-de-brent-atteint-de-nouveau-les-100-dollars-apres-des-attaques-de-petroliers-saoudiens-en-mer-rouge_AD-202607230432.html",
-          "summary": "Le prix du baril de Brent a repassé la barre symbolique des 100 dollars ce jeudi 23 juillet, porté par le blocage persistant du détroit d'Ormuz et le durcissement du ton entre…",
-          "pubDate": "2026-07-23T13:29:14.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Meurtre de Thomas à Crépol: existe-t-il des précédents de poursuites pour racisme contre \"la race blanche\"?",
-          "link": "https://www.bfmtv.com/police-justice/meurtre-de-thomas-a-crepol-existe-t-il-des-precedents-de-poursuites-pour-racisme-contre-la-race-blanche_AN-202607230430.html",
-          "summary": "Seules quelques affaires, intégrant l'idée d'un \"racisme anti-blanc\", ont été jugées en France. Elles remontent principalement aux années 2010.",
-          "pubDate": "2026-07-23T13:27:55.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "A Paris, la place Maurice-Barrès, fervent antisémite, rebaptisée Lucie-Dreyfus",
-          "link": "https://www.franceinfo.fr/culture/a-paris-la-place-maurice-barres-fervent-antisemite-rebaptisee-lucie-dreyfus_8119160.html#xtor=RSS-3-[lestitres]",
-          "summary": "Cette année ont été célébrés les 120 ans de la décision de la Cour de cassation de réhabiliter le capitaine Alfred Dreyfus et de reconnaître pleinement son innocence, après sa…",
-          "pubDate": "2026-07-23T13:25:55.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Guerre au Moyen-Orient : le baril de Brent dépasse les 100 dollars pour la première fois depuis fin mai",
-          "link": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-l-iran-dit-avoir-arrete-trois-petroliers-dans-le-detroit-d-ormuz_8118755.html#xtor=RSS-3-[lestitres]",
-          "summary": "Le baril de Brent, qui fait référence pour le prix du pétrole, n'avait pas atteint les 100 dollars depuis le 26 mai. Son cours s'envole jeudi, avec l'extension du conflit en mer…",
-          "pubDate": "2026-07-23T13:25:22.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -60,6 +46,13 @@
       "key": "monde",
       "label": "Monde",
       "items": [
+        {
+          "title": "Affaire Epstein",
+          "link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/affaire-epstein_DN-202602020719.html",
+          "summary": "Accusé d'avoir monté un vaste réseau d'exploitation sexuelle de jeunes filles mineures, Jeffrey Epstein s'est suicidé en prison en août 2019, avant d'être jugé. L'homme d'affaires…",
+          "pubDate": "2026-07-23T13:42:14.000Z",
+          "source": "BFMTV"
+        },
         {
           "title": "Le risque d'une \"inflation plus élevée que prévue\": la cheffe de la BCE alerte sur les conséquences d'un prolongement de la guerre au Moyen-Orient",
           "link": "https://www.bfmtv.com/international/moyen-orient/iran/video-le-risque-d-une-inflation-plus-elevee-que-prevue-la-cheffe-de-la-bce-alerte-sur-les-consequences-d-un-prolongement-de-la-guerre-au-moyen-orient_VN-202607230434.html",
@@ -87,27 +80,6 @@
           "summary": "Le pays sud-américain a enregistré en 2025 une forte baisse des surfaces brûlées, de l’ordre d’un tiers par rapport à l’année précédente. L’effet probable d’un renforcement de la…",
           "pubDate": "2026-07-23T13:00:06.000Z",
           "source": "Le Monde"
-        },
-        {
-          "title": "Marineland : huit dauphins transférés en Espagne",
-          "link": "https://www.lemonde.fr/international/video/2026/07/23/marineland-huit-dauphins-transferes-en-espagne_6730781_3210.html",
-          "summary": "Selon les associations, les dauphins ont été chargés dans des camions pour se rendre à l’aéroport de Nice, tout proche de Marineland, et s’envoler pour Malaga. A l’avenir, ces…",
-          "pubDate": "2026-07-23T12:59:07.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "La cheffe des députés écologistes, Cyrielle Chatelain, saisit Sébastien Lecornu sur le cas d’un lanceur d’alerte centrafricain sur Wagner",
-          "link": "https://www.lemonde.fr/international/article/2026/07/23/la-presidente-des-deputes-ecologistes-saisit-sebastien-lecornu-pour-un-lanceur-d-alerte-centrafricain-sur-wagner_6730780_3210.html",
-          "summary": "Réfugié en France depuis 2024, Ephrem Yalike-Ngonzo a été à l’origine d’une enquête de Forbidden Stories qui a révélé des opérations de désinformation menées en Centrafrique par…",
-          "pubDate": "2026-07-23T12:54:47.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Cisjordanie : à Sebastia, un site antique menacé réclame la protection de l’Unesco",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260723-cisjordanie-%C3%A0-sebastia-un-site-antique-menac%C3%A9-r%C3%A9clame-la-protection-de-l-unesco",
-          "summary": "Le village de Sebastia espère se voir inscrire à la liste du patrimoine mondial de l’UNESCO, dont l’examen des candidatures se tient jusqu’au 29 juillet. Le site archéologique est…",
-          "pubDate": "2026-07-23T12:45:16.000Z",
-          "source": "France 24"
         }
       ]
     },
@@ -149,19 +121,87 @@
           "summary": "La ministre de la santé, Stéphanie Rist, a annoncé jeudi son intention d’augmenter à 200 euros le montant maximum annuel des sommes qui restent à la charge des patients sur les…",
           "pubDate": "2026-07-23T10:47:20.000Z",
           "source": "Le Monde"
-        },
+        }
+      ]
+    },
+    {
+      "key": "societe",
+      "label": "Société",
+      "items": [
         {
-          "title": "Le guichet \"grands rouleurs\", qui devait fermer le 31 juillet, sera ouvert jusqu'au 31 août, annonce le ministre de l'Économie",
-          "link": "https://www.franceinfo.fr/economie/automobile/essence/le-guichet-grands-rouleurs-qui-devait-fermer-au-31-juillet-sera-ouvert-jusqu-au-31-aout-annonce-le-ministre-de-l-economie_8118884.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Roland Lescure annonce également qu'il réunira les distributeurs lundi à Bercy pour \"s'assurer qu'il n'y aura pas d'excès sur les marges\".",
-          "pubDate": "2026-07-23T09:32:42.000Z",
+          "title": "La Licra annonce déposer plainte après le concert interrompu de Barbara Butch à Grenoble",
+          "link": "https://www.franceinfo.fr/culture/musique/la-licra-annonce-deposer-plainte-apres-le-concert-interrompu-de-barbara-butch-a-grenoble_8119133.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La DJ a elle aussi annoncé jeudi une série de plaintes, notamment contre La France insoumise, après une action de militants insoumis et propalestiniens.",
+          "pubDate": "2026-07-23T10:53:31.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"C'est important de porter plainte pour laisser la justice voir qui est responsable et rétablir la vérité\", déclare la DJ Barbara Butch",
-          "link": "https://www.franceinfo.fr/culture/musique/electro/c-est-important-de-porter-plainte-pour-laisser-la-justice-voir-qui-est-responsable-et-retablir-la-verite-declare-la-dj-barbara-butch_8118848.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'un de ses concerts a été interrompu il y a cinq jours par des militants propalestiniens et Insoumis qui lui reprochent notamment son soutien à la proposition de loi Yadan…",
-          "pubDate": "2026-07-23T09:05:10.000Z",
+          "title": "Un automobiliste de 18 ans mis en examen à Marseille pour tentative de meurtre sur un policier après un refus d'obtempérer",
+          "link": "https://www.franceinfo.fr/marseille/un-automobiliste-de-18-ans-mis-en-examen-a-marseille-pour-tentative-de-meurtre-sur-un-policier-apres-un-refus-d-obtemperer_8119166.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le jeune homme, déjà connu des services de police, a été placé en détention provisoire. Ses trois passagers sont mis en examen pour \"complicité de refus d'obtempérer aggravé,…",
+          "pubDate": "2026-07-23T10:42:23.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Affaire Epstein : l'association Innocence en danger assigne l'État français pour \"déni de justice\" après la mort de l'homme suspecté d'être le rabatteur du pédocriminel",
+          "link": "https://www.franceinfo.fr/monde/usa/affaire-jeffrey-epstein/affaire-epstein-l-association-innocence-en-danger-assigne-l-etat-francais-pour-deni-de-justice-apres-la-mort-du-rabatteur-presume-du-pedocriminel_8119124.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Daniel Siad, visé par plusieurs plaintes dont deux pour viols, n'a jamais été entendu par la justice alors que les premiers signalements remontent à l'été 2019.",
+          "pubDate": "2026-07-23T10:34:05.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Concert interrompu de Barbara Butch : l'artiste dépose plusieurs plaintes",
+          "link": "https://www.franceinfo.fr/societe/concert-interrompu-de-barbara-butch-l-artiste-depose-plusieurs-plaintes_8119079.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La DJ Barbara Butch va déposer plusieurs plaintes, notamment contre La France insoumise, après l'interruption de son concert, samedi 18 juillet, à Grenoble. Elle l'annonce ce…",
+          "pubDate": "2026-07-23T10:19:09.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "\"Polyvalent, très moderne\": à quoi peut servir l'avion militaire A400M dans la lutte contre les incendies?",
+          "link": "https://www.bfmtv.com/societe/video-polyvalent-tres-moderne-a-quoi-peut-servir-l-avion-militaire-a400m-dans-la-lutte-contre-les-incendies_VN-202607230346.html",
+          "summary": "Le ministère des Armées réagit, ce jeudi 23 juillet, au déploiement de l’Airbus A400M par le gouvernement, dans les prochains jours, pour intervenir sur les nombreux incendies en…",
+          "pubDate": "2026-07-23T10:11:04.000Z",
+          "source": "BFMTV"
+        }
+      ]
+    },
+    {
+      "key": "justice",
+      "label": "Justice & faits divers",
+      "items": [
+        {
+          "title": "Affaire Epstein: une association dénonce la \"lenteur\" de la justice et dit vouloir poursuivre l'État après la mort de Daniel Siad",
+          "link": "https://www.bfmtv.com/police-justice/affaire-epstein-une-association-denonce-la-lenteur-de-la-justice-et-dit-vouloir-poursuivre-l-etat-apres-la-mort-de-daniel-siad_AD-202607230442.html",
+          "summary": "L'association Innocence en danger a déclaré ce jeudi 23 juillet son intention de poursuivre l'État pour \"déni de justice\" après la mort de Daniel Siad, qui était soupçonné d'être…",
+          "pubDate": "2026-07-23T13:42:14.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Adolescent tué à Crépol, dans la Drôme",
+          "link": "https://www.bfmtv.com/police-justice/rixe-a-crepol-dans-la-drome-mort-de-thomas-un-adolescent-de-16-ans_DN-202311210702.html",
+          "summary": "Thomas, un lycéen de 16 ans, est mort le samedi 18 novembre 2023 à Crépol (Drôme), après une \"rixe\" sanglante lors d’une fête communale. Selon les éléments communiqués par le…",
+          "pubDate": "2026-07-23T13:27:56.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Meurtre de Thomas à Crépol: existe-t-il des précédents de poursuites pour racisme contre \"la race blanche\"?",
+          "link": "https://www.bfmtv.com/police-justice/meurtre-de-thomas-a-crepol-existe-t-il-des-precedents-de-poursuites-pour-racisme-contre-la-race-blanche_AN-202607230430.html",
+          "summary": "Seules quelques affaires, intégrant l'idée d'un \"racisme anti-blanc\", ont été jugées en France. Elles remontent principalement aux années 2010.",
+          "pubDate": "2026-07-23T13:27:55.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Bassin d'Arcachon : une nouvelle nuit d'angoisse pour les habitants et les vacanciers contraints de fuir",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/bassin-d-arcachon-une-nouvelle-nuit-d-angoisse-pour-les-habitants-et-les-vacanciers-contraints-de-fuir_8119208.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Une nouvelle nuit d'évacuation a eu lieu en Gironde, où plus de 12 000 habitants et touristes ont déjà dû quitter leur logement ou leur lieu de vacances. Accueillis dans des…",
+          "pubDate": "2026-07-23T12:29:18.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Gironde : proche de l'incendie, un camping du Cap-Ferret prêt à être évacué",
+          "link": "https://www.franceinfo.fr/faits-divers/incendies-en-gironde/gironde-proche-de-l-incendie-un-camping-du-cap-ferret-pret-a-etre-evacue_8119238.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "À quelques kilomètres de l'incendie qui progresse en Gironde, un camping de la presqu'île du Cap-Ferret se tient prêt à évacuer. Vacanciers, responsables de colonie et personnel…",
+          "pubDate": "2026-07-23T12:28:30.000Z",
           "source": "franceinfo"
         }
       ]
@@ -204,185 +244,47 @@
           "summary": "BFM BUSINESS PARTENAIRE - Ce jeudi 23 juillet, Mohsen Ayadi, co-fondateur de Harke, a abordé les divers services offerts par cet expert de la construction dans le domaine de la…",
           "pubDate": "2026-07-23T13:21:11.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "BCE: \"Certains gouverneurs\" ont envisagé une hausse des taux, précise Christine Lagarde",
-          "link": "https://www.bfmtv.com/economie/video-bce-certains-gouverneurs-ont-envisage-une-hausse-des-taux-precise-christine-lagarde_VN-202607230427.html",
-          "summary": "La présidente de la BCE Christine Lagarde s'exprime lors d'une conférence à Francfort, jeudi 22 juillet.",
-          "pubDate": "2026-07-23T13:18:48.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "\"L'incertitude reste élevée\" : la BCE temporise et laisse ses taux directeurs inchangés",
-          "link": "https://www.bfmtv.com/economie/video-l-incertitude-reste-elevee-la-bce-temporise-et-laisse-ses-taux-directeurs-inchanges_VN-202607230423.html",
-          "summary": "La présidente de la BCE Christine Lagarde s'exprime lors d'une conférence à Francfort, jeudi 22 juillet.",
-          "pubDate": "2026-07-23T13:11:40.000Z",
-          "source": "BFMTV"
         }
       ]
     },
     {
-      "key": "sport",
-      "label": "Sport",
+      "key": "emploi",
+      "label": "Emploi & conso",
       "items": [
         {
-          "title": "DIRECT. Tour de France 2026 : le peloton accorde un bon de sortie à l'échappée, Valentin Paret-Peintre lancé dans la chasse au maillot à pois... Suivez l'étape Voiron-Orcières-Merlette avec nous",
-          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-la-derniere-chance-pour-une-victoire-francaise-suivez-la-redoutable-etape-alpine-entre-voiron-et-orcieres-merlette-avec-nous_8118881.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le premier volet de la trilogie alpine du Tour constitue la dernière occasion pour un baroudeur de s'imposer. Mais il devra s'agir d'un coureur particulièrement costaud vu les 3…",
-          "pubDate": "2026-07-23T13:29:31.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Tour de France 2026 : Un accident est évité de peu, la direction recadre les spectateurs propriétaires de chiens",
-          "link": "https://www.20minutes.fr/arts-stars/insolite/4235968-20260723-tour-france-2026-accident-evite-peu-direction-recadre-spectateurs-proprietaires-chiens?at_medium=display&amp;at_campaign=149",
-          "summary": "Un chien qui n’était pas attaché a traversé la route devant un cycliste lors de l’étape du Tour de France entre Évian-les-Bains et Thonon-les-Bains (Haute-Savoie) ce mardi,…",
-          "pubDate": "2026-07-23T12:26:33.000Z",
+          "title": "L’UE valide sous conditions le méga rachat de Warner par Paramount",
+          "link": "https://www.20minutes.fr/arts-stars/medias/4235990-20260723-ue-valide-sous-conditions-mega-rachat-warner-paramount?at_medium=display&amp;at_campaign=149",
+          "summary": "Bruxelles a donné son feu vert à l’acquisition de Warner Bros Discovery par Paramount Skydance, mais sous conditions. Une étape clé pour une opération à 110 milliards de dollars,…",
+          "pubDate": "2026-07-23T13:21:18.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "Coupe du monde 2026 : « Ne pas avoir peur… » La Norvège va porter plainte auprès de la FIFA pour l’affaire Balogun",
-          "link": "https://www.20minutes.fr/sport/football/4235972-20260723-coupe-monde-2026-avoir-peur-norvege-va-porter-plainte-aupres-fifa-affaire-balogun?at_medium=display&amp;at_campaign=149",
-          "summary": "La fédération norvégienne souhaite des explications au sujet de l’intervention de Donald Trump dans le dossier Folarin Balogun pendant la Coupe du monde",
-          "pubDate": "2026-07-23T11:59:41.000Z",
+          "title": "Perrier, Vittel, San Pellegrino… Après le scandale des eaux, Nestlé va partager une partie de ses marques",
+          "link": "https://www.20minutes.fr/economie/4235971-20260723-perrier-vittel-san-pellegrino-apres-scandale-eaux-nestle-va-partager-partie-marques?at_medium=display&amp;at_campaign=149",
+          "summary": "Nestlé Waters s’associe au fonds américain Platinum Equity et va changer de nom pour Peranel, deux ans et demi après le scandale des traitements interdits appliqués à ses eaux…",
+          "pubDate": "2026-07-23T12:27:39.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "\"Quand on contourne une règle, on s'engage sur une pente glissante\" : la fédération norvégienne va porter plainte auprès de la Fifa après l'intervention de Trump dans l'affaire Balogun",
-          "link": "https://www.franceinfo.fr/coupe-du-monde/la-federation-norvegienne-annonce-porter-plainte-aupres-du-comite-d-ethique-de-la-fifa-concernant-l-intervention-de-donald-trump-dans-l-affaire-folarin-balogun_8118965.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le joueur américain avait écopé d'un carton rouge avant de voir lever sa suspension par la Fifa après l'intervention du président américain, lui permettant ainsi de jouer le…",
-          "pubDate": "2026-07-23T11:10:07.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "EN DIRECT Tour de France 2026 : Paret-Peintre fait le plein pour le maillot à pois... Grégoire dans le bon coup... Suivez la 18e étape avec nous…",
-          "link": "https://www.20minutes.fr/sport/cyclisme/tour-de-france/4235941-20260723-direct-tour-france-2026-grosse-journee-maillot-pois-paret-peintre-doit-briller-suivez-18e-etape?at_medium=display&amp;at_campaign=149",
-          "summary": "Suivez en direct avec nous la 18e étape du Tour de France 2026, qui s’achèvera en haut d’une montée de 1ère catégorie à Orcières-Merlette",
-          "pubDate": "2026-07-23T10:57:37.000Z",
+          "title": "EasyJet : Convoitée par des fonds américains, la compagnie affiche des performances en nette baisse",
+          "link": "https://www.20minutes.fr/economie/4235969-20260723-easyjet-convoitee-fonds-americains-compagnie-affiche-performances-nette-baisse?at_medium=display&amp;at_campaign=149",
+          "summary": "La hausse des prix des carburants, conséquence de la guerre au Moyen-Orient, pénalise la compagnie aérienne low cost",
+          "pubDate": "2026-07-23T11:48:04.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "REPORTAGE. \"C'est une fierté\" : Paul Seixas, le prodige du cyclisme français fait vibrer les clubs de son enfance",
-          "link": "https://www.franceinfo.fr/sports/cyclisme/paul-seixas/reportage-c-est-une-fierte-paul-seixas-le-prodige-du-cyclisme-francais-fait-vibrer-les-clubs-de-son-enfance_8118851.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le champion de 19 ans suscite l'admiration de nombreux spectateurs du Tour de France, à commencer par ceux qui l'ont vu débuter dans le milieu du cyclisme. La \"Seixasmania\"…",
-          "pubDate": "2026-07-23T10:54:20.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "« NBA 2K27 » : Wembanyama a droit à sa jaquette tout seul, comme « les meilleurs de tous les temps »",
-          "link": "https://www.20minutes.fr/sport/basketball/4235940-20260723-nba-2k27-wembanyama-droit-jaquette-tout-seul-comme-meilleurs-tous-temps?at_medium=display&amp;at_campaign=149",
-          "summary": "Les éditeurs du jeu vidéo culte de basketball « NBA 2K27 » ont tranché : c’est le Français Victor Wembanyama qui figurera sur la jaquette de l’édition standard du titre, un…",
-          "pubDate": "2026-07-23T10:21:39.000Z",
-          "source": "20 Minutes"
-        }
-      ]
-    },
-    {
-      "key": "culture",
-      "label": "Culture & ciné",
-      "items": [
-        {
-          "title": "Ce que disent (enfin) les chanteuses : l’intolérance et la haine selon Souad Massi",
-          "link": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/ce-que-disent-enfin-les-chanteuses-l-intolerance-et-la-haine-selon-souad-massi_8064557.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Pendant tous les week-ends de cet été, nous écoutons dans cette chronique des chansons qui s’inspirent de l’actualité et de l’air du temps de ces quelques dernières années –…",
-          "pubDate": "2026-07-23T13:30:01.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Après avoir attaqué le film de Christopher Nolan, Elon Musk veut produire sa propre version de \"L'Odyssée\" avec l'IA",
-          "link": "https://www.franceinfo.fr/replay-radio/bientot-chez-vous/apres-avoir-attaque-le-film-de-christopher-nolan-elon-musk-veut-produire-sa-propre-version-de-l-odyssee-avec-l-ia_8090762.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Alors que le film L'Odyssée réalisé par Christopher Nolan fait un carton en salles partout dans le monde, Elon Musk a annoncé la sortie prochaine d'une version IA, plus fidèle…",
-          "pubDate": "2026-07-23T13:30:01.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Le premier sommet international consacré à l'avenir du cinéma et de l'image animée se tiendra en septembre",
-          "link": "https://www.franceinfo.fr/culture/cinema/le-premier-sommet-international-consacre-a-l-avenir-du-cinema-et-de-l-image-animee-se-tiendra-en-septembre_8119289.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le sommet, coprésidé par Emmanuel Macron et son homologue sud-coréen Lee Jae Myung, réunira 150 invités dont les principaux dirigeants des majors américaines, salles de cinéma,…",
-          "pubDate": "2026-07-23T13:29:33.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "A Paris, la place Maurice-Barrès, fervent antisémite, rebaptisée Lucie-Dreyfus",
-          "link": "https://www.franceinfo.fr/culture/a-paris-la-place-maurice-barres-fervent-antisemite-rebaptisee-lucie-dreyfus_8119160.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Cette année ont été célébrés les 120 ans de la décision de la Cour de cassation de réhabiliter le capitaine Alfred Dreyfus et de reconnaître pleinement son innocence, après sa…",
-          "pubDate": "2026-07-23T13:25:55.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Une nouvelle série dérivée de « The Big Bang Theory » arrive sur Canal+",
-          "link": "https://www.20minutes.fr/arts-stars/serie/4235939-20260723-nouvelle-serie-derivee-the-big-bang-theory-arrive-canal?at_medium=display&amp;at_campaign=149",
-          "summary": "Le premier épisode de « Stuart Fails To Save The Universe » sera disponible vendredi en France",
-          "pubDate": "2026-07-23T11:49:06.000Z",
+          "title": "Mauvaise nouvelle pour la dette publique, le taux d’emprunt de la France au plus haut depuis 2009",
+          "link": "https://www.20minutes.fr/economie/4235947-20260723-mauvaise-nouvelle-dette-publique-taux-emprunt-france-plus-haut-depuis-2009?at_medium=display&amp;at_campaign=149",
+          "summary": "Ce jeudi matin, les taux auxquels la France emprunte sur dix ans ont dépassé le seuil de 4 % pour la première fois depuis juin 2009",
+          "pubDate": "2026-07-23T10:31:43.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "Ecrivain antisémite et nationaliste… Paris débaptise la place Maurice-Barrès, le débat gagne la Lorraine",
-          "link": "https://www.20minutes.fr/arts-stars/culture/4235957-20260723-ecrivain-antisemite-nationaliste-paris-debaptise-place-maurice-barres-debat-gagne-lorraine?at_medium=display&amp;at_campaign=149",
-          "summary": "Paris souhaite débaptiser la place Maurice-Barrès au profit de Lucie Dreyfus. En Lorraine, où l’écrivain antisémite est né, on préfère se souvenir d’un « auteur de talent »",
-          "pubDate": "2026-07-23T11:30:45.000Z",
+          "title": "Prix des carburants : La date limite de demande d’aide pour les gros rouleurs finalement reportée à fin août",
+          "link": "https://www.20minutes.fr/economie/4235934-20260723-prix-carburants-date-limite-demande-aide-gros-rouleurs-finalement-reportee-fin-aout?at_medium=display&amp;at_campaign=149",
+          "summary": "Le délai pour demander l’aide aux carburants de 100 euros destinée aux gros rouleurs est prolongé jusqu’à fin août au lieu de fin juillet, a annoncé ce jeudi la ministre de…",
+          "pubDate": "2026-07-23T10:16:23.000Z",
           "source": "20 Minutes"
-        },
-        {
-          "title": "La Licra annonce déposer plainte après le concert interrompu de Barbara Butch à Grenoble",
-          "link": "https://www.franceinfo.fr/culture/musique/la-licra-annonce-deposer-plainte-apres-le-concert-interrompu-de-barbara-butch-a-grenoble_8119133.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "La DJ a elle aussi annoncé jeudi une série de plaintes, notamment contre La France insoumise, après une action de militants insoumis et propalestiniens.",
-          "pubDate": "2026-07-23T10:53:31.000Z",
-          "source": "franceinfo"
-        }
-      ]
-    },
-    {
-      "key": "sciences",
-      "label": "Sciences",
-      "items": [
-        {
-          "title": "Comment profiter des Perséides, les superbes étoiles filantes du ciel de l’été ?",
-          "link": "https://www.numerama.com/sciences/642009-comment-profiter-des-perseides-les-superbes-etoiles-filantes-du-ciel-de-lete.html",
-          "summary": "Comme chaque été, les Perséides sont de retour dans le ciel. Depuis la mi-juillet 2026, cette pluie d'étoiles filantes est active. Mais beaucoup attendent son maximum d'activité…",
-          "pubDate": "2026-07-23T12:45:46.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "L’armée française s’équipe de son propre télescope pour surveiller l’espace",
-          "link": "https://www.numerama.com/sciences/2300031-larmee-francaise-sequipe-de-son-propre-telescope-pour-surveiller-lespace.html",
-          "summary": "Le télescope Providence, construit par le français Onera, aura pour but de surveiller les satellites en orbite basse pour le compte de l'armée. Mais aura également une dimension…",
-          "pubDate": "2026-07-23T11:35:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Tout ce que la fusée géante Starship tentera minute par minute pour son 13ᵉ vol d’essai",
-          "link": "https://www.numerama.com/sciences/2300091-voila-ce-que-la-fusee-geante-starship-tentera-minute-par-minute-pour-son-13%e1%b5%89-vol-dessai.html",
-          "summary": "SpaceX va globalement reproduire le 12ᵉ vol du Starship avec son essai prévu dans la nuit du 23 au 24 juillet, avec l'espoir de corriger tout ce qui n'a pas bien marché.",
-          "pubDate": "2026-07-23T10:32:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "La fusée géante Starship va s’envoler pour la treizième fois, suivez l’événement en direct",
-          "link": "https://www.numerama.com/sciences/2295321-starship-vol-13-date-heure-et-comment-suivre-le-lancement-en-direct.html",
-          "summary": "Le treizième vol suborbital de la fusée Starship de SpaceX devrait avoir lieu dans la nuit du 23 au 24 juillet 2026, après avoir été repoussé une première fois. Il s'agira de…",
-          "pubDate": "2026-07-23T07:10:37.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "APPEL A TEMOIGNAGES. Vous prévoyez d'aller voir l'éclipse solaire le 12 août ? Racontez-nous comment vous vous êtes organisé",
-          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/appel-a-temoignages-vous-prevoyez-d-aller-voir-l-eclipse-solaire-le-12-aout-racontez-nous-comment-vous-vous-etes-organise_8117948.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'événement céleste le plus important de l'année va attirer de nombreux curieux, notamment dans le nord de l'Espagne ou en Islande, zones où le Soleil sera totalement éclipsé par…",
-          "pubDate": "2026-07-22T14:48:09.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Il découvre un cratère de météorite vieux de 390 millions d'années... sur Google Maps",
-          "link": "https://www.franceinfo.fr/sciences/espace/il-decouvre-un-cratere-de-meteorite-vieux-de-390-millions-d-annees-sur-google-maps_8117609.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Préparant ses vacances dans cette région du Québec, Joël Lapointe s'est rapidement aperçu d'une anomalie géographique. Dépêchés sur place, des chercheurs ont pu valider sa…",
-          "pubDate": "2026-07-22T12:25:48.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Juste avant sa retraite, ce booster de SpaceX fournit un élixir de jeunesse à de vieux satellites",
-          "link": "https://www.numerama.com/sciences/2299359-juste-avant-sa-retraite-ce-booster-de-spacex-fournit-un-elixir-de-jeunesse-a-de-vieux-satellites.html",
-          "summary": "Lors de son 32e et dernier vol, un booster de Falcon 9 (SpaceX) a mis en orbite un vaisseau qui doit aller à la rencontre de plusieurs satellites pour prolonger leur vie. Une…",
-          "pubDate": "2026-07-22T11:10:00.000Z",
-          "source": "Numerama"
         }
       ]
     },
@@ -424,82 +326,102 @@
           "summary": "Huiles d’olive, herbes de Provence… les produits régionaux sont régulièrement contrôlés par la répression des fraudes. Certains labels et appellations peuvent cacher des origines…",
           "pubDate": "2026-07-23T09:12:20.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Franchises médicales : Le plafond du reste à charge pour les consultations et médicaments va doubler",
-          "link": "https://www.20minutes.fr/sante/4235901-20260723-franchises-medicales-plafond-reste-charge-consultations-medicaments-va-doubler?at_medium=display&amp;at_campaign=149",
-          "summary": "La ministre de la Santé, Stéphanie Rist, a annoncé ce jeudi le futur doublement du plafond annuel des franchises médicales, qui passe de 100 à 200 euros",
-          "pubDate": "2026-07-23T08:48:51.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Canicule de juin : jamais depuis 2003 la France n’avait enregistré autant de décès liés à la chaleur",
-          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/canicule-de-juin-jamais-depuis-2003-la-france-n-avait-enregistre-autant-de-deces-lies-a-la-chaleur_8118941.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Avec 5 764 décès supplémentaires enregistrés en juin, la canicule a provoqué une surmortalité de 36 % en France. Un bilan inédit depuis 2003, avec une hausse particulièrement…",
-          "pubDate": "2026-07-23T08:47:38.000Z",
-          "source": "franceinfo"
         }
       ]
     },
     {
-      "key": "societe",
-      "label": "Société",
+      "key": "sciences",
+      "label": "Sciences",
       "items": [
         {
-          "title": "La Licra annonce déposer plainte après le concert interrompu de Barbara Butch à Grenoble",
-          "link": "https://www.franceinfo.fr/culture/musique/la-licra-annonce-deposer-plainte-apres-le-concert-interrompu-de-barbara-butch-a-grenoble_8119133.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "La DJ a elle aussi annoncé jeudi une série de plaintes, notamment contre La France insoumise, après une action de militants insoumis et propalestiniens.",
-          "pubDate": "2026-07-23T10:53:31.000Z",
-          "source": "franceinfo"
+          "title": "Comment profiter des Perséides, les superbes étoiles filantes du ciel de l’été ?",
+          "link": "https://www.numerama.com/sciences/642009-comment-profiter-des-perseides-les-superbes-etoiles-filantes-du-ciel-de-lete.html",
+          "summary": "Comme chaque été, les Perséides sont de retour dans le ciel. Depuis la mi-juillet 2026, cette pluie d'étoiles filantes est active. Mais beaucoup attendent son maximum d'activité…",
+          "pubDate": "2026-07-23T12:45:46.000Z",
+          "source": "Numerama"
         },
         {
-          "title": "Un automobiliste de 18 ans mis en examen à Marseille pour tentative de meurtre sur un policier après un refus d'obtempérer",
-          "link": "https://www.franceinfo.fr/marseille/un-automobiliste-de-18-ans-mis-en-examen-a-marseille-pour-tentative-de-meurtre-sur-un-policier-apres-un-refus-d-obtemperer_8119166.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le jeune homme, déjà connu des services de police, a été placé en détention provisoire. Ses trois passagers sont mis en examen pour \"complicité de refus d'obtempérer aggravé,…",
-          "pubDate": "2026-07-23T10:42:23.000Z",
-          "source": "franceinfo"
+          "title": "L’armée française s’équipe de son propre télescope pour surveiller l’espace",
+          "link": "https://www.numerama.com/sciences/2300031-larmee-francaise-sequipe-de-son-propre-telescope-pour-surveiller-lespace.html",
+          "summary": "Le télescope Providence, construit par le français Onera, aura pour but de surveiller les satellites en orbite basse pour le compte de l'armée. Mais aura également une dimension…",
+          "pubDate": "2026-07-23T11:35:00.000Z",
+          "source": "Numerama"
         },
         {
-          "title": "Affaire Epstein : l'association Innocence en danger assigne l'État français pour \"déni de justice\" après la mort de l'homme suspecté d'être le rabatteur du pédocriminel",
-          "link": "https://www.franceinfo.fr/monde/usa/affaire-jeffrey-epstein/affaire-epstein-l-association-innocence-en-danger-assigne-l-etat-francais-pour-deni-de-justice-apres-la-mort-du-rabatteur-presume-du-pedocriminel_8119124.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Daniel Siad, visé par plusieurs plaintes dont deux pour viols, n'a jamais été entendu par la justice alors que les premiers signalements remontent à l'été 2019.",
-          "pubDate": "2026-07-23T10:34:05.000Z",
-          "source": "franceinfo"
+          "title": "Tout ce que la fusée géante Starship tentera minute par minute pour son 13ᵉ vol d’essai",
+          "link": "https://www.numerama.com/sciences/2300091-voila-ce-que-la-fusee-geante-starship-tentera-minute-par-minute-pour-son-13%e1%b5%89-vol-dessai.html",
+          "summary": "SpaceX va globalement reproduire le 12ᵉ vol du Starship avec son essai prévu dans la nuit du 23 au 24 juillet, avec l'espoir de corriger tout ce qui n'a pas bien marché.",
+          "pubDate": "2026-07-23T10:32:00.000Z",
+          "source": "Numerama"
         },
         {
-          "title": "Concert interrompu de Barbara Butch : l'artiste dépose plusieurs plaintes",
-          "link": "https://www.franceinfo.fr/societe/concert-interrompu-de-barbara-butch-l-artiste-depose-plusieurs-plaintes_8119079.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "La DJ Barbara Butch va déposer plusieurs plaintes, notamment contre La France insoumise, après l'interruption de son concert, samedi 18 juillet, à Grenoble. Elle l'annonce ce…",
-          "pubDate": "2026-07-23T10:19:09.000Z",
-          "source": "franceinfo"
+          "title": "La fusée géante Starship va s’envoler pour la treizième fois, suivez l’événement en direct",
+          "link": "https://www.numerama.com/sciences/2295321-starship-vol-13-date-heure-et-comment-suivre-le-lancement-en-direct.html",
+          "summary": "Le treizième vol suborbital de la fusée Starship de SpaceX devrait avoir lieu dans la nuit du 23 au 24 juillet 2026, après avoir été repoussé une première fois. Il s'agira de…",
+          "pubDate": "2026-07-23T07:10:37.000Z",
+          "source": "Numerama"
         },
         {
-          "title": "\"Polyvalent, très moderne\": à quoi peut servir l'avion militaire A400M dans la lutte contre les incendies?",
-          "link": "https://www.bfmtv.com/societe/video-polyvalent-tres-moderne-a-quoi-peut-servir-l-avion-militaire-a400m-dans-la-lutte-contre-les-incendies_VN-202607230346.html",
-          "summary": "Le ministère des Armées réagit, ce jeudi 23 juillet, au déploiement de l’Airbus A400M par le gouvernement, dans les prochains jours, pour intervenir sur les nombreux incendies en…",
-          "pubDate": "2026-07-23T10:11:04.000Z",
-          "source": "BFMTV"
+          "title": "Après les exoplanètes, la chasse aux « exolunes » est lancée",
+          "link": "https://www.lemonde.fr/sciences/article/2026/07/22/apres-les-exoplanetes-la-chasse-aux-exolunes-est-lancee_6730047_1650684.html",
+          "summary": "Un objet tournant autour d’une naine brune, elle-même en orbite autour d’une étoile deux fois plus petite que notre Soleil, a été identifié par une équipe internationale. Des…",
+          "pubDate": "2026-07-22T15:00:08.000Z",
+          "source": "Le Monde"
+        }
+      ]
+    },
+    {
+      "key": "environnement",
+      "label": "Environnement",
+      "items": [
+        {
+          "title": "Au Brésil, la politique de prévention des incendies du président Lula porte ses fruits",
+          "link": "https://www.lemonde.fr/planete/article/2026/07/23/au-bresil-la-politique-de-prevention-des-incendies-du-president-lula-porte-ses-fruits_6730782_3244.html",
+          "summary": "Le pays sud-américain a enregistré en 2025 une forte baisse des surfaces brûlées, de l’ordre d’un tiers par rapport à l’année précédente. L’effet probable d’un renforcement de la…",
+          "pubDate": "2026-07-23T13:00:06.000Z",
+          "source": "Le Monde"
         },
         {
-          "title": "\"C'est important de porter plainte pour laisser la justice voir qui est responsable et rétablir la vérité\", déclare la DJ Barbara Butch",
-          "link": "https://www.franceinfo.fr/culture/musique/electro/c-est-important-de-porter-plainte-pour-laisser-la-justice-voir-qui-est-responsable-et-retablir-la-verite-declare-la-dj-barbara-butch_8118848.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'un de ses concerts a été interrompu il y a cinq jours par des militants propalestiniens et Insoumis qui lui reprochent notamment son soutien à la proposition de loi Yadan…",
-          "pubDate": "2026-07-23T09:05:10.000Z",
-          "source": "franceinfo"
+          "title": "Marineland : huit dauphins transférés en Espagne",
+          "link": "https://www.lemonde.fr/international/video/2026/07/23/marineland-huit-dauphins-transferes-en-espagne_6730781_3210.html",
+          "summary": "Selon les associations, les dauphins ont été chargés dans des camions pour se rendre à l’aéroport de Nice, tout proche de Marineland, et s’envoler pour Malaga. A l’avenir, ces…",
+          "pubDate": "2026-07-23T12:59:07.000Z",
+          "source": "Le Monde"
         },
         {
-          "title": "\"Un contrat et une somme d'argent ont été placés sur ma tête\", explique Amine Kessaci au sujet de sa mise sous protection policière",
-          "link": "https://www.franceinfo.fr/societe/drogue/il-y-a-aujourd-hui-des-realites-des-faits-un-contrat-et-une-somme-d-argent-ont-ete-places-sur-ma-tete-il-n-y-a-donc-pas-de-sentiment-de-ma-part-simplement-des-faits-de-police-confie-amine-kessaci-au-sujet-de-sa-mise-sous-protection-policiere_8118887.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Invités de La Matinale de franceinfo, Amine Kessaci, adjoint au maire de Marseille et militant contre le narcotrafic, ainsi que Bernard Petit, ancien chef de la police judiciaire…",
-          "pubDate": "2026-07-23T08:17:48.000Z",
-          "source": "franceinfo"
+          "title": "EN DIRECT, incendies : le feu en Gironde a brûlé plus de 3 000 hectares au nord du bassin d’Arcachon et se situe à quelques centaines de mètres d’habitations",
+          "link": "https://www.lemonde.fr/planete/live/2026/07/23/en-direct-incendies-le-feu-en-gironde-a-brule-plus-de-3-000-hectares-au-nord-du-bassin-d-arcachon-et-se-situe-a-quelques-centaines-de-metres-d-habitations_6730417_3244.html",
+          "summary": "Un incendie d’origine probablement accidentelle a parcouru 3 100 hectares au nord du bassin d’Arcachon, selon un bilan actualisé à 14 heures par les pompiers, alors que près de 20…",
+          "pubDate": "2026-07-23T12:55:36.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Ce n’est pas la volonté de Monique Barbut qu’il faudra scruter dans les prochaines semaines, mais bien celle des deux têtes de l’exécutif »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/23/ce-n-est-pas-la-volonte-de-monique-barbut-qu-il-faudra-scruter-dans-les-prochaines-semaines-mais-bien-celle-des-deux-tetes-de-l-executif_6730713_3232.html",
+          "summary": "Annoncée démissionnaire, la ministre de la transition écologique reste finalement au gouvernement. Le sommet de l’Etat doit maintenant lui permettre de lutter contre le recul de…",
+          "pubDate": "2026-07-23T12:15:06.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "La canicule qui a duré du 4 au 19 juillet a été la troisième la plus longue jamais mesurée en France",
+          "link": "https://www.lemonde.fr/planete/article/2026/07/23/canicule-la-france-a-connu-sa-troisieme-vague-de-chaleur-la-plus-longue-jamais-mesuree_6730670_3244.html",
+          "summary": "Le troisième épisode caniculaire de l’année 2026, en l’espace de moins de deux mois, a duré du 4 au 19 juillet.",
+          "pubDate": "2026-07-23T09:59:10.000Z",
+          "source": "Le Monde"
         }
       ]
     },
     {
       "key": "tech",
-      "label": "Tech & insolite",
+      "label": "Tech & numérique",
       "items": [
+        {
+          "title": "Le réseau social « libertin » Wyylde visé par une enquête du parquet de Paris",
+          "link": "https://www.lemonde.fr/pixels/article/2026/07/23/le-reseau-social-libertin-wyylde-vise-par-une-enquete-du-parquet-de-paris_6730848_4408996.html",
+          "summary": "Dans une série d’articles en juillet, « Le Monde » détaillait la place centrale de ce site au sein de l’affaire des viols « libertins » de Gironde, dans laquelle 19 hommes sont…",
+          "pubDate": "2026-07-23T13:45:11.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "Après Stellantis, Ford s’allie aussi à un constructeur chinois et lui confie une partie de son usine espagnole",
           "link": "https://www.numerama.com/vroom/2300281-apres-stellantis-ford-sallie-aussi-a-un-constructeur-chinois-et-lui-confie-une-partie-de-son-usine-espagnole.html",
@@ -527,27 +449,416 @@
           "summary": "Le géant des réseaux sociaux travaille sur une application qui pourra inventer des histoires pour de jeunes enfants. L'IA générative sera bien évidemment de la partie, et les…",
           "pubDate": "2026-07-23T12:55:26.000Z",
           "source": "BFMTV"
-        },
+        }
+      ]
+    },
+    {
+      "key": "jeuxvideo",
+      "label": "Jeux vidéo",
+      "items": [
         {
-          "title": "Vous pouvez désormais vous connecter à votre compte Google avec un selfie vidéo",
-          "link": "https://www.01net.com/actualites/vous-pouvez-desormais-vous-connecter-a-votre-compte-google-avec-un-selfie-video.html",
-          "summary": "Google propose un nouveau moyen de vous authentifier pour vous connecter. Vous pouvez désormais configurer un selfie vidéo à la place d’un mot de passe ou d’une clé d’accès pour…",
-          "pubDate": "2026-07-23T12:46:53.000Z",
-          "source": "01net"
-        },
-        {
-          "title": "Comment profiter des Perséides, les superbes étoiles filantes du ciel de l’été ?",
-          "link": "https://www.numerama.com/sciences/642009-comment-profiter-des-perseides-les-superbes-etoiles-filantes-du-ciel-de-lete.html",
-          "summary": "Comme chaque été, les Perséides sont de retour dans le ciel. Depuis la mi-juillet 2026, cette pluie d'étoiles filantes est active. Mais beaucoup attendent son maximum d'activité…",
-          "pubDate": "2026-07-23T12:45:46.000Z",
+          "title": "Kevin Feige confirme l’arrivée de Miles Morales en prise de vues réelles dans le MCU",
+          "link": "https://www.numerama.com/pop-culture/2300215-kevin-feige-confirme-larrivee-de-miles-morales-en-prise-de-vues-reelles-dans-le-mcu.html",
+          "summary": "Les rumeurs tournaient en boucle depuis des années, mais cette fois, la confirmation vient directement du sommet. Kevin Feige a tranché sur l'avenir de Miles Morales :…",
+          "pubDate": "2026-07-23T11:02:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Une batterie externe MageSafe pour iPhone à moins de 30 euros grâce à cette remise folle de -42%",
-          "link": "https://www.01net.com/bons-plans/une-batterie-externe-magesafe-pour-iphone-a-moins-de-30-euros-grace-a-cette-remise-folle-de-42.html",
-          "summary": "La batterie externe MagSafe pour iPhone est à prix sacrifié grâce à une vente flash et cette remise de -42% sur le site de Joybuy.",
-          "pubDate": "2026-07-23T12:25:59.000Z",
-          "source": "01net"
+          "title": "Ça devient un jeu de riche ! Ce jeu de course était presque parfait, mais sa mise à jour 1.4 pourrait tout gâcher",
+          "link": "https://www.jeuxvideo.com/news/2095222/ca-devient-un-jeu-de-riche-ce-jeu-de-course-etait-presque-parfait-mais-sa-mise-a-jour-1-4-pourrait-tout-gacher.htm",
+          "summary": "Payer pour effacer ses propres erreurs de pilotage, il fallait oser. La mise à jour 1.4 de Le Mans Ultimate réserve aux abonnés une carte qui gomme les mauvaises courses, et…",
+          "pubDate": "2026-07-23T10:50:12.000Z",
+          "source": "Jeuxvideo.com"
+        },
+        {
+          "title": "Les meilleurs jeux narratifs de SF de la décennie arrivent sur PS5 en précommande",
+          "link": "https://www.numerama.com/pop-culture/2300121-les-meilleurs-jeux-narratifs-de-sf-de-la-decennie-arrivent-sur-ps5-en-precommande.html",
+          "summary": "[Précommande] Vous aimez les jeux narratifs et la science-fiction et vous n'avez toujours pas fait Citizen Sleeper ? Mais allez donc précommander les deux épisodes sur PS5 nom…",
+          "pubDate": "2026-07-23T09:58:27.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Camoufilage avec Zorua Pokémon Pokopia : Comment finir cet événement ?",
+          "link": "https://www.jeuxvideo.com/news/2095429/camoufilage-avec-zorua-pokemon-pokopia-comment-finir-cet-evenement.htm",
+          "summary": "Découvrez comment finir l'événement du Camoufilage avec Zorua de Pokémon Pokopia, qui se tient du 19 au 27 juillet prochain. Cette petite épreuve contient un objet de décoration…",
+          "pubDate": "2026-07-23T09:20:10.000Z",
+          "source": "Jeuxvideo.com"
+        },
+        {
+          "title": "Vous n’aimez pas Nolan et vous vouliez que L’Odyssée bide ? Il va falloir se faire une raison",
+          "link": "https://www.numerama.com/pop-culture/2299981-vous-naimez-pas-nolan-et-vous-vouliez-que-lodyssee-bide-il-va-falloir-se-faire-une-raison.html",
+          "summary": "Depuis des mois, les détracteurs de L'Odyssée affûtaient leurs arguments. Casting trop inclusif pour la Grèce antique, filtres grisâtres jugés trop ternes, libertés prises avec le…",
+          "pubDate": "2026-07-23T08:35:00.000Z",
+          "source": "Numerama"
+        }
+      ]
+    },
+    {
+      "key": "auto",
+      "label": "Auto & mobilité",
+      "items": [
+        {
+          "title": "Après Stellantis, Ford s’allie aussi à un constructeur chinois et lui confie une partie de son usine espagnole",
+          "link": "https://www.numerama.com/vroom/2300281-apres-stellantis-ford-sallie-aussi-a-un-constructeur-chinois-et-lui-confie-une-partie-de-son-usine-espagnole.html",
+          "summary": "Geely vient de s'offrir 34 % d'une usine Ford en Espagne pour y fabriquer ses SUV « Made in Europe » et un peu plus encore.",
+          "pubDate": "2026-07-23T13:15:42.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "« Éviter les triangles des Bermudes du réseau » : pourquoi Tesla mise sur Starlink pour son Cybercab",
+          "link": "https://www.numerama.com/vroom/2300081-eviter-les-triangles-des-bermudes-du-reseau-pourquoi-tesla-mise-sur-starlink-pour-son-cybercab.html",
+          "summary": "Lors de la dernière conférence de résultats de Tesla, Elon Musk a apporté des éclairages supplémentaires sur l'intégration de Starlink au Cybercab. Cette connectivité pourrait…",
+          "pubDate": "2026-07-23T10:03:00.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "La situation financière de Tesla étonne : des records partout, mais un profit qui s’évapore",
+          "link": "https://www.numerama.com/vroom/2299975-la-situation-financiere-de-tesla-etonne-des-records-partout-mais-un-profit-qui-sevapore.html",
+          "summary": "Tesla a tenu sa conférence des résultats du deuxième trimestre 2026. Alors que son chiffre d'affaires atteint des records, la marque automobile a l'argent qui lui brûle les doigts.",
+          "pubDate": "2026-07-23T09:05:00.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Coup dur pour Tesla : le FSD ne sera pas autorisé en France",
+          "link": "https://www.numerama.com/vroom/2299755-coup-dur-pour-tesla-le-fsd-ne-sera-pas-autorise-en-france.html",
+          "summary": "Dans une vidéo officielle publiée sur le site de participation citoyenne, le ministre des Transports, Philippe Tabarot, explique que le Tesla FSD ne sera pas autorisé en France…",
+          "pubDate": "2026-07-22T14:10:48.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "La Nissan Leaf gagne un kit carrosserie Nismo, des réglages spécifiques, mais pas plus de puissance",
+          "link": "https://www.numerama.com/vroom/2299441-la-nissan-leaf-gagne-un-kit-carrosserie-nismo-des-reglages-specifiques-mais-pas-plus-de-puissance.html",
+          "summary": "La Nissan Leaf passe de la sagesse à l'exubérance dans sa nouvelle version Nismo. Pas de hausse de puissance au programme, mais un look carrément plus agressif, une ambiance…",
+          "pubDate": "2026-07-22T12:27:26.000Z",
+          "source": "Numerama"
+        }
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "Culture",
+      "items": [
+        {
+          "title": "Ce que disent (enfin) les chanteuses : l’intolérance et la haine selon Souad Massi",
+          "link": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/ce-que-disent-enfin-les-chanteuses-l-intolerance-et-la-haine-selon-souad-massi_8064557.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Pendant tous les week-ends de cet été, nous écoutons dans cette chronique des chansons qui s’inspirent de l’actualité et de l’air du temps de ces quelques dernières années –…",
+          "pubDate": "2026-07-23T13:30:01.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Après avoir attaqué le film de Christopher Nolan, Elon Musk veut produire sa propre version de \"L'Odyssée\" avec l'IA",
+          "link": "https://www.franceinfo.fr/replay-radio/bientot-chez-vous/apres-avoir-attaque-le-film-de-christopher-nolan-elon-musk-veut-produire-sa-propre-version-de-l-odyssee-avec-l-ia_8090762.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Alors que le film L'Odyssée réalisé par Christopher Nolan fait un carton en salles partout dans le monde, Elon Musk a annoncé la sortie prochaine d'une version IA, plus fidèle…",
+          "pubDate": "2026-07-23T13:30:01.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Le premier sommet international consacré à l'avenir du cinéma et de l'image animée se tiendra en septembre",
+          "link": "https://www.franceinfo.fr/culture/cinema/le-premier-sommet-international-consacre-a-l-avenir-du-cinema-et-de-l-image-animee-se-tiendra-en-septembre_8119289.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le sommet, coprésidé par Emmanuel Macron et son homologue sud-coréen Lee Jae Myung, réunira 150 invités dont les principaux dirigeants des majors américaines, salles de cinéma,…",
+          "pubDate": "2026-07-23T13:29:33.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "A Paris, la place Maurice-Barrès, fervent antisémite, rebaptisée Lucie-Dreyfus",
+          "link": "https://www.franceinfo.fr/culture/a-paris-la-place-maurice-barres-fervent-antisemite-rebaptisee-lucie-dreyfus_8119160.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Cette année ont été célébrés les 120 ans de la décision de la Cour de cassation de réhabiliter le capitaine Alfred Dreyfus et de reconnaître pleinement son innocence, après sa…",
+          "pubDate": "2026-07-23T13:25:55.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Une nouvelle série dérivée de « The Big Bang Theory » arrive sur Canal+",
+          "link": "https://www.20minutes.fr/arts-stars/serie/4235939-20260723-nouvelle-serie-derivee-the-big-bang-theory-arrive-canal?at_medium=display&amp;at_campaign=149",
+          "summary": "Le premier épisode de « Stuart Fails To Save The Universe » sera disponible vendredi en France",
+          "pubDate": "2026-07-23T11:49:06.000Z",
+          "source": "20 Minutes"
+        }
+      ]
+    },
+    {
+      "key": "cinema",
+      "label": "Cinéma & séries",
+      "items": [
+        {
+          "title": "Ils tentent d’entrer dans un cinéma dans un cheval de Troie pour voir « L’Odyssée » en économisant deux tickets",
+          "link": "https://www.20minutes.fr/high-tech/by-the-web/4235913-20260723-tentent-entrer-cinema-cheval-troie-voir-odyssee-economisant-deux-tickets?at_medium=display&amp;at_campaign=149",
+          "summary": "Aux Etats-Unis, des créateurs de contenu ont posté une vidéo sur TikTok montrant leur tentative d’aller en salle avec un cheval de Troie",
+          "pubDate": "2026-07-23T11:22:36.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "« L’Odyssée » de Christopher Nolan : C’est quoi « la loi de Zeus », au cœur du film ?",
+          "link": "https://www.20minutes.fr/arts-stars/culture/4235746-20260723-odyssee-christopher-nolan-quoi-loi-zeus-ur-film?at_medium=display&amp;at_campaign=149",
+          "summary": "Le film « L’Odyssée » de Christopher Nolan est une adaptation cinématographique du célèbre poème épique d’Homère. Centrale dans le récit, « la loi de Zeus » évoque une notion de…",
+          "pubDate": "2026-07-23T10:06:41.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "« Une étape marquante pour le cinéma indépendant »… Bac Films, en redressement judiciaire, cédé à une banque d’affaires",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4235904-20260723-etape-marquante-cinema-independant-bac-films-redressement-judiciaire-cede-banque-affaires?at_medium=display&amp;at_campaign=149",
+          "summary": "La société de distribution Bac Films, qui était en procédure de redressement judiciaire, a été cédée à un banquier d’affaires, HLM Conseil, selon une décision du Tribunal des…",
+          "pubDate": "2026-07-23T08:56:37.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "L’Union européenne autorise sous conditions le rachat de Warner par Paramount",
+          "link": "https://www.lemonde.fr/international/article/2026/07/22/l-union-europeenne-autorise-sous-conditions-le-rachat-de-warner-par-paramount_6730072_3210.html",
+          "summary": "Le groupe acquéreur a pris, auprès de Bruxelles, des engagements qui « remédient pleinement aux problèmes de concurrence recensés par la Commission » dans le secteur de la…",
+          "pubDate": "2026-07-22T18:40:10.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« L’Odyssée » : Elon Musk veut faire sa version « historiquement juste » avec son IA Grok",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4235842-20260722-odyssee-elon-musk-veut-faire-version-historiquement-juste-ia-grok?at_medium=display&amp;at_campaign=149",
+          "summary": "Critique à l’égard du film de Christopher Nolan actuellement en salles, Elon Musk a annoncé qu’il souhaitait réaliser sa propre adaptation",
+          "pubDate": "2026-07-22T16:05:28.000Z",
+          "source": "20 Minutes"
+        }
+      ]
+    },
+    {
+      "key": "musique",
+      "label": "Musique",
+      "items": [
+        {
+          "title": "La DJ Barbara Butch va porter plainte contre LFI pour provocation à la haine et à la violence",
+          "link": "https://www.20minutes.fr/faits_divers/4235886-20260723-dj-barbara-butch-va-porter-plainte-contre-lfi-provocation-haine-violence?at_medium=display&amp;at_campaign=149",
+          "summary": "Barbara Butch dépose plainte ce jeudi contre La France insoumise, certains de ses élus, le média d’extrême droite OMERTA et Alain Soral, après l’interruption de son concert à…",
+          "pubDate": "2026-07-23T06:29:41.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Qui est El Mahdi Lyoubi, rappeur détenu au Maroc pour ses textes contre la monarchie ?",
+          "link": "https://www.20minutes.fr/arts-stars/culture/musique/4235783-20260722-el-mahdi-lyoubi-rappeur-detenu-maroc-textes-contre-monarchie?at_medium=display&amp;at_campaign=149",
+          "summary": "Ce mercredi, El Mahdi Lyoubi doit comparaître devant un tribunal de Casablanca après un report de sa première comparution la semaine dernière",
+          "pubDate": "2026-07-22T12:45:57.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Plas Johnson, le saxophoniste de « La Panthère rose » est mort à 94 ans",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4235709-20260722-plas-johnson-saxophoniste-panthere-rose-mort-94-ans?at_medium=display&amp;at_campaign=149",
+          "summary": "Il avait notamment accompagné des légendes de la musique comme Frank Sinatra, Nat King Cole, Ella Fitzgerald et Barbra Streisand",
+          "pubDate": "2026-07-22T08:27:47.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "A Marseille, le Delta Festival lâché par plusieurs musiciens après des allégations de violences sexuelles",
+          "link": "https://www.lemonde.fr/culture/article/2026/07/21/a-marseille-le-delta-festival-lache-par-plusieurs-musiciens-apres-des-allegations-de-violences-sexuelles_6729347_3246.html",
+          "summary": "Une dizaine d’artistes et des partenaires du plus gros événement musical de la cité phocéenne, prévu ce week-end, ont annoncé se retirer après la diffusion de témoignages visant…",
+          "pubDate": "2026-07-21T21:45:11.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Le projet de loi Ripost risque de fragiliser, bien au-delà des seules free-parties, de nombreuses fêtes populaires »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/21/le-projet-de-loi-ripost-risque-de-fragiliser-bien-au-dela-des-seules-free-parties-de-nombreuses-fetes-populaires_6729040_3232.html",
+          "summary": "Le projet de loi Ripost sur la tranquillité des citoyens devrait être définitivement adopté le 21 juillet. Un collectif de personnalités issues de la Fédération des acteurs et…",
+          "pubDate": "2026-07-21T17:00:04.000Z",
+          "source": "Le Monde"
+        }
+      ]
+    },
+    {
+      "key": "livres",
+      "label": "Livres",
+      "items": [
+        {
+          "title": "Laozi, créateur du tao, entre éloge de la faiblesse et violence totalitaire",
+          "link": "https://www.lemonde.fr/livres/article/2026/07/23/laozi-createur-du-tao-entre-eloge-de-la-faiblesse-et-violence-totalitaire_6730452_3260.html",
+          "summary": "« Quand gouvernent sages et philosophes » (2/5). Pour l’antique sage chinois, promoteur du dao – « la voie » –, le non-agir se confond avec le pouvoir suprême et débouche sur un…",
+          "pubDate": "2026-07-23T06:00:13.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Je veux le réhabiliter » : Catherine Weil Sinet, en défense de Siné, son provocateur de mari",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/23/je-veux-le-rehabiliter-catherine-weil-sinet-en-defense-de-sine-son-provocateur-de-mari_6730349_3451060.html",
+          "summary": "« Héritières de la BD » (4/6). Issue de la grande bourgeoisie, la désormais octogénaire a connu le « big love » avec ce trublion issu d’un milieu modeste. Journaliste, devenue…",
+          "pubDate": "2026-07-23T04:00:39.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Notre sélection de livres cette semaine : « Comme on quitte un imperméable », « Le Soldat remémoré », « Jean-Léon l’Africain »…",
+          "link": "https://www.lemonde.fr/livres/article/2026/07/23/notre-selection-de-livres-cette-semaine-comme-on-quitte-un-impermeable-le-soldat-rememore-jean-leon-l-africain_6730207_3260.html",
+          "summary": "Chaque jeudi, la rédaction du « Monde des livres » vous propose ses choix littéraires. Aujourd’hui, notamment, la romancière Anjet Daanje relate la trajectoire d’un soldat…",
+          "pubDate": "2026-07-23T02:30:05.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Portrait de l’écrivain Daniel Pennac à travers un questionnaire serré sur ses lectures passées, présentes et à venir",
+          "link": "https://www.lemonde.fr/livres/article/2026/07/22/portrait-de-l-ecrivain-daniel-pennac-en-lecteur-a-travers-un-questionnaire-serre-sur-ses-lectures-passees-presentes-et-a-venir_6730052_3260.html",
+          "summary": "« Keskili ? » (2/5). Parmi ses auteurs de prédilection, l’écrivain cite Andersen, Dumas, Dickens, qu’il a découverts enfant, puis Alain, Céline, Gabriel Garcia Marquez, Antonio…",
+          "pubDate": "2026-07-22T16:00:07.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Ovidie, autrice : « Le “je” n’a pas la même signification si on est un homme ou une femme »",
+          "link": "https://www.lemonde.fr/podcasts/article/2026/07/22/ovidie-autrice-le-je-n-a-pas-la-meme-signification-si-on-est-un-homme-ou-une-femme_6729884_5463015.html",
+          "summary": "« Mot pour mots » (1/5). A l’occasion du festival littéraire Mot pour mots, les autrices Ovidie et Judith Godrèche ont été invitées à réfléchir à la place de l’intime dans notre…",
+          "pubDate": "2026-07-22T05:00:08.000Z",
+          "source": "Le Monde"
+        }
+      ]
+    },
+    {
+      "key": "medias",
+      "label": "Médias",
+      "items": [
+        {
+          "title": "Avec l’arrivée en France des « résumés par IA » de Google, les médias craignent une baisse de leur trafic",
+          "link": "https://www.lemonde.fr/economie/article/2026/07/22/ai-overviews-les-medias-craignent-une-baisse-de-trafic-avec-la-sortie-du-nouveau-service-de-google_6730057_3234.html",
+          "summary": "La mise en place progressive de nouvelles fonctionnalités par Google en France, notamment le « mode IA », fait craindre aux éditeurs de presse une baisse de leur audience qui…",
+          "pubDate": "2026-07-22T16:49:06.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Ma vie d’exilée russe à Paris : pour les soins et l’éducation, « la France est une version améliorée de l’URSS »",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/22/ma-vie-d-exilee-russe-a-paris-pour-les-soins-et-l-education-la-france-est-une-version-amelioree-de-l-urss_6730051_3451060.html",
+          "summary": "« Une Russe à Paris » (2/6). Arrivée en France en 2022, la journaliste Elizaveta Osetinskaya s’est installée dans le 16ᵉ arrondissement de la capitale. Elle loue notamment le…",
+          "pubDate": "2026-07-22T15:30:11.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Comment Bernard Arnault tente d’imposer sa ligne à ses médias",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/22/comment-bernard-arnault-tente-d-imposer-sa-ligne-a-ses-medias_6730040_3451060.html",
+          "summary": "« L’empire Bernard Arnault » (4/6). Depuis les années 1990, le PDG de LVMH s’est constitué une petite galaxie médiatique dans la presse écrite et la radio dont il se sert pour…",
+          "pubDate": "2026-07-22T14:00:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Axel Ganz, patron de presse magazine et fondateur du groupe Prisma, est mort à l’âge de 88 ans",
+          "link": "https://www.lemonde.fr/disparitions/article/2026/07/22/le-patron-de-presse-magazine-axel-ganz-fondateur-du-groupe-prisma-est-mort-a-l-age-de-88-ans_6730011_3382.html",
+          "summary": "De « Femme actuelle » à « Capital », l’homme d’affaires allemand a lancé une vingtaine de titres qui ont façonné les kiosques français.",
+          "pubDate": "2026-07-22T09:15:53.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "La propagandiste Xenia Fedorova échappe aux sanctions européennes contre des personnalités russes",
+          "link": "https://www.lemonde.fr/international/article/2026/07/22/la-propagandiste-xenia-fedorova-echappe-aux-sanctions-europeennes-contre-des-personnalites-russes_6730000_3210.html",
+          "summary": "Le Quai d’Orsay et le ministère de l’intérieur étudient secrètement d’autres voies de sanctions contre la figure prorusse de CNews, ex-dirigeante de RT France, chaîne financée par…",
+          "pubDate": "2026-07-22T07:58:26.000Z",
+          "source": "Le Monde"
+        }
+      ]
+    },
+    {
+      "key": "idees",
+      "label": "Idées & débats",
+      "items": [
+        {
+          "title": "« Ce n’est pas la volonté de Monique Barbut qu’il faudra scruter dans les prochaines semaines, mais bien celle des deux têtes de l’exécutif »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/23/ce-n-est-pas-la-volonte-de-monique-barbut-qu-il-faudra-scruter-dans-les-prochaines-semaines-mais-bien-celle-des-deux-tetes-de-l-executif_6730713_3232.html",
+          "summary": "Annoncée démissionnaire, la ministre de la transition écologique reste finalement au gouvernement. Le sommet de l’Etat doit maintenant lui permettre de lutter contre le recul de…",
+          "pubDate": "2026-07-23T12:15:06.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Il nous faut inventer une gouvernance nationale du pluralisme ferroviaire »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/23/il-nous-faut-inventer-une-gouvernance-nationale-du-pluralisme-ferroviaire_6730663_3232.html",
+          "summary": "Le développement de la concurrence du secteur du chemin de fer français doit s’accompagner d’une politique renforcée, dans laquelle la SNCF jouerait un rôle central, estime, dans…",
+          "pubDate": "2026-07-23T08:55:35.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Le Défenseur des droits, un contre-pouvoir essentiel",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/23/le-defenseur-des-droits-un-contre-pouvoir-essentiel_6730628_3232.html",
+          "summary": "Le profil conservateur de François-Noël Buffet inquiète. Dans ses nouvelles fonctions, il devra faire fi de ses positions passées pour remplir sa mission de défense et de garantie…",
+          "pubDate": "2026-07-23T08:30:05.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Bruno Cotte, magistrat : « Contrairement à ce qu’affirme Marco Rubio, la Cour pénale internationale n’est ni de droite ni de gauche »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/23/bruno-cotte-magistrat-contrairement-a-ce-qu-affirme-marco-rubio-la-cour-penale-internationale-n-est-ni-de-droite-ni-de-gauche_6730346_3232.html",
+          "summary": "La campagne du secrétaire d’Etat américain pour démanteler la CPI constitue une agression contre le droit international qui devrait susciter des réactions plus vives de la part de…",
+          "pubDate": "2026-07-23T04:00:22.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Le “no kids”, en opposant le confort des adultes à la présence des enfants, diffuse une vision polarisée et réductrice de la société »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/23/le-no-kids-en-opposant-le-confort-des-adultes-a-la-presence-des-enfants-diffuse-une-vision-polarisee-et-reductrice-de-la-societe_6730343_3232.html",
+          "summary": "Alors que les espaces excluant les enfants connaissent une forte croissance, un collectif de responsables associatifs, de chercheurs et d’artistes souligne, dans une tribune au «…",
+          "pubDate": "2026-07-23T04:00:04.000Z",
+          "source": "Le Monde"
+        }
+      ]
+    },
+    {
+      "key": "education",
+      "label": "Éducation",
+      "items": [
+        {
+          "title": "« J’ai 22 ans, j’ai encore beaucoup d’années devant moi pour changer le monde » : sur les pas des boursiers américains choyés par la France",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/23/j-ai-22-ans-j-ai-encore-beaucoup-d-annees-devant-moi-pour-changer-le-monde-sur-les-pas-des-boursiers-americains-choyes-par-la-france_6730667_4401467.html",
+          "summary": "Ils s’appellent les Lafayette Fellows, ils sont trente et font leur rentrée cet automne dans les grandes écoles et universités françaises. Cette bourse, qui permet de raviver la…",
+          "pubDate": "2026-07-23T09:45:07.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Les rares fois où je ne porte pas ma prothèse au travail, les regards se braquent sur mon sein absent » : la poitrine, cet objet du désir qui peut cacher la maladie",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/23/les-rares-fois-ou-je-ne-porte-pas-ma-prothese-au-travail-les-regards-se-braquent-sur-mon-sein-absent-la-poitrine-cet-objet-du-desir-qui-peut-cacher-la-maladie_6730345_4401467.html",
+          "summary": "« Sois belle et produis » (4/6). Attributs féminins par excellence, les seins sont aussi le siège du cancer le plus fréquent chez les femmes. Une maladie qui, dans le monde du…",
+          "pubDate": "2026-07-23T04:00:04.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "La chasse aux cheveux blancs chez les femmes, pour rester visible, crédible et employable",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/22/mais-tu-n-as-pas-peur-de-faire-trop-vieille-la-chasse-aux-cheveux-blancs-pour-rester-visible-credible-et-employable_6729751_4401467.html",
+          "summary": "« Sois belle et produis » (3/6). C’est souvent au moment où elles accumulent le plus d’expérience que les femmes disparaissent des radars professionnels. Pour éviter d’être mises…",
+          "pubDate": "2026-07-22T04:00:03.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Le soir, je ne mange pas seule » : le foyer basque de Maddi, 20 ans, à Saint-Ouen",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/22/le-soir-je-ne-mange-pas-seule-le-foyer-basque-de-maddi-20-ans-a-saint-ouen_6729749_4401467.html",
+          "summary": "« Et toi, t’habites où ? » En pleine crise du logement, étudiants et jeunes actifs redéfinissent, souvent malgré eux, l’art de trouver un chez-soi. Cette semaine, Maddi…",
+          "pubDate": "2026-07-22T04:00:03.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Le projet de loi Ripost risque de fragiliser, bien au-delà des seules free-parties, de nombreuses fêtes populaires »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/21/le-projet-de-loi-ripost-risque-de-fragiliser-bien-au-dela-des-seules-free-parties-de-nombreuses-fetes-populaires_6729040_3232.html",
+          "summary": "Le projet de loi Ripost sur la tranquillité des citoyens devrait être définitivement adopté le 21 juillet. Un collectif de personnalités issues de la Fédération des acteurs et…",
+          "pubDate": "2026-07-21T17:00:04.000Z",
+          "source": "Le Monde"
+        }
+      ]
+    },
+    {
+      "key": "sport",
+      "label": "Sport",
+      "items": [
+        {
+          "title": "DIRECT. Tour de France 2026 : le peloton accorde un bon de sortie à l'échappée, Valentin Paret-Peintre lancé dans la chasse au maillot à pois... Suivez l'étape Voiron-Orcières-Merlette avec nous",
+          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-la-derniere-chance-pour-une-victoire-francaise-suivez-la-redoutable-etape-alpine-entre-voiron-et-orcieres-merlette-avec-nous_8118881.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le premier volet de la trilogie alpine du Tour constitue la dernière occasion pour un baroudeur de s'imposer. Mais il devra s'agir d'un coureur particulièrement costaud vu les 3…",
+          "pubDate": "2026-07-23T13:29:31.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Tour de France 2026 : Un accident est évité de peu, la direction recadre les spectateurs propriétaires de chiens",
+          "link": "https://www.20minutes.fr/arts-stars/insolite/4235968-20260723-tour-france-2026-accident-evite-peu-direction-recadre-spectateurs-proprietaires-chiens?at_medium=display&amp;at_campaign=149",
+          "summary": "Un chien qui n’était pas attaché a traversé la route devant un cycliste lors de l’étape du Tour de France entre Évian-les-Bains et Thonon-les-Bains (Haute-Savoie) ce mardi,…",
+          "pubDate": "2026-07-23T12:26:33.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Coupe du monde 2026 : « Ne pas avoir peur… » La Norvège va porter plainte auprès de la FIFA pour l’affaire Balogun",
+          "link": "https://www.20minutes.fr/sport/football/4235972-20260723-coupe-monde-2026-avoir-peur-norvege-va-porter-plainte-aupres-fifa-affaire-balogun?at_medium=display&amp;at_campaign=149",
+          "summary": "La fédération norvégienne souhaite des explications au sujet de l’intervention de Donald Trump dans le dossier Folarin Balogun pendant la Coupe du monde",
+          "pubDate": "2026-07-23T11:59:41.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "\"Quand on contourne une règle, on s'engage sur une pente glissante\" : la fédération norvégienne va porter plainte auprès de la Fifa après l'intervention de Trump dans l'affaire Balogun",
+          "link": "https://www.franceinfo.fr/coupe-du-monde/la-federation-norvegienne-annonce-porter-plainte-aupres-du-comite-d-ethique-de-la-fifa-concernant-l-intervention-de-donald-trump-dans-l-affaire-folarin-balogun_8118965.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le joueur américain avait écopé d'un carton rouge avant de voir lever sa suspension par la Fifa après l'intervention du président américain, lui permettant ainsi de jouer le…",
+          "pubDate": "2026-07-23T11:10:07.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "EN DIRECT Tour de France 2026 : Paret-Peintre fait le plein pour le maillot à pois... Grégoire dans le bon coup... Suivez la 18e étape avec nous…",
+          "link": "https://www.20minutes.fr/sport/cyclisme/tour-de-france/4235941-20260723-direct-tour-france-2026-grosse-journee-maillot-pois-paret-peintre-doit-briller-suivez-18e-etape?at_medium=display&amp;at_campaign=149",
+          "summary": "Suivez en direct avec nous la 18e étape du Tour de France 2026, qui s’achèvera en haut d’une montée de 1ère catégorie à Orcières-Merlette",
+          "pubDate": "2026-07-23T10:57:37.000Z",
+          "source": "20 Minutes"
         }
       ]
     }
