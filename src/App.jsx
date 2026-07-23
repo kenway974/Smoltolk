@@ -14,6 +14,7 @@ import ResultsView from "./components/ResultsView";
 import GuideView from "./components/GuideView";
 import HomeView from "./components/HomeView";
 import NewsView from "./components/NewsView";
+import FavoritesView from "./components/FavoritesView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -95,12 +96,17 @@ export default function App() {
         onStart={() => setScreen("step1")}
         onOpenGuide={openGuide}
         onOpenNews={() => setScreen("news")}
+        onOpenFavorites={() => setScreen("favorites")}
       />
     );
   }
 
   if (screen === "news") {
     return <NewsView onBack={() => setScreen("home")} />;
+  }
+
+  if (screen === "favorites") {
+    return <FavoritesView onBack={() => setScreen("home")} />;
   }
 
   if (screen === "guide") {
@@ -114,6 +120,7 @@ export default function App() {
         criteria={{ lieu, moi, avatar, contexte, interet, intention, role }}
         onRestart={handleRestart}
         onOpenGuide={openGuide}
+        onOpenFavorites={() => setScreen("favorites")}
       />
     );
   }

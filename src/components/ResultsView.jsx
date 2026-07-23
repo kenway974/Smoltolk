@@ -1,8 +1,9 @@
 import React from "react";
-import { RotateCcw, MessageCircle, BookOpen } from "lucide-react";
+import { RotateCcw, MessageCircle, BookOpen, Bookmark } from "lucide-react";
 import SituationCard from "./SituationCard";
 import { INTENTION_BY_LABEL } from "../data/intentions";
 import { ROLE_BY_LABEL } from "../data/roles";
+import { useFavoriteCount } from "../utils/favorites";
 
 const VIBE_LABEL   = { Ouvert: "Ouvert", Neutre: "Neutre", Fermé: "Fermé" };
 const AUDACE_LABEL = { 1: "Prudent", 2: "Confiant", 3: "Audacieux" };
@@ -15,7 +16,8 @@ function Chip({ label, color = "bg-white border border-stone-200 text-stone-500"
   );
 }
 
-export default function ResultsView({ situations, criteria, onRestart, onOpenGuide }) {
+export default function ResultsView({ situations, criteria, onRestart, onOpenGuide, onOpenFavorites }) {
+  const favCount = useFavoriteCount();
   const { lieu, moi, avatar, contexte, interet, intention, role } = criteria || {};
   const { ageGroupe, genre, vibe } = avatar || {};
   const { proximite, audace } = contexte || {};
@@ -44,6 +46,16 @@ export default function ResultsView({ situations, criteria, onRestart, onOpenGui
             <span className="text-sm font-semibold tracking-tight text-stone-900">Smoltolk</span>
           </div>
           <div className="flex items-center gap-2">
+            {onOpenFavorites && (
+              <button
+                onClick={onOpenFavorites}
+                className="flex items-center gap-1.5 px-3 py-2 rounded-xl border border-stone-200 bg-white text-stone-500 text-xs font-medium active:scale-95 transition-colors duration-150 hover:bg-stone-50"
+                aria-label="Mes favoris"
+              >
+                <Bookmark size={12} strokeWidth={2} className={favCount > 0 ? "text-amber-500" : ""} />
+                {favCount > 0 ? favCount : ""}
+              </button>
+            )}
             {onOpenGuide && (
               <button
                 onClick={onOpenGuide}

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair, ArrowRight } from "lucide-react";
+import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
 import { INTENTION_BY_LABEL } from "../data/intentions";
 import { ROLE_BY_LABEL } from "../data/roles";
 import { guidePalier, PALIERS_INFO } from "../data/guideMap";
+import { useIsFavorite, toggleFavorite } from "../utils/favorites";
 
 const LEVELS = [
   { key: "zoomIn",   label: "Zoom In",  hint: "Un détail visible sur la personne", Icon: ZoomIn,
@@ -32,6 +33,22 @@ function CopyButton({ text }) {
       title="Copier"
     >
       {copied ? <Check size={14} strokeWidth={2.5} /> : <Copy size={14} strokeWidth={2} />}
+    </button>
+  );
+}
+
+function SaveButton({ fav }) {
+  const saved = useIsFavorite(fav.accroche);
+  return (
+    <button
+      onClick={(e) => { e.stopPropagation(); toggleFavorite(fav); }}
+      className={`p-2 rounded-lg transition-colors duration-200 active:scale-90 flex-shrink-0 ${
+        saved ? "bg-amber-100 text-amber-600" : "text-stone-300 hover:text-amber-500 hover:bg-amber-50"
+      }`}
+      title={saved ? "Retirer des favoris" : "Enregistrer"}
+      aria-pressed={saved}
+    >
+      {saved ? <BookmarkCheck size={14} strokeWidth={2.5} /> : <Bookmark size={14} strokeWidth={2} />}
     </button>
   );
 }
@@ -130,7 +147,17 @@ export default function SituationCard({ situation, index = 0, onOpenGuide }) {
         className={`mx-5 mb-2.5 px-4 py-4 rounded-xl border flex items-start gap-3 animate-phrase-swap ${level.box}`}
       >
         <p className={`flex-1 text-[15px] leading-relaxed ${level.text}`}>« {data.accroche} »</p>
-        <CopyButton text={data.accroche} />
+        <div className="flex flex-col gap-1">
+          <CopyButton text={data.accroche} />
+          <SaveButton fav={{
+            accroche: data.accroche,
+            relance: data.relance,
+            niveau: level.label,
+            lieu: situation.environnement,
+            objectif: situation.objectif,
+            intention: situation.intention,
+          }} />
+        </div>
       </div>
 
       {/* Navigation entre variantes */}

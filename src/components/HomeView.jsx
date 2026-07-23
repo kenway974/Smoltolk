@@ -1,5 +1,6 @@
 import React from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, ArrowRight } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, ArrowRight } from "lucide-react";
+import { useFavoriteCount } from "../utils/favorites";
 
 function EntryCard({ icon: Icon, title, desc, meta, onClick, tile = "bg-stone-900", hover = "hover:border-stone-400" }) {
   return (
@@ -24,7 +25,8 @@ function EntryCard({ icon: Icon, title, desc, meta, onClick, tile = "bg-stone-90
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites }) {
+  const favCount = useFavoriteCount();
   return (
     <div className="min-h-svh flex flex-col px-5">
       {/* Brand */}
@@ -70,6 +72,15 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews }) {
           onClick={onOpenNews}
           tile="bg-rose-500"
           hover="hover:border-rose-300"
+        />
+        <EntryCard
+          icon={Bookmark}
+          title="Mes favoris"
+          desc="Les accroches que tu as enregistrées, gardées d'une visite à l'autre, prêtes à recopier."
+          meta={favCount > 0 ? `${favCount} enregistrée${favCount > 1 ? "s" : ""}` : "À remplir"}
+          onClick={onOpenFavorites}
+          tile="bg-amber-500"
+          hover="hover:border-amber-300"
         />
       </div>
 
