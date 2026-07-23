@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ── Guide (L'arbre de conversation) ── */
+.font-serif-guide { font-family: 'Fraunces', ui-serif, Georgia, serif; }
+.guide details > summary { list-style: none; }
+.guide details > summary::-webkit-details-marker { display: none; }
+.guide details > summary .chev { transition: transform .2s ease; }
+.guide details[open] > summary .chev { transform: rotate(90deg); }
 
 * {
   -webkit-tap-highlight-color: transparent;

@@ -1,5 +1,5 @@
 import React from "react";
-import { RotateCcw, MessageCircle } from "lucide-react";
+import { RotateCcw, MessageCircle, BookOpen } from "lucide-react";
 import SituationCard from "./SituationCard";
 import { INTENTION_BY_LABEL } from "../data/intentions";
 import { ROLE_BY_LABEL } from "../data/roles";
@@ -15,7 +15,7 @@ function Chip({ label }) {
   );
 }
 
-export default function ResultsView({ situations, criteria, onRestart }) {
+export default function ResultsView({ situations, criteria, onRestart, onOpenGuide }) {
   const { lieu, moi, avatar, contexte, interet, intention, role } = criteria || {};
   const { ageGroupe, genre, vibe } = avatar || {};
   const { proximite, audace } = contexte || {};
@@ -43,13 +43,24 @@ export default function ResultsView({ situations, criteria, onRestart }) {
             <MessageCircle size={17} strokeWidth={2} className="text-stone-400" />
             <span className="text-sm font-semibold tracking-tight text-stone-900">Smoltolk</span>
           </div>
-          <button
-            onClick={onRestart}
-            className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-stone-200 bg-white text-stone-500 text-xs font-medium active:scale-95 transition-colors duration-150 hover:bg-stone-50"
-          >
-            <RotateCcw size={12} strokeWidth={2} />
-            Recommencer
-          </button>
+          <div className="flex items-center gap-2">
+            {onOpenGuide && (
+              <button
+                onClick={onOpenGuide}
+                className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-stone-200 bg-white text-stone-500 text-xs font-medium active:scale-95 transition-colors duration-150 hover:bg-stone-50"
+              >
+                <BookOpen size={12} strokeWidth={2} />
+                Guide
+              </button>
+            )}
+            <button
+              onClick={onRestart}
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-stone-200 bg-white text-stone-500 text-xs font-medium active:scale-95 transition-colors duration-150 hover:bg-stone-50"
+            >
+              <RotateCcw size={12} strokeWidth={2} />
+              Recommencer
+            </button>
+          </div>
         </div>
 
         {hasAnyFilter && (

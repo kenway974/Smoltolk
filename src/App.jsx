@@ -11,6 +11,7 @@ import StepRole from "./components/StepRole";
 import StepContexte from "./components/StepContexte";
 import StepInteret from "./components/StepInteret";
 import ResultsView from "./components/ResultsView";
+import GuideView from "./components/GuideView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -33,6 +34,10 @@ export default function App() {
   const [roleTouched, setRoleTouched] = useState(false);
   const [contexte, setContexte] = useState(INITIAL_CONTEXTE);
   const [interet,  setInteret]  = useState(null);
+  const [guideReturn, setGuideReturn] = useState("step1");
+
+  const openGuide  = () => { setGuideReturn(screen); setScreen("guide"); };
+  const closeGuide = () => setScreen(guideReturn);
 
   const results = useMemo(
     () => matchSituations(SITUATIONS_DATA, { lieu, moi, avatar, interet, contexte, intention, role }),
@@ -75,12 +80,17 @@ export default function App() {
     setScreen("step1");
   };
 
+  if (screen === "guide") {
+    return <GuideView onBack={closeGuide} />;
+  }
+
   if (screen === "results") {
     return (
       <ResultsView
         situations={results}
         criteria={{ lieu, moi, avatar, contexte, interet, intention, role }}
         onRestart={handleRestart}
+        onOpenGuide={openGuide}
       />
     );
   }
@@ -88,7 +98,7 @@ export default function App() {
   const stepNum = STEP_NUM[screen] ?? 1;
 
   return (
-    <WizardLayout step={stepNum} total={TOTAL_STEPS} onBack={stepNum === 1 ? handleRestart : handleBack}>
+    <WizardLayout step={stepNum} total={TOTAL_STEPS} onBack={stepNum === 1 ? handleRestart : handleBack} onOpenGuide={openGuide}>
       {screen === "step1" && (
         <StepLieu
           value={lieu}

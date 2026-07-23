@@ -1,7 +1,7 @@
 import React from "react";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, BookOpen } from "lucide-react";
 
-export default function WizardLayout({ step, total = 4, children, onBack }) {
+export default function WizardLayout({ step, total = 4, children, onBack, onOpenGuide }) {
   const steps = Array.from({ length: total }, (_, i) => i + 1);
   return (
     <div className="min-h-svh flex flex-col">
@@ -27,7 +27,17 @@ export default function WizardLayout({ step, total = 4, children, onBack }) {
           ))}
         </div>
 
-        <div className="w-9" />
+        {onOpenGuide ? (
+          <button
+            onClick={onOpenGuide}
+            className="flex items-center gap-1.5 h-9 px-3 rounded-xl bg-white border border-stone-200 text-stone-500 text-xs font-medium hover:bg-stone-50 active:scale-95 transition-colors"
+          >
+            <BookOpen size={14} strokeWidth={2} />
+            Guide
+          </button>
+        ) : (
+          <div className="w-9" />
+        )}
       </div>
 
       {/* ── Step indicator ── */}
