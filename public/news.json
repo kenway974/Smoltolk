@@ -1,4 +1,170 @@
 {
-  "generatedAt": null,
-  "categories": []
+  "generatedAt": "2026-07-23T13:31:19.390Z",
+  "categories": [
+    {
+      "key": "une",
+      "label": "À la une",
+      "source": "franceinfo",
+      "items": [
+        {
+          "title": "Incendie en Gironde : le feu progresse et a désormais parcouru 3 100 hectares, 8 800 nouvelles évacuations sont en cours à Claouey",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/direct-incendie-en-gironde-2-000-hectares-brules-au-moins-12-000-personnes-evacuees-depuis-hier-annonce-la-prefecture_8118599.html#xtor=RSS-3-[lestitres]",
+          "summary": "Près de 21 000 personnes ont été évacuées. Des pompiers de Paris ont été envoyés en renfort.",
+          "pubDate": "2026-07-23T13:06:57.000Z"
+        },
+        {
+          "title": "\"Pendant deux jours, j'ai tiré le corps d'un mort\" : pour les soldats ukrainiens, l'évacuation risquée des blessés de la \"kill zone\", partie la plus dangereuse du front",
+          "link": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/pendant-deux-jours-j-ai-tire-le-corps-d-un-mort-dans-la-kill-zone-les-soldats-ukrainiens-vivent-sous-la-menace-permanente-des-drones-russes_8089898.html#xtor=RSS-3-[lestitres]",
+          "summary": "La guerre en Ukraine est désormais marquée par l'utilisation de drones et de frappes à longue portée. À Zaporijjia, dans le sud du pays, des soldats ukrainiens mènent une…",
+          "pubDate": "2026-07-23T10:14:06.000Z"
+        },
+        {
+          "title": "\"C'est important de porter plainte pour laisser la justice voir qui est responsable et rétablir la vérité\", déclare la DJ Barbara Butch",
+          "link": "https://www.franceinfo.fr/culture/musique/electro/c-est-important-de-porter-plainte-pour-laisser-la-justice-voir-qui-est-responsable-et-retablir-la-verite-declare-la-dj-barbara-butch_8118848.html#xtor=RSS-3-[lestitres]",
+          "summary": "L'un de ses concerts a été interrompu il y a cinq jours par des militants propalestiniens et Insoumis qui lui reprochent notamment son soutien à la proposition de loi Yadan…",
+          "pubDate": "2026-07-23T09:05:10.000Z"
+        },
+        {
+          "title": "Tour de France 2026 : le peloton accorde un bon de sortie à l'échappée, Valentin Paret-Peintre lancé dans la chasse au maillot à pois... Suivez l'étape Voiron-Orcières-Merlette avec nous",
+          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-la-derniere-chance-pour-une-victoire-francaise-suivez-la-redoutable-etape-alpine-entre-voiron-et-orcieres-merlette-avec-nous_8118881.html#xtor=RSS-3-[lestitres]",
+          "summary": "Le premier volet de la trilogie alpine du Tour constitue la dernière occasion pour un baroudeur de s'imposer. Mais il devra s'agir d'un coureur particulièrement costaud vu les 3…",
+          "pubDate": "2026-07-23T13:13:41.000Z"
+        },
+        {
+          "title": "Affaire Epstein : l'association Innocence en danger assigne l'Etat français pour \"déni de justice\" après la mort de Daniel Siad, visé par plusieurs plaintes",
+          "link": "https://www.franceinfo.fr/monde/usa/affaire-jeffrey-epstein/affaire-epstein-l-association-innocence-en-danger-assigne-l-etat-francais-pour-deni-de-justice-apres-la-mort-du-rabatteur-presume-du-pedocriminel_8119124.html#xtor=RSS-3-[lestitres]",
+          "summary": "Daniel Siad, visé par plusieurs plaintes dont deux pour viols, n'a jamais été entendu par la justice alors que les premiers signalements remontent à l'été 2019.",
+          "pubDate": "2026-07-23T10:34:05.000Z"
+        },
+        {
+          "title": "\"Une situation sans précédent\" : pour les pompes funèbres, les effets dramatiques de la canicule perdurent",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/reportage-une-situation-sans-precedent-pour-les-pompes-funebres-les-effets-dramatiques-de-la-canicule-perdurent_8111864.html#xtor=RSS-3-[lestitres]",
+          "summary": "\"On pensait qu'à la mi-juillet, la situation serait résolue\", explique Gauthier Caton, patron d'une entreprise parisienne. Plusieurs semaines après les fortes chaleurs qui ont…",
+          "pubDate": "2026-07-23T03:59:56.000Z"
+        },
+        {
+          "title": "Le gouvernement va doubler le plafond annuel des franchises médicales sur les consultations et les médicaments, de 100 à 200 euros",
+          "link": "https://www.franceinfo.fr/sante/le-gouvernement-va-doubler-le-plafond-annuel-des-franchises-medicales-sur-les-consultations-et-les-medicaments-de-100-a-200euros_8118890.html#xtor=RSS-3-[lestitres]",
+          "summary": "Ce plafond \"n'a pas évolué depuis 20 ans\", a fait valoir la ministre de la Santé, Stéphanie Rist, jeudi sur RMC. Le montant des franchises – un euro par boîte de médicament et…",
+          "pubDate": "2026-07-23T07:53:26.000Z"
+        },
+        {
+          "title": "Guerre au Moyen-Orient : le baril de Brent dépasse les 100 dollars pour la première fois depuis fin mai",
+          "link": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-l-iran-dit-avoir-arrete-trois-petroliers-dans-le-detroit-d-ormuz_8118755.html#xtor=RSS-3-[lestitres]",
+          "summary": "Le baril de Brent, qui fait référence pour le prix du pétrole, n'avait pas atteint les 100 dollars depuis le 26 mai. Son cours s'envole jeudi, avec l'extension du conflit en mer…",
+          "pubDate": "2026-07-23T13:25:22.000Z"
+        }
+      ]
+    },
+    {
+      "key": "culture",
+      "label": "Culture & ciné",
+      "source": "franceinfo",
+      "items": [
+        {
+          "title": "A Paris, la place Maurice-Barrès, fervent antisémite, rebaptisée Lucie-Dreyfus",
+          "link": "https://www.franceinfo.fr/culture/a-paris-la-place-maurice-barres-fervent-antisemite-rebaptisee-lucie-dreyfus_8119160.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Cette année ont été célébrés les 120 ans de la décision de la Cour de cassation de réhabiliter le capitaine Alfred Dreyfus et de reconnaître pleinement son innocence, après sa…",
+          "pubDate": "2026-07-23T13:25:55.000Z"
+        },
+        {
+          "title": "La Licra annonce déposer plainte après le concert interrompu de Barbara Butch à Grenoble",
+          "link": "https://www.franceinfo.fr/culture/musique/la-licra-annonce-deposer-plainte-apres-le-concert-interrompu-de-barbara-butch-a-grenoble_8119133.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La DJ a elle aussi annoncé jeudi une série de plaintes, notamment contre La France insoumise, après une action de militants insoumis et propalestiniens.",
+          "pubDate": "2026-07-23T10:53:31.000Z"
+        },
+        {
+          "title": "Le Comic-Con, célèbre festival de la pop culture, a démarré en Californie",
+          "link": "https://www.franceinfo.fr/culture/le-comic-con-celebre-festival-de-la-pop-culture-a-demarre-en-californie_8118962.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Bandes dessinées, cinéma, télévision, jeux vidéo… Les communautés de fans se réunissent pour l’édition 2026 de la convention.",
+          "pubDate": "2026-07-23T09:20:22.000Z"
+        },
+        {
+          "title": "Sous conditions, l'Union européenne approuve le rachat de Warner par Paramount",
+          "link": "https://www.franceinfo.fr/culture/sous-conditions-l-union-europeenne-approuve-le-rachat-de-warner-par-paramount_8118905.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Aux termes de ce rachat, le nouveau média combinerait les acquis de Paramount (CBS, \"Mission Impossible\", \"Star Trek\", \"Top Gun\"...) et ceux de Warner (CNN, \"Harry Potter\", \"DC…",
+          "pubDate": "2026-07-23T08:17:53.000Z"
+        },
+        {
+          "title": "\"C'est important de porter plainte pour laisser la justice voir qui est responsable et rétablir la vérité\", déclare la DJ Barbara Butch",
+          "link": "https://www.franceinfo.fr/culture/musique/electro/c-est-important-de-porter-plainte-pour-laisser-la-justice-voir-qui-est-responsable-et-retablir-la-verite-declare-la-dj-barbara-butch_8118848.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'un de ses concerts a été interrompu il y a cinq jours par des militants propalestiniens et Insoumis qui lui reprochent notamment son soutien à la proposition de loi Yadan…",
+          "pubDate": "2026-07-23T09:05:10.000Z"
+        },
+        {
+          "title": "La DJ Barbara Butch va porter plainte contre La France insoumise pour provocation à la haine et à la violence, après l'interruption de son concert samedi à Grenoble",
+          "link": "https://www.franceinfo.fr/politique/la-france-insoumise/la-dj-barbara-butch-va-porter-plainte-contre-la-france-insoumise-pour-provocation-a-la-haine-et-a-la-violence-apres-l-interruption-de-son-concert-samedi-a-grenoble_8118767.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Son avocate annonce que plusieurs plaintes vont être déposées jeudi, visant la formation politique mais aussi certains de ses élus et représentants locaux, ainsi qu'un média…",
+          "pubDate": "2026-07-23T06:01:38.000Z"
+        },
+        {
+          "title": "\"Un rêve devenu réalité\" : Victor Wembanyama superstar de la jaquette du jeu vidéo NBA 2K27",
+          "link": "https://www.franceinfo.fr/sports/basket/victor-wembanyama/un-reve-devenu-realite-victor-wembanyama-superstar-de-la-jaquette-du-jeu-video-nba-2k27_8118677.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "C'est la première fois qu'un joueur tricolore apparaît seul sur la jaquette de l'édition standard du jeu vidéo. Avant lui, seul Tony Parker avait figuré... mais sur la seule…",
+          "pubDate": "2026-07-23T05:26:54.000Z"
+        },
+        {
+          "title": "La DJ Barbara Butch, \"toujours en état de choc\" après l'interruption de son concert par des militants, se produira bien samedi dans l'Yonne",
+          "link": "https://www.franceinfo.fr/culture/la-dj-barbara-butch-toujours-en-etat-de-choc-apres-l-arret-de-son-concert-se-produira-bien-sur-scene-samedi_8118440.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Sa performance samedi à Grenoble a été arrêtée en raison d'une action de manifestants propalestiniens et insoumis répondant à un appel au boycott. Ils lui reprochent notamment…",
+          "pubDate": "2026-07-23T08:24:20.000Z"
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "label": "Tech & insolite",
+      "source": "Numerama",
+      "items": [
+        {
+          "title": "Après Stellantis, Ford s’allie aussi à un constructeur chinois et lui confie une partie de son usine espagnole",
+          "link": "https://www.numerama.com/vroom/2300281-apres-stellantis-ford-sallie-aussi-a-un-constructeur-chinois-et-lui-confie-une-partie-de-son-usine-espagnole.html",
+          "summary": "Geely vient de s'offrir 34 % d'une usine Ford en Espagne pour y fabriquer ses SUV « Made in Europe » et un peu plus encore.",
+          "pubDate": "2026-07-23T13:15:42.000Z"
+        },
+        {
+          "title": "Votre visage comme mot de passe en cas de coup dur : Google lance la connexion par selfie vidéo",
+          "link": "https://www.numerama.com/cyberguerre/2300251-votre-visage-comme-mot-de-passe-en-cas-de-coup-dur-google-lance-la-connexion-par-selfie-video.html",
+          "summary": "Google déploie une nouvelle méthode de récupération de compte basée sur la reconnaissance faciale, avec des garde-fous pensés spécifiquement contre les deepfakes.",
+          "pubDate": "2026-07-23T12:59:54.000Z"
+        },
+        {
+          "title": "Comment profiter des Perséides, les superbes étoiles filantes du ciel de l’été ?",
+          "link": "https://www.numerama.com/sciences/642009-comment-profiter-des-perseides-les-superbes-etoiles-filantes-du-ciel-de-lete.html",
+          "summary": "Comme chaque été, les Perséides sont de retour dans le ciel. Depuis la mi-juillet 2026, cette pluie d'étoiles filantes est active. Mais beaucoup attendent son maximum d'activité…",
+          "pubDate": "2026-07-23T12:45:46.000Z"
+        },
+        {
+          "title": "L’armée française s’équipe de son propre télescope pour surveiller l’espace",
+          "link": "https://www.numerama.com/sciences/2300031-larmee-francaise-sequipe-de-son-propre-telescope-pour-surveiller-lespace.html",
+          "summary": "Le télescope Providence, construit par le français Onera, aura pour but de surveiller les satellites en orbite basse pour le compte de l'armée. Mais aura également une dimension…",
+          "pubDate": "2026-07-23T11:35:00.000Z"
+        },
+        {
+          "title": "Kevin Feige confirme l’arrivée de Miles Morales en prise de vues réelles dans le MCU",
+          "link": "https://www.numerama.com/pop-culture/2300215-kevin-feige-confirme-larrivee-de-miles-morales-en-prise-de-vues-reelles-dans-le-mcu.html",
+          "summary": "Les rumeurs tournaient en boucle depuis des années, mais cette fois, la confirmation vient directement du sommet. Kevin Feige a tranché sur l'avenir de Miles Morales :…",
+          "pubDate": "2026-07-23T11:02:00.000Z"
+        },
+        {
+          "title": "Tout ce que la fusée géante Starship tentera minute par minute pour son 13ᵉ vol d’essai",
+          "link": "https://www.numerama.com/sciences/2300091-voila-ce-que-la-fusee-geante-starship-tentera-minute-par-minute-pour-son-13%e1%b5%89-vol-dessai.html",
+          "summary": "SpaceX va globalement reproduire le 12ᵉ vol du Starship avec son essai prévu dans la nuit du 23 au 24 juillet, avec l'espoir de corriger tout ce qui n'a pas bien marché.",
+          "pubDate": "2026-07-23T10:32:00.000Z"
+        },
+        {
+          "title": "« Éviter les triangles des Bermudes du réseau » : pourquoi Tesla mise sur Starlink pour son Cybercab",
+          "link": "https://www.numerama.com/vroom/2300081-eviter-les-triangles-des-bermudes-du-reseau-pourquoi-tesla-mise-sur-starlink-pour-son-cybercab.html",
+          "summary": "Lors de la dernière conférence de résultats de Tesla, Elon Musk a apporté des éclairages supplémentaires sur l'intégration de Starlink au Cybercab. Cette connectivité pourrait…",
+          "pubDate": "2026-07-23T10:03:00.000Z"
+        },
+        {
+          "title": "Les meilleurs jeux narratifs de SF de la décennie arrivent sur PS5 en précommande",
+          "link": "https://www.numerama.com/pop-culture/2300121-les-meilleurs-jeux-narratifs-de-sf-de-la-decennie-arrivent-sur-ps5-en-precommande.html",
+          "summary": "[Précommande] Vous aimez les jeux narratifs et la science-fiction et vous n'avez toujours pas fait Citizen Sleeper ? Mais allez donc précommander les deux épisodes sur PS5 nom…",
+          "pubDate": "2026-07-23T09:58:27.000Z"
+        }
+      ]
+    }
+  ]
 }
