@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { ArrowLeft, Newspaper, ExternalLink, Copy, Check, RefreshCw } from "lucide-react";
 
-const CAT_EMOJI = { une: "📰", sport: "⚽", culture: "🎬", tech: "💡" };
+const CAT_EMOJI = {
+  une: "📰", monde: "🌍", politique: "🏛️", economie: "💶", sport: "⚽",
+  culture: "🎬", sciences: "🔬", sante: "🩺", societe: "👥", tech: "💡",
+};
 
 function timeAgo(iso) {
   if (!iso) return "";

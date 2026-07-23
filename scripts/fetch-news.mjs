@@ -10,13 +10,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(__dirname, "../public/news.json");
 
 const FEEDS = [
-  { key: "une",     label: "À la une",       source: "franceinfo", url: "https://www.francetvinfo.fr/titres.rss" },
-  { key: "sport",   label: "Sport",          source: "franceinfo", url: "https://www.francetvinfo.fr/sports.rss" },
-  { key: "culture", label: "Culture & ciné", source: "franceinfo", url: "https://www.francetvinfo.fr/culture.rss" },
-  { key: "tech",    label: "Tech & insolite",source: "Numerama",   url: "https://www.numerama.com/feed/" },
+  { key: "une",       label: "À la une",        source: "franceinfo", url: "https://www.francetvinfo.fr/titres.rss" },
+  { key: "monde",     label: "Monde",           source: "franceinfo", url: "https://www.francetvinfo.fr/monde.rss" },
+  { key: "politique", label: "Politique",       source: "franceinfo", url: "https://www.francetvinfo.fr/politique.rss" },
+  { key: "economie",  label: "Éco & argent",    source: "franceinfo", url: "https://www.francetvinfo.fr/economie.rss" },
+  { key: "sport",     label: "Sport",           source: "franceinfo", url: "https://www.francetvinfo.fr/sports.rss" },
+  { key: "culture",   label: "Culture & ciné",  source: "franceinfo", url: "https://www.francetvinfo.fr/culture.rss" },
+  { key: "sciences",  label: "Sciences",        source: "franceinfo", url: "https://www.francetvinfo.fr/sciences.rss" },
+  { key: "sante",     label: "Santé",           source: "franceinfo", url: "https://www.francetvinfo.fr/sante.rss" },
+  { key: "societe",   label: "Société",         source: "franceinfo", url: "https://www.francetvinfo.fr/societe.rss" },
+  { key: "tech",      label: "Tech & insolite", source: "Numerama",   url: "https://www.numerama.com/feed/" },
 ];
 
-const MAX_PER_FEED = 8;
+const MAX_PER_FEED = 6;
 const SUMMARY_MAX = 180;
 
 const decode = (s = "") =>
