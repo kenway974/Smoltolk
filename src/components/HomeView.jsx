@@ -1,5 +1,5 @@
 import React from "react";
-import { MessageCircle, Compass, BookOpen, ArrowRight } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, ArrowRight } from "lucide-react";
 
 function EntryCard({ icon: Icon, title, desc, meta, onClick }) {
   return (
@@ -24,7 +24,7 @@ function EntryCard({ icon: Icon, title, desc, meta, onClick }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews }) {
   return (
     <div className="min-h-svh flex flex-col px-5">
       {/* Brand */}
@@ -57,6 +57,13 @@ export default function HomeView({ onStart, onOpenGuide }) {
           desc="L'arbre de conversation : comment ouvrir, cadrer, approfondir, et partir au bon moment. Palier par palier."
           meta="La méthode"
           onClick={onOpenGuide}
+        />
+        <EntryCard
+          icon={Newspaper}
+          title="News"
+          desc="L'actu fraîche du jour — à la une, sport, culture, tech — avec une accroche prête pour lancer la conversation dessus."
+          meta="Le déclencheur"
+          onClick={onOpenNews}
         />
       </div>
 

@@ -1,0 +1,38 @@
+name: Actu — mise à jour news.json
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # toutes les 3 heures
+  workflow_dispatch:          # déclenchement manuel (onglet Actions → Run workflow)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Récupérer l'actualité
+        run: node scripts/fetch-news.mjs
+
+      - name: Committer si l'actu a changé
+        run: |
+          git config user.name "smoltolk-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/news.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement dans l'actu."
+          else
+            git commit -m "chore(news): mise à jour automatique de l'actualité"
+            git push
+          fi
