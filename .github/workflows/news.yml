@@ -1,8 +1,12 @@
 name: Actu — mise à jour news.json
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/news.json"   # évite la boucle : le commit d'actu ne relance pas le job
   schedule:
-    - cron: "0 */3 * * *"   # toutes les 3 heures
+    - cron: "0 */3 * * *"    # toutes les 3 heures (nécessite que main soit la branche par défaut)
   workflow_dispatch:          # déclenchement manuel (onglet Actions → Run workflow)
 
 permissions:
