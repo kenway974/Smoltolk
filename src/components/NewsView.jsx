@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { ArrowLeft, Newspaper, ExternalLink, Copy, Check, RefreshCw } from "lucide-react";
 
 const CAT_EMOJI = {
-  une: "📰", monde: "🌍", politique: "🏛️", economie: "💶", sport: "⚽",
-  culture: "🎬", sciences: "🔬", sante: "🩺", societe: "👥", tech: "💡",
+  une: "📰", monde: "🌍", politique: "🏛️", societe: "👥", justice: "⚖️",
+  economie: "💶", emploi: "🧾", sante: "🩺", sciences: "🔬", environnement: "🌿",
+  tech: "💡", jeuxvideo: "🎮", auto: "🚗", culture: "🎭", cinema: "🎬",
+  musique: "🎵", livres: "📚", medias: "📡", idees: "💭", education: "🎓", sport: "⚽",
 };
 
 function timeAgo(iso) {
