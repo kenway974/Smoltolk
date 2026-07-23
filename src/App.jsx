@@ -12,6 +12,7 @@ import StepContexte from "./components/StepContexte";
 import StepInteret from "./components/StepInteret";
 import ResultsView from "./components/ResultsView";
 import GuideView from "./components/GuideView";
+import HomeView from "./components/HomeView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -24,7 +25,7 @@ const TOTAL_STEPS = 6;
 const STEP_NUM = { step1: 1, step2: 2, step3: 3, step4: 4, step5: 5, step6: 6 };
 
 export default function App() {
-  const [screen,   setScreen]   = useState("step1");
+  const [screen,   setScreen]   = useState("home");
   const [lieu,     setLieu]     = useState(null);
   const [moi,      setMoi]      = useState(INITIAL_MOI);
   const [avatar,   setAvatar]   = useState(INITIAL_AVATAR);
@@ -34,7 +35,7 @@ export default function App() {
   const [roleTouched, setRoleTouched] = useState(false);
   const [contexte, setContexte] = useState(INITIAL_CONTEXTE);
   const [interet,  setInteret]  = useState(null);
-  const [guideReturn, setGuideReturn] = useState("step1");
+  const [guideReturn, setGuideReturn] = useState("home");
 
   const openGuide  = () => { setGuideReturn(screen); setScreen("guide"); };
   const closeGuide = () => setScreen(guideReturn);
@@ -77,8 +78,12 @@ export default function App() {
     setRole(null); setRoleTouched(false);
     setContexte(INITIAL_CONTEXTE);
     setInteret(null);
-    setScreen("step1");
+    setScreen("home");
   };
+
+  if (screen === "home") {
+    return <HomeView onStart={() => setScreen("step1")} onOpenGuide={openGuide} />;
+  }
 
   if (screen === "guide") {
     return <GuideView onBack={closeGuide} />;
