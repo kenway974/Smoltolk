@@ -11,7 +11,7 @@ const OUT = resolve(__dirname, "../public/news.json");
 
 const FEEDS = [
   { key: "une",     label: "À la une",       source: "franceinfo", url: "https://www.francetvinfo.fr/titres.rss" },
-  { key: "sport",   label: "Sport",          source: "L'Équipe",   url: "https://www.lequipe.fr/rss/actu_rss.xml" },
+  { key: "sport",   label: "Sport",          source: "franceinfo", url: "https://www.francetvinfo.fr/sports.rss" },
   { key: "culture", label: "Culture & ciné", source: "franceinfo", url: "https://www.francetvinfo.fr/culture.rss" },
   { key: "tech",    label: "Tech & insolite",source: "Numerama",   url: "https://www.numerama.com/feed/" },
 ];
