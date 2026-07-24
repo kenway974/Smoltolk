@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck } from "lucide-react";
 import { useFavoriteCount } from "../utils/favorites";
 import { useJournal, computeStats } from "../utils/journal";
 import { SITUATIONS_DATA } from "../data/situations";
@@ -57,7 +57,7 @@ function Step({ n, title, children }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite }) {
   const favCount = useFavoriteCount();
   const journal = useJournal();
   const jstats = computeStats(journal);
@@ -192,7 +192,12 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
       </p>
 
       <div className="flex-1" />
-      <p className="py-6 text-center text-[11px] text-stone-300">Approche → profondeur · un palier à la fois</p>
+      <div className="py-6 flex flex-col items-center gap-2">
+        <button onClick={onOpenConfidentialite} className="inline-flex items-center gap-1.5 text-[11px] font-medium text-stone-400 hover:text-stone-700 transition-colors">
+          <ShieldCheck size={12} strokeWidth={2} /> Tes données restent chez toi
+        </button>
+        <p className="text-center text-[11px] text-stone-300">Approche → profondeur · un palier à la fois</p>
+      </div>
     </div>
   );
 }

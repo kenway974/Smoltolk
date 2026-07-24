@@ -1,7 +1,7 @@
 // Service worker Smoltolk — installation + hors-ligne.
 // Stratégies : navigation & news = réseau d'abord (repli cache), assets = cache d'abord.
 
-const VERSION = "smoltolk-v1";
+const VERSION = "smoltolk-v2";
 const SHELL = [
   "/",
   "/manifest.webmanifest",

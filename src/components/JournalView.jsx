@@ -2,16 +2,17 @@ import React, { useState, useMemo } from "react";
 import {
   ArrowLeft, Plus, Flame, Trash2, X, Check, MapPin, TrendingUp,
   CalendarDays, Star, Sparkles, Award, ChevronDown, Trophy, Target,
-  Minus, Download, Upload, Zap, HeartHandshake, Swords, Lock, Medal, Gift,
+  Minus, Download, Upload, Zap, HeartHandshake, Swords, Lock, Medal, Gift, Pencil,
 } from "lucide-react";
 import {
-  useJournal, addEntry, removeEntry,
+  useJournal, addEntry, updateEntry, removeEntry,
   computeStats, computeWeekReview, computeConfidencePoints, computeBadges,
   RESULTATS, RESULTAT_BY_KEY,
   useWeeklyGoal, setWeeklyGoal, exportData, importData,
   useDoneMissions, toggleMission,
   computeXP, computeLevel, computeDailyMission, daysSinceLastEntry,
   useDoneBosses, toggleBoss, computeDailyBoss, rewardsState, computeWins,
+  exportEncrypted, isEncryptedExport, decryptExport,
 } from "../utils/journal";
 import { INTENTIONS } from "../data/intentions";
 import { TIER_BY_KEY } from "../data/missions";
@@ -98,22 +99,23 @@ function Chip({ active, onClick, activeClass = "bg-stone-900 text-white border-s
 }
 
 // ---- Formulaire « J'ai osé » ----------------------------------------------
-function AddForm({ onClose, initial = {} }) {
-  const [lieu, setLieu] = useState(initial.lieu || "");
-  const [avecQui, setAvecQui] = useState(initial.avecQui || "");
-  const [intention, setIntention] = useState(initial.intention || null);
-  const [resultat, setResultat] = useState(null);
-  const [ressenti, setRessenti] = useState(null);
-  const [note, setNote] = useState("");
-  const [debrief, setDebrief] = useState(false);
-  const [marche, setMarche] = useState("");
-  const [prochaine, setProchaine] = useState("");
+function AddForm({ onClose, initial = {}, entry = null }) {
+  const src = entry || initial;
+  const [lieu, setLieu] = useState(src.lieu || "");
+  const [avecQui, setAvecQui] = useState(src.avecQui || "");
+  const [intention, setIntention] = useState(src.intention || null);
+  const [resultat, setResultat] = useState(entry?.resultat || null);
+  const [ressenti, setRessenti] = useState(entry && typeof entry.ressenti === "number" ? entry.ressenti : null);
+  const [note, setNote] = useState(entry?.note || "");
+  const [debrief, setDebrief] = useState(!!(entry?.marche || entry?.prochaine));
+  const [marche, setMarche] = useState(entry?.marche || "");
+  const [prochaine, setProchaine] = useState(entry?.prochaine || "");
 
   const canSave = lieu.trim() || avecQui.trim() || resultat || ressenti;
 
   const save = () => {
     if (!canSave) return;
-    addEntry({
+    const payload = {
       lieu: lieu.trim(),
       avecQui: avecQui.trim(),
       intention,
@@ -122,7 +124,9 @@ function AddForm({ onClose, initial = {} }) {
       note: note.trim(),
       marche: marche.trim(),
       prochaine: prochaine.trim(),
-    });
+    };
+    if (entry) updateEntry(entry.id, payload);
+    else addEntry(payload);
     onClose();
   };
 
@@ -135,7 +139,7 @@ function AddForm({ onClose, initial = {} }) {
         <div className="sticky top-0 bg-[#f5f3ef]/95 backdrop-blur-sm px-5 py-4 flex items-center justify-between border-b border-stone-200">
           <div className="flex items-center gap-2">
             <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-emerald-600 text-white"><Sparkles size={16} strokeWidth={2.5} /></span>
-            <h2 className="text-[15px] font-semibold text-stone-900">J'ai osé</h2>
+            <h2 className="text-[15px] font-semibold text-stone-900">{entry ? "Modifier" : "J'ai osé"}</h2>
           </div>
           <button onClick={onClose} className="p-2 rounded-lg text-stone-400 hover:bg-stone-200/60 active:scale-90 transition-colors"><X size={18} /></button>
         </div>
@@ -262,7 +266,7 @@ function Stat({ icon: Icon, value, label, tint }) {
 }
 
 // ---- Une entrée du journal -------------------------------------------------
-function EntryRow({ e }) {
+function EntryRow({ e, onEdit }) {
   const r = e.resultat ? RESULTAT_BY_KEY[e.resultat] : null;
   return (
     <div className="rounded-2xl border border-stone-200 bg-white p-4">
@@ -271,13 +275,22 @@ function EntryRow({ e }) {
           {e.lieu && <span className="inline-flex items-center gap-1 text-[13px] font-semibold text-stone-800"><MapPin size={12} strokeWidth={2} className="text-stone-400" />{e.lieu}</span>}
           {e.avecQui && <span className="text-[13px] text-stone-500">· {e.avecQui}</span>}
         </div>
-        <button
-          onClick={() => removeEntry(e.id)}
-          className="p-1.5 -mr-1 -mt-1 rounded-lg text-stone-300 hover:text-rose-500 hover:bg-rose-50 transition-colors active:scale-90 flex-shrink-0"
-          title="Supprimer"
-        >
-          <Trash2 size={14} strokeWidth={2} />
-        </button>
+        <div className="flex items-center gap-0.5 -mr-1 -mt-1 flex-shrink-0">
+          <button
+            onClick={() => onEdit(e)}
+            className="p-1.5 rounded-lg text-stone-300 hover:text-stone-700 hover:bg-stone-100 transition-colors active:scale-90"
+            title="Modifier"
+          >
+            <Pencil size={14} strokeWidth={2} />
+          </button>
+          <button
+            onClick={() => removeEntry(e.id)}
+            className="p-1.5 rounded-lg text-stone-300 hover:text-rose-500 hover:bg-rose-50 transition-colors active:scale-90"
+            title="Supprimer"
+          >
+            <Trash2 size={14} strokeWidth={2} />
+          </button>
+        </div>
       </div>
 
       <div className="mt-2 flex flex-wrap items-center gap-2">
@@ -308,8 +321,10 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const doneMissions = useDoneMissions();
   const doneBosses = useDoneBosses();
   const [adding, setAdding] = useState(!!prefill);
+  const [editing, setEditing] = useState(null);
   const [showAllBadges, setShowAllBadges] = useState(false);
   const [showWins, setShowWins] = useState(false);
+  const [encrypt, setEncrypt] = useState(false);
   const [ioMsg, setIoMsg] = useState(null);
 
   const stats = useMemo(() => computeStats(entries), [entries]);
@@ -326,15 +341,29 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const goalPct = Math.min(100, Math.round((stats.thisWeekCount / goal) * 100));
   const goalReached = stats.thisWeekCount >= goal;
 
-  const doExport = () => {
+  const download = (text) => {
+    const suffix = isEncryptedExport(text) ? "-chiffre" : "";
+    const blob = new Blob([text], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `smoltolk-cahier${suffix}-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+  };
+
+  const doExport = async () => {
     try {
-      const blob = new Blob([exportData()], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `smoltolk-cahier-${new Date().toISOString().slice(0, 10)}.json`;
-      document.body.appendChild(a); a.click(); a.remove();
-      URL.revokeObjectURL(url);
+      if (encrypt) {
+        const pw = window.prompt("Choisis un mot de passe pour protéger la sauvegarde. Sans lui, le fichier sera illisible.");
+        if (!pw) return;
+        download(await exportEncrypted(pw));
+        setIoMsg("Sauvegarde chiffrée exportée. Ne perds pas le mot de passe !");
+      } else {
+        download(exportData());
+        setIoMsg(null);
+      }
+      setTimeout(() => setIoMsg(null), 3500);
     } catch { setIoMsg("Export impossible."); }
   };
 
@@ -343,8 +372,20 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
     e.target.value = "";
     if (!file) return;
     const reader = new FileReader();
-    reader.onload = () => {
-      const res = importData(reader.result);
+    reader.onload = async () => {
+      let text = reader.result;
+      try {
+        if (isEncryptedExport(text)) {
+          const pw = window.prompt("Cette sauvegarde est chiffrée. Entre son mot de passe :");
+          if (!pw) return;
+          text = await decryptExport(text, pw);
+        }
+      } catch {
+        setIoMsg("Mot de passe incorrect ou fichier abîmé.");
+        setTimeout(() => setIoMsg(null), 3500);
+        return;
+      }
+      const res = importData(text);
       setIoMsg(res.ok ? `Import réussi — ${res.added} entrée${res.added > 1 ? "s" : ""} ajoutée${res.added > 1 ? "s" : ""}.` : res.error);
       setTimeout(() => setIoMsg(null), 3500);
     };
@@ -604,7 +645,7 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
             <div className="mt-6">
               <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400 mb-2.5">Historique</p>
               <div className="flex flex-col gap-2.5">
-                {entries.map((e) => <EntryRow key={e.id} e={e} />)}
+                {entries.map((e) => <EntryRow key={e.id} e={e} onEdit={setEditing} />)}
               </div>
             </div>
 
@@ -622,6 +663,10 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
                   <input type="file" accept="application/json,.json" onChange={doImport} className="hidden" />
                 </label>
               </div>
+              <label className="mt-2.5 flex items-center gap-2 text-[12px] text-stone-500 cursor-pointer select-none">
+                <input type="checkbox" checked={encrypt} onChange={(e) => setEncrypt(e.target.checked)} className="accent-stone-800 w-3.5 h-3.5" />
+                <Lock size={12} strokeWidth={2} /> Protéger l'export par un mot de passe
+              </label>
               {ioMsg && <p className="mt-2.5 text-[12px] font-medium text-stone-600">{ioMsg}</p>}
             </div>
           </>
@@ -639,6 +684,7 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
       )}
 
       {adding && <AddForm onClose={() => setAdding(false)} initial={prefill || {}} />}
+      {editing && <AddForm onClose={() => setEditing(null)} entry={editing} />}
     </div>
   );
 }

@@ -118,6 +118,41 @@ export function exportData() {
   );
 }
 
+// ---- Export chiffré (optionnel, mot de passe) — AES-GCM + PBKDF2 ----------
+function b64(buf) {
+  let s = ""; const bytes = new Uint8Array(buf);
+  for (let i = 0; i < bytes.length; i++) s += String.fromCharCode(bytes[i]);
+  return btoa(s);
+}
+function unb64(s) { return Uint8Array.from(atob(s), (c) => c.charCodeAt(0)); }
+
+async function deriveKey(password, salt) {
+  const km = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt, iterations: 150000, hash: "SHA-256" },
+    km, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"]
+  );
+}
+
+export async function exportEncrypted(password) {
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const key = await deriveKey(password, salt);
+  const cipher = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, key, new TextEncoder().encode(exportData()));
+  return JSON.stringify({ smoltolk: "encrypted", v: 1, salt: b64(salt), iv: b64(iv), data: b64(cipher) });
+}
+
+export function isEncryptedExport(text) {
+  try { return JSON.parse(text)?.smoltolk === "encrypted"; } catch { return false; }
+}
+
+export async function decryptExport(text, password) {
+  const obj = JSON.parse(text);
+  const key = await deriveKey(password, unb64(obj.salt));
+  const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(obj.iv) }, key, unb64(obj.data));
+  return new TextDecoder().decode(plain);
+}
+
 // Fusionne un export sans écraser : entrées dédupliquées par id, missions unies.
 export function importData(json) {
   let data;
