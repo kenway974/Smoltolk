@@ -16,6 +16,7 @@ import HomeView from "./components/HomeView";
 import NewsView from "./components/NewsView";
 import FavoritesView from "./components/FavoritesView";
 import BlocagesView from "./components/BlocagesView";
+import JournalView from "./components/JournalView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -40,6 +41,12 @@ export default function App() {
   const [interet,  setInteret]  = useState(null);
   const [guideReturn, setGuideReturn] = useState("home");
   const [guideFocus, setGuideFocus] = useState(null);
+  const [journalPrefill, setJournalPrefill] = useState(null);
+
+  const openJournal = (prefill) => {
+    setJournalPrefill(prefill && typeof prefill === "object" && !prefill.nativeEvent ? prefill : null);
+    setScreen("journal");
+  };
 
   // focus peut être une clé de palier (ex. "p2") ; les boutons génériques passent
   // un event, qu'on ignore.
@@ -99,6 +106,17 @@ export default function App() {
         onOpenNews={() => setScreen("news")}
         onOpenFavorites={() => setScreen("favorites")}
         onOpenBlocages={() => setScreen("blocages")}
+        onOpenJournal={() => openJournal(null)}
+      />
+    );
+  }
+
+  if (screen === "journal") {
+    return (
+      <JournalView
+        onBack={() => setScreen("home")}
+        onStart={() => setScreen("step1")}
+        prefill={journalPrefill}
       />
     );
   }
@@ -133,6 +151,7 @@ export default function App() {
         onRestart={handleRestart}
         onOpenGuide={openGuide}
         onOpenFavorites={() => setScreen("favorites")}
+        onLog={() => openJournal({ lieu: lieu && lieu !== "Partout" ? lieu : "", intention: intention || null })}
       />
     );
   }

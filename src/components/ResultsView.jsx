@@ -1,5 +1,5 @@
 import React from "react";
-import { RotateCcw, MessageCircle, BookOpen, Bookmark } from "lucide-react";
+import { RotateCcw, MessageCircle, BookOpen, Bookmark, Sparkles } from "lucide-react";
 import SituationCard from "./SituationCard";
 import { INTENTION_BY_LABEL } from "../data/intentions";
 import { ROLE_BY_LABEL } from "../data/roles";
@@ -16,7 +16,7 @@ function Chip({ label, color = "bg-white border border-stone-200 text-stone-500"
   );
 }
 
-export default function ResultsView({ situations, criteria, onRestart, onOpenGuide, onOpenFavorites }) {
+export default function ResultsView({ situations, criteria, onRestart, onOpenGuide, onOpenFavorites, onLog }) {
   const favCount = useFavoriteCount();
   const { lieu, moi, avatar, contexte, interet, intention, role } = criteria || {};
   const { ageGroupe, genre, vibe } = avatar || {};
@@ -107,9 +107,25 @@ export default function ResultsView({ situations, criteria, onRestart, onOpenGui
       {/* ── Cards ── */}
       <main className="flex-1 px-5 pb-12 pt-2 space-y-3">
         {situations.length > 0 ? (
-          situations.map((situation, index) => (
-            <SituationCard key={situation.id} situation={situation} index={index} onOpenGuide={onOpenGuide} />
-          ))
+          <>
+            {situations.map((situation, index) => (
+              <SituationCard key={situation.id} situation={situation} index={index} onOpenGuide={onOpenGuide} />
+            ))}
+            {onLog && (
+              <button
+                onClick={onLog}
+                className="group w-full text-left rounded-2xl border border-emerald-200 bg-emerald-50/60 p-4 flex items-center gap-3 active:scale-[0.99] transition-transform hover:border-emerald-300"
+              >
+                <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-emerald-600 text-white flex-shrink-0">
+                  <Sparkles size={18} strokeWidth={2.2} />
+                </span>
+                <div className="min-w-0">
+                  <p className="text-[14px] font-semibold text-stone-900">Tu t'es lancé ?</p>
+                  <p className="text-[12px] text-stone-500 leading-snug">Consigne-le dans ton cahier de bord — c'est le volume qui fait progresser.</p>
+                </div>
+              </button>
+            )}
+          </>
         ) : (
           <div className="flex flex-col items-center justify-center py-20 text-stone-400 animate-fade-in">
             <MessageCircle size={40} strokeWidth={1.5} className="mb-4 opacity-30" />

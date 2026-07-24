@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame } from "lucide-react";
 import { useFavoriteCount } from "../utils/favorites";
+import { useJournal, computeStats } from "../utils/journal";
 import { SITUATIONS_DATA } from "../data/situations";
 
 const LEVELS = ["zoomIn", "contexte", "zoomOut"];
@@ -56,8 +57,10 @@ function Step({ n, title, children }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal }) {
   const favCount = useFavoriteCount();
+  const journal = useJournal();
+  const jstats = computeStats(journal);
   const [sample, setSample] = useState(pickSample);
   const [principe] = useState(() => PRINCIPES[Math.floor(Math.random() * PRINCIPES.length)]);
   const [copied, setCopied] = useState(false);
@@ -105,6 +108,36 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
         <EntryCard icon={Newspaper} title="News" desc="L'actu fraîche, 21 domaines, avec une accroche prête pour lancer la discussion." meta="Le déclencheur" onClick={onOpenNews} tile="bg-rose-500" hover="hover:border-rose-300" />
         <EntryCard icon={Bookmark} title="Mes favoris" desc="Les accroches que tu as enregistrées, gardées d'une visite à l'autre." meta={favCount > 0 ? `${favCount} enregistrée${favCount > 1 ? "s" : ""}` : "À remplir"} onClick={onOpenFavorites} tile="bg-emerald-600" hover="hover:border-emerald-300" />
       </div>
+
+      {/* Cahier de bord */}
+      <button
+        onClick={onOpenJournal}
+        className="group mt-3 w-full text-left rounded-2xl p-5 text-white active:scale-[0.99] transition-transform"
+        style={{ backgroundImage: "linear-gradient(135deg,#059669,#0d9488)" }}
+      >
+        <div className="flex items-start gap-4">
+          <span className="flex items-center justify-center w-11 h-11 rounded-xl bg-white/15 flex-shrink-0">
+            <LineChart size={20} strokeWidth={2} />
+          </span>
+          <div className="flex-1">
+            <div className="flex items-center gap-2">
+              <h2 className="text-[17px] font-semibold">Mon cahier de bord</h2>
+              {jstats.currentStreak > 0 && (
+                <span className="inline-flex items-center gap-1 text-[12px] font-bold bg-white/20 rounded-full px-2 py-0.5">
+                  <Flame size={12} strokeWidth={2.5} /> {jstats.currentStreak} j
+                </span>
+              )}
+              <ArrowRight size={16} strokeWidth={2} className="ml-auto opacity-70 group-hover:translate-x-0.5 transition-transform" />
+            </div>
+            <p className="mt-1 text-sm text-white/85 leading-relaxed">
+              {jstats.total > 0
+                ? `${jstats.total} tentative${jstats.total > 1 ? "s" : ""} consignée${jstats.total > 1 ? "s" : ""}. Chaque fois que tu oses, note-le — et regarde ta progression.`
+                : "Chaque fois que tu oses aborder quelqu'un, note-le. Streaks, confiance, badges — juste pour toi, rien de public."}
+            </p>
+            <p className="mt-2 text-[11px] font-medium uppercase tracking-[0.1em] text-white/60">Progresser</p>
+          </div>
+        </div>
+      </button>
 
       {/* Bandeau débloquer */}
       <button
