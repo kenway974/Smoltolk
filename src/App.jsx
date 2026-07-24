@@ -17,6 +17,8 @@ import NewsView from "./components/NewsView";
 import FavoritesView from "./components/FavoritesView";
 import BlocagesView from "./components/BlocagesView";
 import JournalView from "./components/JournalView";
+import MissionsView from "./components/MissionsView";
+import OutilsView from "./components/OutilsView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -42,11 +44,13 @@ export default function App() {
   const [guideReturn, setGuideReturn] = useState("home");
   const [guideFocus, setGuideFocus] = useState(null);
   const [journalPrefill, setJournalPrefill] = useState(null);
+  const [missionsReturn, setMissionsReturn] = useState("home");
 
   const openJournal = (prefill) => {
     setJournalPrefill(prefill && typeof prefill === "object" && !prefill.nativeEvent ? prefill : null);
     setScreen("journal");
   };
+  const openMissions = (from) => { setMissionsReturn(from); setScreen("missions"); };
 
   // focus peut être une clé de palier (ex. "p2") ; les boutons génériques passent
   // un event, qu'on ignore.
@@ -107,6 +111,8 @@ export default function App() {
         onOpenFavorites={() => setScreen("favorites")}
         onOpenBlocages={() => setScreen("blocages")}
         onOpenJournal={() => openJournal(null)}
+        onOpenMissions={() => openMissions("home")}
+        onOpenOutils={() => setScreen("outils")}
       />
     );
   }
@@ -116,9 +122,18 @@ export default function App() {
       <JournalView
         onBack={() => setScreen("home")}
         onStart={() => setScreen("step1")}
+        onOpenMissions={() => openMissions("journal")}
         prefill={journalPrefill}
       />
     );
+  }
+
+  if (screen === "missions") {
+    return <MissionsView onBack={() => setScreen(missionsReturn)} />;
+  }
+
+  if (screen === "outils") {
+    return <OutilsView onBack={() => setScreen("home")} />;
   }
 
   if (screen === "blocages") {

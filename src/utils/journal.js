@@ -7,6 +7,8 @@
 import { useSyncExternalStore } from "react";
 
 const KEY = "smoltolk.journal.v1";
+const GOAL_KEY = "smoltolk.journal.goal.v1";      // objectif hebdo (nombre)
+const MISSIONS_KEY = "smoltolk.journal.missions.v1"; // défis validés (map id -> timestamp)
 
 // ---- Vocabulaire des résultats (du plus positif au plus rude) -------------
 export const RESULTATS = [
@@ -55,6 +57,69 @@ export function updateEntry(id, patch) {
 
 export function removeEntry(id) {
   persist(cache.filter((e) => e.id !== id));
+}
+
+// ---- Objectif hebdomadaire (nombre de tentatives visé) --------------------
+function loadGoal() {
+  try { const v = parseInt(localStorage.getItem(GOAL_KEY), 10); return Number.isFinite(v) ? v : 3; }
+  catch { return 3; }
+}
+let goalCache = loadGoal();
+export function getWeeklyGoal() { return goalCache; }
+export function setWeeklyGoal(n) {
+  goalCache = Math.max(1, Math.min(21, n | 0));
+  try { localStorage.setItem(GOAL_KEY, String(goalCache)); } catch { /* ignore */ }
+  listeners.forEach((l) => l());
+}
+
+// ---- Défis / missions validés ---------------------------------------------
+function loadMissions() {
+  try { return JSON.parse(localStorage.getItem(MISSIONS_KEY)) || {}; }
+  catch { return {}; }
+}
+let missionsCache = loadMissions();
+export function getDoneMissions() { return missionsCache; }
+export function isMissionDone(id) { return !!missionsCache[id]; }
+export function toggleMission(id) {
+  const next = { ...missionsCache };
+  if (next[id]) delete next[id];
+  else next[id] = Date.now();
+  missionsCache = next;
+  try { localStorage.setItem(MISSIONS_KEY, JSON.stringify(next)); } catch { /* ignore */ }
+  listeners.forEach((l) => l());
+}
+
+// ---- Export / import (sauvegarde locale) ----------------------------------
+export function exportData() {
+  return JSON.stringify(
+    { version: 1, exportedAt: Date.now(), entries: cache, goal: goalCache, missions: missionsCache },
+    null,
+    2
+  );
+}
+
+// Fusionne un export sans écraser : entrées dédupliquées par id, missions unies.
+export function importData(json) {
+  let data;
+  try { data = typeof json === "string" ? JSON.parse(json) : json; }
+  catch { return { ok: false, error: "Fichier illisible." }; }
+  if (!data || !Array.isArray(data.entries)) return { ok: false, error: "Format non reconnu." };
+
+  const byId = new Map(cache.map((e) => [e.id, e]));
+  let added = 0;
+  for (const e of data.entries) {
+    if (!e || !e.id) continue;
+    if (!byId.has(e.id)) { byId.set(e.id, e); added++; }
+  }
+  persist([...byId.values()]);
+
+  if (data.missions && typeof data.missions === "object") {
+    missionsCache = { ...data.missions, ...missionsCache };
+    try { localStorage.setItem(MISSIONS_KEY, JSON.stringify(missionsCache)); } catch { /* ignore */ }
+  }
+  if (Number.isFinite(data.goal)) setWeeklyGoal(data.goal);
+  listeners.forEach((l) => l());
+  return { ok: true, added, total: byId.size };
 }
 
 // ---- Dérivés (streaks, semaine, badges…) ----------------------------------
@@ -187,10 +252,16 @@ export function computeBadges(entries = cache, now = Date.now()) {
 // ---- Synchronisation entre onglets ----------------------------------------
 if (typeof window !== "undefined") {
   window.addEventListener("storage", (e) => {
-    if (e.key === KEY) { cache = load(); listeners.forEach((l) => l()); }
+    if (e.key === KEY) cache = load();
+    else if (e.key === GOAL_KEY) goalCache = loadGoal();
+    else if (e.key === MISSIONS_KEY) missionsCache = loadMissions();
+    else return;
+    listeners.forEach((l) => l());
   });
 }
 
 // ---- Hooks ----------------------------------------------------------------
 export function useJournal() { return useSyncExternalStore(subscribe, getEntries); }
 export function useJournalCount() { return useSyncExternalStore(subscribe, () => cache.length); }
+export function useWeeklyGoal() { return useSyncExternalStore(subscribe, getWeeklyGoal); }
+export function useDoneMissions() { return useSyncExternalStore(subscribe, getDoneMissions); }

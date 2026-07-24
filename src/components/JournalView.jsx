@@ -1,12 +1,14 @@
 import React, { useState, useMemo } from "react";
 import {
   ArrowLeft, Plus, Flame, Trash2, X, Check, MapPin, TrendingUp,
-  CalendarDays, Star, Sparkles, Award, ChevronDown,
+  CalendarDays, Star, Sparkles, Award, ChevronDown, Trophy, Target,
+  Minus, Download, Upload,
 } from "lucide-react";
 import {
   useJournal, addEntry, removeEntry,
   computeStats, computeWeekReview, computeConfidencePoints, computeBadges,
   RESULTATS, RESULTAT_BY_KEY,
+  useWeeklyGoal, setWeeklyGoal, exportData, importData,
 } from "../utils/journal";
 import { INTENTIONS } from "../data/intentions";
 import { SITUATIONS_DATA } from "../data/situations";
@@ -99,6 +101,9 @@ function AddForm({ onClose, initial = {} }) {
   const [resultat, setResultat] = useState(null);
   const [ressenti, setRessenti] = useState(null);
   const [note, setNote] = useState("");
+  const [debrief, setDebrief] = useState(false);
+  const [marche, setMarche] = useState("");
+  const [prochaine, setProchaine] = useState("");
 
   const canSave = lieu.trim() || avecQui.trim() || resultat || ressenti;
 
@@ -111,6 +116,8 @@ function AddForm({ onClose, initial = {} }) {
       resultat,
       ressenti,
       note: note.trim(),
+      marche: marche.trim(),
+      prochaine: prochaine.trim(),
     });
     onClose();
   };
@@ -193,9 +200,34 @@ function AddForm({ onClose, initial = {} }) {
               value={note}
               onChange={(e) => setNote(e.target.value)}
               rows={2}
-              placeholder="Ce qui a marché, ce que tu retiens…"
+              placeholder="Ce qui s'est passé, ce que tu retiens…"
               className="w-full resize-none rounded-xl border border-stone-200 bg-white px-3.5 py-2.5 text-[15px] text-stone-800 placeholder:text-stone-300 focus:outline-none focus:border-emerald-400"
             />
+          </div>
+
+          {/* Débrief guidé (optionnel) */}
+          <div className="rounded-xl border border-dashed border-stone-300 bg-white/50 overflow-hidden">
+            <button
+              type="button"
+              onClick={() => setDebrief((v) => !v)}
+              className="w-full flex items-center justify-between px-3.5 py-3 text-left active:scale-[0.99] transition-transform"
+            >
+              <span className="text-[13px] font-semibold text-stone-700">🧭 Débrief guidé <span className="font-normal text-stone-400">— 30 secondes pour progresser</span></span>
+              <ChevronDown size={16} strokeWidth={2.5} className={`text-stone-400 transition-transform ${debrief ? "rotate-180" : ""}`} />
+            </button>
+            {debrief && (
+              <div className="px-3.5 pb-4 pt-1 flex flex-col gap-3.5 border-t border-dashed border-stone-200">
+                <div>
+                  <label className="block text-[12px] font-medium text-emerald-700 mb-1.5">✅ Qu'est-ce qui a marché ?</label>
+                  <input value={marche} onChange={(e) => setMarche(e.target.value)} placeholder="Même un tout petit truc…" className="w-full rounded-xl border border-stone-200 bg-white px-3.5 py-2.5 text-[15px] text-stone-800 placeholder:text-stone-300 focus:outline-none focus:border-emerald-400" />
+                </div>
+                <div>
+                  <label className="block text-[12px] font-medium text-blue-700 mb-1.5">🎯 Qu'est-ce que tu tenterais la prochaine fois ?</label>
+                  <input value={prochaine} onChange={(e) => setProchaine(e.target.value)} placeholder="Un seul ajustement, pas dix…" className="w-full rounded-xl border border-stone-200 bg-white px-3.5 py-2.5 text-[15px] text-stone-800 placeholder:text-stone-300 focus:outline-none focus:border-blue-400" />
+                </div>
+                <p className="text-[11px] text-stone-400 leading-snug">Pas de procès : on cherche un point d'appui et un petit réglage, jamais un coupable.</p>
+              </div>
+            )}
           </div>
         </div>
 
@@ -255,20 +287,56 @@ function EntryRow({ e }) {
       </div>
 
       {e.note && <p className="mt-2 text-[13px] text-stone-500 leading-relaxed italic">« {e.note} »</p>}
+      {(e.marche || e.prochaine) && (
+        <div className="mt-2.5 flex flex-col gap-1.5">
+          {e.marche && <p className="text-[12px] text-emerald-700 leading-snug"><span className="font-semibold">✅ A marché :</span> {e.marche}</p>}
+          {e.prochaine && <p className="text-[12px] text-blue-700 leading-snug"><span className="font-semibold">🎯 Prochaine fois :</span> {e.prochaine}</p>}
+        </div>
+      )}
       <p className="mt-2 text-[11px] text-stone-300">{timeAgo(e.at)}</p>
     </div>
   );
 }
 
-export default function JournalView({ onBack, onStart, prefill = null }) {
+export default function JournalView({ onBack, onStart, onOpenMissions, prefill = null }) {
   const entries = useJournal();
+  const goal = useWeeklyGoal();
   const [adding, setAdding] = useState(!!prefill);
   const [showAllBadges, setShowAllBadges] = useState(false);
+  const [ioMsg, setIoMsg] = useState(null);
 
   const stats = useMemo(() => computeStats(entries), [entries]);
   const review = useMemo(() => computeWeekReview(entries), [entries]);
   const points = useMemo(() => computeConfidencePoints(entries), [entries]);
   const badges = useMemo(() => computeBadges(entries), [entries]);
+
+  const goalPct = Math.min(100, Math.round((stats.thisWeekCount / goal) * 100));
+  const goalReached = stats.thisWeekCount >= goal;
+
+  const doExport = () => {
+    try {
+      const blob = new Blob([exportData()], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `smoltolk-cahier-${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+    } catch { setIoMsg("Export impossible."); }
+  };
+
+  const doImport = (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = "";
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      const res = importData(reader.result);
+      setIoMsg(res.ok ? `Import réussi — ${res.added} entrée${res.added > 1 ? "s" : ""} ajoutée${res.added > 1 ? "s" : ""}.` : res.error);
+      setTimeout(() => setIoMsg(null), 3500);
+    };
+    reader.readAsText(file);
+  };
 
   const earned = badges.filter((b) => b.done);
   const nextBadges = badges.filter((b) => !b.done);
@@ -287,6 +355,11 @@ export default function JournalView({ onBack, onStart, prefill = null }) {
           <span className="inline-flex items-center gap-1 text-[12px] font-semibold text-orange-600 bg-orange-50 border border-orange-200 rounded-full px-2.5 py-1">
             <Flame size={13} strokeWidth={2.5} className="fill-orange-400 text-orange-500" /> {stats.currentStreak} j
           </span>
+        )}
+        {onOpenMissions && (
+          <button onClick={onOpenMissions} className="inline-flex items-center gap-1 text-[12px] font-semibold text-amber-600 bg-amber-50 border border-amber-200 rounded-full px-2.5 py-1 hover:bg-amber-100 active:scale-95 transition-colors">
+            <Trophy size={13} strokeWidth={2.5} /> Défis
+          </button>
         )}
       </header>
 
@@ -316,6 +389,28 @@ export default function JournalView({ onBack, onStart, prefill = null }) {
               <Stat icon={Flame} value={stats.currentStreak} label="jours d'affilée" tint="bg-orange-100 text-orange-600" />
               <Stat icon={CalendarDays} value={stats.thisWeekCount} label="cette semaine" tint="bg-blue-100 text-blue-600" />
               <Stat icon={Star} value={stats.avgRessenti ? stats.avgRessenti.toFixed(1) : "—"} label="ressenti moyen" tint="bg-amber-100 text-amber-600" />
+            </div>
+
+            {/* Objectif de la semaine */}
+            <div className={`mt-4 rounded-2xl border p-4 ${goalReached ? "border-emerald-200 bg-emerald-50/60" : "border-stone-200 bg-white"}`}>
+              <div className="flex items-center justify-between mb-2.5">
+                <span className={`inline-flex items-center gap-1.5 text-[12px] font-semibold uppercase tracking-wide ${goalReached ? "text-emerald-600" : "text-stone-500"}`}>
+                  <Target size={13} strokeWidth={2.5} /> Objectif de la semaine
+                </span>
+                <div className="flex items-center gap-1.5">
+                  <button onClick={() => setWeeklyGoal(goal - 1)} className="w-7 h-7 rounded-lg border border-stone-200 bg-white flex items-center justify-center text-stone-500 hover:bg-stone-50 active:scale-90 transition-colors" aria-label="Moins"><Minus size={13} strokeWidth={2.5} /></button>
+                  <span className="w-6 text-center text-[15px] font-bold text-stone-900">{goal}</span>
+                  <button onClick={() => setWeeklyGoal(goal + 1)} className="w-7 h-7 rounded-lg border border-stone-200 bg-white flex items-center justify-center text-stone-500 hover:bg-stone-50 active:scale-90 transition-colors" aria-label="Plus"><Plus size={13} strokeWidth={2.5} /></button>
+                </div>
+              </div>
+              <div className="h-2.5 rounded-full bg-stone-100 overflow-hidden">
+                <div className={`h-full rounded-full transition-all duration-500 ${goalReached ? "bg-emerald-500" : "bg-blue-500"}`} style={{ width: `${goalPct}%` }} />
+              </div>
+              <p className="mt-2 text-[13px] text-stone-500">
+                {goalReached
+                  ? <span className="text-emerald-600 font-semibold">Objectif atteint cette semaine 🎉 — tout ce qui vient en plus est du bonus.</span>
+                  : <><b className="text-stone-800">{stats.thisWeekCount}</b> / {goal} cette semaine — encore <b className="text-stone-800">{goal - stats.thisWeekCount}</b> pour y être.</>}
+              </p>
             </div>
 
             {/* Courbe de confiance */}
@@ -374,6 +469,23 @@ export default function JournalView({ onBack, onStart, prefill = null }) {
               <div className="flex flex-col gap-2.5">
                 {entries.map((e) => <EntryRow key={e.id} e={e} />)}
               </div>
+            </div>
+
+            {/* Sauvegarde */}
+            <div className="mt-8 pt-5 border-t border-stone-200">
+              <p className="text-[11px] text-stone-400 mb-2.5 leading-snug">
+                Ton cahier vit uniquement sur cet appareil. Exporte-le de temps en temps pour ne rien perdre (changement de téléphone, nettoyage du navigateur…).
+              </p>
+              <div className="flex gap-2.5">
+                <button onClick={doExport} className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border border-stone-200 bg-white text-[13px] font-semibold text-stone-600 hover:bg-stone-50 active:scale-[0.98] transition-colors">
+                  <Download size={14} strokeWidth={2} /> Exporter
+                </button>
+                <label className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border border-stone-200 bg-white text-[13px] font-semibold text-stone-600 hover:bg-stone-50 active:scale-[0.98] transition-colors cursor-pointer">
+                  <Upload size={14} strokeWidth={2} /> Importer
+                  <input type="file" accept="application/json,.json" onChange={doImport} className="hidden" />
+                </label>
+              </div>
+              {ioMsg && <p className="mt-2.5 text-[12px] font-medium text-stone-600">{ioMsg}</p>}
             </div>
           </>
         )}

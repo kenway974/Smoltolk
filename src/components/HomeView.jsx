@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy } from "lucide-react";
 import { useFavoriteCount } from "../utils/favorites";
 import { useJournal, computeStats } from "../utils/journal";
 import { SITUATIONS_DATA } from "../data/situations";
@@ -57,7 +57,7 @@ function Step({ n, title, children }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils }) {
   const favCount = useFavoriteCount();
   const journal = useJournal();
   const jstats = computeStats(journal);
@@ -105,6 +105,8 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
       <div className="flex flex-col gap-3">
         <EntryCard icon={Compass} title="Trouver une accroche" desc="Le lieu, la personne, ton intention — et tu obtiens des accroches prêtes à dire." meta="Le lanceur" onClick={onStart} tile="bg-blue-600" hover="hover:border-blue-300" />
         <EntryCard icon={BookOpen} title="Le guide" desc="L'arbre de conversation : ouvrir, cadrer, approfondir, partir au bon moment." meta="La méthode" onClick={onOpenGuide} tile="bg-amber-500" hover="hover:border-amber-300" />
+        <EntryCard icon={Wrench} title="Boîte à outils" desc="Avant, pendant, après : gérer le trac, rester présent, débriefer sans se juger." meta="Les zones d'ombre" onClick={onOpenOutils} tile="bg-teal-600" hover="hover:border-teal-300" />
+        <EntryCard icon={Trophy} title="Mes défis" desc="Une échelle de petits défis, du sourire à l'inconnu jusqu'à oser aller plus loin." meta="La progression" onClick={onOpenMissions} tile="bg-violet-600" hover="hover:border-violet-300" />
         <EntryCard icon={Newspaper} title="News" desc="L'actu fraîche, 21 domaines, avec une accroche prête pour lancer la discussion." meta="Le déclencheur" onClick={onOpenNews} tile="bg-rose-500" hover="hover:border-rose-300" />
         <EntryCard icon={Bookmark} title="Mes favoris" desc="Les accroches que tu as enregistrées, gardées d'une visite à l'autre." meta={favCount > 0 ? `${favCount} enregistrée${favCount > 1 ? "s" : ""}` : "À remplir"} onClick={onOpenFavorites} tile="bg-emerald-600" hover="hover:border-emerald-300" />
       </div>
