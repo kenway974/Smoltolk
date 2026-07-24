@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-07-24T07:31:16.000Z",
+  "generatedAt": "2026-07-24T07:38:50.419Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
+        {
+          "title": "Incendies: \"On a dépassé le seuil des 50.000 hectares brûlés depuis le 1er janvier\", indique Laurent Nuñez",
+          "link": "https://www.bfmtv.com/environnement/climat/video-incendies-on-a-depasse-le-seuil-des-50-000-hectares-brules-depuis-le-1er-janvier-indique-laurent-nunez_VN-202607240218.html",
+          "summary": "Le ministre de l'Intérieur Laurent Nuñez fait le point sur les incendies en France.",
+          "pubDate": "2026-07-24T07:34:05.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "À Achicourt, une moisson traditionnelle a été réalisée",
+          "link": "https://www.bfmtv.com/grand-littoral/replay-emissions/bonjour-littoral/video-a-achicourt-une-moisson-traditionnelle-a-ete-realisee_VN-202607240215.html",
+          "summary": "Vous connaissez la traditionnelle moissonneuse batteuse pour la récolte du blé mais savez vous comment il était récolté il y a une centaine d'années ? À Achicourt des passionnés…",
+          "pubDate": "2026-07-24T07:32:13.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "\"Il faut abandonner l'illusion de sécurité offerte par la surveillance de masse\": l'UE réautorise les plateformes en ligne à détecter des images pédopornographiques, mais préserve les conversations chiffrées",
+          "link": "https://www.bfmtv.com/tech/vie-numerique/il-faut-abandonner-l-illusion-de-securite-offerte-par-la-surveillance-de-masse-l-ue-reautorise-les-plateformes-en-ligne-a-detecter-des-images-pedopornographiques-mais-preserve-les-conversations-chiffrees_AD-202607240212.html",
+          "summary": "Après une négociation ardue, qui oppose protection de l'enfance et défense des libertés essentielles, l'Union européenne réintroduit le très décrié Chat Control, dérogation à la…",
+          "pubDate": "2026-07-24T07:31:11.000Z",
+          "source": "BFMTV"
+        },
         {
           "title": "Comment réintégrer les chiens après une morsure ?",
           "link": "https://www.bfmtv.com/grand-littoral/replay-emissions/bonjour-littoral/video-comment-reintegrer-les-chiens-apres-une-morsure_VN-202607240208.html",
@@ -18,27 +39,6 @@
           "summary": "Déjà président du Centre Pompidou à Paris, Laurent Le Bon a été reconduit à cette fonction pour trois ans. Le musée parisien a fermé ses portes jusqu'à 2030 pour des travaux de…",
           "pubDate": "2026-07-24T07:24:45.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Incendie en Gironde : la préfecture ordonne d'évacuer l'ensemble de la presqu'île du Cap-Ferret, la surface parcourue par le feu a presque doublé dans la nuit",
-          "link": "https://www.franceinfo.fr/faits-divers/incendies-en-gironde/direct-incendie-en-gironde-la-prefecture-ordonne-l-evacuation-sans-delai-des-premiers-villages-de-la-presqu-ile-du-capferret_8120039.html#xtor=RSS-3-[lestitres]",
-          "summary": "L'incendie, qui s'est déclaré mercredi au nord du Bassin d'Arcachon, a parcouru plus de 8 700 hectares.",
-          "pubDate": "2026-07-24T07:24:09.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "En portefeuille : La saison des publications lancée - 24/07",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-en-portefeuille-la-saison-des-publications-lancee-24-07_VN-202607240203.html",
-          "summary": "Ce vendredi 24 juillet, les dernières publications des entreprises notamment celles de SAP, STMicroelectronics, Soitec et Carrefour, ont été commentées par Matthias Desmarais,…",
-          "pubDate": "2026-07-24T07:22:51.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "\"On a traversé un épais nuage de fumée\": Le témoignage de Julia Delage, directrice adjointe de la rédaction de BFMTV, évacuée de la presqu'île du Cap-Ferret",
-          "link": "https://www.bfmtv.com/environnement/climat/video-on-a-traverse-un-epais-nuage-de-fumee-le-temoignage-de-julia-delage-directrice-adjointe-de-la-redaction-de-bfmtv-evacuee-de-la-presqu-ile-du-cap-ferret_VN-202607240198.html",
-          "summary": "La préfecture de Gironde annonce que plus de 8.700 hectares ont été parcourus par l'incendie près du Cap-Ferret. Aucune personne n'a été blessée, souligne-t-elle.",
-          "pubDate": "2026-07-24T07:19:02.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -46,6 +46,13 @@
       "key": "monde",
       "label": "Monde",
       "items": [
+        {
+          "title": "En Inde, le gouvernement peine à désamorcer un mouvement de contestation qui cible désormais Narendra Modi",
+          "link": "https://www.lemonde.fr/international/article/2026/07/24/en-inde-le-gouvernement-peine-a-desamorcer-un-mouvement-de-contestation-qui-cible-desormais-narendra-modi_6731469_3210.html",
+          "summary": "Après avoir tenté d’ignorer la mobilisation étudiante des « cafards » dénonçant la corruption du système éducatif, le premier ministre, Narendra Modi, se voit de plus en plus mis…",
+          "pubDate": "2026-07-24T07:31:06.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "DIRECT. Guerre au Moyen-Orient : nouvelles frappes de l'armée américaine en Iran pour la treizième nuit consécutive",
           "link": "https://www.franceinfo.fr/monde/proche-orient/guerre/direct-guerre-au-moyen-orient-nouvelles-frappes-de-l-armee-americaine-en-iran-pour-la-treizieme-nuit-consecutive_8120123.html#xtor=RSS-3-%5Bgeneral%5D",
@@ -73,13 +80,6 @@
           "summary": "Des frappes américaines dans le sud-ouest de l'Iran ont fait au moins quatre morts et cinq blessés dans la nuit de jeudi et ce vendredi 24 juillet aux alentours de la ville…",
           "pubDate": "2026-07-24T06:46:56.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Guerre en Iran et au Moyen-Orient",
-          "link": "https://www.bfmtv.com/international/moyen-orient/iran/frappes-en-iran_DN-202603020421.html",
-          "summary": "Israël et les États-Unis ont mené une série de frappes en Iran dans le cadre de l'opération \"fureur épique\", samedi 28 février 2026. Les opérations ont mené à la mort de nombreux…",
-          "pubDate": "2026-07-24T06:46:56.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -87,6 +87,13 @@
       "key": "politique",
       "label": "Politique",
       "items": [
+        {
+          "title": "Présidentielle 2027 : en Bretagne, Gabriel Attal mène campagne pour faire décoller sa candidature",
+          "link": "https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-en-bretagne-gabriel-attal-mene-campagne-pour-faire-decoller-sa-candidature_6731467_823448.html",
+          "summary": "Arpentant trois jours la région, le candidat à l’Elysée s’est affiché, jeudi, aux côtés du patron Michel-Edouard Leclerc et a martelé sa volonté de réduire « l’écart entre le…",
+          "pubDate": "2026-07-24T07:30:11.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "\"Ce gouvernement a fait le choix d'abandonner la lutte contre les incendies. On en paye aujourd'hui le prix fort\", affirme Manon Aubry, eurodéputée LFI",
           "link": "https://www.franceinfo.fr/politique/ce-gouvernement-a-fait-le-choix-d-abandonner-la-lutte-contre-les-incendies-on-en-paye-aujourd-hui-le-prix-fort-affirme-manon-aubry-eurodeputee-lfi_8120252.html#xtor=RSS-3-%5Bgeneral%5D",
@@ -114,13 +121,6 @@
           "summary": "Dans un message publié dans la nuit de jeudi à ce vendredi 24 juillet, le président de la République a annoncé avoir demandé l'activation du mécanisme de protection civile de…",
           "pubDate": "2026-07-24T04:01:41.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Présidentielle 2027 : pendant l’été, une période de précampagne difficile à ignorer pour les candidats",
-          "link": "https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-pendant-l-ete-une-periode-de-precampagne-difficile-a-ignorer-pour-les-candidats_6731416_823448.html",
-          "summary": "A quelques mois de l’élection, la période estivale est un moment privilégié pour certains candidats de se montrer sur le terrain et pour les partis de consolider leur base.",
-          "pubDate": "2026-07-24T03:30:25.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -211,6 +211,13 @@
       "label": "Éco & argent",
       "items": [
         {
+          "title": "L'intégrale de Good Morning Market du vendredi 24 juillet",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/l-integrale-de-good-morning-market-du-vendredi-24-juillet_EN-202607240216.html",
+          "summary": "Ce vendredi 24 juillet, Étienne Bracq a reçu Thierry Laborde, directeur général délégué de BNP Paribas, et Matthias Desmarais, responsable de l'activité actions chez Oddo BHF,…",
+          "pubDate": "2026-07-24T07:33:02.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "En portefeuille : La saison des publications lancée - 24/07",
           "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/en-portefeuille-la-saison-des-publications-lancee-24-07_EN-202607240201.html",
           "summary": "Ce vendredi 24 juillet, les dernières publications des entreprises notamment celles de SAP, STMicroelectronics, Soitec et Carrefour, ont été commentées par Matthias Desmarais,…",
@@ -225,24 +232,17 @@
           "source": "BFMTV"
         },
         {
+          "title": "Good Morning Business - Vendredi 24 juillet",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-good-morning-business-vendredi-24-juillet_VN-202607240217.html",
+          "summary": "Ce vendredi 24 juillet, Emmanuel Moulin, gouverneur de la Banque de France, et Christophe Périllat, directeur général de Valeo, étaient les invités dans l'émission Good Morning…",
+          "pubDate": "2026-07-24T07:17:22.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "Des réservations de train en hausse de 85% sur certaines plateformes: les Français se précipitent-ils à Montpellier, la seule ville de France qui projette le film L'Odyssée dans les conditions optimales (en IMAX 70 mm)?",
           "link": "https://www.bfmtv.com/economie/consommation/des-reservations-de-train-en-hausse-de-85-sur-certaines-plateformes-les-francais-se-precipitent-ils-a-montpellier-la-seule-ville-de-france-qui-projette-le-film-l-odyssee-dans-les-conditions-optimales-en-imax-70-mm_AV-202607240192.html",
           "summary": "Selon les chiffres de Trainline ou de SNCF Connect, les achats de billets de train vers la ville de l'Hérault sont en hausse sensible depuis que le film de Christopher Nolan est à…",
           "pubDate": "2026-07-24T07:11:12.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Le club de la Bourse : La BCE maintient ses taux directeurs inchangés - 24/07",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-le-club-de-la-bourse-la-bce-maintient-ses-taux-directeurs-inchanges-24-07_VN-202607240194.html",
-          "summary": "Retrouvez le club de la Bourse du vendredi 24 juillet dans l'émission Good Morning Market. Retrouvez l'émission du lundi au vendredi et réécoutez la en podcast.",
-          "pubDate": "2026-07-24T07:08:52.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Un \"ouf\" de soulagement: les Européens rassurés par les nouveaux droits de douane américains (ils craignaient que Trump se venge après la méga-amende infligée à Google)",
-          "link": "https://www.bfmtv.com/economie/entreprises/un-ouf-de-soulagement-les-europeens-rassures-par-les-nouveaux-droits-de-douane-americains-ils-craignaient-que-trump-se-venge-apres-la-mega-amende-infligee-a-google_AD-202607240188.html",
-          "summary": "Le nouveau régime de taxes douanières annoncé par le gouvernement américain touchant une soixantaine d'économies respecte en effet, en ce qui concerne l'UE, le plafond de 15% qui…",
-          "pubDate": "2026-07-24T07:07:02.000Z",
           "source": "BFMTV"
         }
       ]
@@ -293,6 +293,13 @@
       "label": "Santé",
       "items": [
         {
+          "title": "Vomissements, malaises, palpitations… L’Anses alerte sur les graves dangers des challenges pimentés",
+          "link": "https://www.20minutes.fr/sante/4235923-20260724-vomissements-malaises-palpitations-anses-alerte-graves-dangers-challenges-pimentes?at_medium=display&amp;at_campaign=149",
+          "summary": "L’Anses alerte sur les dangers pour la santé liés à la mode des challenge pimentés sur les réseaux sociaux. Si les sensations de brûlures intenses sont connues, les risques…",
+          "pubDate": "2026-07-24T07:32:37.000Z",
+          "source": "20 Minutes"
+        },
+        {
           "title": "Les yeux clairs sont-ils plus sensibles ?",
           "link": "https://www.franceinfo.fr/replay-radio/c-est-ma-sante/les-yeux-clairs-sont-ils-plus-sensibles_8063840.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Les yeux clairs seraient plus sensibles au soleil que les yeux sombres. Pour comprendre si cette idée reçue est vraie, il faut d'abord savoir comment notre œil fonctionne et…",
@@ -318,13 +325,6 @@
           "link": "https://www.lemonde.fr/campus/article/2026/07/24/plus-mon-ventre-grossissait-plus-il-m-a-ete-difficile-de-trouver-des-missions-la-maternite-frein-a-la-carriere-des-femmes_6731415_4401467.html",
           "summary": "« Sois belle et produis » (5/6). Mises au placard, refus de promotion, licenciements abusifs… Les trajectoires professionnelles des femmes sont encore aujourd’hui percutées de…",
           "pubDate": "2026-07-24T03:30:04.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Dans les sous-sols de l’Institut Pasteur, on étudie les moustiques pour lutter contre des virus",
-          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/07/24/dans-les-sous-sols-de-l-institut-pasteur-on-etudie-les-moustiques-pour-lutter-contre-des-virus_6731409_4355770.html",
-          "summary": "« Sus aux moustiques ! » (4/4). Dans l’insectarium parisien, les chercheurs élèvent et bichonnent des milliers de moustiques pour tenter de mieux comprendre comment dengue,…",
-          "pubDate": "2026-07-24T03:00:22.000Z",
           "source": "Le Monde"
         }
       ]
@@ -416,6 +416,13 @@
       "label": "Tech & numérique",
       "items": [
         {
+          "title": "\"Il faut abandonner l'illusion de sécurité offerte par la surveillance de masse\": l'UE réautorise les plateformes en ligne à détecter des images pédopornographiques, mais préserve les conversations chiffrées",
+          "link": "https://www.bfmtv.com/tech/vie-numerique/il-faut-abandonner-l-illusion-de-securite-offerte-par-la-surveillance-de-masse-l-ue-reautorise-les-plateformes-en-ligne-a-detecter-des-images-pedopornographiques-mais-preserve-les-conversations-chiffrees_AD-202607240212.html",
+          "summary": "Après une négociation ardue, qui oppose protection de l'enfance et défense des libertés essentielles, l'Union européenne réintroduit le très décrié Chat Control, dérogation à la…",
+          "pubDate": "2026-07-24T07:31:11.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "Lunettes connectées : Instagram s’attaque au « phénomène » des vidéos non consenties",
           "link": "https://www.01net.com/actualites/lunettes-connectees-instagram-attaque-phenomene-videos-non-consenties.html",
           "summary": "Instagram va supprimer les vidéos dans lesquelles des utilisateurs filment des inconnus à leur insu grâce aux lunettes connectées de Meta. Le réseau social se dit prêt à tout…",
@@ -441,13 +448,6 @@
           "link": "https://www.01net.com/actualites/40-pourcent-immatriculations-guerre-moyen-orient-aubaine-voiture-electrique-europe.html",
           "summary": "Les ventes de voitures électriques neuves explosent en Europe. Sur le mois de juin, les immatriculations ont bondi de 40 % par rapport à juin 2021. Concrètement, plus de 25 % des…",
           "pubDate": "2026-07-24T06:02:53.000Z",
-          "source": "01net"
-        },
-        {
-          "title": "Adieu l’électrique ? HORSE dévoile un prolongateur d’autonomie écologique alimenté au méthanol",
-          "link": "https://www.01net.com/actualites/adieu-electrique-horse-devoile-prolongateur-autonomie-ecologique-au-methanol.html",
-          "summary": "Avons-nous trouvé une alternative aux véhicules électriques ? La solution avancée par HORSE est en tout cas attrayante sous tous rapports. Voici le prolongateur d’autonomie…",
-          "pubDate": "2026-07-24T05:29:56.000Z",
           "source": "01net"
         }
       ]
@@ -826,6 +826,13 @@
       "label": "Sport",
       "items": [
         {
+          "title": "\"Il faut des étapes comme ça pour créer la légende du Tour\" : la double ascension de l’Alpe d’Huez, un nouveau défi au sommet de l’histoire du Tour de France",
+          "link": "https://www.franceinfo.fr/tour-de-france/il-faut-des-etapes-comme-ca-pour-creer-la-legende-du-tour-la-double-ascension-de-l-alpe-d-huez-un-nouveau-defi-au-sommet-de-l-histoire-du-tour-de-france_8119424.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le peloton va terminer le triptyque alpestre par deux arrivées successives à l'Alpe d'Huez, qui impressionnent autant qu'elles excitent les coureurs.",
+          "pubDate": "2026-07-24T07:26:05.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "L'évolution de la gouvernance du Comité d'organisation des Jeux des Alpes 2030 repoussée à la rentrée, un audit sur la \"santé mentale des agents\" annoncé",
           "link": "https://www.franceinfo.fr/les-jeux-olympiques/alpes-francaises-2030/l-evolution-de-la-gouvernance-du-comite-d-organisation-des-jeux-des-alpes-2030-repoussee-a-la-rentree-un-audit-sur-la-sante-mentale-des-agents-annonce_8120276.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Malgré de nombreux départs de directeurs depuis plusieurs mois, le Comité d'organisation d'Alpes 2030 n'a pas encore trouvé un consensus pour les remplacer.",
@@ -852,13 +859,6 @@
           "summary": "Un programme costaud pour les coureurs, vendredi, avec trois cols compliqués avant une montée finale vers l'Alpe d'Huez et ses 21 lacets.",
           "pubDate": "2026-07-24T06:43:02.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Tour de France 2026 : Le profil et le parcours de la 19e étape vendredi",
-          "link": "https://www.20minutes.fr/sport/cyclisme/4236022-20260724-tour-france-2026-profil-parcours-19e-etape-vendredi?at_medium=display&amp;at_campaign=149",
-          "summary": "Vendredi entre Gap et l'Alpe d'Huez (127 km dans les Alpes), l'étape pourrait bien s'avérer décisive, à deux jours de l'arrivée à Paris, dimanche",
-          "pubDate": "2026-07-24T05:02:40.000Z",
-          "source": "20 Minutes"
         }
       ]
     }
