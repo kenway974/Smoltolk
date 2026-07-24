@@ -6,10 +6,12 @@
 
 import { useSyncExternalStore } from "react";
 import { MISSIONS, MISSION_BY_ID } from "../data/missions";
+import { BOSSES, BOSS_BY_ID } from "../data/bosses";
 
 const KEY = "smoltolk.journal.v1";
 const GOAL_KEY = "smoltolk.journal.goal.v1";      // objectif hebdo (nombre)
 const MISSIONS_KEY = "smoltolk.journal.missions.v1"; // défis validés (map id -> timestamp)
+const BOSSES_KEY = "smoltolk.journal.bosses.v1";     // boss validés (map id -> timestamp)
 
 // ---- Vocabulaire des résultats (du plus positif au plus rude) -------------
 export const RESULTATS = [
@@ -90,10 +92,27 @@ export function toggleMission(id) {
   listeners.forEach((l) => l());
 }
 
+// ---- Boss (défis costauds, débloqués par niveau) --------------------------
+function loadBosses() {
+  try { return JSON.parse(localStorage.getItem(BOSSES_KEY)) || {}; }
+  catch { return {}; }
+}
+let bossesCache = loadBosses();
+export function getDoneBosses() { return bossesCache; }
+export function isBossDone(id) { return !!bossesCache[id]; }
+export function toggleBoss(id) {
+  const next = { ...bossesCache };
+  if (next[id]) delete next[id];
+  else next[id] = Date.now();
+  bossesCache = next;
+  try { localStorage.setItem(BOSSES_KEY, JSON.stringify(next)); } catch { /* ignore */ }
+  listeners.forEach((l) => l());
+}
+
 // ---- Export / import (sauvegarde locale) ----------------------------------
 export function exportData() {
   return JSON.stringify(
-    { version: 1, exportedAt: Date.now(), entries: cache, goal: goalCache, missions: missionsCache },
+    { version: 1, exportedAt: Date.now(), entries: cache, goal: goalCache, missions: missionsCache, bosses: bossesCache },
     null,
     2
   );
@@ -117,6 +136,10 @@ export function importData(json) {
   if (data.missions && typeof data.missions === "object") {
     missionsCache = { ...data.missions, ...missionsCache };
     try { localStorage.setItem(MISSIONS_KEY, JSON.stringify(missionsCache)); } catch { /* ignore */ }
+  }
+  if (data.bosses && typeof data.bosses === "object") {
+    bossesCache = { ...data.bosses, ...bossesCache };
+    try { localStorage.setItem(BOSSES_KEY, JSON.stringify(bossesCache)); } catch { /* ignore */ }
   }
   if (Number.isFinite(data.goal)) setWeeklyGoal(data.goal);
   listeners.forEach((l) => l());
@@ -267,7 +290,7 @@ export const LEVELS = [
   { min: 1800, titre: "Chez toi partout",    emoji: "✨" },
 ];
 
-export function computeXP(entries = cache, doneMissions = missionsCache) {
+export function computeXP(entries = cache, doneMissions = missionsCache, doneBosses = bossesCache) {
   let xp = 0;
   for (const e of entries) {
     xp += XP_PER_ENTRY;
@@ -276,6 +299,10 @@ export function computeXP(entries = cache, doneMissions = missionsCache) {
   for (const id of Object.keys(doneMissions || {})) {
     const m = MISSION_BY_ID[id];
     if (m) xp += m.xp;
+  }
+  for (const id of Object.keys(doneBosses || {})) {
+    const b = BOSS_BY_ID[id];
+    if (b) xp += b.xp;
   }
   return xp;
 }
@@ -309,12 +336,40 @@ export function daysSinceLastEntry(entries = cache, now = Date.now()) {
   return Math.floor((now - last) / 86400000);
 }
 
+// ---- Boss du jour (débloqué au niveau 3) ----------------------------------
+export function computeDailyBoss(doneBosses = bossesCache, now = Date.now()) {
+  const pool = BOSSES.filter((b) => !doneBosses[b.id]);
+  if (!pool.length) return null;
+  const idx = localDayIndex(now) % pool.length;
+  return pool[idx];
+}
+
+// ---- Récompenses / déblocages par niveau ----------------------------------
+// Ce qui s'ouvre en montant de niveau — donne un cap concret à la progression.
+export const REWARDS = [
+  { level: 2, key: "defi",     emoji: "🎯", titre: "Défi du jour",       desc: "Un défi choisi pour toi chaque jour." },
+  { level: 3, key: "boss",     emoji: "🐉", titre: "Boss du jour",       desc: "Un défi costaud quand tu es prêt." },
+  { level: 4, key: "victoires",emoji: "🏅", titre: "Mur des victoires",  desc: "Tes meilleurs moments réunis." },
+  { level: 5, key: "confiance",emoji: "📈", titre: "Confiance affinée",  desc: "Assez de recul pour lire ta courbe." },
+  { level: 6, key: "aise",     emoji: "😎", titre: "Le déclic",          desc: "Aborder devient un réflexe, plus une épreuve." },
+];
+export function rewardsState(level) {
+  return REWARDS.map((r) => ({ ...r, unlocked: level >= r.level }));
+}
+
+// ---- Mur des victoires (entrées marquantes) -------------------------------
+// Un « win » = ça a accroché, ou un ressenti à 4-5. Purement local, privé.
+export function computeWins(entries = cache) {
+  return entries.filter((e) => e.resultat === "top" || (typeof e.ressenti === "number" && e.ressenti >= 4));
+}
+
 // ---- Synchronisation entre onglets ----------------------------------------
 if (typeof window !== "undefined") {
   window.addEventListener("storage", (e) => {
     if (e.key === KEY) cache = load();
     else if (e.key === GOAL_KEY) goalCache = loadGoal();
     else if (e.key === MISSIONS_KEY) missionsCache = loadMissions();
+    else if (e.key === BOSSES_KEY) bossesCache = loadBosses();
     else return;
     listeners.forEach((l) => l());
   });
@@ -325,3 +380,4 @@ export function useJournal() { return useSyncExternalStore(subscribe, getEntries
 export function useJournalCount() { return useSyncExternalStore(subscribe, () => cache.length); }
 export function useWeeklyGoal() { return useSyncExternalStore(subscribe, getWeeklyGoal); }
 export function useDoneMissions() { return useSyncExternalStore(subscribe, getDoneMissions); }
+export function useDoneBosses() { return useSyncExternalStore(subscribe, getDoneBosses); }

@@ -180,6 +180,64 @@ export const MISSIONS = [
     desc: "Recroise quelqu'un que tu avais déjà abordé et reprends la discussion là où elle s'était arrêtée : tu transformes un contact en lien qui dure.",
     xp: 55,
   },
+
+  // ── Ajouts ────────────────────────────────────────────────────────
+  {
+    id: "regard-sourire-deux-secondes",
+    tier: "echauffement",
+    titre: "Tenir un regard souriant 2 secondes",
+    desc: "Accroche le regard de quelqu'un et garde ton sourire deux petites secondes avant de détourner les yeux : juste assez pour dire 'je te vois' en douceur.",
+    xp: 10,
+  },
+  {
+    id: "bonne-journee-commercant",
+    tier: "echauffement",
+    titre: "Souhaiter une bonne journée",
+    desc: "En quittant une boutique ou un café, lance un 'bonne journée !' sincère au commerçant : un petit mot chaleureux qui laisse une trace sympa des deux côtés.",
+    xp: 10,
+  },
+  {
+    id: "demander-recommandation",
+    tier: "contact",
+    titre: "Demander une recommandation",
+    desc: "Demande à quelqu'un de te conseiller un plat, un livre ou un endroit qu'il aime : les gens adorent partager leurs coups de cœur, et ça lance l'échange tout seul.",
+    xp: 20,
+  },
+  {
+    id: "engager-file-attente",
+    tier: "contact",
+    titre: "Engager ton voisin de file",
+    desc: "Dans une file ou une salle d'attente, glisse un mot à la personne à côté de toi : vous vivez le même moment, c'est le prétexte parfait pour briser la glace.",
+    xp: 25,
+  },
+  {
+    id: "question-de-suivi",
+    tier: "echange",
+    titre: "Poser une question de suivi",
+    desc: "Quand l'autre te raconte quelque chose, relance avec un simple 'et ensuite ?' ou 'ça t'a fait quoi ?' : tu montres ton intérêt et l'histoire continue.",
+    xp: 35,
+  },
+  {
+    id: "reutiliser-le-prenom",
+    tier: "echange",
+    titre: "Réutiliser le prénom",
+    desc: "Retiens le prénom de la personne et replace-le une fois dans la conversation : un petit geste qui réchauffe l'échange et montre que tu es vraiment là.",
+    xp: 35,
+  },
+  {
+    id: "question-sur-un-reve",
+    tier: "profond",
+    titre: "Poser une question sur un projet",
+    desc: "Demande à l'autre ce qui le fait vibrer en ce moment, un rêve ou un projet qui lui tient à cœur : tu ouvres une porte vers une conversation qui compte vraiment.",
+    xp: 50,
+  },
+  {
+    id: "compliment-sur-une-qualite",
+    tier: "profond",
+    titre: "Complimenter une qualité",
+    desc: "Offre un compliment sincère non pas sur un objet mais sur une qualité que tu remarques (sa patience, son humour, sa gentillesse) : ça touche bien plus profond.",
+    xp: 50,
+  },
 ];
 
 export const MISSION_BY_ID = Object.fromEntries(MISSIONS.map((m) => [m.id, m]));

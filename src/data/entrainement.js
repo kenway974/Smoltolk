@@ -405,6 +405,256 @@ export const DRILLS = [
     ],
     cle: "Proposer de se revoir dans un cadre existant est doux : l'autre peut dire non sans tout casser.",
   },
+
+  // ─────────────────── OUVRIR (P0) — série 2 ───────────────────
+  {
+    id: "ouvrir-marche-cageots",
+    niveau: "ouvrir",
+    contexte: "Sur le marché, la personne à côté de toi soupèse les mêmes tomates que toi.",
+    toiDis: "Je sais jamais comment on est censés les choisir, celles-là, j'ai l'impression de faire semblant de m'y connaître.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Haha moi pareil ! On m'a dit qu'il fallait sentir le pédoncule, mais franchement je fais au pif.",
+        move: "Elle rebondit et t'apprend un truc : elle a payé. Enchaîne léger « Tu cuisines quoi avec, du coup ? » Tu tiens un fil concret et tu passes tranquillement en P1.",
+      },
+      {
+        ton: "neutre",
+        elle: "Faut qu'elles soient bien rouges, je crois.",
+        move: "Elle répond mais sans t'ouvrir. Une relance basse : « Tu viens souvent ici le samedi ? » Si ça reste sec, tu souris, tu remplis ton panier et tu laisses filer.",
+      },
+      {
+        ton: "froid",
+        elle: "Elle prend son sachet et passe au stand suivant sans un mot.",
+        move: "Message clair, aucun souci. Souris intérieurement, choisis tes tomates et continue tes courses. Tu as tenté avec justesse : c'est déjà une réussite.",
+      },
+    ],
+    cle: "Ouvrir, c'est offrir une porte, pas forcer une conversation.",
+  },
+  {
+    id: "ouvrir-laverie-machine",
+    niveau: "ouvrir",
+    contexte: "À la laverie, tu tournes en rond en attendant ton cycle, quelqu'un fait pareil.",
+    toiDis: "Je crois que le pire, c'est ces quarante minutes où on ne sait pas trop quoi faire de soi.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Ah carrément ! Moi j'ai fini par ramener un bouquin, sinon je fixe le hublot comme un poisson.",
+        move: "Elle ouvre et te donne une image drôle : parfait. Rebondis « Et ça marche, le bouquin, ou tu fixes le hublot quand même ? » Léger et joueur, tu peux cadrer.",
+      },
+      {
+        ton: "neutre",
+        elle: "Ouais, c'est un peu long.",
+        move: "Réponse courte, elle n'a pas payé. Tente une dernière relance douce « Tu habites le quartier ? », puis lis : si elle reste brève, tu retournes à ton téléphone sans insister.",
+      },
+      {
+        ton: "froid",
+        elle: "Un petit hochement, puis elle met ses écouteurs.",
+        move: "Écouteurs = bulle assumée, elle a le droit. Souris, sors ton propre truc pour patienter et détends-toi. Tu as été correct, c'est tout ce qui compte.",
+      },
+    ],
+    cle: "Nommer un moment d'attente partagé suffit à ouvrir sans intrusion.",
+  },
+
+  // ─────────────────── CADRER (P1) — série 2 ───────────────────
+  {
+    id: "cadrer-salle-attente",
+    niveau: "cadrer",
+    contexte: "Dans une salle d'attente médicale, la personne en face pose son magazine en soufflant.",
+    toiDis: "Ils ont l'air d'avoir du retard aujourd'hui, tu attends depuis longtemps ?",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Une bonne demi-heure ! Mais bon, ce médecin vaut le coup d'attendre. Tu viens pour la première fois ?",
+        move: "Elle répond et te relance : elle a payé. Réponds simplement puis tire le fil « ce médecin vaut le coup » : « Ah, on me l'a recommandé, il est si bien que ça ? » Ton cadre tient.",
+      },
+      {
+        ton: "neutre",
+        elle: "Vingt minutes.",
+        move: "Info donnée, sans ouverture. Une relance ouverte : « C'est toujours comme ça ici ? » Si elle reste monosyllabique, souris et reprends ton attente, sans forcer.",
+      },
+      {
+        ton: "froid",
+        elle: "Elle reprend son magazine sans répondre vraiment.",
+        move: "Pas dispo pour discuter, ce n'est pas contre toi — un cabinet médical, ça stresse. Petit sourire, tu la laisses tranquille. Tu as tenté poliment : rien à regretter.",
+      },
+    ],
+    cle: "Cadrer, c'est poser une question ouverte et écouter le fil qu'elle tend.",
+  },
+  {
+    id: "cadrer-covoiturage",
+    niveau: "cadrer",
+    contexte: "En covoiturage, tu es à l'arrière à côté d'un autre passager, la route est longue.",
+    toiDis: "Tu descends où toi, c'est le trajet complet ou tu t'arrêtes en chemin ?",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Je vais jusqu'au bout, je rentre voir ma famille pour le week-end. Et toi, c'est boulot ou perso ?",
+        move: "Elle raconte et te renvoie la question : nickel. Réponds avec une petite touche perso, ça crée du commun. Le trajet est long, le fil « ce qui nous amène là » peut durer.",
+      },
+      {
+        ton: "neutre",
+        elle: "Jusqu'à la fin.",
+        move: "Réponse brève, elle n'a pas encore payé. Relance ouverte : « Tu fais souvent ce trajet ? » Une seule tentative, puis lis : si ça reste fermé, laisse le silence exister, c'est OK en voiture.",
+      },
+      {
+        ton: "froid",
+        elle: "« Terminus », et elle remet ses écouteurs en regardant par la fenêtre.",
+        move: "Elle veut faire la route dans sa bulle, respecte-le totalement. Un hochement, et tu profites du paysage ou de ta musique. Deux heures de silence cordial, ça n'a rien de gênant.",
+      },
+    ],
+    cle: "Le bon fil, c'est souvent le contexte que vous partagez déjà.",
+  },
+
+  // ─────────────────── COLORER (P2) — série 2 ───────────────────
+  {
+    id: "colorer-musee-tableau",
+    niveau: "colorer",
+    contexte: "Au musée, tu discutes déjà un peu avec cette personne devant une toile que tout le monde encense.",
+    toiDis: "Je vais être honnête, celle-là me laisse complètement froid, alors que la petite d'à côté que personne ne regarde, elle me touche vraiment.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Ah, intéressant ! Moi c'est l'inverse, mais viens, montre-moi ce que tu vois dans la petite.",
+        move: "Elle mord au débat avec curiosité : jackpot. Explique sincèrement ce qui te touche et demande-lui ce qu'elle voit dans la grande. Le désaccord de goût, c'est le sel : cultive-le.",
+      },
+      {
+        ton: "neutre",
+        elle: "Ah oui, elle est jolie la petite aussi.",
+        move: "Elle acquiesce sans se mouiller. Creuse sans imposer : « Tu es plutôt classique ou moderne, toi, dans ce que tu aimes ? » Tu l'invites à colorer à son tour plutôt qu'à te suivre.",
+      },
+      {
+        ton: "froid",
+        elle: "« C'est un chef-d'œuvre quand même », sur un ton qui clôt le sujet.",
+        move: "Le débat ne prend pas, inutile d'insister. Souris « C'est vrai que les goûts, heureusement que ça se discute pas vraiment » et passe à une autre salle. Pas de bataille d'avis.",
+      },
+    ],
+    cle: "Assumer un goût, même à contre-courant, rend la conversation vivante.",
+  },
+  {
+    id: "colorer-boulangerie-pain",
+    niveau: "colorer",
+    contexte: "À la boulangerie, la personne devant toi hésite entre la baguette classique et la tradition.",
+    toiDis: "J'ai un avis très tranché là-dessus : la tradition bien cuite, presque brûlée, sinon ça ne vaut pas le coup. Je crois que je suis un extrémiste de la croûte.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Haha un extrémiste de la croûte, j'adore ! Moi je suis team mie moelleuse, on est incompatibles.",
+        move: "Elle joue le jeu et assume l'inverse : parfait. Rebondis avec le sourire « Team mie, c'est presque une trahison, mais je te pardonne. » Garde le ton taquin et bienveillant, tu peux embrayer.",
+      },
+      {
+        ton: "neutre",
+        elle: "Ah oui, bien cuite c'est meilleur.",
+        move: "Elle est d'accord mais courte. Relance pour la faire sortir : « Tu la prends plutôt pour quoi, un truc précis ou juste comme ça ? » Tu ramènes du concret partagé plutôt que de rester sur ton avis.",
+      },
+      {
+        ton: "froid",
+        elle: "Un sourire poli, puis elle passe sa commande sans relever.",
+        move: "Ta petite vanne n'a pas fait mouche, aucun drame. « Bonne journée à vous » et tu commandes à ton tour. Pas de justification, pas de seconde tentative : tu restes léger.",
+      },
+    ],
+    cle: "Colorer, c'est oser une opinion joueuse — et savoir la lâcher si ça ne prend pas.",
+  },
+
+  // ────────────────── APPROFONDIR (P3) — série 2 ──────────────────
+  {
+    id: "approfondir-cours-soir",
+    niveau: "approfondir",
+    contexte: "À la pause d'un cours du soir que vous suivez tous les deux, l'échange est déjà sincère.",
+    toiDis: "Pour être honnête, je me suis inscrit ici parce que mes soirées étaient devenues vides et un peu tristes. J'avais besoin d'un truc à moi, un rendez-vous dans la semaine.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Ça me parle tellement, c'est exactement pour ça que je suis là aussi, je tournais en rond chez moi.",
+        move: "Tu as donné, elle donne à son tour : vraie réciprocité. Accueille sans juger, partage une petite chose concrète que ça t'a déjà apportée. Reste à sa hauteur, pas de leçon.",
+      },
+      {
+        ton: "neutre",
+        elle: "Ah oui, c'est bien de se bouger.",
+        move: "Elle reconnaît sans se livrer. N'aspire pas l'intimité de force : reviens un cran plus léger « Et toi, tu voulais apprendre ça depuis longtemps ? » Laisse-lui le choix de descendre ou pas.",
+      },
+      {
+        ton: "froid",
+        elle: "« Ah. Oui, c'est sympa comme cours. » Elle regarde ses notes, clairement mal à l'aise.",
+        move: "Tu es allé un cran trop loin pour elle, ça arrive. Remonte sans malaise « Bref, en tout cas le prof est top ce soir » et reprends léger. Tu t'es exposé avec courage, c'est une réussite en soi.",
+      },
+    ],
+    cle: "Approfondir, c'est te livrer un peu d'abord — puis laisser de la place, sans réclamer.",
+  },
+  {
+    id: "approfondir-aeroport-attente",
+    niveau: "approfondir",
+    contexte: "En salle d'embarquement, le vol est retardé et tu discutes depuis un moment avec ton voisin de banc.",
+    toiDis: "Je t'avoue que je déteste voyager seul, ça me renvoie toujours à quel point je me disperse et oublie de prendre des nouvelles des gens. Ce vol, c'est justement pour rattraper ça.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Je ressens exactement ça, on se laisse happer et un jour on réalise qu'on a lâché tout le monde. Tu vas voir qui ?",
+        move: "Ton aveu l'a autorisée à s'ouvrir et elle te relance : savoure. Réponds vrai, puis laisse un peu de place. Vous touchez à quelque chose de réel, reste-y sans meubler.",
+      },
+      {
+        ton: "neutre",
+        elle: "Oui, c'est important de garder le contact.",
+        move: "Elle traduit ton émotion en quelque chose de plus neutre : c'est son confort. Ne force pas, souris « C'est clair » et reviens un cran plus léger sur sa destination.",
+      },
+      {
+        ton: "froid",
+        elle: "« Mmh. » Elle regarde le panneau d'affichage, visiblement pas dans ce registre.",
+        move: "Le partage intime ne lui convient pas là, aucun souci. Reviens au concret « En espérant qu'ils annoncent l'embarquement bientôt » et allège. Tu t'es montré vrai, c'est courageux et ça compte.",
+      },
+    ],
+    cle: "Donne avant de demander : ta vulnérabilité rend la sienne possible, jamais obligatoire.",
+  },
+
+  // ─────────────────── SORTIR — série 2 ───────────────────
+  {
+    id: "sortir-contact-voisinage",
+    niveau: "sortir",
+    contexte: "Après une vraie bonne discussion dans le hall avec ce voisin que tu croises depuis des mois, tu dois monter.",
+    toiDis: "Bon, je te laisse, mais c'était chouette de vraiment discuter pour une fois. Un de ces quatre ça me dirait de prendre un café, on échange nos numéros ?",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Ah oui, avec plaisir, c'est bête qu'on se soit jamais parlé avant ! Tiens, voilà mon numéro.",
+        move: "Un oui franc : reste simple et posé. Enregistre, envoie-lui un petit texto tout de suite pour qu'elle ait le tien, souris et monte sur cette bonne note. Pas besoin d'en rajouter.",
+      },
+      {
+        ton: "neutre",
+        elle: "Écoute, on se croise tout le temps de toute façon, on aura l'occasion !",
+        move: "Un non doux déguisé en « plus tard », accueille-le avec grâce : « C'est vrai, à très vite alors ! » Souris sincèrement et monte léger. Vous restez de bons voisins, c'est déjà précieux.",
+      },
+      {
+        ton: "froid",
+        elle: "« Ah, je préfère qu'on en reste aux bonjours, sans façon », un peu gênée.",
+        move: "Un non clair, tu l'entends du premier coup. « Bien sûr, pas de souci, bonne soirée voisine ! » chaleureux et tu montes sans traîner. Avoir demandé simplement et accepté le non : c'est ça, être quelqu'un de safe.",
+      },
+    ],
+    cle: "Demander un contact franchement puis accepter le non sans broncher, c'est ça la classe.",
+  },
+  {
+    id: "sortir-neutre-musee",
+    niveau: "sortir",
+    contexte: "Fin de visite au musée, vous avez papoté de salle en salle mais vos chemins se séparent à la sortie.",
+    toiDis: "Bon, moi je vais filer par là, mais franchement c'était un vrai plaisir de visiter à deux, ça change tout.",
+    reactions: [
+      {
+        ton: "chaleureux",
+        elle: "Ah oui carrément, ça rend la visite tellement mieux ! Tu fais souvent les expos ?",
+        move: "Elle prolonge la porte : si tu le sens, embraie sur un contact « Justement, il y en a une autre bientôt, ça te dirait ? » Sinon savoure simplement la fin sur cette bonne note.",
+      },
+      {
+        ton: "neutre",
+        elle: "Oui, c'était sympa, bonne fin de journée à toi.",
+        move: "Sortie propre et mutuelle, exactement le but. Souris, hoche la tête et pars vraiment de ton côté. Tu as clos au bon moment, sur une note positive : parfait.",
+      },
+      {
+        ton: "froid",
+        elle: "« Ouais, voilà. Bonne continuation », déjà tournée vers la sortie.",
+        move: "L'échange s'était éteint, tu pars pile au bon moment. Aucun ressenti négatif : tu t'éclipses tranquillement. Savoir clore avant que ça ne traîne est une compétence, tu viens de l'exercer.",
+      },
+    ],
+    cle: "Partir pendant que c'est encore bon vaut mieux que s'accrocher jusqu'au malaise.",
+  },
 ];
 
 export const DRILL_BY_ID = Object.fromEntries(DRILLS.map((d) => [d.id, d]));

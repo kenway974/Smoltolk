@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react";
 import {
   ArrowLeft, Plus, Flame, Trash2, X, Check, MapPin, TrendingUp,
   CalendarDays, Star, Sparkles, Award, ChevronDown, Trophy, Target,
-  Minus, Download, Upload, Zap, HeartHandshake,
+  Minus, Download, Upload, Zap, HeartHandshake, Swords, Lock, Medal, Gift,
 } from "lucide-react";
 import {
   useJournal, addEntry, removeEntry,
@@ -11,6 +11,7 @@ import {
   useWeeklyGoal, setWeeklyGoal, exportData, importData,
   useDoneMissions, toggleMission,
   computeXP, computeLevel, computeDailyMission, daysSinceLastEntry,
+  useDoneBosses, toggleBoss, computeDailyBoss, rewardsState, computeWins,
 } from "../utils/journal";
 import { INTENTIONS } from "../data/intentions";
 import { TIER_BY_KEY } from "../data/missions";
@@ -305,16 +306,21 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const entries = useJournal();
   const goal = useWeeklyGoal();
   const doneMissions = useDoneMissions();
+  const doneBosses = useDoneBosses();
   const [adding, setAdding] = useState(!!prefill);
   const [showAllBadges, setShowAllBadges] = useState(false);
+  const [showWins, setShowWins] = useState(false);
   const [ioMsg, setIoMsg] = useState(null);
 
   const stats = useMemo(() => computeStats(entries), [entries]);
   const review = useMemo(() => computeWeekReview(entries), [entries]);
   const points = useMemo(() => computeConfidencePoints(entries), [entries]);
   const badges = useMemo(() => computeBadges(entries), [entries]);
-  const level = useMemo(() => computeLevel(computeXP(entries, doneMissions)), [entries, doneMissions]);
+  const level = useMemo(() => computeLevel(computeXP(entries, doneMissions, doneBosses)), [entries, doneMissions, doneBosses]);
   const daily = useMemo(() => computeDailyMission(doneMissions), [doneMissions]);
+  const boss = useMemo(() => computeDailyBoss(doneBosses), [doneBosses]);
+  const wins = useMemo(() => computeWins(entries), [entries]);
+  const rewards = rewardsState(level.level);
   const inactiveDays = daysSinceLastEntry(entries);
 
   const goalPct = Math.min(100, Math.round((stats.thisWeekCount / goal) * 100));
@@ -439,6 +445,26 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
               );
             })()}
 
+            {/* Boss du jour (débloqué au niveau 3) */}
+            {level.level >= 3 && boss && (
+              <div className="mb-4 rounded-2xl border border-rose-200 bg-gradient-to-br from-rose-50 to-orange-50 p-4">
+                <div className="flex items-start gap-3">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-rose-500 text-white flex-shrink-0"><Swords size={18} strokeWidth={2.2} /></span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-rose-600">Boss du jour</span>
+                      <span className="text-[10px] font-bold text-amber-600">+{boss.xp} XP</span>
+                    </div>
+                    <p className="text-[15px] font-semibold text-stone-900 leading-snug mt-0.5">{boss.titre}</p>
+                    <p className="text-[12px] text-stone-500 leading-snug mt-0.5">{boss.desc}</p>
+                    <button onClick={() => toggleBoss(boss.id)} className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-500 text-white text-[12px] font-semibold hover:bg-rose-600 active:scale-95 transition-colors">
+                      <Check size={13} strokeWidth={2.5} /> Je l'ai fait
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Stats */}
             <div className="flex gap-2.5">
               <Stat icon={Sparkles} value={stats.total} label={stats.total > 1 ? "tentatives" : "tentative"} tint="bg-emerald-100 text-emerald-600" />
@@ -517,6 +543,61 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
                   <ChevronDown size={13} strokeWidth={2.5} className={`transition-transform ${showAllBadges ? "rotate-180" : ""}`} />
                 </button>
               )}
+            </div>
+
+            {/* Mur des victoires (débloqué au niveau 4) */}
+            {level.level >= 4 && wins.length > 0 && (
+              <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50/50 overflow-hidden">
+                <button onClick={() => setShowWins((v) => !v)} className="w-full flex items-center gap-2.5 px-4 py-3.5 text-left active:scale-[0.99] transition-transform">
+                  <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-amber-400 text-white flex-shrink-0"><Medal size={17} strokeWidth={2.2} /></span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[14px] font-semibold text-stone-900">Mur des victoires</p>
+                    <p className="text-[12px] text-stone-500">{wins.length} moment{wins.length > 1 ? "s" : ""} où ça a bien tourné</p>
+                  </div>
+                  <ChevronDown size={16} strokeWidth={2.5} className={`text-stone-400 transition-transform ${showWins ? "rotate-180" : ""}`} />
+                </button>
+                {showWins && (
+                  <div className="px-4 pb-4 flex flex-col gap-2">
+                    {wins.slice(0, 12).map((w) => (
+                      <div key={w.id} className="rounded-xl bg-white border border-amber-100 px-3.5 py-2.5">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          {w.lieu && <span className="text-[13px] font-semibold text-stone-800">{w.lieu}</span>}
+                          {w.avecQui && <span className="text-[12px] text-stone-500">· {w.avecQui}</span>}
+                          {typeof w.ressenti === "number" && (
+                            <span className="inline-flex items-center gap-0.5 ml-auto">
+                              {[1,2,3,4,5].map((n) => <Star key={n} size={10} strokeWidth={2} className={n <= w.ressenti ? "fill-amber-400 text-amber-400" : "text-stone-200"} />)}
+                            </span>
+                          )}
+                        </div>
+                        {(w.marche || w.note) && <p className="mt-1 text-[12px] text-stone-500 italic leading-snug">« {w.marche || w.note} »</p>}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Récompenses / déblocages */}
+            <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
+              <div className="flex items-center gap-1.5 mb-3">
+                <Gift size={14} strokeWidth={2.5} className="text-violet-500" />
+                <span className="text-[12px] font-semibold uppercase tracking-wide text-violet-600">Récompenses</span>
+                <span className="ml-auto text-[11px] text-stone-400">{rewards.filter((r) => r.unlocked).length}/{rewards.length}</span>
+              </div>
+              <div className="flex flex-col gap-1.5">
+                {rewards.map((r) => (
+                  <div key={r.key} className={`flex items-center gap-2.5 rounded-xl px-3 py-2 ${r.unlocked ? "bg-violet-50" : "bg-stone-50"}`}>
+                    <span className={`text-[18px] leading-none ${r.unlocked ? "" : "grayscale opacity-40"}`}>{r.emoji}</span>
+                    <div className="min-w-0 flex-1">
+                      <p className={`text-[13px] font-semibold leading-tight ${r.unlocked ? "text-stone-900" : "text-stone-400"}`}>{r.titre}</p>
+                      <p className="text-[11px] text-stone-400 leading-tight">{r.unlocked ? r.desc : `Niveau ${r.level}`}</p>
+                    </div>
+                    {r.unlocked
+                      ? <Check size={14} strokeWidth={2.5} className="text-violet-500 flex-shrink-0" />
+                      : <Lock size={13} strokeWidth={2} className="text-stone-300 flex-shrink-0" />}
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Timeline */}
