@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-07-23T17:13:51.353Z",
+  "generatedAt": "2026-07-24T07:31:16.000Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
-          "title": "Incendies en Gironde: \"3.700 hectares ont brûlé\", indiquent les autorités",
-          "link": "https://www.bfmtv.com/meteo/video-incendies-en-gironde-3-700-hectares-ont-brule-indiquent-les-autorites_VN-202607230575.html",
-          "summary": "L'incendie près du bassin d'Arcachon en Gironde, en cours depuis mercredi, a parcouru 3.400 hectares. Au total, plus de 20.000 personnes ont été évacuées et le feu est toujours…",
-          "pubDate": "2026-07-23T17:09:29.000Z",
+          "title": "Comment réintégrer les chiens après une morsure ?",
+          "link": "https://www.bfmtv.com/grand-littoral/replay-emissions/bonjour-littoral/video-comment-reintegrer-les-chiens-apres-une-morsure_VN-202607240208.html",
+          "summary": "Comment réintégrer les chiens après une morsure ? À Béthune, un refuge accueille ces animaux. Jean-François et Sabrina, de la Fondation Clara, travaillent ensuite avec eux pour…",
+          "pubDate": "2026-07-24T07:28:02.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "\"Jusqu'à présent, aucun grand modèle de langage n'avait jamais obtenu un score parfait\": deux modèles d’IA triomphent lors de l'Olympiade internationale de mathématiques",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/jusqu-a-present-aucun-grand-modele-de-langage-n-avait-jamais-obtenu-un-score-parfait-deux-modeles-d-ia-triomphent-lors-de-l-olympiade-internationale-de-mathematiques_AD-202607230572.html",
-          "summary": "Deux modèles d'IA chinois ont obtenu 100% aux Olympiades internationales de mathématiques. Des modèles des entreprises américaines OpenAI et Anthropic ont également fait un…",
-          "pubDate": "2026-07-23T17:06:36.000Z",
+          "title": "Centre Pompidou : Laurent Le Bon reconduit à la présidence du musée parisien, fermé pour rénovation jusqu'en 2030",
+          "link": "https://www.bfmtv.com/culture/centre-pompidou-laurent-le-bon-reconduit-a-la-presidence-du-musee-parisien-ferme-pour-renovation-jusqu-en-2030_AD-202607240202.html",
+          "summary": "Déjà président du Centre Pompidou à Paris, Laurent Le Bon a été reconduit à cette fonction pour trois ans. Le musée parisien a fermé ses portes jusqu'à 2030 pour des travaux de…",
+          "pubDate": "2026-07-24T07:24:45.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Un directeur d'école incarcéré pour agressions sexuelles sur mineurs et corruption de mineurs dans le Nord",
-          "link": "https://www.bfmtv.com/grand-lille/un-directeur-d-ecole-incarcere-pour-agressions-sexuelles-sur-mineurs-et-corruption-de-mineurs-dans-le-nord_AD-202607230569.html",
-          "summary": "Le parquet de Busigny a indiqué que le directeur d'une école de Busigny a été mis en examen pour agressions sexuelles sur mineurs commis dans le cadre de son activité…",
-          "pubDate": "2026-07-23T17:05:14.000Z",
+          "title": "Incendie en Gironde : la préfecture ordonne d'évacuer l'ensemble de la presqu'île du Cap-Ferret, la surface parcourue par le feu a presque doublé dans la nuit",
+          "link": "https://www.franceinfo.fr/faits-divers/incendies-en-gironde/direct-incendie-en-gironde-la-prefecture-ordonne-l-evacuation-sans-delai-des-premiers-villages-de-la-presqu-ile-du-capferret_8120039.html#xtor=RSS-3-[lestitres]",
+          "summary": "L'incendie, qui s'est déclaré mercredi au nord du Bassin d'Arcachon, a parcouru plus de 8 700 hectares.",
+          "pubDate": "2026-07-24T07:24:09.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "En portefeuille : La saison des publications lancée - 24/07",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-en-portefeuille-la-saison-des-publications-lancee-24-07_VN-202607240203.html",
+          "summary": "Ce vendredi 24 juillet, les dernières publications des entreprises notamment celles de SAP, STMicroelectronics, Soitec et Carrefour, ont été commentées par Matthias Desmarais,…",
+          "pubDate": "2026-07-24T07:22:51.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "À quoi ressembleront les futurs billets en euros ? Donnez votre avis !",
-          "link": "https://www.bfmtv.com/international/video-a-quoi-ressembleront-les-futurs-billets-en-euros-donnez-votre-avis_VN-202607230567.html",
-          "summary": "Christine Lagarde, présidente de la BCE, invite les citoyens à participer au choix des graphismes qui figureront sur les prochains billets de banque européens. Les votes pourront…",
-          "pubDate": "2026-07-23T17:01:21.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Moonshot AI et son modèle Kimi K3 font trembler les Etats-Unis, le gouvernement américain accuse la start-up chinoise d’avoir franchi \"la ligne rouge du vol de propriété intellectuelle\" et la menace de sanctions",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/moonshot-ai-et-son-modele-kimi-k3-font-trembler-les-etats-unis-le-gouvernement-americain-accuse-la-start-up-chinoise-d-avoir-franchi-la-ligne-rouge-du-vol-de-propriete-intellectuelle-et-la-menace-de-sanctions_AV-202607230566.html",
-          "summary": "Quelques jours après son lancement et ses impressionnants résultats, l'intelligence artificielle chinoise Kimi K3, développée par la start-up Moonshot, est accusée par un…",
-          "pubDate": "2026-07-23T17:00:03.000Z",
+          "title": "\"On a traversé un épais nuage de fumée\": Le témoignage de Julia Delage, directrice adjointe de la rédaction de BFMTV, évacuée de la presqu'île du Cap-Ferret",
+          "link": "https://www.bfmtv.com/environnement/climat/video-on-a-traverse-un-epais-nuage-de-fumee-le-temoignage-de-julia-delage-directrice-adjointe-de-la-redaction-de-bfmtv-evacuee-de-la-presqu-ile-du-cap-ferret_VN-202607240198.html",
+          "summary": "La préfecture de Gironde annonce que plus de 8.700 hectares ont été parcourus par l'incendie près du Cap-Ferret. Aucune personne n'a été blessée, souligne-t-elle.",
+          "pubDate": "2026-07-24T07:19:02.000Z",
           "source": "BFMTV"
         }
       ]
@@ -47,39 +47,39 @@
       "label": "Monde",
       "items": [
         {
-          "title": "À quoi ressembleront les futurs billets en euros ? Donnez votre avis !",
-          "link": "https://www.bfmtv.com/international/video-a-quoi-ressembleront-les-futurs-billets-en-euros-donnez-votre-avis_VN-202607230567.html",
-          "summary": "Christine Lagarde, présidente de la BCE, invite les citoyens à participer au choix des graphismes qui figureront sur les prochains billets de banque européens. Les votes pourront…",
-          "pubDate": "2026-07-23T17:01:21.000Z",
+          "title": "DIRECT. Guerre au Moyen-Orient : nouvelles frappes de l'armée américaine en Iran pour la treizième nuit consécutive",
+          "link": "https://www.franceinfo.fr/monde/proche-orient/guerre/direct-guerre-au-moyen-orient-nouvelles-frappes-de-l-armee-americaine-en-iran-pour-la-treizieme-nuit-consecutive_8120123.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Des médias d'Etat iraniens ont rapporté, vendredi, des explosions dans le sud du pays et sur l'île de Qeshm, près du détroit d'Ormuz.",
+          "pubDate": "2026-07-24T07:15:23.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Ukraine-Russie: la guerre",
+          "link": "https://www.bfmtv.com/international/europe/ukraine-russie-le-bras-de-fer-mondial_DN-201904150203.html",
+          "summary": "Après des années de tension, le président russe Vladimir Poutine a relancé le conflit entre son pays et l'Ukraine - dirigée par Volodymyr Zelensky - en annonçant, le 21 février…",
+          "pubDate": "2026-07-24T06:57:32.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "En Cisjordanie, le quotidien d’un hameau palestinien harcelé par des colons",
-          "link": "https://www.lemonde.fr/international/article/2026/07/23/en-cisjordanie-le-quotidien-d-un-hameau-palestinien-harcele-par-des-colons_6731066_3210.html",
-          "summary": "Dans le village bédouin d’Umm Al-Khair, l’une des localités du sud de la Cisjordanie encerclées par des colonies et des bases militaires, la famille Al-Hathaleen subit les…",
-          "pubDate": "2026-07-23T17:00:05.000Z",
-          "source": "Le Monde"
+          "title": "Guerre en Ukraine: une attaque de drones provoque un incendie à Saint-Pétersbourg, la Russie dit avoir abattu 571 drones ukrainiens",
+          "link": "https://www.bfmtv.com/international/europe/ukraine/guerre-en-ukraine-une-attaque-de-drones-provoque-un-incendie-a-saint-petersbourg-la-russie-dit-avoir-abattu-571-drones-ukrainiens_AD-202607240175.html",
+          "summary": "Une attaque de drones ukrainiens a touché un entrepôt du géant russe du commerce en ligne Wildberries (surnommé \"l'Amazon de la Russie\") ce vendredi 24 juillet, faisant plusieurs…",
+          "pubDate": "2026-07-24T06:57:31.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky salue l’adoption de nouvelles sanctions européennes contre la Russie",
-          "link": "https://www.lemonde.fr/international/live/2026/07/23/en-direct-guerre-en-ukraine-volodymyr-zelensky-salue-l-adoption-de-nouvelles-sanctions-europeennes-contre-la-russie_6725306_3210.html",
-          "summary": "Les Etats membres de l’Union européenne se sont accordés, jeudi, pour infliger de nouvelles sanctions à la Russie, après plusieurs semaines de négociations.",
-          "pubDate": "2026-07-23T16:55:54.000Z",
-          "source": "Le Monde"
+          "title": "Guerre au Moyen-Orient: des frappes américaines font au moins quatre morts en Iran",
+          "link": "https://www.bfmtv.com/international/moyen-orient/iran/guerre-au-moyen-orient-des-frappes-americaines-font-au-moins-quatre-morts-en-iran_AD-202607240158.html",
+          "summary": "Des frappes américaines dans le sud-ouest de l'Iran ont fait au moins quatre morts et cinq blessés dans la nuit de jeudi et ce vendredi 24 juillet aux alentours de la ville…",
+          "pubDate": "2026-07-24T06:46:56.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "Dans les pays du Golfe persique, omerta généralisée sur les attaques iraniennes",
-          "link": "https://www.france24.com/fr/moyen-orient/20260723-frappes-iraniennes-golfe-persique-arrestations-images-bahrein-koweit",
-          "summary": "Depuis le début du conflit entre l’Iran et les États-Unis, plus de 1 000 personnes ont été arrêtées pour avoir tenté de documenter les frappes iraniennes dans les pays du Golfe…",
-          "pubDate": "2026-07-23T16:47:52.000Z",
-          "source": "France 24"
-        },
-        {
-          "title": "La Chine n’a pas lancé un programme de charité pour offrir des climatiseurs aux Français",
-          "link": "https://www.france24.com/fr/france/20260723-la-chine-n-a-pas-lanc%C3%A9-un-programme-de-charit%C3%A9-pour-offrir-des-climatiseurs-aux-fran%C3%A7ais",
-          "summary": "Des internautes affirment que la Chine se moquerait du manque de climatisation en France. Ils partagent une vidéo humoristique en chinois annonçant la création d'une association…",
-          "pubDate": "2026-07-23T16:39:16.000Z",
-          "source": "France 24"
+          "title": "Guerre en Iran et au Moyen-Orient",
+          "link": "https://www.bfmtv.com/international/moyen-orient/iran/frappes-en-iran_DN-202603020421.html",
+          "summary": "Israël et les États-Unis ont mené une série de frappes en Iran dans le cadre de l'opération \"fureur épique\", samedi 28 février 2026. Les opérations ont mené à la mort de nombreux…",
+          "pubDate": "2026-07-24T06:46:56.000Z",
+          "source": "BFMTV"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "label": "Politique",
       "items": [
         {
-          "title": "Présidentielle 2027 : le candidat Jean-Luc Mélenchon (LFI) a dîné avec des grands patrons sur invitation du lobby France Industrie",
-          "link": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-candidat-jean-luc-melenchon-lfi-a-dine-avec-des-grands-patrons-sur-invitation-du-lobby-france-industrie_8119691.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le lobby compte 53 grandes entreprises privées adhérentes comme Renault, ou encore Dassault, et 31 fédérations sectorielles de l'industrie, à l'image d'Aluminium France ou encore…",
-          "pubDate": "2026-07-23T17:05:50.000Z",
+          "title": "\"Ce gouvernement a fait le choix d'abandonner la lutte contre les incendies. On en paye aujourd'hui le prix fort\", affirme Manon Aubry, eurodéputée LFI",
+          "link": "https://www.franceinfo.fr/politique/ce-gouvernement-a-fait-le-choix-d-abandonner-la-lutte-contre-les-incendies-on-en-paye-aujourd-hui-le-prix-fort-affirme-manon-aubry-eurodeputee-lfi_8120252.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Invitée des \"4V\" sur France 2 vendredi 24 juillet, Manon Aubry est revenue sur les incendies qui touchent la France, mettant en cause le gouvernement sur le manque d'anticipation…",
+          "pubDate": "2026-07-24T07:08:26.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"On a le droit de critiquer ses choix politiques\" : la plainte de la DJ Barbara Butch suscite l'incompréhension de La France insoumise",
-          "link": "https://www.franceinfo.fr/politique/la-france-insoumise/on-a-le-droit-de-critiquer-ses-choix-politiques-la-plainte-de-la-dj-barbara-butch-suscite-l-incomprehension-de-la-france-insoumise_8119451.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Cinq jours après l'interruption de son concert par des militants propalestiniens et des membre du parti de gauche, l'artiste a annoncé porter plainte. La France insoumise rappelle…",
-          "pubDate": "2026-07-23T16:35:54.000Z",
+          "title": "Édito. Le Conseil constitutionnel, passage quasi obligé pour les lois les plus sensibles",
+          "link": "https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-le-conseil-constitutionnel-passage-quasi-oblige-pour-les-lois-les-plus-sensibles_8063897.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Saisi 26 fois depuis le début de l'année, le Conseil constitutionnel n'a jamais été autant sollicité depuis quinze ans. Oppositions comme gouvernement comptent désormais sur les…",
+          "pubDate": "2026-07-24T05:55:02.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Le Japonais Kozo Okamoto, auteur d'un attentat meurtrier en Israël en 1972, est mort",
-          "link": "https://www.franceinfo.fr/politique/mort-du-japonais-kozo-okamoto-auteur-d-un-attentat-meurtrier-en-israel-en-1972_8119544.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Kozo Okamoto était l'un des auteurs d'une attaque perpétrée en 1972 au nom du Front populaire de libération de la Palestine (FPLP) à l'aéroport de Tel-Aviv, qui avait fait 26…",
-          "pubDate": "2026-07-23T16:25:34.000Z",
+          "title": "Un dispositif de sécurité spécifique prévu pour la représentation de la DJ Barbara Butch dans l'Yonne",
+          "link": "https://www.franceinfo.fr/culture/musique/electro/un-dispositif-de-securite-specifique-prevu-pour-la-representation-de-la-dj-barbara-butch-dans-l-yonne_8120084.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Des gendarmes, des policiers et une unité spécialisée de la police ferroviaire sont mobilisés et un dispositif de sécurité privé sera déployé sur le site. Les organisateurs ont…",
+          "pubDate": "2026-07-24T04:57:51.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Après l'affaire Barbara Butch, le chef de file grenoblois de LFI saisit la justice pour des \"injures à caractère raciste\" et des \"menaces\"",
-          "link": "https://www.franceinfo.fr/politique/apres-l-affaire-barbara-butch-le-chef-de-file-grenoblois-de-lfi-annonce-saisir-la-justice-pour-des-injures-a-caractere-raciste-et-des-menaces_8119475.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Allan Brunon, élu insoumis à la mairie de Grenoble, a participé à la manifestation qui a mené à l'interruption du concert de la DJ samedi. Il dénonce notamment une campagne de…",
-          "pubDate": "2026-07-23T15:48:01.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Gabriel Attal",
-          "link": "https://www.bfmtv.com/politique/gabriel-attal_DN-202108310662.html",
-          "summary": "Gabriel Attal est un homme politique français. Auparavant membre du Parti socialiste, il a été élu député de la 11e circonscription des Hauts-de-Seine en 2017, sous l'étiquette En…",
-          "pubDate": "2026-07-23T15:46:04.000Z",
+          "title": "\"La situation reste sous très forte tension\": Emmanuel Macron annonce l'arrivée de moyens européens pour aider à lutter contre les incendies en France",
+          "link": "https://www.bfmtv.com/politique/elysee/la-situation-reste-sous-tres-forte-tension-emmanuel-macron-annonce-l-arrivee-de-moyens-europeens-pour-aider-a-lutter-contre-les-incendies-en-france_AV-202607240046.html",
+          "summary": "Dans un message publié dans la nuit de jeudi à ce vendredi 24 juillet, le président de la République a annoncé avoir demandé l'activation du mécanisme de protection civile de…",
+          "pubDate": "2026-07-24T04:01:41.000Z",
           "source": "BFMTV"
+        },
+        {
+          "title": "Présidentielle 2027 : pendant l’été, une période de précampagne difficile à ignorer pour les candidats",
+          "link": "https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-pendant-l-ete-une-periode-de-precampagne-difficile-a-ignorer-pour-les-candidats_6731416_823448.html",
+          "summary": "A quelques mois de l’élection, la période estivale est un moment privilégié pour certains candidats de se montrer sur le terrain et pour les partis de consolider leur base.",
+          "pubDate": "2026-07-24T03:30:25.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -129,39 +129,39 @@
       "label": "Société",
       "items": [
         {
-          "title": "Un directeur d'école soupçonné d'agressions sexuelles sur mineurs incarcéré et mis en examen à Busigny, dans le Nord",
-          "link": "https://www.franceinfo.fr/faits-divers/un-directeur-d-ecole-soupconne-d-agressions-sexuelles-sur-mineurs-incarcere-et-mis-en-examen-a-busigny-dans-le-nord_8119658.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le chef d'établissement a été arrêté pour des faits d’agressions sexuelles et corruption de mineurs commis dans le cadre de son activité professionnelle. Il a été suspendu par le…",
-          "pubDate": "2026-07-23T17:03:06.000Z",
+          "title": "\"Ce gouvernement a fait le choix d'abandonner la lutte contre les incendies. On en paye aujourd'hui le prix fort\", affirme Manon Aubry, eurodéputée LFI",
+          "link": "https://www.franceinfo.fr/politique/ce-gouvernement-a-fait-le-choix-d-abandonner-la-lutte-contre-les-incendies-on-en-paye-aujourd-hui-le-prix-fort-affirme-manon-aubry-eurodeputee-lfi_8120252.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Invitée des \"4V\" sur France 2 vendredi 24 juillet, Manon Aubry est revenue sur les incendies qui touchent la France, mettant en cause le gouvernement sur le manque d'anticipation…",
+          "pubDate": "2026-07-24T07:08:26.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Un homme de 74 ans mis en examen et placé en détention provisoire pour des viols et agressions sexuelles sur 17 mineurs",
-          "link": "https://www.franceinfo.fr/societe/pedocriminalite/un-homme-de-74-ans-mis-en-examen-et-place-en-detention-provisoire-pour-des-viols-et-agressions-sexuelles-sur-17-mineurs_8119670.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le septuagénaire est soupçonné d'avoir abusé d'enfants âgés de moins de deux ans à une douzaine d'années, pendant 25 ans.",
-          "pubDate": "2026-07-23T16:58:37.000Z",
+          "title": "\"En étant adjoint au maire de Marseille et président du bailleur social, j'ai un certain nombre de leviers\" : Amine Kessaci poursuit son combat contre le narcotrafic",
+          "link": "https://www.franceinfo.fr/replay-radio/ils-ont-fait-l-actu/en-etant-adjoint-au-maire-de-marseille-et-president-du-bailleur-social-j-ai-un-certain-nombre-de-leviers-amine-kessaci-poursuit-son-combat-contre-le-narcotrafic_8063891.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Après des années de combat contre le narcotrafic, Amine Kessaci est devenu adjoint au maire de Marseille en charge de la jeunesse et de la citoyenneté. Malgré les menaces qui…",
+          "pubDate": "2026-07-24T06:56:58.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "À Biarritz, les deux animateurs soupçonnés d'agressions sexuelles mis en examen, \"douze potentielles victimes\" selon le parquet",
-          "link": "https://www.franceinfo.fr/societe/pedocriminalite/a-biarritz-les-deux-animateurs-soupconnes-d-agressions-sexuelles-mis-en-examen-douze-potentielles-victimes-selon-le-parquet_8119637.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le nombre de victimes est susceptible d'évoluer, selon la procureur de Bayonne. Plusieurs enfants doivent encore être entendus.",
-          "pubDate": "2026-07-23T16:41:16.000Z",
+          "title": "Un ostéopathe des Pyrénées-Atlantiques mis en examen pour viol et agressions sexuelles sur des patientes",
+          "link": "https://www.franceinfo.fr/societe/harcelement-sexuel/un-osteopathe-des-pyrenees-atlantiques-mis-en-examen-pour-viol-et-agressions-sexuelles-sur-des-patientes_8120180.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'homme, ancien élu FN et ex-joueur de rugby, pratiquait à Bassussarry. Les patientes qui ont porté plainte parlent \"d'hypnose et de soumission\".",
+          "pubDate": "2026-07-24T05:41:34.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Les fêtes foraines, un grand frisson qui séduit toujours autant en cette période estivale",
-          "link": "https://www.franceinfo.fr/economie/les-fetes-foraines-un-grand-frisson-qui-seduit-toujours-autant-en-cette-periode-estivale_8119505.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Manèges, trains fantômes et barbes à papa… Les fêtes foraines sont nombreuses pendant les vacances. Derrière les attractions, il y a aussi des familles de forains qui perpétuent…",
-          "pubDate": "2026-07-23T16:28:21.000Z",
+          "title": "Les enterrements de vie de jeune fille sous la pression des réseaux sociaux",
+          "link": "https://www.franceinfo.fr/replay-radio/l-il-de-marion/les-enterrements-de-vie-de-jeune-fille-sous-la-pression-des-reseaux-sociaux_8092319.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Sur Instagram et TikTok, les vidéos d’enterrements de vie de jeune fille cumulent des centaines de milliers de vues. Les réseaux sociaux redéfinissent les codes de ces week-ends…",
+          "pubDate": "2026-07-24T05:23:51.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Dérivé du tennis, le padel gagne du terrain en France",
-          "link": "https://www.franceinfo.fr/sports/sport-et-loisirs/derive-du-tennis-le-padel-gagne-du-terrain-en-france_8119421.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "C'est un sport qui devient de plus en plus populaire : le padel. Dérivée du tennis, cette discipline séduit toutes les générations, et les terrains se multiplient partout dans le…",
-          "pubDate": "2026-07-23T16:25:35.000Z",
-          "source": "franceinfo"
+          "title": "Incendie en Gironde: \"Là on est allés à la maison et il n'y a plus rien\", déclare Noam, un habitant sinistré",
+          "link": "https://www.bfmtv.com/societe/video-feux-en-gironde-la-on-est-alles-a-la-maison-et-il-n-y-a-plus-rien-declare-noam-un-habitant-sinistre_VN-202607240078.html",
+          "summary": "Alors que l'incendie en Gironde a brûlé au moins 4.800 hectares, la préfecture a ordonné vers 4 heures du matin l'évacuation des \"premiers villages de la presqu'île du Cap-Ferret\".",
+          "pubDate": "2026-07-24T05:07:28.000Z",
+          "source": "BFMTV"
         }
       ]
     },
@@ -170,38 +170,38 @@
       "label": "Justice & faits divers",
       "items": [
         {
-          "title": "Un directeur d'école soupçonné d'agressions sexuelles sur mineurs incarcéré et mis en examen à Busigny, dans le Nord",
-          "link": "https://www.franceinfo.fr/faits-divers/un-directeur-d-ecole-soupconne-d-agressions-sexuelles-sur-mineurs-incarcere-et-mis-en-examen-a-busigny-dans-le-nord_8119658.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le chef d'établissement a été arrêté pour des faits d’agressions sexuelles et corruption de mineurs commis dans le cadre de son activité professionnelle. Il a été suspendu par le…",
-          "pubDate": "2026-07-23T17:03:06.000Z",
+          "title": "\"En étant adjoint au maire de Marseille et président du bailleur social, j'ai un certain nombre de leviers\" : Amine Kessaci poursuit son combat contre le narcotrafic",
+          "link": "https://www.franceinfo.fr/replay-radio/ils-ont-fait-l-actu/en-etant-adjoint-au-maire-de-marseille-et-president-du-bailleur-social-j-ai-un-certain-nombre-de-leviers-amine-kessaci-poursuit-son-combat-contre-le-narcotrafic_8063891.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Après des années de combat contre le narcotrafic, Amine Kessaci est devenu adjoint au maire de Marseille en charge de la jeunesse et de la citoyenneté. Malgré les menaces qui…",
+          "pubDate": "2026-07-24T06:56:58.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"Ca fume !\" : près d'un mois après le crash d'avion de tourisme près de Nancy, le BEA relève un signalement de fumée avant la perte de contrôle de l'avion",
-          "link": "https://www.franceinfo.fr/faits-divers/ca-fume-pres-d-un-mois-apres-le-crash-d-avion-de-tourisme-pres-de-nancy-le-bea-releve-un-signalement-de-fumee-avant-la-perte-de-controle-de-l-avion_8119586.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'avion s'est écrasé alors que onze personnes étaient à bord. Le pilote ainsi que cinq moniteurs et cinq élèves sont morts, dans le cadre d'un baptême de saut en parachute.…",
-          "pubDate": "2026-07-23T16:11:54.000Z",
+          "title": "Un enfant de 2 ans se noie dans une piscine privée en Isère",
+          "link": "https://www.franceinfo.fr/faits-divers/noyades/un-enfant-de-2-ans-se-noie-dans-une-piscine-privee-en-isere_8120255.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'enfant a échappé à la vigilance de ses parents jeudi soir. Les pompiers n'ont pas pu le ranimer.",
+          "pubDate": "2026-07-24T06:55:39.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Meurtre de Thomas à Crépol: la circonstance aggravante de racisme contre la \"race blanche et la nation française\" retenue contre les suspects",
-          "link": "https://www.bfmtv.com/police-justice/video-meurtre-de-thomas-a-crepol-la-circonstance-aggravante-de-racisme-contre-la-race-blanche-et-la-nation-francaise-retenue-contre-les-suspects_VN-202607230500.html",
-          "summary": "La juge d’instruction chargée de l’affaire du meurtre de Thomas Perotto à Crépol en 2023 a finalement retenu que les victimes ont été agressées en raison de leur \"race blanche\", a…",
-          "pubDate": "2026-07-23T15:42:23.000Z",
-          "source": "BFMTV"
+          "title": "TEMOIGNAGES. \"On se demande si ce n'est pas la fin du monde\" : en Gironde, les évacués de l'incendie du Cap-Ferret témoignent de scènes \"impressionnantes, limite apocalyptiques\"",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/temoignages-on-se-demande-si-ce-n-est-pas-la-fin-du-monde-en-gironde-les-evacues-du-cap-ferret-temoignent-de-scenes-impressionnantes-limites-apocalyptiques_8120234.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'incendie au nord du bassin d'Arcachon, en Gironde, a désormais parcouru 8 700 hectares. La préfecture a ordonné l’évacuation progressive de l’ensemble de la presqu'île du Bassin…",
+          "pubDate": "2026-07-24T06:53:16.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Un véhicule de l'influenceuse Carla Moreau incendié à Marseille, une lettre signée “DZ Mafia” a été retrouvée sur place",
-          "link": "https://www.bfmtv.com/police-justice/video-un-vehicule-de-l-influenceuse-carla-moreau-incendie-a-marseille-une-lettre-signee-dz-mafia-a-ete-retrouvee-sur-place_VN-202607230480.html",
-          "summary": "Dans la nuit du mercredi 22 au jeudi 23 juillet, les policiers sont intervenus au domicile de la star de la télé-réalité Carla Moreau, à Marseille. Sur place, les agents ont…",
-          "pubDate": "2026-07-23T15:13:55.000Z",
-          "source": "BFMTV"
+          "title": "Plusieurs pays européens envoient des renforts aériens en Gironde pour lutter contre les incendies",
+          "link": "https://www.franceinfo.fr/replay-radio/d-un-monde-a-l-autre/plusieurs-pays-europeens-envoient-des-renforts-aeriens-en-gironde-pour-lutter-contre-les-incendies_8063873.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le mécanisme de protection civile de l'Union européenne a été activé pour venir en aide à la France face aux incendies en Gironde. Plusieurs appareils européens sont attendus dans…",
+          "pubDate": "2026-07-24T06:17:21.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Feux d'artifice : plus de 46 000 engins pyrotechniques saisis en France en six semaines",
-          "link": "https://www.franceinfo.fr/faits-divers/feux-d-artifice-plus-de-46-000-engins-pyrotechniques-saisis-en-france-en-six-semaines_8119469.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les douanes françaises ont réalisé ces saisies dans le cadre de l'opération nationale Taranis, lancée pour renforcer les contrôles avant plusieurs événements d'ampleur.",
-          "pubDate": "2026-07-23T14:58:52.000Z",
+          "title": "REPORTAGE. \"Ça nous fait vraiment plaisir\" : en Gironde, ces habitants accueillent les pompiers épuisés",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/reportage-ca-nous-fait-vraiment-plaisir-en-gironde-ces-habitants-accueillent-les-pompiers-epuises_8120189.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les 800 pompiers qui luttent contre les incendies actuellement en Nouvelle-Aquitaine peuvent compter sur le soutien des habitants, comme à Sainte-Hélène, à une vingtaine de…",
+          "pubDate": "2026-07-24T06:10:57.000Z",
           "source": "franceinfo"
         }
       ]
@@ -211,38 +211,38 @@
       "label": "Éco & argent",
       "items": [
         {
-          "title": "Cinq distributeurs disparaissent chaque jour: les Français utilisent toujours moins de cash (mais tout le monde peut retirer à moins de quinze minutes de chez soi)",
-          "link": "https://www.bfmtv.com/economie/economie-social/france/cinq-distributeurs-disparaissent-chaque-jour-les-francais-utilisent-toujours-moins-de-cash-mais-tout-le-monde-peut-retirer-a-moins-de-quinze-minutes-de-chez-soi-grace_AD-202607230564.html",
-          "summary": "La France a perdu près de 1 800 distributeurs automatiques de billets l'an dernier, soit une baisse de 4,2 %. Porté par la baisse de l'usage du cash et la volonté des banques de…",
-          "pubDate": "2026-07-23T16:56:54.000Z",
+          "title": "En portefeuille : La saison des publications lancée - 24/07",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/en-portefeuille-la-saison-des-publications-lancee-24-07_EN-202607240201.html",
+          "summary": "Ce vendredi 24 juillet, les dernières publications des entreprises notamment celles de SAP, STMicroelectronics, Soitec et Carrefour, ont été commentées par Matthias Desmarais,…",
+          "pubDate": "2026-07-24T07:22:52.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Le 18h Eco – Jeudi 23 juillet",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/le-18h-eco/le-18h-eco-jeudi-23-juillet_EN-202607230562.html",
-          "summary": "Retrouvez l’émission le 18h Eco présentée Erwan Morice du lundi au jeudi et réécoutez-la en podcast.",
-          "pubDate": "2026-07-23T16:53:42.000Z",
+          "title": "L'intégrale de Good Morning Business du vendredi 24 juillet 2026",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/l-integrale-de-good-morning-business-du-vendredi-24-juillet-2026_EN-202607240199.html",
+          "summary": "Ce vendredi 24 juillet, Éric Marcellin-Dibon, directeur général et cofondateur d'Engo Eyewear, Christophe Périllat, directeur général de Valeo, et Emmanuel Moulin, gouverneur de…",
+          "pubDate": "2026-07-24T07:19:33.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Mort du journaliste Jean-Marc Sylvestre, défenseur assumé d’un libéralisme décomplexé",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/07/23/mort-du-journaliste-jean-marc-sylvestre-defenseur-assume-d-un-liberalisme-decomplexe_6731064_3382.html",
-          "summary": "Visage de TF1 et LCI, l’éditorialiste avait prôné tout au long de sa carrière l’économie libérale en réponse aux maux de la société, à l’exception de son livre « Une petite…",
-          "pubDate": "2026-07-23T16:44:37.000Z",
-          "source": "Le Monde"
+          "title": "Des réservations de train en hausse de 85% sur certaines plateformes: les Français se précipitent-ils à Montpellier, la seule ville de France qui projette le film L'Odyssée dans les conditions optimales (en IMAX 70 mm)?",
+          "link": "https://www.bfmtv.com/economie/consommation/des-reservations-de-train-en-hausse-de-85-sur-certaines-plateformes-les-francais-se-precipitent-ils-a-montpellier-la-seule-ville-de-france-qui-projette-le-film-l-odyssee-dans-les-conditions-optimales-en-imax-70-mm_AV-202607240192.html",
+          "summary": "Selon les chiffres de Trainline ou de SNCF Connect, les achats de billets de train vers la ville de l'Hérault sont en hausse sensible depuis que le film de Christopher Nolan est à…",
+          "pubDate": "2026-07-24T07:11:12.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "La crise au Moyen-Orient se propage à l’économie, les taux d’intérêt de la France dépassent 4 % pour la première fois depuis 2008",
-          "link": "https://www.lemonde.fr/economie/article/2026/07/23/la-crise-au-moyen-orient-se-propage-a-l-economie-les-taux-d-interet-de-la-france-depassent-4-pour-la-premiere-fois-depuis-2008_6731063_3234.html",
-          "summary": "Le regain de tension sur les marchés du pétrole et du gaz augmente l’inflation et pousse la Banque centrale européenne à durcir sa politique monétaire.",
-          "pubDate": "2026-07-23T16:38:55.000Z",
-          "source": "Le Monde"
+          "title": "Le club de la Bourse : La BCE maintient ses taux directeurs inchangés - 24/07",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-le-club-de-la-bourse-la-bce-maintient-ses-taux-directeurs-inchanges-24-07_VN-202607240194.html",
+          "summary": "Retrouvez le club de la Bourse du vendredi 24 juillet dans l'émission Good Morning Market. Retrouvez l'émission du lundi au vendredi et réécoutez la en podcast.",
+          "pubDate": "2026-07-24T07:08:52.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "Dernières heures avant l’onde de choc commerciale: la nouvelle salve de droits de douane promise par la Maison Blanche va être annoncée \"très prochainement\"",
-          "link": "https://www.bfmtv.com/economie/dernieres-heures-avant-l-onde-de-choc-commerciale-la-nouvelle-salve-de-droits-de-douane-promise-par-la-maison-blanche-va-etre-annoncee-tres-prochainement_AD-202607230548.html",
-          "summary": "\"Restez connectés\", prévient la porte-parole de la Maison Blanche. Washington devrait annoncer \"très prochainement\" l'instauration de nouveaux droits de douane. Alors que les…",
-          "pubDate": "2026-07-23T16:32:10.000Z",
+          "title": "Un \"ouf\" de soulagement: les Européens rassurés par les nouveaux droits de douane américains (ils craignaient que Trump se venge après la méga-amende infligée à Google)",
+          "link": "https://www.bfmtv.com/economie/entreprises/un-ouf-de-soulagement-les-europeens-rassures-par-les-nouveaux-droits-de-douane-americains-ils-craignaient-que-trump-se-venge-apres-la-mega-amende-infligee-a-google_AD-202607240188.html",
+          "summary": "Le nouveau régime de taxes douanières annoncé par le gouvernement américain touchant une soixantaine d'économies respecte en effet, en ce qui concerne l'UE, le plafond de 15% qui…",
+          "pubDate": "2026-07-24T07:07:02.000Z",
           "source": "BFMTV"
         }
       ]
@@ -251,6 +251,27 @@
       "key": "emploi",
       "label": "Emploi & conso",
       "items": [
+        {
+          "title": "Grande distribution : Les conditions du plan de restructuration financière de Casino validées par les banques",
+          "link": "https://www.20minutes.fr/economie/4236064-20260723-grande-distribution-conditions-plan-restructuration-financiere-casino-validees-banques?at_medium=display&amp;at_campaign=149",
+          "summary": "Le groupe Casino a obtenu un accord de principe de ses créanciers bancaires pour poursuivre la restructuration de sa dette. Le dossier reste toutefois suspendu à la décision de la…",
+          "pubDate": "2026-07-23T19:17:30.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Tesla : La France écarte la conduite automatique supervisée pour des raisons de sécurité",
+          "link": "https://www.20minutes.fr/economie/4236061-20260723-tesla-france-ecarte-conduite-automatique-supervisee-raisons-securite?at_medium=display&amp;at_campaign=149",
+          "summary": "La France refuse, pour l’instant, d’autoriser le système de conduite assistée FSD Supervisé de Tesla. Le gouvernement estime que cette technologie ne présente pas encore des…",
+          "pubDate": "2026-07-23T18:38:33.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Les distributeurs de billets sont moins nombreux mais l’accès aux espèces reste assuré",
+          "link": "https://www.20minutes.fr/economie/4236059-20260723-distributeurs-billets-moins-nombreux-acces-especes-reste-assure?at_medium=display&amp;at_campaign=149",
+          "summary": "Malgré la suppression de 1.800 distributeurs automatiques de billets (DAB) en un an, la Banque de France assure que l’accès aux espèces reste largement garanti sur l’ensemble du…",
+          "pubDate": "2026-07-23T17:58:15.000Z",
+          "source": "20 Minutes"
+        },
         {
           "title": "L’UE valide sous conditions le méga rachat de Warner par Paramount",
           "link": "https://www.20minutes.fr/arts-stars/medias/4235990-20260723-ue-valide-sous-conditions-mega-rachat-warner-paramount?at_medium=display&amp;at_campaign=149",
@@ -264,27 +285,6 @@
           "summary": "Nestlé Waters s’associe au fonds américain Platinum Equity et va changer de nom pour Peranel, deux ans et demi après le scandale des traitements interdits appliqués à ses eaux…",
           "pubDate": "2026-07-23T12:27:39.000Z",
           "source": "20 Minutes"
-        },
-        {
-          "title": "EasyJet : Convoitée par des fonds américains, la compagnie affiche des performances en nette baisse",
-          "link": "https://www.20minutes.fr/economie/4235969-20260723-easyjet-convoitee-fonds-americains-compagnie-affiche-performances-nette-baisse?at_medium=display&amp;at_campaign=149",
-          "summary": "La hausse des prix des carburants, conséquence de la guerre au Moyen-Orient, pénalise la compagnie aérienne low cost",
-          "pubDate": "2026-07-23T11:48:04.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Mauvaise nouvelle pour la dette publique, le taux d’emprunt de la France au plus haut depuis 2009",
-          "link": "https://www.20minutes.fr/economie/4235947-20260723-mauvaise-nouvelle-dette-publique-taux-emprunt-france-plus-haut-depuis-2009?at_medium=display&amp;at_campaign=149",
-          "summary": "Ce jeudi matin, les taux auxquels la France emprunte sur dix ans ont dépassé le seuil de 4 % pour la première fois depuis juin 2009",
-          "pubDate": "2026-07-23T10:31:43.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Prix des carburants : La date limite de demande d’aide pour les gros rouleurs finalement reportée à fin août",
-          "link": "https://www.20minutes.fr/economie/4235934-20260723-prix-carburants-date-limite-demande-aide-gros-rouleurs-finalement-reportee-fin-aout?at_medium=display&amp;at_campaign=149",
-          "summary": "Le délai pour demander l’aide aux carburants de 100 euros destinée aux gros rouleurs est prolongé jusqu’à fin août au lieu de fin juillet, a annoncé ce jeudi la ministre de…",
-          "pubDate": "2026-07-23T10:16:23.000Z",
-          "source": "20 Minutes"
         }
       ]
     },
@@ -293,39 +293,39 @@
       "label": "Santé",
       "items": [
         {
-          "title": "Grippe : vers une vaccination obligatoire des soignants ?",
-          "link": "https://www.franceinfo.fr/sante/maladie/grippe/grippe-vers-une-vaccination-obligatoire-des-soignants_8119520.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les soignants seront-ils bientôt obligés de se faire vacciner chaque année contre la grippe ? La Haute Autorité de santé vient de se prononcer en faveur de cette mesure. Elle…",
-          "pubDate": "2026-07-23T17:00:01.000Z",
+          "title": "Les yeux clairs sont-ils plus sensibles ?",
+          "link": "https://www.franceinfo.fr/replay-radio/c-est-ma-sante/les-yeux-clairs-sont-ils-plus-sensibles_8063840.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les yeux clairs seraient plus sensibles au soleil que les yeux sombres. Pour comprendre si cette idée reçue est vraie, il faut d'abord savoir comment notre œil fonctionne et…",
+          "pubDate": "2026-07-24T07:20:25.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Médicaments : le gouvernement veut relever le plafond des franchises médicales",
-          "link": "https://www.franceinfo.fr/sante/medicaments-le-gouvernement-veut-relever-le-plafond-des-franchises-medicales_8119322.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le gouvernement envisage de doubler le plafond annuel des franchises médicales, qui passerait de 100 à 200 euros. Une mesure destinée à réduire le déficit de la Sécurité sociale,…",
-          "pubDate": "2026-07-23T16:14:38.000Z",
+          "title": "Psoriasis : Une découverte génétique majeure pourrait révolutionner le traitement des malades résistants",
+          "link": "https://www.20minutes.fr/sante/4235749-20260724-psoriasis-decouverte-genetique-majeure-pourrait-revolutionner-traitement-malades-resistants?at_medium=display&amp;at_campaign=149",
+          "summary": "Une découverte génétique menée par un consortium international et dirigée par un professeur français offre un espoir de traitement ciblé et efficace pour les patients souffrant de…",
+          "pubDate": "2026-07-24T06:32:36.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Un ostéopathe des Pyrénées-Atlantiques mis en examen pour viol et agressions sexuelles sur des patientes",
+          "link": "https://www.franceinfo.fr/societe/harcelement-sexuel/un-osteopathe-des-pyrenees-atlantiques-mis-en-examen-pour-viol-et-agressions-sexuelles-sur-des-patientes_8120180.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'homme, ancien élu FN et ex-joueur de rugby, pratiquait à Bassussarry. Les patientes qui ont porté plainte parlent \"d'hypnose et de soumission\".",
+          "pubDate": "2026-07-24T05:41:34.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"Je me dézinguais à m'en faire péter la couscoussière\" : l'ancien conseiller en communication de Gabriel Attal révèle son addiction passée à la cocaïne",
-          "link": "https://www.franceinfo.fr/sante/drogue-addictions/je-me-dezinguais-a-m-en-faire-peter-la-couscoussiere-l-ancien-conseiller-en-communication-de-gabriel-attal-revele-son-addiction-passee-a-la-cocaine_8119352.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le magazine \"Vanity Fair\" consacre un long portrait à Louis Jublin, qui a accompagné l'actuel candidat à la présidentielle pendant plusieurs années, de Bercy à Matignon. Le…",
-          "pubDate": "2026-07-23T15:44:35.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Loi sur la fin de vie : trois ans après la convention citoyenne, ses anciens membres peuvent enfin tourner la page",
-          "link": "https://www.lemonde.fr/societe/article/2026/07/23/loi-sur-la-fin-de-vie-trois-ans-apres-la-convention-citoyenne-ses-anciens-membres-peuvent-enfin-tourner-la-page_6730925_3224.html",
-          "summary": "Définitivement voté par les députés le 15 juillet, le texte créant un droit à l’aide à mourir achève un long processus, démarré en 2022 par les travaux des « conventionnels », qui…",
-          "pubDate": "2026-07-23T15:00:13.000Z",
+          "title": "« Plus mon ventre grossissait, plus il m’a été difficile de trouver des missions » : la maternité, frein à la carrière des femmes",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/24/plus-mon-ventre-grossissait-plus-il-m-a-ete-difficile-de-trouver-des-missions-la-maternite-frein-a-la-carriere-des-femmes_6731415_4401467.html",
+          "summary": "« Sois belle et produis » (5/6). Mises au placard, refus de promotion, licenciements abusifs… Les trajectoires professionnelles des femmes sont encore aujourd’hui percutées de…",
+          "pubDate": "2026-07-24T03:30:04.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Défavorable aux tests de féminité, la France lance un Observatoire de l’intersexuation et de l’identité dans le sport pour \"éclairer les choix des pouvoirs publics\"",
-          "link": "https://www.franceinfo.fr/sports/defavorable-aux-tests-de-feminite-la-france-lance-un-observatoire-de-l-intersexuation-et-de-l-identite-dans-le-sport-pour-eclairer-les-choix-des-pouvoirs-publics_8119418.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'Observatoire des variations, de l’intersexuation et de l’identité dans le sport a été créé, jeudi, par le ministère des sports de Marina Ferrari afin de se donner \"les moyens…",
-          "pubDate": "2026-07-23T14:53:30.000Z",
-          "source": "franceinfo"
+          "title": "Dans les sous-sols de l’Institut Pasteur, on étudie les moustiques pour lutter contre des virus",
+          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/07/24/dans-les-sous-sols-de-l-institut-pasteur-on-etudie-les-moustiques-pour-lutter-contre-des-virus_6731409_4355770.html",
+          "summary": "« Sus aux moustiques ! » (4/4). Dans l’insectarium parisien, les chercheurs élèvent et bichonnent des milliers de moustiques pour tenter de mieux comprendre comment dengue,…",
+          "pubDate": "2026-07-24T03:00:22.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -333,6 +333,20 @@
       "key": "sciences",
       "label": "Sciences",
       "items": [
+        {
+          "title": "Dans les sous-sols de l’Institut Pasteur, on étudie les moustiques pour lutter contre des virus",
+          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/07/24/dans-les-sous-sols-de-l-institut-pasteur-on-etudie-les-moustiques-pour-lutter-contre-des-virus_6731409_4355770.html",
+          "summary": "« Sus aux moustiques ! » (4/4). Dans l’insectarium parisien, les chercheurs élèvent et bichonnent des milliers de moustiques pour tenter de mieux comprendre comment dengue,…",
+          "pubDate": "2026-07-24T03:00:22.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "La médaille Fields remise à deux Chinois, un Américain et un Canadien pour leurs \"découvertes exceptionnelles\" en mathématiques",
+          "link": "https://www.franceinfo.fr/sciences/la-medaille-fields-remise-a-deux-chinois-un-americain-et-un-canadien-pour-leurs-decouvertes-exceptionnelles_8119760.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Cette prestigieuse récompense, considérée comme l'équivalent d'un \"Nobel de mathématiques\", consacre tous les quatre ans les travaux de chercheurs de moins de 40 ans à travers le…",
+          "pubDate": "2026-07-23T19:00:30.000Z",
+          "source": "franceinfo"
+        },
         {
           "title": "Un éclair frappe une fusée chinoise en plein vol",
           "link": "https://www.numerama.com/sciences/2300575-un-eclair-frappe-une-fusee-chinoise-en-plein-vol.html",
@@ -353,20 +367,6 @@
           "summary": "La récompense la plus réputée de cette discipline pour les chercheurs de moins de 40 ans a été décernée, jeudi, à deux professeurs chinois, Hong Wang et Yu Deng, ainsi qu’à…",
           "pubDate": "2026-07-23T14:06:45.000Z",
           "source": "Le Monde"
-        },
-        {
-          "title": "Comment profiter des Perséides, les superbes étoiles filantes du ciel de l’été ?",
-          "link": "https://www.numerama.com/sciences/642009-comment-profiter-des-perseides-les-superbes-etoiles-filantes-du-ciel-de-lete.html",
-          "summary": "Comme chaque été, les Perséides sont de retour dans le ciel. Depuis la mi-juillet 2026, cette pluie d'étoiles filantes est active. Mais beaucoup attendent son maximum d'activité…",
-          "pubDate": "2026-07-23T12:45:46.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "L’armée française s’équipe de son propre télescope pour surveiller l’espace",
-          "link": "https://www.numerama.com/sciences/2300031-larmee-francaise-sequipe-de-son-propre-telescope-pour-surveiller-lespace.html",
-          "summary": "Le télescope Providence, construit par le français Onera, aura pour but de surveiller les satellites en orbite basse pour le compte de l'armée. Mais aura également une dimension…",
-          "pubDate": "2026-07-23T11:35:00.000Z",
-          "source": "Numerama"
         }
       ]
     },
@@ -375,10 +375,31 @@
       "label": "Environnement",
       "items": [
         {
-          "title": "EN DIRECT, incendies : l’incendie en Gironde, qui a brûlé 3 400 hectares, n’est « pas encore stabilisé », la commune de Lège-Cap-Ferret appelle au « strict confinement »",
-          "link": "https://www.lemonde.fr/planete/live/2026/07/23/en-direct-incendies-l-incendie-en-gironde-qui-a-brule-3-400-hectares-n-est-pas-encore-stabilise-la-commune-de-lege-cap-ferret-appelle-au-strict-confinement_6730417_3244.html",
-          "summary": "Près de 20 000 habitants et touristes ont été évacués par précaution. Selon la préfète de la Gironde, les conditions météorologiques restent « défavorables ».",
-          "pubDate": "2026-07-23T17:05:27.000Z",
+          "title": "EN DIRECT, incendies : la préfecture ordonne l’évacuation « de l’ensemble de la presqu’île » du cap Ferret",
+          "link": "https://www.lemonde.fr/planete/live/2026/07/24/en-direct-incendies-plus-de-23-000-personnes-evacuees-dans-les-landes-en-gironde-la-prefecture-ordonne-l-evacuation-de-plusieurs-villages-de-la-presqu-ile-du-cap-ferret_6730417_3244.html",
+          "summary": "La préfecture a ordonné ce matin « l’évacuation progressive de l’ensemble de la presqu’île du Bassin d’Arcachon, village après village, de Claouey jusqu’à la pointe du cap Ferret…",
+          "pubDate": "2026-07-24T04:45:11.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Incendie en Gironde : « L’angoisse, c’est l’après, quand on va découvrir les paysages calcinés »",
+          "link": "https://www.lemonde.fr/planete/article/2026/07/24/incendie-en-gironde-nous-sommes-face-a-un-feu-imprevisible_6731411_3244.html",
+          "summary": "Le sinistre qui a démarré mercredi à Saumos a nécessité l’évacuation préventive de 20 000 personnes, détruit six maisons et tout ravagé sur une dizaine de kilomètres jusqu’au nord…",
+          "pubDate": "2026-07-24T03:29:18.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Dans les sous-sols de l’Institut Pasteur, on étudie les moustiques pour lutter contre des virus",
+          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/07/24/dans-les-sous-sols-de-l-institut-pasteur-on-etudie-les-moustiques-pour-lutter-contre-des-virus_6731409_4355770.html",
+          "summary": "« Sus aux moustiques ! » (4/4). Dans l’insectarium parisien, les chercheurs élèvent et bichonnent des milliers de moustiques pour tenter de mieux comprendre comment dengue,…",
+          "pubDate": "2026-07-24T03:00:22.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Quatre bassines d’irrigation doivent être démantelées en Charente-Maritime, ordonne la justice",
+          "link": "https://www.lemonde.fr/planete/article/2026/07/24/quatre-bassines-d-irrigation-doivent-etre-demantelees-en-charente-maritime-ordonne-la-justice_6731275_3244.html",
+          "summary": "Selon l’association à l’origine du contentieux, de nombreux manquements ont entaché l’édification de ces réserves d’eau. Les agriculteurs ont décidé de faire appel de cette…",
+          "pubDate": "2026-07-24T00:03:12.000Z",
           "source": "Le Monde"
         },
         {
@@ -386,27 +407,6 @@
           "link": "https://www.lemonde.fr/afrique/article/2026/07/23/en-tunisie-ou-les-temperatures-frolent-les-50-c-la-canicule-met-le-pays-sous-pression_6731062_3212.html",
           "summary": "Les secteurs de la santé et de l’agriculture sont mis à rude épreuve par les coupures d’électricité, et les incendies se multiplient.",
           "pubDate": "2026-07-23T16:30:09.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Incendies : quels sont les moyens dont dispose la France pour lutter contre les feux ?",
-          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/07/23/incendies-quels-sont-les-moyens-dont-dispose-la-france-pour-lutter-contre-les-feux_6730959_4355770.html",
-          "summary": "Depuis le début de l’été 2026, l’Hexagone fait face à une vague d’incendies sur l’ensemble de son territoire. De quoi mettre en lumière les dispositifs disponibles au sol comme…",
-          "pubDate": "2026-07-23T15:30:11.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Au Brésil, la politique de prévention des incendies du président Lula porte ses fruits",
-          "link": "https://www.lemonde.fr/planete/article/2026/07/23/au-bresil-la-politique-de-prevention-des-incendies-du-president-lula-porte-ses-fruits_6730782_3244.html",
-          "summary": "Le pays sud-américain a enregistré en 2025 une forte baisse des surfaces brûlées, de l’ordre d’un tiers par rapport à l’année précédente. L’effet probable d’un renforcement de la…",
-          "pubDate": "2026-07-23T13:00:06.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Marineland : huit dauphins transférés en Espagne",
-          "link": "https://www.lemonde.fr/international/video/2026/07/23/marineland-huit-dauphins-transferes-en-espagne_6730781_3210.html",
-          "summary": "Selon les associations, les dauphins ont été chargés dans des camions pour se rendre à l’aéroport de Nice, tout proche de Marineland, et s’envoler pour Malaga. A l’avenir, ces…",
-          "pubDate": "2026-07-23T12:59:07.000Z",
           "source": "Le Monde"
         }
       ]
@@ -416,39 +416,39 @@
       "label": "Tech & numérique",
       "items": [
         {
-          "title": "\"Jusqu'à présent, aucun grand modèle de langage n'avait jamais obtenu un score parfait\": deux modèles d’IA triomphent lors de l'Olympiade internationale de mathématiques",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/jusqu-a-present-aucun-grand-modele-de-langage-n-avait-jamais-obtenu-un-score-parfait-deux-modeles-d-ia-triomphent-lors-de-l-olympiade-internationale-de-mathematiques_AD-202607230572.html",
-          "summary": "Deux modèles d'IA chinois ont obtenu 100% aux Olympiades internationales de mathématiques. Des modèles des entreprises américaines OpenAI et Anthropic ont également fait un…",
-          "pubDate": "2026-07-23T17:06:36.000Z",
-          "source": "BFMTV"
+          "title": "Lunettes connectées : Instagram s’attaque au « phénomène » des vidéos non consenties",
+          "link": "https://www.01net.com/actualites/lunettes-connectees-instagram-attaque-phenomene-videos-non-consenties.html",
+          "summary": "Instagram va supprimer les vidéos dans lesquelles des utilisateurs filment des inconnus à leur insu grâce aux lunettes connectées de Meta. Le réseau social se dit prêt à tout…",
+          "pubDate": "2026-07-24T07:26:48.000Z",
+          "source": "01net"
         },
         {
-          "title": "Comment les sites tentent de s’adapter à la recherche par IA, susceptible de « changer l’économie du Web »",
-          "link": "https://www.lemonde.fr/pixels/article/2026/07/23/comment-les-sites-tentent-de-s-adapter-a-la-recherche-par-ia-susceptible-de-changer-l-economie-du-web_6731068_4408996.html",
-          "summary": "Depuis mercredi, le géant de la recherche en ligne, Google, affiche désormais pour certaines recherches des réponses générées par intelligence artificielle, les « AI Overviews »,…",
-          "pubDate": "2026-07-23T17:03:07.000Z",
+          "title": "Posez vos questions sur l’interdiction des réseaux sociaux aux moins de 15 ans",
+          "link": "https://www.lemonde.fr/pixels/live/2026/07/24/posez-vos-questions-sur-l-interdiction-des-reseaux-sociaux-aux-moins-de-15-ans_6731466_4408996.html",
+          "summary": "Députés et sénateurs ont adopté, mardi 21 juillet, l’interdiction des réseaux sociaux aux moins de 15 ans. Florian Reynaud et Morgane Tual, journalistes au service Pixels du «…",
+          "pubDate": "2026-07-24T07:00:15.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Moonshot AI et son modèle Kimi K3 font trembler les Etats-Unis, le gouvernement américain accuse la start-up chinoise d’avoir franchi \"la ligne rouge du vol de propriété intellectuelle\" et la menace de sanctions",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/moonshot-ai-et-son-modele-kimi-k3-font-trembler-les-etats-unis-le-gouvernement-americain-accuse-la-start-up-chinoise-d-avoir-franchi-la-ligne-rouge-du-vol-de-propriete-intellectuelle-et-la-menace-de-sanctions_AV-202607230566.html",
-          "summary": "Quelques jours après son lancement et ses impressionnants résultats, l'intelligence artificielle chinoise Kimi K3, développée par la start-up Moonshot, est accusée par un…",
-          "pubDate": "2026-07-23T17:00:03.000Z",
+          "title": "Avec plus de 600 euros de réduction, Amazon écoule les stocks de cet iPhone 15 Pro Max pour la fin des soldes",
+          "link": "https://www.bfmtv.com/tech/bons-plans/avec-plus-de-600-euros-de-reduction-amazon-ecoule-les-stocks-de-cet-i-phone-15-pro-max-pour-la-fin-des-soldes_AB-202607240015.html",
+          "summary": "Amazon sort le grand jeu en vous proposant l’iPhone 15 Pro Max avec plus de 600 euros de remise immédiate. Vous pouvez ainsi vous équiper d’un téléphone performant et innovant…",
+          "pubDate": "2026-07-24T06:42:00.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "L’UE réautorise temporairement les plateformes à détecter les contenus pédopornographiques dans les messageries",
-          "link": "https://www.lemonde.fr/pixels/article/2026/07/23/l-ue-reautorise-temporairement-les-plateformes-a-detecter-les-contenus-pedopornographiques-dans-les-messageries_6731065_4408996.html",
-          "summary": "La décision favorable de l’Union européenne vient ponctuer des mois de tractations opposant associations de protection de l’enfance et défenseurs de la vie privée. Seules les…",
-          "pubDate": "2026-07-23T16:57:36.000Z",
-          "source": "Le Monde"
+          "title": "+40 % d’immatriculations : la guerre au Moyen-Orient, une aubaine pour la voiture électrique en Europe ?",
+          "link": "https://www.01net.com/actualites/40-pourcent-immatriculations-guerre-moyen-orient-aubaine-voiture-electrique-europe.html",
+          "summary": "Les ventes de voitures électriques neuves explosent en Europe. Sur le mois de juin, les immatriculations ont bondi de 40 % par rapport à juin 2021. Concrètement, plus de 25 % des…",
+          "pubDate": "2026-07-24T06:02:53.000Z",
+          "source": "01net"
         },
         {
-          "title": "Un accord historique de 1,5 milliard de dollars, et des millions pour l’éditeur de Harry Potter: c’est le prix qu’Anthropic doit payer pour l’utilisation non autorisée de milliers de livres destinés à entraîner son IA",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/un-accord-historique-de-1-5-milliard-de-dollars-et-des-millions-pour-l-editeur-de-harry-potter-c-est-le-prix-qu-anthropic-doit-payer-pour-l-utilisation-non-autorisee-de-milliers-de-livres-destines-a-entrainer-son-ia_AV-202607230524.html",
-          "summary": "La maison d'édition britannique Bloomsbury, qui publie notamment Harry Potter, fait partie des bénéficiaires d'un règlement à 1,5 milliard de dollars conclu entre Anthropic et des…",
-          "pubDate": "2026-07-23T16:12:00.000Z",
-          "source": "BFMTV"
+          "title": "Adieu l’électrique ? HORSE dévoile un prolongateur d’autonomie écologique alimenté au méthanol",
+          "link": "https://www.01net.com/actualites/adieu-electrique-horse-devoile-prolongateur-autonomie-ecologique-au-methanol.html",
+          "summary": "Avons-nous trouvé une alternative aux véhicules électriques ? La solution avancée par HORSE est en tout cas attrayante sous tous rapports. Voici le prolongateur d’autonomie…",
+          "pubDate": "2026-07-24T05:29:56.000Z",
+          "source": "01net"
         }
       ]
     },
@@ -457,38 +457,38 @@
       "label": "Jeux vidéo",
       "items": [
         {
-          "title": "Test Halo : Campaign Evolved sur PC, PS5 et Xbox Series",
-          "link": "https://www.jeuxvideo.com/test/2094953/halo-campaign-evolved-25-ans-apres-le-fps-sf-qui-a-tout-change-merite-t-il-encore-les-honneurs.htm",
-          "summary": "Quand on analyse l’histoire du jeu vidéo, deux événements majeurs ont permis le succès de la première Xbox : l’arrivée de Halo et le déploiement du Xbox Live. 25 ans plus tard, la…",
-          "pubDate": "2026-07-23T15:02:10.000Z",
+          "title": "Le jeu vidéo Star Wars dont on a toujours rêvé est à 11,99€ sur PS5",
+          "link": "https://www.jeuxvideo.com/news/2095261/le-jeu-video-star-wars-dont-on-a-toujours-reve-est-a-11-99-sur-ps5.htm",
+          "summary": "Trois ans après sa sortie, l'un des meilleurs jeux vidéo Star Wars récents est à tout petit prix sur PlayStation 5. L'occasion de se retrouver dans la peau d'un Jedi dans une…",
+          "pubDate": "2026-07-24T05:05:07.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "J’ai fini Halo: Campaign Evolved sur PS5, et c’est toujours le meilleur FPS pour ceux qui ne jouent pas aux FPS",
-          "link": "https://www.numerama.com/pop-culture/2298127-notre-test-de-halo-campaign-evolved-le-meilleur-fps-pour-celles-et-ceux-qui-ne-jouent-pas-aux-fps.html",
-          "summary": "Halo : Campaign Evolved est un remake tout ce qu'il y a de plus classique. En dehors de quelques nouveaux niveaux — très bons par ailleurs — le jeu ne réinvente pas ce qu'est le…",
-          "pubDate": "2026-07-23T15:00:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Bien avant de devenir une star, Morgan Freeman errait sans but dans les rues de Los Angeles",
-          "link": "https://www.jeuxvideo.com/news/2094397/bien-avant-de-devenir-une-star-morgan-freeman-errait-sans-but-dans-les-rues-de-los-angeles.htm",
-          "summary": "Morgan Freeman a rappelé que le succès à Hollywood n'est pas arrivé immédiatement. L'acteur a partagé ce qu'ont été les années précédant le moment où il est devenu l'une des…",
-          "pubDate": "2026-07-23T14:30:10.000Z",
+          "title": "Si vous avez aimé les jeux vidéo Spider-Man, le prochain film Brand New Day est fait pour vous d'après le réalisateur",
+          "link": "https://www.jeuxvideo.com/news/2095467/si-vous-avez-aime-les-jeux-video-spider-man-le-prochain-film-brand-new-day-est-fait-pour-vous-d-apres-le-realisateur.htm",
+          "summary": "Cinq ans après le dernier film, l'homme-araignée revient enfin dans un film solo avec Spider-Man: Brand New Day. A l'occasion d'une interview, le réalisateur a d'ailleurs expliqué…",
+          "pubDate": "2026-07-24T04:55:09.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "Les problèmes de Xbox sont-ils insolubles ? Le \"sauveur\" appelé par Microsoft prend déjà la fuite",
-          "link": "https://www.jeuxvideo.com/news/2095357/les-problemes-de-xbox-sont-ils-insolubles-le-sauveur-appele-par-microsoft-prend-deja-la-fuite.htm",
-          "summary": "Arrivé en mai dernier chez Xbox pour résoudre des défis techniques majeurs, ce vice-président en charge de l'ingénierie quitte déjà le navire de Microsoft. Ce départ éclair vers…",
-          "pubDate": "2026-07-23T14:00:10.000Z",
+          "title": "\"Je l’ai toujours gardée dans mon inventaire” Il y a 2 ans, ce joueur de WoW a contacté Blizzard de toute urgence, car il ne veut absolument pas perdre le dernier souvenir de son père",
+          "link": "https://www.jeuxvideo.com/news/2093618/je-l-ai-toujours-gardee-dans-mon-inventaire-il-y-a-2-ans-ce-joueur-de-wow-a-contacte-blizzard-de-toute-urgence-car-il-ne-veut-absolument-pas-perdre-le-dernier-souvenir-de-son-pere.htm",
+          "summary": "Un joueur de World of Warcraft a partagé, il y a plus de deux ans, l’histoire émouvante d’une lettre reçue en jeu de la part de son défunt père, qu'il conservait dans son…",
+          "pubDate": "2026-07-24T04:05:11.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "Stèle Maya Assassin's Creed Black Flag Resynced : Où toutes les trouver pour obtenir la Tenue Maya ?",
-          "link": "https://www.jeuxvideo.com/news/2095444/stele-maya-assassin-s-creed-black-flag-resynced-ou-toutes-les-trouver-pour-obtenir-la-tenue-maya.htm",
-          "summary": "Une des chasses aux collectibles les plus importantes d'AC Black Flag Resynced est celle des Pierres Mayas, avec de fantastiques récompenses comme l'Armure Maya et une Babiole…",
-          "pubDate": "2026-07-23T11:40:12.000Z",
+          "title": "La PS6 : une console inutile ? Le tacle assassin d'un vétéran de l'industrie contre le tout-dématérialisé de Sony",
+          "link": "https://www.jeuxvideo.com/news/2095532/la-ps6-une-console-inutile-le-tacle-assassin-d-un-veteran-de-l-industrie-contre-le-tout-dematerialise-de-sony.htm",
+          "summary": "Alors que PlayStation fait le mort depuis leur annonce sur l'arrêt des jeux physiques, les fans et acteurs de l'industrie continuent de faire entendre leurs désaccords. Un des…",
+          "pubDate": "2026-07-23T20:20:11.000Z",
+          "source": "Jeuxvideo.com"
+        },
+        {
+          "title": "Metal Gear : comment ce boss est devenu pour moi le meilleur antagoniste de la saga",
+          "link": "https://www.jeuxvideo.com/news/2095524/metal-gear-comment-ce-boss-est-devenu-pour-moi-le-meilleur-antagoniste-de-la-saga.htm",
+          "summary": "On ne va pas se mentir : Metal Gear regorge d’ennemis absolument mémorables. Pourtant, l’un d’entre eux, débarqué sans crier gare à la toute fin d’un épisode dérivé, m’a…",
+          "pubDate": "2026-07-23T19:40:08.000Z",
           "source": "Jeuxvideo.com"
         }
       ]
@@ -539,39 +539,39 @@
       "label": "Culture",
       "items": [
         {
-          "title": "Cuite ou crue, en frite ou en chips, la patate tête d’affiche au Château d’Aubenas cet été",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/23/cuite-ou-crue-en-frite-ou-en-chips-la-patate-tete-d-affiche-au-chateau-d-aubenas-cet-ete_6731067_3246.html",
-          "summary": "Le centre d’art contemporain de la cité ardéchoise présente une foisonnante récolte de pommes de terre artistiques, rappelant au passage la dimension politique du tubercule.",
-          "pubDate": "2026-07-23T17:00:10.000Z",
+          "title": "Un dispositif de sécurité spécifique prévu pour la représentation de la DJ Barbara Butch dans l'Yonne",
+          "link": "https://www.franceinfo.fr/culture/musique/electro/un-dispositif-de-securite-specifique-prevu-pour-la-representation-de-la-dj-barbara-butch-dans-l-yonne_8120084.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Des gendarmes, des policiers et une unité spécialisée de la police ferroviaire sont mobilisés et un dispositif de sécurité privé sera déployé sur le site. Les organisateurs ont…",
+          "pubDate": "2026-07-24T04:57:51.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Concert interrompu de Barbara Butch : l’embarras de la direction de LFI face à une action locale",
+          "link": "https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-l-embarras-de-la-direction-de-lfi-face-a-une-action-locale_6731410_823448.html",
+          "summary": "Le conseiller d’opposition « insoumis » de Grenoble Allan Brunon est à l’origine de la perturbation d’un concert de la DJ française samedi. Plutôt que de reconnaître un éventuel…",
+          "pubDate": "2026-07-24T03:15:03.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "\"Le Petit Prince\" fête ses 80 ans : derrière le succès du petit héros rêveur d'Antoine de Saint-Exupéry",
-          "link": "https://www.franceinfo.fr/culture/livres/le-petit-prince-fete-ses-80-ans-derriere-le-succes-du-petit-heros-reveur-d-antoine-de-saint-exupery_8119535.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Vous le connaissez sûrement, c'est le plus célèbre des petits garçons qui fête ses 80 ans : il s'agit du \"Petit Prince\", de Saint-Exupéry. Une œuvre universelle qui continue de…",
-          "pubDate": "2026-07-23T16:43:02.000Z",
-          "source": "franceinfo"
+          "title": "REDIFF Thomas Jolly, metteur en scène : « Plus il y a de maquillage, de costumes, de perruques, de lumières, de décors, plus je me sens protégé »",
+          "link": "https://www.lemonde.fr/podcasts/article/2026/07/24/rediff-thomas-jolly-metteur-en-scene-plus-il-y-a-de-maquillage-de-costumes-de-perruques-de-lumieres-de-decors-plus-je-me-sens-protege_6731407_5463015.html",
+          "summary": "En juillet et en août, le podcast « Le Goût de M », présenté par Géraldine Sarratia et en accès libre dès le vendredi sur toutes les plateformes, se met à l’heure d’été en…",
+          "pubDate": "2026-07-24T03:00:02.000Z",
+          "source": "Le Monde"
         },
         {
-          "title": "\"On a le droit de critiquer ses choix politiques\" : la plainte de la DJ Barbara Butch suscite l'incompréhension de La France insoumise",
-          "link": "https://www.franceinfo.fr/politique/la-france-insoumise/on-a-le-droit-de-critiquer-ses-choix-politiques-la-plainte-de-la-dj-barbara-butch-suscite-l-incomprehension-de-la-france-insoumise_8119451.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Cinq jours après l'interruption de son concert par des militants propalestiniens et des membre du parti de gauche, l'artiste a annoncé porter plainte. La France insoumise rappelle…",
-          "pubDate": "2026-07-23T16:35:54.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Un concert d’Amir annulé à Marseille, les collectifs propalestiniens crient victoire",
-          "link": "https://www.20minutes.fr/arts-stars/culture/4236051-20260723-concert-amir-annule-marseille-collectifs-propalestiniens-crient-victoire?at_medium=display&amp;at_campaign=149",
-          "summary": "Les Terrasses du Port ont annulé un concert du chanteur Amir invoquant des raisons de sécurité après plusieurs jours d’appels au boycott lancés par des collectifs de soutien à la…",
-          "pubDate": "2026-07-23T16:24:51.000Z",
+          "title": "Coupe du monde 2026 : Rosalia critiquée en Argentine pour une vidéo sur la défaite au Mondial",
+          "link": "https://www.20minutes.fr/monde/4236083-20260724-coupe-monde-2026-rosalia-critiquee-argentine-video-defaite-mondial?at_medium=display&amp;at_campaign=149",
+          "summary": "A quelques jours de ses concerts à Buenos Aires, la chanteuse a dû s’excuser d’avoir partagé une vidéo célébrant la victoire de l’Espagne",
+          "pubDate": "2026-07-24T01:16:12.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "Promenade dans Balat, le quartier aux mille maisons colorées, parmi les plus photographiés d'Istanbul",
-          "link": "https://www.franceinfo.fr/monde/turquie/promenade-dans-balat-le-quartier-aux-mille-maisons-colorees-parmi-les-plus-photographies-d-istanbul_8119388.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le \"13 Heures\" vous emmène en balade, direction Istanbul, en Turquie. Visite guidée de Balat et ses vieilles maisons colorées, l'un des quartiers les plus photographiés de la…",
-          "pubDate": "2026-07-23T16:23:05.000Z",
-          "source": "franceinfo"
+          "title": "A Marseille, un concert du chanteur franco-israélien Amir annulé après des appels au boycott",
+          "link": "https://www.lemonde.fr/musiques/article/2026/07/24/a-marseille-un-concert-du-chanteur-franco-israelien-amir-annule-apres-des-appels-au-boycott_6731209_1654986.html",
+          "summary": "La direction du centre commercial où devait se produire l’artiste a invoqué des « raisons de sécurité » pour justifier l’annulation de l’événement gratuit.",
+          "pubDate": "2026-07-23T22:20:08.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -621,6 +621,20 @@
       "label": "Musique",
       "items": [
         {
+          "title": "Concert interrompu de Barbara Butch : l’embarras de la direction de LFI face à une action locale",
+          "link": "https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-l-embarras-de-la-direction-de-lfi-face-a-une-action-locale_6731410_823448.html",
+          "summary": "Le conseiller d’opposition « insoumis » de Grenoble Allan Brunon est à l’origine de la perturbation d’un concert de la DJ française samedi. Plutôt que de reconnaître un éventuel…",
+          "pubDate": "2026-07-24T03:15:03.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "A Marseille, un concert du chanteur franco-israélien Amir annulé après des appels au boycott",
+          "link": "https://www.lemonde.fr/musiques/article/2026/07/24/a-marseille-un-concert-du-chanteur-franco-israelien-amir-annule-apres-des-appels-au-boycott_6731209_1654986.html",
+          "summary": "La direction du centre commercial où devait se produire l’artiste a invoqué des « raisons de sécurité » pour justifier l’annulation de l’événement gratuit.",
+          "pubDate": "2026-07-23T22:20:08.000Z",
+          "source": "Le Monde"
+        },
+        {
           "title": "La DJ Barbara Butch va porter plainte contre LFI pour provocation à la haine et à la violence",
           "link": "https://www.20minutes.fr/faits_divers/4235886-20260723-dj-barbara-butch-va-porter-plainte-contre-lfi-provocation-haine-violence?at_medium=display&amp;at_campaign=149",
           "summary": "Barbara Butch dépose plainte ce jeudi contre La France insoumise, certains de ses élus, le média d’extrême droite OMERTA et Alain Soral, après l’interruption de son concert à…",
@@ -640,20 +654,6 @@
           "summary": "Il avait notamment accompagné des légendes de la musique comme Frank Sinatra, Nat King Cole, Ella Fitzgerald et Barbra Streisand",
           "pubDate": "2026-07-22T08:27:47.000Z",
           "source": "20 Minutes"
-        },
-        {
-          "title": "A Marseille, le Delta Festival lâché par plusieurs musiciens après des allégations de violences sexuelles",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/21/a-marseille-le-delta-festival-lache-par-plusieurs-musiciens-apres-des-allegations-de-violences-sexuelles_6729347_3246.html",
-          "summary": "Une dizaine d’artistes et des partenaires du plus gros événement musical de la cité phocéenne, prévu ce week-end, ont annoncé se retirer après la diffusion de témoignages visant…",
-          "pubDate": "2026-07-21T21:45:08.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "« Le projet de loi Ripost risque de fragiliser, bien au-delà des seules free-parties, de nombreuses fêtes populaires »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/21/le-projet-de-loi-ripost-risque-de-fragiliser-bien-au-dela-des-seules-free-parties-de-nombreuses-fetes-populaires_6729040_3232.html",
-          "summary": "Le projet de loi Ripost sur la tranquillité des citoyens devrait être définitivement adopté le 21 juillet. Un collectif de personnalités issues de la Fédération des acteurs et…",
-          "pubDate": "2026-07-21T17:00:04.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -661,6 +661,27 @@
       "key": "livres",
       "label": "Livres",
       "items": [
+        {
+          "title": "Dans « Les Perméables », Judith Vanistendael se tient au chevet des migrants belges de 2071",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/24/dans-les-permeables-judith-vanistendael-se-tient-au-chevet-des-migrants-belges-de-2071_6731463_3451060.html",
+          "summary": "« Une planche de BD de la rentrée » (2/5). L’autrice imagine des réfugiés climatiques européens confrontés aux règles kafkaïennes de leur société d’accueil, sur les îles Lofoten,…",
+          "pubDate": "2026-07-24T06:00:13.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« J’étais punie parce que je lisais trop » : les clubs de lecture, échappatoires des lectrices autrefois stigmatisées",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/24/j-etais-punie-parce-que-je-lisais-trop-les-clubs-de-lecture-echappatoires-des-lectrices-autrefois-stigmatisees_6731414_4401467.html",
+          "summary": "Malgré les chiffres alarmants sur l’effondrement du temps de lecture, les réunions littéraires, en majorité féminines, connaissent un retour en vogue, notamment chez les moins de…",
+          "pubDate": "2026-07-24T03:30:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Je reste à jamais sidérée » : Anne Goscinny, la tristesse et le chagrin sans fin après la perte de son père",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/24/je-reste-a-jamais-sideree-anne-goscinny-la-tristesse-et-le-chagrin-sans-fin-apres-la-perte-de-son-pere_6731413_3451060.html",
+          "summary": "« Héritières de la BD » (5/6). René Goscinny, le scénariste d’Astérix, est mort subitement quand sa fille avait 9 ans. Une absence qui a envahi la vie et la production littéraire…",
+          "pubDate": "2026-07-24T03:30:08.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "Laozi, créateur du tao, entre éloge de la faiblesse et violence totalitaire",
           "link": "https://www.lemonde.fr/livres/article/2026/07/23/laozi-createur-du-tao-entre-eloge-de-la-faiblesse-et-violence-totalitaire_6730452_3260.html",
@@ -673,27 +694,6 @@
           "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/23/je-veux-le-rehabiliter-catherine-weil-sinet-en-defense-de-sine-son-provocateur-de-mari_6730349_3451060.html",
           "summary": "« Héritières de la BD » (4/6). Issue de la grande bourgeoisie, la désormais octogénaire a connu le « big love » avec ce trublion issu d’un milieu modeste. Journaliste, devenue…",
           "pubDate": "2026-07-23T04:00:39.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Notre sélection de livres cette semaine : « Comme on quitte un imperméable », « Le Soldat remémoré », « Jean-Léon l’Africain »…",
-          "link": "https://www.lemonde.fr/livres/article/2026/07/23/notre-selection-de-livres-cette-semaine-comme-on-quitte-un-impermeable-le-soldat-rememore-jean-leon-l-africain_6730207_3260.html",
-          "summary": "Chaque jeudi, la rédaction du « Monde des livres » vous propose ses choix littéraires. Aujourd’hui, notamment, la romancière Anjet Daanje relate la trajectoire d’un soldat…",
-          "pubDate": "2026-07-23T02:30:05.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Portrait de l’écrivain Daniel Pennac à travers un questionnaire serré sur ses lectures passées, présentes et à venir",
-          "link": "https://www.lemonde.fr/livres/article/2026/07/22/portrait-de-l-ecrivain-daniel-pennac-en-lecteur-a-travers-un-questionnaire-serre-sur-ses-lectures-passees-presentes-et-a-venir_6730052_3260.html",
-          "summary": "« Keskili ? » (2/5). Parmi ses auteurs de prédilection, l’écrivain cite Andersen, Dumas, Dickens, qu’il a découverts enfant, puis Alain, Céline, Gabriel Garcia Marquez, Antonio…",
-          "pubDate": "2026-07-22T16:00:07.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Ovidie, autrice : « Le “je” n’a pas la même signification si on est un homme ou une femme »",
-          "link": "https://www.lemonde.fr/podcasts/article/2026/07/22/ovidie-autrice-le-je-n-a-pas-la-meme-signification-si-on-est-un-homme-ou-une-femme_6729884_5463015.html",
-          "summary": "« Mot pour mots » (1/5). A l’occasion du festival littéraire Mot pour mots, les autrices Ovidie et Judith Godrèche ont été invitées à réfléchir à la place de l’intime dans notre…",
-          "pubDate": "2026-07-22T05:00:08.000Z",
           "source": "Le Monde"
         }
       ]
@@ -744,6 +744,13 @@
       "label": "Idées & débats",
       "items": [
         {
+          "title": "« La Tunisie n’est plus dans une transition démocratique bloquée, elle est entrée dans une transition autoritaire inachevée »",
+          "link": "https://www.lemonde.fr/idees/article/2026/07/24/la-tunisie-n-est-plus-dans-une-transition-democratique-bloquee-elle-est-entree-dans-une-transition-autoritaire-inachevee_6731428_3232.html",
+          "summary": "Cinq ans après l’arrivée au pouvoir du président Kaïs Saïed, l’Etat tunisien est fragilisé par la destruction du système issu de la révolution de 2011, conjuguée à l’absence d’un…",
+          "pubDate": "2026-07-24T05:00:07.000Z",
+          "source": "Le Monde"
+        },
+        {
           "title": "« Ce n’est pas la volonté de Monique Barbut qu’il faudra scruter dans les prochaines semaines, mais bien celle des deux têtes de l’exécutif »",
           "link": "https://www.lemonde.fr/idees/article/2026/07/23/ce-n-est-pas-la-volonte-de-monique-barbut-qu-il-faudra-scruter-dans-les-prochaines-semaines-mais-bien-celle-des-deux-tetes-de-l-executif_6730713_3232.html",
           "summary": "Annoncée démissionnaire, la ministre de la transition écologique reste finalement au gouvernement. Le sommet de l’Etat doit maintenant lui permettre de lutter contre le recul de…",
@@ -770,13 +777,6 @@
           "summary": "La campagne du secrétaire d’Etat américain pour démanteler la CPI constitue une agression contre le droit international qui devrait susciter des réactions plus vives de la part de…",
           "pubDate": "2026-07-23T04:00:22.000Z",
           "source": "Le Monde"
-        },
-        {
-          "title": "« Le “no kids”, en opposant le confort des adultes à la présence des enfants, diffuse une vision polarisée et réductrice de la société »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/23/le-no-kids-en-opposant-le-confort-des-adultes-a-la-presence-des-enfants-diffuse-une-vision-polarisee-et-reductrice-de-la-societe_6730343_3232.html",
-          "summary": "Alors que les espaces excluant les enfants connaissent une forte croissance, un collectif de responsables associatifs, de chercheurs et d’artistes souligne, dans une tribune au «…",
-          "pubDate": "2026-07-23T04:00:04.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -784,6 +784,27 @@
       "key": "education",
       "label": "Éducation",
       "items": [
+        {
+          "title": "Pourquoi la cocaïne est-elle si répandue dans le monde du travail ? Comprendre en trois minutes",
+          "link": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/07/24/pourquoi-la-cocaine-est-elle-si-repandue-dans-le-monde-du-travail-comprendre-en-trois-minutes_6731420_6176282.html",
+          "summary": "Pour améliorer ses performances, tenir la cadence ou supporter la pression, cette drogue s’est banalisée dans de nombreuses professions. Avec de graves risques, psychiques comme…",
+          "pubDate": "2026-07-24T04:00:08.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« J’étais punie parce que je lisais trop » : les clubs de lecture, échappatoires des lectrices autrefois stigmatisées",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/24/j-etais-punie-parce-que-je-lisais-trop-les-clubs-de-lecture-echappatoires-des-lectrices-autrefois-stigmatisees_6731414_4401467.html",
+          "summary": "Malgré les chiffres alarmants sur l’effondrement du temps de lecture, les réunions littéraires, en majorité féminines, connaissent un retour en vogue, notamment chez les moins de…",
+          "pubDate": "2026-07-24T03:30:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Plus mon ventre grossissait, plus il m’a été difficile de trouver des missions » : la maternité, frein à la carrière des femmes",
+          "link": "https://www.lemonde.fr/campus/article/2026/07/24/plus-mon-ventre-grossissait-plus-il-m-a-ete-difficile-de-trouver-des-missions-la-maternite-frein-a-la-carriere-des-femmes_6731415_4401467.html",
+          "summary": "« Sois belle et produis » (5/6). Mises au placard, refus de promotion, licenciements abusifs… Les trajectoires professionnelles des femmes sont encore aujourd’hui percutées de…",
+          "pubDate": "2026-07-24T03:30:04.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "« J’ai 22 ans, j’ai encore beaucoup d’années devant moi pour changer le monde » : sur les pas des boursiers américains choyés par la France",
           "link": "https://www.lemonde.fr/campus/article/2026/07/23/j-ai-22-ans-j-ai-encore-beaucoup-d-annees-devant-moi-pour-changer-le-monde-sur-les-pas-des-boursiers-americains-choyes-par-la-france_6730667_4401467.html",
@@ -797,27 +818,6 @@
           "summary": "« Sois belle et produis » (4/6). Attributs féminins par excellence, les seins sont aussi le siège du cancer le plus fréquent chez les femmes. Une maladie qui, dans le monde du…",
           "pubDate": "2026-07-23T04:00:04.000Z",
           "source": "Le Monde"
-        },
-        {
-          "title": "La chasse aux cheveux blancs chez les femmes, pour rester visible, crédible et employable",
-          "link": "https://www.lemonde.fr/campus/article/2026/07/22/mais-tu-n-as-pas-peur-de-faire-trop-vieille-la-chasse-aux-cheveux-blancs-pour-rester-visible-credible-et-employable_6729751_4401467.html",
-          "summary": "« Sois belle et produis » (3/6). C’est souvent au moment où elles accumulent le plus d’expérience que les femmes disparaissent des radars professionnels. Pour éviter d’être mises…",
-          "pubDate": "2026-07-22T04:00:03.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "« Le soir, je ne mange pas seule » : le foyer basque de Maddi, 20 ans, à Saint-Ouen",
-          "link": "https://www.lemonde.fr/campus/article/2026/07/22/le-soir-je-ne-mange-pas-seule-le-foyer-basque-de-maddi-20-ans-a-saint-ouen_6729749_4401467.html",
-          "summary": "« Et toi, t’habites où ? » En pleine crise du logement, étudiants et jeunes actifs redéfinissent, souvent malgré eux, l’art de trouver un chez-soi. Cette semaine, Maddi…",
-          "pubDate": "2026-07-22T04:00:03.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "« Le projet de loi Ripost risque de fragiliser, bien au-delà des seules free-parties, de nombreuses fêtes populaires »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/21/le-projet-de-loi-ripost-risque-de-fragiliser-bien-au-dela-des-seules-free-parties-de-nombreuses-fetes-populaires_6729040_3232.html",
-          "summary": "Le projet de loi Ripost sur la tranquillité des citoyens devrait être définitivement adopté le 21 juillet. Un collectif de personnalités issues de la Fédération des acteurs et…",
-          "pubDate": "2026-07-21T17:00:04.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -826,39 +826,39 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Tour de France 2026 : Richard Carapaz remporte une victoire de prestige à Orcières-Merlette, Valentin Paret-Peintre échoue d'un rien pour le maillot à pois... Revivez la 18e étape",
-          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-la-derniere-chance-pour-une-victoire-francaise-suivez-la-redoutable-etape-alpine-entre-voiron-et-orcieres-merlette-avec-nous_8118881.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le premier volet de la trilogie alpine du Tour constitue la dernière occasion pour un baroudeur de s'imposer. Mais il devra s'agir d'un coureur particulièrement costaud vu les 3…",
-          "pubDate": "2026-07-23T17:11:05.000Z",
+          "title": "L'évolution de la gouvernance du Comité d'organisation des Jeux des Alpes 2030 repoussée à la rentrée, un audit sur la \"santé mentale des agents\" annoncé",
+          "link": "https://www.franceinfo.fr/les-jeux-olympiques/alpes-francaises-2030/l-evolution-de-la-gouvernance-du-comite-d-organisation-des-jeux-des-alpes-2030-repoussee-a-la-rentree-un-audit-sur-la-sante-mentale-des-agents-annonce_8120276.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Malgré de nombreux départs de directeurs depuis plusieurs mois, le Comité d'organisation d'Alpes 2030 n'a pas encore trouvé un consensus pour les remplacer.",
+          "pubDate": "2026-07-24T07:18:25.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Dérivé du tennis, le padel gagne du terrain en France",
-          "link": "https://www.franceinfo.fr/sports/sport-et-loisirs/derive-du-tennis-le-padel-gagne-du-terrain-en-france_8119421.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "C'est un sport qui devient de plus en plus populaire : le padel. Dérivée du tennis, cette discipline séduit toutes les générations, et les terrains se multiplient partout dans le…",
-          "pubDate": "2026-07-23T16:25:35.000Z",
+          "title": "Coupe du monde 2026 : Gianni Infantino écrit une lettre à la fédération argentine et salue « sa magnifique performance »",
+          "link": "https://www.20minutes.fr/sport/football/4236098-20260724-coupe-monde-2026-gianni-infantino-ecrit-lettre-federation-argentine-salue-magnifique-performance?at_medium=display&amp;at_campaign=149",
+          "summary": "Le président de la FIFA a adressé une lettre à Claudio Tapia, président de l’AFA, pour le féliciter du visage montré par l’Argentine pendant la Coupe du monde 2026",
+          "pubDate": "2026-07-24T07:17:04.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Tour de France 2026 : « J’espère surtout que je ne tomberai pas… » Paul Seixas appréhende le public de l’Alpe d’Huez",
+          "link": "https://www.20minutes.fr/sport/cyclisme/tour-de-france/4236094-20260724-tour-france-2026-espere-surtout-tomberai-paul-seixas-apprehende-public-alpe-huez?at_medium=display&amp;at_campaign=149",
+          "summary": "Le Tour de France entre dans le money time, et Paul Seixas espère que son combat avec Isaac Del Toro ne sera pas gâché par le public",
+          "pubDate": "2026-07-24T06:49:23.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "DIRECT. Tour de France : le peloton gravit le col du Noyer avant de s'attaquer aux pentes de la mythique Alpe d'Huez... Suivez la 19e étape avec nous",
+          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-le-peloton-gravit-le-col-du-noyer-avant-de-s-attaquer-aux-pentes-de-la-mythique-alpe-d-huez-suivez-la-19e-etape-avec-nous_8118983.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Un programme costaud pour les coureurs, vendredi, avec trois cols compliqués avant une montée finale vers l'Alpe d'Huez et ses 21 lacets.",
+          "pubDate": "2026-07-24T06:43:02.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Richard Carapaz dompte ses compagnons d'échappée et remporte la 18e étape du Tour de France au sommet d'Orcières-Merlette",
-          "link": "https://www.franceinfo.fr/tour-de-france/richard-carapaz-dompte-ses-compagnons-d-echappee-et-remporte-la-18e-etape-du-tour-de-france-au-sommet-d-orcieres-merlette_8119463.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'Equatorien s'est imposé au terme d'une échappée fleuve, jeudi, signant la deuxième victoire de sa carrière sur la Grande Boucle.",
-          "pubDate": "2026-07-23T15:58:44.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "VIDEO. Le résumé de la victoire en solitaire de Richard Carapaz sur la 18e étape du Tour de France",
-          "link": "https://www.franceinfo.fr/tour-de-france/videos/video-le-resume-de-la-victoire-en-solitaire-de-richard-carapaz-sur-la-18e-etape-du-tour-de-france_8119412.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'Equatorien a remporté à Orcières-Merlette, jeudi, sa deuxième victoire en carrière sur la Grande Boucle.",
-          "pubDate": "2026-07-23T15:53:48.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Richard Carapaz s'offre une deuxième victoire en carrière sur le Tour de France en remportant la 18e étape",
-          "link": "https://www.franceinfo.fr/tour-de-france/richard-carapaz-s-offre-une-deuxieme-victoire-en-carriere-sur-le-tour-de-france-en-remportant-la-18e-etape_8119409.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L’Equatorien s’est imposé en solitaire après avoir porté deux attaques consécutives dans la montée vers Orcières-Merlette, jeudi. A l’arrivée, le coureur EF Education devance le…",
-          "pubDate": "2026-07-23T15:50:38.000Z",
-          "source": "franceinfo"
+          "title": "Tour de France 2026 : Le profil et le parcours de la 19e étape vendredi",
+          "link": "https://www.20minutes.fr/sport/cyclisme/4236022-20260724-tour-france-2026-profil-parcours-19e-etape-vendredi?at_medium=display&amp;at_campaign=149",
+          "summary": "Vendredi entre Gap et l'Alpe d'Huez (127 km dans les Alpes), l'étape pourrait bien s'avérer décisive, à deux jours de l'arrivée à Paris, dimanche",
+          "pubDate": "2026-07-24T05:02:40.000Z",
+          "source": "20 Minutes"
         }
       ]
     }
