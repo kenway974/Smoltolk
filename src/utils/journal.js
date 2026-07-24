@@ -5,6 +5,7 @@
 // Store minimal compatible useSyncExternalStore, calqué sur favorites.js.
 
 import { useSyncExternalStore } from "react";
+import { MISSIONS, MISSION_BY_ID } from "../data/missions";
 
 const KEY = "smoltolk.journal.v1";
 const GOAL_KEY = "smoltolk.journal.goal.v1";      // objectif hebdo (nombre)
@@ -247,6 +248,65 @@ export function computeBadges(entries = cache, now = Date.now()) {
   const distinctLieux = new Set(entries.map((e) => e.lieu).filter(Boolean)).size;
   const ctx = { ...stats, distinctLieux };
   return BADGES.map((b) => ({ ...b, done: b.test(ctx), progress: b.goal(ctx) }));
+}
+
+// ---- XP & niveaux ---------------------------------------------------------
+// L'XP vient de deux gestes : consigner une tentative (le cœur), et relever
+// des défis. Un débrief rempli donne un petit bonus (on récompense la réflexion).
+const XP_PER_ENTRY = 12;
+const XP_DEBRIEF_BONUS = 8;
+
+export const LEVELS = [
+  { min: 0,    titre: "Premiers pas",       emoji: "🌱" },
+  { min: 60,   titre: "Ça s'échauffe",       emoji: "🙂" },
+  { min: 150,  titre: "En mouvement",        emoji: "🚶" },
+  { min: 300,  titre: "Dans le bain",        emoji: "🌊" },
+  { min: 500,  titre: "Prend le rythme",     emoji: "🎵" },
+  { min: 800,  titre: "À l'aise",            emoji: "😎" },
+  { min: 1200, titre: "Ancré",               emoji: "🧭" },
+  { min: 1800, titre: "Chez toi partout",    emoji: "✨" },
+];
+
+export function computeXP(entries = cache, doneMissions = missionsCache) {
+  let xp = 0;
+  for (const e of entries) {
+    xp += XP_PER_ENTRY;
+    if (e.marche || e.prochaine) xp += XP_DEBRIEF_BONUS;
+  }
+  for (const id of Object.keys(doneMissions || {})) {
+    const m = MISSION_BY_ID[id];
+    if (m) xp += m.xp;
+  }
+  return xp;
+}
+
+export function computeLevel(xp = computeXP()) {
+  let i = 0;
+  for (let k = 0; k < LEVELS.length; k++) if (xp >= LEVELS[k].min) i = k;
+  const cur = LEVELS[i];
+  const next = LEVELS[i + 1] || null;
+  const into = xp - cur.min;
+  const span = next ? next.min - cur.min : null;
+  const pct = next ? Math.min(100, Math.round((into / span) * 100)) : 100;
+  return { level: i + 1, titre: cur.titre, emoji: cur.emoji, xp, into, span, next, pct, toNext: next ? next.min - xp : 0 };
+}
+
+// ---- Défi du jour ---------------------------------------------------------
+// Choix déterministe par jour, biaisé vers les défis pas encore relevés les
+// plus accessibles (les missions sont déjà rangées du plus facile au plus dur).
+export function computeDailyMission(doneMissions = missionsCache, now = Date.now()) {
+  const pool = MISSIONS.filter((m) => !doneMissions[m.id]);
+  if (!pool.length) return null; // tout est relevé
+  const window = pool.slice(0, Math.min(pool.length, 5));
+  const idx = localDayIndex(now) % window.length;
+  return window[idx];
+}
+
+// ---- Inactivité (relance douce, en app, sans notification) ----------------
+export function daysSinceLastEntry(entries = cache, now = Date.now()) {
+  if (!entries.length) return null;
+  const last = Math.max(...entries.map((e) => e.at));
+  return Math.floor((now - last) / 86400000);
 }
 
 // ---- Synchronisation entre onglets ----------------------------------------

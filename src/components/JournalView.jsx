@@ -2,15 +2,18 @@ import React, { useState, useMemo } from "react";
 import {
   ArrowLeft, Plus, Flame, Trash2, X, Check, MapPin, TrendingUp,
   CalendarDays, Star, Sparkles, Award, ChevronDown, Trophy, Target,
-  Minus, Download, Upload,
+  Minus, Download, Upload, Zap, HeartHandshake,
 } from "lucide-react";
 import {
   useJournal, addEntry, removeEntry,
   computeStats, computeWeekReview, computeConfidencePoints, computeBadges,
   RESULTATS, RESULTAT_BY_KEY,
   useWeeklyGoal, setWeeklyGoal, exportData, importData,
+  useDoneMissions, toggleMission,
+  computeXP, computeLevel, computeDailyMission, daysSinceLastEntry,
 } from "../utils/journal";
 import { INTENTIONS } from "../data/intentions";
+import { TIER_BY_KEY } from "../data/missions";
 import { SITUATIONS_DATA } from "../data/situations";
 
 const LIEUX = [...new Set(SITUATIONS_DATA.map((s) => s.environnement))]
@@ -301,6 +304,7 @@ function EntryRow({ e }) {
 export default function JournalView({ onBack, onStart, onOpenMissions, prefill = null }) {
   const entries = useJournal();
   const goal = useWeeklyGoal();
+  const doneMissions = useDoneMissions();
   const [adding, setAdding] = useState(!!prefill);
   const [showAllBadges, setShowAllBadges] = useState(false);
   const [ioMsg, setIoMsg] = useState(null);
@@ -309,6 +313,9 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const review = useMemo(() => computeWeekReview(entries), [entries]);
   const points = useMemo(() => computeConfidencePoints(entries), [entries]);
   const badges = useMemo(() => computeBadges(entries), [entries]);
+  const level = useMemo(() => computeLevel(computeXP(entries, doneMissions)), [entries, doneMissions]);
+  const daily = useMemo(() => computeDailyMission(doneMissions), [doneMissions]);
+  const inactiveDays = daysSinceLastEntry(entries);
 
   const goalPct = Math.min(100, Math.round((stats.thisWeekCount / goal) * 100));
   const goalReached = stats.thisWeekCount >= goal;
@@ -383,6 +390,55 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
           </div>
         ) : (
           <>
+            {/* Relance douce (aucune notification, juste en app) */}
+            {inactiveDays !== null && inactiveDays >= 3 && (
+              <div className="mb-4 rounded-2xl border border-orange-200 bg-orange-50/70 p-4 flex items-start gap-3">
+                <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-orange-100 text-orange-600 flex-shrink-0"><HeartHandshake size={18} strokeWidth={2.2} /></span>
+                <div className="min-w-0">
+                  <p className="text-[14px] font-semibold text-stone-900">{inactiveDays} jours sans rien noter — on repart doucement ?</p>
+                  <p className="text-[12px] text-stone-500 leading-snug mt-0.5">Pas besoin d'un exploit. Un bonjour, un sourire, un merci sincère : ça compte, et ça se consigne.</p>
+                </div>
+              </div>
+            )}
+
+            {/* Niveau / XP */}
+            <div className="mb-4 rounded-2xl p-4 text-white" style={{ backgroundImage: "linear-gradient(135deg,#0f766e,#0ea5e9)" }}>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <span className="text-[26px] leading-none">{level.emoji}</span>
+                  <div className="min-w-0">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/70">Niveau {level.level}</p>
+                    <p className="text-[17px] font-semibold leading-tight truncate">{level.titre}</p>
+                  </div>
+                </div>
+                <span className="inline-flex items-center gap-1 text-[12px] font-bold bg-white/20 rounded-full px-2.5 py-1 flex-shrink-0"><Zap size={12} strokeWidth={2.5} /> {level.xp} XP</span>
+              </div>
+              <div className="mt-3 h-2 rounded-full bg-white/20 overflow-hidden">
+                <div className="h-full rounded-full bg-white transition-all duration-500" style={{ width: `${level.pct}%` }} />
+              </div>
+              <p className="mt-1.5 text-[11px] text-white/75">
+                {level.next ? <>Encore <b>{level.toNext} XP</b> pour « {level.next.titre} » {level.next.emoji}</> : "Niveau max atteint — respect. ✨"}
+              </p>
+            </div>
+
+            {/* Défi du jour */}
+            {daily && (() => {
+              const tier = TIER_BY_KEY[daily.tier];
+              return (
+                <button onClick={() => onOpenMissions?.()} className="group mb-4 w-full text-left rounded-2xl border border-amber-200 bg-amber-50/60 p-4 flex items-start gap-3 active:scale-[0.99] transition-transform hover:border-amber-300">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500 text-white flex-shrink-0"><Trophy size={18} strokeWidth={2.2} /></span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[11px] font-semibold uppercase tracking-[0.12em] text-amber-600">Défi du jour</span>
+                      {tier && <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full border ${tier.tint}`}>{tier.emoji} {tier.label}</span>}
+                    </div>
+                    <p className="text-[15px] font-semibold text-stone-900 leading-snug mt-0.5">{daily.titre}</p>
+                    <p className="text-[12px] text-stone-500 leading-snug mt-0.5">{daily.desc}</p>
+                  </div>
+                </button>
+              );
+            })()}
+
             {/* Stats */}
             <div className="flex gap-2.5">
               <Stat icon={Sparkles} value={stats.total} label={stats.total > 1 ? "tentatives" : "tentative"} tint="bg-emerald-100 text-emerald-600" />

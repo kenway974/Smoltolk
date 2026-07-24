@@ -19,6 +19,7 @@ import BlocagesView from "./components/BlocagesView";
 import JournalView from "./components/JournalView";
 import MissionsView from "./components/MissionsView";
 import OutilsView from "./components/OutilsView";
+import EntrainementView from "./components/EntrainementView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -113,6 +114,7 @@ export default function App() {
         onOpenJournal={() => openJournal(null)}
         onOpenMissions={() => openMissions("home")}
         onOpenOutils={() => setScreen("outils")}
+        onOpenEntrainement={() => setScreen("entrainement")}
       />
     );
   }
@@ -134,6 +136,10 @@ export default function App() {
 
   if (screen === "outils") {
     return <OutilsView onBack={() => setScreen("home")} />;
+  }
+
+  if (screen === "entrainement") {
+    return <EntrainementView onBack={() => setScreen("home")} />;
   }
 
   if (screen === "blocages") {
