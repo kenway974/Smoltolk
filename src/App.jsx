@@ -15,6 +15,7 @@ import GuideView from "./components/GuideView";
 import HomeView from "./components/HomeView";
 import NewsView from "./components/NewsView";
 import FavoritesView from "./components/FavoritesView";
+import BlocagesView from "./components/BlocagesView";
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -97,6 +98,17 @@ export default function App() {
         onOpenGuide={openGuide}
         onOpenNews={() => setScreen("news")}
         onOpenFavorites={() => setScreen("favorites")}
+        onOpenBlocages={() => setScreen("blocages")}
+      />
+    );
+  }
+
+  if (screen === "blocages") {
+    return (
+      <BlocagesView
+        onBack={() => setScreen("home")}
+        onStart={() => setScreen("step1")}
+        onOpenGuide={openGuide}
       />
     );
   }
