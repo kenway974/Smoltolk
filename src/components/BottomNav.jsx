@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, LineChart, BookOpen, Newspaper, Compass } from "lucide-react";
+import { Home, LineChart, BookOpen, Grid2x2, Compass } from "lucide-react";
 
 // Barre de navigation basse — visible seulement sur les sections principales
 // (accueil, cahier, guide, news). Le bouton central « Trouver » lance le flux
@@ -19,7 +19,7 @@ function Tab({ icon: Icon, label, active, onClick }) {
   );
 }
 
-export default function BottomNav({ screen, onHome, onJournal, onGuide, onNews, onStart }) {
+export default function BottomNav({ screen, onHome, onJournal, onGuide, onExplorer, onStart }) {
   return (
     <nav
       className="fixed bottom-0 left-0 right-0 z-20 border-t border-stone-200 bg-[#f5f3ef]/95 backdrop-blur-sm"
@@ -42,7 +42,7 @@ export default function BottomNav({ screen, onHome, onJournal, onGuide, onNews, 
         </div>
 
         <Tab icon={BookOpen} label="Guide" active={screen === "guide"} onClick={onGuide} />
-        <Tab icon={Newspaper} label="News" active={screen === "news"} onClick={onNews} />
+        <Tab icon={Grid2x2} label="Explorer" active={screen === "explorer"} onClick={onExplorer} />
       </div>
     </nav>
   );

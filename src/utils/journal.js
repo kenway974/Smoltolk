@@ -392,6 +392,39 @@ export function rewardsState(level) {
   return REWARDS.map((r) => ({ ...r, unlocked: level >= r.level }));
 }
 
+// ---- Humeur avant / après -------------------------------------------------
+// `avant` = comment tu te sentais avant d'y aller (1-5), `ressenti` = après.
+// Sert à te prouver que, le plus souvent, c'est moins terrible que prévu.
+export function computeMoodShift(entries = cache) {
+  const both = entries.filter((e) => typeof e.avant === "number" && typeof e.ressenti === "number");
+  if (!both.length) return null;
+  const avgAvant = both.reduce((s, e) => s + e.avant, 0) / both.length;
+  const avgApres = both.reduce((s, e) => s + e.ressenti, 0) / both.length;
+  return { avgAvant, avgApres, delta: avgApres - avgAvant, n: both.length };
+}
+
+// ---- Heatmap d'activité (façon « contributions ») -------------------------
+export function computeHeatmap(entries = cache, weeks = 13, now = Date.now()) {
+  const perDay = new Map();
+  for (const e of entries) {
+    const k = localDayIndex(e.at);
+    perDay.set(k, (perDay.get(k) || 0) + 1);
+  }
+  const today = localDayIndex(now);
+  const d = new Date(now);
+  const dow = (d.getDay() + 6) % 7;         // lundi = 0
+  const endDay = today + (6 - dow);          // dimanche de la semaine en cours
+  const startDay = endDay - (weeks * 7 - 1); // un lundi
+  const days = [];
+  let max = 0;
+  for (let i = startDay; i <= endDay; i++) {
+    const count = perDay.get(i) || 0;
+    if (count > max) max = count;
+    days.push({ idx: i, count, future: i > today });
+  }
+  return { days, weeks, max };
+}
+
 // ---- Mur des victoires (entrées marquantes) -------------------------------
 // Un « win » = ça a accroché, ou un ressenti à 4-5. Purement local, privé.
 export function computeWins(entries = cache) {

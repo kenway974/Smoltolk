@@ -26,6 +26,12 @@ const EntrainementView   = lazy(() => import("./components/EntrainementView"));
 const ConfidentialiteView = lazy(() => import("./components/ConfidentialiteView"));
 const SortieView         = lazy(() => import("./components/SortieView"));
 const BeneficesView      = lazy(() => import("./components/BeneficesView"));
+const ExplorerView       = lazy(() => import("./components/ExplorerView"));
+const ScenariosView      = lazy(() => import("./components/ScenariosView"));
+const TypesView          = lazy(() => import("./components/TypesView"));
+const QuestionsView      = lazy(() => import("./components/QuestionsView"));
+const QuizView           = lazy(() => import("./components/QuizView"));
+const SecoursView        = lazy(() => import("./components/SecoursView"));
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -64,8 +70,17 @@ export default function App() {
   // Bouton « retour » matériel / navigateur : au lieu de quitter l'app, il ramène
   // à l'accueil depuis n'importe quel écran. Les retours fins restent gérés par
   // les boutons « retour » de chaque écran.
-  const NAV_SCREENS = ["home", "journal", "guide", "news"];
+  const NAV_SCREENS = ["home", "journal", "guide", "explorer"];
   const showNav = NAV_SCREENS.includes(screen);
+
+  // Ouverture depuis le hub Explorer.
+  const openFromExplorer = (key) => {
+    if (key === "start") return setScreen("step1");
+    if (key === "missions") return openMissions("explorer");
+    if (key === "guide") return openGuide();
+    if (key === "journal") return openJournal(null);
+    setScreen(key);
+  };
   useEffect(() => {
     document.body.classList.toggle("has-bottomnav", showNav);
     return () => document.body.classList.remove("has-bottomnav");
@@ -181,6 +196,18 @@ export default function App() {
     el = <SortieView onBack={() => setScreen("home")} onLog={() => openJournal(null)} />;
   } else if (screen === "benefices") {
     el = <BeneficesView onBack={() => setScreen("home")} onStart={() => setScreen("step1")} onOpenSortie={() => setScreen("sortie")} />;
+  } else if (screen === "explorer") {
+    el = <ExplorerView onOpen={openFromExplorer} />;
+  } else if (screen === "scenarios") {
+    el = <ScenariosView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "types") {
+    el = <TypesView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "questions") {
+    el = <QuestionsView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "quiz") {
+    el = <QuizView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "secours") {
+    el = <SecoursView onBack={() => setScreen("explorer")} />;
   } else if (screen === "blocages") {
     el = (
       <BlocagesView
@@ -277,7 +304,7 @@ export default function App() {
           onHome={() => setScreen("home")}
           onJournal={() => openJournal(null)}
           onGuide={() => openGuide()}
-          onNews={() => setScreen("news")}
+          onExplorer={() => setScreen("explorer")}
           onStart={() => setScreen("step1")}
         />
       )}

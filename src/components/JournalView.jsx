@@ -13,6 +13,7 @@ import {
   computeXP, computeLevel, computeDailyMission, daysSinceLastEntry,
   useDoneBosses, toggleBoss, computeDailyBoss, rewardsState, computeWins,
   exportEncrypted, isEncryptedExport, decryptExport,
+  computeMoodShift, computeHeatmap,
 } from "../utils/journal";
 import { INTENTIONS } from "../data/intentions";
 import { TIER_BY_KEY } from "../data/missions";
@@ -104,6 +105,7 @@ function AddForm({ onClose, initial = {}, entry = null }) {
   const [lieu, setLieu] = useState(src.lieu || "");
   const [avecQui, setAvecQui] = useState(src.avecQui || "");
   const [intention, setIntention] = useState(src.intention || null);
+  const [avant, setAvant] = useState(entry && typeof entry.avant === "number" ? entry.avant : null);
   const [resultat, setResultat] = useState(entry?.resultat || null);
   const [ressenti, setRessenti] = useState(entry && typeof entry.ressenti === "number" ? entry.ressenti : null);
   const [note, setNote] = useState(entry?.note || "");
@@ -119,6 +121,7 @@ function AddForm({ onClose, initial = {}, entry = null }) {
       lieu: lieu.trim(),
       avecQui: avecQui.trim(),
       intention,
+      avant,
       resultat,
       ressenti,
       note: note.trim(),
@@ -181,6 +184,12 @@ function AddForm({ onClose, initial = {}, entry = null }) {
                 </Chip>
               ))}
             </div>
+          </div>
+
+          {/* Appréhension avant */}
+          <div>
+            <label className="block text-[12px] font-semibold uppercase tracking-wide text-stone-400 mb-2">Avant d'y aller <span className="font-normal normal-case text-stone-300">— tu le sentais comment ? (optionnel)</span></label>
+            <Stars value={avant} onChange={setAvant} />
           </div>
 
           {/* Résultat */}
@@ -296,6 +305,9 @@ function EntryRow({ e, onEdit }) {
       <div className="mt-2 flex flex-wrap items-center gap-2">
         {r && <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium border ${r.tint}`}>{r.emoji} {r.label}</span>}
         {e.intention && <span className="text-[11px] text-stone-400">{e.intention}</span>}
+        {typeof e.avant === "number" && typeof e.ressenti === "number" && (
+          <span className="text-[11px] text-stone-400">avant {e.avant}/5 →</span>
+        )}
         {typeof e.ressenti === "number" && (
           <span className="inline-flex items-center gap-0.5">
             {[1, 2, 3, 4, 5].map((n) => <Star key={n} size={11} strokeWidth={2} className={n <= e.ressenti ? "fill-amber-400 text-amber-400" : "text-stone-200"} />)}
@@ -340,6 +352,8 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const wins = useMemo(() => computeWins(entries), [entries]);
   const rewards = rewardsState(level.level);
   const inactiveDays = daysSinceLastEntry(entries);
+  const mood = useMemo(() => computeMoodShift(entries), [entries]);
+  const heat = useMemo(() => computeHeatmap(entries), [entries]);
 
   const perLieu = useMemo(() => {
     const map = new Map();
@@ -572,6 +586,60 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
                 </div>
                 <Sparkline points={points} />
                 <p className="mt-1 text-[11px] text-stone-400">Moyenne de ton ressenti, jour après jour.</p>
+              </div>
+            )}
+
+            {/* Heatmap d'activité */}
+            {entries.length >= 3 && (
+              <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="inline-flex items-center gap-1.5 text-[12px] font-semibold uppercase tracking-wide text-emerald-600"><CalendarDays size={13} strokeWidth={2.5} /> Ta régularité</span>
+                  <span className="text-[11px] text-stone-400">13 semaines</span>
+                </div>
+                <div className="grid grid-rows-7 grid-flow-col gap-[3px] justify-start">
+                  {heat.days.map((d, i) => {
+                    const lvl = d.count === 0 ? 0 : d.count === 1 ? 1 : d.count === 2 ? 2 : 3;
+                    const bg = d.future
+                      ? "bg-transparent"
+                      : ["bg-stone-100", "bg-emerald-200", "bg-emerald-400", "bg-emerald-600"][lvl];
+                    return <span key={i} className={`w-[9px] h-[9px] rounded-[2px] ${bg}`} title={d.count ? `${d.count} ce jour` : ""} />;
+                  })}
+                </div>
+                <div className="mt-2.5 flex items-center gap-1.5 text-[10px] text-stone-400">
+                  <span>moins</span>
+                  <span className="w-[9px] h-[9px] rounded-[2px] bg-stone-100" />
+                  <span className="w-[9px] h-[9px] rounded-[2px] bg-emerald-200" />
+                  <span className="w-[9px] h-[9px] rounded-[2px] bg-emerald-400" />
+                  <span className="w-[9px] h-[9px] rounded-[2px] bg-emerald-600" />
+                  <span>plus</span>
+                </div>
+              </div>
+            )}
+
+            {/* Avant / après */}
+            {mood && mood.n >= 2 && (
+              <div className="mt-4 rounded-2xl border border-violet-200 bg-violet-50/50 p-4">
+                <span className="inline-flex items-center gap-1.5 text-[12px] font-semibold uppercase tracking-wide text-violet-600 mb-2"><TrendingUp size={13} strokeWidth={2.5} /> Avant / après</span>
+                <div className="flex items-center gap-3">
+                  <div className="text-center">
+                    <p className="text-[20px] font-serif-guide font-semibold text-stone-400 leading-none">{mood.avgAvant.toFixed(1)}</p>
+                    <p className="text-[10px] text-stone-400 mt-0.5">avant</p>
+                  </div>
+                  <div className="flex-1 h-px bg-violet-200 relative">
+                    <span className="absolute left-1/2 -translate-x-1/2 -top-2 text-violet-400">→</span>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-[20px] font-serif-guide font-semibold text-emerald-600 leading-none">{mood.avgApres.toFixed(1)}</p>
+                    <p className="text-[10px] text-stone-400 mt-0.5">après</p>
+                  </div>
+                </div>
+                <p className="mt-2.5 text-[13px] text-stone-600 leading-relaxed">
+                  {mood.delta > 0.2
+                    ? <>En moyenne, tu te sens <b className="text-emerald-600">mieux après qu'avant</b>. C'est presque toujours moins terrible que ce que la tête raconte.</>
+                    : mood.delta < -0.2
+                    ? <>Là, c'est plus dur après qu'avant — normal, ça arrive. Le simple fait d'oser compte déjà.</>
+                    : <>Avant et après se ressemblent : l'appréhension ne prédit pas grand-chose. Autant y aller.</>}
+                </p>
               </div>
             )}
 
