@@ -5,6 +5,7 @@ import { suggestIntention } from "./data/intentions";
 import { suggestRole } from "./data/roles";
 import WizardLayout from "./components/WizardLayout";
 import HomeView from "./components/HomeView";
+import BottomNav from "./components/BottomNav";
 import StepLieu from "./components/StepLieu";
 import StepDuo from "./components/StepDuo";
 import StepIntention from "./components/StepIntention";
@@ -62,6 +63,13 @@ export default function App() {
   // Bouton « retour » matériel / navigateur : au lieu de quitter l'app, il ramène
   // à l'accueil depuis n'importe quel écran. Les retours fins restent gérés par
   // les boutons « retour » de chaque écran.
+  const NAV_SCREENS = ["home", "journal", "guide", "news"];
+  const showNav = NAV_SCREENS.includes(screen);
+  useEffect(() => {
+    document.body.classList.toggle("has-bottomnav", showNav);
+    return () => document.body.classList.remove("has-bottomnav");
+  }, [showNav]);
+
   const screenRef = useRef(screen);
   useEffect(() => { screenRef.current = screen; }, [screen]);
   useEffect(() => {
@@ -256,5 +264,19 @@ export default function App() {
     );
   }
 
-  return <Suspense fallback={<Loader />}>{el}</Suspense>;
+  return (
+    <>
+      <Suspense fallback={<Loader />}>{el}</Suspense>
+      {showNav && (
+        <BottomNav
+          screen={screen}
+          onHome={() => setScreen("home")}
+          onJournal={() => openJournal(null)}
+          onGuide={() => openGuide()}
+          onNews={() => setScreen("news")}
+          onStart={() => setScreen("step1")}
+        />
+      )}
+    </>
+  );
 }

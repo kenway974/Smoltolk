@@ -767,7 +767,7 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
       {!empty && (
         <button
           onClick={() => setAdding(true)}
-          className="fixed bottom-6 left-1/2 -translate-x-1/2 z-20 inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-emerald-600 text-white text-[15px] font-semibold shadow-lg shadow-emerald-600/25 hover:bg-emerald-700 active:scale-95 transition-all"
+          className="fixed bottom-[74px] left-1/2 -translate-x-1/2 z-20 inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-emerald-600 text-white text-[15px] font-semibold shadow-lg shadow-emerald-600/25 hover:bg-emerald-700 active:scale-95 transition-all"
         >
           <Plus size={19} strokeWidth={2.5} /> J'ai osé
         </button>

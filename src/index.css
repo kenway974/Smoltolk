@@ -72,6 +72,9 @@ body {
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
+/* Réserve la place de la barre de navigation basse quand elle est visible */
+body.has-bottomnav #root { padding-bottom: calc(58px + env(safe-area-inset-bottom)); }
+
 /* ── Mode sombre ─────────────────────────────────────────────────
    Approche par surcharge : on remappe les jetons de couleur dominants
    sous .dark (sélecteurs par jeton de classe, robustes aux suffixes
