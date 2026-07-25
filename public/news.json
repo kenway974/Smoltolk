@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-07-25T14:43:03.852Z",
+  "generatedAt": "2026-07-25T15:02:22.026Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
-          "title": "En Syrie, le chef de l'ONU réclame une aide internationale à un \"moment charnière\" et le respect de la souveraineté du pays",
-          "link": "https://www.bfmtv.com/international/moyen-orient/syrie/en-syrie-le-chef-de-l-onu-reclame-une-aide-internationale-a-un-moment-charniere-et-le-respect-de-la-souverainete-du-pays_AD-202607250241.html",
-          "summary": "Pour la première visite en Syrie d'un secrétaire général de l'ONU depuis 2009, António Guterres, a appelé la communauté internationale à aider ce pays en transition après des…",
-          "pubDate": "2026-07-25T14:39:00.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "RDC : les ADF multiplient les attaques sur fond de progression d'Ebola",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260725-rdc-les-adf-multiplient-les-attaques-sur-fond-de-progression-d-ebola",
-          "summary": "Dans l'est de la République démocratique du Congo, une vingtaine de personnes ont été tuées lors d'une nouvelle attaque attribuée au groupe djihadiste ADF, selon la société…",
-          "pubDate": "2026-07-25T14:38:18.000Z",
+          "title": "Tour de France : Carapaz vainqueur de l'étape reine, Seixas n'a pas réussi à renverser le podium",
+          "link": "https://www.france24.com/fr/sports/20260725-tour-de-france-carapaz-vainqueur-de-l-%C3%A9tape-reine-seixas-n-a-pas-r%C3%A9ussi-%C3%A0-renverser-le-podium",
+          "summary": "Richard Carapaz (EF Education-EasyPost) est l'homme ​de la 3e semaine du Tour de France 2026. L'Équatorien a signé samedi à l'Alpe d'Huez (Isère) son deuxième succès en trois…",
+          "pubDate": "2026-07-25T14:52:30.000Z",
           "source": "France 24"
         },
         {
-          "title": "Incendies : 1 500 militaires doivent être mobilisés à partir de samedi soir, annonce le ministère des Armées",
-          "link": "https://www.franceinfo.fr/faits-divers/incendie/direct-incendies-dans-le-sud-ouest-sept-nouvelles-communes-evacuees-pres-de-bordeaux_8121596.html#xtor=RSS-3-[lestitres]",
-          "summary": "Près de 98 000 hectares sont partis en fumée sur le territoire national, un \"record historique\", a annoncé samedi le ministre de l'Intérieur, Laurent Nuñez",
-          "pubDate": "2026-07-25T14:36:16.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "\"Il n'y a pas de petites économies\" : les fournitures scolaires déjà disponibles et moins chères que juste avant la rentrée",
-          "link": "https://www.franceinfo.fr/france/rentree/reportage-il-n-y-a-pas-de-petites-economies-les-fournitures-scolaires-deja-disponibles-et-moins-cheres-que-juste-avant-la-rentree_8121980.html#xtor=RSS-3-[lestitres]",
-          "summary": "Les fournitures scolaires sont déjà en rayons dans de nombreux magasins. Plus d'un mois avant la rentrée, certains ont décidé de prendre les devants et d'en profiter : les prix…",
-          "pubDate": "2026-07-25T14:31:04.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "La météo pour ce dimanche 26 juillet 2026",
-          "link": "https://www.bfmtv.com/meteo/video-la-meteo-pour-ce-dimanche-26-juillet-2026_VN-202607250239.html",
-          "summary": "Les prévisions météo du moment. Par l'équipe météo de BFMTV: Christophe Person, Marc Hay, Sandra Larue, Guillaume Séchet et Virgilia Hess.",
-          "pubDate": "2026-07-25T14:30:21.000Z",
+          "title": "Largage imminent de l'A400M: \"Nous avons les conditions pour pouvoir l'expérimenter en temps réel\", explique Jérôme Boulanger, porte-parole de la Sécurité civile",
+          "link": "https://www.bfmtv.com/environnement/climat/video-largage-imminent-de-l-a400m-nous-avons-les-conditions-pour-pouvoir-l-experimenter-en-temps-reel-explique-jerome-boulanger-porte-parole-de-la-securite-civile_VN-202607250247.html",
+          "summary": "L'incendie qui sévit depuis mercredi en Gironde a pris \"une ampleur inédite\" et le vent l'a poussé vers l'agglomération de Bordeaux. Il nécessite l'évacuation supplémentaire de…",
+          "pubDate": "2026-07-25T14:44:36.000Z",
           "source": "BFMTV"
+        },
+        {
+          "title": "Donald Trump dit vouloir briguer un mandat supplémentaire, interdit par la Constitution américaine",
+          "link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-dit-vouloir-briguer-un-mandat-supplementaire-interdit-par-la-constitution-americaine_VN-202607250246.html",
+          "summary": "Donald Trump a multiplié les attaques frontales ce vendredi soir pour son retour au grand gala de la presse de Washington, réorganisé avec une sécurité renforcée, trois mois après…",
+          "pubDate": "2026-07-25T14:43:13.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "\"Les gens réservent un bateau le lundi pour des vacances qui commencent le vendredi\": pourquoi les superyachts cassent leurs prix de 20 à 30% pendant la saison estivale",
+          "link": "https://www.bfmtv.com/luxe/les-gens-reservent-un-bateau-le-lundi-pour-des-vacances-qui-commencent-le-vendredi-pourquoi-les-superyachts-cassent-leurs-prix-de-20-a-30-pendant-la-saison-estivale_AV-202607250243.html",
+          "summary": "En Méditerranée, les prix de location de certains bateaux de luxe reculent de 20 à 30%. En cause ? Les tensions géopolitiques qui freinent les réservations mais aussi des clients…",
+          "pubDate": "2026-07-25T14:42:44.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "L'Equatorien Richard Carapaz remporte l'étape reine du Tour de France, Tagej Pogacar conserve son maillot jaune, Paul Seixas reste 4e avant l'arrivée à Paris demain",
+          "link": "https://www.franceinfo.fr/tour-de-france/l-equatorien-richard-carapaz-remporte-l-etape-reine-du-tour-de-france-apres-un-final-haletant-face-a-l-americain-sepp-kuss_8121815.html#xtor=RSS-3-[lestitres]",
+          "summary": "Déjà vainqueur de la 18e étape, le porteur du maillot à pois s'est offert un nouveau succès de prestige, samedi, à l'Alpe d'Huez.",
+          "pubDate": "2026-07-25T14:40:57.000Z",
+          "source": "franceinfo"
         }
       ]
     },
@@ -47,38 +47,38 @@
       "label": "Monde",
       "items": [
         {
+          "title": "OTAN : soupçons d’espionnage au quartier général du commandement militaire de l’organisation",
+          "link": "https://www.lemonde.fr/international/article/2026/07/25/otan-soupcons-d-espionnage-au-quartier-general-du-commandement-militaire-de-l-organisation_6732381_3210.html",
+          "summary": "La justice belge a annoncé, samedi, l’arrestation d’une Canadienne d’origine chinoise, soupçonnée d’avoir profité d’un stage au siège de l’Alliance atlantique pour se livrer à des…",
+          "pubDate": "2026-07-25T14:56:39.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Tour de France : Carapaz vainqueur de l'étape reine, Seixas n'a pas réussi à renverser le podium",
+          "link": "https://www.france24.com/fr/sports/20260725-tour-de-france-carapaz-vainqueur-de-l-%C3%A9tape-reine-seixas-n-a-pas-r%C3%A9ussi-%C3%A0-renverser-le-podium",
+          "summary": "Richard Carapaz (EF Education-EasyPost) est l'homme ​de la 3e semaine du Tour de France 2026. L'Équatorien a signé samedi à l'Alpe d'Huez (Isère) son deuxième succès en trois…",
+          "pubDate": "2026-07-25T14:52:30.000Z",
+          "source": "France 24"
+        },
+        {
+          "title": "Enquête. Pourquoi la fin du support physique bouleverse l'économie du jeu vidéo et tourmente les joueurs ?",
+          "link": "https://www.franceinfo.fr/culture/jeux-video/enquete-pourquoi-la-fin-du-support-physique-bouleverse-l-economie-du-jeu-video-et-tourmente-les-joueurs_8119481.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Si le marché mondial du jeu vidéo est d'ores et déjà en grande majorité dématérialisé, Sony décide de prendre les devant en annonçant la fin de leur production disque Blu-Ray.",
+          "pubDate": "2026-07-25T14:50:00.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Donald Trump dit vouloir briguer un mandat supplémentaire, interdit par la Constitution américaine",
+          "link": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-dit-vouloir-briguer-un-mandat-supplementaire-interdit-par-la-constitution-americaine_VN-202607250246.html",
+          "summary": "Donald Trump a multiplié les attaques frontales ce vendredi soir pour son retour au grand gala de la presse de Washington, réorganisé avec une sécurité renforcée, trois mois après…",
+          "pubDate": "2026-07-25T14:43:13.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "ONU",
           "link": "https://www.bfmtv.com/international/onu-organisation-des-nations-unies_DN-202108310641.html",
           "summary": "",
           "pubDate": "2026-07-25T14:39:01.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "En Syrie, le chef de l'ONU réclame une aide internationale à un \"moment charnière\" et le respect de la souveraineté du pays",
-          "link": "https://www.bfmtv.com/international/moyen-orient/syrie/en-syrie-le-chef-de-l-onu-reclame-une-aide-internationale-a-un-moment-charniere-et-le-respect-de-la-souverainete-du-pays_AD-202607250241.html",
-          "summary": "Pour la première visite en Syrie d'un secrétaire général de l'ONU depuis 2009, António Guterres, a appelé la communauté internationale à aider ce pays en transition après des…",
-          "pubDate": "2026-07-25T14:39:00.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "RDC : les ADF multiplient les attaques sur fond de progression d'Ebola",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260725-rdc-les-adf-multiplient-les-attaques-sur-fond-de-progression-d-ebola",
-          "summary": "Dans l'est de la République démocratique du Congo, une vingtaine de personnes ont été tuées lors d'une nouvelle attaque attribuée au groupe djihadiste ADF, selon la société…",
-          "pubDate": "2026-07-25T14:38:18.000Z",
-          "source": "France 24"
-        },
-        {
-          "title": "EN DIRECT, guerre en Ukraine : le président du Kazakhstan a dit à Vladimir Poutine, lors d’une rencontre face-à-face, que les combats en Ukraine devaient être « arrêtés »",
-          "link": "https://www.lemonde.fr/international/live/2026/07/25/en-direct-guerre-en-ukraine-le-president-du-kazakhstan-a-dit-a-vladimir-poutine-lors-d-une-rencontre-face-a-face-que-les-combats-en-ukraine-devaient-etre-arretes_6725306_3210.html",
-          "summary": "« Comment sortir de cette situation ? Personne ne le sait, parce qu’il y a les positions des deux parties. Mais, d’un autre côté, il y a en ce moment, cette possibilité de geler…",
-          "pubDate": "2026-07-25T14:10:36.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Ukraine-Russie: la guerre",
-          "link": "https://www.bfmtv.com/international/europe/ukraine-russie-le-bras-de-fer-mondial_DN-201904150203.html",
-          "summary": "Après des années de tension, le président russe Vladimir Poutine a relancé le conflit entre son pays et l'Ukraine - dirigée par Volodymyr Zelensky - en annonçant, le 21 février…",
-          "pubDate": "2026-07-25T14:07:54.000Z",
           "source": "BFMTV"
         }
       ]
@@ -87,6 +87,13 @@
       "key": "politique",
       "label": "Politique",
       "items": [
+        {
+          "title": "A Villeneuve-Saint-Georges, les méthodes de la police municipale, les plaintes en série et le coup de filet de la police nationale",
+          "link": "https://www.lemonde.fr/societe/article/2026/07/25/a-villeneuve-saint-georges-les-methodes-de-la-police-municipale-les-plaintes-en-serie-et-le-coup-de-filet-de-la-police-nationale_6732382_3224.html",
+          "summary": "Missionnée par la nouvelle édile, Kristell Niasme, élue en 2025, pour mener des opérations plus offensives, la police municipale de la ville est au cœur d’une enquête judiciaire…",
+          "pubDate": "2026-07-25T15:00:04.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "Le gouvernement veut former tous les cadres de l'Education nationale pour lutter contre les discriminations anti-LGBT+",
           "link": "https://www.franceinfo.fr/societe/lgbt/le-gouvernement-veut-former-tous-les-cadres-de-l-education-nationale-pour-lutter-contre-les-discriminations-anti-lgbt_8122022.html#xtor=RSS-3-%5Bgeneral%5D",
@@ -113,13 +120,6 @@
           "link": "https://www.bfmtv.com/politique/video-laurent-nunez-annonce-167-000-evacuations-dans-le-sud-ouest-en-raison-des-incendies_VN-202607250188.html",
           "summary": "L'incendie qui sévit depuis mercredi en Gironde a pris \"une ampleur inédite\" et le vent l'a poussé vers l'agglomération de Bordeaux. Il nécessite l'évacuation supplémentaire de…",
           "pubDate": "2026-07-25T10:50:40.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Incendie en Gironde: \"Le feu a été moins virulent cette nuit, ce n'est plus un feu convectif\", explique Laurent Nuñez, ministre de l'Intérieur",
-          "link": "https://www.bfmtv.com/politique/video-incendie-en-gironde-le-feu-a-ete-moins-virulent-cette-nuit-ce-n-est-plus-un-feu-convectif-explique-laurent-nunez-ministre-de-l-interieur_VN-202607250185.html",
-          "summary": "L'incendie qui sévit depuis mercredi en Gironde a pris \"une ampleur inédite\" et le vent l'a poussé vers l'agglomération de Bordeaux. Il nécessite l'évacuation supplémentaire de…",
-          "pubDate": "2026-07-25T10:40:12.000Z",
           "source": "BFMTV"
         }
       ]
@@ -235,7 +235,7 @@
           "title": "« On a acheté un lit médicalisé deux places. Pouvoir m’endormir la tête sur son épaule me ressource » : comment maintenir le lien amoureux malgré la dépendance",
           "link": "https://www.lemonde.fr/intimites/article/2026/07/25/on-a-achete-un-lit-medicalise-deux-places-pouvoir-m-endormir-la-tete-sur-son-epaule-me-ressource-comment-maintenir-le-lien-amoureux-malgre-la-dependance_6732378_6190330.html",
           "summary": "Quand la maladie, le handicap ou la perte d’autonomie s’invitent dans la vie de couple, l’aimant devient aussi aidant. Préserver le désir et la complicité quand les gestes de soin…",
-          "pubDate": "2026-07-25T14:00:09.000Z",
+          "pubDate": "2026-07-25T14:00:07.000Z",
           "source": "Le Monde"
         },
         {
@@ -416,6 +416,20 @@
       "label": "Tech & numérique",
       "items": [
         {
+          "title": "Abonnez-vous à Disney+ à partir de 4,99 euros par mois pendant 3 mois et vivez des milliers d'aventures",
+          "link": "https://www.bfmtv.com/tech/bons-plans/abonnez-vous-a-disney-a-partir-de-4-99-euros-par-mois-pendant-3-mois-et-vivez-des-milliers-d-aventures_AB-202607250021.html",
+          "summary": "Envie de vous plonger dans une série, ou de découvrir ou redécouvrir des films ? Disney+ contient des milliers de titres. En plus, pour l’été, le service de streaming propose ses…",
+          "pubDate": "2026-07-25T14:55:00.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Aussi puissant qu'un PC portable, ce smartphone semble se vendre par palettes depuis ce lundi",
+          "link": "https://www.bfmtv.com/tech/bons-plans/aussi-puissant-qu-un-pc-portable-ce-smartphone-semble-se-vendre-par-palettes-depuis-ce-lundi_AB-202607250033.html",
+          "summary": "Quand un smartphone permet de jouer comme sur une console portable tout en offrant la puissance nécessaire pour les tâches les plus exigeantes, il change de catégorie. C'est…",
+          "pubDate": "2026-07-25T14:52:00.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "Le Samsung Galaxy S25 FE passe à moins de 400 euros pour la fin des soldes, les ventes s'enflamment",
           "link": "https://www.bfmtv.com/tech/bons-plans/le-samsung-galaxy-s25-fe-passe-a-moins-de-400-euros-pour-la-fin-des-soldes-les-ventes-s-enflamment_AB-202607250010.html",
           "summary": "La fin des soldes est encore l’occasion de faire de très bonnes affaires, y compris sur des appareils high-tech au potentiel technique énorme. C’est ce que propose Cdiscount avec…",
@@ -435,20 +449,6 @@
           "summary": "Dans Multijoueurs, Melinda Davan-Soulas reçoit Adyboo, streameur et casteur, et Otaxou, journaliste et youtubeur. Ils remontent le fil de 2026 pour s'arrêter sur les stars du…",
           "pubDate": "2026-07-25T14:30:35.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Ce site vous montre toutes les éclipses passées et futures sur des millénaires",
-          "link": "https://www.numerama.com/sciences/2299609-ce-site-vous-montre-toutes-les-eclipses-passees-et-futures-sur-des-millenaires.html",
-          "summary": "Les éclipses comme celle qui nous attend le 12 août 2026 en France sont prévisibles longtemps à l'avance. Tout comme il est possible de savoir quand se sont produites celles du…",
-          "pubDate": "2026-07-25T13:31:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Chez Google, l’IA n’a jamais coûté aussi cher (et le moral n’a jamais été si bas)",
-          "link": "https://www.01net.com/actualites/chez-google-lia-na-jamais-coute-aussi-cher-et-le-moral-na-jamais-ete-si-bas.html",
-          "summary": "Google bat ses estimations et son cloud explose à +82 %. Ses modèles IA prennent du retard, ses meilleurs chercheurs partent chez la concurrence, et son cash flow vire au rouge…",
-          "pubDate": "2026-07-25T13:24:24.000Z",
-          "source": "01net"
         }
       ]
     },
@@ -456,6 +456,13 @@
       "key": "jeuxvideo",
       "label": "Jeux vidéo",
       "items": [
+        {
+          "title": "Bien sûr que le DLC Star Wars de PowerWash Simulator 2 m’a fait replonger",
+          "link": "https://www.numerama.com/pop-culture/2300245-bien-sur-que-le-dlc-star-wars-de-powerwash-simulator-2-ma-fait-replonger.html",
+          "summary": "Le très addictif PowerWash Simulator 2 vient de s'offrir une extension aux couleurs de Star Wars. Au menu : des lieux et vaisseaux emblématiques encrassés comme jamais, à nettoyer…",
+          "pubDate": "2026-07-25T15:02:00.000Z",
+          "source": "Numerama"
+        },
         {
           "title": "5 séries qui ont créé la surprise en 2026, à rattraper cet été",
           "link": "https://www.numerama.com/pop-culture/2297719-5-series-qui-ont-cree-la-surprise-en-2026-a-rattraper-cet-ete.html",
@@ -482,13 +489,6 @@
           "link": "https://www.numerama.com/pop-culture/2301879-blade-runner-2099-le-trailer-devoile-une-nouvelle-chasse-aux-replicants-dans-lesprit-du-film-culte-de-1982.html",
           "summary": "50 ans après les événements de Blade Runner 2049, et 80 ans après le récit du premier Blade Runner, l'univers imaginé par Philip K. Dick et porté à l'écran par Ridley Scott et…",
           "pubDate": "2026-07-25T10:29:41.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Kratos reviendra officiellement dans God of War dans une suite à God of War: Laufey",
-          "link": "https://www.numerama.com/pop-culture/2301837-kratos-reviendra-officiellement-dans-god-of-war-dans-une-suite-a-god-of-war-laufey.html",
-          "summary": "Kratos va faire son retour dans un nouvel opus de la franchise God of War. La nouvelle a été confirmée lors du Comic-Con de San Diego, avec en plus l'annonce d'une date de sortie…",
-          "pubDate": "2026-07-25T09:22:54.000Z",
           "source": "Numerama"
         }
       ]
@@ -539,6 +539,20 @@
       "label": "Culture",
       "items": [
         {
+          "title": "Le Cirque du Soleil rejoue l’épopée de Ràdio Andorra, « l’une des premières radios pirates »",
+          "link": "https://www.lemonde.fr/m-le-mag/article/2026/07/25/le-cirque-du-soleil-rejoue-l-epopee-de-radio-andorra-l-une-des-premieres-radios-pirates_6732383_4500055.html",
+          "summary": "Dans son dernier spectacle, la compagnie de cirque met en scène l’histoire de la station privée andorrane, qui, de 1940 à sa disparition, en 1981, a marqué de son empreinte…",
+          "pubDate": "2026-07-25T15:00:05.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Enquête. Pourquoi la fin du support physique bouleverse l'économie du jeu vidéo et tourmente les joueurs ?",
+          "link": "https://www.franceinfo.fr/culture/jeux-video/enquete-pourquoi-la-fin-du-support-physique-bouleverse-l-economie-du-jeu-video-et-tourmente-les-joueurs_8119481.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Si le marché mondial du jeu vidéo est d'ores et déjà en grande majorité dématérialisé, Sony décide de prendre les devant en annonçant la fin de leur production disque Blu-Ray.",
+          "pubDate": "2026-07-25T14:50:00.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "« Nous sommes venues exprès pour vous écouter » : au sommet pendant l’été, un groupe de musique fait vibrer les refuges",
           "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/25/nous-sommes-venues-expres-pour-vous-ecouter-au-sommet-pendant-l-ete-un-groupe-de-musique-fait-vibrer-les-refuges_6732342_3451060.html",
           "summary": "« Havres des cimes » (2/7). Après avoir avalé 750 mètres de dénivelé avec un violon, une guitare ou une contrebasse sur le dos, les trois musiciens de La Tournée des refuges…",
@@ -558,20 +572,6 @@
           "summary": "Parsemé de références aux univers de la musique, du cinéma et de la mode, le disque explore les thèmes de l'immortalité artistique et de l'identité.",
           "pubDate": "2026-07-25T12:25:40.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "La chanteuse et pianiste Marie-Paule Belle, connue notamment pour \"La Parisienne\", est morte à l'âge de 80 ans",
-          "link": "https://www.franceinfo.fr/culture/la-chanteuse-et-pianiste-marie-paule-belle-connue-notamment-pour-la-parisienne-est-morte-a-l-age-de-80-ans_8121890.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Elle avait été révélée en 1969 en remportant un concours à la radio, après avoir commencé le piano dès l'âge de 3 ans.",
-          "pubDate": "2026-07-25T11:56:13.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Marie-Paule Belle, interprète de « La Parisienne », est morte à l’âge de 80 ans",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/07/25/marie-paule-belle-interprete-de-la-parisienne-est-morte-a-l-age-de-80-ans_6732274_3382.html",
-          "summary": "La chanteuse, compositrice et pianiste est morte à Neuilly-sur-Seine des suites d’un cancer.",
-          "pubDate": "2026-07-25T11:42:55.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -826,10 +826,17 @@
       "label": "Sport",
       "items": [
         {
+          "title": "VIDEO. L'Américain Sepp Kuss chute deux fois en deux minutes et voit s'envoler la victoire de la 20e étape du Tour de France",
+          "link": "https://www.franceinfo.fr/tour-de-france/video-l-americain-sepp-kuss-chute-deux-fois-en-deux-minutes-et-voit-s-envoler-la-victoire-de-la-20e-etape-du-tour-de-france_8122073.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Kuss a terminé troisième de l'étape, dimanche, après avoir été avalé par Richard Carapaz puis Remco Evenepoel à l'Alpe d'Huez.",
+          "pubDate": "2026-07-25T14:51:15.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "L'Equatorien Richard Carapaz remporte l'étape reine du Tour de France après un final haletant face à l'Américain Sepp Kuss",
           "link": "https://www.franceinfo.fr/tour-de-france/l-equatorien-richard-carapaz-remporte-l-etape-reine-du-tour-de-france-apres-un-final-haletant-face-a-l-americain-sepp-kuss_8121815.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Déjà vainqueur de la 18e étape, le porteur du maillot à pois s'est offert un nouveau succès de prestige, samedi, à l'Alpe d'Huez.",
-          "pubDate": "2026-07-25T14:38:33.000Z",
+          "pubDate": "2026-07-25T14:40:57.000Z",
           "source": "franceinfo"
         },
         {
@@ -851,13 +858,6 @@
           "link": "https://www.franceinfo.fr/sports/tennis/a-29-ans-le-francais-quentin-halys-remporte-son-tout-premier-tournoi-atp-sur-la-terre-battue-de-kitzbuhel_8122013.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Le natif de Bondy a battu trois joueurs mieux classés que lui pour atteindre sa deuxième finale sur le circuit principal, remportée samedi en deux sets contre Alexander Bublik…",
           "pubDate": "2026-07-25T13:23:04.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "\"Il aime bien tout contrôler\" : qui est Brice Masson, Français favori de la Coupe du monde d'esport ?",
-          "link": "https://www.franceinfo.fr/sports/esport/il-aime-bien-tout-controler-qui-est-brice-masson-francais-favori-de-la-coupe-du-monde-d-esport_8118200.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Après les États-Unis, c'est au tour de la France d'accueillir une compétition internationale. Du 7 juillet au 22 août, Paris accueille la troisième édition de l'Esports World Cup…",
-          "pubDate": "2026-07-25T12:20:45.000Z",
           "source": "franceinfo"
         }
       ]
