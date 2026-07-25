@@ -32,6 +32,10 @@ const TypesView          = lazy(() => import("./components/TypesView"));
 const QuestionsView      = lazy(() => import("./components/QuestionsView"));
 const QuizView           = lazy(() => import("./components/QuizView"));
 const SecoursView        = lazy(() => import("./components/SecoursView"));
+const SimulateurView     = lazy(() => import("./components/SimulateurView"));
+const RoueView           = lazy(() => import("./components/RoueView"));
+const LisSignalView      = lazy(() => import("./components/LisSignalView"));
+const RespirationView    = lazy(() => import("./components/RespirationView"));
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -208,6 +212,14 @@ export default function App() {
     el = <QuizView onBack={() => setScreen("explorer")} />;
   } else if (screen === "secours") {
     el = <SecoursView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "simulateur") {
+    el = <SimulateurView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "roue") {
+    el = <RoueView onBack={() => setScreen("explorer")} onLog={() => openJournal(null)} />;
+  } else if (screen === "lissignal") {
+    el = <LisSignalView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "respiration") {
+    el = <RespirationView onBack={() => setScreen("explorer")} />;
   } else if (screen === "blocages") {
     el = (
       <BlocagesView

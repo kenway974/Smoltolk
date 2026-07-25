@@ -2,7 +2,7 @@ import React from "react";
 import {
   Compass, DoorOpen, Newspaper, LifeBuoy, Dumbbell, Trophy, HelpCircle,
   BookOpen, Wrench, Clapperboard, Users, MessageCircleQuestion, HeartPulse,
-  LineChart, Bookmark, ShieldCheck, ArrowRight, Grid2x2,
+  LineChart, Bookmark, ShieldCheck, ArrowRight, Grid2x2, Gamepad2, Dices, Eye, Wind,
 } from "lucide-react";
 
 const GROUPS = [
@@ -11,6 +11,7 @@ const GROUPS = [
     items: [
       { key: "start",   icon: Compass,   tile: "bg-blue-600",    label: "Trouver une accroche", desc: "Le lieu, la personne, ton intention → des accroches prêtes." },
       { key: "sortie",  icon: DoorOpen,  tile: "bg-orange-500",  label: "Mode sortie",          desc: "Ton défi, 3 accroches, un rappel — hors-ligne." },
+      { key: "respiration", icon: Wind,  tile: "bg-sky-500",     label: "Respiration",          desc: "Te caler avant d'y aller — 60 secondes." },
       { key: "secours", icon: LifeBuoy,  tile: "bg-sky-600",     label: "Sorties de secours",   desc: "Quoi dire quand ça coince, tout de suite." },
       { key: "news",    icon: Newspaper, tile: "bg-rose-500",    label: "News",                 desc: "L'actu fraîche pour lancer la discussion." },
     ],
@@ -18,9 +19,12 @@ const GROUPS = [
   {
     titre: "S'entraîner",
     items: [
+      { key: "simulateur",   icon: Gamepad2, tile: "bg-indigo-600", label: "Simulateur",            desc: "Une conversation dont tu choisis les répliques." },
       { key: "entrainement", icon: Dumbbell, tile: "bg-cyan-600",   label: "Cartes d'entraînement", desc: "« Et si elle répond ça ? » — à froid." },
+      { key: "lissignal",    icon: Eye,      tile: "bg-emerald-600",label: "Lis le signal",         desc: "Devine le ton : chaleureux, neutre, froid ?" },
       { key: "missions",     icon: Trophy,   tile: "bg-violet-600", label: "Mes défis",             desc: "L'échelle de défis + le boss du jour." },
       { key: "quiz",         icon: HelpCircle,tile: "bg-amber-500", label: "Vrai ou faux ?",        desc: "Démonte les mythes sur la sociabilité." },
+      { key: "roue",         icon: Dices,    tile: "bg-rose-500",   label: "La roue du hasard",     desc: "Un défi surprise : lieu + intention + action." },
     ],
   },
   {

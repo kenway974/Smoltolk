@@ -12,6 +12,8 @@ const KEY = "smoltolk.journal.v1";
 const GOAL_KEY = "smoltolk.journal.goal.v1";      // objectif hebdo (nombre)
 const MISSIONS_KEY = "smoltolk.journal.missions.v1"; // défis validés (map id -> timestamp)
 const BOSSES_KEY = "smoltolk.journal.bosses.v1";     // boss validés (map id -> timestamp)
+const CUSTOM_KEY = "smoltolk.journal.custom.v1";     // défis perso créés (array)
+export const CUSTOM_XP = 25;
 
 // ---- Vocabulaire des résultats (du plus positif au plus rude) -------------
 export const RESULTATS = [
@@ -109,10 +111,34 @@ export function toggleBoss(id) {
   listeners.forEach((l) => l());
 }
 
+// ---- Défis perso (créés par l'utilisateur) --------------------------------
+function loadCustom() {
+  try { return JSON.parse(localStorage.getItem(CUSTOM_KEY)) || []; }
+  catch { return []; }
+}
+let customCache = loadCustom();
+export function getCustomMissions() { return customCache; }
+export function addCustomMission(titre, desc = "") {
+  const t = (titre || "").trim();
+  if (!t) return;
+  const at = Date.now();
+  const id = `perso-${at.toString(36)}-${(seq++).toString(36)}`;
+  customCache = [{ id, titre: t, desc: desc.trim(), xp: CUSTOM_XP, perso: true }, ...customCache];
+  try { localStorage.setItem(CUSTOM_KEY, JSON.stringify(customCache)); } catch { /* ignore */ }
+  listeners.forEach((l) => l());
+}
+export function removeCustomMission(id) {
+  customCache = customCache.filter((m) => m.id !== id);
+  try { localStorage.setItem(CUSTOM_KEY, JSON.stringify(customCache)); } catch { /* ignore */ }
+  // On retire aussi son éventuel statut « fait ».
+  if (missionsCache[id]) { const n = { ...missionsCache }; delete n[id]; missionsCache = n; try { localStorage.setItem(MISSIONS_KEY, JSON.stringify(n)); } catch { /* ignore */ } }
+  listeners.forEach((l) => l());
+}
+
 // ---- Export / import (sauvegarde locale) ----------------------------------
 export function exportData() {
   return JSON.stringify(
-    { version: 1, exportedAt: Date.now(), entries: cache, goal: goalCache, missions: missionsCache, bosses: bossesCache },
+    { version: 1, exportedAt: Date.now(), entries: cache, goal: goalCache, missions: missionsCache, bosses: bossesCache, custom: customCache },
     null,
     2
   );
@@ -175,6 +201,11 @@ export function importData(json) {
   if (data.bosses && typeof data.bosses === "object") {
     bossesCache = { ...data.bosses, ...bossesCache };
     try { localStorage.setItem(BOSSES_KEY, JSON.stringify(bossesCache)); } catch { /* ignore */ }
+  }
+  if (Array.isArray(data.custom)) {
+    const seen = new Set(customCache.map((c) => c.id));
+    customCache = [...customCache, ...data.custom.filter((c) => c && c.id && !seen.has(c.id))];
+    try { localStorage.setItem(CUSTOM_KEY, JSON.stringify(customCache)); } catch { /* ignore */ }
   }
   if (Number.isFinite(data.goal)) setWeeklyGoal(data.goal);
   listeners.forEach((l) => l());
@@ -339,6 +370,8 @@ export function computeXP(entries = cache, doneMissions = missionsCache, doneBos
     const b = BOSS_BY_ID[id];
     if (b) xp += b.xp;
   }
+  // Défis perso validés.
+  for (const c of customCache) if (doneMissions && doneMissions[c.id]) xp += c.xp;
   return xp;
 }
 
@@ -438,6 +471,7 @@ if (typeof window !== "undefined") {
     else if (e.key === GOAL_KEY) goalCache = loadGoal();
     else if (e.key === MISSIONS_KEY) missionsCache = loadMissions();
     else if (e.key === BOSSES_KEY) bossesCache = loadBosses();
+    else if (e.key === CUSTOM_KEY) customCache = loadCustom();
     else return;
     listeners.forEach((l) => l());
   });
@@ -449,3 +483,4 @@ export function useJournalCount() { return useSyncExternalStore(subscribe, () =>
 export function useWeeklyGoal() { return useSyncExternalStore(subscribe, getWeeklyGoal); }
 export function useDoneMissions() { return useSyncExternalStore(subscribe, getDoneMissions); }
 export function useDoneBosses() { return useSyncExternalStore(subscribe, getDoneBosses); }
+export function useCustomMissions() { return useSyncExternalStore(subscribe, getCustomMissions); }
