@@ -71,3 +71,82 @@ body {
 /* Hide scrollbar on moment chips */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ── Mode sombre ─────────────────────────────────────────────────
+   Approche par surcharge : on remappe les jetons de couleur dominants
+   sous .dark (sélecteurs par jeton de classe, robustes aux suffixes
+   d'opacité), sans toucher chaque composant. Les couleurs saturées
+   (tuiles d'icônes, dégradés) restent telles quelles — belles sur fond
+   sombre. */
+.dark body { background-color: #100e0c; color: #f5f4f2; }
+
+/* Surfaces off-white (fond de page + en-têtes collants) */
+.dark [class~="bg-[#f5f3ef]"],
+.dark [class~="bg-[#f5f3ef]/95"] { background-color: #100e0c !important; }
+
+/* Cartes */
+.dark [class~="bg-white"] { background-color: #1c1917 !important; }
+.dark [class~="bg-white/50"] { background-color: rgba(28,25,23,.5) !important; }
+
+/* Remplissages discrets */
+.dark [class~="bg-stone-50"],
+.dark [class~="bg-stone-100"] { background-color: #262220 !important; }
+.dark [class~="bg-stone-200/60"] { background-color: #2c2825 !important; }
+
+/* Éléments déjà foncés : on les éclaircit pour qu'ils ressortent du fond */
+.dark [class~="bg-stone-900"] { background-color: #2a2725 !important; }
+.dark [class~="bg-stone-800"] { background-color: #2f2c29 !important; }
+
+/* Bordures neutres */
+.dark [class~="border-stone-200"],
+.dark [class~="border-stone-100"],
+.dark [class~="border-stone-300"] { border-color: #2e2a27 !important; }
+
+/* Texte neutre */
+.dark [class~="text-stone-900"] { color: #f5f4f2 !important; }
+.dark [class~="text-stone-800"] { color: #e7e3df !important; }
+.dark [class~="text-stone-700"] { color: #d3cdc7 !important; }
+.dark [class~="text-stone-600"] { color: #b3aca5 !important; }
+.dark [class~="text-stone-500"] { color: #9c948d !important; }
+.dark [class~="text-stone-400"] { color: #837b74 !important; }
+.dark [class~="text-stone-300"] { color: #5f574f !important; }
+
+/* Fonds teintés pâles → versions sombres (même teinte, luminance basse) */
+.dark [class~="bg-rose-50"],   .dark [class~="bg-rose-50/60"]    { background-color: rgba(244,63,94,.10) !important; }
+.dark [class~="bg-amber-50"],  .dark [class~="bg-amber-50/50"],
+.dark [class~="bg-amber-50/60"]                                  { background-color: rgba(245,158,11,.10) !important; }
+.dark [class~="bg-violet-50"], .dark [class~="bg-violet-50/40"],
+.dark [class~="bg-violet-50/50"]                                 { background-color: rgba(139,92,246,.13) !important; }
+.dark [class~="bg-emerald-50"],.dark [class~="bg-emerald-50/60"] { background-color: rgba(16,185,129,.10) !important; }
+.dark [class~="bg-sky-50"]                                       { background-color: rgba(14,165,233,.10) !important; }
+.dark [class~="bg-orange-50"], .dark [class~="bg-orange-50/70"]  { background-color: rgba(249,115,22,.10) !important; }
+.dark [class~="bg-blue-50"],   .dark [class~="bg-blue-50/60"]    { background-color: rgba(59,130,246,.10) !important; }
+.dark [class~="bg-indigo-50"], .dark [class~="bg-indigo-50/40"]  { background-color: rgba(99,102,241,.13) !important; }
+.dark [class~="bg-green-50"]                                     { background-color: rgba(34,197,94,.10) !important; }
+
+/* Bordures teintées → plus discrètes */
+.dark [class~="border-rose-200"]    { border-color: rgba(244,63,94,.28) !important; }
+.dark [class~="border-amber-200"]   { border-color: rgba(245,158,11,.28) !important; }
+.dark [class~="border-amber-100"]   { border-color: rgba(245,158,11,.18) !important; }
+.dark [class~="border-violet-200"]  { border-color: rgba(139,92,246,.30) !important; }
+.dark [class~="border-emerald-200"] { border-color: rgba(16,185,129,.28) !important; }
+.dark [class~="border-sky-200"]     { border-color: rgba(14,165,233,.28) !important; }
+.dark [class~="border-orange-200"]  { border-color: rgba(249,115,22,.28) !important; }
+.dark [class~="border-blue-200"]    { border-color: rgba(59,130,246,.28) !important; }
+.dark [class~="border-indigo-200"]  { border-color: rgba(99,102,241,.30) !important; }
+
+/* Textes teintés → éclaircis pour rester lisibles sur fond sombre */
+.dark [class~="text-emerald-700"], .dark [class~="text-emerald-600"] { color: #6ee7b7 !important; }
+.dark [class~="text-blue-700"],    .dark [class~="text-blue-600"],
+.dark [class~="text-blue-500"]                                       { color: #93c5fd !important; }
+.dark [class~="text-sky-600"]                                        { color: #7dd3fc !important; }
+.dark [class~="text-amber-700"],   .dark [class~="text-amber-600"]   { color: #fcd34d !important; }
+.dark [class~="text-rose-700"],    .dark [class~="text-rose-600"]    { color: #fda4af !important; }
+.dark [class~="text-violet-700"],  .dark [class~="text-violet-600"]  { color: #c4b5fd !important; }
+.dark [class~="text-orange-700"],  .dark [class~="text-orange-600"]  { color: #fdba74 !important; }
+.dark [class~="text-indigo-700"],  .dark [class~="text-indigo-600"]  { color: #a5b4fc !important; }
+
+/* Inputs : placeholder un peu plus lisible */
+.dark input::placeholder, .dark textarea::placeholder { color: #6b635c !important; }
+.dark input, .dark textarea { color: #f5f4f2 !important; }
+.dark input[type="checkbox"] { accent-color: #d6d3d1; }

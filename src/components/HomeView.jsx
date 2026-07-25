@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck, Sun, Moon, SunMoon, DoorOpen } from "lucide-react";
 import { useFavoriteCount } from "../utils/favorites";
+import { useTheme, setTheme } from "../utils/theme";
 import { useJournal, computeStats } from "../utils/journal";
 import { SITUATIONS_DATA } from "../data/situations";
 
@@ -45,6 +46,33 @@ function EntryCard({ icon: Icon, title, desc, meta, onClick, tile = "bg-stone-90
   );
 }
 
+function ThemeToggle() {
+  const theme = useTheme();
+  const opts = [
+    { key: "system", icon: SunMoon, label: "Auto" },
+    { key: "light", icon: Sun, label: "Clair" },
+    { key: "dark", icon: Moon, label: "Sombre" },
+  ];
+  return (
+    <div className="inline-flex items-center gap-1 rounded-full border border-stone-200 bg-white p-1">
+      {opts.map((o) => {
+        const active = theme === o.key;
+        const Icon = o.icon;
+        return (
+          <button
+            key={o.key}
+            onClick={() => setTheme(o.key)}
+            className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-medium transition-colors ${active ? "bg-stone-900 text-white" : "text-stone-400 hover:text-stone-700"}`}
+            aria-label={`Thème ${o.label}`}
+          >
+            <Icon size={12} strokeWidth={2} /> {o.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 function Step({ n, title, children }) {
   return (
     <div className="flex gap-3">
@@ -57,7 +85,7 @@ function Step({ n, title, children }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite, onOpenSortie }) {
   const favCount = useFavoriteCount();
   const journal = useJournal();
   const jstats = computeStats(journal);
@@ -100,6 +128,24 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
         </div>
         <p className="mt-2 inline-flex items-center gap-1 text-[11px] text-stone-400"><MapPin size={11} strokeWidth={2} />{sample.lieu}</p>
       </div>
+
+      {/* Mode sortie */}
+      <button
+        onClick={onOpenSortie}
+        className="group w-full text-left rounded-2xl p-4 mb-6 text-white active:scale-[0.99] transition-transform flex items-center gap-3.5"
+        style={{ backgroundImage: "linear-gradient(135deg,#ea580c,#f59e0b)" }}
+      >
+        <span className="flex items-center justify-center w-11 h-11 rounded-xl bg-white/15 flex-shrink-0">
+          <DoorOpen size={20} strokeWidth={2} />
+        </span>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2">
+            <h2 className="text-[16px] font-semibold">Tu sors maintenant ?</h2>
+            <ArrowRight size={15} strokeWidth={2} className="ml-auto opacity-70 group-hover:translate-x-0.5 transition-transform" />
+          </div>
+          <p className="text-[13px] text-white/85 leading-snug mt-0.5">Ton défi, 3 accroches prêtes et un rappel pour te lancer — hors-ligne, en 30 secondes.</p>
+        </div>
+      </button>
 
       {/* Entrées */}
       <div className="flex flex-col gap-3">
@@ -192,7 +238,8 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
       </p>
 
       <div className="flex-1" />
-      <div className="py-6 flex flex-col items-center gap-2">
+      <div className="py-6 flex flex-col items-center gap-3">
+        <ThemeToggle />
         <button onClick={onOpenConfidentialite} className="inline-flex items-center gap-1.5 text-[11px] font-medium text-stone-400 hover:text-stone-700 transition-colors">
           <ShieldCheck size={12} strokeWidth={2} /> Tes données restent chez toi
         </button>

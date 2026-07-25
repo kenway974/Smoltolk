@@ -23,6 +23,7 @@ const MissionsView       = lazy(() => import("./components/MissionsView"));
 const OutilsView         = lazy(() => import("./components/OutilsView"));
 const EntrainementView   = lazy(() => import("./components/EntrainementView"));
 const ConfidentialiteView = lazy(() => import("./components/ConfidentialiteView"));
+const SortieView         = lazy(() => import("./components/SortieView"));
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -146,6 +147,7 @@ export default function App() {
         onOpenOutils={() => setScreen("outils")}
         onOpenEntrainement={() => setScreen("entrainement")}
         onOpenConfidentialite={() => setScreen("confidentialite")}
+        onOpenSortie={() => setScreen("sortie")}
       />
     );
   } else if (screen === "journal") {
@@ -165,6 +167,8 @@ export default function App() {
     el = <EntrainementView onBack={() => setScreen("home")} />;
   } else if (screen === "confidentialite") {
     el = <ConfidentialiteView onBack={() => setScreen("home")} />;
+  } else if (screen === "sortie") {
+    el = <SortieView onBack={() => setScreen("home")} onLog={() => openJournal(null)} />;
   } else if (screen === "blocages") {
     el = (
       <BlocagesView

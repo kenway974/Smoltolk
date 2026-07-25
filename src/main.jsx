@@ -3,6 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import ErrorBoundary from './components/ErrorBoundary.jsx'
+import { applyTheme } from './utils/theme.js'
+
+// Applique le thème le plus tôt possible (avant le rendu) pour éviter un flash.
+applyTheme()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

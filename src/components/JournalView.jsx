@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react";
 import {
   ArrowLeft, Plus, Flame, Trash2, X, Check, MapPin, TrendingUp,
   CalendarDays, Star, Sparkles, Award, ChevronDown, Trophy, Target,
-  Minus, Download, Upload, Zap, HeartHandshake, Swords, Lock, Medal, Gift, Pencil,
+  Minus, Download, Upload, Zap, HeartHandshake, Swords, Lock, Medal, Gift, Pencil, Search,
 } from "lucide-react";
 import {
   useJournal, addEntry, updateEntry, removeEntry,
@@ -324,7 +324,10 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const [editing, setEditing] = useState(null);
   const [showAllBadges, setShowAllBadges] = useState(false);
   const [showWins, setShowWins] = useState(false);
+  const [showStats, setShowStats] = useState(false);
   const [encrypt, setEncrypt] = useState(false);
+  const [query, setQuery] = useState("");
+  const [filterRes, setFilterRes] = useState(null);
   const [ioMsg, setIoMsg] = useState(null);
 
   const stats = useMemo(() => computeStats(entries), [entries]);
@@ -337,6 +340,30 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
   const wins = useMemo(() => computeWins(entries), [entries]);
   const rewards = rewardsState(level.level);
   const inactiveDays = daysSinceLastEntry(entries);
+
+  const perLieu = useMemo(() => {
+    const map = new Map();
+    for (const e of entries) {
+      const k = (e.lieu || "").trim();
+      if (!k) continue;
+      const cur = map.get(k) || { lieu: k, count: 0, wins: 0 };
+      cur.count++;
+      if (e.resultat === "top" || e.resultat === "ok") cur.wins++;
+      map.set(k, cur);
+    }
+    return [...map.values()].sort((a, b) => b.count - a.count);
+  }, [entries]);
+
+  const filtered = useMemo(() => entries.filter((e) => {
+    if (filterRes && e.resultat !== filterRes) return false;
+    if (query.trim()) {
+      const q = query.trim().toLowerCase();
+      const hay = [e.lieu, e.avecQui, e.note, e.intention, e.marche, e.prochaine].filter(Boolean).join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }), [entries, query, filterRes]);
+  const hasFilter = !!query.trim() || !!filterRes;
 
   const goalPct = Math.min(100, Math.round((stats.thisWeekCount / goal) * 100));
   const goalReached = stats.thisWeekCount >= goal;
@@ -641,11 +668,74 @@ export default function JournalView({ onBack, onStart, onOpenMissions, prefill =
               </div>
             </div>
 
-            {/* Timeline */}
+            {/* Stats par lieu */}
+            {perLieu.length >= 2 && (
+              <div className="mt-4 rounded-2xl border border-stone-200 bg-white overflow-hidden">
+                <button onClick={() => setShowStats((v) => !v)} className="w-full flex items-center gap-2.5 px-4 py-3.5 text-left active:scale-[0.99] transition-transform">
+                  <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-sky-100 text-sky-600 flex-shrink-0"><MapPin size={16} strokeWidth={2.2} /></span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[14px] font-semibold text-stone-900">Là où tu oses</p>
+                    <p className="text-[12px] text-stone-500">{perLieu.length} lieux · où ça accroche le mieux</p>
+                  </div>
+                  <ChevronDown size={16} strokeWidth={2.5} className={`text-stone-400 transition-transform ${showStats ? "rotate-180" : ""}`} />
+                </button>
+                {showStats && (
+                  <div className="px-4 pb-4 flex flex-col gap-2.5">
+                    {perLieu.slice(0, 10).map((l) => {
+                      const pct = Math.round((l.wins / l.count) * 100);
+                      return (
+                        <div key={l.lieu}>
+                          <div className="flex items-center justify-between text-[12px] mb-1">
+                            <span className="font-semibold text-stone-800 truncate">{l.lieu}</span>
+                            <span className="text-stone-400 flex-shrink-0 ml-2">{l.count} · {pct}% ✓</span>
+                          </div>
+                          <div className="h-1.5 rounded-full bg-stone-100 overflow-hidden">
+                            <div className="h-full rounded-full bg-sky-500 transition-all" style={{ width: `${pct}%` }} />
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Historique + recherche */}
             <div className="mt-6">
-              <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400 mb-2.5">Historique</p>
+              <div className="flex items-center justify-between mb-2.5">
+                <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">Historique</p>
+                {hasFilter && (
+                  <button onClick={() => { setQuery(""); setFilterRes(null); }} className="text-[11px] font-medium text-stone-400 hover:text-stone-700 transition-colors">Réinitialiser</button>
+                )}
+              </div>
+              {entries.length >= 4 && (
+                <div className="mb-3 flex flex-col gap-2">
+                  <div className="relative">
+                    <Search size={14} strokeWidth={2} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-300" />
+                    <input
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
+                      placeholder="Chercher un lieu, une personne, une note…"
+                      className="w-full rounded-xl border border-stone-200 bg-white pl-9 pr-3 py-2.5 text-[14px] text-stone-800 placeholder:text-stone-300 focus:outline-none focus:border-stone-400"
+                    />
+                  </div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {RESULTATS.map((r) => (
+                      <button
+                        key={r.key}
+                        onClick={() => setFilterRes(filterRes === r.key ? null : r.key)}
+                        className={`px-2.5 py-1 rounded-full text-[12px] font-medium border transition-colors active:scale-95 ${filterRes === r.key ? r.active : "bg-white text-stone-500 border-stone-200 hover:border-stone-300"}`}
+                      >
+                        {r.emoji} {r.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
               <div className="flex flex-col gap-2.5">
-                {entries.map((e) => <EntryRow key={e.id} e={e} onEdit={setEditing} />)}
+                {filtered.length > 0
+                  ? filtered.map((e) => <EntryRow key={e.id} e={e} onEdit={setEditing} />)
+                  : <p className="text-center text-[13px] text-stone-400 py-6">Aucune entrée ne correspond.</p>}
               </div>
             </div>
 
