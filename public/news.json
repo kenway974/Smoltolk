@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-07-25T14:31:24.177Z",
+  "generatedAt": "2026-07-25T14:43:03.852Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
+          "title": "En Syrie, le chef de l'ONU réclame une aide internationale à un \"moment charnière\" et le respect de la souveraineté du pays",
+          "link": "https://www.bfmtv.com/international/moyen-orient/syrie/en-syrie-le-chef-de-l-onu-reclame-une-aide-internationale-a-un-moment-charniere-et-le-respect-de-la-souverainete-du-pays_AD-202607250241.html",
+          "summary": "Pour la première visite en Syrie d'un secrétaire général de l'ONU depuis 2009, António Guterres, a appelé la communauté internationale à aider ce pays en transition après des…",
+          "pubDate": "2026-07-25T14:39:00.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "RDC : les ADF multiplient les attaques sur fond de progression d'Ebola",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20260725-rdc-les-adf-multiplient-les-attaques-sur-fond-de-progression-d-ebola",
+          "summary": "Dans l'est de la République démocratique du Congo, une vingtaine de personnes ont été tuées lors d'une nouvelle attaque attribuée au groupe djihadiste ADF, selon la société…",
+          "pubDate": "2026-07-25T14:38:18.000Z",
+          "source": "France 24"
+        },
+        {
           "title": "Incendies : 1 500 militaires doivent être mobilisés à partir de samedi soir, annonce le ministère des Armées",
           "link": "https://www.franceinfo.fr/faits-divers/incendie/direct-incendies-dans-le-sud-ouest-sept-nouvelles-communes-evacuees-pres-de-bordeaux_8121596.html#xtor=RSS-3-[lestitres]",
-          "summary": "Près de 98 000 hectares sont partis en fumée sur le territoire national, un \"record historique\", a annoncé le ministre de l'Intérieur, Laurent Nuñez",
-          "pubDate": "2026-07-25T14:29:55.000Z",
+          "summary": "Près de 98 000 hectares sont partis en fumée sur le territoire national, un \"record historique\", a annoncé samedi le ministre de l'Intérieur, Laurent Nuñez",
+          "pubDate": "2026-07-25T14:36:16.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Tour de France 2026 : Sepp Kuss chute à 5 km de l'arrivée et laisse filer Richard Carapaz en tête de la course... Suivez la fin de la plus grosse étape de montagne avec nous",
-          "link": "https://www.franceinfo.fr/tour-de-france/direct-tour-de-france-2026-suivez-avec-nous-l-etape-la-plus-dantesque-de-la-grande-boucle-avec-un-record-de-denivele-positif-entre-le-bourg-d-oisans-et-l-alpe-d-huez_8120327.html#xtor=RSS-3-[lestitres]",
-          "summary": "Dernière chance, samedi, pour creuser des écarts au général. Les organisateurs ont préparé un terrain de jeu en conséquence pour le peloton. Cette avant-dernière étape pourrait…",
-          "pubDate": "2026-07-25T14:26:06.000Z",
+          "title": "\"Il n'y a pas de petites économies\" : les fournitures scolaires déjà disponibles et moins chères que juste avant la rentrée",
+          "link": "https://www.franceinfo.fr/france/rentree/reportage-il-n-y-a-pas-de-petites-economies-les-fournitures-scolaires-deja-disponibles-et-moins-cheres-que-juste-avant-la-rentree_8121980.html#xtor=RSS-3-[lestitres]",
+          "summary": "Les fournitures scolaires sont déjà en rayons dans de nombreux magasins. Plus d'un mois avant la rentrée, certains ont décidé de prendre les devants et d'en profiter : les prix…",
+          "pubDate": "2026-07-25T14:31:04.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Il a annoncé un nouveau \"mur tarifaire\" contre une soixantaine de pays: comment Trump tente de contourner la Cour suprême pour rétablir ses droits de douane",
-          "link": "https://www.bfmtv.com/economie/international/il-a-annonce-un-nouveau-mur-tarifaire-contre-une-soixantaine-de-pays-comment-trump-tente-de-contourner-la-cour-supreme-pour-retablir-ses-droits-de-douane_AD-202607250238.html",
-          "summary": "Depuis vendredi, une série de produits en provenance d'une soixantaine d'économies se voit taxée à 10% ou 12,5% aux États-Unis malgré l'annulation des précédents droits de douane…",
-          "pubDate": "2026-07-25T14:24:41.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Incendie en Gironde: des pompiers arrivés en renforts de l'est de la France",
-          "link": "https://www.bfmtv.com/environnement/climat/video-incendie-en-gironde-des-pompiers-arrives-en-renforts-de-l-est-de-la-france_VN-202607250237.html",
-          "summary": "L'incendie qui sévit depuis mercredi en Gironde a pris \"une ampleur inédite\" et le vent l'a poussé vers l'agglomération de Bordeaux. Il nécessite l'évacuation supplémentaire de…",
-          "pubDate": "2026-07-25T14:16:56.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "\"Tout cela doit être arrêté\": le dirigeant kazakh affirme à Vladimir Poutine que la guerre en Ukraine doit prendre fin",
-          "link": "https://www.bfmtv.com/international/asie/russie/tout-cela-doit-etre-arrete-le-dirigeant-kazakh-affirme-a-vladimir-poutine-que-la-guerre-en-ukraine-doit-prendre-fin_AD-202607250235.html",
-          "summary": "Le président du Kazakhstan Kassym-Jomart Tokaïev - pays allié de la Russie - a recommandé à Vladimir Poutine de \"geler\" le front en Ukraine.",
-          "pubDate": "2026-07-25T14:07:54.000Z",
+          "title": "La météo pour ce dimanche 26 juillet 2026",
+          "link": "https://www.bfmtv.com/meteo/video-la-meteo-pour-ce-dimanche-26-juillet-2026_VN-202607250239.html",
+          "summary": "Les prévisions météo du moment. Par l'équipe météo de BFMTV: Christophe Person, Marc Hay, Sandra Larue, Guillaume Séchet et Virgilia Hess.",
+          "pubDate": "2026-07-25T14:30:21.000Z",
           "source": "BFMTV"
         }
       ]
@@ -47,6 +47,27 @@
       "label": "Monde",
       "items": [
         {
+          "title": "ONU",
+          "link": "https://www.bfmtv.com/international/onu-organisation-des-nations-unies_DN-202108310641.html",
+          "summary": "",
+          "pubDate": "2026-07-25T14:39:01.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "En Syrie, le chef de l'ONU réclame une aide internationale à un \"moment charnière\" et le respect de la souveraineté du pays",
+          "link": "https://www.bfmtv.com/international/moyen-orient/syrie/en-syrie-le-chef-de-l-onu-reclame-une-aide-internationale-a-un-moment-charniere-et-le-respect-de-la-souverainete-du-pays_AD-202607250241.html",
+          "summary": "Pour la première visite en Syrie d'un secrétaire général de l'ONU depuis 2009, António Guterres, a appelé la communauté internationale à aider ce pays en transition après des…",
+          "pubDate": "2026-07-25T14:39:00.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "RDC : les ADF multiplient les attaques sur fond de progression d'Ebola",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20260725-rdc-les-adf-multiplient-les-attaques-sur-fond-de-progression-d-ebola",
+          "summary": "Dans l'est de la République démocratique du Congo, une vingtaine de personnes ont été tuées lors d'une nouvelle attaque attribuée au groupe djihadiste ADF, selon la société…",
+          "pubDate": "2026-07-25T14:38:18.000Z",
+          "source": "France 24"
+        },
+        {
           "title": "EN DIRECT, guerre en Ukraine : le président du Kazakhstan a dit à Vladimir Poutine, lors d’une rencontre face-à-face, que les combats en Ukraine devaient être « arrêtés »",
           "link": "https://www.lemonde.fr/international/live/2026/07/25/en-direct-guerre-en-ukraine-le-president-du-kazakhstan-a-dit-a-vladimir-poutine-lors-d-une-rencontre-face-a-face-que-les-combats-en-ukraine-devaient-etre-arretes_6725306_3210.html",
           "summary": "« Comment sortir de cette situation ? Personne ne le sait, parce qu’il y a les positions des deux parties. Mais, d’un autre côté, il y a en ce moment, cette possibilité de geler…",
@@ -54,32 +75,11 @@
           "source": "Le Monde"
         },
         {
-          "title": "\"Tout cela doit être arrêté\": le dirigeant kazakh affirme à Vladimir Poutine que la guerre en Ukraine doit prendre fin",
-          "link": "https://www.bfmtv.com/international/asie/russie/tout-cela-doit-etre-arrete-le-dirigeant-kazakh-affirme-a-vladimir-poutine-que-la-guerre-en-ukraine-doit-prendre-fin_AD-202607250235.html",
-          "summary": "Le président du Kazakhstan Kassym-Jomart Tokaïev - pays allié de la Russie - a recommandé à Vladimir Poutine de \"geler\" le front en Ukraine.",
-          "pubDate": "2026-07-25T14:07:54.000Z",
-          "source": "BFMTV"
-        },
-        {
           "title": "Ukraine-Russie: la guerre",
           "link": "https://www.bfmtv.com/international/europe/ukraine-russie-le-bras-de-fer-mondial_DN-201904150203.html",
           "summary": "Après des années de tension, le président russe Vladimir Poutine a relancé le conflit entre son pays et l'Ukraine - dirigée par Volodymyr Zelensky - en annonçant, le 21 février…",
           "pubDate": "2026-07-25T14:07:54.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Vladimir Poutine",
-          "link": "https://www.bfmtv.com/international/asie/russie/vladimir-poutine_DN-202108310680.html",
-          "summary": "",
-          "pubDate": "2026-07-25T14:07:54.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Des frappes en Ukraine et en Russie font au moins 15 morts",
-          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/une-frappe-ukrainienne-sur-une-ville-occupee-fait-huit-morts-selon-les-autorites-pro-russes_8121872.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Dans la partie occupée de la région de Zaporijjia, le responsable installé par Moscou a déclaré qu'une attaque ukrainienne sur un village au bord de la mer d'Azov avait tué huit…",
-          "pubDate": "2026-07-25T13:54:04.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -170,6 +170,13 @@
       "label": "Justice & faits divers",
       "items": [
         {
+          "title": "Pour l'arrivée à Paris, la dernière étape du Tour de France raccourcie afin de redéployer des services de secours dans la lutte contre les incendies",
+          "link": "https://www.franceinfo.fr/tour-de-france/le-trace-de-la-21e-et-derniere-etape-du-tour-de-france-modifie-en-derniere-minute-pour-permettre-de-liberer-des-forces-de-l-ordre-dans-la-lutte-contre-les-incendies_8122046.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Plusieurs villes d'Ile-de-France qui devaient être traversées par les coureurs lors de la dernière étape de la Grande Boucle, dimanche, ont annoncé une modification du parcours,…",
+          "pubDate": "2026-07-25T14:07:38.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "\"Toute la journée, on est tendus, on est sur le qui-vive\" : face aux incendies, les habitants sont sous le choc",
           "link": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/toute-la-journee-on-est-tendus-on-est-sur-le-qui-vive-face-aux-incendies-les-habitants-sont-sous-le-choc_8122004.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Parmi les près de 200 000 personnes évacuées figurent de nombreux touristes. Trente-quatre campings ont été touchés dans les Landes et en Gironde. Les professionnels du tourisme…",
@@ -196,13 +203,6 @@
           "summary": "Le feu progresse dans les Landes, samedi 25 juillet. Les dégâts sont considérables à Biscarrosse, où des quartiers entiers sont décimés. De nouvelles évacuations sont en cours…",
           "pubDate": "2026-07-25T13:43:09.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "\"On s'est retrouvés dans une galère impensable\" : au Cap-Ferret, les évacués fuient les incendies par la route",
-          "link": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/on-s-est-retrouves-dans-une-galere-impensable-au-cap-ferret-les-evacues-fuient-les-incendies-par-la-route_8121968.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Près de 200 000 personnes évacuées en Gironde et dans les Landes : c’est l’une des plus vastes opérations du genre jamais organisées en France. Les bouchons s’accumulent sur les…",
-          "pubDate": "2026-07-25T13:41:10.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -210,6 +210,13 @@
       "key": "economie",
       "label": "Éco & argent",
       "items": [
+        {
+          "title": "REPORTAGE. \"Il n'y a pas de petites économies\" : les fournitures scolaires déjà disponibles et moins chères que juste avant la rentrée",
+          "link": "https://www.franceinfo.fr/france/rentree/reportage-il-n-y-a-pas-de-petites-economies-les-fournitures-scolaires-deja-disponibles-et-moins-cheres-que-juste-avant-la-rentree_8121980.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les fournitures scolaires sont déjà en rayons dans de nombreux magasins. Plus d'un mois avant la rentrée, certains ont décidé de prendre les devants et d'en profiter : les prix…",
+          "pubDate": "2026-07-25T14:31:04.000Z",
+          "source": "franceinfo"
+        },
         {
           "title": "Il a annoncé un nouveau \"mur tarifaire\" contre une soixantaine de pays: comment Trump tente de contourner la Cour suprême pour rétablir ses droits de douane",
           "link": "https://www.bfmtv.com/economie/international/il-a-annonce-un-nouveau-mur-tarifaire-contre-une-soixantaine-de-pays-comment-trump-tente-de-contourner-la-cour-supreme-pour-retablir-ses-droits-de-douane_AD-202607250238.html",
@@ -236,13 +243,6 @@
           "link": "https://www.bfmtv.com/economie/entreprises/le-rachat-de-warner-bros-par-paramount-prend-du-retard-la-justice-americaine-valide-le-report-de-la-date-butoir-pour-finaliser-l-operation_AD-202607250221.html",
           "summary": "La justice américaine a validé le report de la date limite fixée pour l'acquisition de son concurrent Warner Bros Discovery du 30 septembre au 1er juin 2027.",
           "pubDate": "2026-07-25T13:26:36.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Seulement 17 personnes y habitent mais 100.000 touristes s’y rendent chaque année: en Slovaquie, certains habitants de Vlkolinec veulent que leur village débordé de visiteurs soit retiré de la liste du patrimoine mondial de l’Unesco",
-          "link": "https://www.bfmtv.com/economie/international/seulement-17-personnes-y-habitent-mais-100-000-touristes-s-y-rendent-chaque-annee-en-slovaquie-certains-habitants-de-vlkolinec-veulent-que-leur-village-deborde-de-visiteurs-soit-retire-de-la-liste-du-patrimoine-mondial-de-l-unesco_AD-202607250213.html",
-          "summary": "Classé au patrimoine mondial de l'Unesco en 1993, le village de Vlkolinec a vu sa fréquentation exploser ces dernières années. Certains habitants n'en peuvent plus et réclament…",
-          "pubDate": "2026-07-25T12:46:02.000Z",
           "source": "BFMTV"
         }
       ]
@@ -416,6 +416,27 @@
       "label": "Tech & numérique",
       "items": [
         {
+          "title": "Le Samsung Galaxy S25 FE passe à moins de 400 euros pour la fin des soldes, les ventes s'enflamment",
+          "link": "https://www.bfmtv.com/tech/bons-plans/le-samsung-galaxy-s25-fe-passe-a-moins-de-400-euros-pour-la-fin-des-soldes-les-ventes-s-enflamment_AB-202607250010.html",
+          "summary": "La fin des soldes est encore l’occasion de faire de très bonnes affaires, y compris sur des appareils high-tech au potentiel technique énorme. C’est ce que propose Cdiscount avec…",
+          "pubDate": "2026-07-25T14:40:00.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Claude Opus 5 : ce qu’Anthropic ne vous a pas dit sur sa nouvelle IA",
+          "link": "https://www.01net.com/actualites/claude-opus-5-ce-quanthropic-ne-vous-a-pas-dit-sur-sa-nouvelle-ia.html",
+          "summary": "Le nouveau modèle d'Anthropic est arrivé vendredi avec un rapport de 194 pages. Dedans, une expérience que personne n'avait encore publiée : la lecture de ce qui se passe dans la…",
+          "pubDate": "2026-07-25T14:36:26.000Z",
+          "source": "01net"
+        },
+        {
+          "title": "Capcom, Forza Horizon, 007, Crimson Desert... Les premières stars de 2026",
+          "link": "https://www.bfmtv.com/tech/replay-emissions/multijoueurs/video-capcom-forza-horizon-007-crimson-desert-les-premieres-stars-de-2026_VN-202607250240.html",
+          "summary": "Dans Multijoueurs, Melinda Davan-Soulas reçoit Adyboo, streameur et casteur, et Otaxou, journaliste et youtubeur. Ils remontent le fil de 2026 pour s'arrêter sur les stars du…",
+          "pubDate": "2026-07-25T14:30:35.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "Ce site vous montre toutes les éclipses passées et futures sur des millénaires",
           "link": "https://www.numerama.com/sciences/2299609-ce-site-vous-montre-toutes-les-eclipses-passees-et-futures-sur-des-millenaires.html",
           "summary": "Les éclipses comme celle qui nous attend le 12 août 2026 en France sont prévisibles longtemps à l'avance. Tout comme il est possible de savoir quand se sont produites celles du…",
@@ -427,27 +448,6 @@
           "link": "https://www.01net.com/actualites/chez-google-lia-na-jamais-coute-aussi-cher-et-le-moral-na-jamais-ete-si-bas.html",
           "summary": "Google bat ses estimations et son cloud explose à +82 %. Ses modèles IA prennent du retard, ses meilleurs chercheurs partent chez la concurrence, et son cash flow vire au rouge…",
           "pubDate": "2026-07-25T13:24:24.000Z",
-          "source": "01net"
-        },
-        {
-          "title": "5 séries qui ont créé la surprise en 2026, à rattraper cet été",
-          "link": "https://www.numerama.com/pop-culture/2297719-5-series-qui-ont-cree-la-surprise-en-2026-a-rattraper-cet-ete.html",
-          "summary": "La guerre de succession de House of the dragon vous laisse de marbre ? Pas de panique ! La première moitié de l’année 2026 nous a déjà livré de belles pépites inattendues.…",
-          "pubDate": "2026-07-25T12:00:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "“Il est temps de prendre position”: aux Etats-Unis, la riposte s'organise face aux résultats de recherche IA de Google qui siphonnent l’audience et ébranlent les médias, la France entame ce même combat",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/il-est-temps-de-prendre-position-aux-etats-unis-la-riposte-s-organise-face-aux-resultats-de-recherche-ia-de-google-qui-siphonnent-l-audience-et-ebranlent-les-medias-la-france-entame-ce-meme-combat_AV-202607250052.html",
-          "summary": "Longtemps utile pour que les lecteurs les trouve, puis indispensable pour les attirer, Google est désormais perçu par certains éditeurs comme une menace. À mesure que les réponses…",
-          "pubDate": "2026-07-25T11:25:00.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Google : comment désactiver les aperçus d’IA des résultats de recherche ?",
-          "link": "https://www.01net.com/astuces/google-comment-desactiver-les-apercus-dia-des-resultats-de-recherche.html",
-          "summary": "Les aperçus IA sont officiellement déployés dans les résultats de recherche de Google chez les utilisateurs français. Vous pouvez toutefois les bloquer très facilement si vous…",
-          "pubDate": "2026-07-25T10:38:27.000Z",
           "source": "01net"
         }
       ]
@@ -826,9 +826,16 @@
       "label": "Sport",
       "items": [
         {
+          "title": "L'Equatorien Richard Carapaz remporte l'étape reine du Tour de France après un final haletant face à l'Américain Sepp Kuss",
+          "link": "https://www.franceinfo.fr/tour-de-france/l-equatorien-richard-carapaz-remporte-l-etape-reine-du-tour-de-france-apres-un-final-haletant-face-a-l-americain-sepp-kuss_8121815.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Déjà vainqueur de la 18e étape, le porteur du maillot à pois s'est offert un nouveau succès de prestige, samedi, à l'Alpe d'Huez.",
+          "pubDate": "2026-07-25T14:38:33.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "Pour l'arrivée à Paris, la dernière étape du Tour de France raccourcie afin de redéployer des services de secours dans la lutte contre les incendies",
           "link": "https://www.franceinfo.fr/tour-de-france/le-trace-de-la-21e-et-derniere-etape-du-tour-de-france-modifie-en-derniere-minute-pour-permettre-de-liberer-des-forces-de-l-ordre-dans-la-lutte-contre-les-incendies_8122046.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Plusieurs villes d'Ile-de-France qui devaient être traversées par les coureurs lors de la dernière étape de la Grande Boucle, dimanche, ont annoncé une modification du parcours.",
+          "summary": "Plusieurs villes d'Ile-de-France qui devaient être traversées par les coureurs lors de la dernière étape de la Grande Boucle, dimanche, ont annoncé une modification du parcours,…",
           "pubDate": "2026-07-25T14:07:38.000Z",
           "source": "franceinfo"
         },
@@ -851,13 +858,6 @@
           "link": "https://www.franceinfo.fr/sports/esport/il-aime-bien-tout-controler-qui-est-brice-masson-francais-favori-de-la-coupe-du-monde-d-esport_8118200.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Après les États-Unis, c'est au tour de la France d'accueillir une compétition internationale. Du 7 juillet au 22 août, Paris accueille la troisième édition de l'Esports World Cup…",
           "pubDate": "2026-07-25T12:20:45.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Des associations et des scientifiques profitent du passage du Tour de France au col de Sarenne pour alerter sur la fonte des glaciers alpins",
-          "link": "https://www.franceinfo.fr/environnement/crise-climatique/fonte-des-glaces/des-associations-et-des-scientifiques-profitent-du-passage-du-tour-de-france-au-col-de-sarenne-pour-alerter-sur-la-fonte-des-glaciers-alpins_8121941.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "La moitié des glaciers alpins a fondu en 25 ans. Celui de Sarenne, où passe la Grande Boucle samedi, a totalement disparu.",
-          "pubDate": "2026-07-25T11:37:39.000Z",
           "source": "franceinfo"
         }
       ]
