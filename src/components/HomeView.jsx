@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck, Sun, Moon, SunMoon, DoorOpen } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck, Sun, Moon, SunMoon, DoorOpen, HeartPulse } from "lucide-react";
 import { useFavoriteCount } from "../utils/favorites";
 import { useTheme, setTheme } from "../utils/theme";
 import { useJournal, computeStats } from "../utils/journal";
@@ -85,7 +85,7 @@ function Step({ n, title, children }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite, onOpenSortie }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite, onOpenSortie, onOpenBenefices }) {
   const favCount = useFavoriteCount();
   const journal = useJournal();
   const jstats = computeStats(journal);
@@ -207,6 +207,29 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
               « Je ne sais pas quoi dire », « je n'arrive pas à rester présent », « j'ai peur du rejet »… Les blocages courants, et pourquoi ce ne sont (presque) jamais des vérités.
             </p>
             <p className="mt-2 text-[11px] font-medium uppercase tracking-[0.1em] text-white/60">Débloquer</p>
+          </div>
+        </div>
+      </button>
+
+      {/* Bénéfices concrets */}
+      <button
+        onClick={onOpenBenefices}
+        className="group mt-3 w-full text-left rounded-2xl p-5 text-white active:scale-[0.99] transition-transform"
+        style={{ backgroundImage: "linear-gradient(135deg,#e11d48,#db2777)" }}
+      >
+        <div className="flex items-start gap-4">
+          <span className="flex items-center justify-center w-11 h-11 rounded-xl bg-white/15 flex-shrink-0">
+            <HeartPulse size={20} strokeWidth={2} />
+          </span>
+          <div className="flex-1">
+            <div className="flex items-center gap-2">
+              <h2 className="text-[17px] font-semibold">Ce que ça te fait, concrètement</h2>
+              <ArrowRight size={16} strokeWidth={2} className="opacity-70 group-hover:translate-x-0.5 transition-transform" />
+            </div>
+            <p className="mt-1 text-sm text-white/85 leading-relaxed">
+              Ocytocine, dopamine, cortisol qui redescend, cerveau qui s'entraîne, santé, longévité… ce qui se passe vraiment dans ton corps quand tu parles aux gens.
+            </p>
+            <p className="mt-2 text-[11px] font-medium uppercase tracking-[0.1em] text-white/60">La science</p>
           </div>
         </div>
       </button>
