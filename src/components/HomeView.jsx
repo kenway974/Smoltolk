@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck, Sun, Moon, SunMoon, DoorOpen, HeartPulse } from "lucide-react";
+import { MessageCircle, Compass, BookOpen, Newspaper, Bookmark, LifeBuoy, RefreshCw, Copy, Check, MapPin, ArrowRight, Quote, LineChart, Flame, Wrench, Trophy, Dumbbell, ShieldCheck, Sun, Moon, SunMoon, DoorOpen, HeartPulse, Settings } from "lucide-react";
 import { useFavoriteCount } from "../utils/favorites";
 import { useTheme, setTheme } from "../utils/theme";
 import { useJournal, computeStats } from "../utils/journal";
+import { useProfile, OBJECTIF_BY_KEY } from "../utils/profile";
 import { SITUATIONS_DATA } from "../data/situations";
 
 const LEVELS = ["zoomIn", "contexte", "zoomOut"];
@@ -85,10 +86,12 @@ function Step({ n, title, children }) {
   );
 }
 
-export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite, onOpenSortie, onOpenBenefices }) {
+export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavorites, onOpenBlocages, onOpenJournal, onOpenMissions, onOpenOutils, onOpenEntrainement, onOpenConfidentialite, onOpenSortie, onOpenBenefices, onOpenReglages }) {
   const favCount = useFavoriteCount();
   const journal = useJournal();
   const jstats = computeStats(journal);
+  const profile = useProfile();
+  const objectif = profile.objectif ? OBJECTIF_BY_KEY[profile.objectif] : null;
   const [sample, setSample] = useState(pickSample);
   const [principe] = useState(() => PRINCIPES[Math.floor(Math.random() * PRINCIPES.length)]);
   const [copied, setCopied] = useState(false);
@@ -102,7 +105,16 @@ export default function HomeView({ onStart, onOpenGuide, onOpenNews, onOpenFavor
         <div className="flex items-center gap-2 text-stone-400 mb-4">
           <MessageCircle size={18} strokeWidth={2} />
           <span className="text-sm font-semibold tracking-tight text-stone-900">Smoltolk</span>
+          <span className="flex-1" />
+          {onOpenReglages && (
+            <button onClick={onOpenReglages} className="flex items-center justify-center w-9 h-9 rounded-xl text-stone-400 hover:text-stone-700 hover:bg-white/60 active:scale-95 transition-colors" aria-label="Réglages">
+              <Settings size={18} strokeWidth={2} />
+            </button>
+          )}
         </div>
+        {profile.prenom && (
+          <p className="text-[14px] text-stone-500 mb-1">Salut {profile.prenom} 👋{objectif ? <span className="text-stone-400"> · {objectif.emoji} {objectif.label}</span> : null}</p>
+        )}
         <h1 className="font-serif-guide text-stone-900 font-semibold leading-[1.05] tracking-tight text-[clamp(30px,8vw,42px)]">
           Savoir quoi dire,{" "}
           <span className="italic font-normal text-stone-500">à qui, et dans quel ordre.</span>

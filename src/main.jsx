@@ -4,9 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import ErrorBoundary from './components/ErrorBoundary.jsx'
 import { applyTheme } from './utils/theme.js'
+import { applyFontScale } from './utils/fontscale.js'
 
-// Applique le thème le plus tôt possible (avant le rendu) pour éviter un flash.
+// Applique les préférences d'affichage avant le rendu (évite un flash).
 applyTheme()
+applyFontScale()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

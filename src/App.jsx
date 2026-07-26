@@ -36,6 +36,11 @@ const SimulateurView     = lazy(() => import("./components/SimulateurView"));
 const RoueView           = lazy(() => import("./components/RoueView"));
 const LisSignalView      = lazy(() => import("./components/LisSignalView"));
 const RespirationView    = lazy(() => import("./components/RespirationView"));
+const ContactsView       = lazy(() => import("./components/ContactsView"));
+const ReglagesView       = lazy(() => import("./components/ReglagesView"));
+const RechercheView      = lazy(() => import("./components/RechercheView"));
+const BilanView          = lazy(() => import("./components/BilanView"));
+const RevisionView       = lazy(() => import("./components/RevisionView"));
 
 const ALL_ENVIRONMENTS = [...new Set(SITUATIONS_DATA.map(s => s.environnement))].filter(e => e !== "Partout").sort();
 const ALL_INTERETS     = [...new Set(SITUATIONS_DATA.map(s => s.centreInteret))].sort();
@@ -177,6 +182,7 @@ export default function App() {
         onOpenConfidentialite={() => setScreen("confidentialite")}
         onOpenSortie={() => setScreen("sortie")}
         onOpenBenefices={() => setScreen("benefices")}
+        onOpenReglages={() => setScreen("reglages")}
       />
     );
   } else if (screen === "journal") {
@@ -220,6 +226,16 @@ export default function App() {
     el = <LisSignalView onBack={() => setScreen("explorer")} />;
   } else if (screen === "respiration") {
     el = <RespirationView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "contacts") {
+    el = <ContactsView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "reglages") {
+    el = <ReglagesView onBack={() => setScreen("explorer")} onOpenConfidentialite={() => setScreen("confidentialite")} />;
+  } else if (screen === "recherche") {
+    el = <RechercheView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "bilan") {
+    el = <BilanView onBack={() => setScreen("explorer")} />;
+  } else if (screen === "revision") {
+    el = <RevisionView onBack={() => setScreen("explorer")} onOpenFavorites={() => setScreen("favorites")} />;
   } else if (screen === "blocages") {
     el = (
       <BlocagesView

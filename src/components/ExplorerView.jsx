@@ -3,6 +3,7 @@ import {
   Compass, DoorOpen, Newspaper, LifeBuoy, Dumbbell, Trophy, HelpCircle,
   BookOpen, Wrench, Clapperboard, Users, MessageCircleQuestion, HeartPulse,
   LineChart, Bookmark, ShieldCheck, ArrowRight, Grid2x2, Gamepad2, Dices, Eye, Wind,
+  Search, UserPlus, BarChart3, RefreshCw, Settings,
 } from "lucide-react";
 
 const GROUPS = [
@@ -24,6 +25,7 @@ const GROUPS = [
       { key: "lissignal",    icon: Eye,      tile: "bg-emerald-600",label: "Lis le signal",         desc: "Devine le ton : chaleureux, neutre, froid ?" },
       { key: "missions",     icon: Trophy,   tile: "bg-violet-600", label: "Mes défis",             desc: "L'échelle de défis + le boss du jour." },
       { key: "quiz",         icon: HelpCircle,tile: "bg-amber-500", label: "Vrai ou faux ?",        desc: "Démonte les mythes sur la sociabilité." },
+      { key: "revision",     icon: RefreshCw,tile: "bg-teal-600",   label: "Révision",              desc: "Ancre tes accroches favorites, en flashcards." },
       { key: "roue",         icon: Dices,    tile: "bg-rose-500",   label: "La roue du hasard",     desc: "Un défi surprise : lieu + intention + action." },
     ],
   },
@@ -47,9 +49,11 @@ const GROUPS = [
   {
     titre: "À toi",
     items: [
-      { key: "journal",         icon: LineChart,   tile: "bg-emerald-600", label: "Mon cahier de bord", desc: "Tes tentatives, ta progression." },
-      { key: "favorites",       icon: Bookmark,    tile: "bg-emerald-600", label: "Mes favoris",        desc: "Les accroches que tu as gardées." },
-      { key: "confidentialite", icon: ShieldCheck, tile: "bg-stone-600",   label: "Confidentialité",    desc: "Tes données restent sur l'appareil." },
+      { key: "journal",   icon: LineChart, tile: "bg-emerald-600", label: "Mon cahier de bord", desc: "Tes tentatives, ta progression." },
+      { key: "bilan",     icon: BarChart3, tile: "bg-indigo-600",  label: "Ton bilan",          desc: "Le mois, l'année, tes chiffres." },
+      { key: "contacts",  icon: UserPlus,  tile: "bg-blue-600",    label: "Carnet de rencontres", desc: "Un prénom, un détail à rappeler." },
+      { key: "favorites", icon: Bookmark,  tile: "bg-emerald-600", label: "Mes favoris",        desc: "Les accroches que tu as gardées." },
+      { key: "reglages",  icon: Settings,  tile: "bg-stone-600",   label: "Réglages",           desc: "Profil, thème, taille du texte, données." },
     ],
   },
 ];
@@ -74,7 +78,10 @@ export default function ExplorerView({ onOpen }) {
     <div className="min-h-svh">
       <header className="sticky top-0 z-10 bg-[#f5f3ef]/95 backdrop-blur-sm border-b border-stone-200 px-5 py-3.5 flex items-center gap-2.5">
         <Grid2x2 size={18} strokeWidth={2} className="text-stone-400" />
-        <span className="text-sm font-semibold text-stone-900">Explorer</span>
+        <span className="text-sm font-semibold text-stone-900 flex-1">Explorer</span>
+        <button onClick={() => onOpen("recherche")} className="flex items-center justify-center w-9 h-9 rounded-xl bg-white border border-stone-200 text-stone-500 hover:bg-stone-50 active:scale-95 transition-colors" aria-label="Recherche">
+          <Search size={17} strokeWidth={2} />
+        </button>
       </header>
 
       <div className="px-5 pb-24 pt-5 max-w-[720px] mx-auto">
