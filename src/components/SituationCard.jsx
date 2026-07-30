@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
+import { MapPin, Copy, Check, ChevronDown, ChevronLeft, ChevronRight, ZoomIn, ZoomOut, Crosshair, ArrowRight, Bookmark, BookmarkCheck, Wand2 } from "lucide-react";
 import { INTENTION_BY_LABEL } from "../data/intentions";
 import { ROLE_BY_LABEL } from "../data/roles";
 import { guidePalier, PALIERS_INFO } from "../data/guideMap";
@@ -159,6 +159,12 @@ export default function SituationCard({ situation, index = 0, onOpenGuide }) {
           }} />
         </div>
       </div>
+
+      {/* Note : c'est un point de départ, à réadapter */}
+      <p className="mx-5 mb-3 flex items-start gap-1.5 text-[11px] text-stone-400 leading-snug">
+        <Wand2 size={11} strokeWidth={2} className="mt-0.5 flex-shrink-0" />
+        <span>Un point de départ, pas un script : raccourcis, change les mots, mets ton ton.</span>
+      </p>
 
       {/* Navigation entre variantes */}
       {hasVariants && (
