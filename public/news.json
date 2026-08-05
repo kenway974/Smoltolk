@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-07-31T06:11:31.175Z",
+  "generatedAt": "2026-08-05T07:35:25.642Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
-          "title": "Comment les secours prennent-ils en charge les coups de chaleur chez les sapeurs-pompiers?",
-          "link": "https://www.bfmtv.com/meteo/video-comment-les-secours-prennent-ils-en-charge-les-coups-de-chaleur-chez-les-sapeurs-pompiers_VN-202607310134.html",
-          "summary": "Les flammes ont semblé s'être stabilisées hier dans les forêts meurtries de Gironde. Ce vendredi 31 juillet, les sinistrés peuvent, pour certains, rentrer dans un territoire où…",
-          "pubDate": "2026-07-31T06:08:29.000Z",
+          "title": "Une femme portée disparue en Haute-Savoie après avoir été emportée par une rivière à la suite d'un violent orage, des évacuations par hélicoptère",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html#xtor=RSS-3-[lestitres]",
+          "summary": "Une coulée de boue a également eu lieu dans le Cirque du Fer à Cheval, un gigantesque amphithéâtre naturel calcaire très prisé des randonneurs et des touristes.",
+          "pubDate": "2026-08-05T07:22:54.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Les modèles IA de Meta ou du chinois Deepseek épargnés par la Maison Blanche: la régulation américaine sur l'IA ne devrait viser que les modèles dits \"fermés\" d'OpenAI, Google et Anthropic",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/les-modeles-ia-de-meta-ou-du-chinois-deepseek-epargnes-par-la-maison-blanche-la-regulation-americaine-sur-l-ia-ne-devrait-viser-que-les-modeles-dits-fermes-d-open-ai-google-et-anthropic_AD-202608050203.html",
+          "summary": "La Maison Blanche a présenté son cadre de sécurité concernant l'IA lors d'une réunion avec OpenAI, Anthropic, Google, Meta, Microsoft et Nvidia. Il ne devrait s'appliquer qu'aux…",
+          "pubDate": "2026-08-05T07:21:37.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Londres s'offre 4 sous-marins nucléaires",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-londres-s-offre-4-sous-marins-nucleaires_VN-202607310132.html",
-          "summary": "Nouvel exemple de l'inflation des dépenses militaires dans le monde. Le Premier ministre britannique a annoncé hier un investissement massif de 10 milliards d'euros dans la flotte…",
-          "pubDate": "2026-07-31T06:07:13.000Z",
+          "title": "Mehdi Laribi, connu comme l'un des fondateurs de la DZ Mafia, arrêté fin juillet en Algérie",
+          "link": "https://www.bfmtv.com/police-justice/mehdi-laribi-connu-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-fin-juillet-en-algerie_AN-202608050200.html",
+          "summary": "Medhi \"Tic\" Laribi, connu pour être l'un des cofondateurs de la DZ Mafia, a été arrêté en Algérie à la fin du mois de juillet. Il est actuellement placé sous contrôle judiciaire,…",
+          "pubDate": "2026-08-05T07:17:36.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Guerre en Ukraine: une caméra de sécurité filme une frappe russe à Pavlohrad",
-          "link": "https://www.bfmtv.com/international/asie/russie/video-guerre-en-ukraine-une-camera-de-securite-filme-une-frappe-russe-a-pavlohrad_VN-202607310130.html",
-          "summary": "Une attaque russe contre une entreprise alimentaire dans la ville ukrainienne de Pavlohrad a tué trois personnes et en a blessé au moins dix, a déclaré jeudi 30 juillet le…",
-          "pubDate": "2026-07-31T06:06:42.000Z",
+          "title": "Ebola: l'OMS et la République démocratique du Congo accélèrent les recherches sur un vaccin contre la souche meurtrière Bundibugyo",
+          "link": "https://www.bfmtv.com/international/afrique/ebola-l-oms-et-la-republique-democratique-du-congo-accelerent-les-recherches-sur-un-vaccin-contre-la-souche-meurtriere-bundibugyo_AV-202608050198.html",
+          "summary": "Des tests de vaccins et des essais cliniques sont conduits dans la province d'Ituri, l'épicentre de l'épidémie d'Ebola au nord-est de la République démocratique du Congo a annoncé…",
+          "pubDate": "2026-08-05T07:15:07.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "\"Le savoir est avant tout une affaire d’êtres humains\": comment Wikimedia France veut faire basculer le Web vers un autre modèle, avec l'aide aussi des politiques",
-          "link": "https://www.bfmtv.com/tech/vie-numerique/le-savoir-est-avant-tout-une-affaire-d-etres-humains-comment-wikimedia-france-veut-faire-basculer-le-web-vers-un-autre-modele-avec-l-aide-aussi-des-politiques_AN-202607310035.html",
-          "summary": "A l’occasion de la Wikimania, grande réunion annuelle du petit monde qui anime et fait vivre Wikipedia, l’association Wikimedia France a publié un livre blanc. Le résumé d’un…",
-          "pubDate": "2026-07-31T06:05:00.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "\"On est prêt à repartir\": ces évacués de Gironde, retournés chez eux, se préparent à de nouvelles évacuations",
-          "link": "https://www.bfmtv.com/meteo/video-on-est-pret-a-repartir-ces-evacues-de-gironde-retournes-chez-eux-se-preparent-a-de-nouvelles-evacuations_VN-202607310125.html",
-          "summary": "Les flammes ont semblé s'être stabilisées hier dans les forêts meurtries de Gironde. Ce vendredi 31 juillet, les sinistrés peuvent, pour certains, rentrer dans un territoire où…",
-          "pubDate": "2026-07-31T06:03:21.000Z",
+          "title": "DeltaVision ouvre une filiale en Nouvelle-Aquitaine",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-delta-vision-ouvre-une-filiale-en-nouvelle-aquitaine_VN-202608050192.html",
+          "summary": "\"On fabrique l'ensemble des composants qui vont gérer le carburant à bord des véhicules spatiaux. Nous développons aussi les technologies pour le ravitaillement en orbite.\"",
+          "pubDate": "2026-08-05T07:07:20.000Z",
           "source": "BFMTV"
         }
       ]
@@ -47,39 +47,39 @@
       "label": "Monde",
       "items": [
         {
-          "title": "Guerre en Ukraine: une caméra de sécurité filme une frappe russe à Pavlohrad",
-          "link": "https://www.bfmtv.com/international/asie/russie/video-guerre-en-ukraine-une-camera-de-securite-filme-une-frappe-russe-a-pavlohrad_VN-202607310130.html",
-          "summary": "Une attaque russe contre une entreprise alimentaire dans la ville ukrainienne de Pavlohrad a tué trois personnes et en a blessé au moins dix, a déclaré jeudi 30 juillet le…",
-          "pubDate": "2026-07-31T06:06:42.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "« Pour répondre aux aspirations des Algériens, les pouvoirs publics doivent garantir un véritable pluralisme et renforcer les libertés publiques »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/31/pour-repondre-aux-aspirations-des-algeriens-les-pouvoirs-publics-doivent-garantir-un-veritable-pluralisme-et-renforcer-les-libertes-publiques_6737103_3232.html",
-          "summary": "En Algérie, l’abstention lors des élections législatives du 2 juillet a été de 79 %. Dans une tribune au « Monde, l’homme politique algérien Zoheir Rouis souligne le risque d’une…",
-          "pubDate": "2026-07-31T06:00:10.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "\"Urgence humanitaire\" : arrivée massive de migrants à Ceuta",
-          "link": "https://www.franceinfo.fr/monde/europe/migrants/urgence-humanitaire-arrivee-massive-de-migrants-a-ceuta_8129177.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Des centaines de personnes sont entrées illégalement à Ceuta (Espagne), jeudi 30 juillet, à la suite de rumeurs selon lesquelles la frontière ouvrirait à l'aube. Elles s'ajoutent…",
-          "pubDate": "2026-07-31T05:54:10.000Z",
+          "title": "DIRECT. Guerre au Moyen-Orient : soit le détroit d'Ormuz ouvre \"très bientôt\", soit l'Iran \"sera frappé très fort\", avertit Donald Trump",
+          "link": "https://www.franceinfo.fr/monde/iran/direct-guerre-au-moyen-orient-soit-le-detroit-d-ormuz-ouvre-tres-bientot-soit-l-iran-sera-frappe-tres-fort-avertit-donald-trump_8135411.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "\"Il y a une chance que nous parvenions\" à un accord entre Washington et Téhéran ce mercredi, a déclaré le ministre des Finances américain Scott Bessent.",
+          "pubDate": "2026-08-05T07:30:40.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "La France gèle les avoirs de Xenia Fedorova, propagandiste pro-Poutine visée par un arrêté d’expulsion",
-          "link": "https://www.lemonde.fr/politique/article/2026/07/31/la-france-gele-les-avoirs-de-xenia-fedorova-propagandiste-pro-poutine-visee-par-un-arrete-d-expulsion_6737102_823448.html",
-          "summary": "Mercredi, le ministère de l’intérieur avait affirmé que l’ex-dirigeante de RT France et figure de Cnews, était visée par un arrêté d’expulsion.",
-          "pubDate": "2026-07-31T05:50:40.000Z",
+          "title": "Ebola: l'OMS et la République démocratique du Congo accélèrent les recherches sur un vaccin contre la souche meurtrière Bundibugyo",
+          "link": "https://www.bfmtv.com/international/afrique/ebola-l-oms-et-la-republique-democratique-du-congo-accelerent-les-recherches-sur-un-vaccin-contre-la-souche-meurtriere-bundibugyo_AV-202608050198.html",
+          "summary": "Des tests de vaccins et des essais cliniques sont conduits dans la province d'Ituri, l'épicentre de l'épidémie d'Ebola au nord-est de la République démocratique du Congo a annoncé…",
+          "pubDate": "2026-08-05T07:15:07.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "EN DIRECT, guerre en Ukraine : Kiev n’a pu abattre aucun des missiles lancés par la Russie dans la nuit ; au moins 17 morts dans la capitale et sa région",
+          "link": "https://www.lemonde.fr/international/live/2026/08/05/en-direct-guerre-en-ukraine-kiev-n-a-pu-abattre-aucun-des-missiles-lances-par-la-russie-dans-la-nuit-au-moins-17-morts-dans-la-capitale-et-sa-region_6737250_3210.html",
+          "summary": "Volodymyr Zelensky, qui estime que des intercepteurs capables de neutraliser les missiles balistiques « auraient pu sauver des vies », appelle à accélérer leurs livraisons de…",
+          "pubDate": "2026-08-05T07:06:51.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Un appel à témoins lancé après l'incendie en Côte-d'Or, la piste criminelle privilégiée",
-          "link": "https://www.bfmtv.com/international/video-un-appel-a-temoins-lance-apres-l-incendie-en-cote-d-or-la-piste-criminelle-privilegiee_VN-202607310109.html",
-          "summary": "À Couchey en Côte-d'Or, l'incendie qui a parcouru 150 hectares a été fixé. Il a fait se mobiliser des moyens aériens, une première dans le département. Côté enquête, c'est…",
-          "pubDate": "2026-07-31T05:46:48.000Z",
-          "source": "BFMTV"
+          "title": "Guerre en Ukraine : au moins 17 morts et 44 blessés dans des bombardements russes sur la région de Kiev",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-au-moins-15-morts-et-27-blesses-dans-des-bombardements-russes-sur-la-region-de-kiev_8135441.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La région de la capitale ukrainienne a été la cible d'\"une attaque massive de drones et de missiles balistiques\" russes, selon les services d'urgence ukrainiens.",
+          "pubDate": "2026-08-05T07:05:44.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Les enfants de Cisjordanie dans l’objectif du photographe palestinien Sakir Khader pour « conserver la mémoire de la survie »",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/05/les-enfants-de-cisjordanie-dans-l-objectif-du-photographe-palestinien-sakir-khader-pour-conserver-la-memoire-de-la-survie_6739401_3451060.html",
+          "summary": "« Jeunesse en milieux hostiles » (4/7). Installé aux Pays-Bas, le photographe et cinéaste palestinien Sakir Khader se rend régulièrement dans les régions de Naplouse et de Jénine…",
+          "pubDate": "2026-08-05T07:00:08.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -88,38 +88,38 @@
       "label": "Politique",
       "items": [
         {
-          "title": "\"Toute la Gironde n'est pas touchée\" par les incendies: la sénatrice Nathalie Delattre appelle les touristes à \"continuer à venir\"",
-          "link": "https://www.bfmtv.com/politique/video-toute-la-gironde-n-est-pas-touchee-par-les-incendies-la-senatrice-nathalie-delattre-appelle-les-touristes-a-continuer-a-venir_VN-202607310115.html",
-          "summary": "Les flammes ont semblé s'être stabilisées hier dans les forêts meurtries de Gironde. Ce vendredi 31 juillet, les sinistrés peuvent, pour certains, rentrer dans un territoire où…",
-          "pubDate": "2026-07-31T05:53:39.000Z",
+          "title": "L’été ne calme pas la dette publique de la France",
+          "link": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/l-ete-ne-calme-pas-la-dette-publique-de-la-france_8108549.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "En plein cœur de l’été, la question du financement de la dette publique revient sur le devant de la scène. Le taux de remboursement atteint un niveau jamais vu depuis 17 ans",
+          "pubDate": "2026-08-05T07:13:03.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Édito. Raphaël Glucksmann visé par une opération de désinformation : la Russie s'immisce dans la campagne présidentielle en France",
+          "link": "https://www.franceinfo.fr/replay-radio/l-edito-politique/edito-raphael-glucksmann-vise-par-une-operation-de-desinformation-la-russie-s-immisce-dans-la-campagne-presidentielle-en-france_8069753.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le probable candidat Place Publique, Raphaël Glucksmann, a été victime d'une opération de désinformation attribuée à un groupe pro-russe. Le gouvernement craint que ce ne soit…",
+          "pubDate": "2026-08-05T06:31:04.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Quelle est la loi qui encadre l'installation des gens du voyage?",
+          "link": "https://www.bfmtv.com/politique/video-quelle-est-la-loi-qui-encadre-l-installation-des-gens-du-voyage_VN-202608050073.html",
+          "summary": "La loi sur le droit au logement - dite \"loi Besson\" - oblige les villes de plus de 5 000 habitants à prévoir des \"conditions de passage et de séjour des gens du voyage sur son…",
+          "pubDate": "2026-08-05T05:10:52.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "La France gèle les avoirs de Xenia Fedorova, propagandiste pro-Poutine visée par un arrêté d’expulsion",
-          "link": "https://www.lemonde.fr/politique/article/2026/07/31/la-france-gele-les-avoirs-de-xenia-fedorova-propagandiste-pro-poutine-visee-par-un-arrete-d-expulsion_6737102_823448.html",
-          "summary": "Mercredi, le ministère de l’intérieur avait affirmé que l’ex-dirigeante de RT France et figure de Cnews, était visée par un arrêté d’expulsion.",
-          "pubDate": "2026-07-31T05:50:40.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Joëlle Zask, philosophe : « Contre les mégafeux, la volonté politique au sommet dépend de celle de la majorité des citoyens »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/31/joelle-zask-philosophe-contre-les-megafeux-la-volonte-politique-au-sommet-depend-de-celle-de-la-majorite-des-citoyens_6737081_3232.html",
-          "summary": "Les incendies extrêmes sont un phénomène d’insécurité qui appelle à un nouveau pacte social, selon la professeure à l’université. Dans une tribune au « Monde », elle plaide pour…",
-          "pubDate": "2026-07-31T03:00:18.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Incendies en Gironde: Laurent Nuñez assure qu'\"il n'y a eu aucune instruction\" pour \"privilégier la presqu'île du Cap Ferret\"",
-          "link": "https://www.bfmtv.com/politique/video-incendies-en-gironde-laurent-nunez-assure-qu-il-n-y-a-eu-aucune-instruction-pour-privilegier-la-presqu-ile-du-cap-ferret_VN-202607300540.html",
-          "summary": "Avec plus de 180 maisons sinistrées, cette petite ville est à ce jour la plus marquée par le passage de l’incendie de Saumos. Et nombre de voix mettent dans la balance le départ…",
-          "pubDate": "2026-07-30T18:37:01.000Z",
+          "title": "Sébastien Lecornu Premier ministre",
+          "link": "https://www.bfmtv.com/politique/gouvernement/sebastien-lecornu-premier-ministre_DN-202509100375.html",
+          "summary": "Sébastien Lecornu a été nommé Premier ministre le 9 septembre 2025, après la chute du gouvernement de François Bayrou, qui n'a pas obtenu la confiance de l'Assemblée nationale. Il…",
+          "pubDate": "2026-08-05T05:00:43.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "\"Une menace pour les intérêts fondamentaux\" français: Laurent Nuñez justifie l'arrêté d'expulsion contre Xenia Fedorova",
-          "link": "https://www.bfmtv.com/politique/gouvernement/une-menace-pour-les-interets-fondamentaux-francais-laurent-nunez-justifie-l-arrete-d-expulsion-contre-xenia-fedorova_AD-202607300536.html",
-          "summary": "La chroniqueuse pro-russe Xenia Fedorova, accusée de \"relayer la propagande\" du Kremlin en France, s'est vu remettre mercredi un arrêté ministériel d'expulsion, qu'elle va…",
-          "pubDate": "2026-07-30T18:31:52.000Z",
+          "title": "Santé, sécurité, narcotrafic: moins d'un an après sa nomination à Matignon, Sébastien Lecornu dresse son premier bilan sur les réseaux sociaux",
+          "link": "https://www.bfmtv.com/politique/gouvernement/sante-securite-narcotrafic-moins-d-un-an-apres-sa-nomination-a-matignon-sebastien-lecornu-dresse-son-premier-bilan-sur-les-reseaux-sociaux_AV-202608050068.html",
+          "summary": "Nommé Premier ministre le 9 septembre 2025, il y a près de 11 mois, Sébastien Lecornu avait promis la transparence quant à son action à la tête du gouvernement. Chaque jour…",
+          "pubDate": "2026-08-05T05:00:43.000Z",
           "source": "BFMTV"
         }
       ]
@@ -129,39 +129,39 @@
       "label": "Société",
       "items": [
         {
-          "title": "Incendies : comment gérer les feux de tourbe ou \"feux zombies\" ?",
-          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/incendies-comment-gerer-les-feux-de-tourbe-ou-feux-zombies_8129546.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Alors que les températures restent très élevées, les pompiers font face à de nombreuses reprises d'incendies, partout en France. Face aux feux de tourbe, la surveillance risque de…",
-          "pubDate": "2026-07-31T05:54:07.000Z",
+          "title": "\"Comment peut-on empêcher deux personnes de s'aimer\" : après le suicide de Caroline Grandjean, sa compagne poursuit son combat",
+          "link": "https://www.franceinfo.fr/replay-radio/ils-ont-fait-l-actu/comment-peut-on-empecher-deux-personnes-de-s-aimer-apres-le-suicide-de-caroline-grandjean-sa-compagne-poursuit-son-combat_8069723.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Près d'un an après le suicide de Caroline Grandjean, victime de harcèlement homophobe dans le Cantal, Christine Grandjean-Paccoud dénonce les défaillances de l'Éducation nationale…",
+          "pubDate": "2026-08-05T06:48:35.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Démarchage téléphonique, prix de l'électricité, taux des livrets d'épargne… Ce qui va changer au mois d'août",
-          "link": "https://www.franceinfo.fr/societe/demarchage-telephonique-prix-de-l-electricite-taux-des-livrets-d-epargne-ce-va-changer-au-mois-d-aout_8125109.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le mois qui s'ouvre samedi marque également le début du versement de l'allocation de rentrée scolaire, ainsi que le durcissement des règles pour les professionnels délivrant les…",
-          "pubDate": "2026-07-31T05:40:05.000Z",
+          "title": "L'un des fondateurs présumés de la DZ Mafia arrêté en Algérie",
+          "link": "https://www.franceinfo.fr/societe/justice/l-un-des-fondateurs-presumes-de-la-dz-mafia-arrete-en-algerie_8135537.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia, a été interpellé en Algérie fin juillet puis placé sous contrôle judiciaire, a appris franceinfo mercredi 5 août.",
+          "pubDate": "2026-08-05T06:31:10.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Incendie en Gironde: \"On est bien contents de revenir, de retrouver ma boulangerie préférée\", déclare cet habitant de Martignas-sur-Jalle (Gironde)",
-          "link": "https://www.bfmtv.com/societe/video-incendie-en-gironde-on-est-bien-contents-de-revenir-de-retrouver-ma-boulangerie-preferee-declare-cet-habitant-de-martignas-sur-jalle-gironde_VN-202607310046.html",
-          "summary": "Incendie en Gironde: \"On est bien contents de revenir, de retrouver ma boulangerie préférée\", déclare cet habitant de Martignas-sur-Jalle (Gironde)",
-          "pubDate": "2026-07-31T04:14:37.000Z",
+          "title": "\"Une femme est toujours introuvable\", déplore le maire de Sixt-Fer-à-Cheval après une coulée de boue",
+          "link": "https://www.bfmtv.com/societe/video-une-femme-est-toujours-introuvable-deplore-le-maire-de-sixt-fer-a-cheval-apres-une-coulee-de-boue_VN-202608050120.html",
+          "summary": "Une personne est portée disparue après une coulée de boue en Haute-Savoie. Elle a été emportée par les eaux près de Samoëns, à Sixt-Fer-à-Cheval, où un violent orage a fait…",
+          "pubDate": "2026-08-05T06:11:19.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Incendies en Gironde: des kinés massent bénévolement les pompiers de retour d'intervention",
-          "link": "https://www.bfmtv.com/societe/video-incendies-en-gironde-des-kines-massent-benevolement-les-pompiers-de-retour-d-intervention_VN-202607300592.html",
-          "summary": "Camille et Florian font partie des nombreux kinés qui se sont portés volontaires pour masser les pompiers de retour d'intervention sur les incendies en Gironde.",
-          "pubDate": "2026-07-30T22:31:21.000Z",
-          "source": "BFMTV"
+          "title": "REPORTAGE. \"L'idée c'est de savoir qui passe, quand et pourquoi\" : les gendarmes traquent les éventuels pyromanes dans le Var",
+          "link": "https://www.franceinfo.fr/faits-divers/incendie/reportage-l-idee-c-est-de-savoir-qui-passe-quand-et-pourquoi-les-gendarmes-traquent-les-eventuels-pyromanes-dans-le-var_8135402.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Dans le Var, le parquet de Draguignan envisage sérieusement \"l'hypothèse de mises à feu volontaires\" dans la violente reprise d'incendie depuis vendredi. Pour tenter de dissuader,…",
+          "pubDate": "2026-08-05T05:44:26.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "A Singapour, le Français qui avait léché une paille échappe finalement à la prison",
-          "link": "https://www.franceinfo.fr/societe/justice/a-singapour-le-francais-qui-avait-leche-une-paille-echappe-finalement-a-la-prison_8128958.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "A Singapour, le Français qui avait léché une paille, avant de la remettre dans le distributeur, échappe finalement à la prison. L'étudiant de 19 ans, qui \"regrette profondément…",
-          "pubDate": "2026-07-30T20:00:02.000Z",
-          "source": "franceinfo"
+          "title": "Un terrain de rugby occupé par des gens du voyage à Marseille",
+          "link": "https://www.bfmtv.com/societe/video-un-terrain-de-rugby-occupe-par-des-gens-du-voyage-a-marseille_VN-202608050074.html",
+          "summary": "Les dirigeants du Marseille Rugby Méditerranée dénoncent l'occupation de leur terrain, à quelques jours de la reprise de l'entraînement, par des gens du voyage.",
+          "pubDate": "2026-08-05T05:12:47.000Z",
+          "source": "BFMTV"
         }
       ]
     },
@@ -170,38 +170,38 @@
       "label": "Justice & faits divers",
       "items": [
         {
-          "title": "Incendies : comment gérer les feux de tourbe ou \"feux zombies\" ?",
-          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/incendies-comment-gerer-les-feux-de-tourbe-ou-feux-zombies_8129546.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Alors que les températures restent très élevées, les pompiers font face à de nombreuses reprises d'incendies, partout en France. Face aux feux de tourbe, la surveillance risque de…",
-          "pubDate": "2026-07-31T05:54:07.000Z",
+          "title": "Une femme portée disparue en Haute-Savoie après avoir été emportée par une rivière à la suite d'un violent orage, des évacuations par hélicoptère",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Une coulée de boue a également eu lieu dans le Cirque du Fer à Cheval, un gigantesque amphithéâtre naturel calcaire très prisé des randonneurs et des touristes.",
+          "pubDate": "2026-08-05T07:22:54.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Incendie en Gironde: les forces de l'ordre enquêtent sur les cambriolages survenus dans des zones évacuées",
-          "link": "https://www.bfmtv.com/police-justice/video-incendie-en-gironde-les-forces-de-l-ordre-enquetent-sur-les-cambriolages-survenus-dans-des-zones-evacuees_VN-202607310113.html",
-          "summary": "Les flammes ont semblé s'être stabilisées hier dans les forêts meurtries de Gironde. Ce vendredi 31 juillet, les sinistrés peuvent, pour certains, rentrer dans un territoire où…",
-          "pubDate": "2026-07-31T05:50:32.000Z",
+          "title": "Mehdi Laribi, connu comme l'un des fondateurs de la DZ Mafia, arrêté fin juillet en Algérie",
+          "link": "https://www.bfmtv.com/police-justice/mehdi-laribi-connu-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-fin-juillet-en-algerie_AN-202608050200.html",
+          "summary": "Medhi \"Tic\" Laribi, connu pour être l'un des cofondateurs de la DZ Mafia, a été arrêté en Algérie à la fin du mois de juillet. Il est actuellement placé sous contrôle judiciaire,…",
+          "pubDate": "2026-08-05T07:17:36.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Comment les enquêtes sur les feux se déroulent-elles?",
-          "link": "https://www.bfmtv.com/police-justice/video-comment-les-enquetes-sur-les-feux-se-deroulent-elles_VN-202607310111.html",
-          "summary": "À Couchey en Côte-d'Or, l'incendie qui a parcouru 150 hectares a été fixé. Il a fait se mobiliser des moyens aériens, une première dans le département. Côté enquête, c'est…",
-          "pubDate": "2026-07-31T05:48:48.000Z",
+          "title": "Un couple et une nourrice placés en garde à vue après la mort d'un nourrisson",
+          "link": "https://www.bfmtv.com/police-justice/un-couple-et-une-nourrice-places-en-garde-a-vue-apres-la-mort-d-un-nourrisson_AN-202608050129.html",
+          "summary": "Les parents d'un enfant et sa nourrice ont été placés en garde à vue moins d'un mois après la mort du nourrisson. L'hôpital qui soignait l'enfant avait donné l'alerte après avoir…",
+          "pubDate": "2026-08-05T06:57:42.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Incendies: comment les gendarmes traquent les origines des feux",
-          "link": "https://www.bfmtv.com/police-justice/video-incendies-comment-les-gendarmes-traquent-les-origines-des-feux_VN-202607310107.html",
-          "summary": "Les flammes ont semblé s'être stabilisées hier dans les forêts meurtries de Gironde. Ce vendredi, les sinistrés peuvent, pour certains, rentrer dans un territoire où l'épisode a…",
-          "pubDate": "2026-07-31T05:45:04.000Z",
-          "source": "BFMTV"
+          "title": "Un incendie dans la gare de La Rochelle a brûlé 20 mètres du toit, inscrit au titre des monuments historiques",
+          "link": "https://www.franceinfo.fr/faits-divers/incendie/un-incendie-dans-la-gare-de-la-rochelle-a-brule-20-metres-du-toit-inscrit-au-titre-des-monuments-historiques_8135447.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le feu s'est déclaré au milieu de la nuit de mardi à mercredi. Il a créé un trou dans la charpente. Son origine est encore inconnue.",
+          "pubDate": "2026-08-05T06:53:00.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Incendies: comment les gendarmes enquêtent sur l'origine des feux et traquent les pyromanes",
-          "link": "https://www.bfmtv.com/police-justice/video-incendies-comment-les-gendarmes-enquetent-sur-l-origine-des-feux-et-traquent-les-pyromanes_VN-202607310091.html",
-          "summary": "Les flammes ont semblé s'être stabilisées hier dans les forêts meurtries de Gironde. Ce vendredi, les sinistrés peuvent, pour certains, rentrer dans un territoire où l'épisode a…",
-          "pubDate": "2026-07-31T05:27:35.000Z",
+          "title": "Sarthe: neuf tags néonazis et antisémites découverts à La Flèche",
+          "link": "https://www.bfmtv.com/police-justice/video-sarthe-neuf-tags-neonazis-et-antisemites-decouverts-a-la-fleche_VN-202608050136.html",
+          "summary": "Des croix celtiques et des croix gammées ont été taguées à plusieurs endroits de la commune de La Flèche (Sarthe) dans la nuit du dimanche 2 au lundi 3 août.",
+          "pubDate": "2026-08-05T06:23:48.000Z",
           "source": "BFMTV"
         }
       ]
@@ -211,39 +211,39 @@
       "label": "Éco & argent",
       "items": [
         {
-          "title": "Londres s'offre 4 sous-marins nucléaires",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-londres-s-offre-4-sous-marins-nucleaires_VN-202607310132.html",
-          "summary": "Nouvel exemple de l'inflation des dépenses militaires dans le monde. Le Premier ministre britannique a annoncé hier un investissement massif de 10 milliards d'euros dans la flotte…",
-          "pubDate": "2026-07-31T06:07:13.000Z",
+          "title": "PODCAST. Mégaferme à saumons en Gironde, vidéo de désinformation russe et coup du siècle du Racing 92 : ça dit quoi ce 5 août ?",
+          "link": "https://www.franceinfo.fr/replay-radio/ca-dit-quoi/podcast-megaferme-a-saumons-en-gironde-video-de-desinformation-russe-et-coup-du-siecle-du-racing-92-ca-dit-quoi-ce-5-aout_8127665.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Ce mercredi 5 août, l'État a validé le projet d'un immense élevage de saumons en Gironde, les tentatives d'ingérences étrangères dans l'élection présidentielle ont déjà commencé…",
+          "pubDate": "2026-08-05T07:35:04.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "En portefeuille : Après le Dow Jones, le S&P500 franchit un record - 05/08",
+          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-market/video-en-portefeuille-apres-le-dow-jones-le-s-p500-franchit-un-record-05-08_VN-202608050208.html",
+          "summary": "Ce mercredi 5 août, la nette reprise des indices américains, notamment du S&P500, qui est sorti d'une figure de consolidation pour s'installer hier au-delà des 7 730 points, a été…",
+          "pubDate": "2026-08-05T07:29:32.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Le Grand entretien : La France veut changer d'échelle dans l'IA - 31/07",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/le-grand-entretien/video-le-grand-entretien-la-france-veut-changer-d-echelle-dans-l-ia-31-07_VN-202607310127.html",
-          "summary": "Raphaël Doan, ancien haut fonctionnaire et essayiste, était l'invité de Sandra Gandoin dans Good Morning Business, ce vendredi 31 juillet. Il parle de la stratégie et des…",
-          "pubDate": "2026-07-31T06:00:32.000Z",
-          "source": "BFMTV"
+          "title": "Incendies en Gironde et dans les Landes : l'Etat prendra intégralement en chargé les indemnités d'activité partielle versées par les TPE et PME dans les zones évacuées",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde-et-dans-les-landes-l-etat-prendra-integralement-en-charge-les-indemnites-d-activite-partielle-versees-par-les-tpe-et-pme-dans-les-zones-evacuees_8135564.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "\"Nous avons été entendus\", s'est félicité le président du Medef Nouvelle-Aquitaine sur franceinfo.",
+          "pubDate": "2026-08-05T07:21:32.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Cuba : du communisme à l'économie de marché",
-          "link": "https://www.bfmtv.com/economie/video-cuba-du-communisme-a-l-economie-de-marche_VN-202607310129.html",
-          "summary": "Alors que l'île de Cuba est sous pression de Washington depuis des mois, le gouvernement vient d'annoncer ouvrir son économie socialiste centralisée aux entreprises privées de…",
-          "pubDate": "2026-07-31T06:00:04.000Z",
-          "source": "BFMTV"
+          "title": "Cartes postales, bracelets, magnets… Allez-vous ramener des souvenirs de vos vacances ?",
+          "link": "https://www.franceinfo.fr/replay-jt/france-2/8-heures/cartes-postales-bracelets-magnets-allez-vous-ramener-des-souvenirs-de-vos-vacances_8135570.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Ce sont des incontournables de la saison estivale : les souvenirs de vacances. Mais cet été, les touristes sont plus regardants sur leurs dépenses.",
+          "pubDate": "2026-08-05T07:21:31.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Raphaël Doan, ancien haut fonctionnaire et essayiste - 31/07",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/raphael-doan-ancien-haut-fonctionnaire-et-essayiste-31-07_EN-202607310120.html",
-          "summary": "Raphaël Doan, ancien haut fonctionnaire et essayiste, était l'invité de Sandra Gandoin dans Good Morning Business, ce vendredi 31 juillet. Il parle de la stratégie et des…",
-          "pubDate": "2026-07-31T05:58:44.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "90% des feux de forêt sont d'origine humaine: près d'un fumeur sur cinq reconnaît jeter son mégot par la fenêtre de sa voiture",
-          "link": "https://www.bfmtv.com/economie/entreprises/transports/90-des-feux-de-foret-sont-d-origine-humaine-pres-d-un-fumeur-sur-cinq-reconnait-jeter-son-megot-par-la-fenetre-de-sa-voiture_AD-202607310108.html",
-          "summary": "La Fondation Vinci Autoroutes alerte ce vendredi sur \"les conséquences potentiellement dramatiques d'un simple acte de négligence\" alors que plus de 14.000 feux ont déjà été…",
-          "pubDate": "2026-07-31T05:47:00.000Z",
-          "source": "BFMTV"
+          "title": "L’été ne calme pas la dette publique de la France",
+          "link": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/l-ete-ne-calme-pas-la-dette-publique-de-la-france_8108549.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "En plein cœur de l’été, la question du financement de la dette publique revient sur le devant de la scène. Le taux de remboursement atteint un niveau jamais vu depuis 17 ans",
+          "pubDate": "2026-08-05T07:13:03.000Z",
+          "source": "franceinfo"
         }
       ]
     },
@@ -252,38 +252,38 @@
       "label": "Emploi & conso",
       "items": [
         {
-          "title": "Trois dirigeants condamnés et écroués pour des escroqueries à la rénovation énergétique",
-          "link": "https://www.20minutes.fr/justice/4237062-20260730-trois-dirigeants-condamnes-ecroues-escroqueries-renovation-energetique?at_medium=display&amp;at_campaign=149",
-          "summary": "Ils ont également écopé de 70.000 euros d’amende et se sont vus saisir pour 700.000 euros de biens immobiliers, voitures et comptes bancaires",
-          "pubDate": "2026-07-30T14:33:48.000Z",
+          "title": "Préavis de grève chez EasyJet jusqu’au lendemain de la rentrée scolaire",
+          "link": "https://www.20minutes.fr/economie/4237857-20260805-preavis-greve-chez-easyjet-jusqu-lendemain-rentree-scolaire?at_medium=display&amp;at_campaign=149",
+          "summary": "Trois syndicats d’hôtesses et stewards d’EasyJet France ont déposé un préavis de grève allant du 7 août au 2 septembre",
+          "pubDate": "2026-08-05T00:35:18.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "La croissance française est inférieure aux prévisions, malgré des ménages qui consomment",
-          "link": "https://www.20minutes.fr/economie/4236979-20260730-croissance-france-inferieure-previsions-malgre-menages-consomment?at_medium=display&amp;at_campaign=149",
-          "summary": "Alors oui la France a de la croissance (cooooool), mais à 0,2 % (moins cooool), peut-on vraiment s’en réjouir ?",
-          "pubDate": "2026-07-30T08:19:37.000Z",
+          "title": "Le budget de l’Etat toujours plus écrasé par le poids de la dette",
+          "link": "https://www.20minutes.fr/economie/4237839-20260804-budget-etat-ecrase-poids-dette?at_medium=display&amp;at_campaign=149",
+          "summary": "La charge de la dette de l’État français a bondi de 18,3 % entre juin 2025 et juin 2026, passant de 29,2 milliards d’euros à 34,5 milliards d’euros, cette hausse étant « liée à la…",
+          "pubDate": "2026-08-04T19:35:14.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "« De plus en plus critique »... Victimes des coupes budgétaires, les ONG françaises s’enfoncent dans la crise",
-          "link": "https://www.20minutes.fr/monde/4236978-20260730-victimes-coupes-budgetaires-ong-francaises-enfoncent-crise?at_medium=display&amp;at_campaign=149",
-          "summary": "« Les multiples impacts dévastateurs » des coupes budgétaires dans le secteur de l’aide publique au développement (APD) depuis 2024 sur les ONG françaises, les plongent dans la…",
-          "pubDate": "2026-07-30T08:00:36.000Z",
+          "title": "Sécheresse : Ces pays qui pourraient souffrir du manque de production céréalière en France",
+          "link": "https://www.20minutes.fr/economie/4237754-20260804-secheresse-pays-vont-souffrir-manque-production-cerealiere-france?at_medium=display&amp;at_campaign=149",
+          "summary": "La France, qui figure parmi les rares exportateurs de céréales et particulièrement de blé au monde, connaît une récolte en baisse cette année. De quoi susciter l’inquiétude ?",
+          "pubDate": "2026-08-04T13:49:59.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "Dopé par le conflit au Moyen-Orient, l’électrique représentera près d’un tiers des ventes de voiture cette année",
-          "link": "https://www.20minutes.fr/economie/4236972-20260730-dope-conflit-moyen-orient-electrique-representera-pres-tiers-ventes-voiture-2026?at_medium=display&amp;at_campaign=149",
-          "summary": "Avec la flambée du prix du pétrole, les voitures électriques connaissent une croissance plus soutenue que prévu",
-          "pubDate": "2026-07-30T07:26:36.000Z",
-          "source": "20 Minutes"
+          "title": "L’individualisation des augmentations de salaires se généralise dans les entreprises françaises",
+          "link": "https://www.lemonde.fr/economie/article/2026/08/04/l-individualisation-des-augmentations-de-salaires-se-generalise-dans-les-entreprises-francaises_6738352_3234.html",
+          "summary": "Les salaires devraient progresser d’environ 3 % en 2027, une hausse proche de celle de 2025 et 2026. Mais les revalorisations sont de plus en plus liées aux performances…",
+          "pubDate": "2026-08-04T09:02:54.000Z",
+          "source": "Le Monde"
         },
         {
-          "title": "Incendies : La SNCF maintient jusqu’à dimanche l’annulation des TGV au sud de Bordeaux",
-          "link": "https://www.20minutes.fr/economie/4236973-20260730-incendies-sncf-maintient-jusqu-dimanche-annulation-tgv-sud-bordeaux?at_medium=display&amp;at_campaign=149",
-          "summary": "La SNCF a annoncé mercredi qu’elle maintenait jusqu’à dimanche l’annulation des TGV au sud de Bordeaux, un dispositif en vigueur déjà depuis dimanche dernier à cause des incendies…",
-          "pubDate": "2026-07-30T07:06:54.000Z",
+          "title": "Mégafeu en Gironde : Que va-t-il se passer maintenant pour la forêt ?",
+          "link": "https://www.20minutes.fr/planete/4237711-20260804-megafeu-gironde-va-passer-maintenant-foret?at_medium=display&amp;at_campaign=149",
+          "summary": "En Gironde, il faut désormais surveiller les foyers qui couvent sous les cendres, abattre des millions de tonnes de pins et repenser la forêt",
+          "pubDate": "2026-08-04T08:41:09.000Z",
           "source": "20 Minutes"
         }
       ]
@@ -293,38 +293,38 @@
       "label": "Santé",
       "items": [
         {
-          "title": "Au CHU de Bordeaux, une organisation millimétrée pour faire face à l’impact de l’incendie : « Si on a tenu, c’est grâce à la solidarité hospitalière »",
-          "link": "https://www.lemonde.fr/societe/article/2026/07/30/au-chu-de-bordeaux-une-organisation-millimetree-pour-faire-face-a-l-impact-de-l-incendie-si-on-a-tenu-c-est-grace-a-la-solidarite-hospitaliere_6737069_3224.html",
-          "summary": "Cellule de crise quotidienne, ouverture de lits, appel aux volontaires… A l’hôpital Pellegrin, centre opérationnel de la prise en charge sanitaire, l’adaptation aux conséquences…",
-          "pubDate": "2026-07-30T18:30:06.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Pays de Galles : Sa compagne le pousse à consulter, les médecins lui découvrent un cancer du cerveau incurable",
-          "link": "https://www.20minutes.fr/monde/4237081-20260730-pays-galles-compagne-pousse-consulter-medecins-decouvrent-cancer-cerveau-incurable?at_medium=display&amp;at_campaign=149",
-          "summary": "Un Britannique de 34 ans a découvert qu’il souffrait d’un cancer incurable du cerveau après avoir consulté pour des maux de tête persistants",
-          "pubDate": "2026-07-30T15:52:37.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Incendies : pourquoi les fumées toxiques peuvent être dangereuses même loin des flammes ?",
-          "link": "https://www.lemonde.fr/videos/video/2026/07/30/incendies-pourquoi-les-fumees-toxiques-peuvent-etre-dangereuses-meme-loin-des-flammes_6737042_1669088.html",
-          "summary": "Le mégafeu qui touche la Gironde depuis le 22 juillet peut avoir des effets sur la santé des riverains même à plusieurs centaines de kilomètres.",
-          "pubDate": "2026-07-30T15:34:19.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Incendies : que doit-on mettre dans son sac d’urgence ?",
-          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/kit-d-urgence-que-faut-il-mettre-dedans_8127500.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "En cas de catastrophe naturelle, il faut souvent évacuer son logement en quelques minutes. Pour pouvoir partir rapidement et faire face aux premières heures, les autorités…",
-          "pubDate": "2026-07-30T14:56:33.000Z",
+          "title": "\"Comment peut-on empêcher deux personnes de s'aimer\" : après le suicide de Caroline Grandjean, sa compagne poursuit son combat",
+          "link": "https://www.franceinfo.fr/replay-radio/ils-ont-fait-l-actu/comment-peut-on-empecher-deux-personnes-de-s-aimer-apres-le-suicide-de-caroline-grandjean-sa-compagne-poursuit-son-combat_8069723.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Près d'un an après le suicide de Caroline Grandjean, victime de harcèlement homophobe dans le Cantal, Christine Grandjean-Paccoud dénonce les défaillances de l'Éducation nationale…",
+          "pubDate": "2026-08-05T06:48:35.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"Je n'ai pas vu de panneaux\" : fumer sur la plage peut vous coûter une amende de 135 euros",
-          "link": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/je-n-ai-pas-vu-de-panneaux-fumer-sur-la-plage-peut-vous-couter-une-amende-de-135-euros_8128721.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Depuis plus d’un an, il est interdit de fumer sur toutes les plages en France au risque de s’exposer à une amende de 135 euros. Mais certains ne sont toujours pas au courant de…",
-          "pubDate": "2026-07-30T14:07:18.000Z",
+          "title": "Faut-il attendre avant de se baigner ? Se mouiller la nuque ? Uriner sur les piqûres de méduses ? Le Vrai ou Faux répond à trois questions sur la baignade",
+          "link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/faut-il-attendre-avant-de-se-baigner-se-mouiller-la-nuque-uriner-sur-les-piqures-de-meduses-le-vrai-ou-faux-repond-a-trois-questions-sur-la-baignade_8069822.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le Vrai ou Faux passe à l'heure d'été pendant la première semaine d'août. Chaque jour, on passe en revue des idées reçues sur des sujets estivaux. Ce mercredi 5 août : la baignade…",
+          "pubDate": "2026-08-05T06:43:29.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "La ménopause est toujours un tabou, alors les femmes cherchent du réconfort sur les réseaux sociaux",
+          "link": "https://www.franceinfo.fr/replay-radio/l-il-de-julie/la-menopause-est-toujours-un-tabou-alors-les-femmes-cherchent-du-reconfort-sur-les-reseaux-sociaux_8069912.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les dernières vagues de chaleur ont été particulièrement éprouvantes, mais elles sont plus difficiles à supporter pour certains que pour d’autres, notamment pour certaines. Les…",
+          "pubDate": "2026-08-05T06:03:20.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Stimulation de l'oreille interne, \"points dansants\"… Les fonctionnalités disponibles sur vos smartphones contre le mal des transports",
+          "link": "https://www.franceinfo.fr/sante/stimulation-de-l-oreille-interne-points-dansants-les-fonctionnalites-disponibles-sur-vos-smartphones-contre-le-mal-des-transports_8134484.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Victimes du mal des transports, certains s'inquiètent du départ en vacances et redoutent le trajet retour. Rien n'y fait, une personne sur trois dans le monde ne peut pas prendre…",
+          "pubDate": "2026-08-05T06:02:02.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "REPORTAGE. \"Être salariée en m'occupant de mon enfant relève d'un véritable combat\" : le quotidien difficile des aidants",
+          "link": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-etre-salariee-en-m-occupant-de-mon-enfant-releve-d-un-veritable-combat-le-quotidien-difficile-des-aidants_8108588.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Souvent invisibles, les aidants réclament davantage de reconnaissance et de soutien. Face aux difficultés administratives et au manque de statut, un nouveau syndicat veut défendre…",
+          "pubDate": "2026-08-05T04:50:02.000Z",
           "source": "franceinfo"
         }
       ]
@@ -334,39 +334,39 @@
       "label": "Sciences",
       "items": [
         {
-          "title": "Incendies en Gironde : la SNCF prolonge encore les échanges et remboursements gratuits des billets de train",
-          "link": "https://www.numerama.com/vroom/2302281-incendies-en-gironde-la-sncf-prolonge-encore-les-echanges-et-remboursements-gratuits-des-billets-de-train.html",
-          "summary": "Face aux feux de forêt d'ampleur exceptionnelle en Gironde et dans les Landes, le gouvernement et SNCF Voyageurs demandent aux voyageurs de reporter leurs trajets. Les échanges et…",
-          "pubDate": "2026-07-31T06:06:51.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Des Babyloniens à l’éclipse du 12 août 2026 : comment l’humanité a appris à prédire les éclipses de Soleil",
-          "link": "https://www.numerama.com/sciences/574178-eclipse-solaire-2026-comment-a-t-on-appris-a-predire-les-eclipses.html",
-          "summary": "Les éclipses de Soleil totales ou partielles sont des événements spectaculaires. Comment a-t-on fait pour les prévoir ? Pouvoir anticiper ces alignements est crucial pour étudier,…",
-          "pubDate": "2026-07-30T15:40:13.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Des os de mammouth découverts en Bulgarie, dans le lit du Danube, dont le niveau est exceptionnellement bas à cause de la sécheresse",
-          "link": "https://www.lemonde.fr/planete/article/2026/07/30/des-os-de-mammouth-decouverts-en-bulgarie-dans-le-lit-du-danube-dont-le-niveau-est-exceptionnellement-bas-a-cause-de-la-secheresse_6737026_3244.html",
-          "summary": "Il s’agirait « très probablement d’un mammouth laineux ayant vécu pendant la période glaciaire », selon les scientifiques. Les ossements appartiendraient à un jeune spécimen.",
-          "pubDate": "2026-07-30T14:30:05.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "\"Le plus grand recensement jamais réalisé\" : au cœur des derniers préparatifs du lancement de Roman, le nouveau télescope de la Nasa qui doit cartographier l'univers",
-          "link": "https://www.franceinfo.fr/sciences/espace/le-plus-grand-recensement-jamais-realise-au-c-ur-des-derniers-preparatifs-du-lancement-de-roman-le-nouveau-telescope-de-la-nasa-qui-doit-cartographier-l-univers_8128601.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le Nancy Grace Roman doit décoller le 30 août du Centre spatial Kennedy en Floride, et être propulsé à plus d'un million de kilomètres de notre planète, en quête d'exoplanètes…",
-          "pubDate": "2026-07-30T13:59:41.000Z",
+          "title": "Comment bien s'équiper pour observer l'éclipse solaire du 12 août ?",
+          "link": "https://www.franceinfo.fr/replay-jt/france-2/8-heures/comment-bien-s-equiper-pour-observer-l-eclipse-solaire-du-12-aout_8135522.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Une éclipse solaire aura lieu le 12 août prochain. La lune va s’intercaler entre la Terre et le Soleil. Un phénomène qui sera visible en France dès 19 h 25, mais attention, pour…",
+          "pubDate": "2026-08-05T06:24:19.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Fusée réutilisable : Themis réussit un test clé avant son premier grand saut",
-          "link": "https://www.numerama.com/sciences/2304353-fusee-reutilisable-themis-reussit-un-test-cle-avant-son-premier-grand-saut.html",
-          "summary": "C'est une bonne nouvelle pour l'Europe spatiale. ArianeGroup et SSC Space ont bouclé avec succès une répétition générale majeure sur le démonstrateur Themis en Suède. Le « Hop…",
-          "pubDate": "2026-07-30T13:40:00.000Z",
+          "title": "Éclipse solaire du 12 août 2026 : cette carte gratuite vérifie si le relief masquera le spectacle depuis chez vous",
+          "link": "https://www.numerama.com/sciences/2304229-eclipse-solaire-du-12-aout-2026-cette-carte-gratuite-verifie-si-le-relief-masquera-le-spectacle-depuis-chez-vous.html",
+          "summary": "Admirer l'éclipse de Soleil du 12 août 2026 en France exige un minimum d'anticipation. Grâce à une carte bien pratique, et accessible gratuitement, vous pouvez notamment vérifier…",
+          "pubDate": "2026-08-05T05:10:00.000Z",
           "source": "Numerama"
+        },
+        {
+          "title": "Des baleines à bosse parcourent 15 000 kilomètres et révèlent leurs secrets génétiques",
+          "link": "https://www.franceinfo.fr/replay-radio/le-billet-sciences-du-week-end/des-baleines-a-bosse-parcourent-15-000-kilometres-et-revelent-leurs-secrets-genetiques_8108597.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "C’est l'un des records les plus impressionnants de l'année : des scientifiques de l'université de Griffith, en Australie, ont découvert que des baleines migraient entre le Brésil…",
+          "pubDate": "2026-08-05T05:00:01.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Comment regarder l’éclipse sans danger pour la vue",
+          "link": "https://www.lemonde.fr/sciences/article/2026/08/05/comment-regarder-l-eclipse-sans-danger-pour-la-vue_6739357_1650684.html",
+          "summary": "Une éclipse solaire sera visible en France mercredi 12 août, pour la première fois depuis 1999. Un phénomène rare et attrayant, mais qui peut être dangereux s’il n’est pas observé…",
+          "pubDate": "2026-08-05T04:00:44.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Vous ne voulez pas louper l'éclipse solaire du 12 août ? On répond à sept questions pas si bêtes sur les lunettes de protection",
+          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/vous-ne-voulez-pas-louper-l-eclipse-solaire-du-12-aout-on-repond-a-sept-questions-pas-si-betes-sur-les-lunettes-de-protection_8129738.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Pour regarder ce phénomène exceptionnel, veillez à utiliser des protections portant le marquage CE et respectant la norme internationale ISO 12312-2. \"Même avec des équipements…",
+          "pubDate": "2026-08-05T03:56:58.000Z",
+          "source": "franceinfo"
         }
       ]
     },
@@ -375,38 +375,38 @@
       "label": "Environnement",
       "items": [
         {
-          "title": "EN DIRECT, incendies : après neuf jours de lutte contre le mégafeu de Gironde, un espoir d’accalmie pour les pompiers",
-          "link": "https://www.lemonde.fr/planete/live/2026/07/31/en-direct-incendies-apres-neuf-jours-de-lutte-contre-le-megafeu-de-gironde-un-espoir-d-accalmie-pour-les-pompiers_6737097_3244.html",
-          "summary": "L’incendie, qui a brûlé 42 000 hectares, est stabilisé. Mais si les conditions s’améliorent, il est encore trop tôt pour déterminer quand il sera fixé, selon le directeur…",
-          "pubDate": "2026-07-31T04:16:08.000Z",
+          "title": "En Inde, plus de 100 morts à la suite d’inondations et de glissements de terrain depuis juillet",
+          "link": "https://www.lemonde.fr/international/article/2026/08/05/en-inde-plus-de-100-morts-a-la-suite-d-inondations-et-de-glissements-de-terrain-depuis-juillet_6739400_3210.html",
+          "summary": "Les pluies de mousson, de juin à septembre, représentent en Asie du Sud de 70 à 80 % des précipitations annuelles, essentielles à l’agriculture et à l’activité industrielle.",
+          "pubDate": "2026-08-05T07:00:02.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "« Les régions les plus sensibles au risque d’incendie sont aussi celles où l’artificialisation des sols a le plus progressé »",
-          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/07/31/les-regions-les-plus-sensibles-au-risque-d-incendie-sont-aussi-celles-ou-l-artificialisation-des-sols-a-le-plus-progresse_6737095_4355770.html",
-          "summary": "La Gironde, en proie à un mégafeu depuis le 22 juillet, a vu une partie importante de sa forêt reculer au profit des habitations au cours du temps. Une modification du territoire…",
-          "pubDate": "2026-07-31T04:00:58.000Z",
+          "title": "EN DIRECT, incendies : situation « calme » dans la Drôme après une nuit fraîche et humide ; dix départements en vigilance orange canicule mercredi",
+          "link": "https://www.lemonde.fr/planete/live/2026/08/05/en-direct-incendies-dans-la-drome-deux-sapeurs-pompiers-legerement-blesses-dans-la-lutte-contre-le-feu-qui-a-deja-parcouru-280-hectares_6737310_3244.html",
+          "summary": "Parmi les départements en vigilance orange canicule figurent le Var et la Drôme où sévissent encore des feux. Les Alpes-Maritimes, l’Ardèche, le Gard, l’Isère, le Rhône, le…",
+          "pubDate": "2026-08-05T04:57:06.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Autour de la dune du Pilat, malgré le retour des touristes, les plaies de l’incendie de 2022 ne sont pas toutes refermées",
-          "link": "https://www.lemonde.fr/economie/article/2026/07/31/autour-de-la-dune-du-pilat-malgre-le-retour-des-touristes-les-plaies-de-l-incendie-de-2022-ne-sont-pas-toutes-refermees_6737091_3234.html",
-          "summary": "Les feux de l’été dans les communes proches de Lège-Cap-Ferret, du Porge ou de Biscarrosse réveillent les souvenirs d’il y a quatre ans et rappellent les difficultés engendrées…",
-          "pubDate": "2026-07-31T04:00:34.000Z",
+          "title": "Sécheresse et températures inédites en juillet : « La question de l’eau devient absolument critique »",
+          "link": "https://www.lemonde.fr/planete/article/2026/08/05/records-de-secheresse-et-de-chaleur-en-juillet-la-question-de-l-eau-devient-absolument-critique_6739248_3244.html",
+          "summary": "Avec une température moyenne de 24,9 °C sur l’ensemble du territoire, juillet 2026 est le mois le plus chaud jamais enregistré en France hexagonale depuis le début des mesures à…",
+          "pubDate": "2026-08-05T03:15:07.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Droit à la réparation : ce qui change avec l’entrée en vigueur de la directive de l’UE",
-          "link": "https://www.lemonde.fr/pixels/article/2026/07/31/droit-a-la-reparation-ce-qui-change-avec-l-entree-en-vigueur-de-la-directive-de-l-ue_6737088_4408996.html",
-          "summary": "Exigence de réparation plutôt que de remplacement, garantie prolongée en cas de réfection, pièces détachées à un prix « raisonnable »… Le texte européen « visant à promouvoir la…",
-          "pubDate": "2026-07-31T04:00:27.000Z",
+          "title": "Incendies dans le nord-ouest des Etats-Unis : un homme soupçonné d’avoir provoqué l’un des feux dévastateurs de Spokane arrêté",
+          "link": "https://www.lemonde.fr/international/article/2026/08/05/incendies-dans-le-nord-ouest-des-etats-unis-un-homme-soupconne-d-avoir-provoque-l-un-des-feux-devastateurs-de-spokane-arrete_6738982_3210.html",
+          "summary": "Le plus important des trois sinistres en cours dans la ville de Spokane, dans l’Etat de Washington, pourrait avoir été déclenché par un homme de 37 ans, placé en détention…",
+          "pubDate": "2026-08-04T22:10:52.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Incendie en Gironde : à la préfecture de Bordeaux, une gestion de crise « jour et nuit »",
-          "link": "https://www.lemonde.fr/planete/article/2026/07/31/incendie-en-gironde-a-la-prefecture-de-bordeaux-une-gestion-de-crise-jour-et-nuit_6737084_3244.html",
-          "summary": "Depuis neuf jours, le centre opérationnel départemental, dans la capitale girondine, coordonne 24 heures sur 24 la gestion du mégafeu, qui a dévasté 42 000 hectares. La cellule de…",
-          "pubDate": "2026-07-31T03:34:18.000Z",
+          "title": "L’un des incendies meurtriers de Los Angeles en 2025 a été causé par une ligne électrique défectueuse",
+          "link": "https://www.lemonde.fr/planete/article/2026/08/04/l-un-des-incendies-meurtriers-de-los-angeles-en-2025-a-ete-cause-par-une-ligne-electrique-defectueuse_6738949_3244.html",
+          "summary": "L’incendie Eaton Fire a détruit des milliers d’habitations à Altadena, une ville située au pied des montagnes qui surplombent Los Angeles, et causé la mort de 19 personnes.",
+          "pubDate": "2026-08-04T20:41:19.000Z",
           "source": "Le Monde"
         }
       ]
@@ -416,39 +416,39 @@
       "label": "Tech & numérique",
       "items": [
         {
-          "title": "Incendies en Gironde : la SNCF prolonge encore les échanges et remboursements gratuits des billets de train",
-          "link": "https://www.numerama.com/vroom/2302281-incendies-en-gironde-la-sncf-prolonge-encore-les-echanges-et-remboursements-gratuits-des-billets-de-train.html",
-          "summary": "Face aux feux de forêt d'ampleur exceptionnelle en Gironde et dans les Landes, le gouvernement et SNCF Voyageurs demandent aux voyageurs de reporter leurs trajets. Les échanges et…",
-          "pubDate": "2026-07-31T06:06:51.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "\"Le savoir est avant tout une affaire d’êtres humains\": comment Wikimedia France veut faire basculer le Web vers un autre modèle, avec l'aide aussi des politiques",
-          "link": "https://www.bfmtv.com/tech/vie-numerique/le-savoir-est-avant-tout-une-affaire-d-etres-humains-comment-wikimedia-france-veut-faire-basculer-le-web-vers-un-autre-modele-avec-l-aide-aussi-des-politiques_AN-202607310035.html",
-          "summary": "A l’occasion de la Wikimania, grande réunion annuelle du petit monde qui anime et fait vivre Wikipedia, l’association Wikimedia France a publié un livre blanc. Le résumé d’un…",
-          "pubDate": "2026-07-31T06:05:00.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "GPS en PLS : pourquoi Waze et Google Maps vous induisent parfois en erreur",
-          "link": "https://www.bfmtv.com/tech/google/video-gps-en-pls-pourquoi-waze-et-google-maps-vous-induisent-parfois-en-erreur_VN-202607310122.html",
-          "summary": "Votre voiture est pleine, votre playlist est parfaite… mais votre GPS, lui, décide de ruiner votre trajet. Entre les avis qui s’enflamment sur Trustpilot et les détours absurdes…",
-          "pubDate": "2026-07-31T06:00:04.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Disney+ supprime la 4K en France : votre abonnement Premium ne sert plus à rien",
-          "link": "https://www.numerama.com/pop-culture/2304629-disney-supprime-la-4k-en-france-votre-abonnement-premium-ne-sert-plus-a-rien.html",
-          "summary": "Disney+ a désactivé la 4K, la 3D et le HDR dans onze pays européens, dont la France, après une nouvelle injonction judiciaire. Résultat : les abonnés Premium payent 15,99 euros…",
-          "pubDate": "2026-07-31T05:57:56.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Test Samsung Galaxy Z Flip 8 : toujours plus de finesse, mais à quel prix ?",
-          "link": "https://www.01net.com/tests/test-samsung-galaxy-z-flip-8-avis.html",
-          "summary": "Le nouveau smartphone pliant à clapet de Samsung est là. Place au test du Samsung Galaxy Z Flip 8 pour voir si le constructeur a amélioré sa copie tout en évitant de faire trop de…",
-          "pubDate": "2026-07-31T05:45:24.000Z",
+          "title": "Google Assistant disparaîtra au profit de Gemini sur Android dès septembre",
+          "link": "https://www.01net.com/actualites/google-assistant-disparaitra-au-profit-de-gemini-sur-android-des-septembre.html",
+          "summary": "L’ancien assistant intelligent de Google, remplacé depuis plusieurs mois par Gemini vit ses dernières heures. Google Assistant s’endormira définitivement sur Android et Wear OS…",
+          "pubDate": "2026-08-05T07:35:06.000Z",
           "source": "01net"
+        },
+        {
+          "title": "Cette manette pour Switch 2 à moins de 25 € est la meilleure alternative aux Joy-Con",
+          "link": "https://www.numerama.com/tech/2306557-cette-manette-pour-switch-2-a-moins-de-25-e-est-la-meilleure-alternative-aux-joy-con.html",
+          "summary": "[Deal du jour] Besoin d'une manette pas chère pour jouer sur Switch 2 ? Ce modèle de PowerA est parfaitement recommandable à ce prix.",
+          "pubDate": "2026-08-05T07:30:00.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Les modèles IA de Meta ou du chinois Deepseek épargnés par la Maison Blanche: la régulation américaine sur l'IA ne devrait viser que les modèles dits \"fermés\" d'OpenAI, Google et Anthropic",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/les-modeles-ia-de-meta-ou-du-chinois-deepseek-epargnes-par-la-maison-blanche-la-regulation-americaine-sur-l-ia-ne-devrait-viser-que-les-modeles-dits-fermes-d-open-ai-google-et-anthropic_AD-202608050203.html",
+          "summary": "La Maison Blanche a présenté son cadre de sécurité concernant l'IA lors d'une réunion avec OpenAI, Anthropic, Google, Meta, Microsoft et Nvidia. Il ne devrait s'appliquer qu'aux…",
+          "pubDate": "2026-08-05T07:21:37.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Ce SUV Xiaomi hybride rechargeable de 3 tonnes propose plus de 500 km d’autonomie électrique",
+          "link": "https://www.01net.com/actualites/xiaomi-suv-hybride-rechargeable-trois-tonnes-500-km-autonomie-electrique.html",
+          "summary": "L’hybride rechargeable est souvent vue comme une transition idéale entre le thermique et l’électrique. Mais avec le dernier SUV de Xiaomi à la batterie XXL, on se demande vraiment…",
+          "pubDate": "2026-08-05T06:36:01.000Z",
+          "source": "01net"
+        },
+        {
+          "title": "Pourquoi le rôle de Sadie Sink dans Spider-Man: Brand New Day est resté secret jusqu’au bout",
+          "link": "https://www.numerama.com/tech/2306639-pourquoi-le-role-de-sadie-sink-dans-spider-man-brand-new-day-est-reste-secret-jusquau-bout.html",
+          "summary": "Disney, Marvel Studios et Sony Pictures se sont accordés sur un point important concernant Spider-Man: Brand New Day. Il était en effet crucial que le rôle de Sadie Sink reste…",
+          "pubDate": "2026-08-05T06:33:45.000Z",
+          "source": "Numerama"
         }
       ]
     },
@@ -457,38 +457,38 @@
       "label": "Jeux vidéo",
       "items": [
         {
-          "title": "Disney+ supprime la 4K en France : votre abonnement Premium ne sert plus à rien",
-          "link": "https://www.numerama.com/pop-culture/2304629-disney-supprime-la-4k-en-france-votre-abonnement-premium-ne-sert-plus-a-rien.html",
-          "summary": "Disney+ a désactivé la 4K, la 3D et le HDR dans onze pays européens, dont la France, après une nouvelle injonction judiciaire. Résultat : les abonnés Premium payent 15,99 euros…",
-          "pubDate": "2026-07-31T05:57:56.000Z",
+          "title": "Cette reproduction en 3D du début de Pokémon Rouge et Bleu va tuer votre enfance",
+          "link": "https://www.numerama.com/pop-culture/2306629-cette-reproduction-en-3d-du-debut-de-pokemon-rouge-et-bleu-va-tuer-votre-enfance.html",
+          "summary": "Un internaute a partagé une vidéo pour le moins traumatisante : une reproduction en 3D de l'introduction de Pokémon Rouge et Bleu, générée avec une IA. On vous déconseille de la…",
+          "pubDate": "2026-08-05T05:57:06.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Noté 19/20, le meilleur jeu de super-héros est à moins de 4 euros sur Steam",
-          "link": "https://www.jeuxvideo.com/news/2096579/note-19-20-le-meilleur-jeu-de-super-heros-est-a-moins-de-4-euros-sur-steam.htm",
-          "summary": "Sorti en 2011, ce jeu reste encore l'un des meilleurs du genre, malgré les 15 années passées. Si vous voulez le tester, c'est d'ailleurs le moment, il est à moins de 4 euros sur…",
-          "pubDate": "2026-07-30T20:20:09.000Z",
+          "title": "« Ça aurait pu être la fin de Zelda » : pourquoi Nintendo a brutalement annulé Wind Waker 2",
+          "link": "https://www.jeuxvideo.com/news/2097360/ca-aurait-pu-etre-la-fin-de-zelda-pourquoi-nintendo-a-brutalement-annule-wind-waker-2.htm",
+          "summary": "Le lancement de The Wind Waker n’a pas été un long fleuve tranquille. On peut même le comparer à une mer agitée, qui aurait pu faire chavirer le vaisseau-amiral Zelda.",
+          "pubDate": "2026-08-05T05:05:10.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "Verre Pokopia : Comment faire cette ressource ?",
-          "link": "https://www.jeuxvideo.com/news/2096700/verre-pokopia-comment-faire-cette-ressource.htm",
-          "summary": "Découvrez comment fabriquer du verre dans Pokémon Pokopia, une ressource très importante, y compris pour avancer dans la quête principale du jeu. Comme vous pouvez vous en douter,…",
-          "pubDate": "2026-07-30T19:05:09.000Z",
+          "title": "World of Warcraft et Donjons et Dragons unissent leurs forces pour un nouveau projet",
+          "link": "https://www.jeuxvideo.com/news/2097048/world-of-warcraft-et-donjons-et-dragons-unissent-leurs-forces-pour-un-nouveau-projet.htm",
+          "summary": "Les licences World of Warcraft et Donjons et Dragons s'apprêtent à franchir une nouvelle étape, main dans la main. Leur union vient d'être officialisée et offrira aux fans de…",
+          "pubDate": "2026-08-05T04:55:08.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "L'auteur de Squid Game était si fauché qu'il a vendu son PC 675$ pour survivre : Netflix a changé sa vie en produisant sa série",
-          "link": "https://www.jeuxvideo.com/news/2095975/l-auteur-de-squid-game-etait-si-fauche-qu-il-a-vendu-son-pc-675-pour-survivre-netflix-a-change-sa-vie-en-produisant-sa-serie.htm",
-          "summary": "Il est parti de rien, personne ne voulait de son script et pourtant plusieurs années plus tard, Netflix changera la vie du créateur de Squid Game.",
-          "pubDate": "2026-07-30T18:15:12.000Z",
+          "title": "Le meilleur jeu de 2021 est parfait pour jouer en couple et il est à moins de 12 euros sur Steam",
+          "link": "https://www.jeuxvideo.com/news/2096833/le-meilleur-jeu-de-2021-est-parfait-pour-jouer-en-couple-et-il-est-a-moins-de-12-euros-sur-steam.htm",
+          "summary": "Le meilleur jeu de l'année 2021 profite d'une promotion exceptionnelle sur Steam. L'occasion idéale pour plonger à deux dans ce chef-d'œuvre du jeu vidéo coopératif pour moins de…",
+          "pubDate": "2026-08-05T04:05:10.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "Il a fallu 30 ans et deux échecs traumatisants pour que ce chef-d'œuvre du JRPG trouve enfin sa fin !",
-          "link": "https://www.jeuxvideo.com/news/2096336/il-a-fallu-30-ans-et-deux-echecs-traumatisants-pour-que-ce-chef-d-oeuvre-du-jrpg-trouve-enfin-sa-fin.htm",
-          "summary": "Si vous aimez les sagas de science-fiction, vous connaissez forcément cette franchise phare de Nintendo. Mais saviez-vous que ce bijou du JRPG moderne est en fait l'aboutissement…",
-          "pubDate": "2026-07-30T18:10:09.000Z",
+          "title": "Noté 93%, le meilleur jeu de 2026 vient de sortir et il est gratuit dans le PS Plus",
+          "link": "https://www.jeuxvideo.com/news/2097307/note-93-le-meilleur-jeu-de-2026-vient-de-sortir-et-il-est-gratuit-dans-le-ps-plus.htm",
+          "summary": "À votre avis, c’est quoi le meilleur jeu de l’année à l’heure actuelle ? Vous n’avez sans doute pas la réponse, mais en tout cas, sachez que le titre est déjà gratuit dans le PS…",
+          "pubDate": "2026-08-04T20:20:10.000Z",
           "source": "Jeuxvideo.com"
         }
       ]
@@ -498,38 +498,38 @@
       "label": "Auto & mobilité",
       "items": [
         {
-          "title": "Incendies en Gironde : la SNCF prolonge encore les échanges et remboursements gratuits des billets de train",
-          "link": "https://www.numerama.com/vroom/2302281-incendies-en-gironde-la-sncf-prolonge-encore-les-echanges-et-remboursements-gratuits-des-billets-de-train.html",
-          "summary": "Face aux feux de forêt d'ampleur exceptionnelle en Gironde et dans les Landes, le gouvernement et SNCF Voyageurs demandent aux voyageurs de reporter leurs trajets. Les échanges et…",
-          "pubDate": "2026-07-31T06:06:51.000Z",
+          "title": "La version du FSD pour Tesla HW3 a grillé l’ordinateur embarqué de certains propriétaires",
+          "link": "https://www.numerama.com/vroom/2306255-la-version-du-fsd-pour-tesla-hw3-a-grille-lordinateur-embarque-de-certains-proprietaires.html",
+          "summary": "Avec le déploiement du FSD Lite sur les Tesla dotées de la brique matérielle « HW3 », de plus en plus de propriétaires témoignent de problèmes rencontrés pendant l'utilisation du…",
+          "pubDate": "2026-08-04T13:30:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Incendies en Gironde : l’opérateur français Electra rend à son tour la charge gratuite",
-          "link": "https://www.numerama.com/vroom/2304449-incendies-en-gironde-loperateur-francais-electra-rend-a-son-tour-la-charge-gratuite.html",
-          "summary": "Quelques heures après l'initiative de Tesla, le spécialiste français de la recharge rapide Electra débloque lui aussi la gratuité sur ses bornes en Gironde et près de Madrid.",
-          "pubDate": "2026-07-30T14:12:03.000Z",
+          "title": "L’Audi A2 e-tron est bien partie pour devenir la voiture électrique la plus sobre de sa catégorie",
+          "link": "https://www.numerama.com/vroom/2306083-laudi-a2-e-tron-est-bien-partie-pour-devenir-la-voiture-electrique-la-plus-sobre-de-sa-categorie.html",
+          "summary": "Audi a communiqué les premières données techniques de son A2 e-tron, la compacte électrique attendue à l'automne 2026. D'après les essais préliminaires, la version de 190 ch…",
+          "pubDate": "2026-08-04T09:42:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "La Chine interdit les voyants turquoise de la conduite autonome… qu’elle avait popularisés",
-          "link": "https://www.numerama.com/vroom/2304143-la-chine-interdit-les-voyants-turquoise-de-la-conduite-autonome-quelle-avait-popularises.html",
-          "summary": "Démocratisés par Li Auto, Nio ou BYD, les « petits voyants bleus » permettant d'indiquer de l'extérieur qu'un véhicule roule en conduite assistée vont disparaître en Chine. Un…",
-          "pubDate": "2026-07-30T12:30:12.000Z",
+          "title": "L’Espagne joue un double jeu avec les investisseurs chinois pour son industrie automobile",
+          "link": "https://www.numerama.com/vroom/2305863-lespagne-joue-un-double-jeu-avec-les-investisseurs-chinois-pour-son-industrie-automobile.html",
+          "summary": "Pendant que ses régions se disputent les usines de batteries et de voitures électriques made in China, Madrid pousse en parallèle Bruxelles à imposer des règles communes pour…",
+          "pubDate": "2026-08-03T15:50:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Mercedes GLA électrique (2026) : de quoi faire oublier l’épisode de l’EQA ?",
-          "link": "https://www.numerama.com/vroom/2303909-mercedes-gla-electrique-2026-de-quoi-faire-oublier-lepisode-de-leqa.html",
-          "summary": "Mercedes officialise la nouvelle génération de son SUV compact GLA. Désormais basé sur la plateforme 800 V du groupe, l'Allemand affiche une autonomie record de 657 km et une…",
-          "pubDate": "2026-07-30T08:07:41.000Z",
+          "title": "XPeng dévoile le nouveau G9L et coupe l’herbe sous le pied du Tesla Model YL",
+          "link": "https://www.numerama.com/vroom/2305657-xpeng-devoile-le-nouveau-g9l-et-coupe-lherbe-sous-le-pied-du-tesla-model-yl.html",
+          "summary": "Encore plus grand que le G9, le G9L s'apprête à faire son arrivée en France. Le fleuron de XPeng fera sa première européenne lors du Mondial de l'Auto de Paris, en octobre…",
+          "pubDate": "2026-08-03T12:29:24.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Les taxis autonomes Waymo ont une grosse nouveauté aux États-Unis : ils peuvent parler",
-          "link": "https://www.numerama.com/vroom/2303855-les-taxis-autonomes-waymo-ont-une-grosse-nouveaute-aux-etats-unis-ils-peuvent-parler.html",
-          "summary": "Waymo annonce l'arrivée de Gemini à bord de ses robotaxis avec une interface entièrement redessinée. L'assistant de Google permet de régler la climatisation, de demander un arrêt…",
-          "pubDate": "2026-07-30T06:00:15.000Z",
+          "title": "« On est allé trop loin » : Mercedes admet les limites du tout-tactile et annonce le retour des boutons physiques",
+          "link": "https://www.numerama.com/vroom/2305543-on-est-alle-trop-loin-mercedes-admet-les-limites-du-tout-tactile-et-annonce-le-retour-des-boutons-physiques.html",
+          "summary": "Alors que les dalles numériques n'ont jamais occupé autant d'espace dans les habitacles, Mercedes-Benz reconnaît avoir poussé le « tout-tactile » un peu trop loin. La marque à…",
+          "pubDate": "2026-08-03T08:54:00.000Z",
           "source": "Numerama"
         }
       ]
@@ -539,39 +539,39 @@
       "label": "Culture",
       "items": [
         {
-          "title": "Un incendie dans un camp de Roms à Nantes, 200 personnes évacuées",
-          "link": "https://www.franceinfo.fr/faits-divers/incendie/un-incendie-dans-un-camp-de-roms-a-nantes-200-personnes-evacuees_8129477.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "C'est le troisième incendie touchant un camp de Roms, en l'espace de 10 jours, dans la métropole nantaise. La cause de l'incendie est \"endogène\", selon la préfecture.",
-          "pubDate": "2026-07-31T04:46:37.000Z",
+          "title": "« La comédie, c’est plus une colo qu’une cour de récré », pour Arnaud Ducret",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4237380-20260805-comedie-plus-colo-cour-recre-arnaud-ducret?at_medium=display&amp;at_campaign=149",
+          "summary": "Le comédien Arnaud Ducret dirige la brigade des « Gendarmes », comédie estivale et chorale",
+          "pubDate": "2026-08-05T07:32:37.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "« Des Fleurs pour Tokyo » : retrouvailles amères dans le dédale de la capitale japonaise",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/05/des-fleurs-pour-tokyo-retrouvailles-ameres-dans-le-dedale-de-la-capitale-japonaise_6739403_3246.html",
+          "summary": "Le jeune réalisateur Yuiga Danzuka met en scène, dans une ville aux formes mouvantes, un frère et une sœur confrontés à l’absence de leur père architecte.",
+          "pubDate": "2026-08-05T07:30:07.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« Girl » : à Taïwan, le désir de liberté d’une écolière face à la sauvagerie du quotidien",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/05/girl-a-taiwan-le-desir-de-liberte-d-une-ecoliere-face-a-la-sauvagerie-du-quotidien_6739402_3246.html",
+          "summary": "L’actrice Shu Qi passe à la réalisation avec un film sensible et mélancolique, inspiré de son enfance, centré sur la condition féminine.",
+          "pubDate": "2026-08-05T07:00:13.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Au 79ᵉ Festival de Locarno, un défilé de stars de cinéma et de nouveaux visages en quête du Léopard d’or",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/05/au-79-festival-de-locarno-un-defile-de-stars-de-cinema-et-de-nouveaux-visages-en-quete-du-leopard-d-or_6739358_3246.html",
+          "summary": "La manifestation suisse, qui se tient du 5 au 15 août, rend notamment hommage à Isabella Rossellini, Virginie Efira et Asia Argento, et accueille à nouveau le réalisateur…",
+          "pubDate": "2026-08-05T04:15:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "\"Cotton Queen\" : un premier long-métrage féministe au cœur de \"la dernière plantation de coton\" du Soudan",
+          "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/cotton-queen-un-premier-long-metrage-feministe-au-c-ur-de-la-derniere-plantation-de-coton-du-soudan_8127314.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le film explore les questions de souveraineté du Soudan à travers les tourments adolescents d'une cueilleuse de coton.",
+          "pubDate": "2026-08-05T04:00:02.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Manifesta, la biennale d’art contemporain, invite les artistes à occuper des « églises pantoufles » à l’abandon dans la Ruhr",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/31/manifesta-la-biennale-d-art-contemporain-invite-les-artistes-a-occuper-des-eglises-pantoufles-a-l-abandon-dans-la-ruhr_6737087_3246.html",
-          "summary": "Pour sa 16ᵉ édition, le grand rendez-vous européen surprend en installant ses expositions dans des lieux de culte délaissés de cette région industrielle de l’Allemagne.",
-          "pubDate": "2026-07-31T04:00:11.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "BTS renonce aux Grammy Awards",
-          "link": "https://www.franceinfo.fr/culture/musique/bts-renonce-aux-grammy-awards_8128916.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le groupe sud-coréen BTS renonce aux Grammy Awards, les récompenses les plus prestigieuses de la musique mondiale, pour s'opposer à l'introduction d'une nouvelle catégorie…",
-          "pubDate": "2026-07-31T04:00:06.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Hedwig Fijen, fondatrice de la biennale Manifesta : « L’art peut vraiment jouer un rôle de signal d’alarme »",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/31/hedwig-fijen-fondatrice-de-la-biennale-manifesta-l-art-peut-vraiment-jouer-un-role-de-signal-d-alarme_6737083_3246.html",
-          "summary": "La fondatrice de la biennale nomade européenne d’art contemporain, pour qui la 16e édition, qui court jusqu’en octobre, sera la dernière, revient sur le rôle de sa manifestation…",
-          "pubDate": "2026-07-31T03:30:08.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "REDIFF Laurent Lafitte, acteur : « L’ennui est l’ennemi ultime »",
-          "link": "https://www.lemonde.fr/podcasts/article/2026/07/31/rediff-laurent-lafitte-acteur-l-ennui-est-l-ennemi-ultime_6737080_5463015.html",
-          "summary": "En juillet et en août, le podcast « Le Goût de M », présenté par Géraldine Sarratia et en accès libre dès le vendredi sur toutes les plateformes, se met à l’heure d’été en…",
-          "pubDate": "2026-07-31T03:00:07.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -580,38 +580,38 @@
       "label": "Cinéma & séries",
       "items": [
         {
-          "title": "REDIFF Laurent Lafitte, acteur : « L’ennui est l’ennemi ultime »",
-          "link": "https://www.lemonde.fr/podcasts/article/2026/07/31/rediff-laurent-lafitte-acteur-l-ennui-est-l-ennemi-ultime_6737080_5463015.html",
-          "summary": "En juillet et en août, le podcast « Le Goût de M », présenté par Géraldine Sarratia et en accès libre dès le vendredi sur toutes les plateformes, se met à l’heure d’été en…",
-          "pubDate": "2026-07-31T03:00:07.000Z",
+          "title": "« Des Fleurs pour Tokyo » : retrouvailles amères dans le dédale de la capitale japonaise",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/05/des-fleurs-pour-tokyo-retrouvailles-ameres-dans-le-dedale-de-la-capitale-japonaise_6739403_3246.html",
+          "summary": "Le jeune réalisateur Yuiga Danzuka met en scène, dans une ville aux formes mouvantes, un frère et une sœur confrontés à l’absence de leur père architecte.",
+          "pubDate": "2026-08-05T07:30:07.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Dans « Brand New Day », Spider-Man fait sa mue pour devenir plus adulte",
-          "link": "https://www.20minutes.fr/arts-stars/cinema/4236923-20260729-brand-new-day-spider-man-fait-mue-devenir-plus-adulte?at_medium=display&amp;at_campaign=149",
-          "summary": "Tom Holland fait montre d’une belle présence dans ce nouvel opus plus sombre que les précédents",
-          "pubDate": "2026-07-29T18:55:32.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Reinhold Messner devant la caméra du cinéaste Werner Herzog : « Je me sens coupable d’avoir survécu »",
-          "link": "https://www.lemonde.fr/series-d-ete/article/2026/07/29/reinhold-messner-devant-la-camera-du-cineaste-werner-herzog-je-me-sens-coupable-d-avoir-survecu_6736384_3451060.html",
-          "summary": "« Reinhold Messner, l’ivresse des sommets » (4/6). Une dizaine d’années après la tragédie du Nanga Parbat, dans l’Himalaya, durant laquelle il perd son frère cadet, la star de…",
-          "pubDate": "2026-07-29T15:00:09.000Z",
+          "title": "« Girl » : à Taïwan, le désir de liberté d’une écolière face à la sauvagerie du quotidien",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/05/girl-a-taiwan-le-desir-de-liberte-d-une-ecoliere-face-a-la-sauvagerie-du-quotidien_6739402_3246.html",
+          "summary": "L’actrice Shu Qi passe à la réalisation avec un film sensible et mélancolique, inspiré de son enfance, centré sur la condition féminine.",
+          "pubDate": "2026-08-05T07:00:13.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Le film « Lawrence d’Arabie » revient en salle dans toute sa splendeur",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/29/le-film-lawrence-d-arabie-revient-en-salle-dans-toute-sa-splendeur_6736325_3246.html",
-          "summary": "Restaurée, la grande fresque saharienne de David Lean sortie en 1962, centrée autour de l’insaisissable officier britannique, mérite d’être revue sur grand écran.",
-          "pubDate": "2026-07-29T09:15:00.000Z",
+          "title": "Au 79ᵉ Festival de Locarno, un défilé de stars de cinéma et de nouveaux visages en quête du Léopard d’or",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/05/au-79-festival-de-locarno-un-defile-de-stars-de-cinema-et-de-nouveaux-visages-en-quete-du-leopard-d-or_6739358_3246.html",
+          "summary": "La manifestation suisse, qui se tient du 5 au 15 août, rend notamment hommage à Isabella Rossellini, Virginie Efira et Asia Argento, et accueille à nouveau le réalisateur…",
+          "pubDate": "2026-08-05T04:15:09.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "« The Ugly » : la quête d’un fils dans les méandres de son passé et de celui de la Corée",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/29/the-ugly-la-quete-d-un-fils-dans-les-meandres-de-son-passe-et-de-celui-de-la-coree_6736322_3246.html",
-          "summary": "Le réalisateur du « Dernier train pour Busan » signe un drame qui évoque les années du boom économique et les outrances d’une société obsédée par la réussite.",
-          "pubDate": "2026-07-29T09:00:09.000Z",
+          "title": "Les films à l’affiche : « Girl », « Les Silences de Riyad », « Cotton Queen », « Enamorada »…",
+          "link": "https://www.lemonde.fr/cinema/article/2026/08/05/les-films-a-l-affiche-girl-les-silences-de-riyad-cotton-queen-enamorada_6739181_3476.html",
+          "summary": "Chaque mercredi, dans La Matinale, les journalistes cinéma du « Monde » livrent leurs critiques des films à découvrir en salle. Aujourd’hui, notamment, la condition féminine…",
+          "pubDate": "2026-08-05T02:30:12.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Le PDG de Paramount, David Ellison, défend le rachat de Warner Bros en assurant préserver « l’indépendance » et en écartant toute « domination » du marché",
+          "link": "https://www.lemonde.fr/international/article/2026/08/05/le-pdg-de-paramount-david-ellison-defend-le-rachat-de-warner-bros-en-assurant-preserver-l-independance-et-en-ecartant-toute-domination-du-marche_6739015_3210.html",
+          "summary": "Cette acquisition majeure suscite de nombreuses critiques et des recours judiciaires. Outre les studios de cinéma et les services de streaming, elle mettra sous le même toit deux…",
+          "pubDate": "2026-08-04T23:35:42.000Z",
           "source": "Le Monde"
         }
       ]
@@ -621,39 +621,39 @@
       "label": "Musique",
       "items": [
         {
-          "title": "Avec « Who Asked ? », DOMi & JD Beck façonnent un jazz contemporain flirtant avec l’électropop et la pop indé",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/30/avec-who-asked-domi-jd-beck-faconnent-un-jazz-contemporain-flirtant-avec-l-electropop-et-la-pop-inde_6737062_3246.html",
-          "summary": "Le jeune duo franco-américain, adoubé par Herbie Hancock, signe un deuxième album qui se défie des étiquettes, avec l’usage acoustique d’instruments à vent tels que la clarinette,…",
-          "pubDate": "2026-07-30T17:30:04.000Z",
+          "title": "Ariana Grande, qui fait l’objet d’inquiétudes et de spéculations sur sa santé, annonce une pause dans sa vie publique",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/04/ariana-grande-qui-fait-l-objet-d-inquietudes-et-de-speculations-sur-sa-sante-annonce-une-pause-dans-sa-vie-publique_6738779_3246.html",
+          "summary": "Alors qu’elle devait se produire dans une comédie musicale prévue à l’été 2027, à Londres, la chanteuse américaine, dont l’apparence amaigrie fait l’objet de nombreux…",
+          "pubDate": "2026-08-04T16:53:33.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "A Orange, le spectacle « Queen Forever » devrait bien se jouer au Théâtre antique",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/30/a-orange-le-spectacle-queen-forever-devrait-bien-se-jouer-au-theatre-antique_6737060_3246.html",
-          "summary": "Le nouveau maire d’Orange, Jean-Dominique Artaud (RN), avait décidé de retirer, pour des raisons financières, cette production de la programmation du Théâtre antique. Un accord…",
-          "pubDate": "2026-07-30T17:04:41.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "La mort de Glen Hansard, un des plus populaires chanteurs d’Irlande",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/07/30/la-mort-de-glen-hansard-un-des-plus-populaires-chanteurs-d-irlande_6737039_3382.html",
-          "summary": "L’ex-membre du groupe de rock The Frames, récompensé d’un Oscar de la meilleure chanson originale en 2008, est mort le 29 juillet dans un accident de moto, à l’âge de 56 ans.",
-          "pubDate": "2026-07-30T15:02:03.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "A La Grave, les oiseaux prophètes de Messiaen jubilent sous les doigts des pianistes Jean-François Heisser et Pierre-Laurent Aimard",
-          "link": "https://www.lemonde.fr/culture/article/2026/07/30/a-la-grave-les-oiseaux-prophetes-de-messiaen-jubilent-sous-les-doigts-des-pianistes-jean-francois-heisser-et-pierre-laurent-aimard_6737033_3246.html",
-          "summary": "La 28ᵉ édition du festival de musique contemporaine reçoit le compositeur britannique George Benjamin, qui a donné en création française une pièce pour piano à quatre mains, «…",
-          "pubDate": "2026-07-30T14:48:38.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Cardi B assume son corps et ne compte pas se faire « découper » pour faire plaisir aux autres",
-          "link": "https://www.20minutes.fr/arts-stars/people/4237076-20260730-cardi-b-assume-corps-compte-faire-decouper-faire-plaisir-autres?at_medium=display&amp;at_campaign=149",
-          "summary": "Les internautes poussent régulièrement la star du rap à se faire réduire les fesses",
-          "pubDate": "2026-07-30T14:45:12.000Z",
+          "title": "Incendies : Une star du rock japonais offre 50.000 euros à la France sinistrée par les feux",
+          "link": "https://www.20minutes.fr/monde/japon/4237807-20260804-incendies-star-rock-japonais-offre-50-000-euros-france-sinistree-feux?at_medium=display&amp;at_campaign=149",
+          "summary": "Yoshiki, star de la chanson japonaise, a également fait don de la même somme à l’Espagne, aussi durement touchée par les incendies",
+          "pubDate": "2026-08-04T15:30:26.000Z",
           "source": "20 Minutes"
+        },
+        {
+          "title": "Avocat, chanteur ou peintre, Paolo Conte et ses savants mélanges",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/04/avocat-chanteur-ou-peintre-paolo-conte-et-ses-savants-melanges_6738734_3246.html",
+          "summary": "A 89 ans, l’artiste piémontais expose soixante-dix dessins et aquarelles à l’Institut culturel italien de Paris.",
+          "pubDate": "2026-08-04T15:00:04.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "La mère d’Ariana Grande lui apporte son soutien après un clip vidéo qui a fait polémique",
+          "link": "https://www.20minutes.fr/arts-stars/people/4237762-20260804-mere-ariana-grande-apporte-soutien-apres-clip-video-fait-polemique?at_medium=display&amp;at_campaign=149",
+          "summary": "La vidéo du nouveau single « Petal », dans laquelle la star de « Wicked » apparaît amaigrie, a suscité l’émoi sur la Toile",
+          "pubDate": "2026-08-04T10:50:43.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Jean-Paul Dréau, le parolier du tube « Le Coup de soleil », est mort à l’âge de 73 ans",
+          "link": "https://www.lemonde.fr/disparitions/article/2026/08/04/jean-paul-dreau-le-parolier-du-tube-le-coup-de-soleil-est-mort-a-l-age-de-73-ans_6738422_3382.html",
+          "summary": "Né à Oran le 12 juin 1953, Jean-Paul Dréau, de son vrai nom Jean-Paul Benchetrit, a écrit et composé de nombreuses chansons à succès pour Michel Polnareff ou encore Chimène Badi.",
+          "pubDate": "2026-08-04T10:04:58.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -662,38 +662,38 @@
       "label": "Livres",
       "items": [
         {
-          "title": "Qu’est-ce qu’un livre ? Le ministère de l’économie consulte les Français pour ajuster la TVA",
-          "link": "https://www.lemonde.fr/politique/article/2026/07/30/qu-est-ce-qu-un-livre-le-ministere-de-l-economie-consulte-les-francais-pour-ajuster-la-tva_6737040_823448.html",
-          "summary": "Les livres bénéficient d’une TVA réduite à 5,5 % en France. Encore faut-il savoir précisément ce qu’est un livre. Une décision du Conseil d’Etat et une consultation lancée par le…",
-          "pubDate": "2026-07-30T15:16:00.000Z",
+          "title": "Riad Sattouf, auteur : « Je préfère acheter des livres qu’une Ferrari ! »",
+          "link": "https://www.lemonde.fr/podcasts/article/2026/08/05/riad-sattouf-auteur-je-prefere-acheter-des-livres-qu-une-ferrari_6739362_5463015.html",
+          "summary": "« Mot pour mots » (3/5). A l’occasion du festival littéraire Mot pour mots, les auteurs Riad Sattouf et Théo Grosjean se sont confiés sur leur processus de création et leur…",
+          "pubDate": "2026-08-05T05:00:04.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "L’empereur Ashoka, un tyran sanguinaire devenu pilier de la sagesse",
-          "link": "https://www.lemonde.fr/livres/article/2026/07/30/l-empereur-ashoka-un-tyran-sanguinaire-devenu-pilier-de-la-sagesse_6736739_3260.html",
-          "summary": "« Quand gouvernent sages et philosophes » (3/5). Après la sanglante guerre du Kalinga, au IIIᵉ siècle avant notre ère, le jeune roi indien se métamorphose en défenseur du vivant.",
-          "pubDate": "2026-07-30T08:00:07.000Z",
+          "title": "Avec l’introduction des « aperçus IA », « le Web et les applications mobiles pourraient n’avoir été qu’une étape intermédiaire dans la transformation numérique »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/04/avec-l-introduction-des-apercus-ia-le-web-et-les-applications-mobiles-pourraient-n-avoir-ete-qu-une-etape-intermediaire-dans-la-transformation-numerique_6738050_3232.html",
+          "summary": "La fonction AI Overviews de Google, au-delà des effets de son utilisation sur les visites de sites, transforme en profondeur la manière dont l’information est reconstituée et…",
+          "pubDate": "2026-08-04T04:15:10.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "L’écrivain belge Raoul Vaneigem, insurgé lyrique contre la société marchande, est mort",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/07/30/l-ecrivain-belge-raoul-vaneigem-insurge-lyrique-contre-la-societe-marchande-est-mort_6736668_3382.html",
-          "summary": "Le philosophe, un des leaders du mouvement situationniste avec Guy Debord, prônait une liberté d’expression radicale. Dans son « Traité de savoir-vivre à l’usage des jeunes…",
-          "pubDate": "2026-07-30T05:40:15.000Z",
+          "title": "« Le Fils de l’oligarque », une enquête au scalpel du journaliste américain Patrick Radden Keefe sur un jeune mythomane anglais",
+          "link": "https://www.lemonde.fr/livres/article/2026/08/03/le-fils-de-l-oligarque-une-enquete-au-scalpel-du-journaliste-americain-patrick-radden-keefe-sur-un-jeune-mythomane-anglais_6737544_3260.html",
+          "summary": "Plume du « New Yorker », auteur en 2022 de « L’Empire de la douleur », sur la crise des opioïdes aux Etats-Unis, Patrick Radden Keefe s’est plongé dans l’histoire tragique de Zac…",
+          "pubDate": "2026-08-03T17:00:14.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Notre sélection de livres cette semaine : « Habiter la garrigue », « Thétis », « Le Fils de l’oligarque »…",
-          "link": "https://www.lemonde.fr/livres/article/2026/07/30/notre-selection-de-livres-cette-semaine-habiter-la-garrigue-thetis-le-fils-de-l-oligarque_6736650_3260.html",
-          "summary": "Chaque jeudi, la rédaction du « Monde des livres » vous propose ses choix littéraires. Aujourd’hui, notamment, Christine Spianti propose une contre-épopée dans les yeux de la mère…",
-          "pubDate": "2026-07-30T03:00:28.000Z",
+          "title": "Felwine Sarr, écrivain : « Les budgets des nations africaines pourraient être orientés vers la dignité »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/02/felwine-sarr-ecrivain-les-budgets-des-nations-africaines-pourraient-etre-orientes-vers-la-dignite_6737291_3232.html",
+          "summary": "Dans un nouvel essai, « La Fabrique du présent », l’auteur sénégalais réfléchit à ce qui pourrait permettre l’essor en Afrique de sociétés davantage tournées vers la dignité de…",
+          "pubDate": "2026-08-02T12:00:12.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Portrait de l’écrivaine Laura Vazquez à travers un questionnaire serré sur ses lectures passées, présentes et à venir",
-          "link": "https://www.lemonde.fr/livres/article/2026/07/29/portrait-de-l-ecrivaine-laura-vazquez-a-travers-un-questionnaire-serre-sur-ses-lectures-passees-presentes-et-a-venir_6736393_3260.html",
-          "summary": "« Keskèli ? » (3/5). Pour la poète et romancière, un livre réussi est un livre drôle – elle cite notamment « La Recherche » de Proust comme un modèle du genre, entre autres…",
-          "pubDate": "2026-07-29T16:00:07.000Z",
+          "title": "« Pour certains, c’est de la lecture “de bonne femme” ou “de la fausse littérature” » : la romance, un choix littéraire assumé par la génération Z",
+          "link": "https://www.lemonde.fr/campus/article/2026/08/02/pour-certains-c-est-de-la-lecture-de-bonne-femme-ou-de-la-fausse-litterature-la-romance-un-choix-litteraire-assume-par-la-generation-z_6737290_4401467.html",
+          "summary": "Souvent dénigrée comme un « sous-genre littéraire », la romance sous toutes ses formes n’a jamais été aussi populaire chez les jeunes, en majorité des femmes, abordant en…",
+          "pubDate": "2026-08-02T12:00:08.000Z",
           "source": "Le Monde"
         }
       ]
@@ -703,38 +703,38 @@
       "label": "Médias",
       "items": [
         {
-          "title": "Xenia Fedorova visée par un arrêté d’expulsion : une salutaire clarification",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/30/xenia-fedorova-visee-par-un-arrete-d-expulsion-une-salutaire-clarification_6736842_3232.html",
-          "summary": "Si un reproche peut être adressé aux autorités françaises, c’est d’avoir tardé à tirer les conséquences de la fonction de propagandiste à la solde de la Russie qu’elles attribuent…",
-          "pubDate": "2026-07-30T09:30:11.000Z",
+          "title": "Le PDG de Paramount, David Ellison, défend le rachat de Warner Bros en assurant préserver « l’indépendance » et en écartant toute « domination » du marché",
+          "link": "https://www.lemonde.fr/international/article/2026/08/05/le-pdg-de-paramount-david-ellison-defend-le-rachat-de-warner-bros-en-assurant-preserver-l-independance-et-en-ecartant-toute-domination-du-marche_6739015_3210.html",
+          "summary": "Cette acquisition majeure suscite de nombreuses critiques et des recours judiciaires. Outre les studios de cinéma et les services de streaming, elle mettra sous le même toit deux…",
+          "pubDate": "2026-08-04T23:35:42.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Xenia Fedorova : comment la France en est venue à prendre un arrêté d’expulsion contre la propagandiste russe",
-          "link": "https://www.lemonde.fr/actualite-medias/article/2026/07/29/comment-la-france-en-est-venue-a-prendre-un-arrete-d-expulsion-contre-la-propagandiste-russe-xenia-fedorova_6736410_3236.html",
-          "summary": "L’ex-directrice de RT France est sommée de quitter le territoire français par le ministère de l’intérieur pour « atteinte aux intérêts fondamentaux de l’Etat ». Les dirigeants des…",
-          "pubDate": "2026-07-29T18:12:52.000Z",
+          "title": "La plainte visant Charles Alloncle pour « prise illégale d’intérêts » classée sans suite",
+          "link": "https://www.lemonde.fr/economie/article/2026/08/04/la-plainte-visant-charles-alloncle-pour-prise-illegale-d-interets-classee-sans-suite_6738778_3234.html",
+          "summary": "« La perception d’un avantage indu par Charles Alloncle n’est pas apparue suffisamment étayée pour justifier l’ouverture d’une enquête pénale », a par ailleurs précisé le Parquet…",
+          "pubDate": "2026-08-04T16:42:44.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "L’Arcom sanctionne CNews à hauteur de 200 000 euros pour des propos de nature à « inciter à la haine »",
-          "link": "https://www.lemonde.fr/economie/article/2026/07/29/l-arcom-sanctionne-cnews-a-hauteur-de-200-000-euros-pour-des-propos-de-nature-a-inciter-a-la-haine_6736402_3234.html",
-          "summary": "Dans des séquences qui remontent à juin et à septembre 2025, sont pointées notamment des affirmations d’Erik Tegnér, fondateur du média identitaire « Frontières » et chroniqueur…",
-          "pubDate": "2026-07-29T16:43:59.000Z",
+          "title": "Avec l’introduction des « aperçus IA », « le Web et les applications mobiles pourraient n’avoir été qu’une étape intermédiaire dans la transformation numérique »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/04/avec-l-introduction-des-apercus-ia-le-web-et-les-applications-mobiles-pourraient-n-avoir-ete-qu-une-etape-intermediaire-dans-la-transformation-numerique_6738050_3232.html",
+          "summary": "La fonction AI Overviews de Google, au-delà des effets de son utilisation sur les visites de sites, transforme en profondeur la manière dont l’information est reconstituée et…",
+          "pubDate": "2026-08-04T04:15:10.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Le journaliste Jean Quatremer quitte « Libération » et rejoint « Marianne »",
-          "link": "https://www.lemonde.fr/actualite-medias/article/2026/07/29/le-journaliste-jean-quatremer-quitte-liberation-et-rejoint-marianne_6736401_3236.html",
-          "summary": "« Ces trois dernières années, ses relations avec une partie de la rédaction se sont dégradées », a reconnu « Libération » dans un communiqué, en raison de ses prises de position…",
-          "pubDate": "2026-07-29T16:43:15.000Z",
+          "title": "Zitata TV, une petite chaîne dynamique au plus près des Martiniquais",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/03/zitata-tv-une-petite-chaine-dynamique-au-plus-pres-des-martiniquais_6737319_3451060.html",
+          "summary": "« Echos locaux » (4/6). Née en 2021, la station antillaise, située en périphérie de Fort-de-France, a trouvé son audience grâce à des programmes alliant ancrage local, exigence de…",
+          "pubDate": "2026-08-02T22:00:08.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Mort du journaliste sénégalais Idriss Fall, une voix influente de l’Afrique francophone",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/07/28/mort-du-journaliste-senegalais-idriss-fall-une-voix-influente-de-l-afrique-francophone_6735329_3382.html",
-          "summary": "Grand reporter puis rédacteur en chef du service francophone de la radio américaine Voice of America, il avait couvert de nombreux conflits en Afrique. Il est mort le 24 juillet,…",
-          "pubDate": "2026-07-28T16:29:47.000Z",
+          "title": "« Dominican Sisters Open Mic » : des nonnes américaines font vœu de podcast et triomphent en ligne",
+          "link": "https://www.lemonde.fr/le-monde-des-religions/article/2026/08/02/dominican-sisters-open-mic-des-nonnes-americaines-font-v-u-de-podcast-et-triomphent-en-ligne_6737306_6038514.html",
+          "summary": "En quelques mois, la foi fervente et enjouée des religieuses de l’ordre Sisters of Mary, Mother of the Eucharist ont conquis sur les réseaux sociaux un public qui dépasse le…",
+          "pubDate": "2026-08-02T16:00:19.000Z",
           "source": "Le Monde"
         }
       ]
@@ -744,38 +744,38 @@
       "label": "Idées & débats",
       "items": [
         {
-          "title": "« Pour répondre aux aspirations des Algériens, les pouvoirs publics doivent garantir un véritable pluralisme et renforcer les libertés publiques »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/31/pour-repondre-aux-aspirations-des-algeriens-les-pouvoirs-publics-doivent-garantir-un-veritable-pluralisme-et-renforcer-les-libertes-publiques_6737103_3232.html",
-          "summary": "En Algérie, l’abstention lors des élections législatives du 2 juillet a été de 79 %. Dans une tribune au « Monde, l’homme politique algérien Zoheir Rouis souligne le risque d’une…",
-          "pubDate": "2026-07-31T06:00:10.000Z",
+          "title": "Iran : « La multiplication des exécutions ne témoigne pas d’une confiance retrouvée du pouvoir, mais, au contraire, de son extrême fragilité »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/05/iran-la-multiplication-des-executions-ne-temoigne-pas-d-une-confiance-retrouvee-du-pouvoir-mais-au-contraire-de-son-extreme-fragilite_6739351_3232.html",
+          "summary": "Malgré la répression impitoyable exercée par le régime des mollahs à l’encontre des civils, la société iranienne poursuit son chemin vers la liberté, note Farid Vahid, codirecteur…",
+          "pubDate": "2026-08-05T04:00:06.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Joëlle Zask, philosophe : « Contre les mégafeux, la volonté politique au sommet dépend de celle de la majorité des citoyens »",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/31/joelle-zask-philosophe-contre-les-megafeux-la-volonte-politique-au-sommet-depend-de-celle-de-la-majorite-des-citoyens_6737081_3232.html",
-          "summary": "Les incendies extrêmes sont un phénomène d’insécurité qui appelle à un nouveau pacte social, selon la professeure à l’université. Dans une tribune au « Monde », elle plaide pour…",
-          "pubDate": "2026-07-31T03:00:18.000Z",
+          "title": "Crise de Ceuta : « Le Maroc n’a pas besoin d’un nouveau plan de développement, mais d’un nouveau contrat social »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/05/crise-de-ceuta-le-maroc-n-a-pas-besoin-d-un-nouveau-plan-de-developpement-mais-d-un-nouveau-contrat-social_6739350_3232.html",
+          "summary": "Fin juillet, près de 50 000 migrants venus du Maroc sont entrés dans l’enclave espagnole. Plutôt qu’une crise migratoire, il faut y voir l’échec du pacte de croissance mis en…",
+          "pubDate": "2026-08-05T04:00:03.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "« La sécurité civile doit être une grande priorité nationale » : l’appel de 150 élus",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/30/la-securite-civile-doit-etre-une-grande-priorite-nationale-l-appel-de-150-elus_6737058_3232.html",
-          "summary": "Emmené par le maire Les Républicains de Mions (Rhône), Mickaël Paccaud, un collectif de plus de 150 élus et membres de services départementaux d’incendie et de secours estime dans…",
-          "pubDate": "2026-07-30T17:00:24.000Z",
+          "title": "« Quand des centaines de milliers d’hectares sont couverts de pins, les flammes disposent d’un combustible quasi continu »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/04/quand-des-centaines-de-milliers-d-hectares-sont-couverts-de-pins-les-flammes-disposent-d-un-combustible-quasi-continu_6738777_3232.html",
+          "summary": "Les incendies en Gironde et dans les Landes ravivent le débat sur la gestion des forêts. Dans une tribune au « Monde », l’ingénieur forestier Jean-Christophe Domec appelle à…",
+          "pubDate": "2026-08-04T16:30:07.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Xenia Fedorova visée par un arrêté d’expulsion : une salutaire clarification",
-          "link": "https://www.lemonde.fr/idees/article/2026/07/30/xenia-fedorova-visee-par-un-arrete-d-expulsion-une-salutaire-clarification_6736842_3232.html",
-          "summary": "Si un reproche peut être adressé aux autorités françaises, c’est d’avoir tardé à tirer les conséquences de la fonction de propagandiste à la solde de la Russie qu’elles attribuent…",
-          "pubDate": "2026-07-30T09:30:11.000Z",
+          "title": "Intelligence artificielle : l’illusion du contrôle",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/04/intelligence-artificielle-l-illusion-du-controle_6738387_3232.html",
+          "summary": "Après deux incidents reconnus par OpenAI et Anthropic en juillet, il apparaît désormais indispensable de maîtriser les conditions dans lesquelles les systèmes d’IA interagissent…",
+          "pubDate": "2026-08-04T09:15:11.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "L’écrivain belge Raoul Vaneigem, insurgé lyrique contre la société marchande, est mort",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/07/30/l-ecrivain-belge-raoul-vaneigem-insurge-lyrique-contre-la-societe-marchande-est-mort_6736668_3382.html",
-          "summary": "Le philosophe, un des leaders du mouvement situationniste avec Guy Debord, prônait une liberté d’expression radicale. Dans son « Traité de savoir-vivre à l’usage des jeunes…",
-          "pubDate": "2026-07-30T05:40:15.000Z",
+          "title": "Avec l’introduction des « aperçus IA », « le Web et les applications mobiles pourraient n’avoir été qu’une étape intermédiaire dans la transformation numérique »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/04/avec-l-introduction-des-apercus-ia-le-web-et-les-applications-mobiles-pourraient-n-avoir-ete-qu-une-etape-intermediaire-dans-la-transformation-numerique_6738050_3232.html",
+          "summary": "La fonction AI Overviews de Google, au-delà des effets de son utilisation sur les visites de sites, transforme en profondeur la manière dont l’information est reconstituée et…",
+          "pubDate": "2026-08-04T04:15:10.000Z",
           "source": "Le Monde"
         }
       ]
@@ -785,38 +785,38 @@
       "label": "Éducation",
       "items": [
         {
-          "title": "Guillaume, 29 ans, réparateur vélo à domicile, 2 500 euros par mois : « Je préfère avoir du temps libre plutôt qu’un très gros salaire »",
-          "link": "https://www.lemonde.fr/campus/article/2026/07/27/guillaume-29-ans-reparateur-velo-a-domicile-2-500-euros-par-mois-je-prefere-avoir-du-temps-libre-plutot-qu-un-tres-gros-salaire_6733676_4401467.html",
+          "title": "Gwenaëlle, 24 ans, coiffeuse, 1 570 euros par mois : « Commencer à 16 ans m’a fait gagner très tôt en maturité »",
+          "link": "https://www.lemonde.fr/campus/article/2026/08/03/gwenaelle-24-ans-coiffeuse-1-570-euros-par-mois-commencer-a-16-ans-m-a-fait-gagner-tres-tot-en-maturite_6737329_4401467.html",
           "summary": "« La bonne paye ». Chaque semaine, « Le Monde » parle d’argent avec les jeunes. Que signifie « bien gagner sa vie » ? Comment se projettent-ils dans l’avenir ? Cette semaine,…",
-          "pubDate": "2026-07-27T04:00:28.000Z",
+          "pubDate": "2026-08-03T04:00:05.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Avec le double concours enseignants en 2026, un été dans le flou pour beaucoup d’admis et de recalés",
-          "link": "https://www.lemonde.fr/campus/article/2026/07/26/avec-le-double-concours-enseignants-en-2026-un-ete-dans-le-flou-pour-nombre-de-laureats-et-de-recales_6732874_4401467.html",
-          "summary": "La cohabitation exceptionnelle de deux concours, de niveau bac + 3 et bac + 5, a généré une multitude de situations, pour les heureux admis autant que pour les déçus, dont la…",
-          "pubDate": "2026-07-26T04:30:01.000Z",
+          "title": "« Pour certains, c’est de la lecture “de bonne femme” ou “de la fausse littérature” » : la romance, un choix littéraire assumé par la génération Z",
+          "link": "https://www.lemonde.fr/campus/article/2026/08/02/pour-certains-c-est-de-la-lecture-de-bonne-femme-ou-de-la-fausse-litterature-la-romance-un-choix-litteraire-assume-par-la-generation-z_6737290_4401467.html",
+          "summary": "Souvent dénigrée comme un « sous-genre littéraire », la romance sous toutes ses formes n’a jamais été aussi populaire chez les jeunes, en majorité des femmes, abordant en…",
+          "pubDate": "2026-08-02T12:00:08.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Les fesses, cibles de domination en milieu professionnel : « Il m’a dit que cette claque, c’était comme une tape sur l’épaule à un pote »",
-          "link": "https://www.lemonde.fr/campus/article/2026/07/25/il-m-a-dit-que-cette-claque-c-etait-comme-une-tape-sur-l-epaule-a-un-pote-les-fesses-cibles-de-domination-en-milieu-professionnel_6731647_4401467.html",
-          "summary": "« Sois belle et produis » (6/6). Main « égarée », tape « familière », commentaires graveleux… Au travail, les fesses sont l’une des parties du corps féminin les plus exposées aux…",
-          "pubDate": "2026-07-25T03:00:07.000Z",
+          "title": "Hasina, 25 ans, bénévole chez les scouts : « J’ai bénéficié de cette transmission plus jeune, ça me semble normal de m’engager en retour »",
+          "link": "https://www.lemonde.fr/campus/article/2026/08/01/hasina-25-ans-benevole-chez-les-scouts-j-ai-beneficie-de-cette-transmission-plus-jeune-ca-me-semble-normal-de-m-engager-en-retour_6737221_4401467.html",
+          "summary": "« Engagés comme jamais ». La jeunesse ne se détourne pas de l’action citoyenne, au contraire. Chaque mois, rencontre avec des jeunes qui réinventent l’engagement. Hasina Bodilis…",
+          "pubDate": "2026-08-01T12:00:19.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Pourquoi la cocaïne est-elle si répandue dans le monde du travail ? Comprendre en trois minutes",
-          "link": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/07/24/pourquoi-la-cocaine-est-elle-si-repandue-dans-le-monde-du-travail-comprendre-en-trois-minutes_6731420_6176282.html",
-          "summary": "Pour améliorer ses performances, tenir la cadence ou supporter la pression, cette drogue s’est banalisée dans de nombreuses professions. Avec de graves risques, psychiques comme…",
-          "pubDate": "2026-07-24T04:00:08.000Z",
+          "title": "Financement des universités : « Le compte n’y est pas si on veut jouer dans la compétition internationale à armes égales »",
+          "link": "https://www.lemonde.fr/campus/article/2026/08/01/financement-des-universites-le-compte-n-y-est-pas-si-on-veut-jouer-dans-la-competition-internationale-a-armes-egales_6737198_4401467.html",
+          "summary": "Le président de l’association France Universités, Lamri Adoui, revient, dans un entretien au « Monde », sur les débats de ces derniers mois autour du montant des droits…",
+          "pubDate": "2026-08-01T05:23:01.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "« Plus mon ventre grossissait, plus il m’a été difficile de trouver des missions » : la maternité, frein à la carrière des femmes",
-          "link": "https://www.lemonde.fr/campus/article/2026/07/24/plus-mon-ventre-grossissait-plus-il-m-a-ete-difficile-de-trouver-des-missions-la-maternite-frein-a-la-carriere-des-femmes_6731415_4401467.html",
-          "summary": "« Sois belle et produis » (5/6). Mises au placard, refus de promotion, licenciements abusifs… Les trajectoires professionnelles des femmes sont encore aujourd’hui percutées de…",
-          "pubDate": "2026-07-24T03:30:04.000Z",
+          "title": "Universités : comment le débat sur la hausse des frais d’inscription s’est imposé",
+          "link": "https://www.lemonde.fr/campus/article/2026/08/01/universites-comment-le-debat-sur-la-hausse-des-frais-d-inscription-s-est-impose_6737188_4401467.html",
+          "summary": "Les deux mandats d’Emmanuel Macron ont permis une petite révolution, d’abord en décuplant les frais d’inscription pour les étudiants extracommunautaires puis en posant les jalons…",
+          "pubDate": "2026-08-01T04:00:11.000Z",
           "source": "Le Monde"
         }
       ]
@@ -826,38 +826,38 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Le footballeur italien Franco Baresi, défenseur légendaire de l'AC Milan, est mort à l'âge de 66 ans",
-          "link": "https://www.franceinfo.fr/sports/foot/le-footballeur-italien-franco-baresi-defenseur-legendaire-de-l-ac-milan-est-mort-a-l-age-de-66-ans_8129558.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Son décès a été annoncé par le club milanais, où le joueur avait effectué toute sa sa carrière.",
-          "pubDate": "2026-07-31T05:55:19.000Z",
+          "title": "FIFA : Problèmes de visas, primes non payées… La Fédération jordanienne accuse Gianni Infantino de « chantage »",
+          "link": "https://www.20minutes.fr/sport/football/4237871-20260805-fifa-problemes-visas-primes-non-payees-federation-jordanienne-accuse-gianni-infantino-chantage?at_medium=display&amp;at_campaign=149",
+          "summary": "Le président de la FIFA, Gianni Infantino, aurait confié au président de la fédération jordanienne qu’il l’aiderait à résoudre certains problèmes en échange d’un soutien aux…",
+          "pubDate": "2026-08-05T07:18:50.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Tour de France féminin 2026 : Le parcours et profil de la 5e étape ce mercredi 5 août",
+          "link": "https://www.20minutes.fr/sport/cyclisme/4237856-20260805-tour-france-feminin-2026-parcours-profil-5e-etape-mercredi-5-aout?at_medium=display&amp;at_campaign=149",
+          "summary": "À 14 heures, le peloton partira de Mâcon et prendra la direction de Belleville-en-Beaujolais pour une étape au profil accidenté de 140 km",
+          "pubDate": "2026-08-05T05:17:39.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Majorque - PSG : Sur quelle chaîne et à quelle heure voir le match de préparation en direct ?",
+          "link": "https://www.20minutes.fr/sport/football/4237844-20260805-majorque-psg-chaine-heure-voir-match-preparation-direct?at_medium=display&amp;at_campaign=149",
+          "summary": "Mercredi à 21 heures, les Parisiens se déplacent aux Baléares à l'occasion de la première rencontre amical avant-saison des champions d'Europe en titre",
+          "pubDate": "2026-08-05T05:02:40.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Tour de France femmes 2026 : Pauline Ferrand-Prévôt revancharde, le mont Brouilly comme juge de paix... La 5e étape en questions",
+          "link": "https://www.franceinfo.fr/tour-de-france/etape-du-jour/tour-de-france-femmes-2026-pauline-ferrand-prevot-revancharde-le-mont-brouilly-comme-juge-de-paix-la-5e-etape-en-questions_8127098.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Une grosse journée attend le peloton, mercredi, avec un terrain de jeu vallonné dans le Beaujolais.",
+          "pubDate": "2026-08-05T04:45:02.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Dix personnes, dont la star de l'alpinisme Nirmal Purja, portées disparues après une avalanche au Pakistan",
-          "link": "https://www.franceinfo.fr/sports/sports-extremes/dix-personnes-dont-la-star-de-l-alpinisme-nirmal-purja-portees-disparues-apres-une-avalanche-au-pakistan_8129468.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Une avalanche a été signalée sur le Broad Peak, alors qu'une expédition menée par l'alpiniste népalais y était en expédition.",
-          "pubDate": "2026-07-31T05:39:04.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Hôte du Grand départ du Tour de France femmes 2026, la Suisse, un pays montagneux et temple des spécialistes du contre-la-montre",
-          "link": "https://www.franceinfo.fr/tour-de-france/femmes/hote-du-grand-depart-du-tour-de-france-femmes-2026-la-suisse-un-pays-montagneux-et-temple-des-specialistes-du-contre-la-montre_8124095.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "La Suisse est le deuxième pays étranger à accueillir le départ du Tour de France femmes, deux ans après les Pays-Bas.",
-          "pubDate": "2026-07-31T05:00:01.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Ferrand-Prévôt, Kerbaol, Squiban, Géry… D’où vient la densité de talents tricolores sur le Tour de France femmes 2026 ?",
-          "link": "https://www.franceinfo.fr/tour-de-france/femmes/ferrand-prevot-kerbaol-squiban-gery-d-ou-vient-la-densite-de-talents-tricolores-sur-le-tour-de-france-femmes-2026_8124266.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Après un Tour de France femmes 2025 record, avec quatre victoires d’étape et le maillot jaune, les coureuses françaises joueront de nouveau les premiers rôles sur l’édition 2026.",
-          "pubDate": "2026-07-31T04:30:01.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "REPORTAGE. \"Ici, c'est du grand luxe\"... Comment la piscine olympique de Saint-Denis a changé le quotidien des plongeurs de l'équipe de France",
-          "link": "https://www.franceinfo.fr/sports/natation/championnats-d-europe-de-natation/reportage-ici-c-est-du-grand-luxe-comment-la-piscine-olympique-de-saint-denis-a-change-le-quotidien-des-plongeurs-de-l-equipe-de-france_8055551.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Depuis septembre 2025, les athlètes tricolores basés à l'Insep s'entraînent au Centre aquatique olympique Métropole Grand Paris deux fois par semaine, où ils bénéficient…",
-          "pubDate": "2026-07-31T04:00:01.000Z",
+          "title": "Promotion refusée, sections féminines fermées... Pourquoi certains clubs de foot féminin désertent le monde professionnel ?",
+          "link": "https://www.franceinfo.fr/sports/foot/promotion-refusee-sections-feminines-fermees-pourquoi-certains-clubs-de-foot-feminin-desertent-le-monde-professionnel_8119721.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le 6 septembre, la Seconde Ligue reprendra ses droits avec 11 équipes au lieu de 12. Pour des raisons principalement économiques, plusieurs clubs ont décidé de ne pas participer à…",
+          "pubDate": "2026-08-05T04:15:02.000Z",
           "source": "franceinfo"
         }
       ]
