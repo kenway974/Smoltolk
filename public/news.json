@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-08-05T07:35:25.642Z",
+  "generatedAt": "2026-08-05T07:37:51.521Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
+        {
+          "title": "Après une nouvelle attaque de drone meutrière de la Russie sur Kiev, Volodymyr Zelensky réclame des munitions antibalistiques à ses alliés",
+          "link": "https://www.bfmtv.com/international/europe/ukraine/apres-une-nouvelle-attaque-de-drone-meutriere-de-la-russie-sur-kiev-volodymyr-zelensky-reclame-des-munitions-antibalistiques-a-ses-allies_AD-202608050209.html",
+          "summary": "L'Ukraine n'a pas pu abattre un seul missile russe lors de l'attaque meurtrière qui a fait au moins 15 morts à Kiev et dans sa région dans la nuit du mardi 4 au mercredi 5 août,…",
+          "pubDate": "2026-08-05T07:35:43.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Guerre en Ukraine : au moins 17 morts et 44 blessés dans des bombardements russes sur la région de Kiev",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-au-moins-15-morts-et-27-blesses-dans-des-bombardements-russes-sur-la-region-de-kiev_8135441.html#xtor=RSS-3-[lestitres]",
+          "summary": "\"Les intercepteurs de missiles balistiques auraient pu sauver la vie de ceux qui sont morts aujourd'hui\", dénonce Volodymyr Zelensky, qui réclame plus d'aide de la part de ses…",
+          "pubDate": "2026-08-05T07:31:42.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Six personnes blessées dans une fusillade à Valence dont une adolescente de 16 ans et un jeune homme de 19 ans en urgence absolue",
+          "link": "https://www.franceinfo.fr/faits-divers/six-personnes-blessees-dans-une-fusillade-a-valence-dont-une-adolescente-de-16-ans-et-un-jeune-homme-de-19-ans-en-urgence-absolue_8135576.html#xtor=RSS-3-[lestitres]",
+          "summary": "Une personne, cagoulée, a tiré mardi soir d'une voiture sur un groupe dans la rue avec un fusil d'assaut. Les victimes ont entre 15 et 22 ans.",
+          "pubDate": "2026-08-05T07:31:04.000Z",
+          "source": "franceinfo"
+        },
         {
           "title": "Une femme portée disparue en Haute-Savoie après avoir été emportée par une rivière à la suite d'un violent orage, des évacuations par hélicoptère",
           "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html#xtor=RSS-3-[lestitres]",
@@ -18,27 +39,6 @@
           "summary": "La Maison Blanche a présenté son cadre de sécurité concernant l'IA lors d'une réunion avec OpenAI, Anthropic, Google, Meta, Microsoft et Nvidia. Il ne devrait s'appliquer qu'aux…",
           "pubDate": "2026-08-05T07:21:37.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Mehdi Laribi, connu comme l'un des fondateurs de la DZ Mafia, arrêté fin juillet en Algérie",
-          "link": "https://www.bfmtv.com/police-justice/mehdi-laribi-connu-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-fin-juillet-en-algerie_AN-202608050200.html",
-          "summary": "Medhi \"Tic\" Laribi, connu pour être l'un des cofondateurs de la DZ Mafia, a été arrêté en Algérie à la fin du mois de juillet. Il est actuellement placé sous contrôle judiciaire,…",
-          "pubDate": "2026-08-05T07:17:36.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Ebola: l'OMS et la République démocratique du Congo accélèrent les recherches sur un vaccin contre la souche meurtrière Bundibugyo",
-          "link": "https://www.bfmtv.com/international/afrique/ebola-l-oms-et-la-republique-democratique-du-congo-accelerent-les-recherches-sur-un-vaccin-contre-la-souche-meurtriere-bundibugyo_AV-202608050198.html",
-          "summary": "Des tests de vaccins et des essais cliniques sont conduits dans la province d'Ituri, l'épicentre de l'épidémie d'Ebola au nord-est de la République démocratique du Congo a annoncé…",
-          "pubDate": "2026-08-05T07:15:07.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "DeltaVision ouvre une filiale en Nouvelle-Aquitaine",
-          "link": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-delta-vision-ouvre-une-filiale-en-nouvelle-aquitaine_VN-202608050192.html",
-          "summary": "\"On fabrique l'ensemble des composants qui vont gérer le carburant à bord des véhicules spatiaux. Nous développons aussi les technologies pour le ravitaillement en orbite.\"",
-          "pubDate": "2026-08-05T07:07:20.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -47,10 +47,17 @@
       "label": "Monde",
       "items": [
         {
+          "title": "Après une nouvelle attaque de drone meutrière de la Russie sur Kiev, Volodymyr Zelensky réclame des munitions antibalistiques à ses alliés",
+          "link": "https://www.bfmtv.com/international/europe/ukraine/apres-une-nouvelle-attaque-de-drone-meutriere-de-la-russie-sur-kiev-volodymyr-zelensky-reclame-des-munitions-antibalistiques-a-ses-allies_AD-202608050209.html",
+          "summary": "L'Ukraine n'a pas pu abattre un seul missile russe lors de l'attaque meurtrière qui a fait au moins 15 morts à Kiev et dans sa région dans la nuit du mardi 4 au mercredi 5 août,…",
+          "pubDate": "2026-08-05T07:35:43.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "DIRECT. Guerre au Moyen-Orient : soit le détroit d'Ormuz ouvre \"très bientôt\", soit l'Iran \"sera frappé très fort\", avertit Donald Trump",
           "link": "https://www.franceinfo.fr/monde/iran/direct-guerre-au-moyen-orient-soit-le-detroit-d-ormuz-ouvre-tres-bientot-soit-l-iran-sera-frappe-tres-fort-avertit-donald-trump_8135411.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "\"Il y a une chance que nous parvenions\" à un accord entre Washington et Téhéran ce mercredi, a déclaré le ministre des Finances américain Scott Bessent.",
-          "pubDate": "2026-08-05T07:30:40.000Z",
+          "pubDate": "2026-08-05T07:30:05.000Z",
           "source": "franceinfo"
         },
         {
@@ -73,13 +80,6 @@
           "summary": "La région de la capitale ukrainienne a été la cible d'\"une attaque massive de drones et de missiles balistiques\" russes, selon les services d'urgence ukrainiens.",
           "pubDate": "2026-08-05T07:05:44.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Les enfants de Cisjordanie dans l’objectif du photographe palestinien Sakir Khader pour « conserver la mémoire de la survie »",
-          "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/05/les-enfants-de-cisjordanie-dans-l-objectif-du-photographe-palestinien-sakir-khader-pour-conserver-la-memoire-de-la-survie_6739401_3451060.html",
-          "summary": "« Jeunesse en milieux hostiles » (4/7). Installé aux Pays-Bas, le photographe et cinéaste palestinien Sakir Khader se rend régulièrement dans les régions de Naplouse et de Jénine…",
-          "pubDate": "2026-08-05T07:00:08.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -109,16 +109,16 @@
           "source": "BFMTV"
         },
         {
-          "title": "Sébastien Lecornu Premier ministre",
-          "link": "https://www.bfmtv.com/politique/gouvernement/sebastien-lecornu-premier-ministre_DN-202509100375.html",
-          "summary": "Sébastien Lecornu a été nommé Premier ministre le 9 septembre 2025, après la chute du gouvernement de François Bayrou, qui n'a pas obtenu la confiance de l'Assemblée nationale. Il…",
+          "title": "Santé, sécurité, narcotrafic: moins d'un an après sa nomination à Matignon, Sébastien Lecornu dresse son premier bilan sur les réseaux sociaux",
+          "link": "https://www.bfmtv.com/politique/gouvernement/sante-securite-narcotrafic-moins-d-un-an-apres-sa-nomination-a-matignon-sebastien-lecornu-dresse-son-premier-bilan-sur-les-reseaux-sociaux_AV-202608050068.html",
+          "summary": "Nommé Premier ministre le 9 septembre 2025, il y a près de 11 mois, Sébastien Lecornu avait promis la transparence quant à son action à la tête du gouvernement. Chaque jour…",
           "pubDate": "2026-08-05T05:00:43.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Santé, sécurité, narcotrafic: moins d'un an après sa nomination à Matignon, Sébastien Lecornu dresse son premier bilan sur les réseaux sociaux",
-          "link": "https://www.bfmtv.com/politique/gouvernement/sante-securite-narcotrafic-moins-d-un-an-apres-sa-nomination-a-matignon-sebastien-lecornu-dresse-son-premier-bilan-sur-les-reseaux-sociaux_AV-202608050068.html",
-          "summary": "Nommé Premier ministre le 9 septembre 2025, il y a près de 11 mois, Sébastien Lecornu avait promis la transparence quant à son action à la tête du gouvernement. Chaque jour…",
+          "title": "Sébastien Lecornu Premier ministre",
+          "link": "https://www.bfmtv.com/politique/gouvernement/sebastien-lecornu-premier-ministre_DN-202509100375.html",
+          "summary": "Sébastien Lecornu a été nommé Premier ministre le 9 septembre 2025, après la chute du gouvernement de François Bayrou, qui n'a pas obtenu la confiance de l'Assemblée nationale. Il…",
           "pubDate": "2026-08-05T05:00:43.000Z",
           "source": "BFMTV"
         }
@@ -170,6 +170,13 @@
       "label": "Justice & faits divers",
       "items": [
         {
+          "title": "Six personnes blessées dans une fusillade à Valence dont une adolescente de 16 ans et un jeune homme de 19 ans en urgence absolue",
+          "link": "https://www.franceinfo.fr/faits-divers/six-personnes-blessees-dans-une-fusillade-a-valence-dont-une-adolescente-de-16-ans-et-un-jeune-homme-de-19-ans-en-urgence-absolue_8135576.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Une personne, cagoulée, a tiré mardi soir d'une voiture sur un groupe dans la rue avec un fusil d'assaut. Les victimes ont entre 15 et 22 ans.",
+          "pubDate": "2026-08-05T07:31:04.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "Une femme portée disparue en Haute-Savoie après avoir été emportée par une rivière à la suite d'un violent orage, des évacuations par hélicoptère",
           "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Une coulée de boue a également eu lieu dans le Cirque du Fer à Cheval, un gigantesque amphithéâtre naturel calcaire très prisé des randonneurs et des touristes.",
@@ -196,13 +203,6 @@
           "summary": "Le feu s'est déclaré au milieu de la nuit de mardi à mercredi. Il a créé un trou dans la charpente. Son origine est encore inconnue.",
           "pubDate": "2026-08-05T06:53:00.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Sarthe: neuf tags néonazis et antisémites découverts à La Flèche",
-          "link": "https://www.bfmtv.com/police-justice/video-sarthe-neuf-tags-neonazis-et-antisemites-decouverts-a-la-fleche_VN-202608050136.html",
-          "summary": "Des croix celtiques et des croix gammées ont été taguées à plusieurs endroits de la commune de La Flèche (Sarthe) dans la nuit du dimanche 2 au lundi 3 août.",
-          "pubDate": "2026-08-05T06:23:48.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -225,7 +225,7 @@
           "source": "BFMTV"
         },
         {
-          "title": "Incendies en Gironde et dans les Landes : l'Etat prendra intégralement en chargé les indemnités d'activité partielle versées par les TPE et PME dans les zones évacuées",
+          "title": "Incendies en Gironde et dans les Landes : l'Etat prendra intégralement en charge les indemnités d'activité partielle versées par les TPE et PME dans les zones évacuées",
           "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde-et-dans-les-landes-l-etat-prendra-integralement-en-charge-les-indemnites-d-activite-partielle-versees-par-les-tpe-et-pme-dans-les-zones-evacuees_8135564.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "\"Nous avons été entendus\", s'est félicité le président du Medef Nouvelle-Aquitaine sur franceinfo.",
           "pubDate": "2026-08-05T07:21:32.000Z",
@@ -580,6 +580,13 @@
       "label": "Cinéma & séries",
       "items": [
         {
+          "title": "« La comédie, c’est plus une colo qu’une cour de récré », pour Arnaud Ducret",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4237380-20260805-comedie-plus-colo-cour-recre-arnaud-ducret?at_medium=display&amp;at_campaign=149",
+          "summary": "Le comédien Arnaud Ducret dirige la brigade des « Gendarmes », comédie estivale et chorale",
+          "pubDate": "2026-08-05T07:32:37.000Z",
+          "source": "20 Minutes"
+        },
+        {
           "title": "« Des Fleurs pour Tokyo » : retrouvailles amères dans le dédale de la capitale japonaise",
           "link": "https://www.lemonde.fr/culture/article/2026/08/05/des-fleurs-pour-tokyo-retrouvailles-ameres-dans-le-dedale-de-la-capitale-japonaise_6739403_3246.html",
           "summary": "Le jeune réalisateur Yuiga Danzuka met en scène, dans une ville aux formes mouvantes, un frère et une sœur confrontés à l’absence de leur père architecte.",
@@ -605,13 +612,6 @@
           "link": "https://www.lemonde.fr/cinema/article/2026/08/05/les-films-a-l-affiche-girl-les-silences-de-riyad-cotton-queen-enamorada_6739181_3476.html",
           "summary": "Chaque mercredi, dans La Matinale, les journalistes cinéma du « Monde » livrent leurs critiques des films à découvrir en salle. Aujourd’hui, notamment, la condition féminine…",
           "pubDate": "2026-08-05T02:30:12.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Le PDG de Paramount, David Ellison, défend le rachat de Warner Bros en assurant préserver « l’indépendance » et en écartant toute « domination » du marché",
-          "link": "https://www.lemonde.fr/international/article/2026/08/05/le-pdg-de-paramount-david-ellison-defend-le-rachat-de-warner-bros-en-assurant-preserver-l-independance-et-en-ecartant-toute-domination-du-marche_6739015_3210.html",
-          "summary": "Cette acquisition majeure suscite de nombreuses critiques et des recours judiciaires. Outre les studios de cinéma et les services de streaming, elle mettra sous le même toit deux…",
-          "pubDate": "2026-08-04T23:35:42.000Z",
           "source": "Le Monde"
         }
       ]
@@ -826,6 +826,13 @@
       "label": "Sport",
       "items": [
         {
+          "title": "PODCAST. Mégaferme à saumons en Gironde, vidéo de désinformation russe et coup du siècle du Racing 92 : ça dit quoi ce 5 août ?",
+          "link": "https://www.franceinfo.fr/replay-radio/ca-dit-quoi/podcast-megaferme-a-saumons-en-gironde-video-de-desinformation-russe-et-coup-du-siecle-du-racing-92-ca-dit-quoi-ce-5-aout_8127665.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Ce mercredi 5 août, l'État a validé le projet d'un immense élevage de saumons en Gironde, les tentatives d'ingérences étrangères dans l'élection présidentielle ont déjà commencé…",
+          "pubDate": "2026-08-05T07:35:04.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "FIFA : Problèmes de visas, primes non payées… La Fédération jordanienne accuse Gianni Infantino de « chantage »",
           "link": "https://www.20minutes.fr/sport/football/4237871-20260805-fifa-problemes-visas-primes-non-payees-federation-jordanienne-accuse-gianni-infantino-chantage?at_medium=display&amp;at_campaign=149",
           "summary": "Le président de la FIFA, Gianni Infantino, aurait confié au président de la fédération jordanienne qu’il l’aiderait à résoudre certains problèmes en échange d’un soutien aux…",
@@ -851,13 +858,6 @@
           "link": "https://www.franceinfo.fr/tour-de-france/etape-du-jour/tour-de-france-femmes-2026-pauline-ferrand-prevot-revancharde-le-mont-brouilly-comme-juge-de-paix-la-5e-etape-en-questions_8127098.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Une grosse journée attend le peloton, mercredi, avec un terrain de jeu vallonné dans le Beaujolais.",
           "pubDate": "2026-08-05T04:45:02.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Promotion refusée, sections féminines fermées... Pourquoi certains clubs de foot féminin désertent le monde professionnel ?",
-          "link": "https://www.franceinfo.fr/sports/foot/promotion-refusee-sections-feminines-fermees-pourquoi-certains-clubs-de-foot-feminin-desertent-le-monde-professionnel_8119721.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le 6 septembre, la Seconde Ligue reprendra ses droits avec 11 équipes au lieu de 12. Pour des raisons principalement économiques, plusieurs clubs ont décidé de ne pas participer à…",
-          "pubDate": "2026-08-05T04:15:02.000Z",
           "source": "franceinfo"
         }
       ]
