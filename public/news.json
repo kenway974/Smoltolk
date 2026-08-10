@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-08-10T13:12:38.061Z",
+  "generatedAt": "2026-08-10T13:20:55.790Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
+          "title": "Un futur concurrent de Disneyland et du Parc Astérix? Une société saoudienne pourrait investir un milliard d'euros pour construire un parc d'attractions Dragon Ball à l'ouest de Paris",
+          "link": "https://www.bfmtv.com/economie/entreprises/culture-loisirs/un-futur-concurrent-de-disneyland-et-du-parc-asterix-une-societe-saoudienne-pourrait-investir-un-milliard-d-euros-pour-construire-un-parc-d-attractions-dragon-ball-a-l-ouest-de-paris_AD-202608100346.html",
+          "summary": "Selon des informations de Politico confirmées par l'AFP, la société d'investissement saoudienne Qiddiya Investment Company mènent des discussions avec les autorités françaises…",
+          "pubDate": "2026-08-10T13:17:49.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "\"Spectaculaire\" et \"épique\": \"The Mad King\", la pièce de théâtre dérivée de \"Game of Thrones\", fait ses débuts sur les terres de Shakespeare",
+          "link": "https://www.bfmtv.com/culture/cinema-series/spectaculaire-et-epique-the-mad-king-la-piece-de-theatre-derivee-de-game-of-thrones-fait-ses-debuts-sur-les-terres-de-shakespeare_AN-202608100345.html",
+          "summary": "La première de la pièce se déroulant dix ans avant le début de \"Game of Thrones\" a eu lieu samedi à Stratford-upon-Avon. Trente-six comédiens évoluent sur les planches pendant…",
+          "pubDate": "2026-08-10T13:17:32.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "En Côte d'Ivoire, le biama fait danser toute la jeunesse",
+          "link": "https://www.france24.com/fr/%C3%A9missions/focus/20260810-c%C3%B4te-ivoire-biama-fait-danser-jeunesse",
+          "summary": "Né il y a à peine cinq ans à Yopougon – la plus pauvre, mais aussi la plus festive des communes d'Abidjan –, le biama fait danser toute la jeunesse ivoirienne. Plus rapide que le…",
+          "pubDate": "2026-08-10T13:14:54.000Z",
+          "source": "France 24"
+        },
+        {
+          "title": "Nice: la tuile pour Laurent Abergel, la recrue des Aiglons victime d'une rupture du ligament croisé antérieur du genou",
+          "link": "https://rmcsport.bfmtv.com/football/clubs/ogc-nice/nice-la-tuile-pour-laurent-abergel-la-recrue-des-aiglons-victime-d-une-rupture-du-ligament-croise-anterieur-du-genou_AN-202608100344.html",
+          "summary": "Arrivé libre cet été en provenance de Lorient, le nouveau milieu de terrain de l'OGC Nice a été victime d'une rupture du ligament croisé antérieur du genou droit samedi face à…",
+          "pubDate": "2026-08-10T13:14:36.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "Présidentielle: \"Le Kremlin souhaite fausser les résultats\" du scrutin, assure Gabriel Attal",
           "link": "https://www.bfmtv.com/politique/video-presidentielle-le-kremlin-souhaite-fausser-les-resultats-du-scrutin-assure-gabriel-attal_VN-202608100342.html",
           "summary": "Gabriel Attal s'exprime après avoir porté plainte pour \"ingérence étrangère\" en \"provenance de réseaux russes\", à la suite de deux opérations le visant. Sa plainte dénonce \"des…",
           "pubDate": "2026-08-10T13:05:32.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "\"Je suis un admirateur du président Trump\": le ministre grec des Migrations fait l'éloge du locataire de la Maison Blanche",
-          "link": "https://www.bfmtv.com/international/europe/grece/je-suis-un-admirateur-du-president-trump-le-ministre-grec-des-migrations-fait-l-eloge-du-locataire-de-la-maison-blanche_AD-202608100339.html",
-          "summary": "Le ministre grec des Migrations, Thanos Plevris, a assuré, dans une interview repartagée ce lundi 10 août par Donald Trump, que le président américain avait permis de changer la…",
-          "pubDate": "2026-08-10T13:02:12.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Football : l’UEFA, l’AFC et la Concacaf désavouent de nouveau Gianni Infantino",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260810-football-l-uefa-l-afc-et-la-concacaf-d%C3%A9savouent-de-nouveau-gianni-infantino",
-          "summary": "La fronde contre Gianni Infantino s’intensifie. Dans une lettre ouverte commune publiée lundi 10 août, l’UEFA, la Confédération asiatique de football (AFC) et la Concacaf…",
-          "pubDate": "2026-08-10T12:59:37.000Z",
-          "source": "France 24"
-        },
-        {
-          "title": "Un \"empoisonnement\" des chatbots: quand ChatGPT, Gemini, Claude ou Mistral relaient la propagande russe en citant des sources pro-Kremlin",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/un-empoisonnement-des-chatbots-quand-chat-gpt-gemini-claude-ou-mistral-relaient-la-propagande-russe-en-citant-des-sources-pro-kremlin_AN-202608100338.html",
-          "summary": "Différentes études pointent du doigt l’utilisation des chatbots d’intelligence artificielle comme caisses de résonance de la propagande russe. Certains d’entre eux citeraient…",
-          "pubDate": "2026-08-10T12:57:54.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Journée des peuples autochtones : au Cameroun, les Bagyeli se battent pour leurs droits",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260810-journ%C3%A9e-des-peuples-autochtones-au-cameroun-les-bagyeli-se-battent-pour-leurs-droits",
-          "summary": "À l’occasion de la Journée internationale des peuples autochtones, le combat de la communauté Bagyeli met en lumière les discriminations et les violations de droits dont sont…",
-          "pubDate": "2026-08-10T12:57:01.000Z",
-          "source": "France 24"
         }
       ]
     },
@@ -46,6 +46,13 @@
       "key": "monde",
       "label": "Monde",
       "items": [
+        {
+          "title": "En Côte d'Ivoire, le biama fait danser toute la jeunesse",
+          "link": "https://www.france24.com/fr/%C3%A9missions/focus/20260810-c%C3%B4te-ivoire-biama-fait-danser-jeunesse",
+          "summary": "Né il y a à peine cinq ans à Yopougon – la plus pauvre, mais aussi la plus festive des communes d'Abidjan –, le biama fait danser toute la jeunesse ivoirienne. Plus rapide que le…",
+          "pubDate": "2026-08-10T13:14:54.000Z",
+          "source": "France 24"
+        },
         {
           "title": "500 000 fidèles attendus pour la messe du pape à Paris",
           "link": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/500-000-fideles-attendus-pour-la-messe-du-pape-a-paris_8141870.html#xtor=RSS-3-%5Bgeneral%5D",
@@ -73,13 +80,6 @@
           "summary": "À l’occasion de la Journée internationale des peuples autochtones, le combat de la communauté Bagyeli met en lumière les discriminations et les violations de droits dont sont…",
           "pubDate": "2026-08-10T12:57:01.000Z",
           "source": "France 24"
-        },
-        {
-          "title": "Après l'afflux de migrants à Ceuta, Edouard Philippe propose des mesures pour limiter l'immigration et les régularisations de sans-papiers dans l'Union européenne",
-          "link": "https://www.franceinfo.fr/societe/immigration/apres-l-afflux-de-migrants-a-ceuta-edouard-philippe-propose-des-mesures-pour-limiter-l-immigration-et-les-regularisations-de-sans-papiers-dans-l-union-europeenne_8141837.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le candidat de centre-droit à l'élection présidentielle de 2027 propose notamment de suspendre les demandes d'asile à Mayotte ou en Guyane, et de soumettre à l'accord des pays…",
-          "pubDate": "2026-08-10T12:51:21.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -211,6 +211,13 @@
       "label": "Éco & argent",
       "items": [
         {
+          "title": "Un futur concurrent de Disneyland et du Parc Astérix? Une société saoudienne pourrait investir un milliard d'euros pour construire un parc d'attractions Dragon Ball à l'ouest de Paris",
+          "link": "https://www.bfmtv.com/economie/entreprises/culture-loisirs/un-futur-concurrent-de-disneyland-et-du-parc-asterix-une-societe-saoudienne-pourrait-investir-un-milliard-d-euros-pour-construire-un-parc-d-attractions-dragon-ball-a-l-ouest-de-paris_AD-202608100346.html",
+          "summary": "Selon des informations de Politico confirmées par l'AFP, la société d'investissement saoudienne Qiddiya Investment Company mènent des discussions avec les autorités françaises…",
+          "pubDate": "2026-08-10T13:17:49.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "L'incident a retardé le vol au-delà de l’heure de fermeture de la piste à 00h30: un avion Porter Airlines n'a pas pu décoller car un enfant refusait de s'asseoir et de s'attacher",
           "link": "https://www.bfmtv.com/economie/entreprises/transports/l-incident-a-retarde-le-vol-au-dela-de-l-heure-de-fermeture-de-la-piste-a-00h30-un-avion-porter-airlines-n-a-pas-pu-decoller-car-un-enfant-refusait-de-s-asseoir-et-de-s-attacher_AV-202608100337.html",
           "summary": "Un vol au Canada a été annulé après qu'un enfant à refusé de s'asseoir et d'attacher sa ceinture. Le service Porter Airlines avait quitté le terminal de l’aéroport international…",
@@ -237,13 +244,6 @@
           "summary": "La compagnie chinoise Sea Legend lance cette semaine une liaison hebdomadaire entre la Chine et le Royaume-Uni via l'Arctique, réduisant de moitié le temps de trajet classique.…",
           "pubDate": "2026-08-10T12:07:52.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "En Champagne, les vendangeurs commencent leur récolte en plein mois d'août",
-          "link": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/en-champagne-les-vendangeurs-commencent-leur-recolte-en-plein-mois-d-aout_8141807.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les vendanges ont débuté dès le 10 août dans une parcelle près de Troyes, soit un mois plus tôt que d'habitude. Face aux fortes chaleurs, les viticulteurs doivent s'adapter à une…",
-          "pubDate": "2026-08-10T11:37:30.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -826,6 +826,20 @@
       "label": "Sport",
       "items": [
         {
+          "title": "Jodar-Arthur Fils : Sur quelle chaîne TV et à quelle heure voir le quart de finale de l’ATP Masters 1000 de Montréal ?",
+          "link": "https://www.20minutes.fr/sport/tennis/4238590-20260810-jodar-arthur-fils-chaine-tv-heure-voir-quart-finale-atp-masters-1000-montreal?at_medium=display&amp;at_campaign=149",
+          "summary": "Dans la nuit de mardi à mercredi, à 00h, le numéro 1 français défie l’Espagnol pour une finale avant l’heure",
+          "pubDate": "2026-08-10T13:19:26.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Brésil : Jacy se blesse dans un improbable escalier après avoir célébré son but… finalement annulé !",
+          "link": "https://www.20minutes.fr/sport/football/4238588-20260810-bresil-jacy-blesse-improbable-escalier-apres-avoir-celebre-but-finalement-annule?at_medium=display&amp;at_campaign=149",
+          "summary": "Le capitaine de Coritiba (D1 brésilienne) a vécu une chute insolite après avoir sauté au-dessus des panneaux publicitaires pour fêter son but, refusé quelques instants plus tard…",
+          "pubDate": "2026-08-10T13:11:32.000Z",
+          "source": "20 Minutes"
+        },
+        {
           "title": "Natation : le roi Léon de retour à Paris",
           "link": "https://www.franceinfo.fr/sports/natation/leon-marchand/natation-le-roi-leon-de-retour-a-paris_8141843.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Va-t-il réveiller la magie des JO ? Léon Marchand est de retour à Paris pour les championnats d'Europe de natation. Tout juste remis d'une blessure, il a dû renoncer à plusieurs…",
@@ -845,20 +859,6 @@
           "summary": "Les Championnats d’Europe de natation à Paris Saint-Denis ont été idéalement lancés ce lundi matin pour la délégation tricolore, à l’image de la qualification acquise par le…",
           "pubDate": "2026-08-10T10:42:22.000Z",
           "source": "20 Minutes"
-        },
-        {
-          "title": "Les chances françaises et les stars à suivre aux championnats d'Europe d'athlétisme",
-          "link": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/les-chances-francaises-et-les-stars-a-suivre-aux-championnats-d-europe-d-athletisme_8141753.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "C'est parti pour les championnats d'Europe d'athlétisme à Birmingham ! Sélection françaises, chances de médailles (non exhaustives) et stars en présence : voici ce qu'il faut…",
-          "pubDate": "2026-08-10T10:35:43.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Entrée en lice parfaite pour Maxime Grousset sur 50 m papillon lors des championnats d'Europe de natation",
-          "link": "https://www.franceinfo.fr/sports/natation/championnats-d-europe-de-natation/entree-en-lice-parfaite-pour-maxime-grousset-sur-50-m-papillon-lors-des-championnats-d-europe-de-natation_8141711.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le champion du monde en titre du 50 m papillon, Maxime Grousset, a écrasé, lundi 10 août, les séries avec un temps canon de 22’’49 secondes !",
-          "pubDate": "2026-08-10T10:03:02.000Z",
-          "source": "franceinfo"
         }
       ]
     }
