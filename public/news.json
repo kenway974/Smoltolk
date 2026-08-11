@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-08-10T13:20:55.790Z",
+  "generatedAt": "2026-08-11T10:31:51.822Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
-          "title": "Un futur concurrent de Disneyland et du Parc Astérix? Une société saoudienne pourrait investir un milliard d'euros pour construire un parc d'attractions Dragon Ball à l'ouest de Paris",
-          "link": "https://www.bfmtv.com/economie/entreprises/culture-loisirs/un-futur-concurrent-de-disneyland-et-du-parc-asterix-une-societe-saoudienne-pourrait-investir-un-milliard-d-euros-pour-construire-un-parc-d-attractions-dragon-ball-a-l-ouest-de-paris_AD-202608100346.html",
-          "summary": "Selon des informations de Politico confirmées par l'AFP, la société d'investissement saoudienne Qiddiya Investment Company mènent des discussions avec les autorités françaises…",
-          "pubDate": "2026-08-10T13:17:49.000Z",
+          "title": "Les résumés par IA sur Google pourraient leur faire perdre \"entre 33% et 38%\" de trafic sur leurs sites: les organes de presse français passent à l'offensive et saisissent l'Autorité de la concurrence",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/les-resumes-par-ia-sur-google-pourraient-leur-faire-perdre-entre-33-et-38-de-trafic-sur-leurs-sites-les-organes-de-presse-francais-passent-a-l-offensive-et-saisissent-l-autorite-de-la-concurrence_AD-202608110272.html",
+          "summary": "Redoutant une baisse du trafic généré par les résultats de Google, le collectif regroupant près de 300 quotidiens français demande à l'Autorité de la concurrence d'agir face aux…",
+          "pubDate": "2026-08-11T10:18:26.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "\"Spectaculaire\" et \"épique\": \"The Mad King\", la pièce de théâtre dérivée de \"Game of Thrones\", fait ses débuts sur les terres de Shakespeare",
-          "link": "https://www.bfmtv.com/culture/cinema-series/spectaculaire-et-epique-the-mad-king-la-piece-de-theatre-derivee-de-game-of-thrones-fait-ses-debuts-sur-les-terres-de-shakespeare_AN-202608100345.html",
-          "summary": "La première de la pièce se déroulant dix ans avant le début de \"Game of Thrones\" a eu lieu samedi à Stratford-upon-Avon. Trente-six comédiens évoluent sur les planches pendant…",
-          "pubDate": "2026-08-10T13:17:32.000Z",
+          "title": "Le Rhin pourrait bientôt être coupé en deux par la sécheresse, empêchant les bateaux de circuler: des régions allemandes autorisent les camions à rouler le dimanche",
+          "link": "https://www.bfmtv.com/economie/international/le-rhin-pourrait-bientot-etre-coupe-en-deux-par-la-secheresse-empechant-les-bateaux-de-circuler-des-regions-allemandes-autorisent-les-camions-a-rouler-le-dimanche_AD-202608110271.html",
+          "summary": "Face aux niveaux très bas du Rhin, qui perturbent le trafic fluvial sur cette artère cruciale pour l'industrie allemande, plusieurs Länder ont suspendu l'interdiction faite aux…",
+          "pubDate": "2026-08-11T10:15:17.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "En Côte d'Ivoire, le biama fait danser toute la jeunesse",
-          "link": "https://www.france24.com/fr/%C3%A9missions/focus/20260810-c%C3%B4te-ivoire-biama-fait-danser-jeunesse",
-          "summary": "Né il y a à peine cinq ans à Yopougon – la plus pauvre, mais aussi la plus festive des communes d'Abidjan –, le biama fait danser toute la jeunesse ivoirienne. Plus rapide que le…",
-          "pubDate": "2026-08-10T13:14:54.000Z",
-          "source": "France 24"
+          "title": "\"On essaie de proposer des supports différents\" : quelques mois de l'élection présidentielle, Renaissance et LFI misent sur les cahiers de vacances pour faire campagne durant l'été",
+          "link": "https://www.franceinfo.fr/elections/presidentielle/a-quelques-mois-de-l-election-presidentielle-renaissance-et-lfi-misent-sur-le-cahier-de-vacances-pour-faire-passer-des-messages_8142749.html#xtor=RSS-3-[lestitres]",
+          "summary": "Classique estival pour les élèves, le marché du cahier de vacances à destination des adultes s'est fortement développé ces derrières années. Le PC et le PS ont déjà tenté…",
+          "pubDate": "2026-08-11T10:10:43.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Nice: la tuile pour Laurent Abergel, la recrue des Aiglons victime d'une rupture du ligament croisé antérieur du genou",
-          "link": "https://rmcsport.bfmtv.com/football/clubs/ogc-nice/nice-la-tuile-pour-laurent-abergel-la-recrue-des-aiglons-victime-d-une-rupture-du-ligament-croise-anterieur-du-genou_AN-202608100344.html",
-          "summary": "Arrivé libre cet été en provenance de Lorient, le nouveau milieu de terrain de l'OGC Nice a été victime d'une rupture du ligament croisé antérieur du genou droit samedi face à…",
-          "pubDate": "2026-08-10T13:14:36.000Z",
+          "title": "Anthropic va marquer les contenus générés par ses modèles Claude pour se conformer à la loi européenne sur l'intelligence artificielle",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/anthropic-va-marquer-les-contenus-generes-par-ses-modeles-claude-pour-se-conformer-a-la-loi-europeenne-sur-l-intelligence-artificielle_AV-202608110264.html",
+          "summary": "Quelques jours après l'entrée en vigueur de nouvelles mesures de l'IA obligeant les créateurs de ces outils à se montrer plus transparents, Anthropic a annoncé que les contenus…",
+          "pubDate": "2026-08-11T10:07:45.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Présidentielle: \"Le Kremlin souhaite fausser les résultats\" du scrutin, assure Gabriel Attal",
-          "link": "https://www.bfmtv.com/politique/video-presidentielle-le-kremlin-souhaite-fausser-les-resultats-du-scrutin-assure-gabriel-attal_VN-202608100342.html",
-          "summary": "Gabriel Attal s'exprime après avoir porté plainte pour \"ingérence étrangère\" en \"provenance de réseaux russes\", à la suite de deux opérations le visant. Sa plainte dénonce \"des…",
-          "pubDate": "2026-08-10T13:05:32.000Z",
+          "title": "\"Une immense étendue d'amphores en dessous de moi\": une épave romaine découverte à l'ouest de la Sicile par deux plongeurs",
+          "link": "https://www.bfmtv.com/international/europe/italie/video-une-immense-etendue-d-amphores-en-dessous-de-moi-une-epave-romaine-decouverte-a-l-ouest-de-la-sicile-par-deux-plongeurs_VN-202608110268.html",
+          "summary": "Giacomo De Mola et Igor Bisulli, deux plongeurs italiens, sont tombés nez à nez avec une épave romaine à plus de 45 mètres de profondeur. Le bateau date d'au moins il y a 2.100…",
+          "pubDate": "2026-08-11T10:06:53.000Z",
           "source": "BFMTV"
         }
       ]
@@ -47,38 +47,38 @@
       "label": "Monde",
       "items": [
         {
-          "title": "En Côte d'Ivoire, le biama fait danser toute la jeunesse",
-          "link": "https://www.france24.com/fr/%C3%A9missions/focus/20260810-c%C3%B4te-ivoire-biama-fait-danser-jeunesse",
-          "summary": "Né il y a à peine cinq ans à Yopougon – la plus pauvre, mais aussi la plus festive des communes d'Abidjan –, le biama fait danser toute la jeunesse ivoirienne. Plus rapide que le…",
-          "pubDate": "2026-08-10T13:14:54.000Z",
-          "source": "France 24"
-        },
-        {
-          "title": "500 000 fidèles attendus pour la messe du pape à Paris",
-          "link": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/500-000-fideles-attendus-pour-la-messe-du-pape-a-paris_8141870.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le pape Léon XIV se rendra en France en septembre. À Paris, les réservations pour assister à la messe sur les Champs-Élysées sont ouvertes depuis le 10 août. 500 000 personnes…",
-          "pubDate": "2026-08-10T13:06:31.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "\"Je suis un admirateur du président Trump\": le ministre grec des Migrations fait l'éloge du locataire de la Maison Blanche",
-          "link": "https://www.bfmtv.com/international/europe/grece/je-suis-un-admirateur-du-president-trump-le-ministre-grec-des-migrations-fait-l-eloge-du-locataire-de-la-maison-blanche_AD-202608100339.html",
-          "summary": "Le ministre grec des Migrations, Thanos Plevris, a assuré, dans une interview repartagée ce lundi 10 août par Donald Trump, que le président américain avait permis de changer la…",
-          "pubDate": "2026-08-10T13:02:12.000Z",
+          "title": "\"Une immense étendue d'amphores en dessous de moi\": une épave romaine découverte à l'ouest de la Sicile par deux plongeurs",
+          "link": "https://www.bfmtv.com/international/europe/italie/video-une-immense-etendue-d-amphores-en-dessous-de-moi-une-epave-romaine-decouverte-a-l-ouest-de-la-sicile-par-deux-plongeurs_VN-202608110268.html",
+          "summary": "Giacomo De Mola et Igor Bisulli, deux plongeurs italiens, sont tombés nez à nez avec une épave romaine à plus de 45 mètres de profondeur. Le bateau date d'au moins il y a 2.100…",
+          "pubDate": "2026-08-11T10:06:53.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Football : l’UEFA, l’AFC et la Concacaf désavouent de nouveau Gianni Infantino",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260810-football-l-uefa-l-afc-et-la-concacaf-d%C3%A9savouent-de-nouveau-gianni-infantino",
-          "summary": "La fronde contre Gianni Infantino s’intensifie. Dans une lettre ouverte commune publiée lundi 10 août, l’UEFA, la Confédération asiatique de football (AFC) et la Concacaf…",
-          "pubDate": "2026-08-10T12:59:37.000Z",
+          "title": "Ebola : l’épidémie a fait plus de 2 000 morts en RDC",
+          "link": "https://www.lemonde.fr/international/article/2026/08/11/ebola-l-epidemie-a-fait-plus-de-2-000-morts-en-rdc_6743790_3210.html",
+          "summary": "Ce bilan rapproche l’épidémie actuelle de celle qui avait sévi entre 2018 et 2020, la plus meurtrière à ce jour en RDC avec près de 2 300 morts.",
+          "pubDate": "2026-08-11T10:06:32.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "En Iran, le nouveau Guide suprême prépare l’appareil militaire et sécuritaire à une confrontation prolongée avec les Etats-Unis et Israël",
+          "link": "https://www.lemonde.fr/international/article/2026/08/11/en-iran-le-nouveau-guide-supreme-prepare-l-appareil-militaire-et-securitaire-a-une-confrontation-prolongee-avec-les-etats-unis-et-israel_6743785_3210.html",
+          "summary": "Invisible depuis son accession au pouvoir, début mars, Mojtaba Khamenei a procédé, ces derniers jours, à une série de nominations renforçant son autorité au sommet de l’appareil…",
+          "pubDate": "2026-08-11T09:51:18.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Sécheresse en France : des restrictions d'eau sur 70% du territoire",
+          "link": "https://www.france24.com/fr/vid%C3%A9o/20260811-s%C3%A9cheresse-en-france-des-restrictions-d-eau-sur-70-du-territoire",
+          "summary": "En France, la canicule accentue la sécheresse dans l’hexagone : deux tiers des nappes phréatiques sont en dessous des normales. Conséquence : 70% du territoire fait l’objet de…",
+          "pubDate": "2026-08-11T09:49:03.000Z",
           "source": "France 24"
         },
         {
-          "title": "Journée des peuples autochtones : au Cameroun, les Bagyeli se battent pour leurs droits",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260810-journ%C3%A9e-des-peuples-autochtones-au-cameroun-les-bagyeli-se-battent-pour-leurs-droits",
-          "summary": "À l’occasion de la Journée internationale des peuples autochtones, le combat de la communauté Bagyeli met en lumière les discriminations et les violations de droits dont sont…",
-          "pubDate": "2026-08-10T12:57:01.000Z",
+          "title": "Tourisme, croisières, lunettes : le lumineux business de l'éclipse",
+          "link": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20260811-tourisme-croisi%C3%A8res-lunettes-le-lumineux-business-de-l-%C3%A9clipse",
+          "summary": "L’éclipse solaire du 12 août provoque un véritable boom touristique en Espagne et en Islande. Réservations en hausse, chambres hors de prix, croisières spéciales et millions de…",
+          "pubDate": "2026-08-11T09:46:35.000Z",
           "source": "France 24"
         }
       ]
@@ -88,39 +88,39 @@
       "label": "Politique",
       "items": [
         {
-          "title": "Présidentielle 2027 : Raphaël Glucksmann soutenu par Daniel Cohn-Bendit, qui vante son « positionnement nouveau »",
-          "link": "https://www.lemonde.fr/politique/article/2026/08/10/presidentielle-2027-raphael-glucksmann-soutenu-par-daniel-cohn-bendit-qui-vante-son-positionnement-nouveau_6743338_823448.html",
-          "summary": "Pour l’ancien député européen, le leader de Place publique, qui doit encore confirmer sa participation à la primaire de l’espace social-démocrate, est le seul qui « formule ou…",
-          "pubDate": "2026-08-10T13:08:17.000Z",
+          "title": "\"On essaie de proposer des supports différents\" : quelques mois de l'élection présidentielle, Renaissance et LFI misent sur les cahiers de vacances pour faire campagne durant l'été",
+          "link": "https://www.franceinfo.fr/elections/presidentielle/a-quelques-mois-de-l-election-presidentielle-renaissance-et-lfi-misent-sur-le-cahier-de-vacances-pour-faire-passer-des-messages_8142749.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Classique estival pour les élèves, le marché du cahier de vacances à destination des adultes s'est fortement développé ces derrières années. Le PC et le PS ont déjà tenté…",
+          "pubDate": "2026-08-11T10:10:43.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Dérèglement climatique, incendies, présidentielle... Le \"8h30 franceinfo\" d'Alma Dufour",
+          "link": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/dereglement-climatique-incendies-presidentielle-le-8h30-franceinfo-d-alma-dufour_8070176.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La députée LFI de Seine-Maritime était l'invitée du \"8h30 franceinfo\", mardi 11 août 2026.",
+          "pubDate": "2026-08-11T08:03:49.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "« Lorsqu’on légifère sur la fin de vie, on a le devoir de reconnaître les aidants »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/lorsqu-on-legifere-sur-la-fin-de-vie-on-a-le-devoir-de-reconnaitre-les-aidants_6743771_3232.html",
+          "summary": "La loi sur l’aide à mourir ne garantit aucun soutien psychologique à « ceux qui restent une fois que tout est fini », alertent la médecin Hélène Rossinot et le chercheur Mickaël…",
+          "pubDate": "2026-08-11T08:00:09.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Présidentielle: \"Le Kremlin souhaite fausser les résultats\" du scrutin, assure Gabriel Attal",
-          "link": "https://www.bfmtv.com/politique/video-presidentielle-le-kremlin-souhaite-fausser-les-resultats-du-scrutin-assure-gabriel-attal_VN-202608100342.html",
-          "summary": "Gabriel Attal s'exprime après avoir porté plainte pour \"ingérence étrangère\" en \"provenance de réseaux russes\", à la suite de deux opérations le visant. Sa plainte dénonce \"des…",
-          "pubDate": "2026-08-10T13:05:32.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Après l'afflux de migrants à Ceuta, Edouard Philippe propose des mesures pour limiter l'immigration et les régularisations de sans-papiers dans l'Union européenne",
-          "link": "https://www.franceinfo.fr/societe/immigration/apres-l-afflux-de-migrants-a-ceuta-edouard-philippe-propose-des-mesures-pour-limiter-l-immigration-et-les-regularisations-de-sans-papiers-dans-l-union-europeenne_8141837.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le candidat de centre-droit à l'élection présidentielle de 2027 propose notamment de suspendre les demandes d'asile à Mayotte ou en Guyane, et de soumettre à l'accord des pays…",
-          "pubDate": "2026-08-10T12:51:21.000Z",
+          "title": "Élus Insoumis ciblés par de fausses accusations, les municipales polluées par une ingérence venue d’Israël",
+          "link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/elus-insoumis-cibles-par-de-fausses-accusations-les-municipales-polluees-par-une-ingerence-venue-d-israel_8070452.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le Vrai ou Faux s'intéresse cette semaine aux ingérences numériques étrangères. Chaque jour, on se penche sur ces opérations de désinformation en vue de l'élection présidentielle.…",
+          "pubDate": "2026-08-11T07:23:30.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"C'est n'importe quoi\" : la proposition de primaire \"du PS aux gaullistes\" de François Bayrou décriée à l'unanimité",
-          "link": "https://www.franceinfo.fr/elections/presidentielle/c-est-n-importe-quoi-la-proposition-de-primaire-du-ps-aux-gaullistes-de-francois-bayrou-decriee-a-l-unanimite_8141822.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'ex-Premier ministre centriste François Bayrou plaide pour une grande primaire de \"tous ceux qui rejettent les extrêmes\", afin de désigner un candidat unique à la présidentielle…",
-          "pubDate": "2026-08-10T12:36:03.000Z",
+          "title": "Chômage : derrière la passe d'armes entre Sébastien Lecornu et Édouard Philippe, des chiffres qui inquiètent",
+          "link": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/chomage-derriere-la-passe-d-armes-entre-sebastien-lecornu-et-edouard-philippe-des-chiffres-qui-inquietent_8116112.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Alors que le taux de chômage atteint 8,3%, le Premier ministre et Édouard Philippe s'opposent sur les causes de cette hausse. Les chiffres révèlent, elles, une situation…",
+          "pubDate": "2026-08-11T06:47:57.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Présidentielle 2027: Daniel Cohn-Bendit appelle à \"soutenir\" Raphaël Glucksmann et son \"positionnement nouveau\"",
-          "link": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-daniel-cohn-bendit-appelle-a-soutenir-raphael-glucksmann-et-son-positionnement-nouveau_AD-202608100328.html",
-          "summary": "Le député européen Raphaël Glucksmann a reçu le soutien, ce lundi 10 août, de Daniel Cohn-Bendit en vue de l'élection présidentielle de 2027. Le leader de Place Publique n'est pas…",
-          "pubDate": "2026-08-10T12:08:48.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -129,38 +129,38 @@
       "label": "Société",
       "items": [
         {
-          "title": "Après l'afflux de migrants à Ceuta, Edouard Philippe propose des mesures pour limiter l'immigration et les régularisations de sans-papiers dans l'Union européenne",
-          "link": "https://www.franceinfo.fr/societe/immigration/apres-l-afflux-de-migrants-a-ceuta-edouard-philippe-propose-des-mesures-pour-limiter-l-immigration-et-les-regularisations-de-sans-papiers-dans-l-union-europeenne_8141837.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le candidat de centre-droit à l'élection présidentielle de 2027 propose notamment de suspendre les demandes d'asile à Mayotte ou en Guyane, et de soumettre à l'accord des pays…",
-          "pubDate": "2026-08-10T12:51:21.000Z",
+          "title": "\"Il y a des points de deal directement en centre-ville\" : la consommation de crack explose dans les rues de Marseille",
+          "link": "https://www.franceinfo.fr/sante/drogue-addictions/beaucoup-ont-le-sida-a-marseille-la-consommation-de-crack-explose-dans-les-rues-du-centre-ville_8142299.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Depuis l'abandon d'un projet de Halte soins addictions, il y a deux ans, les petites associations de la cité phocéenne tentent malgré tout de limiter les risques de maladies…",
+          "pubDate": "2026-08-11T09:35:58.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Les narcotrafiquants Mehdi Laribi et Djamel Djeha ont été placés en détention provisoire en Algérie, annonce le ministre de la Justice Gérald Darmanin",
-          "link": "https://www.franceinfo.fr/societe/drogue/les-narcotrafiquants-mehdi-laribi-et-djamel-djeha-ont-ete-places-en-detention-provisoire-en-algerie-annonce-le-ministre-de-la-justice-gerald-darmanin_8141786.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les deux hommes sont considérés comme des cibles prioritaires de la justice française, pour leur responsabilité dans le trafic de drogue dans l'Hexagone. Ils étaient auparavant…",
-          "pubDate": "2026-08-10T11:24:56.000Z",
+          "title": "Les gendarmes démantèlent un vaste réseau de livraisons de stupéfiants par drones à la prison de Villefranche-sur-Saône",
+          "link": "https://www.franceinfo.fr/societe/prisons/les-gendarmes-demantelent-un-vaste-reseau-de-livraisons-de-stupefiants-par-drones-a-la-prison-de-villefranche-sur-saone_8143001.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Cinq personnes, dont un mineur, ont été interpellées. Les gendarmes ont identifié deux zones de décollage, proches de la prison.",
+          "pubDate": "2026-08-11T09:29:26.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "APPEL A TEMOIGNAGES. Célibataire, vous avez arrêté de chercher l'amour ? Racontez-nous",
-          "link": "https://www.franceinfo.fr/societe/appel-a-temoignages-celibataire-vous-avez-arrete-de-chercher-l-amour-racontez-nous_8141615.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "La France compte de plus en plus de célibataires. Loin des clichés, ce statut n'est pas toujours subi : près d'une personne concernée sur deux assure avoir choisi son célibat,…",
-          "pubDate": "2026-08-10T10:40:42.000Z",
+          "title": "Narcotrafic : deux cadres de la DZ Mafia incarcérés en Algérie",
+          "link": "https://www.franceinfo.fr/societe/drogue/narcotrafic-deux-cadres-de-la-dz-mafia-incarceres-en-algerie_8142866.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Mehdi Laribi, chef présumé de la DZ Mafia, a été écroué en Algérie avec un autre narcotrafiquant marseillais, Djamel Djeha. Cette double arrestation marque une reprise majeure de…",
+          "pubDate": "2026-08-11T07:46:04.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "REPORTAGE. \"Le trafic de drogue est alimenté par ces bateaux\" : au Portugal, les forces de l'ordre traquent les \"narcolanchas\"",
-          "link": "https://www.franceinfo.fr/societe/drogue/reportage-le-trafic-de-drogue-est-alimente-par-ces-bateaux-au-portugal-les-forces-de-l-ordre-traquent-les-narcolanchas_8141759.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les autorités s'inquiètent de la multiplication des \"narcolanchas\", ces embarcations utilisées par les trafiquants de drogue. Franceinfo a embarqué avec les garde-côtes de la…",
-          "pubDate": "2026-08-10T10:38:32.000Z",
-          "source": "franceinfo"
+          "title": "\"Franchement, je trouve ça normal\": l'Île d'Yeu interdit la cigarette sur la quasi-totalité de la commune",
+          "link": "https://www.bfmtv.com/societe/video-franchement-je-trouve-ca-normal-l-ile-d-yeu-interdit-la-cigarette-sur-la-quasi-totalite-de-la-commune_VN-202608110093.html",
+          "summary": "L'île d'Yeu en Vendée interdit la cigarette et les barbecues pour prévenir les incendies estivaux. Jusqu'au 31 août, la quasi-totalité de l'île est concernée. Une décision parmi…",
+          "pubDate": "2026-08-11T06:14:17.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "Pape Léon XIV",
-          "link": "https://www.bfmtv.com/societe/religions/pape-leon-xiv_DN-202505080616.html",
-          "summary": "Robert Francis Prevost a été élu pape lors du conclave, le 8 mai 2025 et a pris le nom de Léon XIV. Il devient le premier pape Américain et succède au pape François, mort le 21…",
-          "pubDate": "2026-08-10T09:35:00.000Z",
+          "title": "Nord: élu \"village préféré des Français\" en 2018, Cassel a instauré un nombre maximum de Airbnb dans la commune",
+          "link": "https://www.bfmtv.com/societe/video-nord-elu-village-prefere-des-francais-en-2018-cassel-a-instaure-un-nombre-maximum-de-airbnb-dans-la-commune_VN-202608110050.html",
+          "summary": "Après Lille, Dunkerque, ou encore Bergues, c'est autour de Cassel, \"village préféré des Français\" en 2018, de limiter le nombre de logements types Airbnb sur son territoire. Une…",
+          "pubDate": "2026-08-11T05:11:54.000Z",
           "source": "BFMTV"
         }
       ]
@@ -170,38 +170,38 @@
       "label": "Justice & faits divers",
       "items": [
         {
-          "title": "Dans l'Eure, des vols de câbles en cuivre privent des habitants d'Internet depuis plusieurs semaines",
-          "link": "https://www.franceinfo.fr/faits-divers/dans-l-eure-des-vols-de-cables-en-cuivre-privent-des-habitants-d-internet-depuis-plusieurs-semaines_8141864.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Plusieurs centaines de mètres de câbles ont été volés au Vieil-Évreux (Eure) depuis la fin juin. Ces vols privent 35 foyers d’Internet et de téléphone. Une entreprise de transport…",
-          "pubDate": "2026-08-10T12:49:56.000Z",
+          "title": "Deux enquêtes ouvertes après la mort d'un jeune à Toulouse dans lors d'une course-poursuite avec la police",
+          "link": "https://www.franceinfo.fr/faits-divers/deux-enquetes-ouvertes-apres-la-mort-d-un-jeune-a-toulouse-dans-lors-d-une-course-poursuite-avec-la-police_8143019.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le jeune homme âgé de 17 ans avait refusé se soumettre à contrôle routier. Le parquet de Toulouse a ouvert une enquête sur le refus d'obtempérer du jeune homme et une autre pour…",
+          "pubDate": "2026-08-11T09:54:38.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Montpellier : un adolescent de 16 ans poignardé lors d'une rixe",
-          "link": "https://www.franceinfo.fr/faits-divers/montpellier-un-adolescent-de-16-ans-poignarde-lors-d-une-rixe_8141840.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "À Montpellier, un adolescent de 16 ans est mort après avoir été poignardé lors d'une rixe entre jeunes, dans la nuit du 9 au 10 août. Un mineur de 17 ans s'est rendu à la police.…",
-          "pubDate": "2026-08-10T12:24:22.000Z",
+          "title": "Enfant brûlé, risque d'explosion... Le danger des balles anti-stress",
+          "link": "https://www.franceinfo.fr/faits-divers/enfant-brule-risque-d-explosion-le-danger-des-balles-anti-stress_8143034.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les enfants les collectionnent et les malaxent sans arrêt. Ces petites balles anti-stress sont le jouet du moment, mais dans le Pas-de-Calais, l'une d'elles a éclaté au visage…",
+          "pubDate": "2026-08-11T09:43:44.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Les deux narcotrafiquants interpellés en Algérie ont été placés en détention provisoire",
-          "link": "https://www.bfmtv.com/police-justice/les-deux-narcotrafiquants-interpelles-en-algerie-ont-ete-places-en-detention-provisoire_AN-202608100323.html",
-          "summary": "Le ministre de la Justice a annoncé ce lundi 10 août sur son réseau X le placement en détention provisoire de ces deux narcotrafiquants. L'un d'eux est, selon nos informations, un…",
-          "pubDate": "2026-08-10T12:00:21.000Z",
-          "source": "BFMTV"
+          "title": "Les gendarmes démantèlent un vaste réseau de livraisons de stupéfiants par drones à la prison de Villefranche-sur-Saône",
+          "link": "https://www.franceinfo.fr/societe/prisons/les-gendarmes-demantelent-un-vaste-reseau-de-livraisons-de-stupefiants-par-drones-a-la-prison-de-villefranche-sur-saone_8143001.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Cinq personnes, dont un mineur, ont été interpellées. Les gendarmes ont identifié deux zones de décollage, proches de la prison.",
+          "pubDate": "2026-08-11T09:29:26.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Il est soupçonné d'avoir été en contact avec des Talibans: un ressortissant afghan mis en examen pour apologie et financement du terrorisme",
-          "link": "https://www.bfmtv.com/police-justice/terrorisme/il-est-soupconne-d-avoir-ete-en-contact-avec-des-talibans-un-ressortissant-afghan-mis-en-examen-pour-apologie-et-financement-du-terrorisme_AN-202608100312.html",
-          "summary": "Un ressortissant afghan, soupçonné d'avoir été en contact avec des Talibans en Afghanistan malgré son statut de réfugié, a été mis en examen pour \"association de malfaiteurs…",
-          "pubDate": "2026-08-10T11:33:52.000Z",
-          "source": "BFMTV"
+          "title": "Incendies à Fontainebleau : les professionnels du tourisme peinent à retrouver leurs clients",
+          "link": "https://www.franceinfo.fr/faits-divers/incendie/incendies-a-fontainebleau-les-professionnels-du-tourisme-peinent-a-retrouver-leurs-clients_8142950.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Plus de deux semaines après les incendies qui ont ravagé une partie de la forêt de Fontainebleau, les professionnels du tourisme peinent à retrouver leur clientèle, notamment les…",
+          "pubDate": "2026-08-11T09:04:25.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "REPORTAGE. \"Le trafic de drogue est alimenté par ces bateaux\" : au Portugal, les forces de l'ordre traquent les \"narcolanchas\"",
-          "link": "https://www.franceinfo.fr/societe/drogue/reportage-le-trafic-de-drogue-est-alimente-par-ces-bateaux-au-portugal-les-forces-de-l-ordre-traquent-les-narcolanchas_8141759.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les autorités s'inquiètent de la multiplication des \"narcolanchas\", ces embarcations utilisées par les trafiquants de drogue. Franceinfo a embarqué avec les garde-côtes de la…",
-          "pubDate": "2026-08-10T10:38:32.000Z",
+          "title": "Deux policiers municipaux ont été blessés à l'arme blanche à Toulouse",
+          "link": "https://www.franceinfo.fr/faits-divers/deux-policiers-municipaux-ont-ete-blesses-a-l-arme-blanche-a-toulouse_8142941.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'agression a eu lieu lundi vers 18 heures, selon France 3 Occitanie. Les deux agents ont légèrement été blessés aux bras. Un homme a été interpellé.",
+          "pubDate": "2026-08-11T08:55:31.000Z",
           "source": "franceinfo"
         }
       ]
@@ -211,39 +211,39 @@
       "label": "Éco & argent",
       "items": [
         {
-          "title": "Un futur concurrent de Disneyland et du Parc Astérix? Une société saoudienne pourrait investir un milliard d'euros pour construire un parc d'attractions Dragon Ball à l'ouest de Paris",
-          "link": "https://www.bfmtv.com/economie/entreprises/culture-loisirs/un-futur-concurrent-de-disneyland-et-du-parc-asterix-une-societe-saoudienne-pourrait-investir-un-milliard-d-euros-pour-construire-un-parc-d-attractions-dragon-ball-a-l-ouest-de-paris_AD-202608100346.html",
-          "summary": "Selon des informations de Politico confirmées par l'AFP, la société d'investissement saoudienne Qiddiya Investment Company mènent des discussions avec les autorités françaises…",
-          "pubDate": "2026-08-10T13:17:49.000Z",
+          "title": "Le Rhin pourrait bientôt être coupé en deux par la sécheresse, empêchant les bateaux de circuler: des régions allemandes autorisent les camions à rouler le dimanche",
+          "link": "https://www.bfmtv.com/economie/international/le-rhin-pourrait-bientot-etre-coupe-en-deux-par-la-secheresse-empechant-les-bateaux-de-circuler-des-regions-allemandes-autorisent-les-camions-a-rouler-le-dimanche_AD-202608110271.html",
+          "summary": "Face aux niveaux très bas du Rhin, qui perturbent le trafic fluvial sur cette artère cruciale pour l'industrie allemande, plusieurs Länder ont suspendu l'interdiction faite aux…",
+          "pubDate": "2026-08-11T10:15:17.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "L'incident a retardé le vol au-delà de l’heure de fermeture de la piste à 00h30: un avion Porter Airlines n'a pas pu décoller car un enfant refusait de s'asseoir et de s'attacher",
-          "link": "https://www.bfmtv.com/economie/entreprises/transports/l-incident-a-retarde-le-vol-au-dela-de-l-heure-de-fermeture-de-la-piste-a-00h30-un-avion-porter-airlines-n-a-pas-pu-decoller-car-un-enfant-refusait-de-s-asseoir-et-de-s-attacher_AV-202608100337.html",
-          "summary": "Un vol au Canada a été annulé après qu'un enfant à refusé de s'asseoir et d'attacher sa ceinture. Le service Porter Airlines avait quitté le terminal de l’aéroport international…",
-          "pubDate": "2026-08-10T12:49:12.000Z",
+          "title": "Ebola : l’épidémie a fait plus de 2 000 morts en RDC",
+          "link": "https://www.lemonde.fr/international/article/2026/08/11/ebola-l-epidemie-a-fait-plus-de-2-000-morts-en-rdc_6743790_3210.html",
+          "summary": "Ce bilan rapproche l’épidémie actuelle de celle qui avait sévi entre 2018 et 2020, la plus meurtrière à ce jour en RDC avec près de 2 300 morts.",
+          "pubDate": "2026-08-11T10:06:32.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Vous avez la phobie administrative ? Entrepreneurs, chefs d'entreprise cet outil est fait pour vous",
+          "link": "https://www.bfmtv.com/economie/professionnels/vous-avez-la-phobie-administrative-entrepreneurs-chefs-d-entreprise-cet-outil-est-fait-pour-vous_AB-202608110001.html",
+          "summary": "Si lorsque la fin du mois arrive, vous traînez des pieds pour faire votre comptabilité et vos démarches administratives, vous n’êtes pas seul. Pour rendre ce moment plus agréable,…",
+          "pubDate": "2026-08-11T10:02:00.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "Démarchage téléphonique : malgré l'interdiction, les appels vont-ils vraiment disparaître ?",
-          "link": "https://www.franceinfo.fr/economie/demarchage-telephonique-malgre-l-interdiction-les-appels-vont-ils-vraiment-disparaitre_8141858.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "À partir du 11 août, le démarchage téléphonique sera interdit, sauf dans certains cas. Une mesure très attendue par les consommateurs, régulièrement confrontés à des appels…",
-          "pubDate": "2026-08-10T12:40:15.000Z",
+          "title": "Enfant brûlé, risque d'explosion... Le danger des balles anti-stress",
+          "link": "https://www.franceinfo.fr/faits-divers/enfant-brule-risque-d-explosion-le-danger-des-balles-anti-stress_8143034.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les enfants les collectionnent et les malaxent sans arrêt. Ces petites balles anti-stress sont le jouet du moment, mais dans le Pas-de-Calais, l'une d'elles a éclaté au visage…",
+          "pubDate": "2026-08-11T09:43:44.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"Pas de déni face à la hausse du chômage, mais pas de caricature non plus\": Sébastien Lecornu défend le bilan d'Emmanuel Macron, qui promettait d'atteindre le plein-emploi d'ici 2027",
-          "link": "https://www.bfmtv.com/economie/emploi/pas-de-deni-face-a-la-hausse-du-chomage-mais-pas-de-caricature-non-plus-sebastien-lecornu-defend-le-bilan-d-emmanuel-macron-qui-promettait-d-atteindre-le-plein-emploi-d-ici-2027_AD-202608100332.html",
-          "summary": "Le Premier ministre Sébastien Lecornu a défendu, ce lundi 10 août, le bilan des politiques contre le chômage menées depuis 10 ans, réfutant tout \"déni\" face à la hausse du chômage…",
-          "pubDate": "2026-08-10T12:32:16.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Le nombre de transits dans l'Arctique pourrait tripler: un armateur chinois lance la toute première ligne régulière de porte-conteneurs polaires (et c'est un désastre environnemental)",
-          "link": "https://www.bfmtv.com/economie/entreprises/transports/le-nombre-de-transits-dans-l-arctique-pourrait-tripler-un-armateur-chinois-lance-la-toute-premiere-ligne-reguliere-de-porte-conteneurs-polaires-et-c-est-un-desastre-environnemental_AV-202608100327.html",
-          "summary": "La compagnie chinoise Sea Legend lance cette semaine une liaison hebdomadaire entre la Chine et le Royaume-Uni via l'Arctique, réduisant de moitié le temps de trajet classique.…",
-          "pubDate": "2026-08-10T12:07:52.000Z",
-          "source": "BFMTV"
+          "title": "Au-delà des catastrophes, le changement climatique fragilise nos sociétés",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/au-dela-des-catastrophes-le-changement-climatique-fragilise-nos-societes_6743783_3232.html",
+          "summary": "L’agriculture, l’accès à l’eau, l’économie reposent sur des conditions physiques et biologiques que nous avons longtemps considérées comme acquises. Cette stabilité est désormais…",
+          "pubDate": "2026-08-11T09:30:08.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -252,38 +252,38 @@
       "label": "Emploi & conso",
       "items": [
         {
-          "title": "« Je décide de troquer le noir pour le blanc et de débarquer… en robe de mariée ! » : le pot de départ costumé de Maud, passée d’un lycée au fisc",
-          "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/08/je-decide-de-troquer-le-noir-pour-le-blanc-et-de-debarquer-en-robe-de-mariee-le-pot-de-depart-costume-de-maud-passee-d-un-lycee-au-fisc_6741511_3451060.html",
-          "summary": "« Bon vent ! » (6/18). Maud, 45 ans, est devenue en 2014 contrôleuse des finances publiques dans le Nord. Pour fêter son départ du lycée où elle travaillait et son nouveau statut…",
-          "pubDate": "2026-08-08T16:00:10.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Amazon fait construire au Texas une immense centrale à gaz pour ses centres de données",
-          "link": "https://www.20minutes.fr/planete/4238322-20260808-amazon-fait-construire-texas-immense-centrale-gaz-centres-donnees?at_medium=display&amp;at_campaign=149",
-          "summary": "Le projet, nommé GW Ranch, est destiné à alimenter en électricité d’immenses centres de données et ne sera pas connecté au réseau électrique",
-          "pubDate": "2026-08-08T14:58:33.000Z",
+          "title": "Désindexer les retraites élevées… Le gouvernement en dit plus sur son projet de gel des pensions",
+          "link": "https://www.20minutes.fr/politique/4238682-20260811-desindexer-retraites-elevees-gouvernement-dit-plus-projet-gel-pensions?at_medium=display&amp;at_campaign=149",
+          "summary": "Selon « Le Figaro », Bercy étudie une hypothèse de désindexation des retraites les plus élevées (au-dessus de 3.000 euros) de l’inflation pour le budget 2027",
+          "pubDate": "2026-08-11T10:07:26.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "Indemnité carburant pour « grands rouleurs » : la date limite de dépôt reportée à fin août",
-          "link": "https://www.20minutes.fr/economie/4238303-20260808-indemnite-carburant-grands-rouleurs-date-limite-depot-reportee-fin-aout?at_medium=display&amp;at_campaign=149",
-          "summary": "La date limite de dépôt d’un dossier pour demander l’indemnité carburant de 100 euros destinée aux travailleurs modestes grands rouleurs est reportée au 31 août,",
-          "pubDate": "2026-08-08T08:44:48.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "« Quand on arrive au piano-bar, l’endroit est vide, ça sent l’eau de Javel et le tabac froid » : le triple pot de départ raté de Camille en quittant la tech",
-          "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/07/quand-on-arrive-au-piano-bar-l-endroit-est-vide-ca-sent-l-eau-de-javel-et-le-tabac-froid-le-triple-pot-de-depart-rate-de-camille-en-quittant-la-tech_6740523_3451060.html",
-          "summary": "« Bon vent ! » (5/18). Deux fêtes surprise dans des salles de réunion glauques, une troisième organisée au bistrot, qui ne se passe pas comme espéré… ou comment Camille, 37 ans, a…",
-          "pubDate": "2026-08-07T16:00:14.000Z",
+          "title": "Pourquoi l’IA provoque un nouveau séisme dans les médias, fragilisés par vingt ans de mutations numériques",
+          "link": "https://www.lemonde.fr/economie/article/2026/08/11/pourquoi-l-ia-provoque-un-nouveau-seisme-dans-les-medias-fragilises-par-vingt-ans-de-mutations-numeriques_6743753_3234.html",
+          "summary": "Le déferlement de l’intelligence artificielle, qui pille les contenus journalistiques, favorise les deepfakes et bouleverse la façon de s’informer, met à l’épreuve ce secteur où…",
+          "pubDate": "2026-08-11T04:00:22.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Carburants : Le SP95-E10 repasse sous la barre symbolique des 2 euros le litre",
-          "link": "https://www.20minutes.fr/economie/4238229-20260807-carburants-sp95-e10-repasse-sous-barre-symbolique-2-euros-litre?at_medium=display&amp;at_campaign=149",
-          "summary": "Le SP95-E10 est repassé, ce vendredi, sous la barre symbolique des deux euros le litre en France métropolitaine. Cette baisse fait suite à la chute des cours du pétrole depuis le…",
-          "pubDate": "2026-08-07T12:32:06.000Z",
+          "title": "« Comme tout le monde est derrière un écran, les gens se lâchent, les langues se délient » : le pot de départ en visio de François, ingénieur informatique",
+          "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/10/comme-tout-le-monde-est-derriere-un-ecran-les-gens-se-lachent-les-langues-se-delient-le-pot-de-depart-en-visio-de-francois-ingenieur-informatique_6743422_3451060.html",
+          "summary": "« Bon vent ! » (7/18). Nous sommes en 2020 et le Covid-19 contraint François à achever trente ans de carrière dans l’informatique en télétravail. Qu’importe, il organise son pot…",
+          "pubDate": "2026-08-10T16:00:00.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Chômage : Sébastien Lecornu défend le bilan du macronisme, sans « déni » mais en appelant à rejeter la « caricature »",
+          "link": "https://www.lemonde.fr/politique/article/2026/08/10/chomage-sebastien-lecornu-defend-le-bilan-du-macronisme-sans-deni-mais-en-appelant-a-rejeter-la-caricature_6743372_823448.html",
+          "summary": "Le taux de chômage en France a augmenté de 0,2 point au deuxième trimestre, pour atteindre 8,3 %, son plus haut niveau depuis l’automne 2020, en plein Covid, et depuis l’automne…",
+          "pubDate": "2026-08-10T13:59:31.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Banque : L’entreprise britannique Revolut annonce l’obtention de sa licence bancaire en France",
+          "link": "https://www.20minutes.fr/economie/4238559-20260810-banque-entreprise-britannique-revolut-annonce-obtention-licence-bancaire-france?at_medium=display&amp;at_campaign=149",
+          "summary": "La banque en ligne britannique à la croissance fulgurante a annoncé lundi l’obtention de sa licence bancaire en France",
+          "pubDate": "2026-08-10T12:02:48.000Z",
           "source": "20 Minutes"
         }
       ]
@@ -293,38 +293,38 @@
       "label": "Santé",
       "items": [
         {
-          "title": "En Champagne, les vendangeurs commencent leur récolte en plein mois d'août",
-          "link": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/en-champagne-les-vendangeurs-commencent-leur-recolte-en-plein-mois-d-aout_8141807.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les vendanges ont débuté dès le 10 août dans une parcelle près de Troyes, soit un mois plus tôt que d'habitude. Face aux fortes chaleurs, les viticulteurs doivent s'adapter à une…",
-          "pubDate": "2026-08-10T11:37:30.000Z",
+          "title": "L'épidémie d'Ebola a franchi le cap des 2 000 morts en République démocratique du Congo",
+          "link": "https://www.franceinfo.fr/sante/maladie/ebola/l-epidemie-d-ebola-a-franchi-le-cap-des-2-000-morts-en-republique-democratique-du-congo_8143049.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La RDC fait face à sa 17e épidémie d'Ebola. La maladie a tué plus de 15 000 personnes en Afrique au cours des 50 dernières années.",
+          "pubDate": "2026-08-11T10:27:49.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "REPORTAGE. \"Le trafic de drogue est alimenté par ces bateaux\" : au Portugal, les forces de l'ordre traquent les \"narcolanchas\"",
-          "link": "https://www.franceinfo.fr/societe/drogue/reportage-le-trafic-de-drogue-est-alimente-par-ces-bateaux-au-portugal-les-forces-de-l-ordre-traquent-les-narcolanchas_8141759.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les autorités s'inquiètent de la multiplication des \"narcolanchas\", ces embarcations utilisées par les trafiquants de drogue. Franceinfo a embarqué avec les garde-côtes de la…",
-          "pubDate": "2026-08-10T10:38:32.000Z",
+          "title": "Ebola : l’épidémie a fait plus de 2 000 morts en RDC",
+          "link": "https://www.lemonde.fr/international/article/2026/08/11/ebola-l-epidemie-a-fait-plus-de-2-000-morts-en-rdc_6743790_3210.html",
+          "summary": "Ce bilan rapproche l’épidémie actuelle de celle qui avait sévi entre 2018 et 2020, la plus meurtrière à ce jour en RDC avec près de 2 300 morts.",
+          "pubDate": "2026-08-11T10:06:32.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Enfant brûlé, risque d'explosion... Le danger des balles anti-stress",
+          "link": "https://www.franceinfo.fr/faits-divers/enfant-brule-risque-d-explosion-le-danger-des-balles-anti-stress_8143034.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les enfants les collectionnent et les malaxent sans arrêt. Ces petites balles anti-stress sont le jouet du moment, mais dans le Pas-de-Calais, l'une d'elles a éclaté au visage…",
+          "pubDate": "2026-08-11T09:43:44.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "\"Autrefois vecteur tropical, le moustique tigre devient une menace française\" : plus de 70% de la France touchée d'ici 2085, selon une étude",
-          "link": "https://www.franceinfo.fr/environnement/crise-climatique/autrefois-vecteur-tropical-le-moustique-tigre-devient-une-menace-francaise-plus-de-70-de-la-france-touchee-d-ici-2085-selon-une-etude_8141672.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "En une vingtaine d'années, le moustique tigre a été détecté dans plus de 80 départements. Il n'était présent que dans un seul en 2004.",
-          "pubDate": "2026-08-10T09:34:03.000Z",
-          "source": "franceinfo"
+          "title": "Eclipse solaire du 12 août : Empiler les lunettes de soleil, CD… Ces fausses bonnes idées « démultiplient les risques »",
+          "link": "https://www.20minutes.fr/societe/4238571-20260811-eclipse-solaire-12-aout-empiler-lunettes-soleil-cd-fausses-bonnes-idees-demultiplient-risques?at_medium=display&amp;at_campaign=149",
+          "summary": "Empiler des lunettes de soleil, regarder par le trou d’un CD ou au travers d’une radio… Sur les réseaux sociaux fleurissent des « solutions maisons » pour regarder l’éclipse…",
+          "pubDate": "2026-08-11T09:36:52.000Z",
+          "source": "20 Minutes"
         },
         {
-          "title": "Un monde de bactéries inconnues au sein des coraux, une découverte majeure pour la médecine",
-          "link": "https://www.franceinfo.fr/replay-radio/le-billet-sciences-du-week-end/un-monde-de-bacteries-inconnues-au-sein-des-coraux-une-decouverte-majeure-pour-la-medecine_8114891.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les récifs coralliens occupent moins d'un millième de la surface des océans, mais abritent un quart des espèces marines. Des scientifiques viennent aussi d'y découvrir plus de 600…",
-          "pubDate": "2026-08-10T08:19:30.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Alerte sur la santé des pompiers",
-          "link": "https://www.franceinfo.fr/faits-divers/incendie/alerte-sur-la-sante-des-pompiers_8138615.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Depuis le début des incendies en France, quatre pompiers sont morts et près de 130 ont été intoxiqués par les fumées. Avec l’accélération des feux de végétation causée par le…",
-          "pubDate": "2026-08-10T08:04:06.000Z",
+          "title": "\"Il y a des points de deal directement en centre-ville\" : la consommation de crack explose dans les rues de Marseille",
+          "link": "https://www.franceinfo.fr/sante/drogue-addictions/beaucoup-ont-le-sida-a-marseille-la-consommation-de-crack-explose-dans-les-rues-du-centre-ville_8142299.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Depuis l'abandon d'un projet de Halte soins addictions, il y a deux ans, les petites associations de la cité phocéenne tentent malgré tout de limiter les risques de maladies…",
+          "pubDate": "2026-08-11T09:35:58.000Z",
           "source": "franceinfo"
         }
       ]
@@ -334,39 +334,39 @@
       "label": "Sciences",
       "items": [
         {
-          "title": "« Saturn V était meilleure » : le patron de la NASA flingue 20 ans de choix stratégiques",
-          "link": "https://www.numerama.com/sciences/2308885-saturn-v-etait-meilleure-le-patron-de-la-nasa-flingue-20-ans-de-choix-strategiques.html",
-          "summary": "Dans un réquisitoire, Jared Isaacman a étrillé les choix passés de la NASA, du lanceur SLS à la station orbitale Gateway. L'objectif du patron de l'agence : mettre fin au…",
-          "pubDate": "2026-08-10T12:31:00.000Z",
+          "title": "Sophie Adenot va pouvoir marquer l’histoire de la conquête spatiale française",
+          "link": "https://www.numerama.com/sciences/2309339-sophie-adenot-va-pouvoir-marquer-lhistoire-de-la-conquete-spatiale-francaise.html",
+          "summary": "Sophie Adenot réalisera sa toute première sortie extravéhiculaire le 18 août 2026. L’astronaute française sera épaulée par l’Américain Anil Menon pour une mission de six heures…",
+          "pubDate": "2026-08-11T09:42:32.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Cette météorite comble un grand vide dans l’histoire de Mars",
-          "link": "https://www.numerama.com/sciences/2308839-cette-meteorite-comble-un-grand-vide-dans-lhistoire-de-mars.html",
-          "summary": "Une météorite récemment découverte provient de Mars et peut nous renseigner sur son passé lointain. Mais celle-ci est un peu différente des autres roches martiennes analysées…",
-          "pubDate": "2026-08-10T10:31:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Éclipse solaire du 12 août : où trouver des lunettes à la dernière minute ?",
-          "link": "https://www.numerama.com/sciences/2308751-eclipse-solaire-du-12-aout-ou-trouver-des-lunettes-a-la-derniere-minute.html",
-          "summary": "À deux jours de l’éclipse solaire du 12 août 2026, commander des lunettes sur Internet n'est plus vraiment une option. Si vous n'êtes pas encore équipés, voici les dernières…",
-          "pubDate": "2026-08-10T10:00:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "TEMOIGNAGES. \"J'ai réservé un logement il y a deux ans\" : comment les passionnés d'astronomie s'organisent pour voir l'éclipse solaire du 12 août dans les meilleures conditions",
-          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/temoignages-j-ai-reserve-un-logement-il-y-a-deux-ans-comment-les-passionnes-d-astronomie-s-organisent-pour-voir-l-eclipse-solaire-du-12-aout-dans-les-meilleures-conditions_8120324.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "De la location d'un camping-car au repérage des zones les plus éloignées de la foule, les personnes interrogées par franceinfo ont pensé à tout pour assister à un spectacle qui…",
-          "pubDate": "2026-08-10T09:57:39.000Z",
+          "title": "Quatre conseils pour faire de belles photos de l'éclipse solaire en toute sécurité",
+          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/quatre-conseils-pour-faire-de-belles-photos-de-l-eclipse-solaire-en-toute-securite_8134595.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Avant de se lancer dans la photographie de cet événement astronomique rare, il faut s'assurer de disposer d'un filtre solaire et d'avoir le bon équipement.",
+          "pubDate": "2026-08-11T09:04:10.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Eclipse solaire du 12 août : comment vérifier la qualité de ses lunettes en sécurité",
-          "link": "https://www.numerama.com/sciences/2308717-eclipse-solaire-du-12-aout-comment-verifier-la-qualite-de-ses-lunettes-en-securite.html",
-          "summary": "À quelques jours de l'éclipse solaire du 12 août 2026, posséder des lunettes certifiées ne suffit pas : encore faut-il s'assurer qu'elles sont en parfait état. De la simple…",
-          "pubDate": "2026-08-10T08:30:00.000Z",
-          "source": "Numerama"
+          "title": "À 48 heures de l’éclipse solaire, les lunettes de protection s’arrachent",
+          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/a-48-heures-de-l-eclipse-solaire-les-lunettes-de-protection-s-arrachent_8142935.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "À 48 heures de l’éclipse solaire, les lunettes de protection se font rares. À Rennes, pharmacies et maisons de la presse ont écoulé leurs stocks, tandis que les professionnels…",
+          "pubDate": "2026-08-11T08:36:42.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "En Espagne, l'éclipse solaire représente un véritable défi logistique",
+          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/en-espagne-l-eclipse-solaire-represente-un-veritable-defi-logistique_8142737.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le phénomène sera visible à 100% dans une large partie du pays, ce qui pourrait engendrer un afflux de touristes, notamment dans les zones rurales. Les autorités tentent…",
+          "pubDate": "2026-08-11T06:30:18.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Constipation chronique : quand le Coca-Cola aide à dissoudre un fécalome géant",
+          "link": "https://www.lemonde.fr/realites-biomedicales/article/2026/08/11/constipation-chronique-quand-le-coca-cola-aide-a-dissoudre-un-fecalome-geant_6743766_6579630.html",
+          "summary": "Largement disponible et peu coûteuse, la célèbre boisson gazeuse peut parfois éviter une procédure invasive pour désagréger une masse de matières fécales déshydratées, dures et…",
+          "pubDate": "2026-08-11T06:13:16.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -375,38 +375,38 @@
       "label": "Environnement",
       "items": [
         {
-          "title": "CARTE | Sécheresse : êtes-vous concerné par des restrictions d’eau ?",
-          "link": "https://www.lemonde.fr/les-decodeurs/article/2026/08/10/secheresse-etes-vous-concerne-par-des-restrictions-d-eau_6183749_4355771.html",
-          "summary": "Visualisez les zones concernées par des arrêtés préfectoraux liés au manque d’eau sur notre carte interactive, mise à jour quotidiennement.",
-          "pubDate": "2026-08-10T13:04:17.000Z",
+          "title": "« La fermeture des élevages intensifs devrait être planifiée rapidement »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/la-fermeture-des-elevages-intensifs-devrait-etre-planifiee-rapidement_6743788_3232.html",
+          "summary": "Il devient intenable de maintenir des exploitations qui, outre leurs effets polluants, sont très gaspilleuses en ressources, souligne un collectif de chercheurs spécialistes de la…",
+          "pubDate": "2026-08-11T10:00:02.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Sécheresse : près de 70 % de la France fait l’objet de mesures de restriction de l’usage de l’eau",
-          "link": "https://www.lemonde.fr/planete/article/2026/08/10/secheresse-pres-de-70-de-la-france-fait-l-objet-de-mesures-de-restriction-de-l-usage-de-l-eau_6743337_3244.html",
-          "summary": "Dimanche, 99 départements étaient au minimum au niveau « vigilance ». Parmi eux, 67 sont au niveau « crise », ce qui signifie que l’eau est réservée aux usages prioritaires :…",
-          "pubDate": "2026-08-10T12:53:47.000Z",
+          "title": "Au-delà des catastrophes, le changement climatique fragilise nos sociétés",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/au-dela-des-catastrophes-le-changement-climatique-fragilise-nos-societes_6743783_3232.html",
+          "summary": "L’agriculture, l’accès à l’eau, l’économie reposent sur des conditions physiques et biologiques que nous avons longtemps considérées comme acquises. Cette stabilité est désormais…",
+          "pubDate": "2026-08-11T09:30:08.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Aux Philippines, des pluies torrentielles font au moins treize morts",
-          "link": "https://www.lemonde.fr/planete/article/2026/08/10/aux-philippines-des-pluies-torrentielles-font-au-moins-treize-morts_6743335_3244.html",
-          "summary": "Ces pluies, renforcées par des tempêtes tropicales, ont contraint les autorités à fermer les écoles et les bâtiments publics dans l’île principale, Luçon. Les rues de la capitale,…",
-          "pubDate": "2026-08-10T12:10:11.000Z",
+          "title": "En Indonésie, des écoles fermées et des milliers de pompiers mobilisés face à des feux de forêt",
+          "link": "https://www.lemonde.fr/international/article/2026/08/11/en-indonesie-des-ecoles-fermees-et-des-milliers-de-pompiers-mobilises-face-a-des-feux-de-foret_6743774_3210.html",
+          "summary": "Selon l’agence nationale de gestion des catastrophes, plus de 48 000 agents ont été déployés pour combattre les incendies dans six provinces. Au total, plus de 107 000 hectares de…",
+          "pubDate": "2026-08-11T08:16:25.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Allemagne : le Rhin, à des niveaux historiquement bas, pourrait bientôt ne plus être navigable de manière continue",
-          "link": "https://www.lemonde.fr/planete/article/2026/08/10/allemagne-le-rhin-a-des-niveaux-historiquement-bas-pourrait-bientot-ne-plus-etre-navigable-de-maniere-continue_6743334_3244.html",
-          "summary": "En raison du manque de pluie, le niveau d’eau à Kaub, entre Coblence et Mayence, point de référence essentiel pour la navigation et l’économie, devrait tomber pour la première…",
-          "pubDate": "2026-08-10T12:03:14.000Z",
+          "title": "Grippe aviaire : l’Australie déploie la vaccination ciblée de ses oiseaux captifs et sauvages",
+          "link": "https://www.lemonde.fr/planete/article/2026/08/11/grippe-aviaire-l-australie-deploie-la-vaccination-ciblee-de-ses-oiseaux-captifs-et-sauvages_6743770_3244.html",
+          "summary": "L’Australie a détecté son premier cas touché par la souche H5 de la grippe aviaire en juin, et décomptait, lundi, 231 cas confirmés ou présumés positifs.",
+          "pubDate": "2026-08-11T07:59:20.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Camille Dormoy, sociologue : « L’économie circulaire demande de reprendre le temps qu’on nous a appris à ne plus perdre »",
-          "link": "https://www.lemonde.fr/idees/article/2026/08/10/camille-dormoy-sociologue-l-economie-circulaire-demande-de-reprendre-le-temps-qu-on-nous-a-appris-a-ne-plus-perdre_6743267_3232.html",
-          "summary": "Dans une société fondée sur la vitesse, l’injonction à trier, réparer et valoriser les objets se heurte au manque de temps. Un angle mort des politiques publiques centrées sur les…",
-          "pubDate": "2026-08-10T11:00:07.000Z",
+          "title": "VIDEO Colombie : les images du séisme qui a fait au moins 132 morts",
+          "link": "https://www.lemonde.fr/planete/video/2026/08/11/colombie-les-images-du-seisme-qui-a-fait-au-moins-132-morts_6743769_3244.html",
+          "summary": "Le tremblement de terre d’une magnitude de 7,4 a frappé Cali et d’autres villes de l’ouest du pays, lundi 10 août 2026. Le président, Abelardo de la Espriella, a décrété l’état de…",
+          "pubDate": "2026-08-11T07:20:15.000Z",
           "source": "Le Monde"
         }
       ]
@@ -416,38 +416,38 @@
       "label": "Tech & numérique",
       "items": [
         {
-          "title": "Cette simple application Windows 11 consomme 1,2 Go de RAM…sans rien faire",
-          "link": "https://www.01net.com/actualites/cette-simple-application-windows-11-consomme-12-go-de-ram-sans-rien-faire.html",
-          "summary": "L'application Météo de Windows 11 consomme 1,2 Go de RAM en veille, soit cinq fois plus que celle de macOS. Mais comment expliquer cette surconsommation ? Les publicités sont…",
-          "pubDate": "2026-08-10T13:01:50.000Z",
-          "source": "01net"
-        },
-        {
-          "title": "Un \"empoisonnement\" des chatbots: quand ChatGPT, Gemini, Claude ou Mistral relaient la propagande russe en citant des sources pro-Kremlin",
-          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/un-empoisonnement-des-chatbots-quand-chat-gpt-gemini-claude-ou-mistral-relaient-la-propagande-russe-en-citant-des-sources-pro-kremlin_AN-202608100338.html",
-          "summary": "Différentes études pointent du doigt l’utilisation des chatbots d’intelligence artificielle comme caisses de résonance de la propagande russe. Certains d’entre eux citeraient…",
-          "pubDate": "2026-08-10T12:57:54.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "La Smart #2 dévoile de nouvelles caractéristiques et fait revivre l’esprit de la Fortwo",
-          "link": "https://www.numerama.com/vroom/2308969-la-smart-2-devoile-de-nouvelles-caracteristiques-et-fait-revivre-lesprit-de-la-fortwo.html",
-          "summary": "Les fiches d’homologation publiées par les autorités chinoises donnent quelques informations supplémentaires concernant la remplaçante de la Fortwo : 2,75 mètres, un moteur de 80…",
-          "pubDate": "2026-08-10T12:49:08.000Z",
+          "title": "Vous êtes chez Free ? Préparez-vous, les numéros des chaînes TV vont changer",
+          "link": "https://www.numerama.com/tech/2309497-vous-etes-chez-free-preparez-vous-les-numeros-des-chaines-tv-vont-changer.html",
+          "summary": "À partir du 25 août 2026, Free change la numérotation des chaînes de Free TV. L'opérateur dit regrouper ses chaînes par grandes thématiques, avec des blocs qui démarrent à des…",
+          "pubDate": "2026-08-11T10:20:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Amazon éclate le prix du Galaxy S26 Ultra (versions 256 Go, 512 Go et 1 To en promo)",
-          "link": "https://www.01net.com/bons-plans/amazon-eclate-le-prix-du-galaxy-s26-ultra-versions-256-go-512-go-et-1-to-en-promo.html",
-          "summary": "Le Galaxy S26 Ultra profite rarement de promotions. Et la bonne nouvelle, c'est qu'en ce moment, on le trouve au prix le plus bas du côté d'Amazon.",
-          "pubDate": "2026-08-10T12:37:55.000Z",
-          "source": "01net"
+          "title": "Les résumés par IA sur Google pourraient leur faire perdre \"entre 33% et 38%\" de trafic sur leurs sites: les organes de presse français passent à l'offensive et saisissent l'Autorité de la concurrence",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/les-resumes-par-ia-sur-google-pourraient-leur-faire-perdre-entre-33-et-38-de-trafic-sur-leurs-sites-les-organes-de-presse-francais-passent-a-l-offensive-et-saisissent-l-autorite-de-la-concurrence_AD-202608110272.html",
+          "summary": "Redoutant une baisse du trafic généré par les résultats de Google, le collectif regroupant près de 300 quotidiens français demande à l'Autorité de la concurrence d'agir face aux…",
+          "pubDate": "2026-08-11T10:18:26.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "« Saturn V était meilleure » : le patron de la NASA flingue 20 ans de choix stratégiques",
-          "link": "https://www.numerama.com/sciences/2308885-saturn-v-etait-meilleure-le-patron-de-la-nasa-flingue-20-ans-de-choix-strategiques.html",
-          "summary": "Dans un réquisitoire, Jared Isaacman a étrillé les choix passés de la NASA, du lanceur SLS à la station orbitale Gateway. L'objectif du patron de l'agence : mettre fin au…",
-          "pubDate": "2026-08-10T12:31:00.000Z",
+          "title": "Anthropic va marquer les contenus générés par ses modèles Claude pour se conformer à la loi européenne sur l'intelligence artificielle",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/anthropic-va-marquer-les-contenus-generes-par-ses-modeles-claude-pour-se-conformer-a-la-loi-europeenne-sur-l-intelligence-artificielle_AV-202608110264.html",
+          "summary": "Quelques jours après l'entrée en vigueur de nouvelles mesures de l'IA obligeant les créateurs de ces outils à se montrer plus transparents, Anthropic a annoncé que les contenus…",
+          "pubDate": "2026-08-11T10:07:45.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Des étudiants mènent une action illégale... car ils trouvent que le projet industriel ne va pas assez vite: la Corée du Sud tiraillée autour d’un giga-pôle de semi-conducteurs à près de 488 milliards d’euros",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/des-etudiants-menent-une-action-illegale-car-ils-trouvent-que-le-projet-industriel-ne-va-pas-assez-vite-la-coree-du-sud-tiraillee-autour-d-un-giga-pole-de-semi-conducteurs-a-pres-de-488-milliards-d-euros_AN-202608110261.html",
+          "summary": "En Corée du Sud, le projet de giga-pôle dédié aux semi-conducteurs et à l’intelligence artificielle suscite des tensions. Entre ambitions industrielles, impératifs militaires et…",
+          "pubDate": "2026-08-11T10:04:15.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "Le vélo électrique compact et pliant Flexy Boost d’Intersport est 300 € moins cher",
+          "link": "https://www.numerama.com/vroom/2309505-le-velo-electrique-compact-et-pliant-flexy-boost-dintersport-est-300-e-moins-cher.html",
+          "summary": "[Deal du jour] Le Nakamura Flexy Boost est un vélo électrique pliant conçu pour rouler en ville et emprunter les transports facilement. Son prix en baisse de 300 € est un autre…",
+          "pubDate": "2026-08-11T10:02:30.000Z",
           "source": "Numerama"
         }
       ]
@@ -457,38 +457,38 @@
       "label": "Jeux vidéo",
       "items": [
         {
-          "title": "11 ans d'attente pour The Witcher 3 : ce changement majeur vous garanti d'être prêt pour le futur DLC",
-          "link": "https://www.jeuxvideo.com/news/2097811/11-ans-d-attente-pour-the-witcher-3-ce-changement-majeur-vous-garanti-d-etre-pret-pour-le-futur-dlc.htm",
-          "summary": "Alors que la nouvelle extension de The Witcher 3 approche, un joueur passionné vient de redonner vie à une fonctionnalité abandonnée par CD Projekt RED lors du développement…",
-          "pubDate": "2026-08-10T10:50:09.000Z",
-          "source": "Jeuxvideo.com"
-        },
-        {
-          "title": "Cartes au trésor DLC Pokopia : Où trouver toutes les Pokéballs décoratives ?",
-          "link": "https://www.jeuxvideo.com/news/2098141/carte-au-tresor-dlc-pokopia-ou-trouver-toutes-les-pokeballs-decoratives.htm",
-          "summary": "Découvrez l'emplacement de toutes les pokéballs décoratives qui serviront à monter l'habitat le plus complexe de l'extension Fonds-Bulleux de Pokémon Pokopia. A la base, vous…",
-          "pubDate": "2026-08-10T09:20:09.000Z",
-          "source": "Jeuxvideo.com"
-        },
-        {
-          "title": "Après des années d’attente, le film Naruto franchit (enfin) une étape cruciale",
-          "link": "https://www.numerama.com/pop-culture/2308765-apres-des-annees-dattente-le-film-naruto-franchit-enfin-une-etape-cruciale.html",
-          "summary": "Après des années à végéter dans l'enfer du développement hollywoodien, l'adaptation en prise de vues réelles de Naruto franchit enfin une étape décisive. Lionsgate cible un début…",
-          "pubDate": "2026-08-10T09:02:00.000Z",
+          "title": "Spider-Man 5 déjà en préparation ? Le réalisateur de Brand New Day prêt à rempiler",
+          "link": "https://www.numerama.com/pop-culture/2309443-spider-man-5-deja-en-preparation-le-realisateur-de-brand-new-day-pret-a-rempiler.html",
+          "summary": "Alors que les fans savourent encore les révélations autour de Spider-Man: Brand New Day, l'avenir de l'Homme-Araignée au cinéma semble déjà s'inscrire sur le très long terme.…",
+          "pubDate": "2026-08-11T09:15:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Il préfère jouer à GTA 6 que de sortir son jeu vidéo dans les temps !",
-          "link": "https://www.jeuxvideo.com/news/2097457/il-prefere-jouer-a-gta-6-que-de-sortir-son-jeu-video-dans-les-temps.htm",
-          "summary": "L’annonce de la sortie de Grand Theft Auto VI le 16 novembre 2026 a déclenché un séisme sans précédent dans l’industrie du jeu vidéo. Terrifiée par l'ombre du géant, toute…",
-          "pubDate": "2026-08-10T08:30:09.000Z",
+          "title": "Pour ses 10 ans, No Man’s Sky nous prépare (encore) une grosse mise à jour",
+          "link": "https://www.numerama.com/pop-culture/2309355-pour-ses-10-ans-no-mans-sky-nous-prepare-encore-une-grosse-mise-a-jour.html",
+          "summary": "Dix ans après avoir connu l’un des lancements les plus controversés de l’histoire du jeu vidéo, No Man’s Sky va fêter l’anniversaire de sa première décennie avec une nouvelle mise…",
+          "pubDate": "2026-08-11T08:51:00.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Naoki Urasawa (Monster) lance The Last Manga Classroom, une série explorant la création face à l’IA",
+          "link": "https://www.numerama.com/pop-culture/2309315-naoki-urasawa-monster-lance-the-last-manga-classroom-une-serie-explorant-la-creation-face-a-lia.html",
+          "summary": "Le nouveau manga de Naoki Urasawa s'interroge sur la signification de la créativité à l'ère où l'IA peut tout faire à notre place, et où de nombreux « artistes » l'utilisent pour…",
+          "pubDate": "2026-08-11T08:01:20.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Voici la 4ème transformation de Cell dans Dragon Ball Z dessinée par Akira Toriyama et on ne l'a jamais vue dans de le dessin animé DBZ",
+          "link": "https://www.jeuxvideo.com/news/2097814/voici-la-4eme-transformation-de-cell-dans-dragon-ball-z-dessinee-par-akira-toriyama-et-on-ne-l-a-jamais-vue-dans-de-le-dessin-anime-dbz.htm",
+          "summary": "Dragon Ball et Dragon Ball Z sont des œuvres allant bien de leurs domaines. Son aura culturelle est immense et le décès d'Akira Toriyama a même fait la Une des journaux dans de…",
+          "pubDate": "2026-08-11T07:40:12.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "Et si les Dark Souls avaient été en vue FPS ?",
-          "link": "https://www.numerama.com/pop-culture/2308685-et-si-les-dark-souls-avaient-ete-en-vue-fps.html",
-          "summary": "Une vieille présentation, attachée à un vieux prototype de Demon's Souls, montre que FromSoftware a un temps songé à proposer une vue à la première personne (FPS). Ce qui aurait…",
-          "pubDate": "2026-08-10T07:45:00.000Z",
+          "title": "CD Projekt Red voulait que le héros de The Witcher n’ait aucune émotion",
+          "link": "https://www.numerama.com/pop-culture/2309313-cd-projekt-red-voulait-que-le-heros-de-the-witcher-nait-aucune-emotion.html",
+          "summary": "Doug Cockle, doubleur de Geralt, héros de la saga The Witcher, depuis plus de 20 ans, est revenu sur son expérience avec la saga culte. Il est notamment revenu sur les exigences…",
+          "pubDate": "2026-08-11T06:51:10.000Z",
           "source": "Numerama"
         }
       ]
@@ -497,6 +497,27 @@
       "key": "auto",
       "label": "Auto & mobilité",
       "items": [
+        {
+          "title": "Le vélo électrique compact et pliant Flexy Boost d’Intersport est 300 € moins cher",
+          "link": "https://www.numerama.com/vroom/2309505-le-velo-electrique-compact-et-pliant-flexy-boost-dintersport-est-300-e-moins-cher.html",
+          "summary": "[Deal du jour] Le Nakamura Flexy Boost est un vélo électrique pliant conçu pour rouler en ville et emprunter les transports facilement. Son prix en baisse de 300 € est un autre…",
+          "pubDate": "2026-08-11T10:02:30.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Au niveau mondial, les voitures électriques sont désormais moins chères que les hybrides",
+          "link": "https://www.numerama.com/vroom/2309435-au-niveau-mondial-les-voitures-electriques-sont-desormais-moins-cheres-que-les-hybrides.html",
+          "summary": "L'électrique reste encore perçu comme « cher », pourtant en observant les chiffres mondiaux, le constat est sensiblement différent. Porté par l'expansion des marques chinoises et…",
+          "pubDate": "2026-08-11T09:40:00.000Z",
+          "source": "Numerama"
+        },
+        {
+          "title": "Renault 5 : une optimisation matérielle offre des kilomètres supplémentaires",
+          "link": "https://www.numerama.com/vroom/2309177-renault-5-une-optimisation-materielle-offre-des-kilometres-supplementaires.html",
+          "summary": "Renault a discrètement mis à jour son configurateur pour afficher des autonomies supérieures pour plusieurs déclinaisons de la star des ventes électriques de la marque : la R5.",
+          "pubDate": "2026-08-10T15:56:57.000Z",
+          "source": "Numerama"
+        },
         {
           "title": "La Smart #2 dévoile de nouvelles caractéristiques et fait revivre l’esprit de la Fortwo",
           "link": "https://www.numerama.com/vroom/2308969-la-smart-2-devoile-de-nouvelles-caracteristiques-et-fait-revivre-lesprit-de-la-fortwo.html",
@@ -510,27 +531,6 @@
           "summary": "[Deal du jour] Parmi les références de vélos électriques que Decathlon propose, le Stilus OffRoad+ est un VTT idéal pour les randonnées. Son prix en promotion baisse de 400 €.",
           "pubDate": "2026-08-10T12:05:31.000Z",
           "source": "Numerama"
-        },
-        {
-          "title": "Casque et gilet fluo en trottinette, mais pas à vélo : la nouvelle absurdité des pistes cyclables franciliennes",
-          "link": "https://www.numerama.com/vroom/2308733-casque-et-gilet-fluo-en-trottinette-mais-pas-a-velo-la-nouvelle-absurdite-des-pistes-cyclables-franciliennes.html",
-          "summary": "Un arrêté préfectoral du 7 août 2026 impose le casque et les équipements réfléchissants pour les trottinettes (et autres EDPM) à Paris et en Petite Couronne. Une situation qui…",
-          "pubDate": "2026-08-10T08:14:13.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "J’ai essayé la Volkswagen ID.3 Neo et je peux assurer que cette fois, c’est la bonne",
-          "link": "https://www.numerama.com/vroom/2306439-jai-essaye-la-volkswagen-id-3-neo-et-je-peux-assurer-que-cette-fois-cest-la-bonne.html",
-          "summary": "Volkswagen a opéré une grosse refonte de sa compacte électrique ID.3. Nouvelles batteries, nouveau moteur, ergonomie corrigée ou encore info-divertissement plus moderne, elle…",
-          "pubDate": "2026-08-09T11:35:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "La Norvège en voiture électrique : une expérience foudroyante",
-          "link": "https://www.numerama.com/vroom/2308257-la-norvege-en-voiture-electrique-une-experience-foudroyante.html",
-          "summary": "À l’occasion des essais de la nouvelle Volkswagen ID.3 Neo, les journalistes ont été conviés à rouler dans les alentours de Bergen, en Norvège. Outre les paysages magnifiques,…",
-          "pubDate": "2026-08-09T06:31:00.000Z",
-          "source": "Numerama"
         }
       ]
     },
@@ -539,38 +539,38 @@
       "label": "Culture",
       "items": [
         {
-          "title": "Ce que disent (enfin) les chanteuses : souvenirs et traumatismes d’enfance selon Juliette",
-          "link": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/ce-que-disent-enfin-les-chanteuses-souvenirs-et-traumatismes-d-enfance-selon-juliette_8070266.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Pendant tout l’été, nous écoutons dans cette chronique la révolution de la nouvelle chanson au féminin, avec tout ce que disent enfin les artistes, ces dernières années –…",
-          "pubDate": "2026-08-10T12:30:02.000Z",
+          "title": "Un projet de parc d'attractions Dragon Ball à l'étude en Île-de-France, sur le site de Mirapolis, pionnier du genre, fermé il y a trente-cinq ans",
+          "link": "https://www.franceinfo.fr/culture/cinema/films-animation/un-projet-de-parc-d-attractions-dragon-ball-a-l-etude-en-ile-de-france-sur-le-site-de-mirapolis-pionnier-du-genre-ferme-il-y-a-trente-cinq-ans_8142875.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le projet, porté par une société d'investissement saoudienne, serait déjà \"très avancé\" même si aucune annonce officielle n'a encore été faite.",
+          "pubDate": "2026-08-11T09:51:23.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Italie : une épave romaine vieille de 2000 ans découverte en Sicile",
-          "link": "https://www.franceinfo.fr/monde/italie/italie-une-epave-romaine-vieille-de-2000-ans-decouverte-en-sicile_8141798.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Des plongeurs italiens ont découvert l'épave d'un bateau romain au large de la Sicile, remplie à ras bord de centaines d'amphores en très bon état, probablement utilisées pour…",
-          "pubDate": "2026-08-10T12:00:02.000Z",
+          "title": "Enfant brûlé, risque d'explosion... Le danger des balles anti-stress",
+          "link": "https://www.franceinfo.fr/faits-divers/enfant-brule-risque-d-explosion-le-danger-des-balles-anti-stress_8143034.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Les enfants les collectionnent et les malaxent sans arrêt. Ces petites balles anti-stress sont le jouet du moment, mais dans le Pas-de-Calais, l'une d'elles a éclaté au visage…",
+          "pubDate": "2026-08-11T09:43:44.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Après « Totoro », la Cité de la tapisserie d’Aubusson va tisser un nouveau projet avec le studio d’animation Ghibli",
-          "link": "https://www.20minutes.fr/arts-stars/culture/4238538-20260810-apres-totoro-cite-tapisserie-aubusson-va-tisser-nouveau-projet-studio-animation-ghibli?at_medium=display&amp;at_campaign=149",
-          "summary": "Quatre tapisseries monumentales ont déjà été tissées et exposées à Paris, Bordeaux et au Japon",
-          "pubDate": "2026-08-10T09:42:58.000Z",
-          "source": "20 Minutes"
+          "title": "Au centre d’arts et du patrimoine de Roueïre, dans l’Hérault, Jeanne Susplugas ausculte notre cerveau avec un humour noir et cruel",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/11/au-centre-d-arts-et-du-patrimoine-de-roueire-dans-l-herault-jeanne-susplugas-ausculte-notre-cerveau-avec-un-humour-noir-et-cruel_6743781_3246.html",
+          "summary": "Exposés dans les chais d’un ancien domaine viticole, les sculptures, installations, vidéos et dessins de la plasticienne donnent forme à ce que nous nous évertuons à dissimuler :…",
+          "pubDate": "2026-08-11T09:00:04.000Z",
+          "source": "Le Monde"
         },
         {
-          "title": "À Deauville, une masterclass de danse classique face à la mer",
-          "link": "https://www.franceinfo.fr/culture/a-deauville-une-masterclass-de-danse-classique-face-a-la-mer_8141651.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "À Deauville, une masterclass de danse classique a réuni 200 passionnés sur les célèbres planches de la station balnéaire. Entourés de danseuses étoiles, les participants ont…",
-          "pubDate": "2026-08-10T09:10:34.000Z",
+          "title": "Meurtre de Tupac Shakur : 30 ans depuis l'assassinat du rappeur",
+          "link": "https://www.franceinfo.fr/culture/musique/meurtre-de-tupac-shakur-30-ans-depuis-l-assassinat-du-rappeur_8142896.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le meurtre de Tupac Shakur en 1996 à Las Vegas pourrait enfin être élucidé. Le suspect Duane Davis, alias “Keefe D”, risque la perpétuité après des décennies d'impasse. Voici…",
+          "pubDate": "2026-08-11T08:14:28.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Stefan Zweig honoré à Londres où il avait trouvé exil",
-          "link": "https://www.franceinfo.fr/culture/livres/stefan-zweig-honore-a-londres-ou-il-avait-trouve-exil_8141549.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'écrivain autrichien, d'origine juive, était arrivé en Angleterre en 1934, peu après l'accession d'Adolf Hitler aux fonctions de chancelier en Allemagne, et quatre ans avant…",
-          "pubDate": "2026-08-10T09:10:15.000Z",
+          "title": "PODCAST. Séisme en Colombie, Ariana Grande en tête des classements et la \"Nouvelle école\" du MMA : ça dit quoi ce 11 août ?",
+          "link": "https://www.franceinfo.fr/replay-radio/ca-dit-quoi/podcast-seisme-en-colombie-ariana-grande-en-tete-des-classements-et-la-nouvelle-ecole-du-mma-ca-dit-quoi-ce-11-aout_8135006.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Ce mardi 11 août, le sol a tremblé comme jamais en dix ans en Colombie, le nouvel album d'Ariana Grande est en tête du Billboard 200 et Netflix annonce la diffusion de \"L'Arène\",…",
+          "pubDate": "2026-08-11T07:09:09.000Z",
           "source": "franceinfo"
         }
       ]
@@ -579,6 +579,20 @@
       "key": "cinema",
       "label": "Cinéma & séries",
       "items": [
+        {
+          "title": "« Soudain » : Virginie Efira et Tao Okamoto en pleine conversation d’humanité",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/11/soudain-virginie-efira-et-tao-okamoto-en-pleine-conversation-d-humanite_6743752_3246.html",
+          "summary": "Porté par les deux actrices, récompensées au Festival de Cannes, le film du Japonais Ryusuke Hamaguchi, dans les salles mercredi, transforme l’amitié naissante entre deux femmes…",
+          "pubDate": "2026-08-11T04:00:28.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "« L’Odyssée » dépasse « Batman » et devient le plus grand succès du réalisateur Christopher Nolan",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4238598-20260810-odyssee-depasse-batman-devient-plus-grand-succes-realisateur-christopher-nolan?at_medium=display&amp;at_campaign=149",
+          "summary": "Le total cumulé de la filmographie de Nolan le place au troisième rang des cinéastes les plus rentables",
+          "pubDate": "2026-08-10T14:03:16.000Z",
+          "source": "20 Minutes"
+        },
         {
           "title": "Guillaume Canet rend un hommage émouvant à Dominique Frot, qui a joué dans son dernier film « Karma »",
           "link": "https://www.20minutes.fr/arts-stars/people/4238540-20260810-guillaume-canet-rend-hommage-emouvant-dominique-frot-joue-dernier-film-karma?at_medium=display&amp;at_campaign=149",
@@ -599,20 +613,6 @@
           "summary": "Les anciens époux se seraient retrouvés dans les Caraïbes pour des vacances avec leur fille",
           "pubDate": "2026-08-09T10:02:36.000Z",
           "source": "20 Minutes"
-        },
-        {
-          "title": "A Locarno, les Chiliens Cristobal Leon et Joaquin Cociña dévoilent leur folle planète cinéma",
-          "link": "https://www.lemonde.fr/culture/article/2026/08/09/a-locarno-les-chiliens-cristobal-leon-et-joaquin-cocina-devoilent-leur-folle-planete-cinema_6742302_3246.html",
-          "summary": "Les coréalisateurs de « Princesa Burro », en lice pour le Léopard d’or, signent un film de genre artisanal et inventif, revisitant le conte « Peau d’âne ».",
-          "pubDate": "2026-08-09T10:00:07.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Dominique Frot est morte à l’âge de 68 ans",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/08/09/dominique-frot-meurt-a-l-age-de-68-ans_6742268_3382.html",
-          "summary": "Connue pour de nombreux rôles, souvent secondaires, dans des pièces de théâtre, dans des séries télévisées, dont « Soda », et dans des longs-métrages, elle était également la sœur…",
-          "pubDate": "2026-08-09T09:32:03.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -620,6 +620,20 @@
       "key": "musique",
       "label": "Musique",
       "items": [
+        {
+          "title": "Stromae, Lady Gaga, Sophia Laforteza… Ces artistes qui ont mis leur carrière en pause pour préserver leur santé mentale",
+          "link": "https://www.20minutes.fr/arts-stars/culture/4238544-20260811-stromae-lady-gaga-sophia-laforteza-artistes-mis-carriere-pause-preserver-sante-mentale?at_medium=display&amp;at_campaign=149",
+          "summary": "Sophia Laforteza s’est temporairement retirée du groupe Katseye pour « prioriser sa santé mentale ». Une décision forte, en pleine ascension, qui succède à celle de bien d’autres…",
+          "pubDate": "2026-08-11T05:32:37.000Z",
+          "source": "20 Minutes"
+        },
+        {
+          "title": "Au Festival de Salzbourg, Romeo Castellucci met en scène le prêche de « Saint François d’Assise » aux oiseaux morts dans une vision d’apocalypse",
+          "link": "https://www.lemonde.fr/culture/article/2026/08/11/au-festival-de-salzbourg-romeo-castellucci-met-en-scene-le-preche-de-saint-francois-d-assise-aux-oiseaux-morts-dans-une-vision-d-apocalypse_6743762_3246.html",
+          "summary": "Dominée par le rôle-titre de Philippe Sly et par l’Ange de Lauranne Oliva, la nouvelle production de l’unique opéra d’Olivier Messiaen a laissé le public entre joie et sidération.",
+          "pubDate": "2026-08-11T05:00:10.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "Au Festival de Salzbourg, une bouleversante « Carmen » mise en scène par Gabriela Carrizo et dirigée par Teodor Currentzis",
           "link": "https://www.lemonde.fr/culture/article/2026/08/09/au-festival-de-salzbourg-une-bouleversante-carmen-mise-en-scene-par-gabriela-carrizo-et-dirigee-par-teodor-currentzis_6742637_3246.html",
@@ -640,20 +654,6 @@
           "summary": "Il semble que l’acteur exerce une influence très positive sur le processus créatif de la chanteuse",
           "pubDate": "2026-08-09T09:02:36.000Z",
           "source": "20 Minutes"
-        },
-        {
-          "title": "La mort de William Orbit, compositeur électro de génie et producteur de l’album « Ray of Light » de Madonna",
-          "link": "https://www.lemonde.fr/disparitions/article/2026/08/08/la-mort-de-william-orbit-compositeur-electro-de-genie-et-producteur-de-l-album-ray-of-light-de-madonna_6741444_3382.html",
-          "summary": "Le musicien britannique avait mis son talent au service de nombreux artistes ou groupes, comme Etienne Daho, Blur ou U2. Il s’est éteint le 23 juillet à 69 ans.",
-          "pubDate": "2026-08-08T15:14:06.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Marlon Jackson va raconter l’histoire de son père Joe Jackson dans une série documentaire",
-          "link": "https://www.20minutes.fr/arts-stars/people/4238048-20260808-marlon-jackson-va-raconter-histoire-pere-joe-jackson-serie-documentaire?at_medium=display&amp;at_campaign=149",
-          "summary": "Le biopic du patriarche à l’origine des Jackson Five s’étendra sur huit épisodes",
-          "pubDate": "2026-08-08T08:02:36.000Z",
-          "source": "20 Minutes"
         }
       ]
     },
@@ -661,6 +661,13 @@
       "key": "livres",
       "label": "Livres",
       "items": [
+        {
+          "title": "« Orbitor II et III », du grand écrivain roumain Mircea Cartarescu, un flux incessant de fantasmes et de vie",
+          "link": "https://www.lemonde.fr/livres/article/2026/08/10/orbitor-ii-et-iii-du-grand-ecrivain-roumain-mircea-cartarescu-un-flux-incessant-de-fantasmes-et-de-vie_6743429_3260.html",
+          "summary": "Après « L’Aile gauche », en 2025, les deuxième et troisième volumes de la trilogie du romancier reparaissent dans une nouvelle traduction.",
+          "pubDate": "2026-08-10T17:00:11.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "Dernier tango à Buenos Aires pour l’écrivaine Brina Svit",
           "link": "https://www.lemonde.fr/livres/article/2026/08/09/dernier-tango-a-buenos-aires-pour-l-ecrivaine-brina-svit_6741997_3260.html",
@@ -688,13 +695,6 @@
           "summary": "« Une planche de BD de la rentrée » (4/5). Avec « Le Clan de Walden », en librairie le 18 septembre, l’ancienne collaboratrice de « Charlie Hebdo » revient aux sources de la…",
           "pubDate": "2026-08-07T13:00:04.000Z",
           "source": "Le Monde"
-        },
-        {
-          "title": "« Fabuleuses éclipses », un petit guide accessible et illustré à lire avant le 12 août",
-          "link": "https://www.lemonde.fr/sciences/article/2026/08/07/fabuleuses-eclipses-un-petit-guide-accessible-et-illustre-a-lire-avant-le-12-aout_6740492_1650684.html",
-          "summary": "Alors qu’une éclipse partielle de Soleil va avoir lieu en France, ce précis propose de nombreuses explications richement illustrées autour de la mécanique de ces phénomènes et des…",
-          "pubDate": "2026-08-07T12:00:13.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -703,38 +703,38 @@
       "label": "Médias",
       "items": [
         {
+          "title": "Résumés IA de Google : l’Alliance de la presse d’information générale, dont « Le Monde » est membre, saisit l’Autorité de la concurrence",
+          "link": "https://www.lemonde.fr/actualite-medias/article/2026/08/11/resumes-ia-de-google-l-alliance-de-la-presse-d-information-generale-dont-le-monde-est-membre-saisit-l-autorite-de-la-concurrence_6743786_3236.html",
+          "summary": "L’APIG, qui regroupe près de 300 quotidiens français, demande au gendarme de la concurrence d’intervenir « pour demander le respect par Google des engagements pris en 2022 ».",
+          "pubDate": "2026-08-11T09:59:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Pourquoi l’IA provoque un nouveau séisme dans les médias, fragilisés par vingt ans de mutations numériques",
+          "link": "https://www.lemonde.fr/economie/article/2026/08/11/pourquoi-l-ia-provoque-un-nouveau-seisme-dans-les-medias-fragilises-par-vingt-ans-de-mutations-numeriques_6743753_3234.html",
+          "summary": "Le déferlement de l’intelligence artificielle, qui pille les contenus journalistiques, favorise les deepfakes et bouleverse la façon de s’informer, met à l’épreuve ce secteur où…",
+          "pubDate": "2026-08-11T04:00:22.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Le Tour de France Femmes atteint une audience inédite sur France Télévisions",
+          "link": "https://www.lemonde.fr/actualite-medias/article/2026/08/10/le-tour-de-france-femmes-atteint-une-audience-record-sur-france-televisions-rassemblant-plus-de-23-millions-de-francais_6743413_3236.html",
+          "summary": "Les retransmissions en direct ont enregistré en moyenne 32,9 % de part d’audience. Au total, plus de 23 millions de téléspectateurs ont suivi au moins une minute de l’épreuve, qui…",
+          "pubDate": "2026-08-10T14:52:24.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Guillaume Pley, le fondateur du média « Legend », accusé d’échanges en ligne à caractère sexuel avec plusieurs mineures",
+          "link": "https://www.lemonde.fr/pixels/article/2026/08/10/guillaume-pley-le-fondateur-de-legend-accuse-d-echanges-en-ligne-a-caractere-sexuel-avec-plusieurs-mineures_6743407_4408996.html",
+          "summary": "L’ancien animateur de NRJ a publié vendredi un communiqué pour se défendre des accusations d’une série d’enquêtes. Depuis, plusieurs anciens proches se sont désolidarisés de…",
+          "pubDate": "2026-08-10T14:21:28.000Z",
+          "source": "Le Monde"
+        },
+        {
           "title": "Radio M’s, la station qui met en valeur la Seine-Saint-Denis : « Ici, il existe un véritable vivre-ensemble qui passe complètement sous les radars »",
           "link": "https://www.lemonde.fr/series-d-ete/article/2026/08/10/radio-m-s-la-station-qui-met-en-valeur-la-seine-saint-denis-ici-il-existe-un-veritable-vivre-ensemble-qui-passe-completement-sous-les-radars_6743089_3451060.html",
-          "summary": "« Echos locaux » (5/6). Partout en France, des médias indépendants contribuent au lien social en misant sur l’information de proximité. Depuis 2018, la station associative…",
-          "pubDate": "2026-08-10T06:00:08.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Liberté des médias : la France accuse plus d’un an de retard dans la mise en œuvre des règles européennes",
-          "link": "https://www.lemonde.fr/economie/article/2026/08/08/liberte-des-medias-la-france-accuse-plus-d-un-an-de-retard-dans-la-mise-en-uvre-des-regles-europeennes_6740993_3234.html",
-          "summary": "Un an après l’entrée en application du règlement européen sur la liberté des médias, la France n’a toujours pas mis en œuvre ces règles censées encourager le pluralisme,…",
-          "pubDate": "2026-08-08T07:00:11.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Cagnes-sur-Mer : une journaliste agressée par un élu municipal RN, dénonce « Nice-Matin »",
-          "link": "https://www.lemonde.fr/actualite-medias/article/2026/08/07/cagnes-sur-mer-une-journaliste-agressee-par-un-elu-municipal-rn-denonce-nice-matin_6740519_3236.html",
-          "summary": "La reporter a été bousculée et projetée au sol, alors qu’elle couvrait un incendie. Une plainte a été déposée.",
-          "pubDate": "2026-08-07T15:15:57.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Le Royaume-Uni autorise le rachat de Warner Bros par Paramount",
-          "link": "https://www.lemonde.fr/international/article/2026/08/06/le-royaume-uni-autorise-le-rachat-de-warner-bros-par-paramount_6739954_3210.html",
-          "summary": "L’offre de Paramount reste toutefois confrontée à des obstacles aux Etats-Unis. Leur fusion a été reportée à juin 2027 après qu’une juge fédérale en Californie a ordonné en…",
-          "pubDate": "2026-08-06T14:06:53.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Mort d’Amal Khalil, journaliste tuée par l’armée israélienne dans le sud du Liban : Amnesty International et Human Rights Watch réclament une enquête pour crime de guerre",
-          "link": "https://www.lemonde.fr/international/article/2026/08/06/mort-d-une-journaliste-tuee-par-l-armee-israelienne-dans-le-sud-du-liban-amnesty-international-et-human-rights-watch-reclament-une-enquete-pour-crime-de-guerre_6739724_3210.html",
-          "summary": "Selon les deux organisations de défense des droits humains, l’armée israélienne disposait de plusieurs éléments pour connaître l’identité de la journaliste d’« Al-Akhbar »,…",
-          "pubDate": "2026-08-06T07:24:37.000Z",
+          "summary": "« Echos locaux » (5/7). Partout en France, des médias indépendants contribuent au lien social en misant sur l’information de proximité. Depuis 2018, la station associative…",
+          "pubDate": "2026-08-10T06:00:06.000Z",
           "source": "Le Monde"
         }
       ]
@@ -744,38 +744,38 @@
       "label": "Idées & débats",
       "items": [
         {
-          "title": "Camille Dormoy, sociologue : « L’économie circulaire demande de reprendre le temps qu’on nous a appris à ne plus perdre »",
-          "link": "https://www.lemonde.fr/idees/article/2026/08/10/camille-dormoy-sociologue-l-economie-circulaire-demande-de-reprendre-le-temps-qu-on-nous-a-appris-a-ne-plus-perdre_6743267_3232.html",
-          "summary": "Dans une société fondée sur la vitesse, l’injonction à trier, réparer et valoriser les objets se heurte au manque de temps. Un angle mort des politiques publiques centrées sur les…",
-          "pubDate": "2026-08-10T11:00:07.000Z",
+          "title": "« La fermeture des élevages intensifs devrait être planifiée rapidement »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/la-fermeture-des-elevages-intensifs-devrait-etre-planifiee-rapidement_6743788_3232.html",
+          "summary": "Il devient intenable de maintenir des exploitations qui, outre leurs effets polluants, sont très gaspilleuses en ressources, souligne un collectif de chercheurs spécialistes de la…",
+          "pubDate": "2026-08-11T10:00:02.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Accord de défense entre entre l’Arabie saoudite, le Pakistan et la Turquie : les messages du pacte signé à La Mecque",
-          "link": "https://www.lemonde.fr/idees/article/2026/08/10/accord-de-defense-entre-entre-l-arabie-saoudite-le-pakistan-et-la-turquie-les-messages-du-pacte-signe-a-la-mecque_6743199_3232.html",
-          "summary": "En disposant qu’une attaque armée extérieure contre l’un des trois signataires sera considérée comme une agression contre tous, le pacte conclu le 7 août entre l’Arabie saoudite,…",
-          "pubDate": "2026-08-10T09:30:09.000Z",
+          "title": "Au-delà des catastrophes, le changement climatique fragilise nos sociétés",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/au-dela-des-catastrophes-le-changement-climatique-fragilise-nos-societes_6743783_3232.html",
+          "summary": "L’agriculture, l’accès à l’eau, l’économie reposent sur des conditions physiques et biologiques que nous avons longtemps considérées comme acquises. Cette stabilité est désormais…",
+          "pubDate": "2026-08-11T09:30:08.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "« Marc Bloch était aussi un historien du “rural”, attaché à défricher une histoire économique et sociale des campagnes »",
-          "link": "https://www.lemonde.fr/idees/article/2026/08/10/marc-bloch-etait-aussi-un-historien-du-rural-attache-a-defricher-une-histoire-economique-et-sociale-des-campagnes_6743161_3232.html",
-          "summary": "En étudiant l’histoire de l’ensemble de la société et non seulement des élites, le médiéviste rencontra fatalement la ruralité. L’ouvrage majeur qu’il y consacra influença…",
-          "pubDate": "2026-08-10T08:00:03.000Z",
+          "title": "« Lorsqu’on légifère sur la fin de vie, on a le devoir de reconnaître les aidants »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/lorsqu-on-legifere-sur-la-fin-de-vie-on-a-le-devoir-de-reconnaitre-les-aidants_6743771_3232.html",
+          "summary": "La loi sur l’aide à mourir ne garantit aucun soutien psychologique à « ceux qui restent une fois que tout est fini », alertent la médecin Hélène Rossinot et le chercheur Mickaël…",
+          "pubDate": "2026-08-11T08:00:09.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "Réseaux sociaux : « Nous pouvons concevoir un environnement numérique qui soutienne le bien-être »",
-          "link": "https://www.lemonde.fr/idees/article/2026/08/10/reseaux-sociaux-nous-pouvons-concevoir-un-environnement-numerique-qui-soutienne-le-bien-etre_6743045_3232.html",
-          "summary": "Plutôt que d’interdire ou de limiter l’accès aux plateformes numériques, la psychologue Hedda van ’t Land estime, dans une tribune au « Monde », que les autorités devraient…",
-          "pubDate": "2026-08-10T03:45:19.000Z",
+          "title": "Yannick Jadot : « Climatosceptiques et climato-arrangeants sont des capitulards qui nous condamnent au pire »",
+          "link": "https://www.lemonde.fr/idees/article/2026/08/11/yannick-jadot-climatosceptiques-et-climato-arrangeants-sont-des-capitulards-qui-nous-condamnent-au-pire_6743755_3232.html",
+          "summary": "Alors que les écologistes lancent l’alerte depuis des années, les véritables responsables de la catastrophe en cours ont l’aplomb de leur en faire porter la responsabilité,…",
+          "pubDate": "2026-08-11T04:00:39.000Z",
           "source": "Le Monde"
         },
         {
-          "title": "« Si aller à l’université consiste à rédiger quelques requêtes pour l’IA, des décennies d’efforts pour l’égalité des chances vont s’effondrer »",
-          "link": "https://www.lemonde.fr/idees/article/2026/08/09/si-aller-a-l-universite-consiste-a-rediger-quelques-requetes-pour-l-ia-des-decennies-d-efforts-pour-l-egalite-des-chances-vont-s-effondrer_6742133_3232.html",
-          "summary": "L’usage intensif de l’intelligence artificielle générative par les enseignants-chercheurs et leurs étudiants met à mal les grands principes de la vie universitaire, basée sur la…",
-          "pubDate": "2026-08-09T08:00:05.000Z",
+          "title": "Pourquoi l’IA provoque un nouveau séisme dans les médias, fragilisés par vingt ans de mutations numériques",
+          "link": "https://www.lemonde.fr/economie/article/2026/08/11/pourquoi-l-ia-provoque-un-nouveau-seisme-dans-les-medias-fragilises-par-vingt-ans-de-mutations-numeriques_6743753_3234.html",
+          "summary": "Le déferlement de l’intelligence artificielle, qui pille les contenus journalistiques, favorise les deepfakes et bouleverse la façon de s’informer, met à l’épreuve ce secteur où…",
+          "pubDate": "2026-08-11T04:00:22.000Z",
           "source": "Le Monde"
         }
       ]
@@ -784,6 +784,13 @@
       "key": "education",
       "label": "Éducation",
       "items": [
+        {
+          "title": "Les étudiants marocains touchés de plein fouet par la hausse des frais d’inscription en France",
+          "link": "https://www.lemonde.fr/afrique/article/2026/08/10/les-etudiants-marocains-touches-de-plein-fouet-par-la-hausse-des-frais-d-inscription-en-france_6743431_3212.html",
+          "summary": "Un décret, pris le 19 mai, restreint les possibilités d’exonération des droits d’inscription différenciés pour les étudiants non européens. Parmi eux, les Marocains sont les plus…",
+          "pubDate": "2026-08-10T17:00:22.000Z",
+          "source": "Le Monde"
+        },
         {
           "title": "Maëliss, 34 ans, professeure de yoga, 2 200 euros par mois : « Ce n’est pas parce que c’est du “bien-être” qu’on doit être payé au lance-pierre »",
           "link": "https://www.lemonde.fr/campus/article/2026/08/10/maeliss-34-ans-professeure-de-yoga-2-200-euros-par-mois-ce-n-est-pas-parce-que-c-est-du-bien-etre-qu-on-doit-etre-paye-au-lance-pierre_6742975_4401467.html",
@@ -811,13 +818,6 @@
           "summary": "Cette hausse de 15 % par rapport à 2025 représente l’un des premiers effets concrets de la suppression du numerus clausus, décidée en 2019, affirme le ministère de la santé.",
           "pubDate": "2026-08-05T12:00:21.000Z",
           "source": "Le Monde"
-        },
-        {
-          "title": "Gwenaëlle, 24 ans, coiffeuse, 1 570 euros par mois : « Commencer à 16 ans m’a fait gagner très tôt en maturité »",
-          "link": "https://www.lemonde.fr/campus/article/2026/08/03/gwenaelle-24-ans-coiffeuse-1-570-euros-par-mois-commencer-a-16-ans-m-a-fait-gagner-tres-tot-en-maturite_6737329_4401467.html",
-          "summary": "« La bonne paye ». Chaque semaine, « Le Monde » parle d’argent avec les jeunes. Que signifie « bien gagner sa vie » ? Comment se projettent-ils dans l’avenir ? Cette semaine,…",
-          "pubDate": "2026-08-03T04:00:05.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -826,39 +826,39 @@
       "label": "Sport",
       "items": [
         {
-          "title": "Jodar-Arthur Fils : Sur quelle chaîne TV et à quelle heure voir le quart de finale de l’ATP Masters 1000 de Montréal ?",
-          "link": "https://www.20minutes.fr/sport/tennis/4238590-20260810-jodar-arthur-fils-chaine-tv-heure-voir-quart-finale-atp-masters-1000-montreal?at_medium=display&amp;at_campaign=149",
-          "summary": "Dans la nuit de mardi à mercredi, à 00h, le numéro 1 français défie l’Espagnol pour une finale avant l’heure",
-          "pubDate": "2026-08-10T13:19:26.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Brésil : Jacy se blesse dans un improbable escalier après avoir célébré son but… finalement annulé !",
-          "link": "https://www.20minutes.fr/sport/football/4238588-20260810-bresil-jacy-blesse-improbable-escalier-apres-avoir-celebre-but-finalement-annule?at_medium=display&amp;at_campaign=149",
-          "summary": "Le capitaine de Coritiba (D1 brésilienne) a vécu une chute insolite après avoir sauté au-dessus des panneaux publicitaires pour fêter son but, refusé quelques instants plus tard…",
-          "pubDate": "2026-08-10T13:11:32.000Z",
-          "source": "20 Minutes"
-        },
-        {
-          "title": "Natation : le roi Léon de retour à Paris",
-          "link": "https://www.franceinfo.fr/sports/natation/leon-marchand/natation-le-roi-leon-de-retour-a-paris_8141843.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Va-t-il réveiller la magie des JO ? Léon Marchand est de retour à Paris pour les championnats d'Europe de natation. Tout juste remis d'une blessure, il a dû renoncer à plusieurs…",
-          "pubDate": "2026-08-10T12:14:29.000Z",
+          "title": "Courir moins vite, tactique... Comment Femke Broeders-Bol, double championne du monde du 400 m haies, s'est invitée parmi les meilleures sur 800 m en dix mois",
+          "link": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/courir-moins-vite-tactique-comment-femke-broeders-bol-double-championne-du-monde-du-400-m-haies-s-est-invitee-parmi-les-meilleures-sur-800-m-en-dix-mois_8102747.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La détentrice du record d'Europe du 400 m haies s'est lancée, en octobre dernier, sur le 800 m en vue des JO 2028. La Néerlandaise tentera, à partir de mardi, d'atteindre la…",
+          "pubDate": "2026-08-11T09:57:54.000Z",
           "source": "franceinfo"
         },
         {
-          "title": "Crise à la Fifa : « Le football n’appartient à aucun individu »… L’UEFA, la Concacaf et l’AFC dézinguent encore Infantino",
-          "link": "https://www.20minutes.fr/sport/football/4238574-20260810-crise-fifa-football-appartient-aucun-individu-uefa-concacaf-afc-lachent-infantino?at_medium=display&amp;at_campaign=149",
-          "summary": "Les trois confédérations ont publié ce lundi une lettre ouverte pour critiquer vivement l’actuel boss controversé de la Fifa",
-          "pubDate": "2026-08-10T11:18:12.000Z",
+          "title": "Championnats d’Europe de natation : 5e des séries mais éliminé, Ndoye Brouard victime de la pire règle de l’histoire ?",
+          "link": "https://www.20minutes.fr/sport/4238694-20260811-championnats-europe-natation-5e-series-elimine-ndoye-brouard-victime-pire-regle-histoire?at_medium=display&amp;at_campaign=149",
+          "summary": "Vainqueur de sa série sur 200 m dos, Yohann Ndoye Brouard est quand même passé à la trappe à cause de quotas empêchant plus de deux nageurs d’un même pays d’accéder au tour suivant",
+          "pubDate": "2026-08-11T09:57:24.000Z",
           "source": "20 Minutes"
         },
         {
-          "title": "Championnats d’Europe de natation : Grâce à Sauveur Cristofini, la France sera en finale du 4x200 m, et avec Léon Marchand",
-          "link": "https://www.20minutes.fr/sport/natation/4238560-20260810-championnats-europe-natation-grace-sauveur-cristofini-france-finale-4x200-leon-marchand?at_medium=display&amp;at_campaign=149",
-          "summary": "Les Championnats d’Europe de natation à Paris Saint-Denis ont été idéalement lancés ce lundi matin pour la délégation tricolore, à l’image de la qualification acquise par le…",
-          "pubDate": "2026-08-10T10:42:22.000Z",
+          "title": "Un projet de parc d'attractions Dragon Ball à l'étude en Île-de-France, sur le site de Mirapolis, pionnier du genre, fermé il y a trente-cinq ans",
+          "link": "https://www.franceinfo.fr/culture/cinema/films-animation/un-projet-de-parc-d-attractions-dragon-ball-a-l-etude-en-ile-de-france-sur-le-site-de-mirapolis-pionnier-du-genre-ferme-il-y-a-trente-cinq-ans_8142875.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le projet, porté par une société d'investissement saoudienne, serait déjà \"très avancé\" même si aucune annonce officielle n'a encore été faite.",
+          "pubDate": "2026-08-11T09:51:23.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Mercato : Un journaliste turc interpellé par la police pour avoir annoncé (à tort) le transfert de Musiala à Galatasaray",
+          "link": "https://www.20minutes.fr/sport/football/mercato/4238687-20260811-mercato-journaliste-turc-interpelle-police-avoir-annonce-tort-transfert-musiala-galatasaray?at_medium=display&amp;at_campaign=149",
+          "summary": "Le journaliste sportif turc Burhan Can Terzi a été arrêté par la police, lundi à Istanbul, pour « diffusion publique d’informations trompeuses ». Il a dû se justifier pour ses…",
+          "pubDate": "2026-08-11T08:45:22.000Z",
           "source": "20 Minutes"
+        },
+        {
+          "title": "Des parquets de basket au tour de piste, l'itinéraire atypique de Samuel Vessat, recordman de France du 400 m deux ans après ses débuts en compétition",
+          "link": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/des-parquets-de-basket-au-tour-de-piste-l-itineraire-atypique-de-samuel-vessat-recordman-de-france-du-400-m-deux-ans-apres-ses-debuts-en-competition_8142527.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Quatrième meilleur performeur européen de l'histoire, le Francilien s'entraîne aux Etats-Unis où il bénéficie d'une bourse universitaire. Pendant longtemps, l'athlétisme ne lui…",
+          "pubDate": "2026-08-11T08:16:19.000Z",
+          "source": "franceinfo"
         }
       ]
     }
