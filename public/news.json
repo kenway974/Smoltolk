@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-08-12T10:19:20.992Z",
+  "generatedAt": "2026-08-12T11:20:51.025Z",
   "categories": [
     {
       "key": "une",
       "label": "À la une",
       "items": [
         {
-          "title": "Oiseaux qui cessent de chanter, températures qui chutent… Que se passe-t-il dans la nature durant une éclipse solaire totale ?",
-          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/oiseaux-qui-cessent-de-chanter-temperatures-qui-chutent-que-se-passe-t-il-dans-la-nature-durant-une-eclipse-solaire-totale_8135903.html#xtor=RSS-3-[lestitres]",
-          "summary": "Mercredi, la bande de totalité de l'éclipse va passer par l'Atlantique Nord, l'Islande et le nord de l'Espagne avant de s'achever sur les Baléares. Dans cette zone, de curieux…",
-          "pubDate": "2026-08-12T10:18:07.000Z",
+          "title": "DIRECT. Éclipse solaire: conseils, précautions... Suivez en direct les préparatifs de l'événement exceptionnel",
+          "link": "https://www.bfmtv.com/sciences/direct-eclipse-solaire-conseils-precautions-suivez-en-direct-les-preparatifs-de-l-evenement-exceptionnel_LN-202608120295.html",
+          "summary": "Des millions d'Européens et de passionnés du monde entier se préparent à contempler le ciel, ce mercredi 12 août, lors d'une rare éclipse solaire totale qui plongera très…",
+          "pubDate": "2026-08-12T11:08:34.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "INFO BFMTV. Marseille: un adolescent de 17 ans meurt après avoir consommé du protoxyde d'azote",
+          "link": "https://www.bfmtv.com/police-justice/info-bfmtv-marseille-un-adolescent-de-17-ans-meurt-apres-avoir-consomme-du-protoxyde-d-azote_AN-202608120292.html",
+          "summary": "Le jeune homme de 17 ans avait été pris en charge à la fin du week-end aux urgences après avoir consommé une \"quantité importante\" de protoxyde d'azote. Sorti des urgences lundi,…",
+          "pubDate": "2026-08-12T11:03:02.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "La Corée du Nord renforce son aide militaire à la Russie dans le cadre de la guerre contre l’Ukraine",
+          "link": "https://www.lemonde.fr/international/article/2026/08/12/la-coree-du-nord-renforce-son-aide-militaire-a-la-russie-dans-le-cadre-de-la-guerre-contre-l-ukraine_6745049_3210.html",
+          "summary": "Selon le renseignement militaire ukrainien, Pyongyang s’apprêterait à envoyer jusqu’à 50 000 soldats supplémentaires et a déployé une unité équipée de missiles balistiques en…",
+          "pubDate": "2026-08-12T11:00:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "Alors qu'il souhaite devenir \"propre\" à l'horizon 2040, le géant Amazon va construire un immense data center au Texas avec une centrale à gaz pour l'alimenter en électricité",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/alors-qu-il-souhaite-devenir-propre-a-l-horizon-2040-le-geant-amazon-va-construire-un-immense-data-center-au-texas-avec-une-centrale-a-gaz-pour-l-alimenter-en-electricite_AV-202608120289.html",
+          "summary": "Le dérèglement climatique fait des ravages ces derniers mois, mais cela n'empêche pas le géant du e-commerce Amazon de prévoir la construction d'une \"gigafactory\" qui sera…",
+          "pubDate": "2026-08-12T10:57:59.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "\"Le 18 août, ce sera mon tour\" : Sophie Adenot va devenir la première Française à effectuer une sortie dans l'espace",
+          "link": "https://www.franceinfo.fr/sciences/espace/sophie-adenot/le-18-aout-ce-sera-mon-tour-de-sortir-sophie-adenot-va-accomplir-la-premiere-sortie-dans-l-espace-d-une-francaise_8144489.html#xtor=RSS-3-[lestitres]",
+          "summary": "L'astronaute française va effectuer une réparation sur le système de transmission de la station spatiale internationale, avec un collègue américain.",
+          "pubDate": "2026-08-12T10:56:33.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Liban : le Parlement vote une loi d'amnistie générale, en débat depuis plusieurs années",
-          "link": "https://www.france24.com/fr/moyen-orient/20260812-liban-parlement-vote-loi-amnistie-g%C3%A9n%C3%A9rale-d%C3%A9bat-plusieurs-ann%C3%A9es",
-          "summary": "En débat depuis des années, la loi d'amnistie générale a été adoptée mercredi par le Parlement libanais. Celle-ci doit notamment réduire la durée de certaines peines, profitant à…",
-          "pubDate": "2026-08-12T10:15:58.000Z",
-          "source": "France 24"
-        },
-        {
-          "title": "INFO BFM. Accusations visant Guillaume Pley: le fondateur du média Legend annonce déposer plusieurs plaintes pour diffamation",
-          "link": "https://www.bfmtv.com/people/medias-tv/info-bfm-accusations-visant-guillaume-pley-le-fondateur-du-media-legend-annonce-deposer-plusieurs-plaintes-pour-diffamation_AN-202608120274.html",
-          "summary": "L'ancien animateur radio et fondateur du média Legend, Guillaume Pley, a annoncé le dépôt de plusieurs plaintes en diffamation après la publication de différentes enquêtes le…",
-          "pubDate": "2026-08-12T10:15:04.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Vladimir Poutine menace de saisir des navires occidentaux en mesure de représailles",
-          "link": "https://www.bfmtv.com/international/asie/russie/video-vladimir-poutine-menace-de-saisir-des-navires-occidentaux-en-mesure-de-represailles_VN-202608120275.html",
-          "summary": "Le président russe Vladimir Poutine a menacé mercredi de saisir des navires occidentaux en mesure de représailles à l'arraisonnement par des pays européens de bateaux soupçonnés…",
-          "pubDate": "2026-08-12T10:11:27.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Éclipse: ne laissez pas vos enfants de moins de 3 ans regarder, même avec des lunettes",
-          "link": "https://www.bfmtv.com/sante/eclipse-ne-laissez-pas-vos-enfants-de-moins-de-3-ans-regarder-meme-avec-des-lunettes_AN-202608120271.html",
-          "summary": "En préparation à l'éclipse solaire visible en France ce mercredi 12 août, le ministère de la Santé recommande de ne pas laisser les enfants de moins de trois ans regarder le…",
-          "pubDate": "2026-08-12T10:10:11.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -47,39 +47,39 @@
       "label": "Monde",
       "items": [
         {
-          "title": "Liban : le Parlement vote une loi d'amnistie générale, en débat depuis plusieurs années",
-          "link": "https://www.france24.com/fr/moyen-orient/20260812-liban-parlement-vote-loi-amnistie-g%C3%A9n%C3%A9rale-d%C3%A9bat-plusieurs-ann%C3%A9es",
-          "summary": "En débat depuis des années, la loi d'amnistie générale a été adoptée mercredi par le Parlement libanais. Celle-ci doit notamment réduire la durée de certaines peines, profitant à…",
-          "pubDate": "2026-08-12T10:15:58.000Z",
-          "source": "France 24"
+          "title": "REPORTAGE. \"Nous avons toujours été solidaires\" : en Colombie, après le puissant séisme des habitants de Medellin multiplient les dons aux victimes",
+          "link": "https://www.franceinfo.fr/environnement/catastrophes-naturelles/seismes/reportage-nous-avons-toujours-ete-solidaires-en-colombie-apres-le-puissant-seisme-des-habitants-de-medellin-multiplient-les-dons-aux-victimes_8144435.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La solidarité s'organise en Colombie après le séisme qui a fait au moins 216 morts. Dans la ville de Medellín, de nombreux habitants déposent des dons qui seront ensuite…",
+          "pubDate": "2026-08-12T11:04:17.000Z",
+          "source": "franceinfo"
         },
         {
-          "title": "Vladimir Poutine menace de saisir des navires occidentaux en mesure de représailles",
-          "link": "https://www.bfmtv.com/international/asie/russie/video-vladimir-poutine-menace-de-saisir-des-navires-occidentaux-en-mesure-de-represailles_VN-202608120275.html",
-          "summary": "Le président russe Vladimir Poutine a menacé mercredi de saisir des navires occidentaux en mesure de représailles à l'arraisonnement par des pays européens de bateaux soupçonnés…",
-          "pubDate": "2026-08-12T10:11:27.000Z",
+          "title": "La Corée du Nord renforce son aide militaire à la Russie dans le cadre de la guerre contre l’Ukraine",
+          "link": "https://www.lemonde.fr/international/article/2026/08/12/la-coree-du-nord-renforce-son-aide-militaire-a-la-russie-dans-le-cadre-de-la-guerre-contre-l-ukraine_6745049_3210.html",
+          "summary": "Selon le renseignement militaire ukrainien, Pyongyang s’apprêterait à envoyer jusqu’à 50 000 soldats supplémentaires et a déployé une unité équipée de missiles balistiques en…",
+          "pubDate": "2026-08-12T11:00:09.000Z",
+          "source": "Le Monde"
+        },
+        {
+          "title": "REPORTAGE. \"Les gens ne savaient pas s'ils devaient se rendre aux abris\" : sur les réseaux sociaux, un opposant russe informe la population des frappes ukrainiennes",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/reportage-les-gens-ne-savaient-pas-s-ils-devaient-se-rendre-aux-abris-sur-les-reseaux-sociaux-un-opposant-russe-informe-la-population-des-frappes-ukrainiennes_8144276.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "En Russie, les habitants se montrent de plus en plus inquiets face aux frappes ukrainiennes, alors que Moscou utilise de son côté davantage de missiles balistiques. A Omsk, en…",
+          "pubDate": "2026-08-12T10:48:05.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Menacé, Donald Trump confirme avoir été exfiltré secrètement d'Air Force One en juillet",
+          "link": "https://www.bfmtv.com/international/video-menace-donald-trump-confirme-avoir-ete-exfiltre-secretement-d-air-force-one-en-juillet_VN-202608120284.html",
+          "summary": "Selon The Washington Post, Donald Trump n'a pas quitté la Turquie à bord d'Air Force One à l'issue du sommet de l'Otan début juillet. Le président américain a pris un autre avion,…",
+          "pubDate": "2026-08-12T10:42:48.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "La préfecture de police de Paris ordonne l'évacuation du Samu social, occupé par des salariés grévistes et 400 personnes",
-          "link": "https://www.franceinfo.fr/economie/greve/la-prefecture-de-police-de-paris-ordonne-l-evacuation-du-samu-social-occupe-par-des-salaries-grevistes-et-400-personnes_8144318.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "L'appel à la grève de la CGT a été lancé le 23 juin, pour protester contre \"la remise à la rue de trop nombreuses familles\".",
-          "pubDate": "2026-08-12T10:04:46.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Raphaël Glucksmann annonce avoir porté plainte après des ingérences étrangères",
-          "link": "https://www.franceinfo.fr/politique/raphael-glucksmann/raphael-glucksmann-annonce-avoir-porte-plainte-apres-des-ingerences-etrangeres_8144420.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le média Blast dont l'identité graphique a été usurpée pour maquiller cette campagne de désinformation annonce également qu'il va porter plainte.",
-          "pubDate": "2026-08-12T10:03:48.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Zambie : le bilan du président Hakainde Hichilema à l'épreuve des urnes",
-          "link": "https://www.france24.com/fr/vid%C3%A9o/20260812-zambie-le-bilan-du-pr%C3%A9sident-hakainde-hichilema-%C3%A0-l-%C3%A9preuve-des-urnes",
-          "summary": "En Zambie, la présidentielle se joue jeudi 13 août entre le président sortant et le chef de l’opposition. Au cœur de la campagne : la flambée du coût de la vie. Les électeurs…",
-          "pubDate": "2026-08-12T09:59:33.000Z",
-          "source": "France 24"
+          "title": "Au Liban, le Parlement vote une loi d’amnistie générale attendue de longue date",
+          "link": "https://www.lemonde.fr/international/article/2026/08/12/au-liban-le-parlement-vote-une-loi-d-amnistie-generale-attendue-de-longue-date_6745048_3210.html",
+          "summary": "Les autorités n’ont pas précisé dans l’immédiat combien de personnes étaient concernées. Les députés à l’initiative de la loi l’ont justifiée par la surpopulation carcérale dans…",
+          "pubDate": "2026-08-12T10:39:04.000Z",
+          "source": "Le Monde"
         }
       ]
     },
@@ -129,7 +129,7 @@
       "label": "Société",
       "items": [
         {
-          "title": "L'association AC!! Anti-Corruption porte plainte contre un \"système d'emplois fictifs\" pour des élus parisiens et franciliens à la RATP",
+          "title": "L'association AC !! Anti-Corruption porte plainte contre X, soupçonnant l'existence d'un \"système d'emplois fictifs\" destiné à des élus à la RATP",
           "link": "https://www.franceinfo.fr/societe/justice/l-association-ac-anti-corruption-porte-plainte-contre-un-systeme-d-emplois-fictifs-pour-des-elus-parisiens-et-franciliens-a-la-ratp_8144429.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Cette plainte s'inscrit dans le sillage de celle visant l'Insoumis Bally Bagayoko, soupçonné par l'association de détournement de fonds publics et d'emploi fictif.",
           "pubDate": "2026-08-12T10:09:15.000Z",
@@ -170,6 +170,13 @@
       "label": "Justice & faits divers",
       "items": [
         {
+          "title": "INFO BFMTV. Marseille: un adolescent de 17 ans meurt après avoir consommé du protoxyde d'azote",
+          "link": "https://www.bfmtv.com/police-justice/info-bfmtv-marseille-un-adolescent-de-17-ans-meurt-apres-avoir-consomme-du-protoxyde-d-azote_AN-202608120292.html",
+          "summary": "Le jeune homme de 17 ans avait été pris en charge à la fin du week-end aux urgences après avoir consommé une \"quantité importante\" de protoxyde d'azote. Sorti des urgences lundi,…",
+          "pubDate": "2026-08-12T11:03:02.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "Trois personnes sont mortes dans l'incendie d'un gîte à Lhoumois, dans les Deux-Sèvres",
           "link": "https://www.franceinfo.fr/faits-divers/incendie/trois-personnes-sont-mortes-dans-l-incendie-d-un-gite-a-lhoumois-dans-les-deux-sevres_8144306.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Des feux partis d'un champ se sont propagés \"à un gîte attenant\". Les gendarmes ont retrouvés trois corps dans les débris qui n'ont pas encore pu être identifiés. Une enquête est…",
@@ -196,13 +203,6 @@
           "summary": "Un incendie a causé la mort de trois personnes dans l'incendie d'un gîte et d'un hangar agricole dans les Deux-Sèvres à Lhoumois ce mardi 11 août.",
           "pubDate": "2026-08-12T08:28:19.000Z",
           "source": "BFMTV"
-        },
-        {
-          "title": "Éclipse solaire, dérèglement climatique, pompiers... Le \"8h30 franceinfo\" de Jean-Didier Berger.",
-          "link": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/eclipse-solaire-dereglement-climatique-pompiers-le-8h30-franceinfo-de-jean-didier-berger_8070341.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le ministre délégué auprès du ministre de l’Intérieur était l'invité du \"8h30 franceinfo\", mercredi 12 août 2026.",
-          "pubDate": "2026-08-12T07:53:58.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -211,39 +211,39 @@
       "label": "Éco & argent",
       "items": [
         {
+          "title": "\"C'est un leurre\" : les produits à base de nicotine reviennent sous des formes de plus en plus créatives et accessibles pour contourner les interdictions et cibler les jeunes",
+          "link": "https://www.franceinfo.fr/sante/drogue-addictions/cigarette-electronique/c-est-un-leurre-les-produits-a-base-de-nicotine-reviennent-sous-des-formes-de-plus-en-plus-creatives-et-accessibles-pour-contourner-les-interdictions-et-cibler-les-jeunes_8142179.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Poches de nicotine, vapotage et tabac chauffé… Les produits sans tabac à base de nicotine sont souvent présentés comme moins risqués pour la santé que la cigarette classique. Ces…",
+          "pubDate": "2026-08-12T11:08:38.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Pourquoi, malgré l'interdiction du démarchage téléphonique, vous risquez encore de recevoir des appels",
+          "link": "https://www.franceinfo.fr/internet/telephonie/pourquoi-malgre-l-interdiction-du-demarchage-telephonique-vous-risquez-encore-de-recevoir-des-appels_8143169.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "La troisième loi en quinze ans pour encadrer cette pratique est entrée en vigueur mardi, mais certains appels commerciaux resteront autorisés sous conditions et des contournements…",
+          "pubDate": "2026-08-12T10:53:31.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Avions dédiés, à l'arrière d'une voiture, dans un TGV, depuis l'espace... Ces lieux insolites où observer l'éclipse solaire \"en mouvement\"",
+          "link": "https://www.bfmtv.com/economie/entreprises/transports/avions-dedies-a-l-arriere-d-une-voiture-dans-un-tgv-depuis-l-espace-ces-lieux-insolites-ou-observer-l-eclipse-solaire-en-mouvement_AV-202608120280.html",
+          "summary": "Alors que des millions de personnes guetteront l'éclipse solaire ce mercredi 12 août 2026, certains vivront ce moment rare depuis un hublot d'avion, la banquette d'une voiture, le…",
+          "pubDate": "2026-08-12T10:29:57.000Z",
+          "source": "BFMTV"
+        },
+        {
+          "title": "\"Bâtir une Corée du Sud face à laquelle personne ne pourra rivaliser\": le gouvernement présente un grand plan technologique, avec notamment un alunissage en 2030 et un processeur quantique",
+          "link": "https://www.bfmtv.com/economie/international/batir-une-coree-du-sud-face-a-laquelle-personne-ne-pourra-rivaliser-le-gouvernement-presente-un-grand-plan-technologique-avec-notamment-un-alunissage-en-2030-et-un-processeur-quantique_AV-202608120279.html",
+          "summary": "La Corée du Sud a dévoilé ce mercredi un ambitieux programme de développement de sa stratégie technologique. Le pays ambitionne un premier alunissage en 2030 et de lourds…",
+          "pubDate": "2026-08-12T10:29:08.000Z",
+          "source": "BFMTV"
+        },
+        {
           "title": "La préfecture de police de Paris ordonne l'évacuation du Samu social, occupé par des salariés grévistes et 400 personnes",
           "link": "https://www.franceinfo.fr/economie/greve/la-prefecture-de-police-de-paris-ordonne-l-evacuation-du-samu-social-occupe-par-des-salaries-grevistes-et-400-personnes_8144318.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "L'appel à la grève de la CGT a été lancé le 23 juin, pour protester contre \"la remise à la rue de trop nombreuses familles\".",
           "pubDate": "2026-08-12T10:04:46.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "Inde : le président de Tata Sons, la holding de Tata, plus grand conglomérat du pays, annonce son départ",
-          "link": "https://www.lemonde.fr/economie/article/2026/08/12/inde-le-president-de-tata-sons-la-holding-de-tata-plus-grand-conglomerat-du-pays-annonce-son-depart_6744980_3234.html",
-          "summary": "Natarajan Chandrasekaran ne briguera pas de nouveau mandat début 2027, a-t-il annoncé alors que le groupe indien traverse un moment difficile.",
-          "pubDate": "2026-08-12T09:58:29.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "Vladimir Poutine dénonce des mesures de \"piraterie et banditisme\": le président russe menace de saisir des bateaux occidentaux en réponse aux interceptions des navires de sa \"flotte fantôme\"",
-          "link": "https://www.bfmtv.com/economie/entreprises/defense/vladimir-poutine-denonce-des-mesures-de-piraterie-et-banditisme-le-president-russe-menace-de-saisir-des-bateaux-occidentaux-en-reponse-aux-interceptions-des-navires-de-sa-flotte-fantome_AD-202608120260.html",
-          "summary": "En réponse à l'arraisonnement de bateaux suspectés de faire partie de la \"flotte fantôme russe\", Vladimir Poutine a menacé de saisir des bateaux occidentaux. La Suède et la France…",
-          "pubDate": "2026-08-12T09:47:27.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "Face à la guerre au Moyen-Orient et à la flambée des cours, l'Agence internationale de l'énergie revoit à la baisse sa prévision de la demande de pétrole en 2026",
-          "link": "https://www.bfmtv.com/economie/entreprises/energie/face-a-la-guerre-au-moyen-orient-et-a-la-flambee-des-cours-l-agence-internationale-de-l-energie-revoit-a-la-baisse-sa-prevision-de-la-demande-de-petrole-en-2026_AD-202608120249.html",
-          "summary": "Selon l'Agence internationale de l'énergie (AIE), qui a revu à la baisse son estimation, la consommation mondiale pétrolière s'éleverait à 103,29 millions de barils par jour en…",
-          "pubDate": "2026-08-12T09:13:46.000Z",
-          "source": "BFMTV"
-        },
-        {
-          "title": "\"Ce sera transparent pour le consommateur\": pourquoi l'éclipse solaire n'aura aucune incidence sur la production électrique en France, contrairement à certains pays voisins",
-          "link": "https://www.bfmtv.com/economie/entreprises/energie/ce-sera-transparent-pour-le-consommateur-pourquoi-l-eclipse-solaire-n-aura-aucune-incidence-sur-la-production-electrique-en-france-contrairement-a-certains-pays-voisins_AV-202608120241.html",
-          "summary": "L'éclipse solaire prévue ce mercredi privera la France pendant deux heures d'une partie du rayonnement solaire. Pas un problème pour le consommateur français, qui ne sentira pas…",
-          "pubDate": "2026-08-12T09:01:11.000Z",
-          "source": "BFMTV"
         }
       ]
     },
@@ -293,6 +293,27 @@
       "label": "Santé",
       "items": [
         {
+          "title": "\"C'est un leurre\" : les produits à base de nicotine reviennent sous des formes de plus en plus créatives et accessibles pour contourner les interdictions et cibler les jeunes",
+          "link": "https://www.franceinfo.fr/sante/drogue-addictions/cigarette-electronique/c-est-un-leurre-les-produits-a-base-de-nicotine-reviennent-sous-des-formes-de-plus-en-plus-creatives-et-accessibles-pour-contourner-les-interdictions-et-cibler-les-jeunes_8142179.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Poches de nicotine, vapotage et tabac chauffé… Les produits sans tabac à base de nicotine sont souvent présentés comme moins risqués pour la santé que la cigarette classique. Ces…",
+          "pubDate": "2026-08-12T11:08:38.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "La CGT du CHU de Nantes alerte sur \"l'épuisement\" des personnels dû à la canicule",
+          "link": "https://www.franceinfo.fr/sante/hopital/crise/la-cgt-du-chu-de-nantes-alerte-sur-l-epuisement-des-personnels-du-a-la-canicule_8144507.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le syndicat appelle le gouvernement à \"prendre ses responsabilités\". Sinon, comme pendant le Covid, \"on va avoir des professionnels qui vont lâcher l'affaire\".",
+          "pubDate": "2026-08-12T11:02:34.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "L'Organisation mondiale de la santé se dit \"inquiète\" face à la nouvelle offensive de Donald Trump contre les vaccins",
+          "link": "https://www.franceinfo.fr/sante/vaccins/l-organisation-mondiale-de-la-sante-se-dit-inquiete-face-a-la-nouvelle-offensive-de-donald-trump-contre-les-vaccins_8143457.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le président des Etats-Unis a recommandé lundi de réduire le nombre de vaccins, et continué de suggérer un lien entre vaccination et autisme, ce que les connaissances…",
+          "pubDate": "2026-08-12T10:38:58.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "L’offensive déplorable de Donald Trump contre les vaccins",
           "link": "https://www.lemonde.fr/idees/article/2026/08/12/l-offensive-deplorable-de-donald-trump-contre-les-vaccins_6744947_3232.html",
           "summary": "En signant, lundi, un décret recommandant notamment aux Etats américains de diminuer le nombre de vaccins administrés en pédiatrie, le président républicain alimente de manière…",
@@ -305,27 +326,6 @@
           "summary": "L'écologiste Marine Tondelier a dénoncé mardi un \"fiasco\" de santé publique. En 1999, plus de 30 millions de lunettes agréées avaient été distribuées.",
           "pubDate": "2026-08-12T08:06:59.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "\"Ça se vend comme des petits pains\" : où peut-on encore trouver des lunettes pour regarder l'éclipse solaire ?",
-          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/ca-se-vend-comme-des-petits-pains-ou-peut-on-encore-trouver-des-lunettes-pour-regarder-l-eclipse-solaire_8142905.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Alors que certains comptent les heures avant de pouvoir voir l'éclipse solaire, mercredi dans la soirée, d'autres sont toujours à la recherche de lunettes de protection avant…",
-          "pubDate": "2026-08-12T06:34:00.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Pourquoi les glaces ne fondent-elles pas toutes de la même manière ?",
-          "link": "https://www.franceinfo.fr/replay-radio/le-billet-sciences-du-week-end/pourquoi-les-glaces-ne-fondent-elles-pas-toutes-de-la-meme-maniere_8117657.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Fraise, vanille ou encore pistache… Alors que les glaces, font le plaisir de l'été, elles n'ont qu'un seul défaut : elles fondent. Mais pas toute de la même manière. Des…",
-          "pubDate": "2026-08-12T05:00:02.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Le ministère de la Santé avait recensé 250 lésions des yeux lors de l'éclipse solaire du 11 août 1999",
-          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/le-ministere-de-la-sante-avait-recense-250-lesions-des-yeux-lors-de-l-eclipse-solaire-du-11-aout-1999_8143709.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Parmi ces 250 personnes, sept personnes sont malvoyantes des deux yeux, rapporte Santé publique France.",
-          "pubDate": "2026-08-12T04:00:03.000Z",
-          "source": "franceinfo"
         }
       ]
     },
@@ -334,11 +334,25 @@
       "label": "Sciences",
       "items": [
         {
-          "title": "DIRECT. Eclipse solaire : plus de 400 000 touristes attendus dans le nord de l'Espagne pour assister au phénomène",
+          "title": "DIRECT. Eclipse solaire : près de 450 000 touristes attendus dans le nord de l'Espagne pour assister au phénomène",
           "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/direct-suivez-avec-nous-l-eclipse-solaire-partielle-la-premiere-aussi-visible-dans-l-hexagone-depuis-1999_8144207.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Des millions d'Européens et de passionnés du monde entier contempleront mercredi le ciel avec émerveillement lors d'une rare éclipse solaire totale qui plongera très brièvement le…",
-          "pubDate": "2026-08-12T10:15:45.000Z",
+          "pubDate": "2026-08-12T11:15:42.000Z",
           "source": "franceinfo"
+        },
+        {
+          "title": "\"Le 18 août, ce sera mon tour de sortir\" : Sophie Adenot va accomplir la première sortie dans l'espace d'une Française",
+          "link": "https://www.franceinfo.fr/sciences/espace/sophie-adenot/le-18-aout-ce-sera-mon-tour-de-sortir-sophie-adenot-va-accomplir-la-premiere-sortie-dans-l-espace-d-une-francaise_8144489.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "L'astronaute française va effectuer avec un collègue américain une réparation sur le système de transmission de la station spatiale internationale.",
+          "pubDate": "2026-08-12T10:48:16.000Z",
+          "source": "franceinfo"
+        },
+        {
+          "title": "Eclipse solaire : filmer ou prendre en photo le phénomène peut-il être dangereux pour vos appareils ?",
+          "link": "https://www.lemonde.fr/pixels/article/2026/08/12/eclipse-filmer-ou-prendre-en-photo-le-phenomene-peut-il-etre-dangereux-pour-vos-appareils_6745047_4408996.html",
+          "summary": "Garder une trace photographique du phénomène est tentant. Mais des précautions sont de mises, aussi bien pour réussir ses photos… que pour ne pas dégrader son smartphone ou son…",
+          "pubDate": "2026-08-12T10:34:56.000Z",
+          "source": "Le Monde"
         },
         {
           "title": "À quelle heure voir l’éclipse solaire du 12 août 2026 en France ? Carte et horaires par ville",
@@ -353,20 +367,6 @@
           "summary": "Bien avant l'éclipse de 2026, un autre événement similaire avait attiré l'attention. C'était en 1973 : l'éclipse a été suivie en vol par un avion Concorde pendant plus d'une heure…",
           "pubDate": "2026-08-12T10:00:00.000Z",
           "source": "Numerama"
-        },
-        {
-          "title": "Le ministère de la Santé recommande de ne pas faire observer l'éclipse solaire aux enfants de moins de 3 ans",
-          "link": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/le-ministere-de-la-sante-recommande-de-ne-pas-leur-faire-observer-l-eclipse-solaire-aux-enfants-de-moins-de-3-ans_8144324.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Les autorités conseillent également d'apporter une vigilance particulière à tous les enfants durant le phénomène, car ceux-ci \"sont souvent moins conscients du danger\".",
-          "pubDate": "2026-08-12T09:46:13.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "L’éclipse solaire va-t-elle vraiment nous rafraîchir ?",
-          "link": "https://www.numerama.com/sciences/2309885-leclipse-solaire-va-t-elle-vraiment-nous-rafraichir.html",
-          "summary": "Alors que les températures resteront élevées ce mercredi soir, la Lune va masquer jusqu’à 99 % du Soleil. Jusqu’où le thermomètre va-t-il descendre ?",
-          "pubDate": "2026-08-12T09:38:47.000Z",
-          "source": "Numerama"
         }
       ]
     },
@@ -378,7 +378,7 @@
           "title": "Les objectifs européens de réduction des emballages entrent en vigueur, amoindris par une intense campagne de lobbying de l’industrie",
           "link": "https://www.lemonde.fr/planete/article/2026/08/12/les-objectifs-europeens-de-reduction-des-emballages-entrent-en-vigueur-amoindris-par-une-intense-campagne-de-lobbying-de-l-industrie_6744981_3244.html",
           "summary": "Le règlement européen sur les emballages et leurs déchets qui entre en vigueur mercredi 12 août affiche pour la première fois en Europe des objectifs de réduction.",
-          "pubDate": "2026-08-12T10:00:05.000Z",
+          "pubDate": "2026-08-12T10:00:02.000Z",
           "source": "Le Monde"
         },
         {
@@ -403,7 +403,7 @@
           "source": "Le Monde"
         },
         {
-          "title": "EN DIRECT, canicule : la quasi-totalité du pays en vigilance orange ; dans les Deux-Sèvres, un incendie parti d’un champ fait trois morts",
+          "title": "EN DIRECT, canicule : la quasi-totalité du pays en vigilance orange ; le parc de réacteurs nucléaires d’EDF connaît un pic d’indisponibilité en raison de « contraintes environnementales »",
           "link": "https://www.lemonde.fr/climat/live/2026/08/12/en-direct-canicule-la-quasi-totalite-du-pays-en-vigilance-orange-des-temperatures-maximales-de-l-ordre-de-36-c-a-39-c-selon-meteo-france_6744636_1652612.html",
           "summary": "Soixante-dix-huit départements sont classés mercredi en vigilance orange canicule par Météo-France, contre 43, mardi. Ce nouvel épisode de fortes chaleurs devrait durer plusieurs…",
           "pubDate": "2026-08-12T08:23:10.000Z",
@@ -416,39 +416,39 @@
       "label": "Tech & numérique",
       "items": [
         {
-          "title": "À quelle heure voir l’éclipse solaire du 12 août 2026 en France ? Carte et horaires par ville",
-          "link": "https://www.numerama.com/sciences/2248293-a-quelle-heure-voir-leclipse-solaire-du-12-aout-2026-en-france-carte-et-meilleur-endroit.html",
-          "summary": "L’éclipse solaire du 12 août 2026 débutera entre 19h19 et 19h31 en France métropolitaine, selon les villes. Son maximum surviendra autour de 20h20. Voici les horaires précis, la…",
-          "pubDate": "2026-08-12T10:10:17.000Z",
+          "title": "L’iPhone 18 Pro trop cher à fabriquer : Apple devrait rogner sur ses marges pour contenir le prix",
+          "link": "https://www.01net.com/actualites/liphone-18-pro-trop-cher-a-fabriquer-apple-devrait-rogner-sur-ses-marges-pour-contenir-le-prix.html",
+          "summary": "La pénurie de mémoire qui a déjà renchéri les Mac et les iPad arrive aux portes de l'iPhone. Et cette fois, la facture de fabrication donne le vertige.",
+          "pubDate": "2026-08-12T11:13:44.000Z",
+          "source": "01net"
+        },
+        {
+          "title": "ChatGPT arrive enfin sur Linux, avec Work et Codex",
+          "link": "https://www.numerama.com/tech/2310143-chatgpt-arrive-enfin-sur-linux-avec-work-et-codex.html",
+          "summary": "OpenAI a annoncé, le 11 août 2026, lancer une version preview de son application ChatGPT pour Linux. Elle réunit au sein d’une même interface ChatGPT, l’agent professionnel Work…",
+          "pubDate": "2026-08-12T11:02:00.000Z",
           "source": "Numerama"
         },
         {
-          "title": "Le jour où un avion Concorde a suivi une éclipse solaire en vol supersonique",
-          "link": "https://www.numerama.com/sciences/2310035-le-jour-ou-un-avion-concorde-a-suivi-une-eclipse-solaire-a-travers-le-monde.html",
-          "summary": "Bien avant l'éclipse de 2026, un autre événement similaire avait attiré l'attention. C'était en 1973 : l'éclipse a été suivie en vol par un avion Concorde pendant plus d'une heure…",
-          "pubDate": "2026-08-12T10:00:00.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Jusqu'à 3 millions de numéros concernés: fermée le 11 août, la plateforme Bloctel qui luttait contre les appels indésirables… victime d'une fuite de données",
-          "link": "https://www.bfmtv.com/tech/cybersecurite/jusqu-a-3-millions-de-numeros-concernes-fermee-le-11-aout-la-plateforme-bloctel-qui-luttait-contre-les-appels-indesirables-victime-d-une-fuite-de-donnees_AV-202608120262.html",
-          "summary": "Alors que Bloctel n'est plus en service, juste avant sa fermeture, la plateforme a été victime d'une fuite de données exposant potentiellement des millions de numéros de téléphone.",
-          "pubDate": "2026-08-12T09:54:55.000Z",
+          "title": "Alors qu'il souhaite devenir \"propre\" à l'horizon 2040, le géant Amazon va construire un immense data center au Texas avec une centrale à gaz pour l'alimenter en électricité",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/alors-qu-il-souhaite-devenir-propre-a-l-horizon-2040-le-geant-amazon-va-construire-un-immense-data-center-au-texas-avec-une-centrale-a-gaz-pour-l-alimenter-en-electricite_AV-202608120289.html",
+          "summary": "Le dérèglement climatique fait des ravages ces derniers mois, mais cela n'empêche pas le géant du e-commerce Amazon de prévoir la construction d'une \"gigafactory\" qui sera…",
+          "pubDate": "2026-08-12T10:57:59.000Z",
           "source": "BFMTV"
         },
         {
-          "title": "La saison 2 de la série Harry Potter accueille une star du cinéma",
-          "link": "https://www.numerama.com/pop-culture/2310025-la-saison-2-de-la-serie-harry-potter-accueille-une-star-du-cinema.html",
-          "summary": "La grande adaptation télévisée de la saga Harry Potter prépare déjà sa suite et vient d'enrôler une grande figure du cinéma britannique. L'acteur Nicholas Hoult rejoint la…",
-          "pubDate": "2026-08-12T09:40:00.000Z",
-          "source": "Numerama"
+          "title": "Comment éviter les fraudes à la carte bancaire ? Revolut propose cette solution qui s'avère efficace",
+          "link": "https://www.bfmtv.com/tech/bons-plans/banque-en-ligne/comment-eviter-les-fraudes-a-la-carte-bancaire-revolut-propose-cette-solution-qui-s-avere-efficace_AB-202608120013.html",
+          "summary": "Faire des achats en ligne, payer des abonnements ou mettre en place des essais gratuits c’est bien, mais lorsqu'il y a un prélèvement frauduleux, la situation n’est pas si simple.…",
+          "pubDate": "2026-08-12T10:49:00.000Z",
+          "source": "BFMTV"
         },
         {
-          "title": "L’éclipse solaire va-t-elle vraiment nous rafraîchir ?",
-          "link": "https://www.numerama.com/sciences/2309885-leclipse-solaire-va-t-elle-vraiment-nous-rafraichir.html",
-          "summary": "Alors que les températures resteront élevées ce mercredi soir, la Lune va masquer jusqu’à 99 % du Soleil. Jusqu’où le thermomètre va-t-il descendre ?",
-          "pubDate": "2026-08-12T09:38:47.000Z",
-          "source": "Numerama"
+          "title": "Un mot de Pékin et la transaction est annulée: Meta ne rachètera finalement pas la start-up d'IA Manus, qui va redevenir indépendante",
+          "link": "https://www.bfmtv.com/tech/intelligence-artificielle/un-mot-de-pekin-et-la-transaction-est-annulee-meta-ne-rachetera-finalement-pas-la-start-up-d-ia-manus-qui-va-redevenir-independante_AD-202608120283.html",
+          "summary": "Le mariage entre Manus et Meta n’aura finalement pas duré. La start-up d’IA annonce sa séparation du géant américain, après que les autorités chinoises ont bloqué leur opération…",
+          "pubDate": "2026-08-12T10:43:15.000Z",
+          "source": "BFMTV"
         }
       ]
     },
@@ -456,6 +456,13 @@
       "key": "jeuxvideo",
       "label": "Jeux vidéo",
       "items": [
+        {
+          "title": "Où suivre le match entre le PSG et Aston Villa, en direct et en streaming ?",
+          "link": "https://www.numerama.com/pop-culture/2309959-ou-suivre-le-match-entre-le-psg-et-aston-villa-en-direct-et-en-streaming.html",
+          "summary": "Comme en 2025, le PSG, double vainqueur de la Ligue des champions en titre, démarre sa saison 2026/2027 par la Supercoupe d'Europe. Après Tottenham l'année dernière, c'est Aston…",
+          "pubDate": "2026-08-12T10:35:00.000Z",
+          "source": "Numerama"
+        },
         {
           "title": "La saison 2 de la série Harry Potter accueille une star du cinéma",
           "link": "https://www.numerama.com/pop-culture/2310025-la-saison-2-de-la-serie-harry-potter-accueille-une-star-du-cinema.html",
@@ -471,25 +478,18 @@
           "source": "Numerama"
         },
         {
-          "title": "Arrêtez tout, The Elder Scrolls 6 est jouable !",
-          "link": "https://www.numerama.com/pop-culture/2309931-arretez-tout-the-elder-scrolls-6-est-jouable.html",
-          "summary": "Il n'y a pas que GTA qui a un sixième épisode attendu de pied ferme. La saga The Elder Scrolls aussi va voir débarquer The Elder Scrolls VI dans pas longtemps (comprendre : dans…",
-          "pubDate": "2026-08-12T07:54:38.000Z",
-          "source": "Numerama"
-        },
-        {
-          "title": "Le film live-action Zelda marquera l'ultime apparition au cinéma de cet acteur légendaire de Jurassic Park",
-          "link": "https://www.jeuxvideo.com/news/2097960/le-film-live-action-zelda-marquera-l-ultime-apparition-au-cinema-de-cet-acteur-legendaire-de-jurassic-park.htm",
-          "summary": "Le Royaume d'Hyrule accueillera plusieurs nouveaux visages lors de son passage sur grand écran, le 30 avril 2027. Mais derrière l'un des rôles encore gardés secrets se cache une…",
-          "pubDate": "2026-08-12T07:40:07.000Z",
+          "title": "Jusqu'à -67% sur ces dizaines de jeux PC parfaits pour l'été !",
+          "link": "https://www.jeuxvideo.com/news/2098166/jusqu-a-67-sur-ces-dizaines-de-jeux-pc-parfaits-pour-l-ete.htm",
+          "summary": "À l'occasion de la Wholesome Games Celebration (petit festival de jeux apaisants en somme) Steam propose des réductions en masse sur toute une flopée de petits jeux cosy pour cet…",
+          "pubDate": "2026-08-12T08:30:10.000Z",
           "source": "Jeuxvideo.com"
         },
         {
-          "title": "Pour le troisième film Mortal Kombat, ça sent le sapin",
-          "link": "https://www.numerama.com/pop-culture/2309915-pour-le-troisieme-film-mortal-kombat-ca-sent-le-sapin.html",
-          "summary": "Le réalisateur Simon McQuoid a déclaré que l'avenir des films Mortal Kombat est hautement incertain. Le deuxième opus, sorti en 2026, a fait un four au box-office mondial.",
-          "pubDate": "2026-08-12T07:05:00.000Z",
-          "source": "Numerama"
+          "title": "Test MARVEL Tokon : Fighting Souls sur PC et PS5",
+          "link": "https://www.jeuxvideo.com/test/2098320/test-de-marvel-tokon-un-jeu-qui-rendra-fou-les-fans-dans-le-bon-comme-le-mauvais-sens-du-terme.htm",
+          "summary": "Après Marvel Rivals ou encore Marvel Snap, les super-héros sont de retour dans un tout nouveau jeu de combat, Marvel Tokon Fighting Soul. Presque dix années nous séparent du…",
+          "pubDate": "2026-08-12T08:12:38.000Z",
+          "source": "Jeuxvideo.com"
         }
       ]
     },
@@ -539,6 +539,13 @@
       "label": "Culture",
       "items": [
         {
+          "title": "« La Fin d’Oak Street » marie « Jurassic Park » et « E.T. » et c’est réussi",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4238749-20260812-fin-oak-street-marie-jurassic-park-e-reussi?at_medium=display&amp;at_campaign=149",
+          "summary": "Ce divertissement horrifique réjouissant retrouve le charme des blockbusters hollywoodiens des années 1980",
+          "pubDate": "2026-08-12T10:23:37.000Z",
+          "source": "20 Minutes"
+        },
+        {
           "title": "ENTRETIEN. \"Le niveau de japonais qu'elle a pu atteindre est assez incroyable\" : Ryusuke Hamaguchi raconte sa collaboration avec Virginie Efira sur son film \"Soudain\"",
           "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/entretien-le-niveau-de-japonais-qu-elle-a-pu-atteindre-est-assez-incroyable-ryusuke-hamaguchi-raconte-sa-collaboration-avec-virginie-efira-sur-son-film-soudain_8144279.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Le nouveau film du réalisateur japonais raconte la rencontre entre une Japonaise et une Française autour de la question du soin des personnes âgées.",
@@ -565,13 +572,6 @@
           "summary": "Douze Etats américains, dont la Californie, ont déposé en juillet un recours en justice pour stopper cette fusion entre deux des plus gros studios du pays.",
           "pubDate": "2026-08-12T08:13:35.000Z",
           "source": "franceinfo"
-        },
-        {
-          "title": "« La Fin d’Oak Street » : « Jurassic Park » chez les banlieusards américains",
-          "link": "https://www.lemonde.fr/culture/article/2026/08/12/la-fin-d-oak-street-jurassic-park-chez-les-banlieusards-americains_6744842_3246.html",
-          "summary": "Entre science-fiction préhistorique et satire de l’Amérique pavillonnaire, David Robert Mitchell détourne avec ironie les codes du blockbuster de Steven Spielberg et signe un film…",
-          "pubDate": "2026-08-12T08:00:12.000Z",
-          "source": "Le Monde"
         }
       ]
     },
@@ -579,6 +579,13 @@
       "key": "cinema",
       "label": "Cinéma & séries",
       "items": [
+        {
+          "title": "« La Fin d’Oak Street » marie « Jurassic Park » et « E.T. » et c’est réussi",
+          "link": "https://www.20minutes.fr/arts-stars/cinema/4238749-20260812-fin-oak-street-marie-jurassic-park-e-reussi?at_medium=display&amp;at_campaign=149",
+          "summary": "Ce divertissement horrifique réjouissant retrouve le charme des blockbusters hollywoodiens des années 1980",
+          "pubDate": "2026-08-12T10:23:37.000Z",
+          "source": "20 Minutes"
+        },
         {
           "title": "« Une aube nouvelle » : un premier film d’animation délicat et mélancolique sur l’adieu à l’enfance",
           "link": "https://www.lemonde.fr/culture/article/2026/08/12/une-aube-nouvelle-un-premier-film-d-animation-delicat-et-melancolique-sur-l-adieu-a-l-enfance_6744943_3246.html",
@@ -605,13 +612,6 @@
           "link": "https://www.lemonde.fr/culture/article/2026/08/12/avec-une-affaire-turque-le-realisateur-huseyin-aydin-gursoy-signe-un-thriller-intime-autour-d-un-transfuge-de-classe_6744674_3246.html",
           "summary": "Le cinéaste, né en Turquie mais installé en France depuis l’âge de 3 ans, met en scène deux personnages d’origine turque de la deuxième génération qui ont fait des choix…",
           "pubDate": "2026-08-12T06:00:11.000Z",
-          "source": "Le Monde"
-        },
-        {
-          "title": "« The Quiet Family » et « L’Ile », deux films repris en salle en version restaurée, racontent la naissance du cinéma coréen moderne",
-          "link": "https://www.lemonde.fr/culture/article/2026/08/12/the-quiet-family-et-l-ile-deux-films-repris-en-salle-en-version-restauree-racontent-la-naissance-du-cinema-coreen-moderne_6744640_3246.html",
-          "summary": "Entre conte cruel et farce grand-guignolesque, les premiers longs-métrages de Kim Jee-woon et de Kim Ki-duk témoignent de la liberté caractéristique de la Nouvelle Vague…",
-          "pubDate": "2026-08-12T05:00:03.000Z",
           "source": "Le Monde"
         }
       ]
@@ -826,6 +826,13 @@
       "label": "Sport",
       "items": [
         {
+          "title": "Blessé à l'épaule, Teddy Riner retarde encore sa rentrée et déclare forfait pour le Grand Slam de Lausanne",
+          "link": "https://www.franceinfo.fr/sports/judo/teddy-riner/blesse-a-l-epaule-teddy-riner-retarde-encore-sa-rentree-et-declare-forfait-pour-le-grand-slam-de-lausanne_8144516.html#xtor=RSS-3-%5Bgeneral%5D",
+          "summary": "Le quintuple champion olympique de judo, qui n'a plus combattu en individuel depuis les Jeux de Paris il y a deux ans, n'a pas communiqué sur sa participation aux Mondiaux de…",
+          "pubDate": "2026-08-12T11:11:57.000Z",
+          "source": "franceinfo"
+        },
+        {
           "title": "La callisthénie : quel est ce sport que l'on voit partout sur les réseaux ?",
           "link": "https://www.franceinfo.fr/replay-radio/l-il-de-julie/la-callisthenie-quel-est-ce-sport-que-l-on-voit-partout-sur-les-reseaux_8070374.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Sur les réseaux sociaux, on voit des créateurs de contenus sport nous parler de \"callisthénie\", discipline de musculation et de gymnastique qui utilise uniquement le poids du…",
@@ -851,13 +858,6 @@
           "link": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/je-sais-que-ca-va-finir-par-le-faire-opportunite-manquee-aux-championnats-d-europe-apres-une-saison-de-haute-volee-pour-le-lanceur-de-marteau-yann-chaussinand_8143706.html#xtor=RSS-3-%5Bgeneral%5D",
           "summary": "Après avoir récemment battu le record de France de la discipline, le Français est passé à travers sa finale, mardi soir, aux championnats d'Europe de Birmingham.",
           "pubDate": "2026-08-12T04:15:02.000Z",
-          "source": "franceinfo"
-        },
-        {
-          "title": "Avec des joueurs tout juste revenus de vacances, quelle équipe pour le PSG face à Aston Villa en Supercoupe d’Europe ?",
-          "link": "https://www.franceinfo.fr/sports/foot/psg/avec-des-joueurs-tout-juste-revenus-de-vacances-quelle-equipe-pour-le-psg-face-a-aston-villa-en-supercoupe-d-europe_8143469.html#xtor=RSS-3-%5Bgeneral%5D",
-          "summary": "Le PSG, vainqueur de la Ligue des champions, affronte Aston Villa, vainqueur de la Ligue Europa, en Supercoupe d'Europe, mercredi à Salzbourg (Autriche) à 21 heures.",
-          "pubDate": "2026-08-12T04:00:03.000Z",
           "source": "franceinfo"
         }
       ]
