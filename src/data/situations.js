@@ -40367,56 +40367,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un de bien organisé, ça se voit à votre façon de faire les choses. Vous avez des petites habitudes qui rythment vos journées ?",
-        "relance": "Moi je fonctionne au café du matin, sans lui je ne démarre pas. Et vous, c est quoi le petit rituel dont vous ne pourriez pas vous passer ?"
+        "accroche": "T'as l'air super carré dans ta vie, t'as des petites habitudes qui rythment tes journées ?",
+        "relance": "Moi sans mon café du matin je démarre pas. Et toi c'est quoi le rituel dont tu peux pas te passer ?"
       },
       {
-        "accroche": "Vous semblez avoir un rythme bien à vous, vous dégagez un côté posé. Vous êtes plutôt du genre à planifier vos journées ou à improviser ?",
-        "relance": "Moi je note tout sur des petits papiers que je perds ensuite, c est un désastre. Et vous, comment vous vous organisez au quotidien ?"
+        "accroche": "T'as un rythme bien à toi on dirait. T'es plutôt à planifier tes journées ou à improviser ?",
+        "relance": "Moi je note tout sur des papiers que je perds après, un désastre. Et toi tu t'organises comment ?"
       },
       {
-        "accroche": "Vous donnez l impression d être quelqu un qui prend le temps, ça change. Vous arrivez à garder ce calme même dans les journées chargées ?",
-        "relance": "Moi je cours toujours après le temps, alors je suis admiratif. Et vous, c est quoi votre secret pour rester zen ?"
+        "accroche": "T'as l'air du genre à prendre ton temps, ça change. Tu gardes ce calme même les jours chargés ?",
+        "relance": "Moi je cours toujours après le temps, du coup je t'admire. C'est quoi ton secret pour rester zen ?"
       },
       {
-        "accroche": "Il y a quelque chose de tranquille dans votre attitude, on dirait que rien ne vous presse. Vous avez toujours été comme ça au jour le jour ?",
-        "relance": "Moi j ai mis des années à ralentir un peu. Et vous, vous avez toujours eu ce rapport détendu au quotidien ?"
+        "accroche": "Y a un truc tranquille chez toi, genre rien te presse. T'as toujours été comme ça au quotidien ?",
+        "relance": "Moi j'ai mis des années à ralentir un peu. Et toi t'as toujours eu ce rapport détendu aux journées ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Drôle de journée aujourd hui, on ne sait jamais trop sur quel pied danser. La vôtre ressemble à quoi jusqu ici ?",
-        "relance": "Moi j ai commencé sur les chapeaux de roue, ça n a pas arrêté. Et vous, votre journée est plutôt calme ou agitée ?"
+        "accroche": "Drôle de journée aujourd'hui, on sait jamais trop sur quel pied danser. La tienne elle ressemble à quoi jusque là ?",
+        "relance": "Moi j'ai démarré sur les chapeaux de roue, ça s'arrête pas. Et toi plutôt calme ou agitée ?"
       },
       {
-        "accroche": "On est en plein milieu de semaine, ce moment un peu bizarre où on est ni au début ni à la fin. Vous la vivez comment, cette période ?",
-        "relance": "Moi le milieu de semaine c est là que je fatigue le plus. Et vous, quel jour vous préférez dans la semaine ?"
+        "accroche": "On est en plein milieu de semaine, ce moment un peu bizarre. Tu le vis comment toi ?",
+        "relance": "Moi le milieu de semaine c'est là que je fatigue le plus. Et toi ton jour préféré c'est lequel ?"
       },
       {
-        "accroche": "C est fou comme certaines journées filent et d autres n en finissent pas. Vous avez remarqué ça aussi de votre côté ?",
-        "relance": "Moi je trouve que les journées bien remplies passent trop vite. Et vous, vous préférez les journées pleines ou tranquilles ?"
+        "accroche": "C'est fou comme certaines journées filent et d'autres en finissent pas. T'as remarqué ça aussi ?",
+        "relance": "Moi les journées bien remplies passent trop vite je trouve. Et toi tu préfères les journées pleines ou tranquilles ?"
       },
       {
-        "accroche": "Il y a des jours où tout s enchaîne sans qu on comprenne comment. Aujourd hui, ça se passe comment pour vous jusque là ?",
-        "relance": "Moi j essaie de prendre les choses comme elles viennent. Et vous, comment vous gérez quand la journée part dans tous les sens ?"
+        "accroche": "Y a des jours où tout s'enchaîne sans qu'on comprenne comment. Aujourd'hui ça se passe comment pour toi ?",
+        "relance": "Moi j'essaie de prendre les choses comme elles viennent. Et toi tu gères comment quand ça part dans tous les sens ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande souvent ce qui rend une journée vraiment agréable, ce n est pas toujours les grandes choses. Pour vous, ça tient à quoi une bonne journée ?",
-        "relance": "Moi c est un rien, un bon repas et un moment tranquille et je suis comblé. Et vous, il vous faut quoi pour dire que la journée était réussie ?"
+        "accroche": "Je me demande souvent ce qui rend une journée vraiment cool, c'est pas les grands trucs. Pour toi ça tient à quoi une bonne journée ?",
+        "relance": "Moi c'est un rien, un bon repas et un moment tranquille et je suis comblé. Et toi il te faut quoi ?"
       },
       {
-        "accroche": "On passe une grande partie de notre vie dans des gestes tout simples du quotidien, et pourtant on n y pense jamais. Vous, il y a un moment de la journée que vous aimez particulièrement ?",
-        "relance": "Moi c est le tout début de matinée, ce silence avant que ça bouge. Et vous, votre moment préféré dans une journée, ce serait lequel ?"
+        "accroche": "On passe une bonne partie de notre vie dans des gestes tout simples, et on y pense jamais. Y a un moment de la journée que t'aimes bien toi ?",
+        "relance": "Moi c'est le tout début de matinée, le silence avant que ça bouge. Et toi ton moment préféré ?"
       },
       {
-        "accroche": "Je trouve que le vrai luxe aujourd hui, c est d avoir du temps pour soi. Vous arrivez à en dégager un peu dans vos journées ?",
-        "relance": "Moi je me bats pour garder une demi heure rien qu à moi. Et vous, comment vous faites pour souffler dans la semaine ?"
+        "accroche": "En vrai le vrai luxe aujourd'hui c'est d'avoir du temps pour soi. T'arrives à en dégager un peu ?",
+        "relance": "Moi je me bats pour garder une demi-heure rien qu'à moi. Et toi tu fais comment pour souffler ?"
       },
       {
-        "accroche": "C est marrant, on cherche souvent le bonheur très loin alors qu il se cache dans les petites routines. Vous êtes d accord avec ça ou pas du tout ?",
-        "relance": "Moi j y crois beaucoup, ce sont les détails qui font tout. Et vous, c est quoi le petit plaisir simple qui vous met de bonne humeur ?"
+        "accroche": "C'est marrant, on cherche le bonheur super loin alors qu'il est dans les petites routines. T'es d'accord ou pas du tout ?",
+        "relance": "Moi j'y crois grave, c'est les détails qui font tout. Et toi c'est quoi le petit plaisir qui te met de bonne humeur ?"
       }
     ]
   },
@@ -40439,56 +40439,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d avoir eu une journée bien remplie, ça se lit un peu sur vous. Elle a été comment jusqu à maintenant ?",
-        "relance": "Moi la mienne a été un vrai marathon, je ne me suis pas arrêté. Et vous, plutôt tranquille ou en courant partout ?"
+        "accroche": "T'as l'air d'avoir eu une journée bien remplie, ça se lit un peu. Elle a été comment jusque là ?",
+        "relance": "Moi la mienne c'était un marathon, j'ai pas arrêté. Et toi plutôt tranquille ou à courir partout ?"
       },
       {
-        "accroche": "Vous semblez de bonne humeur, c est agréable à voir par les temps qui courent. C est la journée qui est bonne ou vous êtes toujours comme ça ?",
-        "relance": "Moi ma bonne humeur dépend beaucoup de comment démarre la matinée. Et vous, il vous faut quoi pour bien commencer la journée ?"
+        "accroche": "T'as l'air de bonne humeur, ça fait plaisir par les temps qui courent. C'est la journée qui est bonne ou t'es toujours comme ça ?",
+        "relance": "Moi ma bonne humeur ça dépend grave de comment démarre la matinée. Et toi il te faut quoi pour bien commencer ?"
       },
       {
-        "accroche": "On dirait que vous prenez la vie du bon côté, ça fait plaisir à croiser. C est un état d esprit ou juste une bonne journée ?",
-        "relance": "Moi j essaie mais certains jours c est plus dur que d autres. Et vous, c est quoi votre truc pour garder le moral au quotidien ?"
+        "accroche": "On dirait que tu prends la vie du bon côté, ça fait plaisir à croiser. C'est un état d'esprit ou juste une bonne journée ?",
+        "relance": "Moi j'essaie mais certains jours c'est plus dur. Et toi c'est quoi ton truc pour garder le moral ?"
       },
       {
-        "accroche": "Vous avez l air posé, du genre que les petits tracas ne dérangent pas trop. Vous êtes de nature à râler ou à laisser couler ?",
-        "relance": "Moi je râle pour les petites choses et je reste calme pour les grandes, allez comprendre. Et vous, ça vous agace quoi dans une journée ?"
+        "accroche": "T'as l'air posé, genre les petits tracas te dérangent pas trop. T'es plutôt à râler ou à laisser couler ?",
+        "relance": "Moi je râle pour les petits trucs et je reste calme pour les gros, va comprendre. Et toi ça t'agace quoi dans une journée ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Belle petite journée finalement, on prend ce qu on nous donne. Vous en avez profité un peu de votre côté ?",
-        "relance": "Moi j en ai profité pour souffler cinq minutes, c est déjà ça. Et vous, vous avez pu faire une pause aujourd hui ?"
+        "accroche": "Belle petite journée finalement, on prend ce qu'on nous donne. T'en as profité un peu ?",
+        "relance": "Moi j'en ai profité pour souffler cinq minutes, c'est déjà ça. Et toi t'as pu faire une pause ?"
       },
       {
-        "accroche": "C est le genre de moment où on a juste envie que ça se passe tranquille. Votre journée vous laisse un peu de répit ?",
-        "relance": "Moi je rêve d une soirée sans rien à faire. Et vous, elle ressemble à quoi votre fin de journée idéale ?"
+        "accroche": "C'est le genre de moment où t'as juste envie que ça se passe tranquille. Ta journée te laisse un peu de répit ?",
+        "relance": "Moi je rêve d'une soirée sans rien à faire. Et toi elle ressemble à quoi ta fin de journée idéale ?"
       },
       {
-        "accroche": "On sent que la semaine avance, ça se ressent un peu dans l air. Vous êtes plutôt en forme ou déjà en mode récupération ?",
-        "relance": "Moi j attends le week end avec impatience là. Et vous, vous avez de quoi vous changer les idées bientôt ?"
+        "accroche": "On sent que la semaine avance, ça se ressent un peu. T'es plutôt en forme ou déjà en mode récup ?",
+        "relance": "Moi j'attends le week-end à fond là. Et toi t'as de quoi te changer les idées bientôt ?"
       },
       {
-        "accroche": "Il y a des journées où tout va bien sans raison particulière, et ça fait du bien. La vôtre penche de quel côté aujourd hui ?",
-        "relance": "Moi aujourd hui c est plutôt bien parti, je touche du bois. Et vous, ça se présente comment jusqu au bout ?"
+        "accroche": "Y a des journées où tout va bien sans raison, et ça fait du bien. La tienne penche de quel côté aujourd'hui ?",
+        "relance": "Moi aujourd'hui c'est plutôt bien parti, je touche du bois. Et toi ça se présente comment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "C est fou comme un petit rien peut sauver une journée, un café, un sourire. Vous voyez ce que je veux dire ?",
-        "relance": "Moi hier c est une bonne nouvelle par message qui a tout changé. Et vous, c est quoi le petit truc qui vous remonte le moral ?"
+        "accroche": "C'est fou comme un petit rien peut sauver une journée, un café, un sourire. Tu vois ce que je veux dire ?",
+        "relance": "Moi hier c'est une bonne nouvelle par message qui a tout changé. Et toi c'est quoi le truc qui te remonte le moral ?"
       },
       {
-        "accroche": "On dit qu il faut savourer les petites choses, et je trouve qu on l oublie souvent. Vous prenez le temps d apprécier les petits plaisirs, vous ?",
-        "relance": "Moi je m efforce de ralentir sur un bon café le matin. Et vous, c est quoi votre petit plaisir tout simple ?"
+        "accroche": "On dit qu'il faut savourer les petites choses, et je trouve qu'on oublie souvent. Tu prends le temps d'apprécier les petits plaisirs toi ?",
+        "relance": "Moi je m'efforce de ralentir sur un bon café le matin. Et toi c'est quoi ton petit plaisir tout simple ?"
       },
       {
-        "accroche": "Je me dis parfois que le bonheur c est surtout une question d habitudes agréables. Vous en avez, des petites routines qui vous font du bien ?",
-        "relance": "Moi j ai ma promenade du soir sacrée, sans elle je dors mal. Et vous, une petite habitude à laquelle vous tenez ?"
+        "accroche": "Je me dis parfois que le bonheur c'est surtout une histoire d'habitudes sympa. T'en as toi, des petites routines qui te font du bien ?",
+        "relance": "Moi j'ai ma balade du soir sacrée, sans elle je dors mal. Et toi une petite habitude à laquelle tu tiens ?"
       },
       {
-        "accroche": "Il paraît qu on retient surtout les toutes petites choses d une journée, pas les grandes. Vous êtes d accord avec ça ?",
-        "relance": "Moi ce sont souvent les détails qui me restent en tête le soir. Et vous, qu est ce qui vous marque dans une journée ?"
+        "accroche": "Il paraît qu'on retient surtout les tout petits trucs d'une journée, pas les grands. T'es d'accord avec ça ?",
+        "relance": "Moi c'est souvent les détails qui me restent le soir. Et toi qu'est-ce qui te marque dans une journée ?"
       }
     ]
   },
@@ -40511,56 +40511,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui gère bien son quotidien, ça se sent. Vous auriez une astuce pour mieux s organiser ?",
-        "relance": "Moi je teste plein de méthodes mais rien ne tient dans la durée. Et vous, il y a un truc qui marche vraiment pour vous ?"
+        "accroche": "T'as l'air de bien gérer ton quotidien, ça se sent. T'aurais une astuce pour mieux s'organiser ?",
+        "relance": "Moi je teste plein de méthodes mais rien tient dans la durée. Et toi y a un truc qui marche vraiment ?"
       },
       {
-        "accroche": "Vous semblez du genre à ne jamais rien oublier, je vous envie un peu. Vous faites comment pour tout garder en tête ?",
-        "relance": "Moi sans mes listes je suis perdu, et encore. Et vous, c est la mémoire ou vous avez un système ?"
+        "accroche": "T'as l'air du genre à jamais rien oublier, je t'envie un peu. Tu fais comment pour tout garder en tête ?",
+        "relance": "Moi sans mes listes je suis perdu, et encore. Et toi c'est la mémoire ou t'as un système ?"
       },
       {
-        "accroche": "On dirait que vous savez gérer votre temps, vous avez toujours l air serein. Vous auriez un conseil pour quelqu un qui court partout ?",
-        "relance": "Moi je remplis mes journées à ras bord et je le regrette après. Et vous, comment vous faites pour ne pas vous laisser déborder ?"
+        "accroche": "On dirait que tu gères bien ton temps, t'as toujours l'air serein. T'aurais un conseil pour quelqu'un qui court partout ?",
+        "relance": "Moi je remplis mes journées à ras bord et je le regrette après. Et toi tu fais comment pour pas te laisser déborder ?"
       },
       {
-        "accroche": "Vous avez l air d avoir de bonnes habitudes, ça se voit à votre attitude. Vous en avez une que vous recommanderiez à tout le monde ?",
-        "relance": "Moi j essaie de me coucher plus tôt, sans grand succès. Et vous, une habitude qui a changé votre quotidien ?"
+        "accroche": "T'as l'air d'avoir de bonnes habitudes, ça se voit. T'en as une que tu recommanderais à tout le monde ?",
+        "relance": "Moi j'essaie de me coucher plus tôt, sans grand succès. Et toi une habitude qui a changé ton quotidien ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j essaie de mieux m organiser au quotidien et je rame un peu. Vous avez déjà réussi à changer vos habitudes, vous ?",
-        "relance": "Moi je tiens deux jours puis je craque. Et vous, comment vous vous y êtes pris pour que ça dure ?"
+        "accroche": "En ce moment j'essaie de mieux m'organiser et je rame un peu. T'as déjà réussi à changer tes habitudes toi ?",
+        "relance": "Moi je tiens deux jours puis je craque. Et toi tu t'y es pris comment pour que ça dure ?"
       },
       {
-        "accroche": "Ces temps ci je cherche à simplifier mes journées, elles sont trop chargées. Vous auriez une idée pour alléger tout ça ?",
-        "relance": "Moi j ai commencé par faire moins de choses, mais c est dur de choisir. Et vous, vous coupez comment dans le superflu ?"
+        "accroche": "Ces temps-ci je cherche à simplifier mes journées, elles sont trop chargées. T'aurais une idée pour alléger tout ça ?",
+        "relance": "Moi j'ai commencé par faire moins de trucs, mais c'est dur de choisir. Et toi tu coupes comment dans le superflu ?"
       },
       {
-        "accroche": "Je me rends compte que je perds beaucoup de temps sur des petites choses au quotidien. Vous avez un truc pour être plus efficace ?",
-        "relance": "Moi je me disperse dès qu une notification arrive. Et vous, comment vous restez concentré sur ce qui compte ?"
+        "accroche": "Je me rends compte que je perds grave de temps sur des petits trucs. T'as une astuce pour être plus efficace ?",
+        "relance": "Moi je me disperse dès qu'une notif arrive. Et toi tu restes concentré comment sur ce qui compte ?"
       },
       {
-        "accroche": "En ce moment je cherche à me dégager plus de temps libre dans la semaine. Vous y arrivez, vous, à souffler un peu ?",
-        "relance": "Moi j ai du mal à dire non, du coup mon agenda déborde. Et vous, comment vous protégez votre temps à vous ?"
+        "accroche": "En ce moment je cherche à me dégager plus de temps libre dans la semaine. T'y arrives toi à souffler un peu ?",
+        "relance": "Moi j'ai du mal à dire non, du coup mon agenda déborde. Et toi tu protèges comment ton temps à toi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande toujours comment les gens font pour tout mener de front sans s épuiser. Vous auriez un conseil là dessus ?",
-        "relance": "Moi j ai l impression de toujours courir après la montre. Et vous, c est quoi votre secret pour tenir le rythme ?"
+        "accroche": "Je me demande toujours comment les gens font pour tout mener de front sans s'épuiser. T'aurais un conseil là-dessus ?",
+        "relance": "Moi j'ai l'impression de toujours courir après la montre. Et toi c'est quoi ton secret pour tenir le rythme ?"
       },
       {
-        "accroche": "On entend plein d astuces pour mieux vivre au quotidien mais on ne sait plus lesquelles marchent. Vous, il y en a une que vous jureriez efficace ?",
-        "relance": "Moi j en ai testé des dizaines pour peu de résultat. Et vous, laquelle a vraiment changé les choses pour vous ?"
+        "accroche": "On entend plein d'astuces pour mieux vivre au quotidien mais on sait plus lesquelles marchent. T'en as une que tu jurerais efficace ?",
+        "relance": "Moi j'en ai testé des dizaines pour rien. Et toi laquelle a vraiment changé les choses ?"
       },
       {
-        "accroche": "Je trouve qu on donne rarement des vrais conseils utiles pour le quotidien, c est souvent théorique. Vous en avez un bien concret à partager ?",
-        "relance": "Moi le seul qui a marché c est de préparer mes affaires la veille. Et vous, votre meilleur conseil tout simple ?"
+        "accroche": "Je trouve qu'on donne rarement des vrais conseils utiles pour le quotidien, c'est souvent théorique. T'en as un bien concret à partager ?",
+        "relance": "Moi le seul qui a marché c'est de préparer mes affaires la veille. Et toi ton meilleur conseil tout simple ?"
       },
       {
-        "accroche": "Je me dis souvent qu on gagnerait à s inspirer des habitudes des autres. Si vous deviez me conseiller un changement, ce serait quoi ?",
-        "relance": "Moi j ai copié une habitude d un ami et ça m a beaucoup aidé. Et vous, quel conseil vous donneriez à quelqu un un peu débordé ?"
+        "accroche": "Je me dis souvent qu'on gagnerait à s'inspirer des habitudes des autres. Si tu devais me conseiller un changement ce serait quoi ?",
+        "relance": "Moi j'ai copié une habitude d'un pote et ça m'a beaucoup aidé. Et toi quel conseil tu donnerais à quelqu'un de débordé ?"
       }
     ]
   },
@@ -40583,56 +40583,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui aime que les choses soient bien faites, ça se sent. Vous êtes plutôt maniaque ou bon vivant dans la vie de tous les jours ?",
-        "relance": "Moi je suis un joyeux bazar organisé, si ça existe. Et vous, vous vous décririez comment au quotidien ?"
+        "accroche": "T'as l'air de quelqu'un qui aime que les choses soient bien faites. T'es plutôt maniaque ou bon vivant au quotidien ?",
+        "relance": "Moi je suis un joyeux bazar organisé, si ça existe. Et toi tu te décrirais comment ?"
       },
       {
-        "accroche": "On dirait que vous êtes du matin, il y a un côté réveillé chez vous. Je me trompe ou vous êtes vraiment un lève tôt ?",
-        "relance": "Moi je suis une catastrophe avant midi, clairement du soir. Et vous, vous carburez plutôt le matin ou la nuit ?"
+        "accroche": "On dirait que t'es du matin, y a un côté réveillé chez toi. Je me trompe ou t'es vraiment un lève-tôt ?",
+        "relance": "Moi je suis une catastrophe avant midi, clairement du soir. Et toi tu carbures plutôt le matin ou la nuit ?"
       },
       {
-        "accroche": "Vous dégagez un truc calme, du genre qui ne se laisse pas déborder facilement. Dans la vie de tous les jours vous êtes plutôt zen ou speed ?",
-        "relance": "Moi je passe mon temps à courir, je vous envie un peu. Et vous, c est naturel ce calme ou vous y travaillez ?"
+        "accroche": "Tu dégages un truc calme, genre qui se laisse pas déborder. Au quotidien t'es plutôt zen ou speed ?",
+        "relance": "Moi je passe mon temps à courir, je t'envie un peu. Et toi c'est naturel ce calme ou tu bosses dessus ?"
       },
       {
-        "accroche": "Il y a quelque chose de méthodique dans votre façon d être, ça m intrigue. Vous êtes du genre à tout planifier ou à vous laisser porter ?",
-        "relance": "Moi je fais des listes que je ne suis jamais. Et vous, plutôt agenda millimétré ou improvisation totale ?"
+        "accroche": "Y a un truc méthodique dans ta façon d'être, ça m'intrigue. T'es plutôt à tout planifier ou à te laisser porter ?",
+        "relance": "Moi je fais des listes que je suis jamais. Et toi plutôt agenda millimétré ou impro totale ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On se croise là comme deux inconnus, chacun dans sa journée. La vôtre, elle vous mène où en ce moment ?",
-        "relance": "Moi je suis entre deux choses, comme souvent. Et vous, vous êtes plutôt en pleine journée chargée ou en pause ?"
+        "accroche": "On se croise là comme deux inconnus, chacun dans sa journée. La tienne elle te mène où là ?",
+        "relance": "Moi je suis entre deux trucs, comme souvent. Et toi plutôt en pleine journée chargée ou en pause ?"
       },
       {
-        "accroche": "C est marrant ces moments où on se retrouve à attendre, chacun dans sa bulle. Vous, votre journée ressemble à quoi jusqu ici ?",
-        "relance": "Moi j ai eu une matinée bien remplie, là je souffle. Et vous, ça a été plutôt calme ou mouvementé ?"
+        "accroche": "C'est marrant ces moments où on se retrouve à attendre, chacun dans sa bulle. Ta journée elle ressemble à quoi jusque là ?",
+        "relance": "Moi j'ai eu une matinée bien remplie, là je souffle. Et toi ça a été calme ou mouvementé ?"
       },
       {
-        "accroche": "On partage le même moment sans se connaître, c est toujours un peu drôle. Vous êtes d humeur bavarde ou plutôt tranquille aujourd hui ?",
-        "relance": "Moi ça dépend des jours, aujourd hui je suis plutôt causant. Et vous, vous aimez discuter avec des inconnus ou pas trop ?"
+        "accroche": "On partage le même moment sans se connaître, c'est toujours un peu drôle. T'es d'humeur bavarde ou plutôt tranquille aujourd'hui ?",
+        "relance": "Moi ça dépend des jours, là je suis plutôt causant. Et toi t'aimes discuter avec des inconnus ou pas trop ?"
       },
       {
-        "accroche": "Voilà un de ces moments un peu suspendus dans une journée ordinaire. Elle vous réserve encore quoi, la vôtre ?",
-        "relance": "Moi il me reste pas mal à faire encore, ça ne s arrête jamais. Et vous, votre journée est bientôt finie ou ça continue ?"
+        "accroche": "Voilà un de ces moments un peu suspendus dans une journée normale. Elle te réserve encore quoi la tienne ?",
+        "relance": "Moi il me reste pas mal à faire, ça s'arrête jamais. Et toi ta journée est bientôt finie ou ça continue ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je trouve qu on en apprend beaucoup sur les gens rien qu à voir comment ils vivent leur quotidien. Vous, vous êtes plutôt routine ou changement ?",
-        "relance": "Moi j ai besoin d un minimum de routine pour être bien. Et vous, la routine ça vous rassure ou ça vous ennuie ?"
+        "accroche": "Je trouve qu'on en apprend beaucoup sur les gens rien qu'à voir comment ils vivent leur quotidien. T'es plutôt routine ou changement toi ?",
+        "relance": "Moi j'ai besoin d'un minimum de routine pour être bien. Et toi la routine ça te rassure ou ça t'ennuie ?"
       },
       {
-        "accroche": "C est fou comme deux personnes peuvent vivre la même journée de façon totalement différente. Vous, vous prenez la vie plutôt cool ou intensément ?",
-        "relance": "Moi j ai tendance à tout vivre à fond, ça me fatigue. Et vous, vous êtes plus dans le calme ou dans l action ?"
+        "accroche": "C'est fou comme deux personnes peuvent vivre la même journée de façon totalement différente. Tu prends la vie plutôt cool ou à fond toi ?",
+        "relance": "Moi j'ai tendance à tout vivre à fond, ça me fatigue. Et toi t'es plus dans le calme ou dans l'action ?"
       },
       {
-        "accroche": "Je me dis souvent qu on se ressemble tous dans nos petites habitudes de tous les jours. Vous en avez une un peu bizarre à avouer ?",
-        "relance": "Moi je range toujours dans le même ordre, c est plus fort que moi. Et vous, une manie que vous assumez ou pas ?"
+        "accroche": "Je me dis souvent qu'on se ressemble tous dans nos petites manies de tous les jours. T'en as une un peu bizarre à avouer ?",
+        "relance": "Moi je range toujours dans le même ordre, c'est plus fort que moi. Et toi une manie que t'assumes ou pas ?"
       },
       {
-        "accroche": "On dit que le quotidien révèle qui on est vraiment, plus que les grands moments. Vous êtes d accord avec cette idée ?",
-        "relance": "Moi je crois que c est dans les détails qu on se dévoile. Et vous, qu est ce qui vous ressemble le plus dans vos journées ?"
+        "accroche": "On dit que le quotidien révèle qui on est vraiment, plus que les grands moments. T'es d'accord avec ça ?",
+        "relance": "Moi je crois que c'est dans les détails qu'on se dévoile. Et toi qu'est-ce qui te ressemble le plus dans tes journées ?"
       }
     ]
   },
@@ -40655,56 +40655,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit air d aventurier, quelque chose dans le regard qui voyage. Je me trompe ou vous aimez partir à la découverte ?",
-        "relance": "Moi j ai toujours une destination en tête, ça me fait tenir. Et vous, vous êtes plutôt globe trotteur ou casanier ?"
+        "accroche": "T'as un petit air d'aventurier, un truc dans le regard qui voyage. Je me trompe ou t'aimes partir à la découverte ?",
+        "relance": "Moi j'ai toujours une destination en tête, ça me fait tenir. Et toi plutôt globe-trotteur ou casanier ?"
       },
       {
-        "accroche": "On dirait que vous avez déjà roulé votre bosse un peu partout, ça se sent. Vous avez pas mal bougé dans votre vie ?",
-        "relance": "Moi dès que je peux je fais mes valises. Et vous, c est quoi le coin le plus loin où vous êtes allé ?"
+        "accroche": "On dirait que t'as déjà roulé ta bosse un peu partout, ça se sent. T'as pas mal bougé dans ta vie ?",
+        "relance": "Moi dès que je peux je fais mes valises. Et toi c'est quoi le coin le plus loin où t'es allé ?"
       },
       {
-        "accroche": "Il y a un côté baroudeur chez vous, une aisance qu on prend souvent en voyageant. Vous voyagez beaucoup ?",
-        "relance": "Moi chaque voyage me change un peu, j adore ça. Et vous, le voyage ça vous transforme aussi ou pas tant ?"
+        "accroche": "Y a un côté baroudeur chez toi, une aisance qu'on prend en voyageant. Tu voyages beaucoup ?",
+        "relance": "Moi chaque voyage me change un peu, j'adore ça. Et toi le voyage ça te transforme aussi ou pas tant ?"
       },
       {
-        "accroche": "Vous dégagez une curiosité pour le monde, ça se lit sur votre visage. Vous êtes du genre à toujours vouloir découvrir de nouveaux endroits ?",
-        "relance": "Moi j ai une liste de destinations longue comme le bras. Et vous, c est quoi le prochain endroit qui vous fait rêver ?"
+        "accroche": "Tu dégages une curiosité pour le monde, ça se lit sur ta tête. T'es du genre à toujours vouloir découvrir de nouveaux endroits ?",
+        "relance": "Moi j'ai une liste de destinations longue comme le bras. Et toi c'est quoi le prochain endroit qui te fait rêver ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C est la saison où tout le monde parle de ses projets de vacances, ça donne des idées. Vous avez quelque chose de prévu, vous ?",
-        "relance": "Moi je rêve d un grand départ mais rien n est réservé. Et vous, vous partez quelque part bientôt ?"
+        "accroche": "C'est la saison où tout le monde parle de ses vacances, ça donne des idées. T'as un truc de prévu toi ?",
+        "relance": "Moi je rêve d'un grand départ mais rien n'est réservé. Et toi tu pars quelque part bientôt ?"
       },
       {
-        "accroche": "En ce moment j entends parler de voyages partout, ça me donne des fourmis dans les jambes. Vous aussi ça vous prend, cette envie d ailleurs ?",
-        "relance": "Moi dès qu il fait beau je veux partir. Et vous, c est quoi le voyage dont vous rêvez en ce moment ?"
+        "accroche": "En ce moment j'entends parler de voyages partout, ça me donne des fourmis dans les jambes. Ça te prend aussi cette envie d'ailleurs ?",
+        "relance": "Moi dès qu'il fait beau je veux partir. Et toi c'est quoi le voyage dont tu rêves là ?"
       },
       {
-        "accroche": "On est à cette période de l année où on planifie ses escapades, c est presque le meilleur moment. Vous êtes plutôt à planifier ou à improviser vos voyages ?",
-        "relance": "Moi je prépare tout dans les moindres détails, c est plus fort que moi. Et vous, organisé ou aventure totale ?"
+        "accroche": "On est à la période où on planifie ses escapades, presque le meilleur moment. T'es plutôt à planifier ou à improviser tes voyages ?",
+        "relance": "Moi je prépare tout dans les moindres détails, c'est plus fort que moi. Et toi organisé ou aventure totale ?"
       },
       {
-        "accroche": "J ai l impression que tout le monde a une destination en tête ces temps ci. Si vous pouviez partir demain, ce serait où ?",
-        "relance": "Moi je dirais un truc lointain et dépaysant sans hésiter. Et vous, votre destination coup de coeur du moment ?"
+        "accroche": "J'ai l'impression que tout le monde a une destination en tête ces temps-ci. Si tu pouvais partir demain ce serait où ?",
+        "relance": "Moi je dirais un truc lointain et dépaysant sans hésiter. Et toi ta destination coup de cœur du moment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande toujours ce qui pousse les gens à voyager, le dépaysement ou les rencontres. Vous, vous partez chercher quoi quand vous voyagez ?",
-        "relance": "Moi c est les rencontres qui me marquent le plus, plus que les paysages. Et vous, c est quoi qui vous fait vibrer en voyage ?"
+        "accroche": "Je me demande toujours ce qui pousse les gens à voyager, le dépaysement ou les rencontres. Tu pars chercher quoi toi en voyage ?",
+        "relance": "Moi c'est les rencontres qui me marquent le plus, plus que les paysages. Et toi c'est quoi qui te fait vibrer ?"
       },
       {
-        "accroche": "Il y a ceux qui aiment l aventure et ceux qui préfèrent le farniente au soleil. Vous vous situez plutôt où dans tout ça ?",
-        "relance": "Moi je suis incapable de rester en place, il me faut bouger. Et vous, vacances actives ou repos total ?"
+        "accroche": "Y a ceux qui aiment l'aventure et ceux qui préfèrent le farniente au soleil. Tu te situes plutôt où toi ?",
+        "relance": "Moi je suis incapable de rester en place, il me faut bouger. Et toi vacances actives ou repos total ?"
       },
       {
-        "accroche": "On dit que voyager change la façon de voir le monde, et je le crois assez. Un voyage vous a déjà marqué à ce point, vous ?",
-        "relance": "Moi un séjour a carrément changé ma vision des choses. Et vous, un voyage qui vous a laissé une trace ?"
+        "accroche": "On dit que voyager change la façon de voir le monde, et j'y crois assez. Un voyage t'a déjà marqué à ce point toi ?",
+        "relance": "Moi un séjour a carrément changé ma vision des choses. Et toi un voyage qui t'a laissé une trace ?"
       },
       {
-        "accroche": "Je trouve que la façon de voyager en dit long sur une personne. Vous êtes plutôt sac à dos ou tout confort, vous ?",
-        "relance": "Moi je suis sac à dos et débrouille, j adore l imprévu. Et vous, vous voyagez comment quand vous partez ?"
+        "accroche": "Je trouve que la façon de voyager en dit long sur une personne. T'es plutôt sac à dos ou tout confort toi ?",
+        "relance": "Moi c'est sac à dos et débrouille, j'adore l'imprévu. Et toi tu voyages comment quand tu pars ?"
       }
     ]
   },
@@ -40727,56 +40727,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui a le teint des gens qui reviennent de vacances, ou qui rêvent d y partir. Alors, plutôt retour ou grand départ ?",
-        "relance": "Moi je suis en pleine phase je rêve de partir. Et vous, vos dernières vacances remontent à quand ?"
+        "accroche": "T'as le teint des gens qui reviennent de vacances, ou qui rêvent d'y partir. Alors plutôt retour ou grand départ ?",
+        "relance": "Moi je suis en pleine phase je rêve de partir. Et toi tes dernières vacances remontent à quand ?"
       },
       {
-        "accroche": "On dirait que vous avez la bougeotte, une envie de grand air. Vous êtes du genre à toujours penser au prochain voyage ?",
-        "relance": "Moi j ai déjà la tête ailleurs alors qu il me reste du travail. Et vous, vous rêvez souvent d évasion ?"
+        "accroche": "On dirait que t'as la bougeotte, une envie de grand air. T'es du genre à toujours penser au prochain voyage ?",
+        "relance": "Moi j'ai déjà la tête ailleurs alors qu'il me reste du taf. Et toi tu rêves souvent d'évasion ?"
       },
       {
-        "accroche": "Vous dégagez un côté vacancier, un truc détendu qui fait plaisir. Ça vous arrive souvent de décrocher pour partir ?",
-        "relance": "Moi j attends toujours mes congés avec impatience. Et vous, c est quoi vos vacances idéales ?"
+        "accroche": "Tu dégages un côté vacancier, un truc détendu qui fait plaisir. Ça t'arrive souvent de décrocher pour partir ?",
+        "relance": "Moi j'attends toujours mes congés à fond. Et toi c'est quoi tes vacances idéales ?"
       },
       {
-        "accroche": "Il y a quelque chose de solaire chez vous, on vous imagine bien les pieds dans le sable. Vous êtes plutôt mer ou montagne, vous ?",
-        "relance": "Moi je choisis la mer les yeux fermés. Et vous, plage ou sommets pour vos vacances ?"
+        "accroche": "Y a un truc solaire chez toi, on t'imagine bien les pieds dans le sable. T'es plutôt mer ou montagne toi ?",
+        "relance": "Moi je choisis la mer les yeux fermés. Et toi plage ou sommets pour tes vacances ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C est bientôt la période où tout le monde rêve de faire ses valises, ça se sent dans l air. Vous partez quelque part cette année ?",
-        "relance": "Moi j hésite encore entre deux destinations. Et vous, vous avez déjà une idée d où vous poser ?"
+        "accroche": "C'est bientôt la période où tout le monde rêve de faire ses valises, ça se sent. Tu pars quelque part cette année ?",
+        "relance": "Moi j'hésite encore entre deux destinations. Et toi t'as déjà une idée d'où te poser ?"
       },
       {
-        "accroche": "Avec ce temps là on n a qu une envie, c est de filer au soleil quelque part. Vous rêvez de quelle destination en ce moment ?",
-        "relance": "Moi je pense à un endroit chaud avec la mer pas loin. Et vous, c est quoi votre climat idéal pour les vacances ?"
+        "accroche": "Avec ce temps on a qu'une envie, filer au soleil quelque part. Tu rêves de quelle destination là ?",
+        "relance": "Moi je pense à un endroit chaud avec la mer pas loin. Et toi c'est quoi ton climat idéal pour les vacances ?"
       },
       {
-        "accroche": "On arrive dans la saison des départs, celle où on croise plein de gens qui reviennent ravis. Vous, vous avez des projets d escapade ?",
-        "relance": "Moi je prépare un petit voyage tranquille. Et vous, vous préférez les grandes vacances ou les week ends improvisés ?"
+        "accroche": "On arrive dans la saison des départs, celle où on croise plein de gens qui reviennent ravis. T'as des projets d'escapade toi ?",
+        "relance": "Moi je prépare un petit voyage tranquille. Et toi tu préfères les grandes vacances ou les week-ends improvisés ?"
       },
       {
-        "accroche": "C est le moment de l année où tout le monde raconte ses vacances, et ça donne toujours envie. Vous en avez de bonnes à raconter, vous ?",
-        "relance": "Moi j ai un souvenir de voyage qui me fait encore sourire. Et vous, un séjour qui vous a marqué récemment ?"
+        "accroche": "C'est le moment où tout le monde raconte ses vacances, et ça donne toujours envie. T'en as de bonnes à raconter toi ?",
+        "relance": "Moi j'ai un souvenir de voyage qui me fait encore sourire. Et toi un séjour qui t'a marqué récemment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "C est fou comme un voyage peut rester gravé alors que le reste s efface. Vous en avez un dont vous parlez encore, vous ?",
-        "relance": "Moi il y a un séjour dont je ne me lasse pas de parler. Et vous, votre plus beau souvenir de vacances ?"
+        "accroche": "C'est fou comme un voyage peut rester gravé alors que le reste s'efface. T'en as un dont tu parles encore toi ?",
+        "relance": "Moi y a un séjour dont je me lasse pas de parler. Et toi ton plus beau souvenir de vacances ?"
       },
       {
-        "accroche": "Je me demande toujours ce qui fait de bonnes vacances, le lieu ou les gens avec qui on part. Vous en pensez quoi, vous ?",
-        "relance": "Moi je dirais que c est surtout la compagnie qui compte. Et vous, ça tient à quoi des vacances réussies pour vous ?"
+        "accroche": "Je me demande toujours ce qui fait de bonnes vacances, le lieu ou les gens avec qui on part. T'en penses quoi toi ?",
+        "relance": "Moi je dirais que c'est surtout la compagnie qui compte. Et toi ça tient à quoi des vacances réussies ?"
       },
       {
-        "accroche": "Il paraît qu on est soit team farniente soit team aventure, sans juste milieu. Vous êtes de quel côté, vous ?",
-        "relance": "Moi je suis team hamac et rien faire, j assume. Et vous, vacances tranquilles ou pleines d activités ?"
+        "accroche": "Il paraît qu'on est soit team farniente soit team aventure, sans juste milieu. T'es de quel côté toi ?",
+        "relance": "Moi je suis team hamac et rien faire, j'assume. Et toi vacances tranquilles ou pleines d'activités ?"
       },
       {
-        "accroche": "On dit que le plus beau dans les vacances c est parfois de les préparer. Vous êtes d accord avec ça ou pas du tout ?",
-        "relance": "Moi j adore la phase où j imagine tout avant de partir. Et vous, l attente ça vous plaît ou vous voulez juste y être ?"
+        "accroche": "On dit que le plus beau dans les vacances c'est parfois de les préparer. T'es d'accord ou pas du tout ?",
+        "relance": "Moi j'adore la phase où j'imagine tout avant de partir. Et toi l'attente ça te plaît ou tu veux juste y être ?"
       }
     ]
   },
@@ -40799,56 +40799,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d un voyageur aguerri, ça se voit à votre allure. Vous auriez une destination à me recommander les yeux fermés ?",
-        "relance": "Moi je cherche une idée pour mon prochain départ et je sèche. Et vous, quel endroit vous a le plus emballé ?"
+        "accroche": "T'as l'air d'un voyageur aguerri, ça se voit. T'aurais une destination à me recommander les yeux fermés ?",
+        "relance": "Moi je cherche une idée pour mon prochain départ et je sèche. Et toi quel endroit t'a le plus emballé ?"
       },
       {
-        "accroche": "On dirait que vous avez le profil de quelqu un qui a beaucoup bourlingué. Vous auriez un conseil pour bien préparer un voyage ?",
-        "relance": "Moi je m y prends toujours à la dernière minute, c est le stress. Et vous, comment vous organisez vos départs ?"
+        "accroche": "On dirait le profil de quelqu'un qui a beaucoup bourlingué. T'aurais un conseil pour bien préparer un voyage ?",
+        "relance": "Moi je m'y prends toujours à la dernière minute, c'est le stress. Et toi tu organises comment tes départs ?"
       },
       {
-        "accroche": "Vous dégagez une assurance qu on prend souvent en voyageant beaucoup. Si vous deviez conseiller un seul endroit à visiter, ce serait où ?",
-        "relance": "Moi j ai tellement d envies que je n arrive pas à choisir. Et vous, votre coup de coeur absolu ?"
+        "accroche": "Tu dégages une assurance qu'on prend souvent en voyageant beaucoup. Si tu devais conseiller un seul endroit à visiter ce serait où ?",
+        "relance": "Moi j'ai tellement d'envies que j'arrive pas à choisir. Et toi ton coup de cœur absolu ?"
       },
       {
-        "accroche": "Vous avez l air d avoir des bonnes adresses partout, le genre qui sait où aller. Vous auriez une astuce pour voyager malin ?",
-        "relance": "Moi je dépense toujours trop en voyage, je gère mal. Et vous, comment vous faites pour voyager sans exploser le budget ?"
+        "accroche": "T'as l'air d'avoir des bonnes adresses partout, le genre qui sait où aller. T'aurais une astuce pour voyager malin ?",
+        "relance": "Moi je dépense toujours trop en voyage, je gère mal. Et toi tu fais comment pour pas exploser le budget ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je prépare un voyage et je suis un peu perdu dans les options. Vous avez déjà organisé un séjour un peu ambitieux, vous ?",
-        "relance": "Moi je ne sais pas par où commencer honnêtement. Et vous, vous partez de quoi pour organiser un voyage ?"
+        "accroche": "En ce moment je prépare un voyage et je suis un peu perdu dans les options. T'as déjà organisé un séjour un peu ambitieux toi ?",
+        "relance": "Moi je sais pas par où commencer honnêtement. Et toi tu pars de quoi pour organiser un voyage ?"
       },
       {
-        "accroche": "Je cherche une destination pour bientôt et j hésite entre mille idées. Vous auriez une recommandation qui sort des sentiers battus ?",
-        "relance": "Moi j en ai marre des endroits bondés, je veux du dépaysement. Et vous, un coin authentique à conseiller ?"
+        "accroche": "Je cherche une destination pour bientôt et j'hésite entre mille idées. T'aurais une reco qui sort des sentiers battus ?",
+        "relance": "Moi j'en ai marre des endroits bondés, je veux du dépaysement. Et toi un coin authentique à conseiller ?"
       },
       {
-        "accroche": "En ce moment je me demande comment voyager sans se ruiner, ça devient un casse tête. Vous avez des astuces là dessus, vous ?",
-        "relance": "Moi je m y perds entre toutes les combines qu on voit passer. Et vous, votre meilleur truc pour partir moins cher ?"
+        "accroche": "En ce moment je me demande comment voyager sans se ruiner, ça devient un casse-tête. T'as des astuces là-dessus toi ?",
+        "relance": "Moi je m'y perds entre toutes les combines qu'on voit passer. Et toi ton meilleur truc pour partir moins cher ?"
       },
       {
-        "accroche": "Je prépare un départ et je ne sais jamais quoi glisser dans ma valise. Vous êtes plutôt bien organisé pour ça, vous ?",
-        "relance": "Moi j emporte toujours trop et j oublie l essentiel. Et vous, votre conseil pour ne rien oublier avant de partir ?"
+        "accroche": "Je prépare un départ et je sais jamais quoi glisser dans ma valise. T'es plutôt bien organisé pour ça toi ?",
+        "relance": "Moi j'emporte toujours trop et j'oublie l'essentiel. Et toi ton conseil pour rien oublier avant de partir ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande toujours quel est le meilleur conseil qu on puisse donner à un voyageur. Vous en auriez un à me transmettre, vous ?",
-        "relance": "Moi le meilleur qu on m ait donné c est de voyager léger. Et vous, quel conseil de voyage vous a vraiment servi ?"
+        "accroche": "Je me demande toujours c'est quoi le meilleur conseil qu'on puisse donner à un voyageur. T'en aurais un à me filer toi ?",
+        "relance": "Moi le meilleur qu'on m'ait donné c'est de voyager léger. Et toi quel conseil de voyage t'a vraiment servi ?"
       },
       {
-        "accroche": "On dit qu il vaut mieux visiter peu mais bien plutôt que courir partout. Vous êtes d accord avec cette approche, vous ?",
-        "relance": "Moi j ai appris à ralentir en voyage, ça change tout. Et vous, vous conseilleriez quoi, prendre son temps ou tout voir ?"
+        "accroche": "On dit qu'il vaut mieux visiter peu mais bien plutôt que courir partout. T'es d'accord avec cette approche toi ?",
+        "relance": "Moi j'ai appris à ralentir en voyage, ça change tout. Et toi tu conseillerais quoi, prendre son temps ou tout voir ?"
       },
       {
-        "accroche": "Je trouve qu on ne sait jamais vraiment quand réserver pour payer moins cher. Vous avez percé le secret, vous ?",
-        "relance": "Moi je réserve toujours au mauvais moment, c est une malédiction. Et vous, votre conseil pour trouver les bons plans ?"
+        "accroche": "Je trouve qu'on sait jamais vraiment quand réserver pour payer moins cher. T'as percé le secret toi ?",
+        "relance": "Moi je réserve toujours au mauvais moment, c'est une malédiction. Et toi ton conseil pour trouver les bons plans ?"
       },
       {
-        "accroche": "Il paraît que le plus dur en voyage c est de bien choisir sa destination. Si vous deviez guider un débutant, vous lui diriez quoi ?",
-        "relance": "Moi je conseillerais de commencer proche avant de viser loin. Et vous, quel premier voyage vous recommanderiez ?"
+        "accroche": "Il paraît que le plus dur en voyage c'est de bien choisir sa destination. Si tu devais guider un débutant tu lui dirais quoi ?",
+        "relance": "Moi je conseillerais de commencer proche avant de viser loin. Et toi quel premier voyage tu recommanderais ?"
       }
     ]
   },
@@ -40871,56 +40871,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez ce petit quelque chose des gens qui ont vu du pays, une ouverture au monde. Je me trompe ou vous avez pas mal voyagé ?",
-        "relance": "Moi le voyage c est ma grande passion, j en parle tout le temps. Et vous, vous êtes plutôt du genre voyageur ou tranquille chez vous ?"
+        "accroche": "T'as ce petit quelque chose des gens qui ont vu du pays, une ouverture au monde. Je me trompe ou t'as pas mal voyagé ?",
+        "relance": "Moi le voyage c'est ma grande passion, j'en parle tout le temps. Et toi plutôt voyageur ou tranquille chez toi ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a des histoires de voyage plein les poches, ça se devine. Vous en gardez une préférée, vous ?",
-        "relance": "Moi j en ai une que je ressors à chaque fois. Et vous, votre anecdote de voyage inoubliable ?"
+        "accroche": "On dirait quelqu'un qui a des histoires de voyage plein les poches. T'en gardes une préférée toi ?",
+        "relance": "Moi j'en ai une que je ressors à chaque fois. Et toi ton anecdote de voyage inoubliable ?"
       },
       {
-        "accroche": "Il y a chez vous un côté ouvert sur le monde qui donne envie de discuter. Vous êtes attiré par les cultures étrangères, vous ?",
-        "relance": "Moi j adore me plonger dans une culture qui n est pas la mienne. Et vous, ce qui vous attire ailleurs, c est quoi ?"
+        "accroche": "Y a chez toi un côté ouvert sur le monde qui donne envie de discuter. T'es attiré par les cultures étrangères toi ?",
+        "relance": "Moi j'adore me plonger dans une culture qui est pas la mienne. Et toi ce qui t'attire ailleurs c'est quoi ?"
       },
       {
-        "accroche": "Vous dégagez une curiosité qui sent le voyageur, une envie de découvrir. Vous préférez les endroits connus ou les coins secrets, vous ?",
-        "relance": "Moi je fuis les foules et je cherche l authentique. Et vous, vous aimez le hors des sentiers battus ou le classique rassurant ?"
+        "accroche": "Tu dégages une curiosité qui sent le voyageur, une envie de découvrir. Tu préfères les endroits connus ou les coins secrets toi ?",
+        "relance": "Moi je fuis les foules et je cherche l'authentique. Et toi t'aimes le hors des sentiers battus ou le classique rassurant ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On se croise là, chacun avec sûrement une destination de rêve en tête. La vôtre, ce serait quoi si vous pouviez partir maintenant ?",
-        "relance": "Moi je répondrais un endroit lointain sans hésiter. Et vous, votre destination de rêve du moment ?"
+        "accroche": "On se croise là, chacun avec sûrement une destination de rêve en tête. La tienne ce serait quoi si tu pouvais partir maintenant ?",
+        "relance": "Moi je répondrais un endroit lointain sans hésiter. Et toi ta destination de rêve du moment ?"
       },
       {
-        "accroche": "C est le genre de moment parfait pour parler d ailleurs et s évader un peu par la pensée. Vous rêvez de partir où en ce moment, vous ?",
-        "relance": "Moi j ai une envie de grands espaces qui me travaille. Et vous, c est quoi votre évasion idéale ?"
+        "accroche": "C'est le moment parfait pour parler d'ailleurs et s'évader un peu par la pensée. Tu rêves de partir où là ?",
+        "relance": "Moi j'ai une envie de grands espaces qui me travaille. Et toi c'est quoi ton évasion idéale ?"
       },
       {
-        "accroche": "On dirait qu il flotte une envie d ailleurs dans l air ces temps ci. Vous la ressentez aussi, cette envie de bouger ?",
-        "relance": "Moi dès que le temps le permet je veux partir. Et vous, vous avez la bougeotte ou vous aimez rester posé ?"
+        "accroche": "On dirait qu'il flotte une envie d'ailleurs dans l'air ces temps-ci. Tu la ressens aussi cette envie de bouger ?",
+        "relance": "Moi dès que le temps le permet je veux partir. Et toi t'as la bougeotte ou t'aimes rester posé ?"
       },
       {
-        "accroche": "Voilà un de ces moments où on aimerait bien être ailleurs, sur une plage ou en montagne. Vous, ce serait où votre ailleurs idéal ?",
-        "relance": "Moi je m imagine bien au bord de l eau là tout de suite. Et vous, votre décor de rêve pour vous évader ?"
+        "accroche": "Voilà un de ces moments où on aimerait bien être ailleurs, sur une plage ou en montagne. Ce serait où ton ailleurs idéal toi ?",
+        "relance": "Moi je m'imagine bien au bord de l'eau là tout de suite. Et toi ton décor de rêve pour t'évader ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je trouve que le voyage révèle beaucoup de qui on est, dans nos envies d ailleurs. Vous, vous voyagez pour vous perdre ou pour vous retrouver ?",
-        "relance": "Moi je pars souvent pour me recentrer, bizarrement. Et vous, le voyage ça vous apporte quoi au fond ?"
+        "accroche": "Je trouve que le voyage révèle beaucoup de qui on est, dans nos envies d'ailleurs. Tu voyages pour te perdre ou pour te retrouver toi ?",
+        "relance": "Moi je pars souvent pour me recentrer, bizarrement. Et toi le voyage ça t'apporte quoi au fond ?"
       },
       {
-        "accroche": "On dit qu il y a les gens qui rêvent leur voyage et ceux qui le vivent. Vous vous reconnaissez dans lequel, vous ?",
-        "relance": "Moi je suis un grand rêveur qui finit toujours par partir. Et vous, plutôt à planifier ou à sauter dans le train ?"
+        "accroche": "On dit qu'il y a les gens qui rêvent leur voyage et ceux qui le vivent. Tu te reconnais dans lequel toi ?",
+        "relance": "Moi je suis un grand rêveur qui finit toujours par partir. Et toi plutôt à planifier ou à sauter dans le train ?"
       },
       {
-        "accroche": "Je me demande souvent ce qui reste vraiment d un voyage, les images ou les émotions. Pour vous, c est quoi qui vous marque le plus ?",
-        "relance": "Moi ce sont les rencontres qui me restent bien après. Et vous, qu est ce qui vous suit au retour d un voyage ?"
+        "accroche": "Je me demande souvent ce qui reste vraiment d'un voyage, les images ou les émotions. Pour toi c'est quoi qui te marque le plus ?",
+        "relance": "Moi c'est les rencontres qui me restent bien après. Et toi qu'est-ce qui te suit au retour d'un voyage ?"
       },
       {
-        "accroche": "Il paraît qu on ne revient jamais tout à fait le même d un vrai voyage. Vous avez déjà vécu ça, vous ?",
-        "relance": "Moi un voyage a changé pas mal de choses en moi. Et vous, un séjour qui vous a transformé à ce point ?"
+        "accroche": "Il paraît qu'on revient jamais tout à fait le même d'un vrai voyage. T'as déjà vécu ça toi ?",
+        "relance": "Moi un voyage a changé pas mal de choses en moi. Et toi un séjour qui t'a transformé à ce point ?"
       }
     ]
   },
@@ -40943,56 +40943,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui aime les belles histoires, ça se sent à votre façon d être. Je me trompe ou vous êtes un grand lecteur ou cinéphile ?",
-        "relance": "Moi je dévore les livres et les films sans fin. Et vous, vous êtes plutôt romans, ciné ou musique ?"
+        "accroche": "T'as l'air de quelqu'un qui aime les belles histoires, ça se sent. Je me trompe ou t'es un grand lecteur ou cinéphile ?",
+        "relance": "Moi je dévore les livres et les films sans fin. Et toi plutôt romans, ciné ou musique ?"
       },
       {
-        "accroche": "On dirait que vous avez un petit côté artiste, une sensibilité qui transparaît. Vous touchez à quelque chose de créatif, vous ?",
-        "relance": "Moi je gratouille un instrument sans grand talent mais avec plaisir. Et vous, vous avez une fibre artistique cachée ?"
+        "accroche": "On dirait que t'as un petit côté artiste, une sensibilité qui ressort. Tu touches à un truc créatif toi ?",
+        "relance": "Moi je gratouille un instrument sans grand talent mais avec plaisir. Et toi t'as une fibre artistique cachée ?"
       },
       {
-        "accroche": "Il y a chez vous une curiosité qui donne envie de parler d expos ou de spectacles. Vous êtes du genre à courir les événements culturels, vous ?",
-        "relance": "Moi je ne rate jamais une belle expo si je peux. Et vous, ça vous arrive souvent de sortir voir quelque chose ?"
+        "accroche": "Y a chez toi une curiosité qui donne envie de parler d'expos ou de spectacles. T'es du genre à courir les événements culturels toi ?",
+        "relance": "Moi je rate jamais une belle expo si je peux. Et toi ça t'arrive souvent de sortir voir un truc ?"
       },
       {
-        "accroche": "Vous dégagez un truc de passionné, comme quelqu un qui aime creuser les sujets. Vous avez un domaine culturel qui vous fascine, vous ?",
-        "relance": "Moi je peux parler d histoire pendant des heures. Et vous, il y a un sujet qui vous captive vraiment ?"
+        "accroche": "Tu dégages un truc de passionné, genre quelqu'un qui aime creuser les sujets. T'as un domaine culturel qui te fascine toi ?",
+        "relance": "Moi je peux parler d'histoire pendant des heures. Et toi y a un sujet qui te captive vraiment ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a plein de choses qui sortent, films, livres, expos, on ne sait plus où donner de la tête. Vous suivez un peu l actualité culturelle, vous ?",
-        "relance": "Moi j ai une liste de trucs à voir qui n en finit pas. Et vous, il y a quelque chose qui vous tente en ce moment ?"
+        "accroche": "En ce moment y a plein de trucs qui sortent, films, livres, expos, on sait plus où donner de la tête. Tu suis un peu l'actu culturelle toi ?",
+        "relance": "Moi j'ai une liste de trucs à voir qui en finit pas. Et toi y a un truc qui te tente là ?"
       },
       {
-        "accroche": "Tout le monde parle d une sortie ou d une autre ces temps ci, ça bouge côté culture. Vous avez vu ou lu quelque chose de marquant récemment, vous ?",
-        "relance": "Moi j ai découvert un truc qui m a scotché dernièrement. Et vous, votre dernier coup de coeur culturel ?"
+        "accroche": "Tout le monde parle d'une sortie ou d'une autre ces temps-ci, ça bouge côté culture. T'as vu ou lu un truc marquant récemment toi ?",
+        "relance": "Moi j'ai découvert un truc qui m'a scotché dernièrement. Et toi ton dernier coup de cœur culturel ?"
       },
       {
-        "accroche": "C est la période où les recommandations fusent de partout, on ne sait plus qui croire. Vous vous fiez à quoi pour choisir un film ou un livre, vous ?",
-        "relance": "Moi je suis toujours le bouche à oreille avant tout. Et vous, vous suivez les critiques ou votre instinct ?"
+        "accroche": "C'est la période où les recos fusent de partout, on sait plus qui croire. Tu te fies à quoi pour choisir un film ou un livre toi ?",
+        "relance": "Moi je suis toujours le bouche-à-oreille avant tout. Et toi tu suis les critiques ou ton instinct ?"
       },
       {
-        "accroche": "En ce moment j ai envie de me plonger dans quelque chose de nouveau côté culture. Vous auriez quelque chose qui vous a marqué à partager, vous ?",
-        "relance": "Moi je cherche justement ma prochaine découverte. Et vous, qu est ce qui vous a emballé dernièrement ?"
+        "accroche": "En ce moment j'ai envie de me plonger dans un truc nouveau côté culture. T'aurais un truc qui t'a marqué à partager toi ?",
+        "relance": "Moi je cherche justement ma prochaine découverte. Et toi qu'est-ce qui t'a emballé dernièrement ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je trouve qu on en apprend beaucoup sur les gens rien qu à connaître leurs goûts culturels. Vous, un livre ou un film pourrait vous résumer ?",
-        "relance": "Moi il y a une oeuvre qui me colle à la peau depuis toujours. Et vous, celle qui vous représente le mieux ?"
+        "accroche": "Je trouve qu'on en apprend beaucoup sur les gens rien qu'à connaître leurs goûts culturels. Un livre ou un film pourrait te résumer toi ?",
+        "relance": "Moi y a une œuvre qui me colle à la peau depuis toujours. Et toi celle qui te représente le mieux ?"
       },
       {
-        "accroche": "On dit que la culture c est ce qui reste quand on a tout oublié, j aime bien cette idée. Ça vous parle, cette phrase, vous ?",
-        "relance": "Moi je crois beaucoup au pouvoir des histoires qu on porte en nous. Et vous, la culture ça occupe quelle place dans votre vie ?"
+        "accroche": "On dit que la culture c'est ce qui reste quand on a tout oublié, j'aime bien cette idée. Ça te parle cette phrase toi ?",
+        "relance": "Moi je crois grave au pouvoir des histoires qu'on porte en nous. Et toi la culture ça occupe quelle place dans ta vie ?"
       },
       {
-        "accroche": "Je me demande souvent ce qui fait qu une oeuvre nous marque à vie et pas une autre. Vous en avez une qui ne vous a jamais quitté, vous ?",
-        "relance": "Moi un film vu enfant me suit encore aujourd hui. Et vous, une oeuvre qui vous a marqué pour de bon ?"
+        "accroche": "Je me demande souvent ce qui fait qu'une œuvre nous marque à vie et pas une autre. T'en as une qui t'a jamais quitté toi ?",
+        "relance": "Moi un film vu enfant me suit encore aujourd'hui. Et toi une œuvre qui t'a marqué pour de bon ?"
       },
       {
-        "accroche": "Il y a ceux qui aiment se cultiver pour comprendre et ceux qui cherchent juste à s évader. Vous vous situez plutôt où, vous ?",
-        "relance": "Moi je fuis un peu la réalité à travers les histoires, j avoue. Et vous, vous lisez et regardez pour apprendre ou pour rêver ?"
+        "accroche": "Y a ceux qui aiment se cultiver pour comprendre et ceux qui cherchent juste à s'évader. Tu te situes plutôt où toi ?",
+        "relance": "Moi je fuis un peu la réalité à travers les histoires, j'avoue. Et toi tu lis et regardes pour apprendre ou pour rêver ?"
       }
     ]
   },
@@ -41015,56 +41015,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui a toujours une bonne série à conseiller, ça se sent. Vous regardez quoi en ce moment, vous ?",
-        "relance": "Moi j enchaîne les épisodes le soir sans pouvoir m arrêter. Et vous, vous avez une série qui vous accroche là ?"
+        "accroche": "T'as l'air de quelqu'un qui a toujours une bonne série à conseiller. Tu regardes quoi en ce moment toi ?",
+        "relance": "Moi j'enchaîne les épisodes le soir sans pouvoir m'arrêter. Et toi t'as une série qui t'accroche là ?"
       },
       {
-        "accroche": "On dirait que vous avez de bons goûts musicaux, il y a un truc dans votre style. Vous écoutez plutôt quoi comme musique, vous ?",
-        "relance": "Moi j écoute un peu de tout selon l humeur. Et vous, c est quoi la dernière chanson que vous avez eue en tête ?"
+        "accroche": "On dirait que t'as de bons goûts musicaux, y a un truc dans ton style. T'écoutes plutôt quoi comme musique toi ?",
+        "relance": "Moi j'écoute un peu de tout selon l'humeur. Et toi c'est quoi la dernière chanson que t'as eue en tête ?"
       },
       {
-        "accroche": "Vous dégagez un côté cinéphile, du genre qui a vu tous les bons films. Vous avez vu quelque chose de sympa au cinéma récemment, vous ?",
-        "relance": "Moi j adore la séance ciné du week end. Et vous, plutôt salle obscure ou film sous la couette ?"
+        "accroche": "Tu dégages un côté cinéphile, genre qui a vu tous les bons films. T'as vu un truc sympa au ciné récemment toi ?",
+        "relance": "Moi j'adore la séance ciné du week-end. Et toi plutôt salle obscure ou film sous la couette ?"
       },
       {
-        "accroche": "Il y a chez vous un truc de passionné de belles histoires, ça donne envie d en parler. Vous êtes plutôt livres ou écrans, vous ?",
-        "relance": "Moi je suis incapable de choisir entre les deux. Et vous, votre dernier coup de coeur, c était un livre ou un film ?"
+        "accroche": "Y a chez toi un truc de passionné de belles histoires, ça donne envie d'en parler. T'es plutôt livres ou écrans toi ?",
+        "relance": "Moi je suis incapable de choisir entre les deux. Et toi ton dernier coup de cœur c'était un livre ou un film ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a des sorties dont tout le monde parle, difficile de suivre. Vous en avez vu une qui valait le coup, vous ?",
-        "relance": "Moi j ai raté celles dont on parle le plus, la honte. Et vous, vous êtes à jour sur les nouveautés ?"
+        "accroche": "En ce moment y a des sorties dont tout le monde parle, dur de suivre. T'en as vu une qui valait le coup toi ?",
+        "relance": "Moi j'ai raté celles dont on parle le plus, la honte. Et toi t'es à jour sur les nouveautés ?"
       },
       {
-        "accroche": "On dirait que tout le monde a une série culte à recommander en ce moment. Vous, laquelle vous a scotché dernièrement ?",
-        "relance": "Moi j en ai une que je conseille à tout le monde. Et vous, celle que vous ne lâcheriez pour rien ?"
+        "accroche": "On dirait que tout le monde a une série culte à recommander en ce moment. Laquelle t'a scotché dernièrement toi ?",
+        "relance": "Moi j'en ai une que je conseille à tout le monde. Et toi celle que tu lâcherais pour rien ?"
       },
       {
-        "accroche": "C est la saison où on a envie de bouquiner ou de se caler devant un bon film. Vous êtes plutôt lecture ou canapé télé, vous ?",
-        "relance": "Moi ça dépend de la météo et de l humeur. Et vous, votre programme cocooning idéal ?"
+        "accroche": "C'est la saison où on a envie de bouquiner ou de se caler devant un bon film. T'es plutôt lecture ou canapé télé toi ?",
+        "relance": "Moi ça dépend de la météo et de l'humeur. Et toi ton programme cocooning idéal ?"
       },
       {
-        "accroche": "Il y a tellement de sorties culturelles en ce moment qu on ne sait plus quoi choisir. Vous, vous avez quelque chose de prévu à voir bientôt ?",
-        "relance": "Moi j ai une liste trop longue et pas assez de temps. Et vous, votre prochaine sortie culturelle en vue ?"
+        "accroche": "Y a tellement de sorties culturelles en ce moment qu'on sait plus quoi choisir. T'as un truc de prévu à voir bientôt toi ?",
+        "relance": "Moi j'ai une liste trop longue et pas assez de temps. Et toi ta prochaine sortie culturelle en vue ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "C est marrant comme une chanson peut nous ramener des années en arrière d un coup. Ça vous fait ça aussi, vous ?",
-        "relance": "Moi certains morceaux me replongent direct dans mes souvenirs. Et vous, une chanson qui vous fait voyager dans le temps ?"
+        "accroche": "C'est marrant comme une chanson peut nous ramener des années en arrière d'un coup. Ça te fait ça aussi toi ?",
+        "relance": "Moi certains morceaux me replongent direct dans mes souvenirs. Et toi une chanson qui te fait voyager dans le temps ?"
       },
       {
-        "accroche": "Je trouve qu un bon film ou une bonne série peut sauver toute une soirée. Vous êtes d accord avec ça, vous ?",
-        "relance": "Moi rien ne vaut une bonne histoire pour décompresser. Et vous, c est quoi votre madeleine côté films ou séries ?"
+        "accroche": "Je trouve qu'un bon film ou une bonne série peut sauver toute une soirée. T'es d'accord avec ça toi ?",
+        "relance": "Moi rien ne vaut une bonne histoire pour décompresser. Et toi c'est quoi ta madeleine côté films ou séries ?"
       },
       {
-        "accroche": "On dit qu il y a des films qu on peut revoir cent fois sans se lasser. Vous en avez un comme ça, vous ?",
-        "relance": "Moi j en ai un que je connais par coeur et que je remets toujours. Et vous, votre doudou cinématographique ?"
+        "accroche": "On dit qu'il y a des films qu'on peut revoir cent fois sans se lasser. T'en as un comme ça toi ?",
+        "relance": "Moi j'en ai un que je connais par cœur et que je remets toujours. Et toi ton doudou cinéma ?"
       },
       {
-        "accroche": "Il paraît que nos goûts musicaux se figent avec l âge, je ne sais pas si c est vrai. Vous, vous découvrez encore de nouvelles choses ?",
-        "relance": "Moi j essaie de rester curieux mais je reviens toujours à mes classiques. Et vous, ouvert aux nouveautés ou fidèle à vos vieux morceaux ?"
+        "accroche": "Il paraît que nos goûts musicaux se figent avec l'âge, je sais pas si c'est vrai. Tu découvres encore de nouvelles choses toi ?",
+        "relance": "Moi j'essaie de rester curieux mais je reviens toujours à mes classiques. Et toi ouvert aux nouveautés ou fidèle à tes vieux morceaux ?"
       }
     ]
   },
@@ -41087,56 +41087,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d avoir de très bons goûts, du genre à savoir dénicher les pépites. Vous auriez un livre à me conseiller absolument ?",
-        "relance": "Moi je cherche ma prochaine lecture et je tourne en rond. Et vous, le dernier bouquin qui vous a marqué ?"
+        "accroche": "T'as l'air d'avoir de très bons goûts, genre à savoir dénicher les pépites. T'aurais un livre à me conseiller absolument ?",
+        "relance": "Moi je cherche ma prochaine lecture et je tourne en rond. Et toi le dernier bouquin qui t'a marqué ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a vu et lu beaucoup de choses, ça se sent. Vous auriez un film à recommander sans hésiter, vous ?",
-        "relance": "Moi je ne sais jamais quoi regarder le soir venu. Et vous, celui que vous conseilleriez à tout le monde ?"
+        "accroche": "On dirait quelqu'un qui a vu et lu beaucoup de choses, ça se sent. T'aurais un film à recommander sans hésiter toi ?",
+        "relance": "Moi je sais jamais quoi regarder le soir venu. Et toi celui que tu conseillerais à tout le monde ?"
       },
       {
-        "accroche": "Vous dégagez un côté connaisseur, comme quelqu un dont les recommandations valent de l or. Vous auriez une série à me conseiller, vous ?",
-        "relance": "Moi j ai fait le tour de ma liste et je sèche. Et vous, votre pépite du moment à ne pas rater ?"
+        "accroche": "Tu dégages un côté connaisseur, genre quelqu'un dont les recos valent de l'or. T'aurais une série à me conseiller toi ?",
+        "relance": "Moi j'ai fait le tour de ma liste et je sèche. Et toi ta pépite du moment à pas rater ?"
       },
       {
-        "accroche": "Vous avez l air branché sur ce qui se passe côté sorties et événements. Vous auriez une bonne idée de sortie culturelle à me souffler ?",
-        "relance": "Moi je manque toujours les bons plans faute d infos. Et vous, comment vous dénichez les événements sympas ?"
+        "accroche": "T'as l'air branché sur ce qui se passe côté sorties et événements. T'aurais une bonne idée de sortie culturelle à me souffler ?",
+        "relance": "Moi je manque toujours les bons plans faute d'infos. Et toi tu déniches comment les événements sympas ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je cherche une bonne lecture mais je suis noyé sous les propositions. Vous vous y retrouvez, vous, dans tout ce qui sort ?",
-        "relance": "Moi je finis toujours par ne rien choisir tellement il y en a. Et vous, comment vous faites votre tri ?"
+        "accroche": "En ce moment je cherche une bonne lecture mais je suis noyé sous les propositions. Tu t'y retrouves toi dans tout ce qui sort ?",
+        "relance": "Moi je finis toujours par rien choisir tellement il y en a. Et toi tu fais ton tri comment ?"
       },
       {
-        "accroche": "Je suis en manque d idées côté films et j aimerais sortir de mes habitudes. Vous auriez quelque chose d original à conseiller, vous ?",
-        "relance": "Moi je tourne toujours dans les mêmes genres. Et vous, un film qui vous a surpris récemment ?"
+        "accroche": "Je suis en manque d'idées côté films et j'aimerais sortir de mes habitudes. T'aurais un truc original à conseiller toi ?",
+        "relance": "Moi je tourne toujours dans les mêmes genres. Et toi un film qui t'a surpris récemment ?"
       },
       {
-        "accroche": "En ce moment je veux découvrir un nouveau style de musique mais je ne sais pas par où commencer. Vous avez des artistes à me faire découvrir, vous ?",
-        "relance": "Moi j écoute toujours la même chose et ça m ennuie. Et vous, votre dernière belle découverte musicale ?"
+        "accroche": "En ce moment je veux découvrir un nouveau style de musique mais je sais pas par où commencer. T'as des artistes à me faire découvrir toi ?",
+        "relance": "Moi j'écoute toujours la même chose et ça m'ennuie. Et toi ta dernière belle découverte musicale ?"
       },
       {
-        "accroche": "Je cherche une idée de sortie culturelle pour changer un peu et je sèche. Vous auriez une recommandation qui sort de l ordinaire, vous ?",
-        "relance": "Moi je fais toujours les mêmes choses par facilité. Et vous, une sortie qui vous a marqué dernièrement ?"
+        "accroche": "Je cherche une idée de sortie culturelle pour changer un peu et je sèche. T'aurais une reco qui sort de l'ordinaire toi ?",
+        "relance": "Moi je fais toujours les mêmes trucs par facilité. Et toi une sortie qui t'a marqué dernièrement ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande toujours à qui se fier pour choisir un bon livre ou un bon film. Vous vous fiez plutôt aux critiques ou au bouche à oreille, vous ?",
-        "relance": "Moi je me méfie des critiques et je préfère les conseils d amis. Et vous, votre boussole pour choisir ?"
+        "accroche": "Je me demande toujours à qui se fier pour choisir un bon livre ou un bon film. Tu te fies plutôt aux critiques ou au bouche-à-oreille toi ?",
+        "relance": "Moi je me méfie des critiques et je préfère les conseils de potes. Et toi ta boussole pour choisir ?"
       },
       {
-        "accroche": "On dit qu il faut parfois oser sortir de sa zone de confort culturelle. Vous, vous conseilleriez quoi à quelqu un qui veut se lancer ?",
-        "relance": "Moi j ai découvert un genre que je fuyais et j ai adoré. Et vous, un conseil pour élargir ses horizons ?"
+        "accroche": "On dit qu'il faut parfois oser sortir de sa zone de confort culturelle. Tu conseillerais quoi à quelqu'un qui veut se lancer toi ?",
+        "relance": "Moi j'ai découvert un genre que je fuyais et j'ai adoré. Et toi un conseil pour élargir ses horizons ?"
       },
       {
-        "accroche": "Je trouve qu on passe à côté de tellement de belles choses faute de savoir où chercher. Vous avez une méthode pour dénicher les pépites, vous ?",
-        "relance": "Moi je fouine un peu partout au hasard. Et vous, comment vous tombez sur vos coups de coeur ?"
+        "accroche": "Je trouve qu'on passe à côté de tellement de belles choses faute de savoir où chercher. T'as une méthode pour dénicher les pépites toi ?",
+        "relance": "Moi je fouine un peu partout au hasard. Et toi tu tombes comment sur tes coups de cœur ?"
       },
       {
-        "accroche": "Il paraît que le meilleur conseil culturel c est souvent celui qui nous ressemble le moins. Vous en pensez quoi, vous ?",
-        "relance": "Moi les recommandations les plus inattendues m ont souvent le plus marqué. Et vous, une découverte improbable à conseiller ?"
+        "accroche": "Il paraît que le meilleur conseil culturel c'est souvent celui qui nous ressemble le moins. T'en penses quoi toi ?",
+        "relance": "Moi les recos les plus inattendues m'ont souvent le plus marqué. Et toi une découverte improbable à conseiller ?"
       }
     ]
   },
@@ -41159,56 +41159,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui a un vrai univers, des passions bien à vous. Il y a un domaine culturel qui vous anime particulièrement, vous ?",
-        "relance": "Moi je suis intarissable dès qu on parle de cinéma. Et vous, c est quoi le sujet qui vous fait vibrer ?"
+        "accroche": "T'as l'air de quelqu'un qui a un vrai univers, des passions bien à toi. Y a un domaine culturel qui t'anime particulièrement toi ?",
+        "relance": "Moi je suis intarissable dès qu'on parle de cinéma. Et toi c'est quoi le sujet qui te fait vibrer ?"
       },
       {
-        "accroche": "On dirait quelqu un de curieux, du genre qui s intéresse à mille choses. Vous êtes plutôt du style à picorer partout ou à creuser un sujet, vous ?",
-        "relance": "Moi je saute d une passion à l autre sans arrêt. Et vous, vous vous focalisez ou vous touchez à tout ?"
+        "accroche": "On dirait quelqu'un de curieux, genre qui s'intéresse à mille trucs. T'es plutôt du style à picorer partout ou à creuser un sujet toi ?",
+        "relance": "Moi je saute d'une passion à l'autre sans arrêt. Et toi tu te focalises ou tu touches à tout ?"
       },
       {
-        "accroche": "Il y a chez vous une sensibilité artistique qui se devine, un truc dans votre façon d être. Vous pratiquez quelque chose de créatif, vous ?",
-        "relance": "Moi je dessine dans mon coin pour me détendre. Et vous, vous avez un talent caché à avouer ?"
+        "accroche": "Y a chez toi une sensibilité artistique qui se devine, un truc dans ta façon d'être. Tu pratiques un truc créatif toi ?",
+        "relance": "Moi je dessine dans mon coin pour me détendre. Et toi t'as un talent caché à avouer ?"
       },
       {
-        "accroche": "Vous dégagez le profil de quelqu un qui a des goûts affirmés, ça m intrigue. Vous seriez plutôt classique ou attiré par ce qui bouscule, vous ?",
-        "relance": "Moi j aime être secoué par une oeuvre, sortir de ma zone. Et vous, vous cherchez le confort ou la surprise ?"
+        "accroche": "Tu dégages le profil de quelqu'un qui a des goûts affirmés, ça m'intrigue. Tu serais plutôt classique ou attiré par ce qui bouscule toi ?",
+        "relance": "Moi j'aime être secoué par une œuvre, sortir de ma zone. Et toi tu cherches le confort ou la surprise ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On se croise là, chacun avec sûrement une passion culturelle qui nous tient. Si vous deviez en défendre une, ce serait laquelle, vous ?",
-        "relance": "Moi je défendrais la lecture jusqu au bout. Et vous, celle pour laquelle vous vous battriez ?"
+        "accroche": "On se croise là, chacun avec sûrement une passion culturelle qui nous tient. Si tu devais en défendre une ce serait laquelle toi ?",
+        "relance": "Moi je défendrais la lecture jusqu'au bout. Et toi celle pour laquelle tu te battrais ?"
       },
       {
-        "accroche": "C est le genre de moment parfait pour parler de ce qui nous passionne vraiment. Vous, il y a un sujet dont vous pourriez parler des heures ?",
-        "relance": "Moi lancez moi sur la musique et je ne m arrête plus. Et vous, votre sujet sans fin ?"
+        "accroche": "C'est le moment parfait pour parler de ce qui nous passionne vraiment. Y a un sujet dont tu pourrais parler des heures toi ?",
+        "relance": "Moi lance-moi sur la musique et je m'arrête plus. Et toi ton sujet sans fin ?"
       },
       {
-        "accroche": "On dirait un bon moment pour échanger sur nos univers, ce qui nous fait vibrer. Vous, votre dada culturel, ce serait quoi, vous ?",
-        "relance": "Moi c est les vieux films en noir et blanc, j assume. Et vous, votre passion un peu à part ?"
+        "accroche": "On dirait un bon moment pour échanger sur nos univers, ce qui nous fait vibrer. Ton dada culturel ce serait quoi toi ?",
+        "relance": "Moi c'est les vieux films en noir et blanc, j'assume. Et toi ta passion un peu à part ?"
       },
       {
-        "accroche": "Voilà l occasion de parler d autre chose que la pluie et le beau temps. Vous, qu est ce qui vous fait vibrer côté culture, vous ?",
-        "relance": "Moi rien ne me met en joie comme un bon concert. Et vous, ce qui vous transporte le plus ?"
+        "accroche": "Voilà l'occasion de parler d'autre chose que la pluie et le beau temps. Qu'est-ce qui te fait vibrer côté culture toi ?",
+        "relance": "Moi rien ne me met en joie comme un bon concert. Et toi ce qui te transporte le plus ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je trouve qu on se rapproche vite des gens quand on partage une même passion. Vous avez déjà noué une belle rencontre comme ça, vous ?",
-        "relance": "Moi une passion commune m a offert de belles amitiés. Et vous, une passion ça vous a déjà rapproché de quelqu un ?"
+        "accroche": "Je trouve qu'on se rapproche vite des gens quand on partage une même passion. T'as déjà noué une belle rencontre comme ça toi ?",
+        "relance": "Moi une passion commune m'a offert de belles amitiés. Et toi une passion ça t'a déjà rapproché de quelqu'un ?"
       },
       {
-        "accroche": "On dit que nos passions racontent beaucoup de notre histoire personnelle. La vôtre, elle vous vient d où, vous ?",
-        "relance": "Moi je tiens mon amour du cinéma de mon enfance. Et vous, comment est née votre passion ?"
+        "accroche": "On dit que nos passions racontent beaucoup de notre histoire. La tienne elle te vient d'où toi ?",
+        "relance": "Moi je tiens mon amour du cinéma de mon enfance. Et toi comment est née ta passion ?"
       },
       {
-        "accroche": "Je me demande souvent ce qui transforme un simple intérêt en vraie passion. Vous avez vécu ça avec quelque chose, vous ?",
-        "relance": "Moi un déclic a suffi et je n ai plus jamais lâché. Et vous, votre passion, c est un coup de foudre ou ça a mûri ?"
+        "accroche": "Je me demande souvent ce qui transforme un simple intérêt en vraie passion. T'as vécu ça avec un truc toi ?",
+        "relance": "Moi un déclic a suffi et j'ai plus jamais lâché. Et toi ta passion c'est un coup de foudre ou ça a mûri ?"
       },
       {
-        "accroche": "Il paraît que la culture c est aussi une façon de se comprendre soi même. Vous ressentez ça à travers vos goûts, vous ?",
-        "relance": "Moi je me retrouve beaucoup dans les histoires que j aime. Et vous, vos goûts vous ressemblent ou vous surprennent ?"
+        "accroche": "Il paraît que la culture c'est aussi une façon de se comprendre soi-même. Tu ressens ça à travers tes goûts toi ?",
+        "relance": "Moi je me retrouve beaucoup dans les histoires que j'aime. Et toi tes goûts te ressemblent ou te surprennent ?"
       }
     ]
   },
@@ -41231,56 +41231,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un d abordable, on se sent tout de suite à l aise avec vous. Vous êtes du genre à parler facilement aux inconnus, vous ?",
-        "relance": "Moi j adore engager la conversation avec des gens que je ne connais pas. Et vous, ça vous vient naturellement ou pas trop ?"
+        "accroche": "T'as l'air super abordable, on se sent à l'aise tout de suite avec toi. T'es du genre à parler facilement aux inconnus toi ?",
+        "relance": "Moi j'adore engager la conversation avec des gens que je connais pas. Et toi ça te vient naturellement ou pas trop ?"
       },
       {
-        "accroche": "On dirait quelqu un qui aime les gens, il y a une chaleur qui se dégage de vous. Vous êtes plutôt entouré ou vous aimez votre tranquillité, vous ?",
-        "relance": "Moi j ai besoin de voir du monde pour me sentir bien. Et vous, plutôt petit cercle ou grande bande ?"
+        "accroche": "On dirait quelqu'un qui aime les gens, y a une chaleur qui se dégage de toi. T'es plutôt entouré ou t'aimes ta tranquillité toi ?",
+        "relance": "Moi j'ai besoin de voir du monde pour me sentir bien. Et toi plutôt petit cercle ou grande bande ?"
       },
       {
-        "accroche": "Il y a chez vous un côté sociable qui donne envie de discuter. Vous êtes de ceux qui connaissent tout le monde partout, vous ?",
-        "relance": "Moi je papote avec n importe qui, c est plus fort que moi. Et vous, vous vous faites facilement des amis ?"
+        "accroche": "Y a chez toi un côté sociable qui donne envie de discuter. T'es de ceux qui connaissent tout le monde partout toi ?",
+        "relance": "Moi je papote avec n'importe qui, c'est plus fort que moi. Et toi tu te fais facilement des potes ?"
       },
       {
-        "accroche": "Vous dégagez une belle énergie, le genre de personne autour de qui les gens se rassemblent. Vous vous voyez plutôt en meneur ou en discret, vous ?",
-        "relance": "Moi je suis souvent celui qui lance les choses dans un groupe. Et vous, vous prenez les devants ou vous observez ?"
+        "accroche": "Tu dégages une belle énergie, le genre de personne autour de qui les gens se rassemblent. Tu te vois plutôt en meneur ou en discret toi ?",
+        "relance": "Moi je suis souvent celui qui lance les choses dans un groupe. Et toi tu prends les devants ou tu observes ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C est marrant ces moments où on se retrouve à parler à un inconnu sans l avoir prévu. Vous, ça vous arrive souvent ce genre de rencontre, vous ?",
-        "relance": "Moi j adore ces discussions imprévues avec des inconnus. Et vous, vous êtes ouvert à ça ou plutôt réservé ?"
+        "accroche": "C'est marrant ces moments où on se retrouve à parler à un inconnu sans l'avoir prévu. Ça t'arrive souvent ce genre de rencontre toi ?",
+        "relance": "Moi j'adore ces discussions imprévues avec des inconnus. Et toi t'es ouvert à ça ou plutôt réservé ?"
       },
       {
-        "accroche": "On est là, deux inconnus en train de discuter, et finalement c est plutôt sympa. Vous croyez au hasard des rencontres, vous ?",
-        "relance": "Moi je pense que les meilleures rencontres arrivent par surprise. Et vous, vous provoquez les rencontres ou vous laissez faire ?"
+        "accroche": "On est là, deux inconnus en train de discuter, et finalement c'est plutôt sympa. Tu crois au hasard des rencontres toi ?",
+        "relance": "Moi je pense que les meilleures rencontres arrivent par surprise. Et toi tu provoques les rencontres ou tu laisses faire ?"
       },
       {
-        "accroche": "C est le genre de moment où on croise plein de gens sans jamais vraiment se parler. Vous, vous osez aller vers les autres facilement, vous ?",
-        "relance": "Moi ça dépend des jours, parfois je n ose pas. Et vous, vous êtes plutôt du genre à faire le premier pas ?"
+        "accroche": "C'est le genre de moment où on croise plein de gens sans jamais vraiment se parler. T'oses aller vers les autres facilement toi ?",
+        "relance": "Moi ça dépend des jours, parfois j'ose pas. Et toi t'es plutôt du genre à faire le premier pas ?"
       },
       {
-        "accroche": "On rencontre tellement de monde au fil d une vie, et si peu qui comptent vraiment. Vous, vous gardez le contact facilement, vous ?",
-        "relance": "Moi je perds souvent le fil avec les gens, à mon grand regret. Et vous, vous entretenez bien vos relations ?"
+        "accroche": "On rencontre tellement de monde au fil d'une vie, et si peu qui comptent vraiment. Tu gardes le contact facilement toi ?",
+        "relance": "Moi je perds souvent le fil avec les gens, à mon grand regret. Et toi t'entretiens bien tes relations ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande souvent ce qui fait qu on accroche tout de suite avec certaines personnes. Vous avez une idée là dessus, vous ?",
-        "relance": "Moi je crois que c est une histoire d énergie qui passe ou pas. Et vous, ça tient à quoi le courant qui passe pour vous ?"
+        "accroche": "Je me demande souvent ce qui fait qu'on accroche tout de suite avec certaines personnes. T'as une idée là-dessus toi ?",
+        "relance": "Moi je crois que c'est une histoire d'énergie qui passe ou pas. Et toi ça tient à quoi le courant qui passe ?"
       },
       {
-        "accroche": "On dit qu il y a les gens qui rechargent leurs batteries seuls et ceux qui les rechargent avec les autres. Vous vous situez où, vous ?",
-        "relance": "Moi j ai besoin des autres pour me sentir plein d énergie. Et vous, solitude ou compagnie pour vous ressourcer ?"
+        "accroche": "On dit qu'il y a les gens qui rechargent leurs batteries seuls et ceux qui les rechargent avec les autres. Tu te situes où toi ?",
+        "relance": "Moi j'ai besoin des autres pour me sentir plein d'énergie. Et toi solitude ou compagnie pour te ressourcer ?"
       },
       {
-        "accroche": "Je trouve fascinant comme certaines amitiés durent toute une vie et d autres s éteignent. Vous en avez, des amitiés qui traversent le temps, vous ?",
-        "relance": "Moi j ai un ami depuis toujours et c est précieux. Et vous, vous croyez aux amitiés qui durent une vie ?"
+        "accroche": "Je trouve fou comme certaines amitiés durent toute une vie et d'autres s'éteignent. T'en as toi, des amitiés qui traversent le temps ?",
+        "relance": "Moi j'ai un pote depuis toujours et c'est précieux. Et toi tu crois aux amitiés qui durent une vie ?"
       },
       {
-        "accroche": "Il paraît qu on devient un peu comme les gens dont on s entoure. Vous êtes d accord avec cette idée, vous ?",
-        "relance": "Moi je sens que mon entourage déteint beaucoup sur moi. Et vous, vos proches vous influencent ou vous restez vous même ?"
+        "accroche": "Il paraît qu'on devient un peu comme les gens dont on s'entoure. T'es d'accord avec cette idée toi ?",
+        "relance": "Moi je sens que mon entourage déteint grave sur moi. Et toi tes proches t'influencent ou tu restes toi-même ?"
       }
     ]
   },
@@ -41303,56 +41303,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui aime les bons moments entre amis, ça se sent. Vous êtes plutôt grandes soirées ou petits comités, vous ?",
-        "relance": "Moi je préfère les petites tablées où on peut vraiment discuter. Et vous, grande fête ou soirée tranquille ?"
+        "accroche": "T'as l'air de quelqu'un qui aime les bons moments entre potes, ça se sent. T'es plutôt grandes soirées ou petits comités toi ?",
+        "relance": "Moi je préfère les petites tablées où on peut vraiment discuter. Et toi grande fête ou soirée tranquille ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a un carnet de sorties bien rempli, il y a un côté festif chez vous. Vous sortez souvent, vous ?",
-        "relance": "Moi j essaie de voir mes amis dès que je peux. Et vous, vous êtes plutôt casanier ou toujours partant ?"
+        "accroche": "On dirait quelqu'un qui a un carnet de sorties bien rempli, y a un côté festif chez toi. Tu sors souvent toi ?",
+        "relance": "Moi j'essaie de voir mes potes dès que je peux. Et toi plutôt casanier ou toujours partant ?"
       },
       {
-        "accroche": "Vous dégagez une énergie de bon vivant, du genre qui aime se retrouver autour d une table. Vous êtes plutôt du soir ou du dimanche midi, vous ?",
-        "relance": "Moi les longs repas qui s éternisent c est mon péché mignon. Et vous, votre format de retrouvailles préféré ?"
+        "accroche": "Tu dégages une énergie de bon vivant, genre qui aime se retrouver autour d'une table. T'es plutôt du soir ou du dimanche midi toi ?",
+        "relance": "Moi les longs repas qui s'éternisent c'est mon péché mignon. Et toi ton format de retrouvailles préféré ?"
       },
       {
-        "accroche": "Il y a chez vous un truc convivial, on vous imagine bien entouré de monde. Vous êtes du genre à organiser les retrouvailles, vous ?",
-        "relance": "Moi je suis souvent celui qui rassemble tout le monde. Et vous, vous organisez ou vous suivez le mouvement ?"
+        "accroche": "Y a chez toi un truc convivial, on t'imagine bien entouré de monde. T'es du genre à organiser les retrouvailles toi ?",
+        "relance": "Moi je suis souvent celui qui rassemble tout le monde. Et toi t'organises ou tu suis le mouvement ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C est bientôt le week end, le moment où tout le monde prévoit de voir du monde. Vous avez quelque chose de prévu avec des proches, vous ?",
-        "relance": "Moi j ai un petit apéro entre amis en vue. Et vous, vous préférez les week ends sociaux ou au calme ?"
+        "accroche": "C'est bientôt le week-end, le moment où tout le monde prévoit de voir du monde. T'as un truc de prévu avec des proches toi ?",
+        "relance": "Moi j'ai un petit apéro entre potes en vue. Et toi tu préfères les week-ends sociaux ou au calme ?"
       },
       {
-        "accroche": "On sent que les gens ont envie de se retrouver en ce moment, ça fait plaisir. Vous, vous êtes plutôt sollicité de partout ou tranquille, vous ?",
-        "relance": "Moi mon agenda social explose ces temps ci. Et vous, vous courez les invitations ou vous levez le pied ?"
+        "accroche": "On sent que les gens ont envie de se retrouver en ce moment, ça fait plaisir. T'es plutôt sollicité de partout ou tranquille toi ?",
+        "relance": "Moi mon agenda social explose ces temps-ci. Et toi tu cours les invitations ou tu lèves le pied ?"
       },
       {
-        "accroche": "C est la saison où les retrouvailles se multiplient, ça bouge côté social. Vous avez des occasions sympas qui arrivent, vous ?",
-        "relance": "Moi j ai quelques retrouvailles qui me font très envie. Et vous, quelque chose de chouette en perspective ?"
+        "accroche": "C'est la saison où les retrouvailles se multiplient, ça bouge côté social. T'as des occasions sympas qui arrivent toi ?",
+        "relance": "Moi j'ai quelques retrouvailles qui me font très envie. Et toi un truc chouette en perspective ?"
       },
       {
-        "accroche": "Il y a des périodes où on enchaîne les sorties et d autres où on hiberne. Vous êtes plutôt dans quelle phase en ce moment, vous ?",
-        "relance": "Moi je suis en pleine phase je vois tout le monde. Et vous, plutôt sociable ou en mode cocon là ?"
+        "accroche": "Y a des périodes où on enchaîne les sorties et d'autres où on hiberne. T'es plutôt dans quelle phase en ce moment toi ?",
+        "relance": "Moi je suis en pleine phase je vois tout le monde. Et toi plutôt sociable ou en mode cocon là ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je trouve que rien ne vaut un bon moment partagé pour se remonter le moral. Vous êtes d accord avec ça, vous ?",
-        "relance": "Moi une soirée entre amis me requinque à chaque fois. Et vous, c est quoi qui vous fait le plus de bien socialement ?"
+        "accroche": "Je trouve que rien ne vaut un bon moment partagé pour se remonter le moral. T'es d'accord avec ça toi ?",
+        "relance": "Moi une soirée entre potes me requinque à chaque fois. Et toi c'est quoi qui te fait le plus de bien socialement ?"
       },
       {
-        "accroche": "On dit qu il vaut mieux quelques bons amis qu une foule de connaissances. Vous partagez cette idée, vous ?",
-        "relance": "Moi je préfère largement la qualité à la quantité. Et vous, grand cercle ou petit noyau fidèle ?"
+        "accroche": "On dit qu'il vaut mieux quelques bons potes qu'une foule de connaissances. Tu partages cette idée toi ?",
+        "relance": "Moi je préfère largement la qualité à la quantité. Et toi grand cercle ou petit noyau fidèle ?"
       },
       {
-        "accroche": "C est fou comme un simple moment partagé peut rester un super souvenir. Vous en avez un récent qui vous fait sourire, vous ?",
-        "relance": "Moi une soirée toute simple m a laissé un souvenir génial. Et vous, un bon moment entre proches qui vous reste ?"
+        "accroche": "C'est fou comme un simple moment partagé peut rester un super souvenir. T'en as un récent qui te fait sourire toi ?",
+        "relance": "Moi une soirée toute simple m'a laissé un souvenir génial. Et toi un bon moment entre proches qui te reste ?"
       },
       {
-        "accroche": "Il paraît qu on ne se retrouve jamais assez avec les gens qu on aime. Vous arrivez à voir vos proches autant que vous voudriez, vous ?",
-        "relance": "Moi je trouve qu on ne se voit jamais assez, la vie va trop vite. Et vous, vous prenez le temps ou ça file ?"
+        "accroche": "Il paraît qu'on se retrouve jamais assez avec les gens qu'on aime. T'arrives à voir tes proches autant que tu voudrais toi ?",
+        "relance": "Moi je trouve qu'on se voit jamais assez, la vie va trop vite. Et toi tu prends le temps ou ça file ?"
       }
     ]
   },
@@ -41375,56 +41375,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui met les gens à l aise sans effort, ça se sent. Vous auriez un conseil pour aller vers les autres plus facilement, vous ?",
-        "relance": "Moi je me bloque toujours au moment d aborder quelqu un. Et vous, comment vous faites pour engager la conversation si naturellement ?"
+        "accroche": "T'as l'air de quelqu'un qui met les gens à l'aise sans effort. T'aurais un conseil pour aller vers les autres plus facilement toi ?",
+        "relance": "Moi je me bloque toujours au moment d'aborder quelqu'un. Et toi tu fais comment pour engager la conversation si naturellement ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a un vrai talent pour les relations, ça se devine. Vous auriez une astuce pour se faire des amis à l âge adulte, vous ?",
-        "relance": "Moi je trouve ça de plus en plus dur avec les années. Et vous, votre secret pour créer de nouveaux liens ?"
+        "accroche": "On dirait quelqu'un qui a un vrai talent pour les relations, ça se devine. T'aurais une astuce pour se faire des potes à l'âge adulte toi ?",
+        "relance": "Moi je trouve ça de plus en plus dur avec les années. Et toi ton secret pour créer de nouveaux liens ?"
       },
       {
-        "accroche": "Vous dégagez un truc rassurant, le genre de personne à qui on se confie vite. Vous auriez un conseil pour garder le contact avec les gens, vous ?",
-        "relance": "Moi je laisse toujours filer mes amitiés faute de temps. Et vous, comment vous entretenez vos relations ?"
+        "accroche": "Tu dégages un truc rassurant, le genre de personne à qui on se confie vite. T'aurais un conseil pour garder le contact avec les gens toi ?",
+        "relance": "Moi je laisse toujours filer mes amitiés faute de temps. Et toi tu entretiens comment tes relations ?"
       },
       {
-        "accroche": "Vous avez l air de bien gérer les situations sociales, même les délicates. Vous auriez une astuce pour ne pas être mal à l aise avec des inconnus, vous ?",
-        "relance": "Moi je ne sais jamais quoi dire dans ces moments là. Et vous, comment vous gérez les blancs dans une conversation ?"
+        "accroche": "T'as l'air de bien gérer les situations sociales, même les délicates. T'aurais une astuce pour pas être mal à l'aise avec des inconnus toi ?",
+        "relance": "Moi je sais jamais quoi dire dans ces moments-là. Et toi tu gères comment les blancs dans une conversation ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j essaie d élargir un peu mon cercle mais ce n est pas évident. Vous avez déjà réussi à vous faire de nouveaux amis, vous ?",
-        "relance": "Moi je ne sais pas trop comment m y prendre honnêtement. Et vous, vous vous êtes fait des amis récemment ?"
+        "accroche": "En ce moment j'essaie d'élargir un peu mon cercle mais c'est pas évident. T'as déjà réussi à te faire de nouveaux potes toi ?",
+        "relance": "Moi je sais pas trop comment m'y prendre honnêtement. Et toi tu t'es fait des potes récemment ?"
       },
       {
-        "accroche": "Ces temps ci je me demande comment garder le lien avec des gens qu on voit peu. Vous avez une méthode pour ça, vous ?",
-        "relance": "Moi j oublie toujours de donner des nouvelles. Et vous, comment vous restez proche des gens éloignés ?"
+        "accroche": "Ces temps-ci je me demande comment garder le lien avec des gens qu'on voit peu. T'as une méthode pour ça toi ?",
+        "relance": "Moi j'oublie toujours de donner des nouvelles. Et toi tu restes proche comment des gens éloignés ?"
       },
       {
-        "accroche": "En ce moment je cherche à me montrer plus à l aise en société. Vous auriez un conseil pour quelqu un d un peu timide, vous ?",
-        "relance": "Moi je me sens vite intimidé dans un groupe. Et vous, comment vous prenez confiance face aux autres ?"
+        "accroche": "En ce moment je cherche à me montrer plus à l'aise en société. T'aurais un conseil pour quelqu'un d'un peu timide toi ?",
+        "relance": "Moi je me sens vite intimidé dans un groupe. Et toi tu prends confiance comment face aux autres ?"
       },
       {
-        "accroche": "Je me demande souvent comment faire le premier pas sans avoir l air bizarre. Vous êtes à l aise avec ça, vous ?",
-        "relance": "Moi j ai toujours peur de déranger en abordant quelqu un. Et vous, votre truc pour oser aller vers l autre ?"
+        "accroche": "Je me demande souvent comment faire le premier pas sans avoir l'air bizarre. T'es à l'aise avec ça toi ?",
+        "relance": "Moi j'ai toujours peur de déranger en abordant quelqu'un. Et toi ton truc pour oser aller vers l'autre ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demande toujours quel est le secret des gens qui gardent leurs amis toute leur vie. Vous auriez un conseil là dessus, vous ?",
-        "relance": "Moi je crois qu il faut savoir donner des nouvelles régulièrement. Et vous, votre recette pour des amitiés qui durent ?"
+        "accroche": "Je me demande toujours c'est quoi le secret des gens qui gardent leurs potes toute leur vie. T'aurais un conseil là-dessus toi ?",
+        "relance": "Moi je crois qu'il faut savoir donner des nouvelles régulièrement. Et toi ta recette pour des amitiés qui durent ?"
       },
       {
-        "accroche": "On dit que faire le premier pas est la partie la plus difficile d une rencontre. Vous conseilleriez quoi à quelqu un de réservé, vous ?",
-        "relance": "Moi j ai appris à me lancer même quand j ai peur. Et vous, votre conseil pour oser aborder les gens ?"
+        "accroche": "On dit que faire le premier pas c'est la partie la plus dure d'une rencontre. Tu conseillerais quoi à quelqu'un de réservé toi ?",
+        "relance": "Moi j'ai appris à me lancer même quand j'ai peur. Et toi ton conseil pour oser aborder les gens ?"
       },
       {
-        "accroche": "Je trouve qu on ne nous apprend jamais vraiment à entretenir nos relations. Vous, vous avez un conseil précieux à transmettre là dessus ?",
-        "relance": "Moi le meilleur que j ai reçu c est d écouter vraiment les gens. Et vous, votre conseil pour bien s entendre avec les autres ?"
+        "accroche": "Je trouve qu'on nous apprend jamais vraiment à entretenir nos relations. T'as un conseil précieux à transmettre là-dessus toi ?",
+        "relance": "Moi le meilleur que j'ai reçu c'est d'écouter vraiment les gens. Et toi ton conseil pour bien s'entendre avec les autres ?"
       },
       {
-        "accroche": "Il paraît que la clé d une bonne relation c est surtout de savoir écouter. Vous êtes d accord avec ça, vous ?",
-        "relance": "Moi j essaie d écouter plus que de parler, ça change tout. Et vous, c est quoi selon vous l ingrédient d une belle relation ?"
+        "accroche": "Il paraît que la clé d'une bonne relation c'est surtout de savoir écouter. T'es d'accord avec ça toi ?",
+        "relance": "Moi j'essaie d'écouter plus que de parler, ça change tout. Et toi c'est quoi selon toi l'ingrédient d'une belle relation ?"
       }
     ]
   },
@@ -41447,56 +41447,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un avec qui on discute facilement, ça met à l aise tout de suite. Vous êtes plutôt du genre extraverti ou réservé, vous ?",
-        "relance": "Moi je suis un vrai moulin à paroles dès que je suis en confiance. Et vous, vous vous ouvrez vite ou vous prenez votre temps ?"
+        "accroche": "T'as l'air de quelqu'un avec qui on discute facilement, ça met à l'aise tout de suite. T'es plutôt extraverti ou réservé toi ?",
+        "relance": "Moi je suis un vrai moulin à paroles dès que je suis en confiance. Et toi tu t'ouvres vite ou tu prends ton temps ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a le contact facile, il y a une belle ouverture chez vous. Vous êtes du genre à toujours connaître du monde partout, vous ?",
-        "relance": "Moi je finis toujours par discuter avec quelqu un où que j aille. Et vous, vous allez vers les gens naturellement ?"
+        "accroche": "On dirait quelqu'un qui a le contact facile, y a une belle ouverture chez toi. T'es du genre à toujours connaître du monde partout toi ?",
+        "relance": "Moi je finis toujours par discuter avec quelqu'un où que j'aille. Et toi tu vas vers les gens naturellement ?"
       },
       {
-        "accroche": "Il y a chez vous une chaleur qui donne envie de faire connaissance. Vous êtes plutôt du genre à cultiver quelques amitiés fortes ou plein de liens, vous ?",
-        "relance": "Moi je mise tout sur quelques amitiés très proches. Et vous, vous préférez la profondeur ou la variété ?"
+        "accroche": "Y a chez toi une chaleur qui donne envie de faire connaissance. T'es plutôt du genre à cultiver quelques amitiés fortes ou plein de liens toi ?",
+        "relance": "Moi je mise tout sur quelques amitiés très proches. Et toi tu préfères la profondeur ou la variété ?"
       },
       {
-        "accroche": "Vous dégagez le profil de quelqu un de bien entouré, ça se sent. Vous accordez beaucoup d importance à vos relations, vous ?",
-        "relance": "Moi mes proches passent avant tout le reste. Et vous, quelle place ils occupent dans votre vie ?"
+        "accroche": "Tu dégages le profil de quelqu'un de bien entouré, ça se sent. Tu accordes beaucoup d'importance à tes relations toi ?",
+        "relance": "Moi mes proches passent avant tout le reste. Et toi quelle place ils occupent dans ta vie ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On se retrouve à discuter là comme deux inconnus, et au fond c est plutôt agréable. Vous, vous aimez ces rencontres du hasard, vous ?",
-        "relance": "Moi j adore quand une conversation naît de nulle part. Et vous, vous êtes ouvert à ça ou plutôt sur la réserve ?"
+        "accroche": "On se retrouve à discuter là comme deux inconnus, et au fond c'est plutôt agréable. T'aimes ces rencontres du hasard toi ?",
+        "relance": "Moi j'adore quand une conversation naît de nulle part. Et toi t'es ouvert à ça ou plutôt sur la réserve ?"
       },
       {
-        "accroche": "C est le genre de moment où on pourrait se croiser sans se parler, et on a bien fait de le faire. Vous êtes du genre à saisir ces occasions, vous ?",
-        "relance": "Moi j essaie de ne jamais passer à côté d une belle rencontre. Et vous, vous provoquez le contact ou vous attendez ?"
+        "accroche": "C'est le genre de moment où on pourrait se croiser sans se parler, et on a bien fait de le faire. T'es du genre à saisir ces occasions toi ?",
+        "relance": "Moi j'essaie de jamais passer à côté d'une belle rencontre. Et toi tu provoques le contact ou tu attends ?"
       },
       {
-        "accroche": "On croise tellement de gens sans jamais échanger un mot, c est presque dommage. Vous, vous osez briser la glace facilement, vous ?",
-        "relance": "Moi ça dépend de mon humeur, parfois je n ose pas. Et vous, vous faites le premier pas ou pas trop ?"
+        "accroche": "On croise tellement de gens sans jamais échanger un mot, c'est presque dommage. T'oses briser la glace facilement toi ?",
+        "relance": "Moi ça dépend de mon humeur, parfois j'ose pas. Et toi tu fais le premier pas ou pas trop ?"
       },
       {
-        "accroche": "Voilà une de ces occasions de faire connaissance qu on ne saisit pas toujours. Vous, vous aimez rencontrer de nouvelles têtes, vous ?",
-        "relance": "Moi j adore découvrir de nouvelles personnes, ça m enrichit. Et vous, les nouvelles rencontres, ça vous stimule ou ça vous fatigue ?"
+        "accroche": "Voilà une de ces occasions de faire connaissance qu'on saisit pas toujours. T'aimes rencontrer de nouvelles têtes toi ?",
+        "relance": "Moi j'adore découvrir de nouvelles personnes, ça m'enrichit. Et toi les nouvelles rencontres ça te stimule ou ça te fatigue ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je trouve fascinant qu on puisse croiser mille personnes et n en retenir que quelques unes. Vous, qu est ce qui fait qu une personne vous marque, vous ?",
-        "relance": "Moi c est l authenticité des gens qui me touche. Et vous, ce qui vous attire chez quelqu un ?"
+        "accroche": "Je trouve fou qu'on puisse croiser mille personnes et n'en retenir que quelques-unes. Qu'est-ce qui fait qu'une personne te marque toi ?",
+        "relance": "Moi c'est l'authenticité des gens qui me touche. Et toi ce qui t'attire chez quelqu'un ?"
       },
       {
-        "accroche": "On dit qu on est la moyenne des personnes qu on fréquente le plus. Vous y croyez, vous, à cette idée ?",
-        "relance": "Moi je sens vraiment que mes proches me tirent vers le haut. Et vous, votre entourage vous ressemble ou vous complète ?"
+        "accroche": "On dit qu'on est la moyenne des personnes qu'on fréquente le plus. T'y crois toi à cette idée ?",
+        "relance": "Moi je sens vraiment que mes proches me tirent vers le haut. Et toi ton entourage te ressemble ou te complète ?"
       },
       {
-        "accroche": "Je me demande souvent ce qui fait une vraie belle amitié, au delà des affinités. Vous en pensez quoi, vous ?",
-        "relance": "Moi je crois que c est de pouvoir tout se dire sans jugement. Et vous, c est quoi une amitié qui compte pour vous ?"
+        "accroche": "Je me demande souvent ce qui fait une vraie belle amitié, au-delà des affinités. T'en penses quoi toi ?",
+        "relance": "Moi je crois que c'est de pouvoir tout se dire sans jugement. Et toi c'est quoi une amitié qui compte pour toi ?"
       },
       {
-        "accroche": "Il paraît que les liens qu on tisse font une grande partie de notre bonheur. Vous ressentez ça dans votre vie, vous ?",
-        "relance": "Moi mes relations sont clairement ce qui me rend le plus heureux. Et vous, vos proches pèsent beaucoup dans votre équilibre ?"
+        "accroche": "Il paraît que les liens qu'on tisse font une grande partie de notre bonheur. Tu ressens ça dans ta vie toi ?",
+        "relance": "Moi mes relations c'est clairement ce qui me rend le plus heureux. Et toi tes proches pèsent beaucoup dans ton équilibre ?"
       }
     ]
   },
@@ -41519,56 +41519,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "J-ai l-impression que vous êtes du genre à savoir où on mange vraiment bien, je me trompe ?",
-        "relance": "Moi je fais confiance à mon instinct pour repérer les gourmands, et vous, c-est quoi votre plat qui vous fait craquer ?"
+        "accroche": "J'ai l'impression que t'es du genre à savoir où on mange vraiment bien, je me trompe ?",
+        "relance": "Moi je fais confiance à mon instinct pour repérer les gourmands. Et toi c'est quoi le plat qui te fait craquer ?"
       },
       {
-        "accroche": "Vous avez une façon de parler des choses qui donne faim, vous cuisinez un peu vous-même ?",
-        "relance": "Moi je suis plutôt du soir en cuisine, et vous, vous êtes plutôt fourneaux ou plutôt restos ?"
+        "accroche": "T'as une façon de parler des choses qui donne faim, tu cuisines un peu toi ?",
+        "relance": "Moi je suis plutôt du soir en cuisine. Et toi plutôt fourneaux ou plutôt restos ?"
       },
       {
-        "accroche": "On dirait quelqu-un qui prend le temps de bien manger, c-est important pour vous la table ?",
-        "relance": "Moi je peux pas zapper un vrai repas, et vous, vous mangez pour le plaisir ou pour l-énergie ?"
+        "accroche": "On dirait quelqu'un qui prend le temps de bien manger, c'est important pour toi la table ?",
+        "relance": "Moi je peux pas zapper un vrai repas. Et toi tu manges pour le plaisir ou pour l'énergie ?"
       },
       {
-        "accroche": "Vous avez l-air de quelqu-un qui a des adresses secrètes, avouez, vous en avez combien ?",
-        "relance": "Moi j-en garde deux ou trois précieusement, et vous, vous partagez vos bons plans ou vous les gardez ?"
+        "accroche": "T'as l'air de quelqu'un qui a des adresses secrètes, avoue, t'en as combien ?",
+        "relance": "Moi j'en garde deux ou trois précieusement. Et toi tu partages tes bons plans ou tu les gardes ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C-est marrant, tout le monde parle bouffe en ce moment, ça vous arrive de suivre ça vous aussi ?",
-        "relance": "Moi je me laisse tenter par les recettes qui tournent, et vous, vous testez ou vous regardez de loin ?"
+        "accroche": "C'est marrant, tout le monde parle bouffe en ce moment, ça t'arrive de suivre ça aussi ?",
+        "relance": "Moi je me laisse tenter par les recettes qui tournent. Et toi tu testes ou tu regardes de loin ?"
       },
       {
-        "accroche": "Rien que d-en parler ça me met en appétit, vous avez mangé quoi de bon récemment ?",
-        "relance": "Moi j-ai découvert un truc tout simple qui m-a bluffé, et vous, votre dernier bon repas c-était quoi ?"
+        "accroche": "Rien que d'en parler ça me met en appétit, t'as mangé quoi de bon récemment ?",
+        "relance": "Moi j'ai découvert un truc tout simple qui m'a bluffé. Et toi ton dernier bon repas c'était quoi ?"
       },
       {
-        "accroche": "On est pile à l-heure où je commence à penser à ce que je vais manger, ça vous fait pareil ?",
-        "relance": "Moi mon ventre a une horloge très précise, et vous, vous êtes du genre à planifier vos repas ?"
+        "accroche": "On est pile à l'heure où je commence à penser à ce que je vais manger, ça te fait pareil ?",
+        "relance": "Moi mon ventre a une horloge très précise. Et toi t'es du genre à planifier tes repas ?"
       },
       {
-        "accroche": "En ce moment j-ai envie de manger que des bonnes choses, ça vous prend aussi par période ?",
-        "relance": "Moi là c-est ma phase réconfort, et vous, vous mangez selon vos envies ou vos habitudes ?"
+        "accroche": "En ce moment j'ai envie de manger que des bonnes choses, ça te prend aussi par période ?",
+        "relance": "Moi là c'est ma phase réconfort. Et toi tu manges selon tes envies ou tes habitudes ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, un bon repas ça reste un des vrais petits bonheurs de la vie, non ?",
-        "relance": "Moi je trouve que rien ne rassemble mieux qu-une bonne table, et pour vous, ça évoque quoi la gastronomie ?"
+        "accroche": "Au fond un bon repas ça reste un des vrais petits bonheurs de la vie, non ?",
+        "relance": "Moi je trouve que rien ne rassemble mieux qu'une bonne table. Et pour toi ça évoque quoi la gastronomie ?"
       },
       {
-        "accroche": "Vous pensez qu-on mange mieux qu-avant, ou qu-on a perdu le goût des vraies choses ?",
-        "relance": "Moi je crois qu-on redécouvre le fait maison, et vous, vous êtes nostalgique ou plutôt curieux des nouveautés ?"
+        "accroche": "Tu penses qu'on mange mieux qu'avant, ou qu'on a perdu le goût des vraies choses ?",
+        "relance": "Moi je crois qu'on redécouvre le fait maison. Et toi t'es nostalgique ou plutôt curieux des nouveautés ?"
       },
       {
-        "accroche": "Si vous deviez garder un seul plat pour la vie entière, vous prendriez quoi ?",
-        "relance": "Moi je partirais sur un truc de mon enfance, et vous, ce serait le cœur ou le confort qui parle ?"
+        "accroche": "Si tu devais garder un seul plat pour la vie entière, tu prendrais quoi ?",
+        "relance": "Moi je partirais sur un truc de mon enfance. Et toi ce serait le cœur ou le confort qui parle ?"
       },
       {
-        "accroche": "C-est fou comme la cuisine raconte d-où on vient, vous trouvez pas ?",
-        "relance": "Moi mes meilleurs souvenirs sont liés à des repas, et vous, la nourriture ça vous ramène où ?"
+        "accroche": "C'est fou comme la cuisine raconte d'où on vient, tu trouves pas ?",
+        "relance": "Moi mes meilleurs souvenirs sont liés à des repas. Et toi la bouffe ça te ramène où ?"
       }
     ]
   },
@@ -41591,56 +41591,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l-air de quelqu-un qui apprécie les bonnes choses, je me trompe ?",
-        "relance": "Moi je craque facilement pour un bon truc, et vous, vous êtes plutôt sucré ou salé ?"
+        "accroche": "T'as l'air de quelqu'un qui apprécie les bonnes choses, je me trompe ?",
+        "relance": "Moi je craque facilement pour un bon truc. Et toi plutôt sucré ou salé ?"
       },
       {
-        "accroche": "On dirait que vous avez toujours une petite gourmandise sous la main, c-est votre péché mignon ?",
-        "relance": "Moi je résiste jamais au chocolat, et vous, votre faiblesse gourmande c-est quoi ?"
+        "accroche": "On dirait que t'as toujours une petite gourmandise sous la main, c'est ton péché mignon ?",
+        "relance": "Moi je résiste jamais au chocolat. Et toi ta faiblesse gourmande c'est quoi ?"
       },
       {
-        "accroche": "Vous avez cette tête de quelqu-un qui sait apprécier un bon café, non ?",
-        "relance": "Moi c-est mon petit rituel de la journée, et vous, café, thé ou autre chose ?"
+        "accroche": "T'as cette tête de quelqu'un qui sait apprécier un bon café, non ?",
+        "relance": "Moi c'est mon petit rituel de la journée. Et toi café, thé ou autre chose ?"
       },
       {
-        "accroche": "Je parie que vous êtes du genre à ne jamais dire non à un bon dessert, hein ?",
-        "relance": "Moi le dessert c-est sacré, et vous, vous gardez de la place pour ça ou pas du tout ?"
+        "accroche": "Je parie que t'es du genre à jamais dire non à un bon dessert, hein ?",
+        "relance": "Moi le dessert c'est sacré. Et toi tu gardes de la place pour ça ou pas du tout ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce temps j-ai qu-une envie, manger un truc réconfortant, pas vous ?",
-        "relance": "Moi je verrais bien un bon plat chaud là tout de suite, et vous, ça vous fait envie quoi aujourd-hui ?"
+        "accroche": "Avec ce temps j'ai qu'une envie, manger un truc réconfortant, pas toi ?",
+        "relance": "Moi je verrais bien un bon plat chaud là tout de suite. Et toi ça te fait envie quoi aujourd'hui ?"
       },
       {
-        "accroche": "C-est le genre de journée où on penserait presque qu-à manger, ça vous fait ça aussi ?",
-        "relance": "Moi dès qu-il fait gris je pense bouffe, et vous, la météo joue sur vos envies ?"
+        "accroche": "C'est le genre de journée où on penserait presque qu'à manger, ça te fait ça aussi ?",
+        "relance": "Moi dès qu'il fait gris je pense bouffe. Et toi la météo joue sur tes envies ?"
       },
       {
-        "accroche": "Il fait un temps parfait pour une bonne pâtisserie, vous trouvez pas ?",
-        "relance": "Moi je me laisserais bien tenter, et vous, vous êtes plutôt fait maison ou coup de cœur du moment ?"
+        "accroche": "Il fait un temps parfait pour une bonne pâtisserie, tu trouves pas ?",
+        "relance": "Moi je me laisserais bien tenter. Et toi plutôt fait maison ou coup de cœur du moment ?"
       },
       {
-        "accroche": "Quand il fait beau comme ça, j-ai envie de manger léger et frais, et vous ?",
-        "relance": "Moi le soleil me donne envie de fruits et de fraîcheur, et vous, le beau temps change vos repas ?"
+        "accroche": "Quand il fait beau comme ça, j'ai envie de manger léger et frais, et toi ?",
+        "relance": "Moi le soleil me donne envie de fruits et de fraîcheur. Et toi le beau temps change tes repas ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Franchement, il y a rien de mieux qu-un bon repas pour se remonter le moral, si ?",
-        "relance": "Moi ça me sauve n-importe quelle journée, et vous, la bouffe ça vous console aussi ?"
+        "accroche": "Franchement, y a rien de mieux qu'un bon repas pour se remonter le moral, si ?",
+        "relance": "Moi ça me sauve n'importe quelle journée. Et toi la bouffe ça te console aussi ?"
       },
       {
-        "accroche": "Vous croyez que le plaisir de manger, ça se perd ou ça se cultive ?",
-        "relance": "Moi je pense que ça s-entretient, et vous, vous prenez le temps ou vous mangez vite ?"
+        "accroche": "Tu crois que le plaisir de manger, ça se perd ou ça se cultive ?",
+        "relance": "Moi je pense que ça s'entretient. Et toi tu prends le temps ou tu manges vite ?"
       },
       {
-        "accroche": "C-est fou comme une simple odeur de cuisine peut changer une journée, non ?",
-        "relance": "Moi une bonne odeur et je fonds, et vous, quelle odeur vous met tout de suite en appétit ?"
+        "accroche": "C'est fou comme une simple odeur de cuisine peut changer une journée, non ?",
+        "relance": "Moi une bonne odeur et je fonds. Et toi quelle odeur te met tout de suite en appétit ?"
       },
       {
-        "accroche": "Au final, on se souvient toujours plus des bons repas que du reste, vous trouvez pas ?",
-        "relance": "Moi mes plus beaux souvenirs sentent bon la cuisine, et vous, un repas mémorable ça vous parle ?"
+        "accroche": "Au final, on se souvient toujours plus des bons repas que du reste, tu trouves pas ?",
+        "relance": "Moi mes plus beaux souvenirs sentent bon la cuisine. Et toi un repas mémorable ça te parle ?"
       }
     ]
   },
@@ -41663,56 +41663,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l-air de vous y connaître en bonne bouffe, je peux vous demander un conseil ?",
-        "relance": "Moi je cherche toujours de nouvelles idées, et vous, vous auriez un plat que vous conseillez à tout le monde ?"
+        "accroche": "T'as l'air de t'y connaître en bonne bouffe, je peux te demander un conseil ?",
+        "relance": "Moi je cherche toujours de nouvelles idées. Et toi t'aurais un plat que tu conseilles à tout le monde ?"
       },
       {
-        "accroche": "Vous m-avez tout l-air d-un fin gourmet, vous me diriez quoi pour me régaler simplement ?",
-        "relance": "Moi je débute en cuisine, et vous, vous partiriez sur quoi pour impressionner sans se compliquer ?"
+        "accroche": "T'as tout l'air d'un fin gourmet, tu me dirais quoi pour me régaler simplement ?",
+        "relance": "Moi je débute en cuisine. Et toi tu partirais sur quoi pour impressionner sans se compliquer ?"
       },
       {
-        "accroche": "On dirait quelqu-un qui a de bonnes adresses, vous m-en glisseriez une ?",
-        "relance": "Moi j-en cherche toujours des nouvelles, et vous, votre meilleur conseil pour bien manger c-est quoi ?"
+        "accroche": "On dirait quelqu'un qui a de bonnes adresses, tu m'en glisserais une ?",
+        "relance": "Moi j'en cherche toujours des nouvelles. Et toi ton meilleur conseil pour bien manger c'est quoi ?"
       },
       {
-        "accroche": "Vous avez l-air d-avoir le palais fin, je vous fais confiance pour un petit tuyau ?",
-        "relance": "Moi je me fie souvent aux passionnés, et vous, vous me conseilleriez quoi à tester absolument ?"
+        "accroche": "T'as l'air d'avoir le palais fin, je te fais confiance pour un petit tuyau ?",
+        "relance": "Moi je me fie souvent aux passionnés. Et toi tu me conseillerais quoi à tester absolument ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Justement je cherche une idée de repas pour bientôt, vous auriez un conseil ?",
-        "relance": "Moi je sèche complètement là, et vous, vous feriez quoi à ma place pour surprendre un peu ?"
+        "accroche": "Justement je cherche une idée de repas pour bientôt, t'aurais un conseil ?",
+        "relance": "Moi je sèche complètement là. Et toi tu ferais quoi à ma place pour surprendre un peu ?"
       },
       {
-        "accroche": "Je veux tester une nouvelle recette cette semaine, vous partiriez sur quoi vous ?",
-        "relance": "Moi j-hésite entre plein de choses, et vous, vous aimez bien improviser ou suivre une recette ?"
+        "accroche": "Je veux tester une nouvelle recette cette semaine, tu partirais sur quoi toi ?",
+        "relance": "Moi j'hésite entre plein de trucs. Et toi t'aimes bien improviser ou suivre une recette ?"
       },
       {
-        "accroche": "En ce moment je veux manger mieux, vous auriez une astuce simple à me donner ?",
-        "relance": "Moi je cherche le truc facile mais bon, et vous, vous avez un conseil qui marche à tous les coups ?"
+        "accroche": "En ce moment je veux manger mieux, t'aurais une astuce simple à me donner ?",
+        "relance": "Moi je cherche le truc facile mais bon. Et toi t'as un conseil qui marche à tous les coups ?"
       },
       {
-        "accroche": "On m-a demandé d-apporter un truc à manger, vous me conseilleriez quoi qui plaît à tous ?",
-        "relance": "Moi je veux du sûr et du bon, et vous, votre valeur sûre quand faut régaler du monde ?"
+        "accroche": "On m'a demandé d'apporter un truc à manger, tu me conseillerais quoi qui plaît à tous ?",
+        "relance": "Moi je veux du sûr et du bon. Et toi ta valeur sûre quand faut régaler du monde ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "D-après vous, c-est quoi le secret d-un plat vraiment réussi ?",
-        "relance": "Moi je crois que c-est l-amour qu-on y met, et vous, c-est la technique ou le cœur qui compte ?"
+        "accroche": "D'après toi, c'est quoi le secret d'un plat vraiment réussi ?",
+        "relance": "Moi je crois que c'est l'amour qu'on y met. Et toi c'est la technique ou le cœur qui compte ?"
       },
       {
-        "accroche": "Si vous deviez donner un seul conseil de cuisine à quelqu-un, ce serait lequel ?",
-        "relance": "Moi on m-a dit de toujours goûter en cuisinant, et vous, votre règle d-or en cuisine ?"
+        "accroche": "Si tu devais donner un seul conseil de cuisine à quelqu'un, ce serait lequel ?",
+        "relance": "Moi on m'a dit de toujours goûter en cuisinant. Et toi ta règle d'or en cuisine ?"
       },
       {
-        "accroche": "Vous pensez qu-on peut apprendre à bien cuisiner, ou c-est un don ?",
-        "relance": "Moi je crois que ça se travaille, et vous, vous vous êtes lancé comment dans la cuisine ?"
+        "accroche": "Tu penses qu'on peut apprendre à bien cuisiner, ou c'est un don ?",
+        "relance": "Moi je crois que ça se travaille. Et toi tu t'es lancé comment dans la cuisine ?"
       },
       {
-        "accroche": "Pour vous, qu-est-ce qui fait qu-une adresse mérite vraiment le détour ?",
-        "relance": "Moi c-est l-accueil autant que l-assiette, et vous, vous jugez à quoi une bonne table ?"
+        "accroche": "Pour toi, qu'est-ce qui fait qu'une adresse mérite vraiment le détour ?",
+        "relance": "Moi c'est l'accueil autant que l'assiette. Et toi tu juges à quoi une bonne table ?"
       }
     ]
   },
@@ -41735,56 +41735,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une énergie de quelqu-un qui aime la bonne vie et la bonne table, non ?",
-        "relance": "Moi j-avoue que manger c-est un de mes grands plaisirs, et vous, vous êtes du même genre ?"
+        "accroche": "T'as une énergie de quelqu'un qui aime la bonne vie et la bonne table, non ?",
+        "relance": "Moi j'avoue que manger c'est un de mes grands plaisirs. Et toi t'es du même genre ?"
       },
       {
-        "accroche": "J-ai comme l-intuition que vous êtes du genre à voyager par la cuisine, je me trompe ?",
-        "relance": "Moi j-adore goûter des choses d-ailleurs, et vous, vous êtes ouvert à tout ou plutôt fidèle ?"
+        "accroche": "J'ai comme l'intuition que t'es du genre à voyager par la cuisine, je me trompe ?",
+        "relance": "Moi j'adore goûter des choses d'ailleurs. Et toi t'es ouvert à tout ou plutôt fidèle ?"
       },
       {
-        "accroche": "Vous avez l-air d-aimer partager un bon moment autour d-un repas, c-est votre truc ?",
-        "relance": "Moi je préfère mille fois un repas à plusieurs, et vous, vous aimez recevoir ou être reçu ?"
+        "accroche": "T'as l'air d'aimer partager un bon moment autour d'un repas, c'est ton truc ?",
+        "relance": "Moi je préfère mille fois un repas à plusieurs. Et toi t'aimes recevoir ou être reçu ?"
       },
       {
-        "accroche": "On sent que vous savez apprécier les choses simples et bonnes, non ?",
-        "relance": "Moi le simple bien fait me suffit, et vous, vous cherchez le raffiné ou le réconfort ?"
+        "accroche": "On sent que tu sais apprécier les choses simples et bonnes, non ?",
+        "relance": "Moi le simple bien fait me suffit. Et toi tu cherches le raffiné ou le réconfort ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "J-étais justement en train de penser à ce que j-allais me faire de bon, et vous ça vous arrive ?",
-        "relance": "Moi je passe mes journées à penser au prochain repas, et vous, vous êtes aussi obsédé ou pas du tout ?"
+        "accroche": "J'étais justement en train de penser à ce que j'allais me faire de bon, ça t'arrive aussi ?",
+        "relance": "Moi je passe mes journées à penser au prochain repas. Et toi t'es aussi obsédé ou pas du tout ?"
       },
       {
-        "accroche": "Je viens de tomber sur une recette qui m-a donné une faim de loup, ça vous fait ça aussi parfois ?",
-        "relance": "Moi une jolie assiette et je craque, et vous, qu-est-ce qui vous met l-eau à la bouche ?"
+        "accroche": "Je viens de tomber sur une recette qui m'a donné une faim de loup, ça te fait ça aussi parfois ?",
+        "relance": "Moi une jolie assiette et je craque. Et toi qu'est-ce qui te met l'eau à la bouche ?"
       },
       {
-        "accroche": "En ce moment j-ai envie de tester plein de nouvelles saveurs, et vous, vous êtes dans une période découverte ?",
-        "relance": "Moi je sors de ma zone de confort côté goûts, et vous, vous osez ou vous restez sur vos classiques ?"
+        "accroche": "En ce moment j'ai envie de tester plein de nouvelles saveurs, t'es dans une période découverte toi ?",
+        "relance": "Moi je sors de ma zone de confort côté goûts. Et toi t'oses ou tu restes sur tes classiques ?"
       },
       {
-        "accroche": "C-est le genre de moment où j-aime bien parler de ce qu-on aime manger, ça vous dit ?",
-        "relance": "Moi je peux en parler des heures, et vous, votre plat doudou ce serait lequel ?"
+        "accroche": "C'est le genre de moment où j'aime bien parler de ce qu'on aime manger, ça te dit ?",
+        "relance": "Moi je peux en parler des heures. Et toi ton plat doudou ce serait lequel ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous trouvez pas que la bouffe, c-est le meilleur moyen de connaître quelqu-un ?",
-        "relance": "Moi je crois qu-on se révèle à table, et vous, vous êtes plutôt aventurier ou prudent dans l-assiette ?"
+        "accroche": "Tu trouves pas que la bouffe c'est le meilleur moyen de connaître quelqu'un ?",
+        "relance": "Moi je crois qu'on se révèle à table. Et toi plutôt aventurier ou prudent dans l'assiette ?"
       },
       {
-        "accroche": "Pour vous, un bon repas c-est une affaire de goût ou surtout de partage ?",
-        "relance": "Moi c-est les gens autour qui font tout, et vous, vous mangez mieux seul ou entouré ?"
+        "accroche": "Pour toi, un bon repas c'est une affaire de goût ou surtout de partage ?",
+        "relance": "Moi c'est les gens autour qui font tout. Et toi tu manges mieux seul ou entouré ?"
       },
       {
-        "accroche": "C-est fou tout ce qu-un plat peut dire d-une culture, vous trouvez pas ?",
-        "relance": "Moi j-adore ce que la cuisine raconte, et vous, quelle cuisine vous fait le plus voyager ?"
+        "accroche": "C'est fou tout ce qu'un plat peut dire d'une culture, tu trouves pas ?",
+        "relance": "Moi j'adore ce que la cuisine raconte. Et toi quelle cuisine te fait le plus voyager ?"
       },
       {
-        "accroche": "Si on devait résumer votre rapport à la bouffe en un mot, ce serait quoi ?",
-        "relance": "Moi je dirais gourmandise sans complexe, et vous, vous vous décririez comment à table ?"
+        "accroche": "Si on devait résumer ton rapport à la bouffe en un mot, ce serait quoi ?",
+        "relance": "Moi je dirais gourmandise sans complexe. Et toi tu te décrirais comment à table ?"
       }
     ]
   },
@@ -41807,56 +41807,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une allure de quelqu-un qui aime ce qu-il fait, je me trompe ?",
-        "relance": "Moi j-ai la chance d-aimer mon boulot, et vous, vous faites quoi dans la vie ?"
+        "accroche": "T'as une allure de quelqu'un qui aime ce qu'il fait, je me trompe ?",
+        "relance": "Moi j'ai la chance d'aimer mon boulot. Et toi tu fais quoi dans la vie ?"
       },
       {
-        "accroche": "On dirait quelqu-un qui a plusieurs cordes à son arc, c-est le cas ?",
-        "relance": "Moi j-ai un peu touché à tout avant de me poser, et vous, votre parcours il ressemble à quoi ?"
+        "accroche": "On dirait quelqu'un qui a plusieurs cordes à son arc, c'est le cas ?",
+        "relance": "Moi j'ai un peu touché à tout avant de me poser. Et toi ton parcours il ressemble à quoi ?"
       },
       {
-        "accroche": "Vous dégagez un truc de quelqu-un de très organisé, ça se joue dans votre métier ?",
-        "relance": "Moi je suis maniaque de l-organisation au boulot, et vous, vous êtes plutôt structuré ou spontané ?"
+        "accroche": "Tu dégages un truc de quelqu'un de très organisé, ça se joue dans ton métier ?",
+        "relance": "Moi je suis maniaque de l'organisation au boulot. Et toi t'es plutôt structuré ou spontané ?"
       },
       {
-        "accroche": "Vous avez l-air de quelqu-un de passionné, ça se sent dans votre travail aussi ?",
-        "relance": "Moi j-ai besoin de sens dans ce que je fais, et vous, votre métier ça vous porte ?"
+        "accroche": "T'as l'air de quelqu'un de passionné, ça se sent dans ton travail aussi ?",
+        "relance": "Moi j'ai besoin de sens dans ce que je fais. Et toi ton métier ça te porte ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On est en pleine semaine, moi je suis à fond, et vous, ça donne quoi côté boulot en ce moment ?",
-        "relance": "Moi c-est une période chargée mais stimulante, et vous, plutôt sous l-eau ou tranquille en ce moment ?"
+        "accroche": "On est en pleine semaine, moi je suis à fond, et toi ça donne quoi côté boulot en ce moment ?",
+        "relance": "Moi c'est une période chargée mais stimulante. Et toi plutôt sous l'eau ou tranquille là ?"
       },
       {
-        "accroche": "J-ai l-impression que tout le monde court partout ces temps-ci, vous ressentez ça aussi au travail ?",
-        "relance": "Moi je jongle un peu en ce moment, et vous, vous arrivez à garder le rythme ou c-est intense ?"
+        "accroche": "J'ai l'impression que tout le monde court partout ces temps-ci, tu ressens ça aussi au taf ?",
+        "relance": "Moi je jongle un peu en ce moment. Et toi t'arrives à garder le rythme ou c'est intense ?"
       },
       {
-        "accroche": "C-est marrant, dès qu-on discute on finit toujours par parler de boulot, ça vous fait ça aussi ?",
-        "relance": "Moi j-essaie de décrocher mais ça revient vite, et vous, vous parlez facilement de votre travail ?"
+        "accroche": "C'est marrant, dès qu'on discute on finit toujours par parler de boulot, ça te fait ça aussi ?",
+        "relance": "Moi j'essaie de décrocher mais ça revient vite. Et toi tu parles facilement de ton travail ?"
       },
       {
-        "accroche": "En ce moment je réfléchis pas mal à mon avenir pro, ça vous travaille aussi de votre côté ?",
-        "relance": "Moi je me pose plein de questions là, et vous, vous êtes bien où vous en êtes ou en pleine réflexion ?"
+        "accroche": "En ce moment je réfléchis pas mal à mon avenir pro, ça te travaille aussi de ton côté ?",
+        "relance": "Moi je me pose plein de questions là. Et toi t'es bien où t'en es ou en pleine réflexion ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez qu-on peut vraiment trouver un métier qui nous ressemble ?",
-        "relance": "Moi je crois qu-on finit par le construire, et vous, vous avez trouvé votre voie ou vous cherchez encore ?"
+        "accroche": "Au fond, tu penses qu'on peut vraiment trouver un métier qui nous ressemble ?",
+        "relance": "Moi je crois qu'on finit par le construire. Et toi t'as trouvé ta voie ou tu cherches encore ?"
       },
       {
-        "accroche": "Pour vous, c-est quoi le plus important dans un travail, la passion ou la sécurité ?",
-        "relance": "Moi j-ai longtemps hésité entre les deux, et vous, vous penchez de quel côté ?"
+        "accroche": "Pour toi, c'est quoi le plus important dans un travail, la passion ou la sécurité ?",
+        "relance": "Moi j'ai longtemps hésité entre les deux. Et toi tu penches de quel côté ?"
       },
       {
-        "accroche": "Vous trouvez pas qu-on définit trop les gens par leur métier ?",
-        "relance": "Moi je suis bien plus que mon job, et vous, vous vous résumez à ce que vous faites ?"
+        "accroche": "Tu trouves pas qu'on définit trop les gens par leur métier ?",
+        "relance": "Moi je suis bien plus que mon job. Et toi tu te résumes à ce que tu fais ?"
       },
       {
-        "accroche": "Si vous pouviez changer de métier demain sans contrainte, vous feriez quoi ?",
-        "relance": "Moi j-ai un rêve un peu fou de côté, et vous, il y a un métier qui vous a toujours fait envie ?"
+        "accroche": "Si tu pouvais changer de métier demain sans contrainte, tu ferais quoi ?",
+        "relance": "Moi j'ai un rêve un peu fou de côté. Et toi y a un métier qui t'a toujours fait envie ?"
       }
     ]
   },
@@ -41879,56 +41879,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l-air d-avoir la tête bien occupée, grosse journée de boulot ?",
-        "relance": "Moi la mienne est bien remplie, et vous, ça se passe comment votre journée ?"
+        "accroche": "T'as l'air d'avoir la tête bien dans le boulot, grosse journée ?",
+        "relance": "Moi la mienne est chargée, la tienne ça donne quoi ?"
       },
       {
-        "accroche": "On dirait que vous enchaînez sans souffler, c-est chaud en ce moment pour vous ?",
-        "relance": "Moi je cours un peu partout ces temps-ci, et vous, vous arrivez à souffler un peu ?"
+        "accroche": "On dirait que t'enchaînes sans souffler, c'est chaud en ce moment ?",
+        "relance": "Moi je cours partout ces temps-ci, toi t'arrives à souffler un peu ?"
       },
       {
-        "accroche": "Vous avez cet air de quelqu-un qui rentre ou qui part bosser, je me trompe ?",
-        "relance": "Moi je suis toujours entre deux, et vous, votre journée elle est plutôt longue ou tranquille ?"
+        "accroche": "T'as la tête de quelqu'un qui part bosser ou qui rentre, j'me trompe ?",
+        "relance": "Moi je suis toujours entre deux, ta journée elle est longue ou tranquille ?"
       },
       {
-        "accroche": "Vous m-avez tout l-air de quelqu-un qui a bien mérité sa pause, non ?",
-        "relance": "Moi je la savoure quand elle arrive, et vous, vous prenez le temps de couper dans la journée ?"
+        "accroche": "T'as la tête de quelqu'un qui a bien mérité sa pause, non ?",
+        "relance": "Moi je la savoure quand elle arrive, toi t'arrives à couper dans la journée ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On est déjà au milieu de semaine, ça passe vite, vous trouvez pas ?",
-        "relance": "Moi j-ai l-impression que lundi c-était hier, et vous, votre semaine file ou elle traîne ?"
+        "accroche": "On est déjà au milieu de la semaine, ça passe vite en vrai.",
+        "relance": "Moi j'ai l'impression que lundi c'était hier, ta semaine elle file ou elle traîne ?"
       },
       {
-        "accroche": "Encore une journée de plus, vous êtes plutôt en forme ou vous comptez les heures ?",
-        "relance": "Moi ça dépend des jours, et vous, vous êtes du matin ou vous démarrez doucement ?"
+        "accroche": "Encore une journée, t'es en forme ou tu comptes les heures ?",
+        "relance": "Moi ça dépend des jours, toi t'es du matin ou tu démarres doucement ?"
       },
       {
-        "accroche": "Le week-end approche doucement, ça vous motive pour tenir le boulot ?",
-        "relance": "Moi c-est ma ligne d-arrivée, et vous, vous décrochez vraiment le week-end ou pas ?"
+        "accroche": "Le week-end approche doucement, ça te motive pour tenir ?",
+        "relance": "Moi c'est ma ligne d'arrivée, toi tu décroches vraiment le week-end ?"
       },
       {
-        "accroche": "En cette période tout le monde semble un peu débordé, ça vous fait ça aussi côté travail ?",
-        "relance": "Moi j-ai des semaines bien pleines là, et vous, c-est le rush ou c-est calme pour vous ?"
+        "accroche": "En ce moment tout le monde est un peu débordé, ça te fait ça aussi ?",
+        "relance": "Moi j'ai des semaines bien pleines là, toi c'est le rush ou c'est calme ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Franchement, vous trouvez pas qu-on passe une bonne partie de notre vie à bosser ?",
-        "relance": "Moi ça me fait relativiser, et vous, vous arrivez à garder l-équilibre avec le reste ?"
+        "accroche": "En vrai tu trouves pas qu'on passe une bonne partie de notre vie à bosser ?",
+        "relance": "Moi ça me fait relativiser, toi t'arrives à garder l'équilibre avec le reste ?"
       },
       {
-        "accroche": "Vous pensez qu-on travaille mieux sous pression ou tranquillement ?",
-        "relance": "Moi j-ai besoin d-un peu de calme pour être efficace, et vous, vous carburez comment ?"
+        "accroche": "Tu bosses mieux sous pression ou tranquille toi ?",
+        "relance": "Moi j'ai besoin d'un peu de calme pour être efficace, et toi tu carbures comment ?"
       },
       {
-        "accroche": "C-est fou comme le rapport au travail a changé ces dernières années, vous trouvez pas ?",
-        "relance": "Moi je vois bien la différence, et vous, vous préférez comment on bosse aujourd-hui ou avant ?"
+        "accroche": "C'est fou comme le rapport au boulot a changé ces dernières années.",
+        "relance": "Moi je vois bien la différence, toi tu préfères comment on bosse maintenant ou avant ?"
       },
       {
-        "accroche": "Pour vous, c-est quoi une bonne journée de boulot au fond ?",
-        "relance": "Moi c-est quand je vois le résultat de ce que je fais, et vous, ça tient à quoi votre satisfaction ?"
+        "accroche": "Pour toi c'est quoi une bonne journée de boulot au fond ?",
+        "relance": "Moi c'est quand je vois le résultat de ce que je fais, et toi ça tient à quoi ?"
       }
     ]
   },
@@ -41951,56 +41951,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l-air de quelqu-un qui gère bien son travail, je peux vous demander un conseil ?",
-        "relance": "Moi j-ai du mal à m-organiser en ce moment, et vous, vous auriez une méthode qui marche pour vous ?"
+        "accroche": "T'as l'air de bien gérer ton taf, je peux te demander un conseil ?",
+        "relance": "Moi j'ai du mal à m'organiser en ce moment, t'aurais une méthode qui marche ?"
       },
       {
-        "accroche": "On sent que vous avez de l-expérience, vous me diriez quoi pour avancer dans ma situation ?",
-        "relance": "Moi je débute et je tâtonne, et vous, quel conseil vous auriez aimé recevoir plus tôt ?"
+        "accroche": "On sent que t'as de la bouteille, tu ferais quoi pour avancer à ma place ?",
+        "relance": "Moi je débute et je tâtonne, quel conseil t'aurais aimé recevoir plus tôt ?"
       },
       {
-        "accroche": "Vous dégagez un truc de quelqu-un de posé au boulot, comment vous faites pour rester zen ?",
-        "relance": "Moi je stresse vite, et vous, vous auriez une astuce pour gérer la pression ?"
+        "accroche": "T'as un truc de quelqu'un de posé au boulot, tu fais comment pour rester zen ?",
+        "relance": "Moi je stresse vite, t'aurais une astuce pour gérer la pression ?"
       },
       {
-        "accroche": "Vous avez l-air d-avoir du recul sur votre carrière, je peux vous piquer un conseil ?",
-        "relance": "Moi je suis à un carrefour là, et vous, vous m-en donneriez un si vous étiez à ma place ?"
+        "accroche": "T'as l'air d'avoir du recul sur ta carrière, je peux te piquer un conseil ?",
+        "relance": "Moi je suis à un carrefour là, tu ferais quoi si t'étais à ma place ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je réfléchis à une décision pro, vous auriez un avis à me donner ?",
-        "relance": "Moi j-hésite beaucoup là, et vous, vous êtes plutôt du genre à foncer ou à réfléchir longtemps ?"
+        "accroche": "En ce moment je réfléchis à une décision pro, t'en penses quoi ?",
+        "relance": "Moi j'hésite grave là, toi t'es plutôt à foncer ou à réfléchir longtemps ?"
       },
       {
-        "accroche": "Je cherche à mieux m-organiser au travail ces temps-ci, vous feriez quoi vous ?",
-        "relance": "Moi je me disperse un peu, et vous, votre petit truc pour rester efficace c-est quoi ?"
+        "accroche": "Je cherche à mieux m'organiser au boulot en ce moment, tu ferais quoi toi ?",
+        "relance": "Moi je me disperse un peu, c'est quoi ton petit truc pour rester efficace ?"
       },
       {
-        "accroche": "Justement je me pose des questions sur la suite de mon boulot, vous me conseilleriez quoi ?",
-        "relance": "Moi je veux évoluer sans me tromper, et vous, vous avez déjà pris un virage pro important ?"
+        "accroche": "Je me pose des questions sur la suite de mon taf, tu me conseillerais quoi ?",
+        "relance": "Moi je veux évoluer sans me planter, t'as déjà pris un virage pro important ?"
       },
       {
-        "accroche": "On m-a proposé un truc au travail et j-hésite, vous en penseriez quoi à ma place ?",
-        "relance": "Moi j-ai peur de regretter, et vous, vous êtes du genre à saisir les occasions ou à assurer ?"
+        "accroche": "On m'a proposé un truc au boulot et j'hésite, t'en penserais quoi à ma place ?",
+        "relance": "Moi j'ai peur de regretter, toi t'es du genre à saisir les occas' ou à assurer ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "D-après vous, c-est quoi le meilleur conseil pour s-épanouir au travail ?",
-        "relance": "Moi je crois qu-il faut oser dire ce qu-on veut, et vous, votre conseil numéro un ce serait quoi ?"
+        "accroche": "Pour toi c'est quoi le meilleur conseil pour s'épanouir au boulot ?",
+        "relance": "Moi je crois qu'il faut oser dire ce qu'on veut, ton conseil numéro un ce serait quoi ?"
       },
       {
-        "accroche": "Vous pensez qu-il vaut mieux se spécialiser ou rester polyvalent dans un métier ?",
-        "relance": "Moi j-hésite toujours, et vous, vous avez choisi votre camp ?"
+        "accroche": "Tu penses qu'il vaut mieux se spécialiser ou rester polyvalent ?",
+        "relance": "Moi j'hésite toujours, toi t'as choisi ton camp ?"
       },
       {
-        "accroche": "Pour vous, comment on sait qu-il est temps de changer de travail ?",
-        "relance": "Moi je crois que le corps parle avant la tête, et vous, vous écouteriez quoi pour décider ?"
+        "accroche": "Pour toi, comment on sait qu'il est temps de changer de boulot ?",
+        "relance": "Moi je crois que le corps parle avant la tête, tu écouterais quoi pour décider ?"
       },
       {
-        "accroche": "Si vous deviez donner un seul conseil à quelqu-un qui démarre, ce serait lequel ?",
-        "relance": "Moi je dirais de ne pas se comparer aux autres, et vous, qu-est-ce que vous transmettriez ?"
+        "accroche": "Si tu devais donner un seul conseil à quelqu'un qui démarre, ce serait quoi ?",
+        "relance": "Moi je dirais de pas se comparer aux autres, et toi tu transmettrais quoi ?"
       }
     ]
   },
@@ -42023,56 +42023,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une énergie de quelqu-un qui bouge beaucoup, ça vient de votre boulot ?",
-        "relance": "Moi mon métier me fait pas tenir en place, et vous, votre journée type elle ressemble à quoi ?"
+        "accroche": "T'as une énergie de quelqu'un qui bouge beaucoup, ça vient de ton taf ?",
+        "relance": "Moi mon boulot me fait pas tenir en place, ta journée type elle ressemble à quoi ?"
       },
       {
-        "accroche": "On dirait quelqu-un qui aime les défis, ça se retrouve dans ce que vous faites ?",
-        "relance": "Moi j-ai besoin de challenges pour avancer, et vous, votre travail vous en donne assez ?"
+        "accroche": "On dirait quelqu'un qui aime les défis, ça se retrouve dans ce que tu fais ?",
+        "relance": "Moi j'ai besoin de challenges pour avancer, ton taf t'en donne assez ?"
       },
       {
-        "accroche": "Vous avez l-air de quelqu-un qui rencontre plein de monde, c-est lié à votre métier ?",
-        "relance": "Moi je bosse beaucoup avec les gens, et vous, vous êtes plutôt en contact ou plutôt tranquille ?"
+        "accroche": "T'as l'air de quelqu'un qui croise plein de monde, c'est lié à ton métier ?",
+        "relance": "Moi je bosse beaucoup avec les gens, toi t'es plutôt en contact ou plutôt tranquille ?"
       },
       {
-        "accroche": "Vous dégagez une confiance de quelqu-un qui maîtrise son sujet, c-est quoi votre domaine ?",
-        "relance": "Moi je me sens à ma place dans le mien, et vous, vous faites ça depuis longtemps ?"
+        "accroche": "T'as une confiance de quelqu'un qui maîtrise son sujet, c'est quoi ton domaine ?",
+        "relance": "Moi je me sens à ma place dans le mien, toi tu fais ça depuis longtemps ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je viens de finir une grosse mission et j-avais besoin de souffler, ça vous parle ce genre de moment ?",
-        "relance": "Moi après un rush j-ai besoin de décompresser, et vous, vous coupez comment après le boulot ?"
+        "accroche": "Je viens de finir une grosse mission, j'avais besoin de souffler, ça te parle ?",
+        "relance": "Moi après un rush j'ai besoin de décompresser, toi tu coupes comment après le boulot ?"
       },
       {
-        "accroche": "C-est le genre de moment où on lâche un peu le travail, vous y arrivez vous ?",
-        "relance": "Moi j-ai du mal à déconnecter, et vous, vous pensez encore au boulot une fois parti ?"
+        "accroche": "C'est le genre de moment où on lâche un peu le taf, toi t'y arrives ?",
+        "relance": "Moi j'ai du mal à déconnecter, toi tu penses encore au boulot une fois parti ?"
       },
       {
-        "accroche": "En ce moment j-ai plein de projets pro en tête, et vous, vous êtes dans une phase active ?",
-        "relance": "Moi je déborde d-idées là, et vous, vous avez des choses qui bougent de votre côté ?"
+        "accroche": "En ce moment j'ai plein de projets en tête, toi t'es dans une phase active ?",
+        "relance": "Moi je déborde d'idées là, t'as des trucs qui bougent de ton côté ?"
       },
       {
-        "accroche": "Tout le monde parle de sa semaine chargée, moi la mienne était intense, et la vôtre ?",
-        "relance": "Moi j-ai eu de tout cette semaine, et vous, ça a été plutôt cool ou sportif ?"
+        "accroche": "Tout le monde parle de sa semaine chargée, la mienne était intense, et la tienne ?",
+        "relance": "Moi j'ai eu de tout cette semaine, toi ça a été plutôt cool ou sportif ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous trouvez pas que ce qu-on fait dans la vie dit beaucoup de qui on est ?",
-        "relance": "Moi mon métier me ressemble pas mal, et vous, le vôtre vous colle à la peau ou pas ?"
+        "accroche": "Tu trouves pas que ce qu'on fait dans la vie dit beaucoup de qui on est ?",
+        "relance": "Moi mon taf me ressemble pas mal, le tien il te colle à la peau ou pas ?"
       },
       {
-        "accroche": "Pour vous, on travaille surtout pour vivre ou on vit un peu pour ce qu-on fait ?",
-        "relance": "Moi j-essaie de trouver du plaisir dans le boulot, et vous, vous voyez ça comment ?"
+        "accroche": "Pour toi on bosse surtout pour vivre ou on vit un peu pour ce qu'on fait ?",
+        "relance": "Moi j'essaie de trouver du plaisir dans le boulot, toi tu vois ça comment ?"
       },
       {
-        "accroche": "C-est quoi selon vous un métier qui a vraiment du sens aujourd-hui ?",
-        "relance": "Moi j-ai ma petite idée là-dessus, et vous, le sens ça compte beaucoup pour vous au travail ?"
+        "accroche": "C'est quoi pour toi un métier qui a vraiment du sens aujourd'hui ?",
+        "relance": "Moi j'ai ma petite idée là-dessus, le sens ça compte beaucoup pour toi au taf ?"
       },
       {
-        "accroche": "Si on vous demandait ce que vous faites, vous répondriez quoi en un mot ?",
-        "relance": "Moi j-ai toujours du mal à résumer, et vous, votre métier ça se raconte facilement ?"
+        "accroche": "Si on te demandait ce que tu fais, tu répondrais quoi en un mot ?",
+        "relance": "Moi j'ai toujours du mal à résumer, ton métier ça se raconte facile ?"
       }
     ]
   },
@@ -42095,56 +42095,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "J-adore la façon dont vous êtes assorti aujourd-hui, c-est réfléchi ou c-est naturel chez vous ?",
-        "relance": "Moi je mets un temps fou à m-habiller, et vous, vous avez un vrai sens du style ou vous improvisez ?"
+        "accroche": "J'adore comment t'es assorti aujourd'hui, c'est réfléchi ou c'est naturel ?",
+        "relance": "Moi je mets un temps fou à m'habiller, toi t'as un vrai sens du style ou t'improvises ?"
       },
       {
-        "accroche": "Votre look a un vrai caractère, vous accordez de l-importance à ce que vous portez, non ?",
-        "relance": "Moi mes vêtements en disent long sur mon humeur, et vous, vous vous habillez selon quoi ?"
+        "accroche": "Ton look a un vrai caractère, tu fais gaffe à ce que tu portes non ?",
+        "relance": "Moi mes fringues en disent long sur mon humeur, toi tu t'habilles selon quoi ?"
       },
       {
-        "accroche": "Il y a un petit détail dans votre tenue qui claque, vous avez un truc pour ça ?",
-        "relance": "Moi je mise tout sur un accessoire, et vous, c-est quoi votre secret pour un look qui marche ?"
+        "accroche": "Y a un petit détail dans ta tenue qui claque, t'as un truc pour ça ?",
+        "relance": "Moi je mise tout sur un accessoire, c'est quoi ton secret pour un look qui marche ?"
       },
       {
-        "accroche": "Vous avez une allure vraiment personnelle, je parie que vous soignez votre style, hein ?",
-        "relance": "Moi j-aime bien qu-on me remarque un peu, et vous, vous jouez plutôt discret ou affirmé ?"
+        "accroche": "T'as une allure vraiment perso, je parie que tu soignes ton style.",
+        "relance": "Moi j'aime bien qu'on me remarque un peu, toi tu joues discret ou affirmé ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On voit que les codes changent vite en ce moment, vous suivez un peu les tendances vous ?",
-        "relance": "Moi j-essaie de rester à la page sans me forcer, et vous, vous suivez la mode ou vous faites la vôtre ?"
+        "accroche": "On voit que les codes changent vite en ce moment, tu suis un peu les tendances ?",
+        "relance": "Moi j'essaie de rester à la page sans me forcer, toi tu suis la mode ou tu fais la tienne ?"
       },
       {
-        "accroche": "En ce moment tout le monde revient sur les vieilles pièces, ça vous plaît ce retour du vintage ?",
-        "relance": "Moi je ressors des trucs d-il y a dix ans, et vous, vous gardez vos vêtements longtemps ou vous renouvelez ?"
+        "accroche": "En ce moment tout le monde ressort les vieilles pièces, ça te plaît ce retour du vintage ?",
+        "relance": "Moi je ressors des trucs d'il y a dix ans, toi tu gardes tes fringues longtemps ou tu renouvelles ?"
       },
       {
-        "accroche": "C-est la période où on change un peu sa garde-robe, ça vous prend aussi cette envie ?",
-        "relance": "Moi j-ai envie de renouveau côté style là, et vous, vous êtes plutôt fidèle à vos habitudes ?"
+        "accroche": "C'est la période où on change un peu sa garde-robe, ça te prend aussi cette envie ?",
+        "relance": "Moi j'ai envie de renouveau côté style là, toi t'es plutôt fidèle à tes habitudes ?"
       },
       {
-        "accroche": "J-ai l-impression que le style décontracté prend le dessus partout, vous le vivez comment vous ?",
-        "relance": "Moi je fonce dans le confort, et vous, vous êtes plutôt à l-aise ou plutôt chic ?"
+        "accroche": "J'ai l'impression que le décontracté prend le dessus partout, tu le vis comment ?",
+        "relance": "Moi je fonce dans le confort, toi t'es plutôt à l'aise ou plutôt chic ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous trouvez pas que la façon de s-habiller en dit beaucoup sur une personne ?",
-        "relance": "Moi je crois qu-on parle avant même d-ouvrir la bouche, et vous, votre style raconte quoi de vous ?"
+        "accroche": "Tu trouves pas que la façon de s'habiller en dit long sur quelqu'un ?",
+        "relance": "Moi je crois qu'on parle avant même d'ouvrir la bouche, ton style il raconte quoi de toi ?"
       },
       {
-        "accroche": "Pour vous, la mode c-est un plaisir ou plutôt une contrainte ?",
-        "relance": "Moi j-y trouve un vrai jeu, et vous, vous vous amusez avec ou ça vous pèse ?"
+        "accroche": "Pour toi la mode c'est un plaisir ou plutôt une corvée ?",
+        "relance": "Moi j'y trouve un vrai jeu, toi tu t'amuses avec ou ça te pèse ?"
       },
       {
-        "accroche": "C-est fou comme un vêtement peut changer la façon dont on se sent, vous trouvez pas ?",
-        "relance": "Moi une belle tenue me booste la journée, et vous, vous ressentez ça aussi ?"
+        "accroche": "C'est fou comme un vêtement peut changer comment on se sent.",
+        "relance": "Moi une belle tenue me booste la journée, toi tu ressens ça aussi ?"
       },
       {
-        "accroche": "Selon vous, mieux vaut suivre la tendance ou cultiver son propre style ?",
-        "relance": "Moi je tiens à mon truc à moi, et vous, vous êtes plutôt mouton ou électron libre côté mode ?"
+        "accroche": "Pour toi mieux vaut suivre la tendance ou cultiver son propre style ?",
+        "relance": "Moi je tiens à mon truc à moi, toi t'es plutôt mouton ou électron libre côté mode ?"
       }
     ]
   },
@@ -42167,56 +42167,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "J-aime bien votre petit accessoire, c-est le genre de détail qui change tout, non ?",
-        "relance": "Moi je craque toujours pour un bon accessoire, et vous, c-est votre touche à vous ?"
+        "accroche": "J'aime bien ton petit accessoire, c'est le genre de détail qui change tout.",
+        "relance": "Moi je craque toujours pour un bon accessoire, c'est ta touche à toi ?"
       },
       {
-        "accroche": "Vous avez trouvé la bonne tenue pour aujourd-hui, vous êtes du genre à bien anticiper ?",
-        "relance": "Moi je me décide au dernier moment, et vous, vous préparez vos affaires à l-avance ?"
+        "accroche": "T'as trouvé la bonne tenue pour aujourd'hui, t'es du genre à bien anticiper ?",
+        "relance": "Moi je me décide au dernier moment, toi tu prépares tes affaires à l'avance ?"
       },
       {
-        "accroche": "Vos couleurs vont super bien ensemble, vous avez l-œil pour ça, hein ?",
-        "relance": "Moi j-ai du mal à assortir, et vous, vous avez une astuce pour ne jamais vous tromper ?"
+        "accroche": "Tes couleurs vont trop bien ensemble, t'as l'œil pour ça toi.",
+        "relance": "Moi j'ai du mal à assortir, t'as une astuce pour jamais te planter ?"
       },
       {
-        "accroche": "Vous portez ça avec beaucoup d-aisance, c-est une pièce que vous adorez ?",
-        "relance": "Moi j-ai des vêtements chouchous, et vous, vous en avez un que vous mettez tout le temps ?"
+        "accroche": "Tu portes ça avec grave d'aisance, c'est une pièce que t'adores ?",
+        "relance": "Moi j'ai des fringues chouchous, t'en as une que tu mets tout le temps ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce temps, pas facile de savoir comment s-habiller, vous avez trouvé le bon compromis vous ?",
-        "relance": "Moi je me suis trompé de tenue ce matin, et vous, la météo vous joue des tours aussi ?"
+        "accroche": "Avec ce temps, pas simple de savoir comment s'habiller, t'as trouvé le bon compromis ?",
+        "relance": "Moi je me suis trompé de tenue ce matin, la météo te joue des tours aussi ?"
       },
       {
-        "accroche": "C-est la saison où on hésite entre deux tenues chaque matin, ça vous fait ça aussi ?",
-        "relance": "Moi je change trois fois avant de sortir, et vous, vous êtes plutôt rapide le matin ?"
+        "accroche": "C'est la saison où on hésite entre deux tenues chaque matin, ça te fait ça aussi ?",
+        "relance": "Moi je change trois fois avant de sortir, toi t'es plutôt rapide le matin ?"
       },
       {
-        "accroche": "Quand il fait beau comme ça, j-ai envie de sortir mes belles pièces, pas vous ?",
-        "relance": "Moi le soleil me donne envie de couleurs, et vous, vous vous habillez selon la météo ?"
+        "accroche": "Quand il fait beau comme ça, j'ai envie de sortir mes belles pièces, pas toi ?",
+        "relance": "Moi le soleil me donne envie de couleurs, toi tu t'habilles selon la météo ?"
       },
       {
-        "accroche": "Avec ce froid faut ruser pour rester stylé et au chaud, vous gérez ça comment vous ?",
-        "relance": "Moi je superpose tout, et vous, vous privilégiez le confort ou le style quand il fait frais ?"
+        "accroche": "Avec ce froid faut ruser pour rester stylé et au chaud, tu gères ça comment ?",
+        "relance": "Moi je superpose tout, toi tu privilégies le confort ou le style quand il fait frais ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Franchement, vous trouvez pas qu-une tenue bien choisie ça change une journée ?",
-        "relance": "Moi ça me met tout de suite de bonne humeur, et vous, vous y faites attention aussi ?"
+        "accroche": "En vrai tu trouves pas qu'une tenue bien choisie ça change une journée ?",
+        "relance": "Moi ça me met direct de bonne humeur, toi t'y fais gaffe aussi ?"
       },
       {
-        "accroche": "Pour vous, on s-habille plus pour soi ou pour le regard des autres ?",
-        "relance": "Moi je le fais surtout pour me sentir bien, et vous, ça compte le regard des gens ?"
+        "accroche": "Pour toi on s'habille plus pour soi ou pour le regard des autres ?",
+        "relance": "Moi je le fais surtout pour me sentir bien, toi ça compte le regard des gens ?"
       },
       {
-        "accroche": "C-est marrant comme on peut reconnaître quelqu-un rien qu-à son style, vous trouvez pas ?",
-        "relance": "Moi j-ai ma signature vestimentaire, et vous, vous avez un style qu-on vous reconnaît ?"
+        "accroche": "C'est marrant comme on peut reconnaître quelqu'un rien qu'à son style.",
+        "relance": "Moi j'ai ma signature côté fringues, toi t'as un style qu'on te reconnaît ?"
       },
       {
-        "accroche": "Vous pensez que bien s-habiller c-est un truc qu-on apprend ou qu-on a ?",
-        "relance": "Moi je crois que ça se travaille, et vous, vous avez toujours fait attention à ça ?"
+        "accroche": "Tu penses que bien s'habiller c'est un truc qu'on apprend ou qu'on a ?",
+        "relance": "Moi je crois que ça se travaille, toi t'as toujours fait gaffe à ça ?"
       }
     ]
   },
@@ -42239,56 +42239,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez vraiment du goût, je peux vous demander un petit conseil de style ?",
-        "relance": "Moi je manque un peu d-idées en ce moment, et vous, vous auriez un truc simple pour rehausser une tenue ?"
+        "accroche": "T'as vraiment du goût, je peux te demander un petit conseil de style ?",
+        "relance": "Moi je manque un peu d'idées en ce moment, t'aurais un truc simple pour rehausser une tenue ?"
       },
       {
-        "accroche": "Vous portez ça super bien, vous me conseilleriez quoi pour oser un peu plus, moi ?",
-        "relance": "Moi je reste toujours dans le sobre, et vous, comment vous faites pour assumer votre style ?"
+        "accroche": "Tu portes ça trop bien, tu me conseillerais quoi pour oser un peu plus ?",
+        "relance": "Moi je reste toujours dans le sobre, tu fais comment pour assumer ton style ?"
       },
       {
-        "accroche": "On voit que vous avez l-œil, vous m-aideriez à assortir un peu mieux mes affaires ?",
-        "relance": "Moi je mélange tout sans logique, et vous, votre règle pour bien accorder les couleurs ?"
+        "accroche": "On voit que t'as l'œil, tu m'aiderais à assortir un peu mieux mes affaires ?",
+        "relance": "Moi je mélange tout sans logique, c'est quoi ta règle pour bien accorder les couleurs ?"
       },
       {
-        "accroche": "Vous dégagez un vrai sens du détail, vous me diriez quoi pour soigner mon allure ?",
-        "relance": "Moi je néglige souvent les finitions, et vous, c-est quoi le détail qui fait toute la différence selon vous ?"
+        "accroche": "T'as un vrai sens du détail, tu me dirais quoi pour soigner mon allure ?",
+        "relance": "Moi je néglige souvent les finitions, c'est quoi le détail qui fait tout selon toi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je dois me trouver une tenue pour bientôt et je sèche, vous me conseilleriez quoi ?",
-        "relance": "Moi je veux quelque chose de sûr mais pas ennuyeux, et vous, vous partiriez sur quoi à ma place ?"
+        "accroche": "Je dois me trouver une tenue pour bientôt et je sèche, tu me conseillerais quoi ?",
+        "relance": "Moi je veux un truc sûr mais pas chiant, tu partirais sur quoi à ma place ?"
       },
       {
-        "accroche": "Je veux renouveler un peu ma garde-robe, vous investiriez dans quoi en priorité vous ?",
-        "relance": "Moi je sais pas par où commencer, et vous, la pièce indispensable selon vous c-est laquelle ?"
+        "accroche": "Je veux renouveler un peu ma garde-robe, tu investirais dans quoi en priorité ?",
+        "relance": "Moi je sais pas par où commencer, la pièce indispensable selon toi c'est laquelle ?"
       },
       {
-        "accroche": "En ce moment je veux changer de style, vous auriez un conseil pour bien s-y prendre ?",
-        "relance": "Moi j-ai peur d-en faire trop, et vous, on change de look progressivement ou d-un coup selon vous ?"
+        "accroche": "En ce moment je veux changer de style, t'aurais un conseil pour bien s'y prendre ?",
+        "relance": "Moi j'ai peur d'en faire trop, on change de look petit à petit ou d'un coup selon toi ?"
       },
       {
-        "accroche": "Toutes ces tendances du moment m-embrouillent un peu, vous suivriez lesquelles vous ?",
-        "relance": "Moi j-ai du mal à trier, et vous, vous foncez sur les modes ou vous attendez de voir ?"
+        "accroche": "Toutes ces tendances du moment m'embrouillent un peu, tu suivrais lesquelles toi ?",
+        "relance": "Moi j'ai du mal à trier, toi tu fonces sur les modes ou t'attends de voir ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "D-après vous, c-est quoi le secret pour avoir du style sans effort ?",
-        "relance": "Moi je crois que c-est la confiance, et vous, ça tient à quoi selon vous une belle allure ?"
+        "accroche": "Pour toi c'est quoi le secret pour avoir du style sans effort ?",
+        "relance": "Moi je crois que c'est la confiance, ça tient à quoi selon toi une belle allure ?"
       },
       {
-        "accroche": "Si vous deviez donner un seul conseil mode à quelqu-un, ce serait lequel ?",
-        "relance": "Moi je dirais de miser sur le confort d-abord, et vous, votre conseil de base ce serait quoi ?"
+        "accroche": "Si tu devais donner un seul conseil mode à quelqu'un, ce serait quoi ?",
+        "relance": "Moi je dirais de miser sur le confort d'abord, ton conseil de base ce serait quoi ?"
       },
       {
-        "accroche": "Vous pensez qu-il vaut mieux investir dans des basiques ou oser des pièces fortes ?",
-        "relance": "Moi j-hésite toujours, et vous, vous conseilleriez quoi pour bien démarrer une garde-robe ?"
+        "accroche": "Tu penses qu'il vaut mieux investir dans des basiques ou oser des pièces fortes ?",
+        "relance": "Moi j'hésite toujours, tu conseillerais quoi pour bien démarrer une garde-robe ?"
       },
       {
-        "accroche": "Pour vous, comment on trouve le style qui nous va vraiment ?",
-        "relance": "Moi je crois qu-on tâtonne longtemps, et vous, vous avez trouvé le vôtre facilement ?"
+        "accroche": "Pour toi, comment on trouve le style qui nous va vraiment ?",
+        "relance": "Moi je crois qu'on tâtonne longtemps, toi tu l'as trouvé facilement ?"
       }
     ]
   },
@@ -42311,56 +42311,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre look a une vraie personnalité, on sent que la mode c-est votre truc, non ?",
-        "relance": "Moi je vis à fond mon style, et vous, vous êtes du genre passionné aussi ?"
+        "accroche": "Ton look a une vraie personnalité, on sent que la mode c'est ton truc.",
+        "relance": "Moi je vis à fond mon style, toi t'es passionné aussi ?"
       },
       {
-        "accroche": "J-adore votre audace vestimentaire, vous assumez complètement je sens, hein ?",
-        "relance": "Moi j-aime bien sortir du lot, et vous, vous osez toujours ou ça dépend des jours ?"
+        "accroche": "J'adore ton audace côté fringues, tu assumes à fond je sens.",
+        "relance": "Moi j'aime bien sortir du lot, toi t'oses toujours ou ça dépend des jours ?"
       },
       {
-        "accroche": "Vous avez un style qu-on remarque, vous le construisez comment votre allure ?",
-        "relance": "Moi je m-inspire de plein de choses, et vous, vous puisez vos idées où ?"
+        "accroche": "T'as un style qu'on remarque, tu le construis comment ton allure ?",
+        "relance": "Moi je m'inspire de plein de trucs, toi tu piques tes idées où ?"
       },
       {
-        "accroche": "On voit que chaque détail est pensé chez vous, c-est une vraie passion la mode ?",
-        "relance": "Moi je peux passer des heures là-dessus, et vous, ça vous prend autant de temps ?"
+        "accroche": "On voit que chaque détail est pensé chez toi, c'est une vraie passion la mode ?",
+        "relance": "Moi je peux passer des heures là-dessus, toi ça te prend autant de temps ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il se passe plein de choses côté mode, vous suivez ça de près vous aussi ?",
-        "relance": "Moi je regarde tout ce qui sort, et vous, vous vous tenez au courant ou vous faites votre truc ?"
+        "accroche": "En ce moment il se passe grave de trucs côté mode, tu suis ça de près toi aussi ?",
+        "relance": "Moi je regarde tout ce qui sort, toi tu te tiens au courant ou tu fais ton truc ?"
       },
       {
-        "accroche": "Je viens de repérer une pièce qui m-a tapé dans l-œil, ça vous arrive ce coup de cœur soudain ?",
-        "relance": "Moi je craque vite quand un truc me plaît, et vous, vous êtes plutôt impulsif ou raisonnable côté fringues ?"
+        "accroche": "Je viens de repérer une pièce qui m'a tapé dans l'œil, ça t'arrive ce coup de cœur soudain ?",
+        "relance": "Moi je craque vite quand un truc me plaît, toi t'es plutôt impulsif ou raisonnable côté fringues ?"
       },
       {
-        "accroche": "Je suis en pleine réflexion sur mon style en ce moment, ça vous prend aussi ces envies de changement ?",
-        "relance": "Moi j-ai envie de tout revoir là, et vous, vous êtes dans une phase découverte aussi ?"
+        "accroche": "Je suis en pleine réflexion sur mon style en ce moment, ça te prend aussi ces envies de changement ?",
+        "relance": "Moi j'ai envie de tout revoir là, toi t'es dans une phase découverte aussi ?"
       },
       {
-        "accroche": "On dirait que tout le monde se lâche un peu plus sur le style ces temps-ci, vous le ressentez ?",
-        "relance": "Moi j-adore cette liberté, et vous, vous osez plus qu-avant ou vous restez fidèle à vous-même ?"
+        "accroche": "On dirait que tout le monde se lâche un peu plus sur le style ces temps-ci, tu le ressens ?",
+        "relance": "Moi j'adore cette liberté, toi t'oses plus qu'avant ou tu restes fidèle à toi-même ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Pour vous, la mode c-est vraiment une façon de s-exprimer, non ?",
-        "relance": "Moi c-est mon langage à moi, et vous, vous dites quoi de vous à travers vos vêtements ?"
+        "accroche": "Pour toi la mode c'est vraiment une façon de s'exprimer non ?",
+        "relance": "Moi c'est mon langage à moi, toi tu dis quoi de toi à travers tes fringues ?"
       },
       {
-        "accroche": "Vous trouvez pas que le style c-est une vraie forme d-art au fond ?",
-        "relance": "Moi je le vis comme ça, et vous, vous voyez la mode comme un art ou comme un plaisir ?"
+        "accroche": "Tu trouves pas que le style c'est une vraie forme d'art au fond ?",
+        "relance": "Moi je le vis comme ça, toi tu vois la mode comme un art ou comme un plaisir ?"
       },
       {
-        "accroche": "C-est fou comme le style peut rassembler des gens très différents, vous trouvez pas ?",
-        "relance": "Moi j-ai rencontré du monde grâce à ça, et vous, ça vous a déjà créé des liens ?"
+        "accroche": "C'est fou comme le style peut rapprocher des gens super différents.",
+        "relance": "Moi j'ai rencontré du monde grâce à ça, toi ça t'a déjà créé des liens ?"
       },
       {
-        "accroche": "Si vous deviez décrire votre style en un mot, ce serait lequel ?",
-        "relance": "Moi je dirais assumé et coloré, et vous, votre style ça se résume comment ?"
+        "accroche": "Si tu devais décrire ton style en un mot, ce serait quoi ?",
+        "relance": "Moi je dirais assumé et coloré, le tien ça se résume comment ?"
       }
     ]
   },
@@ -42383,56 +42383,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une énergie de quelqu-un de sportif, je me trompe ?",
-        "relance": "Moi j-ai besoin de bouger tous les jours, et vous, vous pratiquez quelque chose ?"
+        "accroche": "T'as une énergie de quelqu'un de sportif, j'me trompe ?",
+        "relance": "Moi j'ai besoin de bouger tous les jours, toi tu pratiques un truc ?"
       },
       {
-        "accroche": "On dirait quelqu-un qui prend soin de sa forme, c-est votre truc le sport ?",
-        "relance": "Moi j-ai mon petit rituel sportif, et vous, vous êtes plutôt régulier ou par phases ?"
+        "accroche": "On dirait quelqu'un qui prend soin de sa forme, c'est ton truc le sport ?",
+        "relance": "Moi j'ai mon petit rituel sportif, toi t'es plutôt régulier ou par phases ?"
       },
       {
-        "accroche": "Vous dégagez une vraie vitalité, ça vient d-une activité que vous pratiquez ?",
-        "relance": "Moi le sport me tient en forme et en tête, et vous, vous carburez à quoi pour l-énergie ?"
+        "accroche": "Tu dégages une vraie vitalité, ça vient d'une activité que tu fais ?",
+        "relance": "Moi le sport me tient en forme et dans la tête, toi tu carbures à quoi pour l'énergie ?"
       },
       {
-        "accroche": "Vous avez l-allure de quelqu-un qui aime se dépenser, je me trompe ?",
-        "relance": "Moi je peux pas rester en place, et vous, vous êtes plutôt sensations fortes ou tranquille ?"
+        "accroche": "T'as l'allure de quelqu'un qui aime se dépenser, j'me trompe ?",
+        "relance": "Moi je peux pas rester en place, toi t'es plutôt sensations fortes ou tranquille ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j-ai la motivation à fond côté sport, ça vous prend aussi par période ?",
-        "relance": "Moi là je suis à fond, et vous, vous arrivez à garder le rythme ou ça va ça vient ?"
+        "accroche": "En ce moment j'ai la motivation à fond côté sport, ça te prend aussi par période ?",
+        "relance": "Moi là je suis à fond, toi t'arrives à garder le rythme ou ça va ça vient ?"
       },
       {
-        "accroche": "Il y a plein de grands événements sportifs en ce moment, vous suivez ça vous aussi ?",
-        "relance": "Moi j-adore vibrer devant une compète, et vous, vous êtes plutôt spectateur ou pratiquant ?"
+        "accroche": "Y a plein de grands événements sportifs en ce moment, tu suis ça toi aussi ?",
+        "relance": "Moi j'adore vibrer devant une compète, toi t'es plutôt spectateur ou pratiquant ?"
       },
       {
-        "accroche": "C-est la saison idéale pour se remettre au sport, ça vous tente aussi vous ?",
-        "relance": "Moi j-ai relancé la machine récemment, et vous, vous êtes dans une bonne dynamique là ?"
+        "accroche": "C'est la saison idéale pour se remettre au sport, ça te tente aussi ?",
+        "relance": "Moi j'ai relancé la machine récemment, toi t'es dans une bonne dynamique là ?"
       },
       {
-        "accroche": "Tout le monde parle de bouger plus en ce moment, ça vous parle ce besoin de vous dépenser ?",
-        "relance": "Moi j-en ai vraiment besoin pour me sentir bien, et vous, le sport ça vous manque quand vous en faites pas ?"
+        "accroche": "Tout le monde parle de bouger plus en ce moment, ça te parle ce besoin de te dépenser ?",
+        "relance": "Moi j'en ai vraiment besoin pour me sentir bien, toi le sport ça te manque quand t'en fais pas ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous trouvez pas que le sport ça fait autant de bien à la tête qu-au corps ?",
-        "relance": "Moi c-est ma soupape, et vous, vous en faites pour la forme ou pour la tête ?"
+        "accroche": "Tu trouves pas que le sport ça fait autant de bien à la tête qu'au corps ?",
+        "relance": "Moi c'est ma soupape, toi t'en fais pour la forme ou pour la tête ?"
       },
       {
-        "accroche": "Pour vous, c-est quoi qui donne vraiment envie de bouger au quotidien ?",
-        "relance": "Moi c-est le plaisir avant tout, et vous, vous êtes plutôt motivé par les résultats ou par le fun ?"
+        "accroche": "Pour toi c'est quoi qui donne vraiment envie de bouger au quotidien ?",
+        "relance": "Moi c'est le plaisir avant tout, toi t'es plutôt motivé par les résultats ou par le fun ?"
       },
       {
-        "accroche": "Vous pensez qu-on est sportif dans l-âme ou que ça se cultive avec le temps ?",
-        "relance": "Moi je crois qu-on prend goût petit à petit, et vous, vous avez toujours aimé bouger ?"
+        "accroche": "Tu penses qu'on est sportif dans l'âme ou que ça se cultive avec le temps ?",
+        "relance": "Moi je crois qu'on prend goût petit à petit, toi t'as toujours aimé bouger ?"
       },
       {
-        "accroche": "Si vous pouviez vous mettre à un nouveau sport demain, ce serait lequel ?",
-        "relance": "Moi j-ai un truc que j-aimerais tester depuis longtemps, et vous, il y en a un qui vous fait rêver ?"
+        "accroche": "Si tu pouvais te mettre à un nouveau sport demain, ce serait lequel ?",
+        "relance": "Moi y a un truc que j'aimerais tester depuis longtemps, toi y en a un qui te fait rêver ?"
       }
     ]
   },
@@ -42455,56 +42455,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l-air en pleine forme, vous devez bien bouger un peu, non ?",
-        "relance": "Moi j-essaie de rester actif, et vous, vous faites quoi pour garder la forme ?"
+        "accroche": "T'as l'air en pleine forme, tu dois bien bouger un peu non ?",
+        "relance": "Moi j'essaie de rester actif, toi tu fais quoi pour garder la forme ?"
       },
       {
-        "accroche": "On dirait que vous sortez ou revenez d-une activité, je me trompe ?",
-        "relance": "Moi je case du sport dès que je peux, et vous, vous trouvez le temps facilement ?"
+        "accroche": "On dirait que tu sors ou tu reviens d'une activité, j'me trompe ?",
+        "relance": "Moi je case du sport dès que je peux, toi tu trouves le temps facile ?"
       },
       {
-        "accroche": "Vous avez une démarche de quelqu-un qui a l-habitude de bouger, c-est le cas ?",
-        "relance": "Moi je marche beaucoup au quotidien, et vous, vous êtes plutôt actif ou plutôt pépère ?"
+        "accroche": "T'as une démarche de quelqu'un qui a l'habitude de bouger, c'est le cas ?",
+        "relance": "Moi je marche beaucoup au quotidien, toi t'es plutôt actif ou plutôt pépère ?"
       },
       {
-        "accroche": "Vous dégagez un truc de sportif tranquille, vous pratiquez régulièrement ?",
-        "relance": "Moi j-y vais à mon rythme, et vous, vous êtes du genre assidu ou quand ça vous chante ?"
+        "accroche": "Tu dégages un truc de sportif tranquille, tu pratiques régulièrement ?",
+        "relance": "Moi j'y vais à mon rythme, toi t'es du genre assidu ou quand ça te chante ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce beau temps j-ai qu-une envie, aller me dépenser dehors, pas vous ?",
-        "relance": "Moi le soleil me motive à fond, et vous, la météo joue sur votre envie de bouger ?"
+        "accroche": "Avec ce beau temps j'ai qu'une envie, aller me dépenser dehors, pas toi ?",
+        "relance": "Moi le soleil me motive à fond, toi la météo joue sur ton envie de bouger ?"
       },
       {
-        "accroche": "Quand il fait ce temps-là, c-est dur de se motiver à faire du sport, vous trouvez pas ?",
-        "relance": "Moi la pluie me coupe toute envie, et vous, vous êtes du genre à bouger quoi qu-il arrive ?"
+        "accroche": "Quand il fait ce temps-là, dur de se motiver à faire du sport, tu trouves pas ?",
+        "relance": "Moi la pluie me coupe toute envie, toi t'es du genre à bouger quoi qu'il arrive ?"
       },
       {
-        "accroche": "C-est la bonne période pour reprendre une activité, ça vous tente aussi vous ?",
-        "relance": "Moi je me suis remis à bouger, et vous, vous avez une activité que vous aimez bien ?"
+        "accroche": "C'est la bonne période pour reprendre une activité, ça te tente aussi ?",
+        "relance": "Moi je me suis remis à bouger, toi t'as une activité que t'aimes bien ?"
       },
       {
-        "accroche": "Il y a du sport partout à la télé en ce moment, vous en regardez un peu vous ?",
-        "relance": "Moi je me laisse prendre facilement, et vous, vous préférez regarder ou pratiquer ?"
+        "accroche": "Y a du sport partout à la télé en ce moment, tu en regardes un peu toi ?",
+        "relance": "Moi je me laisse prendre facile, toi tu préfères regarder ou pratiquer ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Franchement, vous trouvez pas qu-on se sent toujours mieux après avoir bougé ?",
-        "relance": "Moi ça me remet d-aplomb à chaque fois, et vous, ça vous fait du bien aussi ?"
+        "accroche": "En vrai tu trouves pas qu'on se sent toujours mieux après avoir bougé ?",
+        "relance": "Moi ça me remet d'aplomb à chaque fois, toi ça te fait du bien aussi ?"
       },
       {
-        "accroche": "Pour vous, c-est plus une question de motivation ou d-habitude le sport ?",
-        "relance": "Moi c-est l-habitude qui me sauve, et vous, vous tenez sur la durée facilement ?"
+        "accroche": "Pour toi c'est plus une question de motivation ou d'habitude le sport ?",
+        "relance": "Moi c'est l'habitude qui me sauve, toi tu tiens sur la durée facile ?"
       },
       {
-        "accroche": "C-est fou comme bouger un peu chaque jour peut tout changer, vous trouvez pas ?",
-        "relance": "Moi même une marche ça me suffit, et vous, votre dose de mouvement idéale c-est quoi ?"
+        "accroche": "C'est fou comme bouger un peu chaque jour peut tout changer.",
+        "relance": "Moi même une marche ça me suffit, c'est quoi ta dose de mouvement idéale ?"
       },
       {
-        "accroche": "Vous pensez qu-il faut souffrir pour progresser ou que le plaisir suffit ?",
-        "relance": "Moi je mise tout sur le plaisir, et vous, vous êtes plutôt effort ou détente dans le sport ?"
+        "accroche": "Tu penses qu'il faut souffrir pour progresser ou que le plaisir suffit ?",
+        "relance": "Moi je mise tout sur le plaisir, toi t'es plutôt effort ou détente dans le sport ?"
       }
     ]
   },
@@ -42527,56 +42527,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l-air de vous y connaître en sport, je peux vous demander un conseil ?",
-        "relance": "Moi je veux m-y remettre mais je sais pas par où, et vous, vous commenceriez par quoi à ma place ?"
+        "accroche": "T'as l'air de t'y connaître en sport, je peux te demander un conseil ?",
+        "relance": "Moi je veux m'y remettre mais je sais pas par où, tu commencerais par quoi à ma place ?"
       },
       {
-        "accroche": "On sent que vous êtes du genre régulier, comment vous faites pour tenir sur la durée ?",
-        "relance": "Moi je lâche vite l-affaire, et vous, votre secret pour rester motivé c-est quoi ?"
+        "accroche": "On sent que t'es du genre régulier, tu fais comment pour tenir sur la durée ?",
+        "relance": "Moi je lâche vite l'affaire, c'est quoi ton secret pour rester motivé ?"
       },
       {
-        "accroche": "Vous dégagez une vraie forme, vous me conseilleriez quoi pour bien démarrer, moi ?",
-        "relance": "Moi je pars de zéro, et vous, vous auriez une activité facile à conseiller pour reprendre ?"
+        "accroche": "Tu dégages une vraie forme, tu me conseillerais quoi pour bien démarrer ?",
+        "relance": "Moi je pars de zéro, t'aurais une activité facile à conseiller pour reprendre ?"
       },
       {
-        "accroche": "Vous avez l-air d-avoir de l-expérience, je peux vous piquer une astuce ?",
-        "relance": "Moi je fais souvent n-importe quoi, et vous, quelle erreur je devrais éviter en débutant ?"
+        "accroche": "T'as l'air d'avoir de l'expérience, je peux te piquer une astuce ?",
+        "relance": "Moi je fais souvent n'importe quoi, c'est quoi l'erreur à éviter quand on débute ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je veux vraiment me remettre au sport, vous me conseilleriez quoi pour tenir ?",
-        "relance": "Moi je manque de constance, et vous, comment vous gardez le rythme quand la motivation baisse ?"
+        "accroche": "En ce moment je veux vraiment me remettre au sport, tu me conseillerais quoi pour tenir ?",
+        "relance": "Moi je manque de constance, tu gardes le rythme comment quand la motiv baisse ?"
       },
       {
-        "accroche": "Je cherche une activité qui me corresponde, vous partiriez sur quoi vous à ma place ?",
-        "relance": "Moi j-hésite entre plein de trucs, et vous, comment vous avez trouvé le sport qui vous plaît ?"
+        "accroche": "Je cherche une activité qui me corresponde, tu partirais sur quoi à ma place ?",
+        "relance": "Moi j'hésite entre plein de trucs, t'as trouvé comment le sport qui te plaît ?"
       },
       {
-        "accroche": "Je veux bouger plus sans me blesser, vous auriez un conseil de bon sens ?",
-        "relance": "Moi je veux y aller progressivement, et vous, votre règle pour éviter les pépins c-est quoi ?"
+        "accroche": "Je veux bouger plus sans me blesser, t'aurais un conseil de bon sens ?",
+        "relance": "Moi je veux y aller progressivement, c'est quoi ta règle pour éviter les pépins ?"
       },
       {
-        "accroche": "Justement je manque de temps pour le sport en ce moment, vous feriez comment vous ?",
-        "relance": "Moi je galère à caser ça, et vous, vous auriez une astuce pour bouger malgré un emploi du temps chargé ?"
+        "accroche": "Je manque de temps pour le sport en ce moment, tu ferais comment toi ?",
+        "relance": "Moi je galère à caser ça, t'aurais une astuce pour bouger malgré un emploi du temps chargé ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "D-après vous, c-est quoi le vrai secret pour garder une activité sur le long terme ?",
-        "relance": "Moi je crois qu-il faut y prendre plaisir, et vous, votre conseil numéro un pour tenir ?"
+        "accroche": "Pour toi c'est quoi le vrai secret pour garder une activité sur le long terme ?",
+        "relance": "Moi je crois qu'il faut y prendre plaisir, c'est quoi ton conseil numéro un pour tenir ?"
       },
       {
-        "accroche": "Vous pensez qu-il vaut mieux se fixer des objectifs ou juste y aller au feeling ?",
-        "relance": "Moi j-ai besoin d-un but pour avancer, et vous, vous fonctionnez comment ?"
+        "accroche": "Tu penses qu'il vaut mieux se fixer des objectifs ou juste y aller au feeling ?",
+        "relance": "Moi j'ai besoin d'un but pour avancer, toi tu fonctionnes comment ?"
       },
       {
-        "accroche": "Pour vous, comment on trouve le sport qui nous convient vraiment ?",
-        "relance": "Moi j-en ai testé plein avant de trouver, et vous, vous conseilleriez d-essayer large ?"
+        "accroche": "Pour toi, comment on trouve le sport qui nous convient vraiment ?",
+        "relance": "Moi j'en ai testé plein avant de trouver, tu conseillerais d'essayer large ?"
       },
       {
-        "accroche": "Si vous deviez donner un seul conseil à quelqu-un qui reprend le sport, ce serait lequel ?",
-        "relance": "Moi je dirais d-y aller doucement, et vous, qu-est-ce que vous transmettriez en premier ?"
+        "accroche": "Si tu devais donner un seul conseil à quelqu'un qui reprend le sport, ce serait quoi ?",
+        "relance": "Moi je dirais d'y aller doucement, et toi tu transmettrais quoi en premier ?"
       }
     ]
   },
@@ -42599,56 +42599,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une pêche de compétiteur, le sport ça fait partie de votre vie je parie ?",
-        "relance": "Moi je vis pour ça, et vous, vous êtes plutôt passionné ou juste pour le plaisir ?"
+        "accroche": "T'as une pêche de compétiteur, le sport ça fait partie de ta vie je parie ?",
+        "relance": "Moi je vis pour ça, toi t'es plutôt passionné ou juste pour le plaisir ?"
       },
       {
-        "accroche": "On sent une vraie énergie sportive chez vous, vous pratiquez à quel niveau ?",
-        "relance": "Moi je m-entraîne dès que je peux, et vous, vous êtes plutôt loisir ou plus engagé ?"
+        "accroche": "On sent une vraie énergie sportive chez toi, tu pratiques à quel niveau ?",
+        "relance": "Moi je m'entraîne dès que je peux, toi t'es plutôt loisir ou plus engagé ?"
       },
       {
-        "accroche": "Vous dégagez un mental de sportif, ça se joue dans une discipline en particulier ?",
-        "relance": "Moi le sport m-a forgé le caractère, et vous, ça vous a apporté quoi de votre côté ?"
+        "accroche": "Tu dégages un mental de sportif, ça se joue dans une discipline en particulier ?",
+        "relance": "Moi le sport m'a forgé le caractère, toi ça t'a apporté quoi ?"
       },
       {
-        "accroche": "Vous avez l-allure de quelqu-un qui adore se dépasser, je me trompe ?",
-        "relance": "Moi j-adore repousser mes limites, et vous, vous cherchez la performance ou le bien-être ?"
+        "accroche": "T'as l'allure de quelqu'un qui adore se dépasser, j'me trompe ?",
+        "relance": "Moi j'adore repousser mes limites, toi tu cherches la perf ou le bien-être ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je sors d-une bonne session et je suis encore à fond, ça vous parle cette sensation ?",
-        "relance": "Moi après le sport je plane, et vous, vous connaissez ce petit shot de bien-être ?"
+        "accroche": "Je sors d'une bonne session et je suis encore à fond, ça te parle cette sensation ?",
+        "relance": "Moi après le sport je plane, toi tu connais ce petit shot de bien-être ?"
       },
       {
-        "accroche": "Il y a une ambiance sportive de dingue en ce moment, vous suivez les grandes compètes vous ?",
-        "relance": "Moi je vibre devant chaque match, et vous, vous avez une discipline que vous suivez à fond ?"
+        "accroche": "Y a une ambiance sportive de dingue en ce moment, tu suis les grandes compètes toi ?",
+        "relance": "Moi je vibre devant chaque match, t'as une discipline que tu suis à fond ?"
       },
       {
-        "accroche": "En ce moment je me fixe plein de défis sportifs, ça vous prend aussi ces envies de vous surpasser ?",
-        "relance": "Moi j-adore me lancer des challenges, et vous, vous êtes du genre à vous fixer des objectifs ?"
+        "accroche": "En ce moment je me fixe plein de défis sportifs, ça te prend aussi ces envies de te surpasser ?",
+        "relance": "Moi j'adore me lancer des challenges, toi t'es du genre à te fixer des objectifs ?"
       },
       {
-        "accroche": "Tout le monde semble se mettre au sport en ce moment, vous êtes dans cette dynamique aussi ?",
-        "relance": "Moi je suis à fond dans une nouvelle routine, et vous, vous avez un projet sportif en cours ?"
+        "accroche": "Tout le monde semble se mettre au sport en ce moment, t'es dans cette dynamique aussi ?",
+        "relance": "Moi je suis à fond dans une nouvelle routine, t'as un projet sportif en cours ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous trouvez pas que le sport ça rapproche vraiment les gens ?",
-        "relance": "Moi j-ai mes meilleures amitiés grâce à ça, et vous, ça vous a créé des liens aussi ?"
+        "accroche": "Tu trouves pas que le sport ça rapproche vraiment les gens ?",
+        "relance": "Moi j'ai mes meilleures amitiés grâce à ça, toi ça t'a créé des liens aussi ?"
       },
       {
-        "accroche": "Pour vous, c-est quoi que le sport apporte de plus précieux dans une vie ?",
-        "relance": "Moi c-est la discipline et le dépassement, et vous, ça vous apporte quoi de plus fort ?"
+        "accroche": "Pour toi c'est quoi que le sport apporte de plus précieux dans une vie ?",
+        "relance": "Moi c'est la discipline et le dépassement, toi ça t'apporte quoi de plus fort ?"
       },
       {
-        "accroche": "Vous pensez qu-on peut vraiment tout apprendre du sport, même hors du terrain ?",
-        "relance": "Moi il m-a appris à ne rien lâcher, et vous, vous en avez tiré des leçons pour la vie ?"
+        "accroche": "Tu penses qu'on peut vraiment tout apprendre du sport, même hors du terrain ?",
+        "relance": "Moi il m'a appris à rien lâcher, toi t'en as tiré des leçons pour la vie ?"
       },
       {
-        "accroche": "Si vous deviez transmettre une seule chose sur le sport, ce serait quoi ?",
-        "relance": "Moi je dirais que le plaisir passe avant la perf, et vous, votre philosophie du sport c-est quoi ?"
+        "accroche": "Si tu devais transmettre une seule chose sur le sport, ce serait quoi ?",
+        "relance": "Moi je dirais que le plaisir passe avant la perf, c'est quoi ta philo du sport ?"
       }
     ]
   },
@@ -42671,56 +42671,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre sac a l air taille pour crapahuter dehors, vous etes plutot du genre a filer en pleine nature des que vous pouvez ?",
-        "relance": "Moi je saute sur la moindre occasion pour prendre l air. Et vous, ca vous arrive souvent de vous echapper dehors ?"
+        "accroche": "Ton sac a l'air taillé pour crapahuter dehors, t'es du genre à filer en pleine nature dès que tu peux ?",
+        "relance": "Moi je saute sur la moindre occas' pour prendre l'air, toi ça t'arrive souvent de t'échapper dehors ?"
       },
       {
-        "accroche": "J ai remarque votre tee-shirt avec le motif de montagne, ca vous parle vraiment ce genre de paysage ?",
-        "relance": "Moi je fonds devant les grands espaces. Il y a un coin de nature qui vous fait cet effet-la ?"
+        "accroche": "J'ai vu ton tee-shirt avec le motif de montagne, ça te parle vraiment ce genre de paysage ?",
+        "relance": "Moi je fonds devant les grands espaces, y a un coin de nature qui te fait cet effet-là ?"
       },
       {
-        "accroche": "Vous avez ce petit air de quelqu un qui respire mieux dehors qu enferme, je me trompe ?",
-        "relance": "Moi je tiens pas en place entre quatre murs. Vous vous sentez comment quand vous etes en plein air ?"
+        "accroche": "T'as ce petit air de quelqu'un qui respire mieux dehors qu'enfermé, j'me trompe ?",
+        "relance": "Moi je tiens pas en place entre quatre murs, toi tu te sens comment en plein air ?"
       },
       {
-        "accroche": "Votre gourde a fait pas mal de sorties on dirait, vous marchez beaucoup dans la nature ?",
-        "relance": "Moi je marche des que le ciel se degage. Qu est-ce qui vous met dehors le plus souvent ?"
+        "accroche": "Ta gourde a fait pas mal de sorties on dirait, tu marches beaucoup dans la nature ?",
+        "relance": "Moi je marche dès que le ciel se dégage, qu'est-ce qui te met dehors le plus souvent ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Ca fait du bien de sentir un peu de verdure autour, vous prenez le temps de profiter de la nature en ce moment ?",
-        "relance": "Moi j essaie d en glisser un peu chaque jour. Et vous, comment vous faites votre plein de nature ?"
+        "accroche": "Ça fait du bien un peu de verdure autour, tu prends le temps d'en profiter en ce moment ?",
+        "relance": "Moi j'essaie d'en glisser un peu chaque jour, toi tu fais ton plein de nature comment ?"
       },
       {
-        "accroche": "On parlait des saisons qui defilent trop vite, vous avez une periode de l annee que vous preferez dehors ?",
-        "relance": "Moi je vis pour les premiers beaux jours. Quelle saison vous fait vibrer, vous ?"
+        "accroche": "Les saisons défilent trop vite en ce moment, t'as une période de l'année que tu préfères dehors ?",
+        "relance": "Moi je vis pour les premiers beaux jours, quelle saison te fait vibrer toi ?"
       },
       {
-        "accroche": "Il parait que passer du temps dans le vert, ca recharge vraiment, vous le ressentez comment de votre cote ?",
-        "relance": "Moi je repars toujours plus leger apres une sortie. Et vous, ca vous change quoi ?"
+        "accroche": "Il paraît que passer du temps dans le vert ça recharge vraiment, tu le ressens comment ?",
+        "relance": "Moi je repars toujours plus léger après une sortie, toi ça te change quoi ?"
       },
       {
-        "accroche": "Avec tout ce qui pousse en ce moment, la nature se reveille, vous y etes sensible a ces petits changements ?",
-        "relance": "Moi je guette les premiers bourgeons chaque annee. Vous remarquez ce genre de details, vous ?"
+        "accroche": "Avec tout ce qui pousse en ce moment la nature se réveille, t'es sensible à ces petits changements ?",
+        "relance": "Moi je guette les premiers bourgeons chaque année, toi tu remarques ce genre de détails ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, si vous pouviez vivre entoure d un paysage pour toujours, ce serait quoi, la mer, la foret, la montagne ?",
-        "relance": "Moi je choisis la foret sans hesiter. Et vous, qu est-ce qui vous appelle le plus ?"
+        "accroche": "Si tu pouvais vivre entouré d'un paysage pour toujours, ce serait quoi, la mer, la forêt, la montagne ?",
+        "relance": "Moi je choisis la forêt sans hésiter, toi qu'est-ce qui t'appelle le plus ?"
       },
       {
-        "accroche": "Vous croyez qu on est vraiment fait pour vivre au contact de la nature ou on s en est trop eloignes ?",
-        "relance": "Moi je pense qu il nous en faut une bonne dose. Vous en ressentez le manque parfois ?"
+        "accroche": "Tu crois qu'on est vraiment fait pour vivre au contact de la nature ou on s'en est trop éloignés ?",
+        "relance": "Moi je pense qu'il nous en faut une bonne dose, toi t'en ressens le manque parfois ?"
       },
       {
-        "accroche": "C est fou comme un simple coucher de soleil peut couper le souffle, il y a un spectacle de la nature qui vous marque, vous ?",
-        "relance": "Moi c est les ciels d orage qui me fascinent. Qu est-ce qui vous emerveille le plus dehors ?"
+        "accroche": "C'est fou comme un simple coucher de soleil peut couper le souffle, y a un spectacle de la nature qui te marque toi ?",
+        "relance": "Moi c'est les ciels d'orage qui me fascinent, qu'est-ce qui t'émerveille le plus dehors ?"
       },
       {
-        "accroche": "Entre la mer et la montagne, il parait qu on est toujours d un camp, vous vous rangez de quel cote ?",
-        "relance": "Moi je suis clairement montagne. Et vous, qu est-ce qui vous attire naturellement ?"
+        "accroche": "Entre la mer et la montagne il paraît qu'on est toujours d'un camp, tu te ranges de quel côté ?",
+        "relance": "Moi je suis clairement montagne, toi qu'est-ce qui t'attire naturellement ?"
       }
     ]
   },
@@ -42743,56 +42743,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez sorti la petite laine, vous sentez que le temps est en train de tourner aussi ?",
-        "relance": "Moi je me suis fait avoir ce matin. Vous, vous arrivez a suivre ces changements de temps ?"
+        "accroche": "T'as sorti la petite laine, tu sens que le temps est en train de tourner aussi ?",
+        "relance": "Moi je me suis fait avoir ce matin, toi t'arrives à suivre ces changements de temps ?"
       },
       {
-        "accroche": "Vos chaussures ont l air prevues pour la boue, vous vous attendez a de la pluie aujourd hui ?",
-        "relance": "Moi je prevois toujours le pire cote meteo. Et vous, vous vous fiez a quoi pour vous habiller ?"
+        "accroche": "Tes chaussures ont l'air prévues pour la boue, tu t'attends à de la pluie aujourd'hui ?",
+        "relance": "Moi je prévois toujours le pire côté météo, toi tu te fies à quoi pour t'habiller ?"
       },
       {
-        "accroche": "Vous avez le nez en l air, vous guettez le ciel comme moi pour deviner la suite ?",
-        "relance": "Moi je passe mon temps a scruter les nuages. Vous arrivez a lire le temps, vous ?"
+        "accroche": "T'as le nez en l'air, tu guettes le ciel comme moi pour deviner la suite ?",
+        "relance": "Moi je passe mon temps à scruter les nuages, toi t'arrives à lire le temps ?"
       },
       {
-        "accroche": "Votre parapluie a l air d avoir vecu, il doit en voir de toutes les couleurs avec ce temps ?",
-        "relance": "Moi j en perds un par saison. Et vous, vous etes plutot parapluie ou capuche ?"
+        "accroche": "Ton parapluie a l'air d'avoir vécu, il doit en voir de toutes les couleurs avec ce temps.",
+        "relance": "Moi j'en perds un par saison, toi t'es plutôt parapluie ou capuche ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Quelle lumiere aujourd hui, ca donne envie de rester dehors, vous en profitez de ce temps ?",
-        "relance": "Moi je file dehors des qu il fait beau comme ca. Et vous, ce genre de journee, vous en faites quoi ?"
+        "accroche": "Quelle lumière aujourd'hui, ça donne envie de rester dehors, t'en profites de ce temps ?",
+        "relance": "Moi je file dehors dès qu'il fait beau comme ça, toi ce genre de journée t'en fais quoi ?"
       },
       {
-        "accroche": "On dirait que le ciel hesite depuis ce matin, vous pensez que ca va tenir ou qu il va nous tomber dessus ?",
-        "relance": "Moi je parie sur une averse avant ce soir. Vous le sentez comment, ce ciel ?"
+        "accroche": "On dirait que le ciel hésite depuis ce matin, tu penses que ça va tenir ou qu'il va nous tomber dessus ?",
+        "relance": "Moi je parie sur une averse avant ce soir, toi tu le sens comment ce ciel ?"
       },
       {
-        "accroche": "Apres tous ces jours gris, ca fait du bien un peu de douceur, vous aviez hate que ca change aussi ?",
-        "relance": "Moi le gris finit par me peser. Et vous, le temps ca joue sur votre humeur ?"
+        "accroche": "Après tous ces jours gris ça fait du bien un peu de douceur, t'avais hâte que ça change aussi ?",
+        "relance": "Moi le gris finit par me peser, toi le temps ça joue sur ton humeur ?"
       },
       {
-        "accroche": "Il parait qu on annonce un vrai changement pour les jours qui viennent, vous avez entendu parler de la suite ?",
-        "relance": "Moi je croise les doigts pour du soleil. Vous esperez quoi comme temps, vous ?"
+        "accroche": "Il paraît qu'on annonce un vrai changement pour les jours qui viennent, t'as entendu parler de la suite ?",
+        "relance": "Moi je croise les doigts pour du soleil, toi t'espères quoi comme temps ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Entre une belle journee ensoleillee et un bon orage bien spectaculaire, vous choisiriez quoi, vous ?",
-        "relance": "Moi j adore un orage vu de l abri. Et vous, quel temps vous fait vibrer le plus ?"
+        "accroche": "Entre une belle journée ensoleillée et un bon orage bien spectaculaire, tu choisirais quoi toi ?",
+        "relance": "Moi j'adore un orage vu de l'abri, toi quel temps te fait vibrer le plus ?"
       },
       {
-        "accroche": "Vous croyez qu on est vraiment influences par le temps qu il fait, sur notre moral je veux dire ?",
-        "relance": "Moi un rayon de soleil me remonte a bloc. Vous le ressentez comment de votre cote ?"
+        "accroche": "Tu crois qu'on est vraiment influencés par le temps qu'il fait, sur le moral je veux dire ?",
+        "relance": "Moi un rayon de soleil me remonte à bloc, toi tu le ressens comment ?"
       },
       {
-        "accroche": "Il y a des gens qui adorent la pluie, d autres qui la fuient, vous vous rangez de quel cote ?",
-        "relance": "Moi j aime bien une pluie fine, ca apaise. Et vous, la pluie ca vous fait quoi ?"
+        "accroche": "Y a des gens qui adorent la pluie, d'autres qui la fuient, tu te ranges de quel côté ?",
+        "relance": "Moi j'aime bien une pluie fine, ça apaise, toi la pluie ça te fait quoi ?"
       },
       {
-        "accroche": "Vous avez une saison ou un climat ou vous vous sentez vraiment a votre place ?",
-        "relance": "Moi je revis a l automne, cette lumiere. Et vous, quelle ambiance vous va le mieux ?"
+        "accroche": "T'as une saison ou un climat où tu te sens vraiment à ta place ?",
+        "relance": "Moi je revis à l'automne, cette lumière, toi quelle ambiance te va le mieux ?"
       }
     ]
   },
@@ -42815,56 +42815,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d etre quelqu un qui connait ses coins de nature, je cherche justement une idee de balade tranquille, vous auriez ca ?",
-        "relance": "Moi je tourne toujours aux memes endroits. Vous avez un coin nature chouchou a conseiller ?"
+        "accroche": "T'as l'air de connaître tes coins de nature, je cherche justement une idée de balade tranquille, t'aurais ça ?",
+        "relance": "Moi je tourne toujours aux mêmes endroits, t'as un coin nature chouchou à conseiller ?"
       },
       {
-        "accroche": "Votre plante en pot a l air de bien se porter, vous auriez un conseil, je tue tout ce que je touche moi ?",
-        "relance": "Moi je noie mes plantes a chaque fois. Vous avez un truc simple pour les garder en vie ?"
+        "accroche": "Ta plante en pot a l'air de bien se porter, t'aurais un conseil, moi je tue tout ce que je touche ?",
+        "relance": "Moi je noie mes plantes à chaque fois, t'as un truc simple pour les garder en vie ?"
       },
       {
-        "accroche": "Vous avez tout l air d avoir la main verte, je debute avec quelques pots, par quoi je devrais commencer ?",
-        "relance": "Moi je pars vraiment de zero cote plantes. Vous conseilleriez quoi a un debutant ?"
+        "accroche": "T'as tout l'air d'avoir la main verte, je débute avec quelques pots, je commence par quoi ?",
+        "relance": "Moi je pars vraiment de zéro côté plantes, tu conseillerais quoi à un débutant ?"
       },
       {
-        "accroche": "Vos bottines ont l air rodees aux sentiers, vous auriez un conseil pour bien s equiper avant une rando ?",
-        "relance": "Moi je pars souvent mal chausse. Qu est-ce qui compte vraiment selon vous pour marcher confort ?"
+        "accroche": "Tes bottines ont l'air rodées aux sentiers, t'aurais un conseil pour bien s'équiper avant une rando ?",
+        "relance": "Moi je pars souvent mal chaussé, qu'est-ce qui compte vraiment selon toi pour marcher confort ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec la belle saison qui arrive, je voudrais me remettre aux balades nature, vous auriez une piste pour bien commencer ?",
-        "relance": "Moi je manque un peu d idees pour varier. Vous partez ou, vous, quand vous voulez du vert ?"
+        "accroche": "Avec la belle saison qui arrive je voudrais me remettre aux balades, t'aurais une piste pour bien commencer ?",
+        "relance": "Moi je manque un peu d'idées pour varier, tu vas où toi quand tu veux du vert ?"
       },
       {
-        "accroche": "C est la bonne periode pour planter parait-il, vous vous y connaissez un peu, je voudrais me lancer ?",
-        "relance": "Moi je sais jamais quoi mettre ni quand. Vous commenceriez par quoi a ma place ?"
+        "accroche": "C'est la bonne période pour planter paraît-il, tu t'y connais un peu, je voudrais me lancer ?",
+        "relance": "Moi je sais jamais quoi mettre ni quand, tu commencerais par quoi à ma place ?"
       },
       {
-        "accroche": "On m a dit que passer du temps dehors ca fait un bien fou, vous auriez un conseil pour m y mettre vraiment ?",
-        "relance": "Moi j ai du mal a en faire une habitude. Comment vous faites, vous, pour tenir ?"
+        "accroche": "On m'a dit que passer du temps dehors ça fait un bien fou, t'aurais un conseil pour m'y mettre vraiment ?",
+        "relance": "Moi j'ai du mal à en faire une habitude, toi tu fais comment pour tenir ?"
       },
       {
-        "accroche": "Je cherche a m offrir un peu de nature au quotidien sans forcement partir loin, vous auriez une astuce ?",
-        "relance": "Moi je voudrais du vert meme dans mon coin. Vous feriez comment a ma place ?"
+        "accroche": "Je cherche à m'offrir un peu de nature au quotidien sans partir loin, t'aurais une astuce ?",
+        "relance": "Moi je voudrais du vert même dans mon coin, tu ferais comment à ma place ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous deviez conseiller une seule chose a quelqu un pour renouer avec la nature, ce serait quoi ?",
-        "relance": "Moi je dirais juste de sortir marcher sans but. Et vous, votre conseil numero un ?"
+        "accroche": "Si tu devais conseiller une seule chose pour renouer avec la nature, ce serait quoi ?",
+        "relance": "Moi je dirais juste de sortir marcher sans but, et toi ton conseil numéro un ?"
       },
       {
-        "accroche": "Vous pensez qu il vaut mieux se lancer dans un potager ou commencer plus doux avec quelques plantes ?",
-        "relance": "Moi j hesite depuis un moment. Vous partiriez sur quoi si vous debutiez, vous ?"
+        "accroche": "Tu penses qu'il vaut mieux se lancer dans un potager ou commencer plus doux avec quelques plantes ?",
+        "relance": "Moi j'hésite depuis un moment, tu partirais sur quoi si tu débutais ?"
       },
       {
-        "accroche": "Pour quelqu un qui veut se reconnecter au vivant, vous conseilleriez quoi comme premier pas ?",
-        "relance": "Moi je pense qu il faut y aller petit a petit. Vous verriez ca comment, vous ?"
+        "accroche": "Pour quelqu'un qui veut se reconnecter au vivant, tu conseillerais quoi comme premier pas ?",
+        "relance": "Moi je pense qu'il faut y aller petit à petit, toi tu verrais ça comment ?"
       },
       {
-        "accroche": "Vous auriez un conseil pour apprendre a reconnaitre un peu les plantes ou les oiseaux autour de soi ?",
-        "relance": "Moi je suis nul pour mettre des noms. Vous vous y etes pris comment, vous ?"
+        "accroche": "T'aurais un conseil pour apprendre à reconnaître un peu les plantes ou les oiseaux autour de soi ?",
+        "relance": "Moi je suis nul pour mettre des noms, toi tu t'y es pris comment ?"
       }
     ]
   },
@@ -42887,56 +42887,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit motif de feuille sur votre carnet, vous etes du genre a collectionner les trucs de la nature ?",
-        "relance": "Moi je ramene toujours un caillou ou une feuille de mes sorties. Et vous, vous gardez des souvenirs comme ca ?"
+        "accroche": "T'as un petit motif de feuille sur ton carnet, t'es du genre à collectionner les trucs de la nature ?",
+        "relance": "Moi je ramène toujours un caillou ou une feuille de mes sorties, toi tu gardes des souvenirs comme ça ?"
       },
       {
-        "accroche": "Je vous ai vu vous arreter net devant cette plante, vous etes du genre a vous emerveiller pour un rien de la nature ?",
-        "relance": "Moi je m arrete tout le temps pour regarder un truc qui pousse. Ca vous arrive aussi, vous ?"
+        "accroche": "Je t'ai vu t'arrêter net devant cette plante, t'es du genre à t'émerveiller pour un rien ?",
+        "relance": "Moi je m'arrête tout le temps pour regarder un truc qui pousse, ça t'arrive aussi toi ?"
       },
       {
-        "accroche": "Votre bracelet a un petit air de graine ou de bois, il vient d une jolie histoire liee a la nature ?",
-        "relance": "Moi j adore les objets qui viennent du vivant. Vous avez un truc comme ca qui vous suit ?"
+        "accroche": "Ton bracelet a un petit air de graine ou de bois, il vient d'une jolie histoire liée à la nature ?",
+        "relance": "Moi j'adore les objets qui viennent du vivant, t'as un truc comme ça qui te suit ?"
       },
       {
-        "accroche": "Vous avez l oeil qui petille des qu on parle d exterieur, la nature c est un peu votre dada ?",
-        "relance": "Moi je peux en parler des heures. Qu est-ce qui vous branche le plus la-dedans, vous ?"
+        "accroche": "T'as l'œil qui pétille dès qu'on parle d'extérieur, la nature c'est un peu ton dada ?",
+        "relance": "Moi je peux en parler des heures, qu'est-ce qui te branche le plus là-dedans ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Il y a une energie sympa aujourd hui, ca sent le renouveau, vous ressentez ce cote nature qui repart aussi ?",
-        "relance": "Moi j adore quand tout se reveille comme ca. Et vous, cette saison, elle vous fait quoi ?"
+        "accroche": "Y a une énergie sympa aujourd'hui, ça sent le renouveau, tu ressens ce côté nature qui repart ?",
+        "relance": "Moi j'adore quand tout se réveille comme ça, toi cette saison elle te fait quoi ?"
       },
       {
-        "accroche": "On voit de plus en plus de gens qui reviennent au jardinage et aux plantes, ca vous parle ce retour au vert ?",
-        "relance": "Moi je m y suis mis recemment et j adore. Vous, vous avez craque pour ca aussi ?"
+        "accroche": "On voit de plus en plus de gens revenir au jardinage et aux plantes, ça te parle ce retour au vert ?",
+        "relance": "Moi je m'y suis mis récemment et j'adore, toi t'as craqué pour ça aussi ?"
       },
       {
-        "accroche": "Avec tous ces documentaires sur la nature en ce moment, il y en a un qui vous a marque ?",
-        "relance": "Moi il y en a un qui m a scotche sur les fonds marins. Vous en avez vu un qui vous a fait de l effet ?"
+        "accroche": "Avec tous ces documentaires sur la nature en ce moment, y en a un qui t'a marqué ?",
+        "relance": "Moi y en a un qui m'a scotché sur les fonds marins, t'en as vu un qui t'a fait de l'effet ?"
       },
       {
-        "accroche": "On sent que les gens ont de nouveau soif de grand air, vous faites partie de ceux qui filent dehors des que possible ?",
-        "relance": "Moi des que j ai un moment je m evade. Et vous, comment vous faites le plein de nature ?"
+        "accroche": "On sent que les gens ont de nouveau soif de grand air, tu files dehors dès que possible toi ?",
+        "relance": "Moi dès que j'ai un moment je m'évade, toi tu fais ton plein de nature comment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous pouviez etre un animal ou une plante l espace d une journee, vous choisiriez quoi ?",
-        "relance": "Moi je serais un rapace pour voir le monde d en haut. Et vous, ce serait quoi ?"
+        "accroche": "Si tu pouvais être un animal ou une plante l'espace d'une journée, tu choisirais quoi ?",
+        "relance": "Moi je serais un rapace pour voir le monde d'en haut, et toi ce serait quoi ?"
       },
       {
-        "accroche": "Vous croyez qu on prend assez le temps de regarder ce qui vit autour de nous, vous ?",
-        "relance": "Moi je trouve qu on file trop vite pour ca. Vous arrivez a lever le nez, vous ?"
+        "accroche": "Tu crois qu'on prend assez le temps de regarder ce qui vit autour de nous ?",
+        "relance": "Moi je trouve qu'on file trop vite pour ça, toi t'arrives à lever le nez ?"
       },
       {
-        "accroche": "Il y a un endroit dans la nature ou vous revez d aller au moins une fois dans votre vie ?",
-        "relance": "Moi je reve des aurores boreales depuis toujours. Et vous, votre reve nature a vous ?"
+        "accroche": "Y a un endroit dans la nature où tu rêves d'aller au moins une fois dans ta vie ?",
+        "relance": "Moi je rêve des aurores boréales depuis toujours, et toi ton rêve nature à toi ?"
       },
       {
-        "accroche": "C est quoi votre plus beau souvenir en pleine nature, celui qui vous revient tout de suite ?",
-        "relance": "Moi c est une nuit a la belle etoile inoubliable. Et vous, il vous vient quoi ?"
+        "accroche": "C'est quoi ton plus beau souvenir en pleine nature, celui qui te revient tout de suite ?",
+        "relance": "Moi c'est une nuit à la belle étoile inoubliable, et toi il te vient quoi ?"
       }
     ]
   },
@@ -42959,56 +42959,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui bouge pas mal, vous etes du genre a soigner votre forme ?",
-        "relance": "Moi j essaie de rester actif comme je peux. Et vous, vous faites quoi pour tenir la forme ?"
+        "accroche": "T'as l'air de quelqu'un qui bouge pas mal, t'es du genre à soigner ta forme ?",
+        "relance": "Moi j'essaie de rester actif comme je peux, toi tu fais quoi pour tenir la forme ?"
       },
       {
-        "accroche": "Votre gourde ne vous quitte pas on dirait, vous etes du genre a bien penser a votre sante au quotidien ?",
-        "relance": "Moi je dois me forcer a boire assez. Vous avez des petites habitudes sante comme ca, vous ?"
+        "accroche": "Ta gourde te quitte pas on dirait, t'es du genre à bien penser à ta santé au quotidien ?",
+        "relance": "Moi je dois me forcer à boire assez, t'as des petites habitudes santé comme ça toi ?"
       },
       {
-        "accroche": "Vous avez une energie tranquille qui donne envie, vous avez un secret cote hygiene de vie ?",
-        "relance": "Moi je mise tout sur le sommeil. Et vous, c est quoi qui vous garde en forme ?"
+        "accroche": "T'as une énergie tranquille qui donne envie, t'as un secret côté hygiène de vie ?",
+        "relance": "Moi je mise tout sur le sommeil, toi c'est quoi qui te garde en forme ?"
       },
       {
-        "accroche": "Vos baskets ont l air d avoir de la route au compteur, vous etes plutot du genre sportif ?",
-        "relance": "Moi je cours pour me vider la tete surtout. Et vous, le sport ca vous apporte quoi ?"
+        "accroche": "Tes baskets ont l'air d'avoir de la route au compteur, t'es plutôt du genre sportif ?",
+        "relance": "Moi je cours pour me vider la tête surtout, toi le sport ça t'apporte quoi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On entend partout qu il faut bouger plus et mieux manger, vous vous y mettez aussi de votre cote ?",
-        "relance": "Moi j y vais par petites etapes. Et vous, vous avez change des trucs recemment ?"
+        "accroche": "On entend partout qu'il faut bouger plus et mieux manger, tu t'y mets aussi de ton côté ?",
+        "relance": "Moi j'y vais par petites étapes, toi t'as changé des trucs récemment ?"
       },
       {
-        "accroche": "C est la periode ou tout le monde reprend de bonnes resolutions sante, vous en tenez une, vous ?",
-        "relance": "Moi j en tiens une sur deux honnetement. Vous arrivez a garder les votres ?"
+        "accroche": "C'est la période où tout le monde reprend de bonnes résolutions santé, t'en tiens une toi ?",
+        "relance": "Moi j'en tiens une sur deux honnêtement, toi t'arrives à garder les tiennes ?"
       },
       {
-        "accroche": "Avec le rythme qu on a tous, prendre soin de soi c est pas evident, vous y arrivez comment de votre cote ?",
-        "relance": "Moi je galere a trouver le temps. Vous faites comment pour caser ca, vous ?"
+        "accroche": "Avec le rythme qu'on a tous, prendre soin de soi c'est pas évident, tu y arrives comment ?",
+        "relance": "Moi je galère à trouver le temps, toi tu fais comment pour caser ça ?"
       },
       {
-        "accroche": "On parle beaucoup de bien dormir et de deconnecter en ce moment, vous y etes attentif aussi ?",
-        "relance": "Moi j essaie de lacher les ecrans le soir. Et vous, vous y arrivez, vous ?"
+        "accroche": "On parle beaucoup de bien dormir et de déconnecter en ce moment, t'y es attentif aussi ?",
+        "relance": "Moi j'essaie de lâcher les écrans le soir, toi t'y arrives ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous pensez que la sante ca se joue surtout dans l assiette ou plutot dans le mouvement ?",
-        "relance": "Moi je crois que c est un peu des deux. Vous miseriez sur quoi en premier, vous ?"
+        "accroche": "Tu penses que la santé ça se joue surtout dans l'assiette ou plutôt dans le mouvement ?",
+        "relance": "Moi je crois que c'est un peu des deux, toi tu miserais sur quoi en premier ?"
       },
       {
-        "accroche": "C est quoi selon vous le truc le plus important pour rester en forme sur la duree ?",
-        "relance": "Moi je dirais la regularite avant tout. Et vous, votre secret ce serait quoi ?"
+        "accroche": "C'est quoi selon toi le truc le plus important pour rester en forme sur la durée ?",
+        "relance": "Moi je dirais la régularité avant tout, toi ton secret ce serait quoi ?"
       },
       {
-        "accroche": "On dit qu il vaut mieux prevenir que guerir, vous etes du genre a anticiper cote sante ?",
-        "relance": "Moi j essaie mais j oublie vite. Vous etes prevoyant la-dessus, vous ?"
+        "accroche": "On dit qu'il vaut mieux prévenir que guérir, t'es du genre à anticiper côté santé ?",
+        "relance": "Moi j'essaie mais j'oublie vite, toi t'es prévoyant là-dessus ?"
       },
       {
-        "accroche": "Si vous deviez garder une seule bonne habitude sante toute votre vie, ce serait laquelle ?",
-        "relance": "Moi je garderais la marche quotidienne. Et vous, vous lacheriez pas quoi ?"
+        "accroche": "Si tu devais garder une seule bonne habitude santé toute ta vie, ce serait laquelle ?",
+        "relance": "Moi je garderais la marche quotidienne, et toi tu lâcherais pas quoi ?"
       }
     ]
   },
@@ -43031,56 +43031,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air en pleine forme aujourd hui, vous avez trouve la recette pour tenir la journee ?",
-        "relance": "Moi ca depend vraiment des jours. Et vous, votre carburant du matin c est quoi ?"
+        "accroche": "T'as l'air en pleine forme aujourd'hui, t'as trouvé la recette pour tenir la journée ?",
+        "relance": "Moi ça dépend vraiment des jours, toi c'est quoi ton carburant du matin ?"
       },
       {
-        "accroche": "Vous baillez comme moi, on est nombreux a trainer un petit coup de fatigue en ce moment on dirait ?",
-        "relance": "Moi j accumule le manque de sommeil. Vous dormez bien en ce moment, vous ?"
+        "accroche": "Tu bâilles comme moi, on est nombreux à traîner un petit coup de fatigue en ce moment on dirait.",
+        "relance": "Moi j'accumule le manque de sommeil, toi tu dors bien en ce moment ?"
       },
       {
-        "accroche": "Votre thermos a l air bien utile, c est votre petit remontant a vous pour tenir le coup ?",
-        "relance": "Moi sans ma boisson chaude je demarre pas. Et vous, qu est-ce qui vous booste ?"
+        "accroche": "Ton thermos a l'air bien utile, c'est ton petit remontant à toi pour tenir le coup ?",
+        "relance": "Moi sans ma boisson chaude je démarre pas, toi qu'est-ce qui te booste ?"
       },
       {
-        "accroche": "Vous avez la bonne mine de quelqu un qui a bien dormi, vous avez un truc pour ca ?",
-        "relance": "Moi je dors mal des qu il fait lourd. Vous, le sommeil ca va en ce moment ?"
+        "accroche": "T'as la bonne mine de quelqu'un qui a bien dormi, t'as un truc pour ça ?",
+        "relance": "Moi je dors mal dès qu'il fait lourd, toi le sommeil ça va en ce moment ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ces changements de temps, tout le monde a un petit rhume ou un coup de mou, vous vous en sortez, vous ?",
-        "relance": "Moi j ai chope la creve trois fois cette annee. Et vous, vous tenez le coup ?"
+        "accroche": "Avec ces changements de temps tout le monde a un petit rhume ou un coup de mou, toi tu t'en sors ?",
+        "relance": "Moi j'ai chopé la crève trois fois cette année, toi tu tiens le coup ?"
       },
       {
-        "accroche": "Des qu il fait gris on a tous un peu moins la peche, ca joue sur votre forme aussi ?",
-        "relance": "Moi le manque de lumiere me plombe. Vous ressentez ca aussi, vous ?"
+        "accroche": "Dès qu'il fait gris on a tous un peu moins la pêche, ça joue sur ta forme aussi ?",
+        "relance": "Moi le manque de lumière me plombe, toi tu ressens ça aussi ?"
       },
       {
-        "accroche": "Il parait que la saison change, faut faire le plein de vitamines, vous prenez soin de vous en ce moment ?",
-        "relance": "Moi je force sur les fruits quand ca arrive. Et vous, vous avez des reflexes pour ca ?"
+        "accroche": "Il paraît que la saison change, faut faire le plein de vitamines, tu prends soin de toi en ce moment ?",
+        "relance": "Moi je force sur les fruits quand ça arrive, toi t'as des réflexes pour ça ?"
       },
       {
-        "accroche": "Avec la chaleur qui monte, faut penser a bien s hydrater, vous y arrivez de votre cote ?",
-        "relance": "Moi j oublie de boire des que je bosse. Vous vous forcez comment, vous ?"
+        "accroche": "Avec la chaleur qui monte faut penser à bien s'hydrater, tu y arrives de ton côté ?",
+        "relance": "Moi j'oublie de boire dès que je bosse, toi tu te forces comment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous pensez que le temps qu il fait joue vraiment sur notre forme et notre moral ?",
-        "relance": "Moi un jour de soleil et je revis. Vous le ressentez comment, vous ?"
+        "accroche": "Tu penses que le temps qu'il fait joue vraiment sur notre forme et notre moral ?",
+        "relance": "Moi un jour de soleil et je revis, toi tu le ressens comment ?"
       },
       {
-        "accroche": "C est quoi pour vous le meilleur remede a un petit coup de fatigue, une sieste ou un bon bol d air ?",
-        "relance": "Moi je jure par la sieste express. Et vous, votre remede a vous ?"
+        "accroche": "C'est quoi pour toi le meilleur remède à un coup de fatigue, une sieste ou un bon bol d'air ?",
+        "relance": "Moi je jure par la sieste express, et toi ton remède à toi ?"
       },
       {
-        "accroche": "Vous etes plutot du genre a ecouter votre corps quand il fatigue ou a pousser quand meme ?",
-        "relance": "Moi j ai tendance a trop pousser. Vous vous ecoutez, vous ?"
+        "accroche": "T'es plutôt du genre à écouter ton corps quand il fatigue ou à pousser quand même ?",
+        "relance": "Moi j'ai tendance à trop pousser, toi tu t'écoutes ?"
       },
       {
-        "accroche": "Vous croyez qu on dort mieux a certaines saisons, vous avez remarque ca sur vous ?",
-        "relance": "Moi je dors comme un bebe en hiver. Et vous, c est quand que vous recuperez le mieux ?"
+        "accroche": "Tu crois qu'on dort mieux à certaines saisons, t'as remarqué ça sur toi ?",
+        "relance": "Moi je dors comme un bébé en hiver, toi c'est quand que tu récupères le mieux ?"
       }
     ]
   },
@@ -43103,56 +43103,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de bien gerer votre energie, moi je m ecroule l apres-midi, vous auriez une astuce ?",
-        "relance": "Moi je carbure au cafe et ca tient pas. Vous faites comment pour tenir, vous ?"
+        "accroche": "T'as l'air de bien gérer ton énergie, moi je m'écroule l'après-midi, t'aurais une astuce ?",
+        "relance": "Moi je carbure au café et ça tient pas, toi tu fais comment pour tenir ?"
       },
       {
-        "accroche": "Vous respirez la forme, je cherche justement a reprendre le sport en douceur, vous conseilleriez quoi pour debuter ?",
-        "relance": "Moi j ai peur de me cramer des le depart. Vous commenceriez par quoi a ma place ?"
+        "accroche": "Tu respires la forme, je cherche à reprendre le sport en douceur, tu conseillerais quoi pour débuter ?",
+        "relance": "Moi j'ai peur de me cramer dès le départ, tu commencerais par quoi à ma place ?"
       },
       {
-        "accroche": "Votre repas a l air bien equilibre, moi je galere a mieux manger, vous auriez un conseil simple ?",
-        "relance": "Moi je sais jamais par ou commencer. Vous changeriez quoi en premier, vous ?"
+        "accroche": "Ton repas a l'air bien équilibré, moi je galère à mieux manger, t'aurais un conseil simple ?",
+        "relance": "Moi je sais jamais par où commencer, tu changerais quoi en premier ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un qui dort bien, moi c est la cata en ce moment, vous auriez un truc ?",
-        "relance": "Moi je tourne dans mon lit des heures. Vous avez un rituel du soir qui marche, vous ?"
+        "accroche": "T'as l'air de quelqu'un qui dort bien, moi c'est la cata en ce moment, t'aurais un truc ?",
+        "relance": "Moi je tourne dans mon lit des heures, t'as un rituel du soir qui marche ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je veux vraiment reprendre de bonnes habitudes sante, vous auriez un premier pas a me conseiller ?",
-        "relance": "Moi je veux m y tenir cette fois. Vous commenceriez par quoi, vous ?"
+        "accroche": "En ce moment je veux vraiment reprendre de bonnes habitudes santé, t'aurais un premier pas à me conseiller ?",
+        "relance": "Moi je veux m'y tenir cette fois, tu commencerais par quoi ?"
       },
       {
-        "accroche": "Avec le changement de saison je me sens un peu patraque, vous faites quoi vous pour vous remettre d aplomb ?",
-        "relance": "Moi je sais jamais quoi prendre. Vous avez des reflexes qui marchent, vous ?"
+        "accroche": "Avec le changement de saison je me sens un peu patraque, tu fais quoi toi pour te remettre d'aplomb ?",
+        "relance": "Moi je sais jamais quoi prendre, t'as des réflexes qui marchent ?"
       },
       {
-        "accroche": "Tout le monde parle de mieux gerer son stress ces temps-ci, vous auriez une methode qui vous va bien ?",
-        "relance": "Moi je cherche encore la mienne. Qu est-ce qui vous apaise, vous ?"
+        "accroche": "Tout le monde parle de mieux gérer son stress ces temps-ci, t'aurais une méthode qui te va bien ?",
+        "relance": "Moi je cherche encore la mienne, qu'est-ce qui t'apaise toi ?"
       },
       {
-        "accroche": "Je veux bouger plus au quotidien sans y passer des heures, vous auriez une astuce toute simple ?",
-        "relance": "Moi je manque de temps surtout. Vous glissez ca comment dans vos journees, vous ?"
+        "accroche": "Je veux bouger plus au quotidien sans y passer des heures, t'aurais une astuce toute simple ?",
+        "relance": "Moi je manque de temps surtout, tu glisses ça comment dans tes journées ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous deviez donner un seul conseil sante a quelqu un qui repart de zero, ce serait lequel ?",
-        "relance": "Moi je dirais de commencer petit. Et vous, votre conseil de base ?"
+        "accroche": "Si tu devais donner un seul conseil santé à quelqu'un qui repart de zéro, ce serait quoi ?",
+        "relance": "Moi je dirais de commencer petit, et toi ton conseil de base ?"
       },
       {
-        "accroche": "Vous pensez qu il vaut mieux tout changer d un coup ou y aller doucement pour de bonnes habitudes ?",
-        "relance": "Moi je crois aux petits pas. Vous verriez ca comment, vous ?"
+        "accroche": "Tu penses qu'il vaut mieux tout changer d'un coup ou y aller doucement pour de bonnes habitudes ?",
+        "relance": "Moi je crois aux petits pas, toi tu verrais ça comment ?"
       },
       {
-        "accroche": "Pour bien dormir, vous miseriez plutot sur le sport, l alimentation ou couper les ecrans ?",
-        "relance": "Moi je crois que les ecrans me pourrissent le sommeil. Vous miseriez sur quoi, vous ?"
+        "accroche": "Pour bien dormir tu miserais plutôt sur le sport, l'alimentation ou couper les écrans ?",
+        "relance": "Moi je crois que les écrans me pourrissent le sommeil, toi tu miserais sur quoi ?"
       },
       {
-        "accroche": "C est quoi selon vous la premiere habitude a adopter pour se sentir mieux dans son corps ?",
-        "relance": "Moi je dirais bouger un peu chaque jour. Et vous, vous conseilleriez quoi en premier ?"
+        "accroche": "C'est quoi selon toi la première habitude à adopter pour se sentir mieux dans son corps ?",
+        "relance": "Moi je dirais bouger un peu chaque jour, et toi tu conseillerais quoi en premier ?"
       }
     ]
   },
@@ -43175,56 +43175,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une peche ce matin, ca donne le sourire, vous etes du matin comme moi ?",
-        "relance": "Moi je carbure des le reveil. Et vous, votre energie elle vient d ou le matin ?"
+        "accroche": "T'as la pêche ce matin, ça donne le sourire, t'es du matin comme moi ?",
+        "relance": "Moi je carbure dès le réveil, toi ton énergie elle vient d'où le matin ?"
       },
       {
-        "accroche": "Votre tenue a un petit air sportif, vous sortez d une seance ou vous y allez ?",
-        "relance": "Moi je bouge le matin pour lancer ma journee. Et vous, vous faites du sport quand ?"
+        "accroche": "Ta tenue a un petit air sportif, tu sors d'une séance ou tu y vas ?",
+        "relance": "Moi je bouge le matin pour lancer ma journée, toi tu fais du sport quand ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un qui aime bien commencer fort, vous avez un rituel du matin ?",
-        "relance": "Moi je m etire et je bois un grand verre d eau. Et vous, ca demarre comment votre journee ?"
+        "accroche": "T'as l'air de quelqu'un qui aime bien commencer fort, t'as un rituel du matin ?",
+        "relance": "Moi je m'étire et je bois un grand verre d'eau, toi ça démarre comment ta journée ?"
       },
       {
-        "accroche": "Votre montre a l air de compter vos pas, vous etes du genre a vous fixer des defis forme ?",
-        "relance": "Moi je me suis pris au jeu des pas quotidiens. Vous vous lancez des defis comme ca, vous ?"
+        "accroche": "Ta montre a l'air de compter tes pas, t'es du genre à te fixer des défis forme ?",
+        "relance": "Moi je me suis pris au jeu des pas quotidiens, toi tu te lances des défis comme ça ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Il y a une belle energie ce matin, ca donne envie de bien manger et de bouger, vous ressentez ca aussi ?",
-        "relance": "Moi les matins comme ca me motivent a fond. Et vous, ca vous met en forme, vous ?"
+        "accroche": "Y a une belle énergie ce matin, ça donne envie de bien manger et de bouger, tu ressens ça aussi ?",
+        "relance": "Moi les matins comme ça me motivent à fond, toi ça te met en forme ?"
       },
       {
-        "accroche": "On voit plein de gens se remettre au sport en ce moment, vous faites partie de la vague, vous ?",
-        "relance": "Moi je m y suis remis recemment et je kiffe. Vous avez repris quelque chose, vous ?"
+        "accroche": "On voit plein de gens se remettre au sport en ce moment, tu fais partie de la vague toi ?",
+        "relance": "Moi je m'y suis remis récemment et je kiffe, toi t'as repris quelque chose ?"
       },
       {
-        "accroche": "En ce moment tout le monde parle de bien demarrer sa journee, vous avez trouve votre formule, vous ?",
-        "relance": "Moi c est marche et grand air le matin. Et vous, votre routine du matin c est quoi ?"
+        "accroche": "En ce moment tout le monde parle de bien démarrer sa journée, t'as trouvé ta formule toi ?",
+        "relance": "Moi c'est marche et grand air le matin, toi c'est quoi ta routine du matin ?"
       },
       {
-        "accroche": "On sent que les gens ont envie de prendre soin d eux ces temps-ci, ca vous parle cette envie, vous ?",
-        "relance": "Moi j ai vraiment eu ce declic cette annee. Et vous, ca vous est venu comment ?"
+        "accroche": "On sent que les gens ont envie de prendre soin d'eux ces temps-ci, ça te parle cette envie toi ?",
+        "relance": "Moi j'ai vraiment eu ce déclic cette année, toi ça t'est venu comment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous etes plutot team sport pour la forme ou team sport pour se vider la tete ?",
-        "relance": "Moi c est clairement pour la tete. Et vous, ca vous fait quoi de bouger ?"
+        "accroche": "T'es plutôt team sport pour la forme ou team sport pour se vider la tête ?",
+        "relance": "Moi c'est clairement pour la tête, toi ça te fait quoi de bouger ?"
       },
       {
-        "accroche": "Si vous pouviez maitriser un sport a fond du jour au lendemain, ce serait lequel ?",
-        "relance": "Moi je choisirais la natation les yeux fermes. Et vous, ce serait quoi ?"
+        "accroche": "Si tu pouvais maîtriser un sport à fond du jour au lendemain, ce serait lequel ?",
+        "relance": "Moi je choisirais la natation les yeux fermés, et toi ce serait quoi ?"
       },
       {
-        "accroche": "Vous croyez qu on est plein d energie de nature ou que ca se travaille au quotidien ?",
-        "relance": "Moi je pense que ca s entretient. Vous vous sentez comment la-dessus, vous ?"
+        "accroche": "Tu crois qu'on est plein d'énergie de nature ou que ça se travaille au quotidien ?",
+        "relance": "Moi je pense que ça s'entretient, toi tu te sens comment là-dessus ?"
       },
       {
-        "accroche": "C est quoi le moment de la journee ou vous vous sentez le plus en forme, vous ?",
-        "relance": "Moi c est clairement le matin. Et vous, votre pic d energie c est quand ?"
+        "accroche": "C'est quoi le moment de la journée où tu te sens le plus en forme toi ?",
+        "relance": "Moi c'est clairement le matin, toi ton pic d'énergie c'est quand ?"
       }
     ]
   },
@@ -43247,56 +43247,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous degagez un truc tres calme, vous etes du genre a vraiment prendre soin de votre serenite ?",
-        "relance": "Moi j essaie de ralentir mais je galere. Et vous, c est quoi votre secret pour rester zen ?"
+        "accroche": "Tu dégages un truc très calme, t'es du genre à vraiment soigner ta sérénité ?",
+        "relance": "Moi j'essaie de ralentir mais je galère, toi c'est quoi ton secret pour rester zen ?"
       },
       {
-        "accroche": "Votre carnet a l air de vous suivre partout, vous notez vos pensees pour vous vider la tete ?",
-        "relance": "Moi j ai commence a ecrire le soir et ca me fait du bien. Vous en tirez quoi, vous ?"
+        "accroche": "Ton carnet a l'air de te suivre partout, tu notes tes pensées pour te vider la tête ?",
+        "relance": "Moi j'ai commencé à écrire le soir et ça me fait du bien, toi t'en tires quoi ?"
       },
       {
-        "accroche": "Vous avez un petit cote apaisant qui donne envie de souffler, vous cultivez ca comment ?",
-        "relance": "Moi je cherche encore mon equilibre. Et vous, qu est-ce qui vous apaise vraiment ?"
+        "accroche": "T'as un petit côté apaisant qui donne envie de souffler, tu cultives ça comment ?",
+        "relance": "Moi je cherche encore mon équilibre, toi qu'est-ce qui t'apaise vraiment ?"
       },
       {
-        "accroche": "Votre boisson a l air d etre un vrai petit moment pour vous, vous soignez vos pauses comme ca ?",
-        "relance": "Moi je cours souvent sans souffler. Vous arrivez a vous menager des pauses, vous ?"
+        "accroche": "Ta boisson a l'air d'être un vrai petit moment pour toi, tu soignes tes pauses comme ça ?",
+        "relance": "Moi je cours souvent sans souffler, toi t'arrives à te ménager des pauses ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Ca fait du bien un moment un peu calme comme celui-la, vous prenez le temps de souffler en ce moment ?",
-        "relance": "Moi j essaie de m offrir ces petites bulles. Et vous, comment vous vous ressourcez ?"
+        "accroche": "Ça fait du bien un moment un peu calme comme celui-là, tu prends le temps de souffler en ce moment ?",
+        "relance": "Moi j'essaie de m'offrir ces petites bulles, toi tu te ressources comment ?"
       },
       {
-        "accroche": "On entend parler de meditation et de lacher-prise partout ces temps-ci, ca vous parle, vous ?",
-        "relance": "Moi je m y suis mis doucement. Vous avez teste ce genre de trucs, vous ?"
+        "accroche": "On entend parler de méditation et de lâcher-prise partout ces temps-ci, ça te parle toi ?",
+        "relance": "Moi je m'y suis mis doucement, toi t'as testé ce genre de trucs ?"
       },
       {
-        "accroche": "Avec le rythme de tous les jours, s accorder un vrai temps pour soi c est precieux, vous y arrivez, vous ?",
-        "relance": "Moi je dois vraiment le programmer sinon j oublie. Et vous, vous faites comment ?"
+        "accroche": "Avec le rythme de tous les jours, s'accorder un vrai temps pour soi c'est précieux, tu y arrives toi ?",
+        "relance": "Moi je dois vraiment le programmer sinon j'oublie, toi tu fais comment ?"
       },
       {
-        "accroche": "On dirait que tout le monde cherche a ralentir un peu en ce moment, vous ressentez ce besoin aussi ?",
-        "relance": "Moi j ai clairement besoin de lever le pied. Et vous, ca vous parle ce besoin ?"
+        "accroche": "On dirait que tout le monde cherche à ralentir un peu en ce moment, tu ressens ce besoin aussi ?",
+        "relance": "Moi j'ai clairement besoin de lever le pied, toi ça te parle ce besoin ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "C est quoi pour vous un vrai moment de bien-etre, celui qui vous recharge a fond ?",
-        "relance": "Moi c est un bon bain et le silence. Et vous, votre bulle a vous c est quoi ?"
+        "accroche": "C'est quoi pour toi un vrai moment de bien-être, celui qui te recharge à fond ?",
+        "relance": "Moi c'est un bon bain et le silence, toi ta bulle à toi c'est quoi ?"
       },
       {
-        "accroche": "Vous pensez que le bien-etre ca se cherche a l exterieur ou ca vient surtout de l interieur ?",
-        "relance": "Moi je crois que ca part de dedans. Vous le voyez comment, vous ?"
+        "accroche": "Tu penses que le bien-être ça se cherche à l'extérieur ou ça vient surtout de l'intérieur ?",
+        "relance": "Moi je crois que ça part de dedans, toi tu le vois comment ?"
       },
       {
-        "accroche": "Si vous pouviez ajouter un rituel bien-etre a votre semaine sans contrainte, ce serait quoi ?",
-        "relance": "Moi je m offrirais un massage regulier. Et vous, ce serait quoi votre luxe ?"
+        "accroche": "Si tu pouvais ajouter un rituel bien-être à ta semaine sans contrainte, ce serait quoi ?",
+        "relance": "Moi je m'offrirais un massage régulier, et toi ce serait quoi ton luxe ?"
       },
       {
-        "accroche": "Vous croyez qu on prend assez soin de sa tete et de son mental de nos jours ?",
-        "relance": "Moi je trouve qu on neglige ca trop souvent. Vous y faites attention, vous ?"
+        "accroche": "Tu crois qu'on prend assez soin de sa tête et de son mental de nos jours ?",
+        "relance": "Moi je trouve qu'on néglige ça trop souvent, toi t'y fais gaffe ?"
       }
     ]
   },
@@ -43319,56 +43319,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air bien dans vos baskets aujourd hui, vous avez trouve le bon rythme pour vous sentir bien ?",
-        "relance": "Moi ca depend vraiment des jours. Et vous, qu est-ce qui vous met de bonne humeur ?"
+        "accroche": "T'as l'air bien dans tes baskets aujourd'hui, t'as trouvé le bon rythme pour te sentir bien ?",
+        "relance": "Moi ça dépend vraiment des jours, toi qu'est-ce qui te met de bonne humeur ?"
       },
       {
-        "accroche": "Votre pull a l air super confortable, vous etes plutot du genre cocooning des que possible ?",
-        "relance": "Moi j adore m emmitoufler quand il fait gris. Et vous, votre confort a vous c est quoi ?"
+        "accroche": "Ton pull a l'air super confortable, t'es plutôt du genre cocooning dès que possible ?",
+        "relance": "Moi j'adore m'emmitoufler quand il fait gris, toi c'est quoi ton confort à toi ?"
       },
       {
-        "accroche": "Vous avez un sourire tranquille aujourd hui, la journee commence bien pour vous on dirait ?",
-        "relance": "Moi j essaie de partir du bon pied chaque matin. Et vous, votre humeur du jour ?"
+        "accroche": "T'as un sourire tranquille aujourd'hui, la journée commence bien pour toi on dirait.",
+        "relance": "Moi j'essaie de partir du bon pied chaque matin, toi c'est quoi ton humeur du jour ?"
       },
       {
-        "accroche": "Votre boisson chaude a l air d etre votre petit reconfort, c est votre truc pour vous poser ?",
-        "relance": "Moi une boisson chaude et je me sens deja mieux. Vous avez ce genre de rituel, vous ?"
+        "accroche": "Ta boisson chaude a l'air d'être ton petit réconfort, c'est ton truc pour te poser ?",
+        "relance": "Moi une boisson chaude et je me sens déjà mieux, t'as ce genre de rituel toi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Un temps pareil ca donne juste envie de se poser au calme, vous etes plutot cocooning quand c est comme ca ?",
-        "relance": "Moi je me pose avec un bouquin direct. Et vous, un temps comme ca ca vous inspire quoi ?"
+        "accroche": "Un temps pareil ça donne juste envie de se poser au calme, t'es plutôt cocooning quand c'est comme ça ?",
+        "relance": "Moi je me pose avec un bouquin direct, toi un temps comme ça ça t'inspire quoi ?"
       },
       {
-        "accroche": "Le gris dehors ca invite a ralentir, vous ressentez ca aussi sur votre humeur, vous ?",
-        "relance": "Moi les jours gris j ai besoin de douceur. Vous, le temps ca joue sur votre moral ?"
+        "accroche": "Le gris dehors ça invite à ralentir, tu ressens ça aussi sur ton humeur toi ?",
+        "relance": "Moi les jours gris j'ai besoin de douceur, toi le temps ça joue sur ton moral ?"
       },
       {
-        "accroche": "Avec ce beau temps ca fait du bien au moral, vous en profitez pour vous faire du bien aussi ?",
-        "relance": "Moi le soleil me met direct de bonne humeur. Et vous, ca vous fait quoi ?"
+        "accroche": "Avec ce beau temps ça fait du bien au moral, t'en profites pour te faire du bien aussi ?",
+        "relance": "Moi le soleil me met direct de bonne humeur, toi ça te fait quoi ?"
       },
       {
-        "accroche": "On dirait un de ces jours ou on a envie de tout ralentir, vous ressentez ca comme moi ?",
-        "relance": "Moi j ecoute quand mon corps dit stop. Et vous, vous vous laissez ralentir, vous ?"
+        "accroche": "On dirait un de ces jours où on a envie de tout ralentir, tu ressens ça comme moi ?",
+        "relance": "Moi j'écoute quand mon corps dit stop, toi tu te laisses ralentir ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous etes plutot du genre a vous ressourcer dehors au grand air ou blotti au chaud chez vous ?",
-        "relance": "Moi ca depend de la meteo. Et vous, votre facon de vous recharger c est quoi ?"
+        "accroche": "T'es plutôt du genre à te ressourcer dehors au grand air ou blotti au chaud chez toi ?",
+        "relance": "Moi ça dépend de la météo, toi ta façon de te recharger c'est quoi ?"
       },
       {
-        "accroche": "Vous pensez qu il faut un temps particulier pour se sentir bien ou ca se travaille peu importe dehors ?",
-        "relance": "Moi j essaie de pas trop dependre du temps. Vous, ca vous influence beaucoup ?"
+        "accroche": "Tu penses qu'il faut un temps particulier pour se sentir bien ou ça se travaille peu importe dehors ?",
+        "relance": "Moi j'essaie de pas trop dépendre du temps, toi ça t'influence beaucoup ?"
       },
       {
-        "accroche": "C est quoi pour vous la journee parfaite pour se faire du bien, pluie douce ou grand soleil ?",
-        "relance": "Moi je vote pour une pluie fine et un plaid. Et vous, votre journee ideale ?"
+        "accroche": "C'est quoi pour toi la journée parfaite pour se faire du bien, pluie douce ou grand soleil ?",
+        "relance": "Moi je vote pour une pluie fine et un plaid, et toi ta journée idéale ?"
       },
       {
-        "accroche": "Vous croyez qu on ecoute assez ses envies de repos quand le corps le demande, vous ?",
-        "relance": "Moi j ai du mal a m autoriser a rien faire. Vous y arrivez, vous ?"
+        "accroche": "Tu crois qu'on écoute assez ses envies de repos quand le corps le demande, toi ?",
+        "relance": "Moi j'ai du mal à m'autoriser à rien faire, toi t'y arrives ?"
       }
     ]
   },
@@ -43391,56 +43391,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d avoir trouve votre equilibre, moi je suis souvent sous pression, vous auriez une astuce pour deconnecter ?",
-        "relance": "Moi j ai du mal a couper le soir. Vous faites comment pour lacher prise, vous ?"
+        "accroche": "T'as l'air super zen toi, moi je suis tout le temps sous pression, t'as un truc pour déconnecter ?",
+        "relance": "Moi j'ai du mal à couper le soir. Tu fais comment pour lâcher, toi ?"
       },
       {
-        "accroche": "Vous respirez le calme, moi je cherche a m apaiser un peu, vous auriez une methode qui marche pour vous ?",
-        "relance": "Moi j ai teste deux trois trucs sans succes. Qu est-ce qui vous apaise vraiment, vous ?"
+        "accroche": "T'as l'air trop calme, moi j'essaie de m'apaiser un peu, t'as une méthode qui marche ?",
+        "relance": "J'ai testé deux trois trucs, rien n'a pris. C'est quoi qui t'apaise vraiment, toi ?"
       },
       {
-        "accroche": "Votre air detendu me fait envie, je voudrais mieux gerer mon stress, vous conseilleriez quoi pour commencer ?",
-        "relance": "Moi je sais pas par ou m y prendre. Vous verriez quoi comme premier pas, vous ?"
+        "accroche": "Ton air détendu ça donne envie, j'aimerais mieux gérer mon stress, tu commencerais par quoi ?",
+        "relance": "Moi je sais pas par où m'y prendre. Tu verrais quoi comme premier pas ?"
       },
       {
-        "accroche": "Vous avez tout l air de savoir vous menager des pauses, vous auriez un conseil, moi je m arrete jamais ?",
-        "relance": "Moi je culpabilise des que je souffle. Vous vous accordez ca comment, vous ?"
+        "accroche": "T'as l'air de savoir te poser, moi je m'arrête jamais, t'aurais un conseil ?",
+        "relance": "Je culpabilise dès que je souffle. Tu t'accordes ça comment, toi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je veux vraiment apprendre a mieux souffler, vous auriez une piste pour m y mettre ?",
-        "relance": "Moi je veux m y tenir cette fois. Vous commenceriez par quoi, vous ?"
+        "accroche": "En ce moment j'ai vraiment envie d'apprendre à souffler, t'aurais une piste pour m'y mettre ?",
+        "relance": "Cette fois je veux m'y tenir. Tu commencerais par quoi, toi ?"
       },
       {
-        "accroche": "Tout le monde parle de meditation et de respiration ces temps-ci, vous auriez un conseil de debutant, vous ?",
-        "relance": "Moi j ose pas trop me lancer. Vous vous y etes mis comment, vous ?"
+        "accroche": "Tout le monde parle de méditation et de respiration en ce moment, t'aurais un conseil de débutant ?",
+        "relance": "J'ose pas trop me lancer. Tu t'y es mis comment, toi ?"
       },
       {
-        "accroche": "Avec le rythme de mes journees je manque de moments pour moi, vous feriez comment a ma place ?",
-        "relance": "Moi je trouve jamais le temps. Vous casez ca ou dans votre journee, vous ?"
+        "accroche": "Avec mon rythme j'ai jamais de moment pour moi, tu ferais comment à ma place ?",
+        "relance": "Moi je trouve jamais le temps. Tu cases ça où dans ta journée ?"
       },
       {
-        "accroche": "Je cherche a mieux dormir et a me detendre le soir, vous auriez une petite routine a me conseiller ?",
-        "relance": "Moi mes soirees sont trop agitees. Vous faites quoi pour vous poser, vous ?"
+        "accroche": "J'aimerais mieux dormir et me détendre le soir, t'aurais une petite routine à conseiller ?",
+        "relance": "Mes soirées sont trop agitées. Tu fais quoi pour te poser, toi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous deviez conseiller une seule chose pour se sentir mieux au quotidien, ce serait quoi ?",
-        "relance": "Moi je dirais de respirer un bon coup plus souvent. Et vous, votre conseil ?"
+        "accroche": "Si tu devais conseiller un seul truc pour se sentir mieux au quotidien, ce serait quoi ?",
+        "relance": "Moi je dirais respirer un bon coup plus souvent. Et toi, ton conseil ?"
       },
       {
-        "accroche": "Pour deconnecter, vous miseriez plutot sur le sport, la nature ou un vrai temps calme ?",
-        "relance": "Moi c est la marche qui me vide la tete. Vous miseriez sur quoi, vous ?"
+        "accroche": "Pour déconnecter tu miserais plutôt sur le sport, la nature ou un vrai temps calme ?",
+        "relance": "Moi c'est la marche qui me vide la tête. Et toi tu miserais sur quoi ?"
       },
       {
-        "accroche": "Vous pensez qu il vaut mieux se forcer a la detente ou attendre que ca vienne naturellement ?",
-        "relance": "Moi je crois qu il faut un peu se discipliner. Vous le voyez comment, vous ?"
+        "accroche": "Tu penses qu'il vaut mieux se forcer à la détente ou attendre que ça vienne tout seul ?",
+        "relance": "Moi je crois qu'il faut un peu se discipliner. Tu le vois comment, toi ?"
       },
       {
-        "accroche": "C est quoi selon vous la premiere chose a lacher pour se sentir plus leger, vous ?",
-        "relance": "Moi je dirais le telephone le soir. Et vous, vous lacheriez quoi en premier ?"
+        "accroche": "C'est quoi le premier truc à lâcher pour se sentir plus léger, toi ?",
+        "relance": "Moi je dirais le téléphone le soir. Et toi tu lâcherais quoi en premier ?"
       }
     ]
   },
@@ -43463,56 +43463,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d avoir bien profite de votre journee, vous etes du genre a soigner vos petits plaisirs ?",
-        "relance": "Moi j essaie de m en offrir un chaque jour. Et vous, c est quoi votre petit bonheur du moment ?"
+        "accroche": "T'as l'air d'avoir bien profité de ta journée, t'es du genre à soigner tes petits plaisirs ?",
+        "relance": "Moi j'essaie de m'en offrir un chaque jour. C'est quoi ton petit bonheur du moment ?"
       },
       {
-        "accroche": "Vous degagez une belle serenite ce soir, vous avez un rituel pour bien finir la journee ?",
-        "relance": "Moi j aime bien souffler un peu avant de dormir. Et vous, votre rituel du soir c est quoi ?"
+        "accroche": "T'as l'air trop serein ce soir, t'as un rituel pour bien finir la journée ?",
+        "relance": "Moi j'aime bien souffler un peu avant de dormir. Et toi, ton rituel du soir c'est quoi ?"
       },
       {
-        "accroche": "Votre livre a l air d etre votre petite evasion, c est votre facon de decompresser le soir ?",
-        "relance": "Moi je m evade dans un bouquin pour couper. Et vous, comment vous decompressez ?"
+        "accroche": "Ton bouquin a l'air d'être ta petite évasion, c'est ta façon de décompresser le soir ?",
+        "relance": "Moi je m'évade dans un livre pour couper. Et toi tu décompresses comment ?"
       },
       {
-        "accroche": "Vous avez ce petit air apaise de fin de journee, vous avez trouve votre equilibre a vous ?",
-        "relance": "Moi je cherche encore le mien franchement. Et vous, votre equilibre il tient a quoi ?"
+        "accroche": "T'as ce petit air apaisé de fin de journée, t'as trouvé ton équilibre à toi ?",
+        "relance": "Moi je cherche encore le mien franchement. Et le tien il tient à quoi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Les fins de journee comme celle-la ca invite a souffler, vous en profitez pour vous poser aussi ?",
-        "relance": "Moi j adore ce moment ou tout ralentit. Et vous, vos soirees, elles ressemblent a quoi ?"
+        "accroche": "Les fins de journée comme ça ça donne envie de souffler, t'en profites pour te poser aussi ?",
+        "relance": "Moi j'adore ce moment où tout ralentit. Et tes soirées elles ressemblent à quoi ?"
       },
       {
-        "accroche": "On parle beaucoup d apprendre a savourer les petites choses ces temps-ci, ca vous parle, vous ?",
-        "relance": "Moi j essaie de savourer plus. Vous arrivez a apprecier ces petits moments, vous ?"
+        "accroche": "En ce moment on parle beaucoup de savourer les petites choses, ça te parle toi ?",
+        "relance": "Moi j'essaie de savourer plus. T'arrives à apprécier ces petits moments, toi ?"
       },
       {
-        "accroche": "C est l heure ou l on a envie de deconnecter un peu, vous coupez comment de votre cote ?",
-        "relance": "Moi je lache les ecrans et je respire. Et vous, comment vous coupez le soir ?"
+        "accroche": "C'est l'heure où on a envie de déconnecter un peu, tu coupes comment de ton côté ?",
+        "relance": "Moi je lâche les écrans et je respire. Et toi tu coupes comment le soir ?"
       },
       {
-        "accroche": "On dirait que chacun cherche sa petite bulle de bien-etre en ce moment, vous avez trouve la votre ?",
-        "relance": "Moi c est un the et de la musique douce. Et vous, votre bulle a vous c est quoi ?"
+        "accroche": "On dirait que chacun cherche sa petite bulle en ce moment, t'as trouvé la tienne ?",
+        "relance": "Moi c'est un thé et de la musique douce. Et ta bulle à toi c'est quoi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "C est quoi pour vous le petit bonheur tout simple qui rend une journee reussie ?",
-        "relance": "Moi c est un bon repas partage. Et vous, votre petit bonheur a vous ?"
+        "accroche": "C'est quoi pour toi le petit bonheur tout simple qui rend une journée réussie ?",
+        "relance": "Moi c'est un bon repas partagé. Et ton petit bonheur à toi ?"
       },
       {
-        "accroche": "Vous pensez qu on trouve le bien-etre dans les grandes choses ou surtout dans les petits details ?",
-        "relance": "Moi je crois que c est dans les petits riens. Vous le voyez comment, vous ?"
+        "accroche": "Tu penses qu'on trouve le bien-être dans les grandes choses ou surtout dans les petits détails ?",
+        "relance": "Moi je crois que c'est dans les petits riens. Tu le vois comment, toi ?"
       },
       {
-        "accroche": "Si vous pouviez garder un seul moment de la journee rien que pour vous, ce serait lequel ?",
-        "relance": "Moi je garderais mes soirees calmes. Et vous, quel moment vous protegeriez ?"
+        "accroche": "Si tu pouvais garder un seul moment de la journée rien que pour toi, ce serait lequel ?",
+        "relance": "Moi je garderais mes soirées calmes. Et toi quel moment tu protégerais ?"
       },
       {
-        "accroche": "Vous croyez qu apprendre a ralentir ca change vraiment une vie, vous l avez ressenti, vous ?",
-        "relance": "Moi depuis que j ai ralenti je respire mieux. Et vous, ca vous a change quoi ?"
+        "accroche": "Tu crois qu'apprendre à ralentir ça change vraiment une vie, tu l'as ressenti toi ?",
+        "relance": "Moi depuis que j'ai ralenti je respire mieux. Et toi ça t'a changé quoi ?"
       }
     ]
   },
@@ -43535,56 +43535,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit poil sur votre manche, vous partagez votre vie avec un animal on dirait ?",
-        "relance": "Moi j en retrouve partout sur mes affaires. Et vous, vous avez un compagnon a la maison ?"
+        "accroche": "T'as un petit poil sur la manche, tu partages ta vie avec un animal on dirait ?",
+        "relance": "Moi j'en retrouve partout sur mes affaires. Et toi t'as un compagnon à la maison ?"
       },
       {
-        "accroche": "Votre porte-cle en forme de chat est trop mignon, vous etes plutot team chat, vous ?",
-        "relance": "Moi je suis chat a fond. Et vous, vous penchez de quel cote, chat ou chien ?"
+        "accroche": "Ton porte-clés en forme de chat est trop mignon, t'es plutôt team chat toi ?",
+        "relance": "Moi je suis chat à fond. Et toi tu penches de quel côté, chat ou chien ?"
       },
       {
-        "accroche": "Vous avez souri direct en voyant ce chien passer, vous etes du genre a craquer pour tous les animaux ?",
-        "relance": "Moi je peux pas m empecher de les caliner. Et vous, vous fondez pour lesquels ?"
+        "accroche": "T'as souri direct en voyant ce chien passer, t'es du genre à craquer pour tous les animaux ?",
+        "relance": "Moi je peux pas m'empêcher de les câliner. Et toi tu fonds pour lesquels ?"
       },
       {
-        "accroche": "Votre fond d ecran a l air d etre votre animal, il a l air adorable, c est votre compagnon ?",
-        "relance": "Moi j ai que des photos de mon chat dans le telephone. Et vous, parlez-moi du votre ?"
+        "accroche": "Ton fond d'écran c'est ton animal on dirait, il est trop mignon, c'est ton compagnon ?",
+        "relance": "Moi j'ai que des photos de mon chat dans le téléphone. Et toi parle-moi du tien ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On croise plein d animaux adorables partout ces temps-ci, vous etes du genre a tous les remarquer, vous ?",
-        "relance": "Moi je les repere avant tout le reste. Et vous, un animal vous attire l oeil facilement ?"
+        "accroche": "On croise plein d'animaux trop mignons en ce moment, t'es du genre à tous les remarquer toi ?",
+        "relance": "Moi je les repère avant tout le reste. Et toi un animal t'attire l'œil facilement ?"
       },
       {
-        "accroche": "On voit de plus en plus de gens adopter en ce moment, ca vous parle cette envie d un compagnon, vous ?",
-        "relance": "Moi ca m a saute dessus il y a deux ans. Et vous, vous y avez pense parfois ?"
+        "accroche": "Y a de plus en plus de gens qui adoptent en ce moment, ça te parle cette envie de compagnon toi ?",
+        "relance": "Moi ça m'a sauté dessus il y a deux ans. Et toi t'y as déjà pensé ?"
       },
       {
-        "accroche": "Il y a plein de videos d animaux qui tournent en ce moment, il y en a une qui vous a fait fondre ?",
-        "relance": "Moi je peux en regarder pendant des heures. Vous aussi vous craquez pour ca, vous ?"
+        "accroche": "Y a plein de vidéos d'animaux qui tournent en ce moment, y en a une qui t'a fait fondre ?",
+        "relance": "Moi je peux en regarder pendant des heures. Toi aussi tu craques pour ça ?"
       },
       {
-        "accroche": "On dirait que tout le monde a une anecdote d animal a raconter, vous en avez une bonne aussi, vous ?",
-        "relance": "Moi mon chat fait des trucs incroyables. Et vous, votre animal il a quelle manie ?"
+        "accroche": "On dirait que tout le monde a une anecdote d'animal à raconter, t'en as une bonne aussi toi ?",
+        "relance": "Moi mon chat fait des trucs incroyables. Et le tien il a quelle manie ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous pouviez avoir n importe quel animal chez vous sans contrainte, vous choisiriez quoi ?",
-        "relance": "Moi je prendrais un gros chien tout doux. Et vous, votre animal de reve ?"
+        "accroche": "Si tu pouvais avoir n'importe quel animal chez toi sans contrainte, tu choisirais quoi ?",
+        "relance": "Moi je prendrais un gros chien tout doux. Et ton animal de rêve ?"
       },
       {
-        "accroche": "Vous etes plutot team chien, team chat, ou carrement un autre animal auquel on pense pas ?",
-        "relance": "Moi je suis chat mais j hesite parfois. Et vous, vous vous rangez ou ?"
+        "accroche": "T'es plutôt team chien, team chat, ou carrément un autre animal auquel on pense pas ?",
+        "relance": "Moi je suis chat mais j'hésite parfois. Et toi tu te ranges où ?"
       },
       {
-        "accroche": "Vous croyez que les animaux nous comprennent vraiment ou qu on s imagine des choses, vous ?",
-        "relance": "Moi je jurerais que le mien me lit. Vous le ressentez comment avec les animaux ?"
+        "accroche": "Tu crois que les animaux nous comprennent vraiment ou qu'on s'imagine des trucs ?",
+        "relance": "Moi je jurerais que le mien me lit. Tu le ressens comment avec les animaux, toi ?"
       },
       {
-        "accroche": "C est quoi le plus beau souvenir que vous ayez avec un animal, celui qui vous revient tout de suite ?",
-        "relance": "Moi c est mon premier chien, inoubliable. Et vous, quel souvenir vous vient ?"
+        "accroche": "C'est quoi ton plus beau souvenir avec un animal, celui qui te revient direct ?",
+        "relance": "Moi c'est mon premier chien, inoubliable. Et toi quel souvenir te vient ?"
       }
     ]
   },
@@ -43607,56 +43607,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d etre du genre a saluer tous les chiens que vous croisez, je me trompe ?",
-        "relance": "Moi je peux pas en laisser passer un. Et vous, vous craquez a chaque fois ?"
+        "accroche": "T'as l'air du genre à saluer tous les chiens que tu croises, je me trompe ?",
+        "relance": "Moi je peux pas en laisser passer un. Et toi tu craques à chaque fois ?"
       },
       {
-        "accroche": "Votre badge avec la petite patte est adorable, vous avez un animal a la maison, vous ?",
-        "relance": "Moi j ai un chat qui commande tout chez moi. Et vous, vous partagez votre toit avec qui ?"
+        "accroche": "Ton badge avec la petite patte est trop mignon, t'as un animal à la maison toi ?",
+        "relance": "Moi j'ai un chat qui commande tout chez moi. Et toi tu partages ton toit avec qui ?"
       },
       {
-        "accroche": "Vous avez jete un oeil a cet oiseau comme moi, vous etes du genre a observer les animaux autour, vous ?",
-        "relance": "Moi je m arrete souvent pour les regarder. Vous les remarquez facilement, vous ?"
+        "accroche": "T'as maté cet oiseau comme moi, t'es du genre à observer les animaux autour toi ?",
+        "relance": "Moi je m'arrête souvent pour les regarder. Tu les remarques facilement, toi ?"
       },
       {
-        "accroche": "Votre sac a une petite deco animale rigolote, vous avez un faible pour une espece en particulier ?",
-        "relance": "Moi je fonds pour les renards. Et vous, votre animal chouchou c est lequel ?"
+        "accroche": "Ton sac a une petite déco animale rigolote, t'as un faible pour une espèce en particulier ?",
+        "relance": "Moi je fonds pour les renards. Et ton animal chouchou c'est lequel ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce temps, on voit les animaux se comporter differemment, vous avez remarque ca aussi, vous ?",
-        "relance": "Moi mon chat dort tout le temps quand il pleut. Et vous, le votre change avec le temps ?"
+        "accroche": "Avec ce temps les animaux se comportent bizarrement, t'as remarqué ça aussi toi ?",
+        "relance": "Moi mon chat dort tout le temps quand il pleut. Et le tien il change avec le temps ?"
       },
       {
-        "accroche": "Des qu il fait beau on croise plein de gens qui promenent leur chien, vous en avez un a balader, vous ?",
-        "relance": "Moi je sors le mien des le premier rayon. Et vous, vous avez un compagnon a promener ?"
+        "accroche": "Dès qu'il fait beau on croise plein de gens qui promènent leur chien, t'en as un à balader toi ?",
+        "relance": "Moi je sors le mien dès le premier rayon. Et toi t'as un compagnon à promener ?"
       },
       {
-        "accroche": "Il parait que les animaux sentent le temps changer avant nous, vous avez deja vu ca chez le votre ?",
-        "relance": "Moi mon chat se cache avant chaque orage. Et vous, le votre a des signes comme ca ?"
+        "accroche": "Paraît que les animaux sentent le temps changer avant nous, t'as déjà vu ça chez le tien ?",
+        "relance": "Moi mon chat se cache avant chaque orage. Et le tien il a des signes comme ça ?"
       },
       {
-        "accroche": "Avec la saison, on entend les oiseaux partout en ce moment, ca vous plait ce petit concert, vous ?",
-        "relance": "Moi j adore me reveiller avec ce bruit-la. Et vous, ca vous parle ces sons du dehors ?"
+        "accroche": "Avec la saison on entend les oiseaux partout en ce moment, ça te plaît ce petit concert toi ?",
+        "relance": "Moi j'adore me réveiller avec ce bruit-là. Et toi ça te parle ces sons du dehors ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Vous pensez que les animaux vivent mieux les saisons que nous, sans se plaindre du temps ?",
-        "relance": "Moi je les envie sur ce coup-la. Vous les trouvez plus zen que nous, vous ?"
+        "accroche": "Tu penses que les animaux vivent mieux les saisons que nous, sans se plaindre du temps ?",
+        "relance": "Moi je les envie sur ce coup-là. Tu les trouves plus zen que nous, toi ?"
       },
       {
-        "accroche": "Entre un chat pepere au chaud et un chien qui adore la pluie, vous vous reconnaissez dans lequel ?",
-        "relance": "Moi je suis clairement le chat au chaud. Et vous, vous seriez lequel des deux ?"
+        "accroche": "Entre un chat pépère au chaud et un chien qui adore la pluie, tu te reconnais dans lequel ?",
+        "relance": "Moi je suis clairement le chat au chaud. Et toi tu serais lequel des deux ?"
       },
       {
-        "accroche": "Vous croyez que les animaux ont un temps prefere eux aussi, comme nous, vous ?",
-        "relance": "Moi je jurerais que mon chat adore le soleil. Vous avez remarque ca chez le votre ?"
+        "accroche": "Tu crois que les animaux ont un temps préféré eux aussi, comme nous ?",
+        "relance": "Moi je jurerais que mon chat adore le soleil. T'as remarqué ça chez le tien ?"
       },
       {
-        "accroche": "C est fou comme certains animaux s adaptent a tous les climats, il y en a un qui vous fascine, vous ?",
-        "relance": "Moi les animaux du grand froid me sidèrent. Et vous, lequel vous impressionne ?"
+        "accroche": "C'est fou comme certains animaux s'adaptent à tous les climats, y en a un qui te fascine toi ?",
+        "relance": "Moi les animaux du grand froid me sidèrent. Et toi lequel t'impressionne ?"
       }
     ]
   },
@@ -43679,56 +43679,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez tout l air d etre un vrai connaisseur des animaux, je pense adopter, vous auriez un conseil pour bien commencer ?",
-        "relance": "Moi j hesite entre plusieurs. Vous seriez parti sur quoi a ma place, vous ?"
+        "accroche": "T'as l'air d'un vrai connaisseur des animaux, je pense adopter, t'aurais un conseil pour bien commencer ?",
+        "relance": "Moi j'hésite entre plusieurs. Tu serais parti sur quoi à ma place, toi ?"
       },
       {
-        "accroche": "Votre attitude avec les animaux a l air super naturelle, moi mon chat me boude, vous auriez un truc ?",
-        "relance": "Moi je sais jamais comment l amadouer. Vous vous y prenez comment avec les vôtres ?"
+        "accroche": "T'as l'air super naturel avec les animaux, moi mon chat me boude, t'aurais un truc ?",
+        "relance": "Moi je sais jamais comment l'amadouer. Tu t'y prends comment avec les tiens ?"
       },
       {
-        "accroche": "Vous avez l air de bien connaitre les chiens, je voudrais en accueillir un, vous conseilleriez quoi comme premier pas ?",
-        "relance": "Moi je pars vraiment de zero la-dessus. Vous commenceriez par quoi, vous ?"
+        "accroche": "T'as l'air de bien connaître les chiens, j'aimerais en accueillir un, tu commencerais par quoi ?",
+        "relance": "Moi je pars vraiment de zéro là-dessus. Tu ferais quoi en premier, toi ?"
       },
       {
-        "accroche": "Votre calme avec les betes m impressionne, moi le mien est un vrai boute-en-train, vous auriez une astuce pour le canaliser ?",
-        "relance": "Moi il deborde d energie tout le temps. Vous faites comment pour les calmer, vous ?"
+        "accroche": "Ton calme avec les bêtes m'impressionne, moi le mien est un vrai boute-en-train, t'aurais une astuce pour le canaliser ?",
+        "relance": "Moi il déborde d'énergie tout le temps. Tu fais comment pour les calmer, toi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je reflechis a adopter un animal, vous auriez un conseil pour savoir si je suis pret, vous ?",
-        "relance": "Moi j ai peur de mal m y prendre. Vous verifieriez quoi avant de vous lancer, vous ?"
+        "accroche": "En ce moment je pense à adopter un animal, t'aurais un conseil pour savoir si je suis prêt toi ?",
+        "relance": "Moi j'ai peur de mal m'y prendre. Tu vérifierais quoi avant de te lancer, toi ?"
       },
       {
-        "accroche": "On voit plein de conseils sur le bien-etre des animaux ces temps-ci, vous auriez une base a me recommander, vous ?",
-        "relance": "Moi je m y perds un peu dans tout ca. Qu est-ce qui compte vraiment selon vous ?"
+        "accroche": "On voit plein de conseils sur le bien-être des animaux en ce moment, t'aurais une base à me conseiller toi ?",
+        "relance": "Moi je m'y perds un peu dans tout ça. C'est quoi qui compte vraiment selon toi ?"
       },
       {
-        "accroche": "Je veux mieux m occuper de mon compagnon au quotidien, vous auriez une astuce toute simple a partager ?",
-        "relance": "Moi je fais peut-etre pas les bons gestes. Vous faites quoi de votre cote, vous ?"
+        "accroche": "J'aimerais mieux m'occuper de mon compagnon au quotidien, t'aurais une astuce toute simple à partager ?",
+        "relance": "Moi je fais peut-être pas les bons gestes. Tu fais quoi de ton côté, toi ?"
       },
       {
-        "accroche": "Avec la saison qui change, je me demande comment adapter les soins de mon animal, vous auriez une piste ?",
-        "relance": "Moi je sais jamais quoi ajuster. Vous changez des trucs selon la saison, vous ?"
+        "accroche": "Avec la saison qui change je me demande comment adapter les soins de mon animal, t'aurais une piste ?",
+        "relance": "Moi je sais jamais quoi ajuster. Tu changes des trucs selon la saison, toi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous deviez donner un seul conseil a quelqu un qui adopte pour la premiere fois, ce serait lequel ?",
-        "relance": "Moi je dirais d etre patient surtout. Et vous, votre conseil numero un ?"
+        "accroche": "Si tu devais donner un seul conseil à quelqu'un qui adopte pour la première fois, ce serait lequel ?",
+        "relance": "Moi je dirais d'être patient surtout. Et toi ton conseil numéro un ?"
       },
       {
-        "accroche": "Vous pensez qu il vaut mieux adopter jeune pour tout apprendre ou plus age pour un caractere deja pose ?",
-        "relance": "Moi j hesite vraiment la-dessus. Vous partiriez sur quoi, vous ?"
+        "accroche": "Tu penses qu'il vaut mieux adopter jeune pour tout apprendre ou plus âgé pour un caractère déjà posé ?",
+        "relance": "Moi j'hésite vraiment là-dessus. Tu partirais sur quoi, toi ?"
       },
       {
-        "accroche": "Pour bien s occuper d un animal, vous miseriez plutot sur l education, l affection ou l espace ?",
-        "relance": "Moi je crois que c est l affection avant tout. Vous miseriez sur quoi, vous ?"
+        "accroche": "Pour bien s'occuper d'un animal tu miserais plutôt sur l'éducation, l'affection ou l'espace ?",
+        "relance": "Moi je crois que c'est l'affection avant tout. Et toi tu miserais sur quoi ?"
       },
       {
-        "accroche": "C est quoi selon vous l erreur la plus courante quand on accueille un animal, vous ?",
-        "relance": "Moi je dirais qu on sous-estime le temps qu il faut. Et vous, ce serait quoi ?"
+        "accroche": "C'est quoi selon toi l'erreur la plus courante quand on accueille un animal ?",
+        "relance": "Moi je dirais qu'on sous-estime le temps qu'il faut. Et toi ce serait quoi ?"
       }
     ]
   },
@@ -43751,56 +43751,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit pin s en forme d animal super sympa, il y a une histoire derriere, vous etes fan de quelle bete ?",
-        "relance": "Moi je collectionne les trucs de chats. Et vous, quel animal vous fait fondre ?"
+        "accroche": "Ton petit pin's en forme d'animal est trop sympa, y a une histoire derrière, t'es fan de quelle bête ?",
+        "relance": "Moi je collectionne les trucs de chats. Et toi quel animal te fait fondre ?"
       },
       {
-        "accroche": "Vous rayonnez des qu on parle d animaux on dirait, c est une vraie passion chez vous, vous ?",
-        "relance": "Moi je peux en parler pendant des heures. Qu est-ce qui vous branche le plus, vous ?"
+        "accroche": "Tu rayonnes dès qu'on parle d'animaux on dirait, c'est une vraie passion chez toi ?",
+        "relance": "Moi je peux en parler pendant des heures. Qu'est-ce qui te branche le plus, toi ?"
       },
       {
-        "accroche": "Votre tee-shirt avec l animal dessus est genial, vous avez un faible pour cette espece, vous ?",
-        "relance": "Moi j ai un faible enorme pour les loutres. Et vous, votre chouchou c est lequel ?"
+        "accroche": "Ton tee-shirt avec l'animal dessus est trop bien, t'as un faible pour cette espèce toi ?",
+        "relance": "Moi j'ai un faible énorme pour les loutres. Et ton chouchou c'est lequel ?"
       },
       {
-        "accroche": "Vous avez craque direct en voyant ce chiot, vous etes du genre a fondre pour tous les animaux, vous ?",
-        "relance": "Moi je peux pas resister a un museau. Et vous, vous fondez pour lesquels ?"
+        "accroche": "T'as craqué direct en voyant ce chiot, t'es du genre à fondre pour tous les animaux toi ?",
+        "relance": "Moi je peux pas résister à un museau. Et toi tu fonds pour lesquels ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Il y a une video d animal qui fait le tour en ce moment, vous l avez vue, ca m a fait pleurer de rire, vous ?",
-        "relance": "Moi je les partage a tout le monde. Et vous, vous aussi vous adorez ce genre de trucs ?"
+        "accroche": "Y a une vidéo d'animal qui fait le tour en ce moment, tu l'as vue, ça m'a fait pleurer de rire ?",
+        "relance": "Moi je les partage à tout le monde. Et toi aussi t'adores ce genre de trucs ?"
       },
       {
-        "accroche": "On voit plein de gens se passionner pour des animaux insolites ces temps-ci, ca vous intrigue aussi, vous ?",
-        "relance": "Moi je decouvre des especes de dingue en ce moment. Et vous, il y en a une qui vous fascine ?"
+        "accroche": "On voit plein de gens se passionner pour des animaux insolites en ce moment, ça t'intrigue aussi toi ?",
+        "relance": "Moi je découvre des espèces de dingue en ce moment. Et toi y en a une qui te fascine ?"
       },
       {
-        "accroche": "En ce moment tout le monde a une anecdote d animal a raconter, la vôtre elle est comment, vous ?",
-        "relance": "Moi mon chat a fait un truc hallucinant hier. Et vous, votre animal il vous surprend comment ?"
+        "accroche": "En ce moment tout le monde a une anecdote d'animal à raconter, la tienne elle est comment toi ?",
+        "relance": "Moi mon chat a fait un truc hallucinant hier. Et le tien il te surprend comment ?"
       },
       {
-        "accroche": "On dirait que les animaux sont partout dans nos conversations en ce moment, ca vous plait ce sujet, vous ?",
-        "relance": "Moi je saute dessus des qu on en parle. Et vous, ca vous emballe autant, vous ?"
+        "accroche": "On dirait que les animaux sont partout dans nos conversations en ce moment, ça te plaît ce sujet toi ?",
+        "relance": "Moi je saute dessus dès qu'on en parle. Et toi ça t'emballe autant ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous pouviez comprendre le langage d un animal pendant une journee, vous choisiriez lequel ?",
-        "relance": "Moi je voudrais causer avec les dauphins. Et vous, vous parleriez a qui ?"
+        "accroche": "Si tu pouvais comprendre le langage d'un animal pendant une journée, tu choisirais lequel ?",
+        "relance": "Moi je voudrais causer avec les dauphins. Et toi tu parlerais à qui ?"
       },
       {
-        "accroche": "C est quoi l animal qui vous fascine le plus au monde, celui que vous revez de voir en vrai ?",
-        "relance": "Moi je reve de croiser une baleine un jour. Et vous, votre reve animalier ?"
+        "accroche": "C'est quoi l'animal qui te fascine le plus au monde, celui que tu rêves de voir en vrai ?",
+        "relance": "Moi je rêve de croiser une baleine un jour. Et toi ton rêve animalier ?"
       },
       {
-        "accroche": "Vous croyez que les animaux ont une vraie personnalite, chacun la sienne, ou on projette trop, vous ?",
-        "relance": "Moi je suis sur que le mien a un caractere bien a lui. Vous le ressentez comment, vous ?"
+        "accroche": "Tu crois que les animaux ont une vraie personnalité, chacun la sienne, ou on projette trop ?",
+        "relance": "Moi je suis sûr que le mien a un caractère bien à lui. Tu le ressens comment, toi ?"
       },
       {
-        "accroche": "Si vous etiez un animal, ce serait lequel, celui qui vous ressemble le plus, vous ?",
-        "relance": "Moi je me verrais bien en chat tranquille. Et vous, ce serait quoi ?"
+        "accroche": "Si t'étais un animal, ce serait lequel, celui qui te ressemble le plus ?",
+        "relance": "Moi je me verrais bien en chat tranquille. Et toi ce serait quoi ?"
       }
     ]
   },
@@ -43823,56 +43823,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre tote bag avec le visuel du film me fait de l œil, vous êtes du genre à courir voir les sorties dès le premier jour ?",
-        "relance": "Moi je suis incapable d attendre, je fonce le soir même. Et vous, plutôt première séance ou vous laissez décanter ?"
+        "accroche": "Ton tote bag avec l'affiche du film me fait de l'œil, t'es du genre à foncer voir les sorties le premier jour ?",
+        "relance": "Moi je peux pas attendre, je fonce le soir même. Et toi plutôt première séance ou tu laisses décanter ?"
       },
       {
-        "accroche": "J ai cru reconnaître une réplique culte sur votre tee-shirt, c est un film qui compte pour vous ?",
-        "relance": "Moi il y en a un que je peux réciter par cœur. Vous auriez un film comme ça, gravé pour toujours ?"
+        "accroche": "J'ai cru reconnaître une réplique culte sur ton tee-shirt, c'est un film qui compte pour toi ?",
+        "relance": "Moi y en a un que je connais par cœur. Et toi t'as un film comme ça, gravé pour toujours ?"
       },
       {
-        "accroche": "Vous avez cette façon de parler avec les mains très ciné, dites-moi, vous êtes plutôt grand écran ou canapé ?",
-        "relance": "Moi rien ne vaut la salle obscure et le grand son. Et vous, qu est-ce qui vous fait vibrer dans un film ?"
+        "accroche": "T'as une façon de parler avec les mains très ciné, dis-moi, plutôt grand écran ou canapé toi ?",
+        "relance": "Moi rien ne vaut la salle et le grand son. Et toi qu'est-ce qui te fait vibrer dans un film ?"
       },
       {
-        "accroche": "Votre porte-clés là, on dirait un clin d œil à une saga, je me trompe ou vous êtes un vrai passionné ?",
-        "relance": "Moi j assume complètement ma collection de goodies. Vous, ça vous parle les univers de saga ?"
+        "accroche": "Ton porte-clés là, on dirait un clin d'œil à une saga, je me trompe ou t'es un vrai passionné ?",
+        "relance": "Moi j'assume complètement ma collec de goodies. Et toi ça te parle les univers de saga ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a une avalanche de sorties, vous avez repéré quelque chose qui vous tente vraiment ?",
-        "relance": "Moi j ai une liste qui déborde et jamais le temps. Vous faites comment pour choisir ?"
+        "accroche": "En ce moment y a une avalanche de sorties, t'as repéré un truc qui te tente vraiment ?",
+        "relance": "Moi j'ai une liste qui déborde et jamais le temps. Tu fais comment pour choisir, toi ?"
       },
       {
-        "accroche": "On entend parler que du dernier film partout en ce moment, vous avez sauté le pas ou vous résistez ?",
-        "relance": "Moi j ai cédé et franchement aucun regret. Et vous, le bouche à oreille ça vous décide ou pas ?"
+        "accroche": "On entend parler que du dernier film partout en ce moment, t'as sauté le pas ou tu résistes ?",
+        "relance": "Moi j'ai cédé et franchement aucun regret. Et toi le bouche-à-oreille ça te décide ou pas ?"
       },
       {
-        "accroche": "C est la saison des grosses sorties, vous avez plutôt envie de rire ou de frissonner en ce moment ?",
-        "relance": "Moi là tout de suite j ai besoin de légèreté. Vous, votre humeur ciné du moment c est quoi ?"
+        "accroche": "C'est la saison des grosses sorties, t'as plutôt envie de rire ou de frissonner en ce moment ?",
+        "relance": "Moi là tout de suite j'ai besoin de légèreté. Et toi ton humeur ciné du moment c'est quoi ?"
       },
       {
-        "accroche": "Tout le monde débat de ce film que personne n a vu de la même façon, vous en avez entendu parler ?",
-        "relance": "Moi j adore quand un film divise autant. Vous, vous aimez ça les films qui font causer ?"
+        "accroche": "Tout le monde débat de ce film que personne voit pareil, t'en as entendu parler toi ?",
+        "relance": "Moi j'adore quand un film divise autant. Et toi t'aimes ça les films qui font causer ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, si vous ne deviez sauver qu un seul film de toute votre vie, ce serait lequel ?",
-        "relance": "Moi j hésite toujours entre deux, c est un déchirement. Et vous, ça vient tout de suite ?"
+        "accroche": "Je me demandais, si tu devais sauver qu'un seul film de toute ta vie, ce serait lequel ?",
+        "relance": "Moi j'hésite toujours entre deux, c'est un déchirement. Et toi ça vient tout de suite ?"
       },
       {
-        "accroche": "Vous croyez qu un bon film ça se reconnaît à l histoire ou à l émotion qu il laisse après ?",
-        "relance": "Moi c est l émotion qui reste des semaines qui me marque. Vous, c est quoi un film réussi pour vous ?"
+        "accroche": "Tu crois qu'un bon film ça se reconnaît à l'histoire ou à l'émotion qu'il laisse après ?",
+        "relance": "Moi c'est l'émotion qui reste des semaines qui me marque. Et toi c'est quoi un film réussi ?"
       },
       {
-        "accroche": "Il paraît qu on a tous un film qui nous a changés à un moment, vous voyez lequel pour vous ?",
-        "relance": "Moi il y en a un que j ai vu au bon moment et ça a tout bousculé. Et vous, ça vous évoque quoi ?"
+        "accroche": "Paraît qu'on a tous un film qui nous a changés à un moment, tu vois lequel pour toi ?",
+        "relance": "Moi y en a un que j'ai vu au bon moment et ça a tout bousculé. Et toi ça t'évoque quoi ?"
       },
       {
-        "accroche": "Entre les grands classiques et les nouveautés, vous penchez plutôt de quel côté au fond ?",
-        "relance": "Moi j ai un faible pour les vieux films en noir et blanc. Vous, vous êtes team ancien ou moderne ?"
+        "accroche": "Entre les grands classiques et les nouveautés, tu penches plutôt de quel côté au fond ?",
+        "relance": "Moi j'ai un faible pour les vieux films en noir et blanc. Et toi t'es team ancien ou moderne ?"
       }
     ]
   },
@@ -43895,56 +43895,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit air de quelqu un qui aime les histoires, je parie que vous êtes du genre à finir un film même mauvais ?",
-        "relance": "Moi j ai du mal à lâcher, je veux toujours savoir la fin. Et vous, vous coupez quand ça vous ennuie ?"
+        "accroche": "T'as un petit air de quelqu'un qui aime les histoires, je parie que tu finis un film même mauvais ?",
+        "relance": "Moi j'ai du mal à lâcher, je veux toujours la fin. Et toi tu coupes quand ça t'ennuie ?"
       },
       {
-        "accroche": "Rien qu à votre sourire je sens que vous avez ri devant une comédie récemment, je me trompe ?",
-        "relance": "Moi la dernière fois j ai pleuré de rire tout seul. Vous, un film vous a fait ça dernièrement ?"
+        "accroche": "Rien qu'à ton sourire je sens que t'as ri devant une comédie récemment, je me trompe ?",
+        "relance": "Moi la dernière fois j'ai pleuré de rire tout seul. Et toi un film t'a fait ça dernièrement ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un de posé, plutôt films longs et tranquilles ou format qui va vite ?",
-        "relance": "Moi j adore m installer pour trois heures de film sans voir le temps passer. Et vous ?"
+        "accroche": "T'as l'air de quelqu'un de posé, plutôt films longs et tranquilles ou format qui va vite ?",
+        "relance": "Moi j'adore m'installer pour trois heures de film sans voir le temps passer. Et toi ?"
       },
       {
-        "accroche": "Votre veste me fait penser à un personnage de film, ça vous arrive de vous inspirer des perso que vous aimez ?",
-        "relance": "Moi j avoue avoir copié une coupe de cheveux vue au ciné. Vous, jamais tenté ?"
+        "accroche": "Ta veste me fait penser à un perso de film, ça t'arrive de t'inspirer des perso que t'aimes ?",
+        "relance": "Moi j'avoue avoir copié une coupe de cheveux vue au ciné. Et toi jamais tenté ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce temps ça donne juste envie de se poser devant un bon film, c est le genre de journée que vous aimez ?",
-        "relance": "Moi une journée comme ça sans un film ce serait gâché. Et vous, vous en profitez comment ?"
+        "accroche": "Avec ce temps ça donne juste envie de se poser devant un bon film, c'est ton genre de journée toi ?",
+        "relance": "Moi une journée comme ça sans un film ce serait gâché. Et toi t'en profites comment ?"
       },
       {
-        "accroche": "C est typiquement le moment de l année où on regarde plein de films, vous êtes plutôt marathon ou un par soir ?",
-        "relance": "Moi je peux enchaîner toute une trilogie d un coup. Vous, vous tenez la distance ou pas ?"
+        "accroche": "C'est typiquement le moment de l'année où on mate plein de films, plutôt marathon ou un par soir toi ?",
+        "relance": "Moi je peux enchaîner toute une trilogie d'un coup. Et toi tu tiens la distance ou pas ?"
       },
       {
-        "accroche": "Il fait un temps à rester au chaud avec un film, vous auriez une petite pépite à conseiller pour ça ?",
-        "relance": "Moi j ai toujours un film doudou sous le coude. Et vous, il y en a un que vous ressortez souvent ?"
+        "accroche": "Il fait un temps à rester au chaud avec un film, t'aurais une petite pépite à conseiller pour ça ?",
+        "relance": "Moi j'ai toujours un film doudou sous le coude. Et toi y en a un que tu ressors souvent ?"
       },
       {
-        "accroche": "Tout le monde parle des séances du week-end en ce moment, vous, votre rituel c est quoi ?",
-        "relance": "Moi c est film et grignotage sans culpabiliser. Vous, vous avez un petit rituel aussi ?"
+        "accroche": "Tout le monde parle des séances du week-end en ce moment, et toi ton rituel c'est quoi ?",
+        "relance": "Moi c'est film et grignotage sans culpabiliser. Et toi t'as un petit rituel aussi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, un film ça doit surtout vous faire évader ou vous faire réfléchir, vous en pensez quoi ?",
-        "relance": "Moi j attends surtout qu il me sorte de mon quotidien. Et vous, vous cherchez quoi dedans ?"
+        "accroche": "Au fond, un film ça doit surtout te faire évader ou te faire réfléchir, t'en penses quoi ?",
+        "relance": "Moi j'attends surtout qu'il me sorte de mon quotidien. Et toi tu cherches quoi dedans ?"
       },
       {
-        "accroche": "Vous croyez qu on garde toujours en tête les films de notre enfance, ou ça s efface avec le temps ?",
-        "relance": "Moi ceux de mes dix ans je m en souviens mieux que d hier. Vous, vous avez ça aussi ?"
+        "accroche": "Tu crois qu'on garde toujours en tête les films de notre enfance, ou ça s'efface avec le temps ?",
+        "relance": "Moi ceux de mes dix ans je m'en souviens mieux que d'hier. Et toi t'as ça aussi ?"
       },
       {
-        "accroche": "Je me demandais, c est quoi selon vous qui fait qu on revoit un film dix fois sans se lasser ?",
-        "relance": "Moi c est le confort de connaître la suite qui me rassure. Et vous, vous en revoyez souvent ?"
+        "accroche": "Je me demandais, c'est quoi selon toi qui fait qu'on revoit un film dix fois sans se lasser ?",
+        "relance": "Moi c'est le confort de connaître la suite qui me rassure. Et toi t'en revois souvent ?"
       },
       {
-        "accroche": "Comédie, action, drame, si vous deviez décrire votre humeur cinéma en un genre, ce serait lequel ?",
-        "relance": "Moi ça dépend vraiment des jours, mais souvent la comédie gagne. Vous, un genre qui domine chez vous ?"
+        "accroche": "Comédie, action, drame, si tu devais décrire ton humeur ciné en un genre, ce serait lequel ?",
+        "relance": "Moi ça dépend vraiment des jours, mais souvent la comédie gagne. Et toi un genre qui domine ?"
       }
     ]
   },
@@ -43967,56 +43967,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez tout du cinéphile aguerri, je peux vous voler un conseil pour un film qui vaut vraiment le détour ?",
-        "relance": "Moi je tourne en rond dans mes classiques. Et vous, votre dernière vraie claque au ciné c était quoi ?"
+        "accroche": "T'as tout du cinéphile aguerri, je peux te voler un conseil pour un film qui vaut vraiment le détour ?",
+        "relance": "Moi je tourne en rond dans mes classiques. Et toi ta dernière vraie claque au ciné c'était quoi ?"
       },
       {
-        "accroche": "Votre look me dit que vous avez du goût, dites-moi un film à voir absolument selon vous ?",
-        "relance": "Moi j ai besoin de sortir de ma zone de confort. Vous, vous osez souvent les films inconnus ?"
+        "accroche": "Ton look me dit que t'as du goût, balance-moi un film à voir absolument selon toi ?",
+        "relance": "Moi j'ai besoin de sortir de ma zone de confort. Et toi t'oses souvent les films inconnus ?"
       },
       {
-        "accroche": "Vous parlez avec passion, ça se sent, vous auriez une pépite méconnue à me souffler ?",
-        "relance": "Moi j adore découvrir des films dont personne ne parle. Et vous, ça vous arrive d en dénicher ?"
+        "accroche": "Tu parles avec passion, ça se sent, t'aurais une pépite méconnue à me souffler ?",
+        "relance": "Moi j'adore découvrir des films dont personne parle. Et toi ça t'arrive d'en dénicher ?"
       },
       {
-        "accroche": "À votre air je vous imagine grand connaisseur, quel film vous a le plus surpris récemment ?",
-        "relance": "Moi j attends toujours d être bluffé par un scénario. Vous, qu est-ce qui vous surprend encore ?"
+        "accroche": "À ton air je t'imagine grand connaisseur, quel film t'a le plus surpris récemment ?",
+        "relance": "Moi j'attends toujours d'être bluffé par un scénario. Et toi qu'est-ce qui te surprend encore ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je cherche un film pour ce soir et je sèche complètement, vous auriez une idée à me lancer ?",
-        "relance": "Moi je passe plus de temps à choisir qu à regarder. Et vous, vous vous décidez vite ?"
+        "accroche": "Je cherche un film pour ce soir et je sèche complet, t'aurais une idée à me lancer ?",
+        "relance": "Moi je passe plus de temps à choisir qu'à regarder. Et toi tu te décides vite ?"
       },
       {
-        "accroche": "Avec toutes les sorties du moment je suis perdu, vous en avez vu une qui sort du lot ?",
-        "relance": "Moi je me fie beaucoup aux avis autour de moi. Vous, vous écoutez les recommandations ou pas ?"
+        "accroche": "Avec toutes les sorties du moment je suis paumé, t'en as vu une qui sort du lot ?",
+        "relance": "Moi je me fie beaucoup aux avis autour de moi. Et toi t'écoutes les recos ou pas ?"
       },
       {
-        "accroche": "Tout le monde a l air d avoir vu le film dont on parle partout sauf moi, ça vaut le coup selon vous ?",
-        "relance": "Moi je suis toujours le dernier au courant. Et vous, vous suivez les tendances de près ?"
+        "accroche": "Tout le monde a l'air d'avoir vu le film dont on parle partout sauf moi, ça vaut le coup selon toi ?",
+        "relance": "Moi je suis toujours le dernier au courant. Et toi tu suis les tendances de près ?"
       },
       {
-        "accroche": "J ai une soirée film à prévoir et zéro idée, vous conseilleriez quoi pour passer un bon moment ?",
-        "relance": "Moi je vise le film qui met tout le monde d accord. Vous, vous avez ce genre de valeur sûre ?"
+        "accroche": "J'ai une soirée film à prévoir et zéro idée, tu conseillerais quoi pour passer un bon moment ?",
+        "relance": "Moi je vise le film qui met tout le monde d'accord. Et toi t'as ce genre de valeur sûre ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous ne deviez conseiller qu un seul film à quelqu un qui n y connaît rien, ce serait lequel ?",
-        "relance": "Moi j hésite toujours à embarquer les gens direct dans mes préférés. Et vous, vous oseriez quoi ?"
+        "accroche": "Si tu devais conseiller qu'un seul film à quelqu'un qui n'y connaît rien, ce serait lequel ?",
+        "relance": "Moi j'hésite toujours à embarquer les gens direct dans mes préférés. Et toi t'oserais quoi ?"
       },
       {
-        "accroche": "D après vous, on suit plutôt les critiques ou son instinct pour choisir un bon film ?",
-        "relance": "Moi je me plante moins en suivant mon feeling. Vous, vous faites confiance à quoi ?"
+        "accroche": "D'après toi, on suit plutôt les critiques ou son instinct pour choisir un bon film ?",
+        "relance": "Moi je me plante moins en suivant mon feeling. Et toi tu fais confiance à quoi ?"
       },
       {
-        "accroche": "C est quoi pour vous le signe qu un film vaut vraiment qu on le recommande à tout le monde ?",
-        "relance": "Moi c est quand j y repense encore le lendemain. Et vous, votre critère c est lequel ?"
+        "accroche": "C'est quoi pour toi le signe qu'un film vaut vraiment qu'on le recommande à tout le monde ?",
+        "relance": "Moi c'est quand j'y repense encore le lendemain. Et toi ton critère c'est lequel ?"
       },
       {
-        "accroche": "Vous pensez qu un film peut plaire à absolument tout le monde, ou c est toujours une question de goût ?",
-        "relance": "Moi je crois qu il existe deux ou trois films universels. Vous, vous en verriez un comme ça ?"
+        "accroche": "Tu penses qu'un film peut plaire à absolument tout le monde, ou c'est toujours une question de goût ?",
+        "relance": "Moi je crois qu'il existe deux ou trois films universels. Et toi t'en verrais un comme ça ?"
       }
     ]
   },
@@ -44039,56 +44039,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre badge là c est bien le logo de cette saga, non ? Ça me dit qu on partage peut-être un truc, vous êtes fan à quel point ?",
-        "relance": "Moi je connais toutes les répliques, c est maladif. Et vous, jusqu où va votre passion ?"
+        "accroche": "Ton badge là c'est bien le logo de cette saga, non ? On partage peut-être un truc, t'es fan à quel point ?",
+        "relance": "Moi je connais toutes les répliques, c'est maladif. Et toi jusqu'où va ta passion ?"
       },
       {
-        "accroche": "J adore votre casquette, elle a un vrai vibe personnage de film, c est voulu ou je délire ?",
-        "relance": "Moi je m habille parfois comme mes héros préférés sans le faire exprès. Vous, un perso vous inspire ?"
+        "accroche": "J'adore ta casquette, elle a un vrai vibe perso de film, c'est voulu ou je délire ?",
+        "relance": "Moi je m'habille parfois comme mes héros préférés sans faire exprès. Et toi un perso t'inspire ?"
       },
       {
-        "accroche": "Vous avez l énergie de quelqu un qui vient de finir une série qui l a marqué, je me trompe ?",
-        "relance": "Moi quand une série me happe je pense qu à ça. Et vous, il y en a une qui vous obsède en ce moment ?"
+        "accroche": "T'as l'énergie de quelqu'un qui vient de finir une série qui l'a marqué, je me trompe ?",
+        "relance": "Moi quand une série me happe je pense qu'à ça. Et toi y en a une qui t'obsède en ce moment ?"
       },
       {
-        "accroche": "Votre façon de raconter est très cinématographique, vous seriez pas un peu accro aux belles histoires ?",
-        "relance": "Moi je vois des scénarios partout dans la vraie vie. Vous, ça vous fait ça aussi ?"
+        "accroche": "Ta façon de raconter est trop cinématographique, tu serais pas un peu accro aux belles histoires ?",
+        "relance": "Moi je vois des scénarios partout dans la vraie vie. Et toi ça te fait ça aussi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a un film dont tout le monde parle et ça crée plein de discussions, vous êtes dans le sujet ?",
-        "relance": "Moi j adore quand un film met tout le monde d accord ou pas du tout. Et vous, vous en pensez quoi ?"
+        "accroche": "En ce moment y a un film dont tout le monde parle et ça crée plein de débats, t'es dans le sujet ?",
+        "relance": "Moi j'adore quand un film met tout le monde d'accord ou pas du tout. Et toi t'en penses quoi ?"
       },
       {
-        "accroche": "C est la période où les plateformes sortent tout d un coup, vous arrivez à suivre ou vous êtes largué ?",
-        "relance": "Moi j ai clairement abandonné l idée de tout voir. Vous, vous faites le tri comment ?"
+        "accroche": "C'est la période où les plateformes sortent tout d'un coup, t'arrives à suivre ou t'es largué ?",
+        "relance": "Moi j'ai clairement abandonné l'idée de tout voir. Et toi tu fais le tri comment ?"
       },
       {
-        "accroche": "Il y a une adaptation qui fait beaucoup parler ces temps-ci, vous l avez suivie ou vous attendez ?",
-        "relance": "Moi les adaptations j y vais toujours en tremblant. Et vous, fidèle à l original ou ouvert au changement ?"
+        "accroche": "Y a une adaptation qui fait beaucoup parler en ce moment, tu l'as suivie ou t'attends ?",
+        "relance": "Moi les adaptations j'y vais toujours en tremblant. Et toi fidèle à l'original ou ouvert au changement ?"
       },
       {
-        "accroche": "Tout le monde a son avis sur la fin de cette série du moment, vous en faites partie des déçus ou des conquis ?",
-        "relance": "Moi les fins me hantent toujours un peu. Vous, une fin vous a marqué récemment ?"
+        "accroche": "Tout le monde a son avis sur la fin de cette série du moment, t'es dans les déçus ou les conquis ?",
+        "relance": "Moi les fins me hantent toujours un peu. Et toi une fin t'a marqué récemment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me pose souvent la question, on s attache plus à un film pour son histoire ou pour ses personnages ?",
-        "relance": "Moi c est toujours les personnages qui me happent. Et vous, vous accrochez à quoi d abord ?"
+        "accroche": "Je me pose souvent la question, on s'attache plus à un film pour son histoire ou pour ses persos ?",
+        "relance": "Moi c'est toujours les persos qui me happent. Et toi t'accroches à quoi d'abord ?"
       },
       {
-        "accroche": "Vous croyez qu on peut vraiment connaître quelqu un rien qu à ses films préférés ?",
-        "relance": "Moi je pense qu on en dit long sur soi comme ça. Vous, vos films racontent quoi de vous ?"
+        "accroche": "Tu crois qu'on peut vraiment connaître quelqu'un rien qu'à ses films préférés ?",
+        "relance": "Moi je pense qu'on en dit long sur soi comme ça. Et toi tes films racontent quoi de toi ?"
       },
       {
-        "accroche": "Entre séries à rallonge et films qui bouclent en deux heures, vous préférez quel format au fond ?",
-        "relance": "Moi j aime bien qu une histoire ait une vraie fin. Et vous, plutôt saga sans fin ou récit court ?"
+        "accroche": "Entre séries à rallonge et films qui bouclent en deux heures, tu préfères quel format au fond ?",
+        "relance": "Moi j'aime bien qu'une histoire ait une vraie fin. Et toi plutôt saga sans fin ou récit court ?"
       },
       {
-        "accroche": "D après vous, c est quoi le personnage de fiction qui vous ressemble le plus ?",
-        "relance": "Moi il y en a un dans lequel je me reconnais un peu trop. Vous, ça vous vient tout de suite ?"
+        "accroche": "D'après toi, c'est quoi le personnage de fiction qui te ressemble le plus ?",
+        "relance": "Moi y en a un dans lequel je me reconnais un peu trop. Et toi ça te vient tout de suite ?"
       }
     ]
   },
@@ -44111,56 +44111,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vos écouteurs ont l air vissés en permanence, je parie que vous ne sortez jamais sans musique, je me trompe ?",
-        "relance": "Moi c est vital, je peux pas marcher trois minutes sans un son. Et vous, c est quoi la bande-son du moment ?"
+        "accroche": "T'as l'air d'avoir les écouteurs vissés en permanence, je parie que tu sors jamais sans musique ?",
+        "relance": "Moi c'est vital, je peux pas marcher trois minutes sans un son. Et toi c'est quoi ta bande-son du moment ?"
       },
       {
-        "accroche": "J ai cru voir un nom de groupe sur votre tote bag, c est un que vous écoutez en boucle ?",
-        "relance": "Moi j ai des groupes que j use jusqu à la corde. Vous, il y en a un que vous ne lâchez pas ?"
+        "accroche": "J'ai cru voir un nom de groupe sur ton tote bag, c'est un que t'écoutes en boucle ?",
+        "relance": "Moi j'ai des groupes que j'use jusqu'à la corde. Et toi y en a un que tu lâches pas ?"
       },
       {
-        "accroche": "Vous tapez du pied sans vous en rendre compte, vous avez toujours un rythme en tête ou c est moi ?",
-        "relance": "Moi j ai une musique dans la tête en permanence. Et vous, ça vous arrive aussi ?"
+        "accroche": "Tu tapes du pied sans t'en rendre compte, t'as toujours un rythme en tête ou c'est moi ?",
+        "relance": "Moi j'ai une musique dans la tête en permanence. Et toi ça t'arrive aussi ?"
       },
       {
-        "accroche": "Votre style a un petit côté très musical, vous êtes plutôt du genre à suivre une scène en particulier ?",
-        "relance": "Moi je me reconnais dans un univers musical bien précis. Vous, vous vous situez où côté musique ?"
+        "accroche": "Ton style a un petit côté très musical, t'es plutôt du genre à suivre une scène en particulier ?",
+        "relance": "Moi je me reconnais dans un univers musical bien précis. Et toi tu te situes où côté musique ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a plein de sorties d albums, vous avez découvert quelque chose qui vous a marqué ?",
-        "relance": "Moi j ai un album qui tourne en boucle depuis des jours. Et vous, une découverte récente ?"
+        "accroche": "En ce moment y a plein de sorties d'albums, t'as découvert un truc qui t'a marqué ?",
+        "relance": "Moi j'ai un album qui tourne en boucle depuis des jours. Et toi une découverte récente ?"
       },
       {
-        "accroche": "C est la saison des festivals et des concerts, vous êtes du genre à courir les scènes ou plutôt tranquille chez vous ?",
-        "relance": "Moi rien ne vaut l ambiance d un concert en vrai. Vous, vous vivez ça comment la musique live ?"
+        "accroche": "C'est la saison des festivals et des concerts, t'es du genre à courir les scènes ou plutôt peinard chez toi ?",
+        "relance": "Moi rien ne vaut l'ambiance d'un concert en vrai. Et toi tu vis ça comment la musique live ?"
       },
       {
-        "accroche": "Il y a un morceau qu on entend absolument partout en ce moment, vous l avez dans la tête aussi ?",
-        "relance": "Moi impossible de m en débarrasser, il tourne en boucle. Et vous, il vous plaît ou il vous agace ?"
+        "accroche": "Y a un morceau qu'on entend absolument partout en ce moment, tu l'as dans la tête aussi ?",
+        "relance": "Moi impossible de m'en débarrasser, il tourne en boucle. Et toi il te plaît ou il t'agace ?"
       },
       {
-        "accroche": "Avec toutes les playlists du moment on découvre plein de choses, vous, vous suivez les tendances ou pas ?",
-        "relance": "Moi je picore un peu partout selon l humeur. Vous, vous fonctionnez comment pour découvrir ?"
+        "accroche": "Avec toutes les playlists du moment on découvre plein de trucs, et toi tu suis les tendances ou pas ?",
+        "relance": "Moi je picore un peu partout selon l'humeur. Et toi tu fonctionnes comment pour découvrir ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, une musique ça vous touche plus par les paroles ou par la mélodie ?",
-        "relance": "Moi c est la mélodie qui me prend aux tripes d abord. Et vous, vous accrochez à quoi en premier ?"
+        "accroche": "Je me demandais, une musique ça te touche plus par les paroles ou par la mélodie ?",
+        "relance": "Moi c'est la mélodie qui me prend aux tripes d'abord. Et toi t'accroches à quoi en premier ?"
       },
       {
-        "accroche": "Vous croyez qu on garde toute sa vie les goûts musicaux de sa jeunesse, ou ça évolue vraiment ?",
-        "relance": "Moi mes premiers coups de cœur me suivent encore. Vous, vos goûts ont beaucoup bougé ?"
+        "accroche": "Tu crois qu'on garde toute sa vie les goûts musicaux de sa jeunesse, ou ça évolue vraiment ?",
+        "relance": "Moi mes premiers coups de cœur me suivent encore. Et toi tes goûts ont beaucoup bougé ?"
       },
       {
-        "accroche": "Si vous deviez résumer votre vie à une seule chanson, vous voyez laquelle ce serait ?",
-        "relance": "Moi il y en a une qui me colle à la peau depuis toujours. Et vous, ça vient tout de suite ?"
+        "accroche": "Si tu devais résumer ta vie à une seule chanson, tu vois laquelle ce serait ?",
+        "relance": "Moi y en a une qui me colle à la peau depuis toujours. Et toi ça vient tout de suite ?"
       },
       {
-        "accroche": "D après vous, la musique ça sert surtout à se remonter le moral ou à accompagner ses émotions ?",
-        "relance": "Moi je choisis vraiment selon l état dans lequel je suis. Vous, vous mettez quoi quand ça va pas ?"
+        "accroche": "D'après toi, la musique ça sert surtout à se remonter le moral ou à accompagner ses émotions ?",
+        "relance": "Moi je choisis vraiment selon l'état dans lequel je suis. Et toi tu mets quoi quand ça va pas ?"
       }
     ]
   },
@@ -44183,56 +44183,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous fredonnez sans vous en rendre compte, c est un air qui vous poursuit depuis ce matin ?",
-        "relance": "Moi j ai toujours une chanson coincée dans la tête au réveil. Et vous, laquelle aujourd hui ?"
+        "accroche": "Tu fredonnes sans t'en rendre compte, c'est un air qui te poursuit depuis ce matin ?",
+        "relance": "Moi j'ai toujours une chanson coincée dans la tête au réveil. Et toi laquelle aujourd'hui ?"
       },
       {
-        "accroche": "Vous avez un petit hochement de tête très rythmé, vous êtes du genre à avoir la musique dans la peau non ?",
-        "relance": "Moi je bouge dès que ça a du groove. Vous, il y a un rythme qui vous fait craquer à tous les coups ?"
+        "accroche": "T'as un petit hochement de tête très rythmé, t'es du genre à avoir la musique dans la peau non ?",
+        "relance": "Moi je bouge dès que ça a du groove. Et toi y a un rythme qui te fait craquer à tous les coups ?"
       },
       {
-        "accroche": "Votre pull me donne une vibe très cocooning avec musique douce, je vise juste ?",
-        "relance": "Moi les journées comme ça j y colle des sons tout doux. Et vous, votre ambiance sonore idéale ?"
+        "accroche": "Ton pull me donne une vibe très cocooning avec musique douce, je vise juste ?",
+        "relance": "Moi les journées comme ça j'y colle des sons tout doux. Et toi ton ambiance sonore idéale ?"
       },
       {
-        "accroche": "Vous avez l air apaisé, je parie que vous aviez une bonne playlist dans les oreilles avant, non ?",
-        "relance": "Moi une bonne playlist ça change toute ma journée. Vous, ça vous fait cet effet aussi ?"
+        "accroche": "T'as l'air apaisé, je parie que t'avais une bonne playlist dans les oreilles avant, non ?",
+        "relance": "Moi une bonne playlist ça change toute ma journée. Et toi ça te fait cet effet aussi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce temps, on a envie soit d un son qui pêche soit d un truc cosy, vous seriez plutôt lequel là ?",
-        "relance": "Moi aujourd hui c est ambiance calme et café. Et vous, votre bande-son du moment ce serait quoi ?"
+        "accroche": "Avec ce temps on a envie soit d'un son qui pêche soit d'un truc cosy, tu serais plutôt lequel là ?",
+        "relance": "Moi aujourd'hui c'est ambiance calme et café. Et toi ta bande-son du moment ce serait quoi ?"
       },
       {
-        "accroche": "C est le genre de journée à écouter de la musique sans rien faire d autre, ça vous parle ce plaisir simple ?",
-        "relance": "Moi j adore juste m allonger et écouter. Vous, vous vous accordez ces moments-là parfois ?"
+        "accroche": "C'est le genre de journée à écouter de la musique sans rien faire d'autre, ça te parle ce plaisir simple ?",
+        "relance": "Moi j'adore juste m'allonger et écouter. Et toi tu t'accordes ces moments-là parfois ?"
       },
       {
-        "accroche": "On entend de la musique un peu partout par ce temps, ça vous met de bonne humeur ou vous préférez le silence ?",
-        "relance": "Moi un bon son et ma journée démarre mieux. Et vous, plutôt musique ou calme total ?"
+        "accroche": "On entend de la musique un peu partout par ce temps, ça te met de bonne humeur ou tu préfères le silence ?",
+        "relance": "Moi un bon son et ma journée démarre mieux. Et toi plutôt musique ou calme total ?"
       },
       {
-        "accroche": "En cette saison il y a toujours des sons qui collent à l ambiance, vous en avez un qui vous accompagne ?",
-        "relance": "Moi j ai des chansons que j associe direct à cette période. Vous, ça vous fait ça aussi ?"
+        "accroche": "En cette saison y a toujours des sons qui collent à l'ambiance, t'en as un qui t'accompagne toi ?",
+        "relance": "Moi j'ai des chansons que j'associe direct à cette période. Et toi ça te fait ça aussi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous mettez de la musique pour vous booster ou pour vous détendre le plus souvent ?",
-        "relance": "Moi ça dépend vraiment de l heure de la journée. Et vous, c est quoi votre réflexe musical ?"
+        "accroche": "Au fond, tu mets de la musique pour te booster ou pour te détendre le plus souvent ?",
+        "relance": "Moi ça dépend vraiment de l'heure de la journée. Et toi c'est quoi ton réflexe musical ?"
       },
       {
-        "accroche": "Vous croyez qu une chanson peut vraiment changer l humeur d une journée entière ?",
-        "relance": "Moi une bonne intro et hop, tout va mieux. Vous, vous avez un morceau magique comme ça ?"
+        "accroche": "Tu crois qu'une chanson peut vraiment changer l'humeur d'une journée entière ?",
+        "relance": "Moi une bonne intro et hop, tout va mieux. Et toi t'as un morceau magique comme ça ?"
       },
       {
-        "accroche": "Il paraît qu on associe toujours certaines chansons à des souvenirs précis, ça vous fait ça aussi ?",
-        "relance": "Moi certains morceaux me téléportent direct dans le passé. Et vous, il y en a un comme ça ?"
+        "accroche": "Paraît qu'on associe toujours certaines chansons à des souvenirs précis, ça te fait ça aussi ?",
+        "relance": "Moi certains morceaux me téléportent direct dans le passé. Et toi y en a un comme ça ?"
       },
       {
-        "accroche": "Vous préférez écouter toujours les mêmes valeurs sûres ou vous aimez sans cesse découvrir du nouveau ?",
-        "relance": "Moi je reviens souvent à mes classiques rassurants. Vous, plutôt fidèle ou toujours en exploration ?"
+        "accroche": "Tu préfères écouter toujours les mêmes valeurs sûres ou t'aimes sans cesse découvrir du nouveau ?",
+        "relance": "Moi je reviens souvent à mes classiques rassurants. Et toi plutôt fidèle ou toujours en exploration ?"
       }
     ]
   },
@@ -44255,56 +44255,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez tout du connaisseur avec vos écouteurs haut de gamme, je peux vous soutirer une reco qui déchire ?",
-        "relance": "Moi je tourne en rond dans ma playlist. Et vous, votre dernière grande découverte c était quoi ?"
+        "accroche": "T'as tout du connaisseur avec tes écouteurs haut de gamme, je peux te soutirer une reco qui déchire ?",
+        "relance": "Moi je tourne en rond dans ma playlist. Et toi ta dernière grande découverte c'était quoi ?"
       },
       {
-        "accroche": "Votre style respire le bon goût musical, dites-moi un artiste que je devrais absolument écouter ?",
-        "relance": "Moi j ai besoin de sang neuf dans mes oreilles. Vous, vous dénichez vos artistes comment ?"
+        "accroche": "Ton style respire le bon goût musical, balance-moi un artiste que je devrais absolument écouter ?",
+        "relance": "Moi j'ai besoin de sang neuf dans mes oreilles. Et toi tu déniches tes artistes comment ?"
       },
       {
-        "accroche": "Vous m avez l air branché musique pointue, vous auriez une pépite un peu confidentielle à me souffler ?",
-        "relance": "Moi j adore les artistes que personne ne connaît encore. Et vous, ça vous arrive d en trouver ?"
+        "accroche": "Tu m'as l'air branché musique pointue, t'aurais une pépite un peu confidentielle à me souffler ?",
+        "relance": "Moi j'adore les artistes que personne connaît encore. Et toi ça t'arrive d'en trouver ?"
       },
       {
-        "accroche": "Rien qu à votre attitude je vous sens fin mélomane, quel album m ouvrirait de nouveaux horizons ?",
-        "relance": "Moi je veux sortir de ma bulle musicale. Vous, vous osez souvent les genres inconnus ?"
+        "accroche": "Rien qu'à ton attitude je te sens fin mélomane, quel album m'ouvrirait de nouveaux horizons ?",
+        "relance": "Moi je veux sortir de ma bulle musicale. Et toi t'oses souvent les genres inconnus ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je cherche de quoi renouveler mes playlists et je sèche, vous auriez une idée à me lancer ?",
-        "relance": "Moi j écoute toujours les mêmes choses, c est lassant. Et vous, comment vous gardez ça frais ?"
+        "accroche": "Je cherche de quoi renouveler mes playlists et je sèche, t'aurais une idée à me lancer ?",
+        "relance": "Moi j'écoute toujours les mêmes trucs, c'est lassant. Et toi tu gardes ça frais comment ?"
       },
       {
-        "accroche": "Avec toutes les sorties du moment je m y perds, vous en avez une à me recommander les yeux fermés ?",
-        "relance": "Moi je me fie beaucoup au bouche à oreille. Vous, vous suivez les conseils ou votre instinct ?"
+        "accroche": "Avec toutes les sorties du moment je m'y perds, t'en as une à me conseiller les yeux fermés ?",
+        "relance": "Moi je me fie beaucoup au bouche-à-oreille. Et toi tu suis les conseils ou ton instinct ?"
       },
       {
-        "accroche": "Il y a un artiste dont tout le monde parle en ce moment, ça vaut le détour selon vous ?",
-        "relance": "Moi j hésite toujours à suivre le buzz. Et vous, vous êtes tendances ou vous fuyez la hype ?"
+        "accroche": "Y a un artiste dont tout le monde parle en ce moment, ça vaut le détour selon toi ?",
+        "relance": "Moi j'hésite toujours à suivre le buzz. Et toi t'es tendances ou tu fuis la hype ?"
       },
       {
-        "accroche": "J ai un long trajet à occuper bientôt et zéro idée d écoute, vous conseilleriez quoi ?",
-        "relance": "Moi il me faut un truc qui tient sur la durée. Vous, votre valeur sûre pour ces moments-là ?"
+        "accroche": "J'ai un long trajet à occuper bientôt et zéro idée d'écoute, tu conseillerais quoi ?",
+        "relance": "Moi il me faut un truc qui tient sur la durée. Et toi ta valeur sûre pour ces moments-là ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous deviez faire découvrir un seul artiste à quelqu un, ce serait lequel sans hésiter ?",
-        "relance": "Moi j ai toujours peur de mal choisir en embarquant les gens. Et vous, vous partiriez sur qui ?"
+        "accroche": "Si tu devais faire découvrir un seul artiste à quelqu'un, ce serait lequel sans hésiter ?",
+        "relance": "Moi j'ai toujours peur de mal choisir en embarquant les gens. Et toi tu partirais sur qui ?"
       },
       {
-        "accroche": "D après vous, on découvre mieux la musique par hasard ou en cherchant vraiment ?",
-        "relance": "Moi mes plus beaux coups de cœur sont tombés par hasard. Vous, vous fouillez ou vous laissez venir ?"
+        "accroche": "D'après toi, on découvre mieux la musique par hasard ou en cherchant vraiment ?",
+        "relance": "Moi mes plus beaux coups de cœur sont tombés par hasard. Et toi tu fouilles ou tu laisses venir ?"
       },
       {
-        "accroche": "C est quoi selon vous le signe qu un morceau mérite vraiment qu on le partage autour de soi ?",
-        "relance": "Moi c est quand il me donne des frissons dès la première écoute. Et vous, votre déclic c est quoi ?"
+        "accroche": "C'est quoi selon toi le signe qu'un morceau mérite vraiment qu'on le partage autour de soi ?",
+        "relance": "Moi c'est quand il me donne des frissons dès la première écoute. Et toi ton déclic c'est quoi ?"
       },
       {
-        "accroche": "Vous pensez qu il existe des chansons qui plaisent à absolument tout le monde, ou jamais ?",
-        "relance": "Moi je crois qu il y a deux ou trois hymnes universels. Vous, vous en verriez un comme ça ?"
+        "accroche": "Tu penses qu'il existe des chansons qui plaisent à absolument tout le monde, ou jamais ?",
+        "relance": "Moi je crois qu'il y a deux ou trois hymnes universels. Et toi t'en verrais un comme ça ?"
       }
     ]
   },
@@ -44327,56 +44327,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre bracelet de festival est encore au poignet, vous revenez d un concert récemment ?",
-        "relance": "Moi je garde les miens pendant des mois en souvenir. Et vous, c était quoi votre dernier live ?"
+        "accroche": "Ton bracelet de festival est encore au poignet, tu reviens d'un concert récemment ?",
+        "relance": "Moi je garde les miens pendant des mois en souvenir. Et toi c'était quoi ton dernier live ?"
       },
       {
-        "accroche": "J adore votre tee-shirt de tournée, ça sent le vrai fan qui était dans la fosse, je me trompe ?",
-        "relance": "Moi je ne rate jamais mes groupes préférés en vrai. Vous, vous courez les concerts aussi ?"
+        "accroche": "J'adore ton tee-shirt de tournée, ça sent le vrai fan qui était dans la fosse, je me trompe ?",
+        "relance": "Moi je rate jamais mes groupes préférés en vrai. Et toi tu cours les concerts aussi ?"
       },
       {
-        "accroche": "Vous dégagez une énergie de quelqu un qui vit la musique à fond, ça se voit, vous êtes plutôt scène ou casque ?",
-        "relance": "Moi rien ne remplace le live et la foule. Et vous, comment vous vivez la musique le plus fort ?"
+        "accroche": "Tu dégages une énergie de quelqu'un qui vit la musique à fond, plutôt scène ou casque toi ?",
+        "relance": "Moi rien ne remplace le live et la foule. Et toi tu vis la musique le plus fort comment ?"
       },
       {
-        "accroche": "Votre veste a un vrai look de fan de scène, vous suivez un artiste en particulier de près ?",
-        "relance": "Moi j ai un groupe que je suis partout depuis des années. Vous, vous en avez un culte comme ça ?"
+        "accroche": "Ta veste a un vrai look de fan de scène, tu suis un artiste en particulier de près ?",
+        "relance": "Moi j'ai un groupe que je suis partout depuis des années. Et toi t'en as un culte comme ça ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C est la pleine saison des concerts en ce moment, vous avez des dates prévues ou vous rêvez d y aller ?",
-        "relance": "Moi j ai déjà mon agenda plein de concerts. Et vous, un live qui vous fait envie en particulier ?"
+        "accroche": "C'est la pleine saison des concerts en ce moment, t'as des dates prévues ou tu rêves d'y aller ?",
+        "relance": "Moi j'ai déjà mon agenda plein de concerts. Et toi un live qui te fait envie en particulier ?"
       },
       {
-        "accroche": "Il y a une tournée dont tout le monde parle ces temps-ci, vous avez réussi à avoir des places ?",
-        "relance": "Moi j ai galéré comme jamais pour les tickets. Vous, vous vivez ça aussi la course aux billets ?"
+        "accroche": "Y a une tournée dont tout le monde parle en ce moment, t'as réussi à avoir des places ?",
+        "relance": "Moi j'ai galéré comme jamais pour les tickets. Et toi tu vis ça aussi la course aux billets ?"
       },
       {
-        "accroche": "En cette période les scènes s enchaînent partout, vous êtes plutôt grands festivals ou petites salles intimes ?",
-        "relance": "Moi j adore l ambiance des petites salles collées à l artiste. Et vous, votre format préféré ?"
+        "accroche": "En cette période les scènes s'enchaînent partout, plutôt grands festivals ou petites salles intimes toi ?",
+        "relance": "Moi j'adore l'ambiance des petites salles collées à l'artiste. Et toi ton format préféré ?"
       },
       {
-        "accroche": "On entend parler que d un artiste en tournée en ce moment, vous suivez ça ou pas du tout ?",
-        "relance": "Moi je suis à fond dans la hype là. Vous, la musique du moment vous emballe ou vous laisse froid ?"
+        "accroche": "On entend parler que d'un artiste en tournée en ce moment, tu suis ça ou pas du tout ?",
+        "relance": "Moi je suis à fond dans la hype là. Et toi la musique du moment t'emballe ou te laisse froid ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, un concert ça vous marque plus pour la musique ou pour l ambiance et la foule ?",
-        "relance": "Moi c est l énergie collective qui me transporte. Et vous, ce que vous cherchez dans un live ?"
+        "accroche": "Je me demandais, un concert ça te marque plus pour la musique ou pour l'ambiance et la foule ?",
+        "relance": "Moi c'est l'énergie collective qui me transporte. Et toi tu cherches quoi dans un live ?"
       },
       {
-        "accroche": "Vous croyez qu un artiste vaut mieux en vrai qu en écoute chez soi, ou c est pas comparable ?",
-        "relance": "Moi certains ne prennent leur sens que sur scène. Vous, vous avez eu une révélation en live ?"
+        "accroche": "Tu crois qu'un artiste vaut mieux en vrai qu'en écoute chez soi, ou c'est pas comparable ?",
+        "relance": "Moi certains ne prennent leur sens que sur scène. Et toi t'as eu une révélation en live ?"
       },
       {
-        "accroche": "Si vous pouviez revivre un seul concert de toute votre vie, ce serait lequel sans hésiter ?",
-        "relance": "Moi il y en a un que je revivrais mille fois. Et vous, ça vous vient tout de suite ?"
+        "accroche": "Si tu pouvais revivre un seul concert de toute ta vie, ce serait lequel sans hésiter ?",
+        "relance": "Moi y en a un que je revivrais mille fois. Et toi ça te vient tout de suite ?"
       },
       {
-        "accroche": "D après vous, la musique elle se vit mieux seul dans son coin ou partagée avec du monde ?",
-        "relance": "Moi j aime les deux mais le partage a un truc en plus. Vous, vous penchez de quel côté ?"
+        "accroche": "D'après toi, la musique elle se vit mieux seul dans son coin ou partagée avec du monde ?",
+        "relance": "Moi j'aime les deux mais le partage a un truc en plus. Et toi tu penches de quel côté ?"
       }
     ]
   },
@@ -44399,56 +44399,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre montre connectée a l air dernier cri, vous êtes du genre à toujours avoir le dernier gadget ?",
-        "relance": "Moi je craque à chaque nouveauté, c est un problème. Et vous, vous suivez de près les sorties tech ?"
+        "accroche": "Ta montre connectée a l'air dernier cri, t'es du genre à toujours avoir le dernier gadget ?",
+        "relance": "Moi je craque à chaque nouveauté, c'est un problème. Et toi tu suis de près les sorties tech ?"
       },
       {
-        "accroche": "J ai repéré vos écouteurs, ils ont l air bien futés, vous êtes plutôt geek des petits objets connectés ?",
-        "relance": "Moi je suis fasciné par tout ce qui est intelligent et miniature. Vous, ça vous parle ces gadgets ?"
+        "accroche": "J'ai repéré tes écouteurs, ils ont l'air bien futés, t'es plutôt geek des petits objets connectés ?",
+        "relance": "Moi je suis fasciné par tout ce qui est intelligent et miniature. Et toi ça te parle ces gadgets ?"
       },
       {
-        "accroche": "Vous manipulez votre téléphone avec une aisance de pro, vous êtes du genre à explorer toutes les nouveautés ?",
-        "relance": "Moi je teste chaque nouvelle appli qui sort. Et vous, vous êtes plutôt curieux ou vous restez tranquille ?"
+        "accroche": "Tu manies ton téléphone avec une aisance de pro, t'es du genre à explorer toutes les nouveautés ?",
+        "relance": "Moi je teste chaque nouvelle appli qui sort. Et toi plutôt curieux ou tu restes peinard ?"
       },
       {
-        "accroche": "Votre équipement respire l amateur de belle technologie, vous vous tenez au courant des innovations ?",
-        "relance": "Moi je passe mon temps à lire les actus tech. Vous, ça vous intéresse ce petit monde-là ?"
+        "accroche": "Ton matos respire l'amateur de belle techno, tu te tiens au courant des innovations ?",
+        "relance": "Moi je passe mon temps à lire les actus tech. Et toi ça t'intéresse ce petit monde-là ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment on parle que de nouveautés tech un peu partout, vous en avez suivi une qui vous a bluffé ?",
-        "relance": "Moi il y a une annonce récente qui m a scotché. Et vous, quelque chose vous a marqué dernièrement ?"
+        "accroche": "En ce moment on parle que de nouveautés tech un peu partout, t'en as suivi une qui t'a bluffé ?",
+        "relance": "Moi y a une annonce récente qui m'a scotché. Et toi un truc t'a marqué dernièrement ?"
       },
       {
-        "accroche": "L intelligence artificielle est sur toutes les lèvres ces temps-ci, vous suivez ça de près ou ça vous dépasse un peu ?",
-        "relance": "Moi je suis partagé entre fascination et vertige. Vous, vous le vivez comment tout ce tsunami ?"
+        "accroche": "L'IA est sur toutes les lèvres en ce moment, tu suis ça de près ou ça te dépasse un peu ?",
+        "relance": "Moi je suis partagé entre fascination et vertige. Et toi tu vis ça comment tout ce tsunami ?"
       },
       {
-        "accroche": "Il y a un nouvel appareil dont tout le monde parle en ce moment, vous avez craqué ou vous résistez ?",
-        "relance": "Moi j hésite encore à sauter le pas. Et vous, vous êtes plutôt early adopter ou prudent ?"
+        "accroche": "Y a un nouvel appareil dont tout le monde parle en ce moment, t'as craqué ou tu résistes ?",
+        "relance": "Moi j'hésite encore à sauter le pas. Et toi plutôt early adopter ou prudent ?"
       },
       {
-        "accroche": "La tech avance à une vitesse folle en ce moment, vous arrivez à suivre le rythme ou vous décrochez ?",
-        "relance": "Moi j ai l impression d être largué tous les six mois. Vous, vous tenez la cadence ?"
+        "accroche": "La tech avance à une vitesse folle en ce moment, t'arrives à suivre le rythme ou tu décroches ?",
+        "relance": "Moi j'ai l'impression d'être largué tous les six mois. Et toi tu tiens la cadence ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, vous pensez que la technologie nous simplifie vraiment la vie ou elle nous complique ?",
-        "relance": "Moi je suis partagé, ça dépend des jours. Et vous, vous voyez le verre à moitié plein ou vide ?"
+        "accroche": "Je me demandais, tu penses que la techno nous simplifie vraiment la vie ou elle nous complique ?",
+        "relance": "Moi je suis partagé, ça dépend des jours. Et toi tu vois le verre à moitié plein ou vide ?"
       },
       {
-        "accroche": "D après vous, c est quoi la prochaine techno qui va vraiment tout changer dans notre quotidien ?",
-        "relance": "Moi je parie sur l intelligence artificielle partout. Vous, votre pronostic ce serait quoi ?"
+        "accroche": "D'après toi, c'est quoi la prochaine techno qui va vraiment tout changer dans notre quotidien ?",
+        "relance": "Moi je parie sur l'IA partout. Et toi ton pronostic ce serait quoi ?"
       },
       {
-        "accroche": "Vous croyez qu on est trop dépendants de nos écrans, ou c est juste l époque qui veut ça ?",
-        "relance": "Moi j essaie de décrocher parfois mais c est dur. Et vous, vous arrivez à lâcher le téléphone ?"
+        "accroche": "Tu crois qu'on est trop dépendants de nos écrans, ou c'est juste l'époque qui veut ça ?",
+        "relance": "Moi j'essaie de décrocher parfois mais c'est dur. Et toi t'arrives à lâcher le téléphone ?"
       },
       {
-        "accroche": "Si vous pouviez inventer un gadget qui n existe pas encore, ce serait quoi votre rêve ?",
-        "relance": "Moi je rêve d un truc qui range mon appart tout seul. Vous, votre invention idéale ce serait quoi ?"
+        "accroche": "Si tu pouvais inventer un gadget qui n'existe pas encore, ce serait quoi ton rêve ?",
+        "relance": "Moi je rêve d'un truc qui range mon appart tout seul. Et toi ton invention idéale ce serait quoi ?"
       }
     ]
   },
@@ -44471,56 +44471,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre coque de téléphone est trop bien trouvée, vous êtes du genre à soigner tous vos accessoires tech ?",
-        "relance": "Moi je mets un point d honneur à personnaliser tout ça. Et vous, vous aimez bien customiser vos appareils ?"
+        "accroche": "Ta coque de téléphone est trop bien trouvée, t'es du genre à soigner tous tes accessoires tech ?",
+        "relance": "Moi je mets un point d'honneur à tout personnaliser. Et toi t'aimes bien customiser tes appareils ?"
       },
       {
-        "accroche": "Vous tapez à une vitesse impressionnante, vous êtes née avec un clavier entre les mains ou quoi ?",
-        "relance": "Moi j ai mis des années à taper vite. Vous, vous êtes plutôt à l aise avec tout ce qui est numérique ?"
+        "accroche": "Tu tapes à une vitesse de dingue, t'es née avec un clavier entre les mains ou quoi ?",
+        "relance": "Moi j'ai mis des années à taper vite. Et toi t'es plutôt à l'aise avec tout ce qui est numérique ?"
       },
       {
-        "accroche": "Votre sac a l air pensé pour transporter plein de gadgets, je me trompe ou vous êtes bien équipé ?",
-        "relance": "Moi je trimballe toujours trois câbles au cas où. Et vous, vous êtes du genre prévoyant côté tech ?"
+        "accroche": "Ton sac a l'air pensé pour transporter plein de gadgets, je me trompe ou t'es bien équipé ?",
+        "relance": "Moi je trimballe toujours trois câbles au cas où. Et toi t'es du genre prévoyant côté tech ?"
       },
       {
-        "accroche": "Vous avez ce petit air de quelqu un qui répare les bugs des autres, je vise juste ?",
-        "relance": "Moi je suis le dépanneur officiel de ma famille. Vous, on vous appelle aussi à la rescousse ?"
+        "accroche": "T'as ce petit air de quelqu'un qui répare les bugs des autres, je vise juste ?",
+        "relance": "Moi je suis le dépanneur officiel de ma famille. Et toi on t'appelle aussi à la rescousse ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Par ce temps on passe forcément plus de temps sur nos écrans, vous, c est plutôt séries ou vous scrollez ?",
-        "relance": "Moi je finis toujours par scroller sans fin. Et vous, votre activité écran du moment c est quoi ?"
+        "accroche": "Par ce temps on passe forcément plus de temps sur nos écrans, toi c'est plutôt séries ou tu scrolles ?",
+        "relance": "Moi je finis toujours par scroller sans fin. Et toi ton activité écran du moment c'est quoi ?"
       },
       {
-        "accroche": "Avec les journées comme ça, un bon gadget ça sauve l ennui, vous avez un truc qui vous occupe bien ?",
-        "relance": "Moi mon appli du moment me dévore mon temps. Vous, il y a un truc numérique qui vous accroche ?"
+        "accroche": "Avec des journées comme ça, un bon gadget ça sauve de l'ennui, t'as un truc qui t'occupe bien ?",
+        "relance": "Moi mon appli du moment me dévore mon temps. Et toi y a un truc numérique qui t'accroche ?"
       },
       {
-        "accroche": "On dépend tellement de nos téléphones en ce moment, imaginez une panne générale, vous feriez quoi ?",
-        "relance": "Moi je serais complètement perdu, j avoue. Et vous, vous vous en sortiriez sans écran ?"
+        "accroche": "On dépend tellement de nos téléphones en ce moment, imagine une panne générale, tu ferais quoi ?",
+        "relance": "Moi je serais complètement perdu, j'avoue. Et toi tu t'en sortirais sans écran ?"
       },
       {
-        "accroche": "Les mises à jour tombent toujours au pire moment, vous, vous les faites direct ou vous repoussez à fond ?",
-        "relance": "Moi je repousse jusqu à la dernière seconde. Vous, plutôt à jour ou vous laissez traîner ?"
+        "accroche": "Les mises à jour tombent toujours au pire moment, toi tu les fais direct ou tu repousses à fond ?",
+        "relance": "Moi je repousse jusqu'à la dernière seconde. Et toi plutôt à jour ou tu laisses traîner ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous diriez que la tech vous fait gagner du temps ou vous en fait perdre plus qu autre chose ?",
-        "relance": "Moi je crois que je perds des heures sans m en rendre compte. Et vous, votre bilan honnête ?"
+        "accroche": "Au fond, tu dirais que la tech te fait gagner du temps ou t'en fait perdre plus qu'autre chose ?",
+        "relance": "Moi je crois que je perds des heures sans m'en rendre compte. Et toi ton bilan honnête ?"
       },
       {
-        "accroche": "Vous vous souvenez de votre tout premier téléphone ? Ça paraît d une autre époque, non ?",
-        "relance": "Moi le mien faisait à peine plus qu appeler et ça me suffisait. Vous, vous vous rappelez du vôtre ?"
+        "accroche": "Tu te souviens de ton tout premier téléphone ? Ça paraît d'une autre époque, non ?",
+        "relance": "Moi le mien faisait à peine plus qu'appeler et ça me suffisait. Et toi tu te rappelles du tien ?"
       },
       {
-        "accroche": "D après vous, on vivait mieux avant tous ces écrans ou c est juste de la nostalgie ?",
-        "relance": "Moi je romantise sûrement un peu le passé. Vous, vous seriez prêt à revenir en arrière ?"
+        "accroche": "D'après toi, on vivait mieux avant tous ces écrans ou c'est juste de la nostalgie ?",
+        "relance": "Moi je romantise sûrement un peu le passé. Et toi tu serais prêt à revenir en arrière ?"
       },
       {
-        "accroche": "Il paraît qu on touche notre téléphone des centaines de fois par jour, ça vous étonne ou pas du tout ?",
-        "relance": "Moi ça me fait un peu peur quand j y pense. Et vous, vous avez conscience de votre temps d écran ?"
+        "accroche": "Paraît qu'on touche notre téléphone des centaines de fois par jour, ça t'étonne ou pas du tout ?",
+        "relance": "Moi ça me fait un peu peur quand j'y pense. Et toi t'as conscience de ton temps d'écran ?"
       }
     ]
   },
@@ -44543,56 +44543,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de vous y connaître à voir votre matériel, je peux vous demander un petit conseil tech ?",
-        "relance": "Moi je suis perdu au moment de choisir mes appareils. Et vous, vous vous décidez sur quels critères ?"
+        "accroche": "T'as l'air de t'y connaître à voir ton matos, je peux te demander un petit conseil tech ?",
+        "relance": "Moi je suis perdu au moment de choisir mes appareils. Et toi tu te décides sur quels critères ?"
       },
       {
-        "accroche": "Votre équipement a l air bien choisi, vous seriez du genre à savoir dénicher le bon rapport qualité prix ?",
-        "relance": "Moi je me fais toujours avoir sur les gadgets inutiles. Vous, vous flairez les bons plans comment ?"
+        "accroche": "Ton matos a l'air bien choisi, tu serais du genre à dénicher le bon rapport qualité prix ?",
+        "relance": "Moi je me fais toujours avoir sur les gadgets inutiles. Et toi tu flaires les bons plans comment ?"
       },
       {
-        "accroche": "Rien qu à vous voir manier tout ça je vous sens calé, vous conseilleriez quoi pour débuter dans un domaine tech ?",
-        "relance": "Moi je débute et je ne sais pas par où commencer. Vous, vous avez appris sur le tas ou pas ?"
+        "accroche": "Rien qu'à te voir manier tout ça je te sens calé, tu conseillerais quoi pour débuter dans un domaine tech ?",
+        "relance": "Moi je débute et je sais pas par où commencer. Et toi t'as appris sur le tas ou pas ?"
       },
       {
-        "accroche": "Vous avez l allure de quelqu un qui teste tout avant tout le monde, un avis à me donner sur les nouveautés ?",
-        "relance": "Moi j attends toujours l avis d un connaisseur avant d acheter. Et vous, vous testez à l aveugle ?"
+        "accroche": "T'as l'allure de quelqu'un qui teste tout avant tout le monde, un avis à me donner sur les nouveautés ?",
+        "relance": "Moi j'attends toujours l'avis d'un connaisseur avant d'acheter. Et toi tu testes à l'aveugle ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je dois renouveler un appareil bientôt et je suis complètement noyé, vous auriez un conseil à me lancer ?",
-        "relance": "Moi les fiches techniques me donnent le tournis. Et vous, vous vous y retrouvez là-dedans ?"
+        "accroche": "Je dois renouveler un appareil bientôt et je suis complètement noyé, t'aurais un conseil à me lancer ?",
+        "relance": "Moi les fiches techniques me donnent le tournis. Et toi tu t'y retrouves là-dedans ?"
       },
       {
-        "accroche": "Avec toutes les sorties du moment c est dur de choisir, vous en avez repéré une qui vaut le coup ?",
-        "relance": "Moi je me fie beaucoup aux avis pour trancher. Vous, vous suivez les tests ou votre feeling ?"
+        "accroche": "Avec toutes les sorties du moment c'est dur de choisir, t'en as repéré une qui vaut le coup ?",
+        "relance": "Moi je me fie beaucoup aux avis pour trancher. Et toi tu suis les tests ou ton feeling ?"
       },
       {
-        "accroche": "Il y a un nouvel appareil dont on parle beaucoup, ça vaut vraiment son prix selon vous ?",
-        "relance": "Moi j hésite à mettre le budget. Et vous, vous investissez facilement dans la tech ou pas ?"
+        "accroche": "Y a un nouvel appareil dont on parle beaucoup, ça vaut vraiment son prix selon toi ?",
+        "relance": "Moi j'hésite à mettre le budget. Et toi tu investis facilement dans la tech ou pas ?"
       },
       {
-        "accroche": "Je cherche une appli utile pour m organiser et je m y perds, vous en utilisez une qui marche bien ?",
-        "relance": "Moi j en télécharge dix et je n en garde aucune. Vous, vous avez trouvé la bonne ?"
+        "accroche": "Je cherche une appli utile pour m'organiser et je m'y perds, t'en utilises une qui marche bien ?",
+        "relance": "Moi j'en télécharge dix et j'en garde aucune. Et toi t'as trouvé la bonne ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous ne deviez garder qu un seul appareil tech de toute votre vie, ce serait lequel ?",
-        "relance": "Moi je serais bien incapable de lâcher mon téléphone. Et vous, votre indispensable c est quoi ?"
+        "accroche": "Si tu devais garder qu'un seul appareil tech de toute ta vie, ce serait lequel ?",
+        "relance": "Moi je serais bien incapable de lâcher mon téléphone. Et toi ton indispensable c'est quoi ?"
       },
       {
-        "accroche": "D après vous, pour bien choisir en tech faut suivre les tests ou surtout tester par soi-même ?",
-        "relance": "Moi je me fie plus à un essai en vrai qu aux chiffres. Vous, vous faites confiance à quoi ?"
+        "accroche": "D'après toi, pour bien choisir en tech faut suivre les tests ou surtout tester par soi-même ?",
+        "relance": "Moi je me fie plus à un essai en vrai qu'aux chiffres. Et toi tu fais confiance à quoi ?"
       },
       {
-        "accroche": "C est quoi selon vous le vrai critère pour dire qu un appareil vaut son prix ?",
-        "relance": "Moi c est la durée de vie qui compte le plus pour moi. Et vous, votre critère numéro un ?"
+        "accroche": "C'est quoi selon toi le vrai critère pour dire qu'un appareil vaut son prix ?",
+        "relance": "Moi c'est la durée de vie qui compte le plus pour moi. Et toi ton critère numéro un ?"
       },
       {
-        "accroche": "Vous pensez qu il faut toujours avoir le dernier modèle ou qu on peut garder son matériel des années ?",
-        "relance": "Moi je garde mes appareils jusqu au bout. Vous, plutôt renouvellement ou vous faites durer ?"
+        "accroche": "Tu penses qu'il faut toujours avoir le dernier modèle ou qu'on peut garder son matos des années ?",
+        "relance": "Moi je garde mes appareils jusqu'au bout. Et toi plutôt renouvellement ou tu fais durer ?"
       }
     ]
   },
@@ -44615,56 +44615,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre setup a l air redoutable rien qu à ce que je vois, vous êtes clairement passionné de tech, non ?",
-        "relance": "Moi je passe des heures à optimiser mon matériel. Et vous, ça vous prend beaucoup aussi ?"
+        "accroche": "Ton setup a l'air redoutable rien qu'à ce que je vois, t'es clairement passionné de tech non ?",
+        "relance": "Moi je passe des heures à optimiser mon matos. Et toi ça te prend beaucoup aussi ?"
       },
       {
-        "accroche": "J adore votre stickers tech sur votre ordi, ça sent le vrai passionné, je me trompe ?",
-        "relance": "Moi je couvre tout de logos de mes trucs préférés. Vous, vous affichez vos passions comme ça ?"
+        "accroche": "J'adore tes stickers tech sur ton ordi, ça sent le vrai passionné, je me trompe ?",
+        "relance": "Moi je couvre tout de logos de mes trucs préférés. Et toi t'affiches tes passions comme ça ?"
       },
       {
-        "accroche": "Vous parlez déjà avec des yeux qui brillent, je parie que la tech vous fait vibrer plus que la moyenne ?",
-        "relance": "Moi je peux en parler pendant des heures sans m arrêter. Et vous, quel sujet vous emballe le plus ?"
+        "accroche": "Tu parles déjà avec des yeux qui brillent, je parie que la tech te fait vibrer plus que la moyenne ?",
+        "relance": "Moi je peux en parler pendant des heures sans m'arrêter. Et toi quel sujet t'emballe le plus ?"
       },
       {
-        "accroche": "Votre façon d expliquer les choses est super claire, vous seriez pas du genre à vulgariser la tech aux autres ?",
-        "relance": "Moi je suis le prof tech officiel de mes proches. Vous, on vient vous poser des questions aussi ?"
+        "accroche": "Ta façon d'expliquer les choses est super claire, tu serais pas du genre à vulgariser la tech aux autres ?",
+        "relance": "Moi je suis le prof tech officiel de mes proches. Et toi on vient te poser des questions aussi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment les annonces tech s enchaînent à un rythme fou, vous suivez tout ça de près ?",
-        "relance": "Moi je guette chaque nouveauté comme un gamin. Et vous, quelle annonce récente vous a le plus emballé ?"
+        "accroche": "En ce moment les annonces tech s'enchaînent à un rythme fou, tu suis tout ça de près ?",
+        "relance": "Moi je guette chaque nouveauté comme un gamin. Et toi quelle annonce récente t'a le plus emballé ?"
       },
       {
-        "accroche": "On parle d intelligence artificielle absolument partout ces temps-ci, ça vous fascine ou ça vous inquiète ?",
-        "relance": "Moi je suis à mi-chemin entre les deux. Vous, vous voyez ça comment cette révolution ?"
+        "accroche": "On parle d'IA absolument partout en ce moment, ça te fascine ou ça t'inquiète ?",
+        "relance": "Moi je suis à mi-chemin entre les deux. Et toi tu vois ça comment cette révolution ?"
       },
       {
-        "accroche": "Il y a une innovation qui fait le buzz en ce moment, vous êtes du genre à vouloir la tester direct ?",
-        "relance": "Moi je serais le premier à la queue pour l essayer. Et vous, vous êtes curieux ou plus prudent ?"
+        "accroche": "Y a une innovation qui fait le buzz en ce moment, t'es du genre à vouloir la tester direct ?",
+        "relance": "Moi je serais le premier à la queue pour l'essayer. Et toi plutôt curieux ou prudent ?"
       },
       {
-        "accroche": "La tech bouge tellement vite ces temps-ci, vous trouvez ça grisant ou un peu vertigineux ?",
-        "relance": "Moi ça me donne un frisson d excitation à chaque fois. Vous, vous vivez ça comment ?"
+        "accroche": "La tech bouge tellement vite en ce moment, tu trouves ça grisant ou un peu vertigineux ?",
+        "relance": "Moi ça me donne un frisson d'excitation à chaque fois. Et toi tu vis ça comment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, vous imaginez notre quotidien à quoi dans dix ans avec la vitesse où ça va ?",
-        "relance": "Moi je vois des trucs de science-fiction devenir réels. Et vous, votre vision du futur ce serait quoi ?"
+        "accroche": "Je me demandais, tu imagines notre quotidien à quoi dans dix ans avec la vitesse où ça va ?",
+        "relance": "Moi je vois des trucs de science-fiction devenir réels. Et toi ta vision du futur ce serait quoi ?"
       },
       {
-        "accroche": "D après vous, c est l innovation qui change le monde ou juste la façon dont on l utilise ?",
-        "relance": "Moi je pense que tout est dans l usage qu on en fait. Vous, vous voyez ça comment ?"
+        "accroche": "D'après toi, c'est l'innovation qui change le monde ou juste la façon dont on l'utilise ?",
+        "relance": "Moi je pense que tout est dans l'usage qu'on en fait. Et toi tu vois ça comment ?"
       },
       {
-        "accroche": "Si vous pouviez travailler sur une seule techno du futur, vous choisiriez quoi ?",
-        "relance": "Moi je rêverais de bosser sur l espace et les fusées. Et vous, votre domaine de rêve ?"
+        "accroche": "Si tu pouvais bosser sur une seule techno du futur, tu choisirais quoi ?",
+        "relance": "Moi je rêverais de bosser sur l'espace et les fusées. Et toi ton domaine de rêve ?"
       },
       {
-        "accroche": "Vous croyez qu on finira tous entourés de robots ou que la place de l humain restera intacte ?",
-        "relance": "Moi je veux croire qu on gardera notre côté humain. Vous, vous êtes optimiste là-dessus ?"
+        "accroche": "Tu crois qu'on finira tous entourés de robots ou que la place de l'humain restera intacte ?",
+        "relance": "Moi je veux croire qu'on gardera notre côté humain. Et toi t'es optimiste là-dessus ?"
       }
     ]
   },
@@ -44687,56 +44687,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre porte-clés là c est bien un perso de jeu culte, non ? Ça me dit qu on partage peut-être une passion, vous jouez beaucoup ?",
-        "relance": "Moi je peux y passer mes soirées entières. Et vous, plutôt joueur du dimanche ou vraiment accro ?"
+        "accroche": "Ton porte-clés là c'est bien un perso de jeu culte, non ? On partage peut-être une passion, tu joues beaucoup ?",
+        "relance": "Moi je peux y passer mes soirées entières. Et toi plutôt joueur du dimanche ou vraiment accro ?"
       },
       {
-        "accroche": "J ai reconnu le logo sur votre tee-shirt, c est un jeu que vous avez usé jusqu au bout ?",
-        "relance": "Moi il y en a un que j ai fini dix fois sans m en lasser. Vous, il y en a un comme ça pour vous ?"
+        "accroche": "J'ai reconnu le logo sur ton tee-shirt, c'est un jeu que t'as usé jusqu'au bout ?",
+        "relance": "Moi y en a un que j'ai fini dix fois sans m'en lasser. Et toi y en a un comme ça pour toi ?"
       },
       {
-        "accroche": "Vous avez des réflexes de manette rien qu à votre façon de bouger, je me trompe ou vous êtes joueur ?",
-        "relance": "Moi la manette c est presque une extension de ma main. Et vous, vous jouez sur quoi de préférence ?"
+        "accroche": "T'as des réflexes de manette rien qu'à ta façon de bouger, je me trompe ou t'es joueur ?",
+        "relance": "Moi la manette c'est presque une extension de ma main. Et toi tu joues sur quoi de préférence ?"
       },
       {
-        "accroche": "Votre casquette a un vrai vibe gaming, vous suivez un univers de jeu en particulier ?",
-        "relance": "Moi il y a une saga qui m accompagne depuis l enfance. Vous, vous avez un univers de cœur ?"
+        "accroche": "Ta casquette a un vrai vibe gaming, tu suis un univers de jeu en particulier ?",
+        "relance": "Moi y a une saga qui m'accompagne depuis l'enfance. Et toi t'as un univers de cœur ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a plein de sorties de jeux, vous avez craqué sur quelque chose récemment ?",
-        "relance": "Moi ma pile de jeux à finir déborde. Et vous, vous arrivez à suivre toutes les sorties ?"
+        "accroche": "En ce moment y a plein de sorties de jeux, t'as craqué sur un truc récemment ?",
+        "relance": "Moi ma pile de jeux à finir déborde. Et toi t'arrives à suivre toutes les sorties ?"
       },
       {
-        "accroche": "Il y a un jeu dont tout le monde parle en ce moment, vous vous êtes lancé dedans ou pas encore ?",
-        "relance": "Moi j y joue à fond, impossible de décrocher. Vous, vous suivez la hype ou vous attendez ?"
+        "accroche": "Y a un jeu dont tout le monde parle en ce moment, tu t'es lancé dedans ou pas encore ?",
+        "relance": "Moi j'y joue à fond, impossible de décrocher. Et toi tu suis la hype ou tu attends ?"
       },
       {
-        "accroche": "C est la période où les gros titres débarquent, vous êtes plutôt à l affût ou vous jouez à votre rythme ?",
-        "relance": "Moi je précommande toujours, c est plus fort que moi. Et vous, patient ou impatient ?"
+        "accroche": "C'est la période où les gros titres débarquent, plutôt à l'affût ou tu joues à ton rythme toi ?",
+        "relance": "Moi je précommande toujours, c'est plus fort que moi. Et toi patient ou impatient ?"
       },
       {
-        "accroche": "On entend parler d une grosse nouveauté partout ces temps-ci, elle vous tente ou pas du tout ?",
-        "relance": "Moi je suis déjà à fond dedans. Vous, votre genre de jeu préféré c est quoi en ce moment ?"
+        "accroche": "On entend parler d'une grosse nouveauté partout en ce moment, elle te tente ou pas du tout ?",
+        "relance": "Moi je suis déjà à fond dedans. Et toi ton genre de jeu préféré c'est quoi en ce moment ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me demandais, ce qui vous accroche dans un jeu c est plutôt l histoire ou le défi ?",
-        "relance": "Moi c est une bonne histoire qui me garde jusqu au bout. Et vous, vous jouez pour quoi avant tout ?"
+        "accroche": "Je me demandais, ce qui t'accroche dans un jeu c'est plutôt l'histoire ou le défi ?",
+        "relance": "Moi c'est une bonne histoire qui me garde jusqu'au bout. Et toi tu joues pour quoi avant tout ?"
       },
       {
-        "accroche": "Si vous ne deviez garder qu un seul jeu de toute votre vie, ce serait lequel sans hésiter ?",
-        "relance": "Moi il y en a un qui a bercé toute mon enfance. Vous, ça vous vient tout de suite ?"
+        "accroche": "Si tu devais garder qu'un seul jeu de toute ta vie, ce serait lequel sans hésiter ?",
+        "relance": "Moi y en a un qui a bercé toute mon enfance. Et toi ça te vient tout de suite ?"
       },
       {
-        "accroche": "Vous croyez qu on garde toujours en tête les jeux qui nous ont marqués petit ?",
-        "relance": "Moi certains je m en souviens dans les moindres détails. Et vous, un jeu resté gravé ?"
+        "accroche": "Tu crois qu'on garde toujours en tête les jeux qui nous ont marqués petit ?",
+        "relance": "Moi certains je m'en souviens dans les moindres détails. Et toi un jeu resté gravé ?"
       },
       {
-        "accroche": "D après vous, le jeu vidéo c est surtout pour se détendre ou pour le vrai défi de progresser ?",
-        "relance": "Moi ça dépend vraiment de mon humeur du soir. Vous, vous cherchez quoi quand vous jouez ?"
+        "accroche": "D'après toi, le jeu vidéo c'est surtout pour se détendre ou pour le vrai défi de progresser ?",
+        "relance": "Moi ça dépend vraiment de mon humeur du soir. Et toi tu cherches quoi quand tu joues ?"
       }
     ]
   },
@@ -44759,56 +44759,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit air de quelqu un qui a passé la nuit sur une partie, je me trompe ?",
-        "relance": "Moi ça m arrive de dire encore une partie et de finir à pas d heure. Et vous, ça vous fait ça aussi ?"
+        "accroche": "T'as un petit air de quelqu'un qui a passé la nuit sur une partie, je me trompe ?",
+        "relance": "Moi ça m'arrive de dire encore une partie et de finir à pas d'heure. Et toi ça te fait ça aussi ?"
       },
       {
-        "accroche": "Votre badge est trop rigolo, on dirait un clin d œil à un jeu rétro, c est voulu ?",
-        "relance": "Moi j ai une vraie tendresse pour les vieux jeux de mon enfance. Vous, vous êtes nostalgique aussi ?"
+        "accroche": "Ton badge est trop rigolo, on dirait un clin d'œil à un jeu rétro, c'est voulu ?",
+        "relance": "Moi j'ai une vraie tendresse pour les vieux jeux de mon enfance. Et toi t'es nostalgique aussi ?"
       },
       {
-        "accroche": "Vous tapotez sur votre téléphone d une manière très gaming, un petit jeu qui vous occupe en ce moment ?",
-        "relance": "Moi j ai toujours un petit jeu pour patienter. Et vous, vous jouez plutôt sur mobile ou console ?"
+        "accroche": "Tu tapotes sur ton téléphone d'une manière très gaming, un petit jeu qui t'occupe en ce moment ?",
+        "relance": "Moi j'ai toujours un petit jeu pour patienter. Et toi tu joues plutôt sur mobile ou console ?"
       },
       {
-        "accroche": "Vous avez l air détendu, je parie que vous sortez d une bonne session de jeu, non ?",
-        "relance": "Moi rien de tel qu une partie pour décompresser. Vous, ça vous détend aussi les jeux ?"
+        "accroche": "T'as l'air détendu, je parie que tu sors d'une bonne session de jeu, non ?",
+        "relance": "Moi rien de tel qu'une partie pour décompresser. Et toi ça te détend aussi les jeux ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec ce temps ça donne juste envie de se poser manette en main, c est votre genre de journée idéale ?",
-        "relance": "Moi une journée comme ça sans jouer un peu ce serait triste. Et vous, vous en profitez comment ?"
+        "accroche": "Avec ce temps ça donne juste envie de se poser manette en main, c'est ta journée idéale toi ?",
+        "relance": "Moi une journée comme ça sans jouer un peu ce serait triste. Et toi t'en profites comment ?"
       },
       {
-        "accroche": "C est typiquement le moment de ressortir un bon jeu au chaud, vous auriez un titre doudou à conseiller ?",
-        "relance": "Moi j ai toujours un jeu réconfort sous le coude. Vous, il y en a un que vous relancez souvent ?"
+        "accroche": "C'est typiquement le moment de ressortir un bon jeu au chaud, t'aurais un titre doudou à conseiller ?",
+        "relance": "Moi j'ai toujours un jeu réconfort sous le coude. Et toi y en a un que tu relances souvent ?"
       },
       {
-        "accroche": "Les journées comme ça sont parfaites pour avancer sur un jeu, vous êtes plutôt marathon ou petites sessions ?",
-        "relance": "Moi je peux enchaîner des heures sans voir le temps passer. Et vous, vous tenez la distance ?"
+        "accroche": "Les journées comme ça sont parfaites pour avancer sur un jeu, plutôt marathon ou petites sessions toi ?",
+        "relance": "Moi je peux enchaîner des heures sans voir le temps passer. Et toi tu tiens la distance ?"
       },
       {
-        "accroche": "On a tous un jeu qui traîne qu on n a jamais fini, vous en avez un qui vous attend en ce moment ?",
-        "relance": "Moi j en ai une pile entière jamais terminée. Vous, vous finissez vos jeux ou pas trop ?"
+        "accroche": "On a tous un jeu qui traîne qu'on n'a jamais fini, t'en as un qui t'attend en ce moment ?",
+        "relance": "Moi j'en ai une pile entière jamais terminée. Et toi tu finis tes jeux ou pas trop ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous jouez surtout pour vous détendre ou pour le petit frisson de gagner ?",
-        "relance": "Moi c est la détente qui prime largement. Et vous, votre moteur quand vous jouez c est quoi ?"
+        "accroche": "Au fond, tu joues surtout pour te détendre ou pour le petit frisson de gagner ?",
+        "relance": "Moi c'est la détente qui prime largement. Et toi ton moteur quand tu joues c'est quoi ?"
       },
       {
-        "accroche": "Vous vous souvenez de la toute première console à laquelle vous avez joué ? Ça remonte, non ?",
-        "relance": "Moi ma première console je m en souviens comme si c était hier. Vous, c était quoi la vôtre ?"
+        "accroche": "Tu te souviens de la toute première console à laquelle t'as joué ? Ça remonte, non ?",
+        "relance": "Moi ma première console je m'en souviens comme si c'était hier. Et toi c'était quoi la tienne ?"
       },
       {
-        "accroche": "Il paraît qu on associe toujours certains jeux à des souvenirs précis, ça vous fait ça aussi ?",
-        "relance": "Moi certains jeux me replongent direct dans mon enfance. Et vous, un jeu comme ça ?"
+        "accroche": "Paraît qu'on associe toujours certains jeux à des souvenirs précis, ça te fait ça aussi ?",
+        "relance": "Moi certains jeux me replongent direct dans mon enfance. Et toi un jeu comme ça ?"
       },
       {
-        "accroche": "Vous préférez jouer tout seul tranquille ou à plusieurs dans l ambiance ?",
-        "relance": "Moi ça dépend de mon humeur mais à plusieurs c est vite marrant. Vous, plutôt solo ou en groupe ?"
+        "accroche": "Tu préfères jouer tout seul tranquille ou à plusieurs dans l'ambiance ?",
+        "relance": "Moi ça dépend de mon humeur mais à plusieurs c'est vite marrant. Et toi plutôt solo ou en groupe ?"
       }
     ]
   },
@@ -44831,56 +44831,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez tout du joueur aguerri à voir votre style, je peux vous voler un conseil pour un jeu qui vaut le coup ?",
-        "relance": "Moi je tourne en rond sur mes vieux jeux. Et vous, votre dernier gros coup de cœur c était quoi ?"
+        "accroche": "T'as tout du joueur aguerri à voir ton style, je peux te voler un conseil pour un jeu qui vaut le coup ?",
+        "relance": "Moi je tourne en rond sur mes vieux jeux. Et toi ton dernier gros coup de cœur c'était quoi ?"
       },
       {
-        "accroche": "Votre look a un côté connaisseur, vous auriez une pépite un peu méconnue à me souffler ?",
-        "relance": "Moi j adore les jeux dont personne ne parle. Vous, ça vous arrive d en dénicher des perles ?"
+        "accroche": "Ton look a un côté connaisseur, t'aurais une pépite un peu méconnue à me souffler ?",
+        "relance": "Moi j'adore les jeux dont personne parle. Et toi ça t'arrive d'en dénicher des perles ?"
       },
       {
-        "accroche": "Rien qu à votre attitude je vous sens fin joueur, quel jeu vous a le plus surpris récemment ?",
-        "relance": "Moi j attends toujours d être bluffé par un univers. Et vous, qu est-ce qui vous surprend encore ?"
+        "accroche": "Rien qu'à ton attitude je te sens fin joueur, quel jeu t'a le plus surpris récemment ?",
+        "relance": "Moi j'attends toujours d'être bluffé par un univers. Et toi qu'est-ce qui te surprend encore ?"
       },
       {
-        "accroche": "Vous avez l air d avoir tout essayé, un jeu à me conseiller pour vraiment m immerger ?",
-        "relance": "Moi je cherche un truc qui me happe pendant des semaines. Vous, vous savez ce qui accroche ?"
+        "accroche": "T'as l'air d'avoir tout essayé, un jeu à me conseiller pour vraiment m'immerger ?",
+        "relance": "Moi je cherche un truc qui me happe pendant des semaines. Et toi tu sais ce qui accroche ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je cherche un nouveau jeu à lancer et je sèche complètement, vous auriez une idée à me donner ?",
-        "relance": "Moi je passe plus de temps à choisir qu à jouer. Et vous, vous vous décidez vite ou pas ?"
+        "accroche": "Je cherche un nouveau jeu à lancer et je sèche complet, t'aurais une idée à me donner ?",
+        "relance": "Moi je passe plus de temps à choisir qu'à jouer. Et toi tu te décides vite ou pas ?"
       },
       {
-        "accroche": "Avec toutes les sorties du moment je suis perdu, vous en avez testé une qui sort du lot ?",
-        "relance": "Moi je me fie beaucoup aux avis autour de moi. Vous, vous suivez les recommandations ou votre instinct ?"
+        "accroche": "Avec toutes les sorties du moment je suis paumé, t'en as testé une qui sort du lot ?",
+        "relance": "Moi je me fie beaucoup aux avis autour de moi. Et toi tu suis les recos ou ton instinct ?"
       },
       {
-        "accroche": "Il y a un jeu dont tout le monde parle en ce moment, ça vaut vraiment le détour selon vous ?",
-        "relance": "Moi je suis toujours le dernier à m y mettre. Et vous, vous suivez les tendances de près ?"
+        "accroche": "Y a un jeu dont tout le monde parle en ce moment, ça vaut vraiment le détour selon toi ?",
+        "relance": "Moi je suis toujours le dernier à m'y mettre. Et toi tu suis les tendances de près ?"
       },
       {
-        "accroche": "J ai des soirées libres à venir et zéro idée de jeu, vous conseilleriez quoi pour bien s occuper ?",
-        "relance": "Moi je vise le jeu qui tient sur la durée. Vous, vous avez une valeur sûre comme ça ?"
+        "accroche": "J'ai des soirées libres à venir et zéro idée de jeu, tu conseillerais quoi pour bien s'occuper ?",
+        "relance": "Moi je vise le jeu qui tient sur la durée. Et toi t'as une valeur sûre comme ça ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Si vous ne deviez conseiller qu un seul jeu à quelqu un qui débute, ce serait lequel ?",
-        "relance": "Moi j hésite toujours à embarquer les gens dans mes préférés trop exigeants. Et vous, vous oseriez quoi ?"
+        "accroche": "Si tu devais conseiller qu'un seul jeu à quelqu'un qui débute, ce serait lequel ?",
+        "relance": "Moi j'hésite toujours à embarquer les gens dans mes préférés trop exigeants. Et toi t'oserais quoi ?"
       },
       {
-        "accroche": "D après vous, pour choisir un bon jeu on suit les critiques ou surtout son feeling ?",
-        "relance": "Moi je me plante moins en suivant mon instinct. Vous, vous faites confiance à quoi ?"
+        "accroche": "D'après toi, pour choisir un bon jeu on suit les critiques ou surtout son feeling ?",
+        "relance": "Moi je me plante moins en suivant mon instinct. Et toi tu fais confiance à quoi ?"
       },
       {
-        "accroche": "C est quoi selon vous le signe qu un jeu mérite vraiment qu on le recommande à tout le monde ?",
-        "relance": "Moi c est quand j y repense encore une fois éteint. Et vous, votre critère c est lequel ?"
+        "accroche": "C'est quoi selon toi le signe qu'un jeu mérite vraiment qu'on le recommande à tout le monde ?",
+        "relance": "Moi c'est quand j'y repense encore une fois éteint. Et toi ton critère c'est lequel ?"
       },
       {
-        "accroche": "Vous pensez qu un jeu peut plaire à absolument tout le monde, ou c est toujours une question de goût ?",
-        "relance": "Moi je crois qu il existe deux ou trois jeux universels. Vous, vous en verriez un comme ça ?"
+        "accroche": "Tu penses qu'un jeu peut plaire à absolument tout le monde, ou c'est toujours une question de goût ?",
+        "relance": "Moi je crois qu'il existe deux ou trois jeux universels. Et toi t'en verrais un comme ça ?"
       }
     ]
   },
@@ -44903,56 +44903,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Votre pin s là c est bien une référence à un jeu culte, non ? Ça me dit qu on est peut-être de la même team, vous jouez à fond ?",
-        "relance": "Moi je vis à moitié dans mes jeux, j assume. Et vous, jusqu où va votre passion ?"
+        "accroche": "Ton pin's là c'est un jeu culte non ? On est de la même team j'ai l'impression.",
+        "relance": "Moi je vis à moitié dans mes jeux j'avoue. Toi t'y passes combien de temps ?"
       },
       {
-        "accroche": "J adore votre sac avec ce perso de jeu, ça sent le vrai passionné, je me trompe ?",
-        "relance": "Moi je collectionne tout ce qui touche à mes jeux préférés. Vous, vous êtes fan à ce point aussi ?"
+        "accroche": "Trop bien ton sac avec le perso, t'es un vrai passionné toi.",
+        "relance": "Moi je collectionne tout ce qui touche à mes jeux préférés. Toi t'es fan à ce point aussi ?"
       },
       {
-        "accroche": "Vous dégagez une énergie de quelqu un qui vient de gagner une grosse partie, je me trompe ?",
-        "relance": "Moi une victoire serrée me met sur un nuage. Et vous, vous êtes plutôt compétiteur ou tranquille ?"
+        "accroche": "T'as une énergie de quelqu'un qui vient de win une grosse partie j'te jure.",
+        "relance": "Moi une victoire serrée ça me met sur un nuage. Toi t'es plutôt compétiteur ou tranquille ?"
       },
       {
-        "accroche": "Votre style a un vrai côté gaming assumé, vous suivez la scène de près, les nouveautés, tout ça ?",
-        "relance": "Moi je suis l actu jeu vidéo comme d autres suivent le foot. Vous, vous êtes branché comme ça aussi ?"
+        "accroche": "Ton style il est gaming à fond, tu suis les nouveautés et tout ?",
+        "relance": "Moi je suis l'actu jeux vidéo comme d'autres suivent le foot. Toi aussi t'es branché comme ça ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a un jeu qui fait un carton et crée plein de discussions, vous êtes dans le sujet ?",
-        "relance": "Moi j adore quand un jeu passionne tout le monde. Et vous, vous en pensez quoi de celui-là ?"
+        "accroche": "Y a un jeu qui fait un carton en ce moment, t'es dans le sujet ?",
+        "relance": "Moi j'adore quand un jeu passionne tout le monde. Toi t'en penses quoi de celui-là ?"
       },
       {
-        "accroche": "C est la saison des grosses sorties et des annonces, vous arrivez à tout suivre ou vous êtes largué ?",
-        "relance": "Moi j ai abandonné l idée de tout faire, c est trop. Vous, vous faites le tri comment ?"
+        "accroche": "C'est la saison des grosses sorties, t'arrives à suivre ou t'es largué ?",
+        "relance": "Moi j'ai lâché l'idée de tout faire, c'est trop. Toi tu fais le tri comment ?"
       },
       {
-        "accroche": "Il y a une compétition qui fait beaucoup parler ces temps-ci, vous suivez l esport un peu ou pas du tout ?",
-        "relance": "Moi je regarde les gros tournois comme des matchs. Et vous, ça vous branche la scène compétitive ?"
+        "accroche": "Y a une compét' qui fait grave parler ces temps-ci, tu suis l'esport un peu ?",
+        "relance": "Moi je regarde les gros tournois comme des matchs. Toi ça te branche la scène compét' ?"
       },
       {
-        "accroche": "On parle d une nouveauté partout en ce moment, vous êtes déjà dedans ou vous attendez les avis ?",
-        "relance": "Moi je fonce toujours dès la sortie. Vous, plutôt tête brûlée ou vous laissez décanter ?"
+        "accroche": "On parle d'une nouveauté partout là, t'es déjà dedans ou t'attends les avis ?",
+        "relance": "Moi je fonce toujours dès la sortie. Toi plutôt tête brûlée ou tu laisses décanter ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Je me pose souvent la question, on s attache plus à un jeu pour son gameplay ou pour son univers ?",
-        "relance": "Moi c est toujours l univers qui me happe en premier. Et vous, vous accrochez à quoi d abord ?"
+        "accroche": "En vrai on s'attache à un jeu pour son gameplay ou pour son univers tu penses ?",
+        "relance": "Moi c'est toujours l'univers qui me happe en premier. Toi t'accroches à quoi d'abord ?"
       },
       {
-        "accroche": "Vous croyez qu on peut vraiment connaître quelqu un rien qu à ses jeux préférés ?",
-        "relance": "Moi je pense que ça en dit long sur une personne. Vous, vos jeux racontent quoi de vous ?"
+        "accroche": "Tu crois qu'on peut cerner quelqu'un juste avec ses jeux préférés ?",
+        "relance": "Moi je trouve que ça en dit long. Tes jeux ils racontent quoi de toi ?"
       },
       {
-        "accroche": "Entre gros jeux à rallonge et petites expériences courtes, vous préférez quoi au fond ?",
-        "relance": "Moi j aime bien qu un jeu me tienne des dizaines d heures. Et vous, plutôt épopée ou format court ?"
+        "accroche": "Entre les gros jeux à rallonge et les petites expériences courtes, tu préfères quoi ?",
+        "relance": "Moi j'aime bien qu'un jeu me tienne des dizaines d'heures. Toi plutôt épopée ou format court ?"
       },
       {
-        "accroche": "D après vous, le jeu vidéo se vit mieux seul dans sa bulle ou en communauté avec d autres joueurs ?",
-        "relance": "Moi j adore les deux mais la commu a un truc en plus. Vous, vous penchez de quel côté ?"
+        "accroche": "Le jeu vidéo ça se vit mieux seul dans sa bulle ou en commu tu trouves ?",
+        "relance": "Moi j'adore les deux mais la commu a un truc en plus. Toi tu penches de quel côté ?"
       }
     ]
   },
@@ -44975,56 +44975,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Je vous vois jeter un oeil aux titres du jour, vous suivez un peu ce qui se passe en ce moment ?",
-        "relance": "Moi je picore les infos le matin sans trop m y noyer, et vous, plutôt du matin ou du soir pour ça ?"
+        "accroche": "Je te vois jeter un oeil aux titres du jour, tu suis un peu ce qui se passe ?",
+        "relance": "Moi je picore les infos le matin sans trop m'y noyer. Toi plutôt du matin ou du soir pour ça ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un qui aime rester au courant, il y a une actu qui vous a marqué récemment ?",
-        "relance": "Moi c est souvent les petites histoires insolites qui me restent, et vous, quel genre d info vous accroche ?"
+        "accroche": "T'as l'air de quelqu'un qui aime rester au courant, y a une actu qui t'a marqué récemment ?",
+        "relance": "Moi c'est souvent les petites histoires insolites qui me restent. Toi quel genre d'info t'accroche ?"
       },
       {
-        "accroche": "On sent que vous ne ratez pas grand chose de l actu, vous avez une source préférée pour vous informer ?",
-        "relance": "Moi je jongle entre deux ou trois, et vous, vous êtes fidèle à un seul média ou vous butinez ?"
+        "accroche": "On sent que tu rates pas grand chose de l'actu, t'as une source préférée ?",
+        "relance": "Moi je jongle entre deux ou trois. Toi t'es fidèle à un seul média ou tu butines ?"
       },
       {
-        "accroche": "Vous donnez l impression d avoir toujours une longueur d avance sur les nouvelles, c est un truc à vous ?",
-        "relance": "Moi j adore être celui qui raconte le scoop, et vous, vous préférez savoir ou être surpris ?"
+        "accroche": "T'as toujours une longueur d'avance sur les nouvelles on dirait, c'est un truc à toi ?",
+        "relance": "Moi j'adore être celui qui balance le scoop. Toi tu préfères savoir ou être surpris ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il se passe tellement de choses qu on a du mal à tout suivre, vous arrivez à faire le tri ?",
-        "relance": "Moi je décroche vite quand ça part dans tous les sens, et vous, comment vous gardez le cap ?"
+        "accroche": "En ce moment il se passe tellement de trucs qu'on suit plus rien, t'arrives à faire le tri ?",
+        "relance": "Moi je décroche vite quand ça part dans tous les sens. Toi tu gardes le cap comment ?"
       },
       {
-        "accroche": "Il y a eu pas mal de nouvelles cette semaine, vous en avez retenu une qui sort du lot ?",
-        "relance": "Moi j ai été bluffé par une histoire toute simple, et vous, quelque chose vous a fait sourire ?"
+        "accroche": "Y a eu pas mal de nouvelles cette semaine, t'en as retenu une qui sort du lot ?",
+        "relance": "Moi j'ai été bluffé par une histoire toute simple. Toi un truc t'a fait sourire ?"
       },
       {
-        "accroche": "On dirait que chaque jour amène son lot de surprises en ce moment, ça vous fatigue ou ça vous amuse ?",
-        "relance": "Moi ça dépend des jours franchement, et vous, vous êtes plutôt du genre à tout suivre ?"
+        "accroche": "Chaque jour amène son lot de surprises en ce moment, ça te fatigue ou ça t'amuse ?",
+        "relance": "Moi ça dépend des jours franchement. Toi t'es plutôt du genre à tout suivre ?"
       },
       {
-        "accroche": "Avec tout ce qui circule ces temps ci, il y a un sujet dont tout le monde parle autour de vous ?",
-        "relance": "Moi j entends souvent parler des mêmes choses, et vous, ça revient beaucoup dans vos discussions ?"
+        "accroche": "Avec tout ce qui circule là, y a un sujet dont tout le monde parle autour de toi ?",
+        "relance": "Moi j'entends souvent parler des mêmes trucs. Toi ça revient beaucoup dans tes discussions ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez qu on est mieux informés qu avant ou juste plus submergés ?",
-        "relance": "Moi j hésite honnêtement, et vous, vous avez l impression d y voir plus clair ou moins ?"
+        "accroche": "En vrai on est mieux informés qu'avant ou juste plus submergés tu penses ?",
+        "relance": "Moi j'hésite honnêtement. Toi t'as l'impression d'y voir plus clair ou moins ?"
       },
       {
-        "accroche": "C est marrant comme deux personnes peuvent vivre la même actu de façon totalement différente, ça vous parle ?",
-        "relance": "Moi je trouve ça fascinant, et vous, vous discutez souvent de ça avec vos proches ?"
+        "accroche": "C'est marrant comme deux personnes vivent la même actu de façon totalement différente.",
+        "relance": "Moi je trouve ça fascinant. Toi tu discutes souvent de ça avec tes proches ?"
       },
       {
-        "accroche": "Vous croyez qu on peut vraiment tout savoir aujourd hui ou qu il faut choisir ses batailles ?",
-        "relance": "Moi j ai lâché prise sur pas mal de sujets, et vous, comment vous vous limitez ?"
+        "accroche": "Tu crois qu'on peut vraiment tout savoir aujourd'hui ou faut choisir ses batailles ?",
+        "relance": "Moi j'ai lâché prise sur pas mal de sujets. Toi tu te limites comment ?"
       },
       {
-        "accroche": "Si vous pouviez ne recevoir que les bonnes nouvelles, vous prendriez ou ça vous manquerait le reste ?",
-        "relance": "Moi j avoue que ça me tenterait bien, et vous, vous tiendriez le coup sans le reste ?"
+        "accroche": "Si tu recevais que les bonnes nouvelles tu prendrais ou le reste te manquerait ?",
+        "relance": "Moi j'avoue que ça me tenterait grave. Toi tu tiendrais sans le reste ?"
       }
     ]
   },
@@ -45047,56 +45047,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air au parfum de tout, vous avez entendu la petite nouvelle qui fait le tour en ce moment ?",
-        "relance": "Moi je l ai croisée trois fois aujourd hui, et vous, ça vous est parvenu aussi ?"
+        "accroche": "T'as l'air au parfum de tout toi, t'as capté la petite news qui fait le tour là ?",
+        "relance": "Moi je l'ai croisée trois fois aujourd'hui. Toi ça t'est parvenu aussi ?"
       },
       {
-        "accroche": "On dirait que rien ne vous échappe, il y a eu un truc léger cette semaine qui vous a fait sourire ?",
-        "relance": "Moi j ai bien rigolé avec une histoire cette semaine, et vous, une qui vous a amusé ?"
+        "accroche": "On dirait que rien t'échappe, y a eu un truc léger cette semaine qui t'a fait sourire ?",
+        "relance": "Moi j'ai bien rigolé avec une histoire cette semaine. Toi une qui t'a amusé ?"
       },
       {
-        "accroche": "Vous semblez du genre à toujours avoir une anecdote fraîche, vous en avez une du moment ?",
-        "relance": "Moi j en collectionne pour les pauses café, et vous, vous aimez raconter ce genre de choses ?"
+        "accroche": "T'as toujours une anecdote fraîche j'ai l'impression, t'en as une du moment ?",
+        "relance": "Moi j'en collectionne pour les pauses café. Toi t'aimes raconter ce genre de trucs ?"
       },
       {
-        "accroche": "Vous donnez l impression de suivre l air du temps, il y a un sujet qui revient partout selon vous ?",
-        "relance": "Moi j entends toujours parler de la même chose ces jours ci, et vous, ça vous saoule un peu ?"
+        "accroche": "Tu suis l'air du temps toi, y a un sujet qui revient partout selon toi ?",
+        "relance": "Moi j'entends toujours parler de la même chose ces jours-ci. Toi ça te saoule un peu ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Il paraît que c est le sujet du moment un peu partout, vous en avez entendu parler vous aussi ?",
-        "relance": "Moi j en ai eu plein les oreilles cette semaine, et vous, on vous en a rebattu les oreilles ?"
+        "accroche": "Il paraît que c'est le sujet du moment un peu partout, t'en as entendu parler aussi ?",
+        "relance": "Moi j'en ai eu plein les oreilles cette semaine. Toi on t'en a rebattu les oreilles ?"
       },
       {
-        "accroche": "Ça bouge pas mal ces jours ci dans l actu, vous avez suivi un truc en particulier ?",
-        "relance": "Moi j ai suivi une histoire de loin, et vous, il y en a une qui vous a tenu en haleine ?"
+        "accroche": "Ça bouge pas mal dans l'actu ces jours-ci, t'as suivi un truc en particulier ?",
+        "relance": "Moi j'ai suivi une histoire de loin. Toi y en a une qui t'a tenu en haleine ?"
       },
       {
-        "accroche": "On ne parle que de ça en ce moment on dirait, vous trouvez que c est mérité ou un peu gonflé ?",
-        "relance": "Moi je trouve que ça prend beaucoup de place, et vous, ça vous intéresse vraiment ?"
+        "accroche": "On parle que de ça en ce moment on dirait, tu trouves ça mérité ou un peu gonflé ?",
+        "relance": "Moi je trouve que ça prend beaucoup de place. Toi ça t'intéresse vraiment ?"
       },
       {
-        "accroche": "Il y a eu une nouvelle plutôt sympa qui circule ces derniers jours, elle est arrivée jusqu à vous ?",
-        "relance": "Moi ça m a mis de bonne humeur, et vous, ça vous a fait quoi si vous l avez vue ?"
+        "accroche": "Y a une nouvelle plutôt sympa qui circule ces derniers jours, elle est arrivée jusqu'à toi ?",
+        "relance": "Moi ça m'a mis de bonne humeur. Toi ça t'a fait quoi si tu l'as vue ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "C est fou comme certaines nouvelles font le tour en deux jours, vous trouvez que ça va trop vite ?",
-        "relance": "Moi j ai parfois du mal à suivre le rythme, et vous, ça vous étourdit un peu tout ça ?"
+        "accroche": "C'est fou comme certaines news font le tour en deux jours, tu trouves que ça va trop vite ?",
+        "relance": "Moi j'ai parfois du mal à suivre le rythme. Toi ça t'étourdit un peu tout ça ?"
       },
       {
-        "accroche": "Vous pensez que les gens parlent plus de l actu qu avant ou c est juste une impression ?",
-        "relance": "Moi j ai l impression que c est partout maintenant, et vous, vous le ressentez comme ça ?"
+        "accroche": "Les gens parlent plus de l'actu qu'avant ou c'est juste une impression tu penses ?",
+        "relance": "Moi j'ai l'impression que c'est partout maintenant. Toi tu le ressens comme ça ?"
       },
       {
-        "accroche": "Au fond, une bonne nouvelle ça se partage plus facilement qu une mauvaise vous croyez ?",
-        "relance": "Moi je dirais l inverse malheureusement, et vous, vous voyez ça comment ?"
+        "accroche": "En vrai une bonne nouvelle ça se partage plus facile qu'une mauvaise tu crois ?",
+        "relance": "Moi je dirais l'inverse malheureusement. Toi tu vois ça comment ?"
       },
       {
-        "accroche": "Vous préférez discuter des grandes nouvelles ou des petites histoires du quotidien ?",
-        "relance": "Moi j ai un faible pour les petites histoires, et vous, ça vous parle plus aussi ?"
+        "accroche": "Tu préfères parler des grandes nouvelles ou des petites histoires du quotidien ?",
+        "relance": "Moi j'ai un faible pour les petites histoires. Toi ça te parle plus aussi ?"
       }
     ]
   },
@@ -45119,56 +45119,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui suit bien l actu sans stresser, vous auriez une astuce à me donner ?",
-        "relance": "Moi je me sens vite débordé par tout ça, et vous, comment vous faites pour rester zen ?"
+        "accroche": "T'as l'air de suivre l'actu sans stresser toi, t'aurais une astuce à me filer ?",
+        "relance": "Moi je me sens vite débordé par tout ça. Toi tu fais comment pour rester zen ?"
       },
       {
-        "accroche": "On dirait que vous savez faire le tri dans les infos, vous vous fiez à quoi pour choisir ?",
-        "relance": "Moi je ne sais jamais quoi croire, et vous, vous avez un repère qui marche ?"
+        "accroche": "On dirait que tu sais faire le tri dans les infos, tu te fies à quoi pour choisir ?",
+        "relance": "Moi je sais jamais quoi croire. Toi t'as un repère qui marche ?"
       },
       {
-        "accroche": "Vous semblez toujours bien informé, vous pourriez me conseiller une source fiable et pas prise de tête ?",
-        "relance": "Moi je cherche un truc simple à suivre, et vous, vous avez trouvé votre bonheur quelque part ?"
+        "accroche": "T'as l'air toujours bien informé, tu me conseillerais une source fiable et pas prise de tête ?",
+        "relance": "Moi je cherche un truc simple à suivre. Toi t'as trouvé ton bonheur quelque part ?"
       },
       {
-        "accroche": "Vous avez l air posé face à toutes ces nouvelles, comment vous évitez d en avoir marre ?",
-        "relance": "Moi j ai tendance à tout couper d un coup, et vous, vous dosez comment ?"
+        "accroche": "T'as l'air posé face à toutes ces news, tu fais comment pour pas en avoir marre ?",
+        "relance": "Moi j'ai tendance à tout couper d'un coup. Toi tu doses comment ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Avec toutes les infos qui tombent en ce moment, je ne sais plus où donner de la tête, vous gérez ça comment ?",
-        "relance": "Moi je suis un peu perdu là, et vous, vous avez une méthode pour vous y retrouver ?"
+        "accroche": "Avec toutes les infos qui tombent là je sais plus où donner de la tête, tu gères ça comment ?",
+        "relance": "Moi je suis un peu perdu là. Toi t'as une méthode pour t'y retrouver ?"
       },
       {
-        "accroche": "Il y a tellement de sources différentes aujourd hui, vous auriez un conseil pour ne pas se faire avoir ?",
-        "relance": "Moi je doute souvent de ce que je lis, et vous, vous recoupez comment ?"
+        "accroche": "Y a tellement de sources différentes aujourd'hui, t'aurais un conseil pour pas se faire avoir ?",
+        "relance": "Moi je doute souvent de ce que je lis. Toi tu recoupes comment ?"
       },
       {
-        "accroche": "En ce moment c est dur de savoir ce qui est vrai, vous faites confiance à quoi de votre côté ?",
-        "relance": "Moi je nage un peu, et vous, vous avez un truc pour vérifier vite fait ?"
+        "accroche": "En ce moment c'est chaud de savoir ce qui est vrai, tu fais confiance à quoi toi ?",
+        "relance": "Moi je nage un peu. Toi t'as un truc pour vérifier vite fait ?"
       },
       {
-        "accroche": "Je me demandais comment rester informé sans y passer des heures, vous avez une bonne routine ?",
-        "relance": "Moi je perds trop de temps là dedans, et vous, vous avez trouvé le bon dosage ?"
+        "accroche": "Je me demandais comment rester informé sans y passer des heures, t'as une bonne routine ?",
+        "relance": "Moi je perds trop de temps là-dedans. Toi t'as trouvé le bon dosage ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "À votre avis, vaut il mieux suivre l actu un peu chaque jour ou faire le point une fois par semaine ?",
-        "relance": "Moi j hésite entre les deux, et vous, qu est ce qui marche le mieux pour vous ?"
+        "accroche": "À ton avis vaut mieux suivre l'actu un peu chaque jour ou faire le point une fois par semaine ?",
+        "relance": "Moi j'hésite entre les deux. Toi qu'est-ce qui marche le mieux ?"
       },
       {
-        "accroche": "Vous pensez qu il faut suivre beaucoup de sujets ou se concentrer sur ceux qui nous touchent vraiment ?",
-        "relance": "Moi je m éparpille trop souvent, et vous, vous vous êtes fixé des limites ?"
+        "accroche": "Tu penses qu'il faut suivre plein de sujets ou se concentrer sur ceux qui nous touchent vraiment ?",
+        "relance": "Moi je m'éparpille trop souvent. Toi tu t'es fixé des limites ?"
       },
       {
-        "accroche": "Selon vous, comment on garde un esprit critique sans devenir méfiant de tout ?",
-        "relance": "Moi je bascule vite dans la méfiance, et vous, vous gardez l équilibre comment ?"
+        "accroche": "Selon toi on garde un esprit critique sans devenir méfiant de tout comment ?",
+        "relance": "Moi je bascule vite dans la méfiance. Toi tu gardes l'équilibre comment ?"
       },
       {
-        "accroche": "Vous conseilleriez plutôt de lire, d écouter ou de regarder pour bien s informer aujourd hui ?",
-        "relance": "Moi je suis plutôt lecture, et vous, quel format vous semble le plus fiable ?"
+        "accroche": "Tu conseillerais plutôt de lire, d'écouter ou de regarder pour bien s'informer aujourd'hui ?",
+        "relance": "Moi je suis plutôt lecture. Toi quel format te semble le plus fiable ?"
       }
     ]
   },
@@ -45191,56 +45191,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une tête de personne qui aime bien débattre des nouvelles, je me trompe ?",
-        "relance": "Moi j adore échanger des points de vue tranquillement, et vous, ça vous tente ce genre d échange ?"
+        "accroche": "T'as une tête à aimer débattre des news toi, je me trompe ?",
+        "relance": "Moi j'adore échanger des points de vue tranquille. Toi ça te tente ce genre d'échange ?"
       },
       {
-        "accroche": "Je vous imagine bien du genre à commenter l actu avec vos proches, c est le cas ?",
-        "relance": "Moi c est un rituel avec mes amis, et vous, vous avez vos partenaires de discussion ?"
+        "accroche": "Je t'imagine bien du genre à commenter l'actu avec tes proches, c'est le cas ?",
+        "relance": "Moi c'est un rituel avec mes potes. Toi t'as tes partenaires de discussion ?"
       },
       {
-        "accroche": "Vous dégagez un côté curieux de tout, il y a un domaine d actu qui vous passionne plus que les autres ?",
-        "relance": "Moi j ai un faible pour les découvertes et la science, et vous, votre terrain de jeu c est quoi ?"
+        "accroche": "T'as un côté curieux de tout, y a un domaine d'actu qui te passionne plus que les autres ?",
+        "relance": "Moi j'ai un faible pour les découvertes et la science. Toi ton terrain de jeu c'est quoi ?"
       },
       {
-        "accroche": "On dirait que vous aimez comprendre le pourquoi des choses, ça vous vient d où cette curiosité ?",
-        "relance": "Moi ça me vient de l enfance je crois, et vous, vous avez toujours été comme ça ?"
+        "accroche": "On dirait que t'aimes comprendre le pourquoi des choses, ça te vient d'où cette curiosité ?",
+        "relance": "Moi ça me vient de l'enfance je crois. Toi t'as toujours été comme ça ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a de quoi discuter des heures avec tout ce qui se passe, ça vous inspire ?",
-        "relance": "Moi je pourrais en parler sans fin, et vous, vous êtes plutôt du genre à écouter ou à raconter ?"
+        "accroche": "En ce moment y a de quoi discuter des heures avec tout ce qui se passe, ça t'inspire ?",
+        "relance": "Moi je pourrais en parler sans fin. Toi t'es plutôt du genre à écouter ou à raconter ?"
       },
       {
-        "accroche": "Il y a une nouvelle cette semaine qui a lancé pas mal de discussions autour de moi, et de votre côté ?",
-        "relance": "Moi ça a animé mes repas, et vous, ça a fait causer dans votre entourage ?"
+        "accroche": "Y a une news cette semaine qui a lancé pas mal de débats autour de moi, et de ton côté ?",
+        "relance": "Moi ça a animé mes repas. Toi ça a fait causer dans ton entourage ?"
       },
       {
-        "accroche": "Avec l actu du moment, on ne manque jamais de sujets pour lancer une conversation, vous trouvez pas ?",
-        "relance": "Moi j adore ça pour briser la glace, et vous, ça vous vient facilement d aborder les gens ?"
+        "accroche": "Avec l'actu du moment on manque jamais de sujets pour lancer une conv', tu trouves pas ?",
+        "relance": "Moi j'adore ça pour briser la glace. Toi ça te vient facile d'aborder les gens ?"
       },
       {
-        "accroche": "Ces derniers jours j ai entendu des avis très différents sur une même histoire, et vous, un avis tranché ?",
-        "relance": "Moi j essaie de rester nuancé, et vous, vous vous faites vite une opinion ?"
+        "accroche": "Ces derniers jours j'ai entendu des avis super différents sur la même histoire, toi un avis tranché ?",
+        "relance": "Moi j'essaie de rester nuancé. Toi tu te fais vite une opinion ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez qu on choisit nos opinions ou qu elles se façonnent toutes seules ?",
-        "relance": "Moi je crois qu on est plus influencés qu on ne l admet, et vous, vous en pensez quoi ?"
+        "accroche": "En vrai on choisit nos opinions ou elles se façonnent toutes seules tu penses ?",
+        "relance": "Moi je crois qu'on est plus influencés qu'on l'admet. Toi t'en penses quoi ?"
       },
       {
-        "accroche": "Vous trouvez qu on se ressemble plus qu on ne le croit quand on parle de l actu ?",
-        "relance": "Moi je suis souvent surpris des points communs, et vous, ça vous arrive aussi ?"
+        "accroche": "Tu trouves qu'on se ressemble plus qu'on croit quand on parle de l'actu ?",
+        "relance": "Moi je suis souvent surpris des points communs. Toi ça t'arrive aussi ?"
       },
       {
-        "accroche": "C est quoi pour vous une discussion réussie autour d un sujet d actu ?",
-        "relance": "Moi c est quand on ressort en ayant appris un truc, et vous, ça se mesure à quoi ?"
+        "accroche": "C'est quoi pour toi une discussion réussie autour d'un sujet d'actu ?",
+        "relance": "Moi c'est quand on ressort en ayant appris un truc. Toi ça se mesure à quoi ?"
       },
       {
-        "accroche": "Vous préférez discuter avec des gens qui pensent comme vous ou qui vous bousculent un peu ?",
-        "relance": "Moi j apprends plus avec ceux qui me contredisent, et vous, vous cherchez quoi dans un échange ?"
+        "accroche": "Tu préfères discuter avec des gens qui pensent comme toi ou qui te bousculent un peu ?",
+        "relance": "Moi j'apprends plus avec ceux qui me contredisent. Toi tu cherches quoi dans un échange ?"
       }
     ]
   },
@@ -45263,56 +45263,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit air de grand lecteur, je me trompe sur vous ?",
-        "relance": "Moi j ai toujours un bouquin qui traîne quelque part, et vous, vous lisez en ce moment ?"
+        "accroche": "T'as un petit air de grand lecteur toi, je me trompe ?",
+        "relance": "Moi j'ai toujours un bouquin qui traîne quelque part. Toi tu lis en ce moment ?"
       },
       {
-        "accroche": "Je vous vois bien avec un livre entre les mains, vous êtes plutôt papier ou liseuse ?",
-        "relance": "Moi je reste fidèle au papier pour l odeur, et vous, vous avez cédé au numérique ?"
+        "accroche": "Je te vois bien avec un livre entre les mains, t'es plutôt papier ou liseuse ?",
+        "relance": "Moi je reste fidèle au papier pour l'odeur. Toi t'as cédé au numérique ?"
       },
       {
-        "accroche": "Vous dégagez un côté qui aime les belles histoires, il y a un roman qui vous a marqué à vie ?",
-        "relance": "Moi j en ai un que je relis tous les ans, et vous, vous avez ce genre de livre doudou ?"
+        "accroche": "T'as un côté qui aime les belles histoires, y a un roman qui t'a marqué à vie ?",
+        "relance": "Moi j'en ai un que je relis tous les ans. Toi t'as ce genre de livre doudou ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a toujours une recommandation de lecture sous le coude, c est le cas ?",
-        "relance": "Moi j adore conseiller des livres, et vous, vous aimez qu on vous en conseille ?"
+        "accroche": "On dirait quelqu'un qui a toujours une reco de lecture sous le coude, c'est le cas ?",
+        "relance": "Moi j'adore conseiller des livres. Toi t'aimes qu'on t'en conseille ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je cherche ma prochaine lecture, vous avez lu quelque chose de bien dernièrement ?",
-        "relance": "Moi je viens de finir un roman qui m a scotché, et vous, une belle découverte récente ?"
+        "accroche": "En ce moment je cherche ma prochaine lecture, t'as lu un truc bien dernièrement ?",
+        "relance": "Moi je viens de finir un roman qui m'a scotché. Toi une belle découverte récente ?"
       },
       {
-        "accroche": "C est la saison idéale pour se plonger dans un bon bouquin je trouve, vous êtes du même avis ?",
-        "relance": "Moi je lis plus dès que le rythme ralentit, et vous, vous avez vos moments de lecture ?"
+        "accroche": "C'est la saison parfaite pour se plonger dans un bon bouquin je trouve, t'es d'accord ?",
+        "relance": "Moi je lis plus dès que le rythme ralentit. Toi t'as tes moments de lecture ?"
       },
       {
-        "accroche": "J entends beaucoup parler d un livre en ce moment, vous suivez un peu les sorties ?",
-        "relance": "Moi je note tout ce qui me tente et je m y perds, et vous, vous tenez une liste ?"
+        "accroche": "J'entends grave parler d'un livre en ce moment, tu suis un peu les sorties ?",
+        "relance": "Moi je note tout ce qui me tente et je m'y perds. Toi tu tiens une liste ?"
       },
       {
-        "accroche": "Il y a des livres dont tout le monde parle et qu on n a jamais ouverts, ça vous arrive aussi ?",
-        "relance": "Moi j en ai toute une pile qui attend, et vous, vous culpabilisez pour ça ?"
+        "accroche": "Y a des livres dont tout le monde parle et qu'on a jamais ouverts, ça t'arrive aussi ?",
+        "relance": "Moi j'en ai toute une pile qui attend. Toi tu culpabilises pour ça ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous lisez plutôt pour vous évader ou pour comprendre le monde ?",
-        "relance": "Moi c est clairement pour m évader, et vous, vous cherchez quoi dans un livre ?"
+        "accroche": "En vrai tu lis plutôt pour t'évader ou pour comprendre le monde ?",
+        "relance": "Moi c'est clairement pour m'évader. Toi tu cherches quoi dans un livre ?"
       },
       {
-        "accroche": "Vous pensez qu un bon livre peut vraiment changer une personne ?",
-        "relance": "Moi il y en a un qui m a marqué durablement, et vous, ça vous est déjà arrivé ?"
+        "accroche": "Tu penses qu'un bon livre peut vraiment changer une personne ?",
+        "relance": "Moi y en a un qui m'a marqué durablement. Toi ça t'est déjà arrivé ?"
       },
       {
-        "accroche": "C est quoi selon vous ce qui fait qu on n arrive plus à lâcher un roman ?",
-        "relance": "Moi c est les personnages avant tout, et vous, ce qui vous tient c est quoi ?"
+        "accroche": "C'est quoi selon toi qui fait qu'on arrive plus à lâcher un roman ?",
+        "relance": "Moi c'est les personnages avant tout. Toi ce qui te tient c'est quoi ?"
       },
       {
-        "accroche": "Vous êtes plutôt du genre à finir tous vos livres ou à abandonner sans remords ?",
-        "relance": "Moi j ai appris à lâcher ceux qui m ennuient, et vous, vous vous forcez jusqu au bout ?"
+        "accroche": "T'es plutôt du genre à finir tous tes livres ou à lâcher sans remords ?",
+        "relance": "Moi j'ai appris à lâcher ceux qui m'ennuient. Toi tu te forces jusqu'au bout ?"
       }
     ]
   },
@@ -45335,56 +45335,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une allure de lecteur tranquille, vous avez un livre en cours en ce moment ?",
-        "relance": "Moi j avance doucement sur le mien, et vous, vous êtes du genre à dévorer ou à savourer ?"
+        "accroche": "T'as une allure de lecteur tranquille, t'as un livre en cours là ?",
+        "relance": "Moi j'avance doucement sur le mien. Toi t'es du genre à dévorer ou à savourer ?"
       },
       {
-        "accroche": "On dirait que les histoires ça vous parle, vous préférez les romans ou plutôt autre chose ?",
-        "relance": "Moi je varie selon l humeur, et vous, vous avez un genre de prédilection ?"
+        "accroche": "On dirait que les histoires ça te parle, tu préfères les romans ou plutôt autre chose ?",
+        "relance": "Moi je varie selon l'humeur. Toi t'as un genre de prédilection ?"
       },
       {
-        "accroche": "Vous semblez du genre à aimer une bonne histoire, la dernière qui vous a plu c était quoi ?",
-        "relance": "Moi j en ai une en tête qui m a bien plu, et vous, ça remonte à quand la dernière ?"
+        "accroche": "T'as l'air d'aimer une bonne histoire, la dernière qui t'a plu c'était quoi ?",
+        "relance": "Moi j'en ai une en tête qui m'a bien plu. Toi ça remonte à quand la dernière ?"
       },
       {
-        "accroche": "Vous donnez l impression d avoir toujours un titre à recommander, ça vous parle ?",
-        "relance": "Moi j adore refiler mes coups de coeur, et vous, on vous en demande souvent ?"
+        "accroche": "T'as toujours un titre à recommander on dirait, ça te parle ?",
+        "relance": "Moi j'adore refiler mes coups de coeur. Toi on t'en demande souvent ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "C est le genre de moment parfait pour bouquiner un peu vous trouvez pas ?",
-        "relance": "Moi j en profiterais bien là tout de suite, et vous, vous liriez quoi si vous pouviez ?"
+        "accroche": "C'est le genre de moment parfait pour bouquiner un peu tu trouves pas ?",
+        "relance": "Moi j'en profiterais bien là tout de suite. Toi tu lirais quoi si tu pouvais ?"
       },
       {
-        "accroche": "Il paraît qu il y a de belles sorties en ce moment, vous avez repéré quelque chose ?",
-        "relance": "Moi j en ai noté deux ou trois, et vous, vous suivez un peu ce qui sort ?"
+        "accroche": "Il paraît qu'y a de belles sorties en ce moment, t'as repéré un truc ?",
+        "relance": "Moi j'en ai noté deux ou trois. Toi tu suis un peu ce qui sort ?"
       },
       {
-        "accroche": "On voit de plus en plus de gens lire un peu partout, ça vous donne envie aussi ?",
-        "relance": "Moi ça me remotive à chaque fois, et vous, ça vous relance vos envies de lecture ?"
+        "accroche": "On voit de plus en plus de gens lire un peu partout, ça te donne envie aussi ?",
+        "relance": "Moi ça me remotive à chaque fois. Toi ça relance tes envies de lecture ?"
       },
       {
-        "accroche": "En cette période je me remets à lire tranquillement, et vous, c est plutôt votre saison ou pas ?",
-        "relance": "Moi je lis par vagues, et vous, il y a un moment où vous lisez plus que d autres ?"
+        "accroche": "En ce moment je me remets à lire tranquille, toi c'est plutôt ta saison ou pas ?",
+        "relance": "Moi je lis par vagues. Toi y a un moment où tu lis plus que d'autres ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, un bon livre c est quoi pour vous, une belle histoire ou une belle écriture ?",
-        "relance": "Moi je pardonne tout si l histoire me tient, et vous, vous êtes exigeant sur quoi ?"
+        "accroche": "En vrai un bon livre c'est quoi pour toi, une belle histoire ou une belle écriture ?",
+        "relance": "Moi je pardonne tout si l'histoire me tient. Toi t'es exigeant sur quoi ?"
       },
       {
-        "accroche": "Vous pensez qu on lit moins qu avant ou juste différemment ?",
-        "relance": "Moi je crois qu on lit autrement surtout, et vous, vous avez changé vos habitudes ?"
+        "accroche": "Tu penses qu'on lit moins qu'avant ou juste différemment ?",
+        "relance": "Moi je crois qu'on lit autrement surtout. Toi t'as changé tes habitudes ?"
       },
       {
-        "accroche": "Vous préférez un livre qui vous détend ou un qui vous remue un peu ?",
-        "relance": "Moi ça dépend vraiment des moments, et vous, vous choisissez selon votre humeur ?"
+        "accroche": "Tu préfères un livre qui te détend ou un qui te remue un peu ?",
+        "relance": "Moi ça dépend vraiment des moments. Toi tu choisis selon ton humeur ?"
       },
       {
-        "accroche": "C est marrant comme un même livre peut plaire à l un et ennuyer l autre, ça vous étonne ?",
-        "relance": "Moi ça me fascine ces différences de goût, et vous, vous suivez les recommandations ou pas ?"
+        "accroche": "C'est marrant comme un même livre peut plaire à l'un et gaver l'autre, ça t'étonne ?",
+        "relance": "Moi ça me fascine ces différences de goût. Toi tu suis les recos ou pas ?"
       }
     ]
   },
@@ -45407,56 +45407,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d un vrai lecteur, vous auriez un livre à me conseiller les yeux fermés ?",
-        "relance": "Moi je sèche complètement sur ma prochaine lecture, et vous, vous savez toujours quoi lire ?"
+        "accroche": "T'as l'air d'un vrai lecteur, t'aurais un livre à me conseiller les yeux fermés ?",
+        "relance": "Moi je sèche complètement sur ma prochaine lecture. Toi tu sais toujours quoi lire ?"
       },
       {
-        "accroche": "On sent que vous vous y connaissez en bouquins, comment vous choisissez le prochain à lire ?",
-        "relance": "Moi je tourne en rond devant mes options, et vous, vous avez une méthode ?"
+        "accroche": "On sent que tu t'y connais en bouquins, tu choisis le prochain à lire comment ?",
+        "relance": "Moi je tourne en rond devant mes options. Toi t'as une méthode ?"
       },
       {
-        "accroche": "Vous semblez avoir bon goût en lecture, un titre qui vous a récemment scotché ?",
-        "relance": "Moi je cherche un truc qui m embarque vraiment, et vous, votre dernier coup de coeur c était quoi ?"
+        "accroche": "T'as l'air d'avoir bon goût en lecture, un titre qui t'a scotché récemment ?",
+        "relance": "Moi je cherche un truc qui m'embarque vraiment. Toi ton dernier coup de coeur c'était quoi ?"
       },
       {
-        "accroche": "Vous donnez l air de savoir dénicher les bonnes histoires, vous vous fiez à quoi pour choisir ?",
-        "relance": "Moi je me fie trop aux couvertures, et vous, vous regardez quoi d abord ?"
+        "accroche": "T'as l'air de savoir dénicher les bonnes histoires, tu te fies à quoi pour choisir ?",
+        "relance": "Moi je me fie trop aux couvertures. Toi tu regardes quoi d'abord ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je cherche justement un bon livre à commencer et je suis perdu, vous auriez une idée à me souffler ?",
-        "relance": "Moi je n arrive pas à me décider, et vous, vous tranchez comment quand vous hésitez ?"
+        "accroche": "Je cherche un bon livre à commencer et je suis paumé, t'aurais une idée à me souffler ?",
+        "relance": "Moi j'arrive pas à me décider. Toi tu tranches comment quand t'hésites ?"
       },
       {
-        "accroche": "Avec tout ce qui sort en ce moment, je ne sais pas par où commencer, vous vous y retrouvez vous ?",
-        "relance": "Moi je suis noyé sous les titres, et vous, vous filtrez comment tout ça ?"
+        "accroche": "Avec tout ce qui sort en ce moment je sais pas par où commencer, tu t'y retrouves toi ?",
+        "relance": "Moi je suis noyé sous les titres. Toi tu filtres comment tout ça ?"
       },
       {
-        "accroche": "J aimerais reprendre la lecture mais je ne sais pas par quoi, vous conseilleriez quoi pour se relancer ?",
-        "relance": "Moi j ai besoin d un truc accrocheur pour repartir, et vous, ça a marché comment pour vous ?"
+        "accroche": "J'aimerais reprendre la lecture mais je sais pas par quoi, tu conseillerais quoi pour se relancer ?",
+        "relance": "Moi j'ai besoin d'un truc accrocheur pour repartir. Toi ça a marché comment ?"
       },
       {
-        "accroche": "On m a parlé de plein de livres récemment et je suis paumé, vous en avez un qui fait l unanimité ?",
-        "relance": "Moi je veux un truc sûr pour ne pas être déçu, et vous, vous avez un pari gagnant ?"
+        "accroche": "On m'a parlé de plein de livres récemment et je suis perdu, t'en as un qui fait l'unanimité ?",
+        "relance": "Moi je veux un truc sûr pour pas être déçu. Toi t'as un pari gagnant ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "À votre avis, vaut il mieux suivre les recommandations ou se fier à son instinct pour choisir un livre ?",
-        "relance": "Moi je me plante souvent avec mon instinct, et vous, vous vous fiez à quoi ?"
+        "accroche": "À ton avis vaut mieux suivre les recos ou se fier à son instinct pour choisir un livre ?",
+        "relance": "Moi je me plante souvent avec mon instinct. Toi tu te fies à quoi ?"
       },
       {
-        "accroche": "Vous pensez qu il faut lire ce qui nous ressemble ou au contraire sortir de sa zone de confort ?",
-        "relance": "Moi je reste trop dans mes habitudes, et vous, vous osez explorer ?"
+        "accroche": "Tu penses qu'il faut lire ce qui nous ressemble ou au contraire sortir de sa zone de confort ?",
+        "relance": "Moi je reste trop dans mes habitudes. Toi t'oses explorer ?"
       },
       {
-        "accroche": "Selon vous, un livre trop long ça vaut le coup de se lancer ou pas quand on a peu de temps ?",
-        "relance": "Moi les pavés me font peur, et vous, ça vous freine ou ça vous attire ?"
+        "accroche": "Selon toi un livre trop long ça vaut le coup de se lancer quand on a peu de temps ?",
+        "relance": "Moi les pavés me font peur. Toi ça te freine ou ça t'attire ?"
       },
       {
-        "accroche": "Vous conseilleriez plutôt un classique ou une nouveauté à quelqu un qui veut s y remettre ?",
-        "relance": "Moi j hésite entre valeur sûre et découverte, et vous, vous pencheriez vers quoi ?"
+        "accroche": "Tu conseillerais plutôt un classique ou une nouveauté à quelqu'un qui veut s'y remettre ?",
+        "relance": "Moi j'hésite entre valeur sûre et découverte. Toi tu pencherais vers quoi ?"
       }
     ]
   },
@@ -45479,56 +45479,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un côté qui sent le passionné de lecture, il y a un auteur que vous suivez fidèlement ?",
-        "relance": "Moi j en ai un dont j achète tout les yeux fermés, et vous, vous avez votre chouchou ?"
+        "accroche": "T'as un côté passionné de lecture, y a un auteur que tu suis fidèlement ?",
+        "relance": "Moi j'en ai un dont j'achète tout les yeux fermés. Toi t'as ton chouchou ?"
       },
       {
-        "accroche": "On dirait que les livres tiennent une vraie place chez vous, c est venu comment cette passion ?",
-        "relance": "Moi ça remonte à un prof qui m a donné le goût, et vous, il y a eu un déclic ?"
+        "accroche": "On dirait que les livres tiennent une vraie place chez toi, c'est venu comment cette passion ?",
+        "relance": "Moi ça remonte à un prof qui m'a donné le goût. Toi y a eu un déclic ?"
       },
       {
-        "accroche": "Vous m avez l air de quelqu un qui vit dans les histoires, vous êtes plutôt réalité ou imaginaire ?",
-        "relance": "Moi je fuis vers l imaginaire dès que je peux, et vous, ça vous embarque où la lecture ?"
+        "accroche": "T'as l'air de quelqu'un qui vit dans les histoires, t'es plutôt réalité ou imaginaire ?",
+        "relance": "Moi je fuis vers l'imaginaire dès que je peux. Toi ça t'embarque où la lecture ?"
       },
       {
-        "accroche": "Vous dégagez une curiosité de lecteur, vous avez un genre que vous défendez contre tous ?",
-        "relance": "Moi je défends la science fiction bec et ongles, et vous, votre genre mal aimé c est lequel ?"
+        "accroche": "T'as une curiosité de lecteur, t'as un genre que tu défends contre tous ?",
+        "relance": "Moi je défends la science-fiction bec et ongles. Toi ton genre mal aimé c'est lequel ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j ai une lecture qui me hante encore une fois finie, ça vous fait ça parfois ?",
-        "relance": "Moi j ai du mal à en commencer un autre après, et vous, vous enchaînez ou vous faites une pause ?"
+        "accroche": "En ce moment j'ai une lecture qui me hante une fois finie, ça te fait ça parfois ?",
+        "relance": "Moi j'ai du mal à en commencer un autre après. Toi t'enchaînes ou tu fais une pause ?"
       },
       {
-        "accroche": "Il y a des livres dont on parle des années après, vous en avez un qui vous colle à la peau ?",
-        "relance": "Moi il y en a un que je cite tout le temps, et vous, lequel vous a marqué à ce point ?"
+        "accroche": "Y a des livres dont on parle des années après, t'en as un qui te colle à la peau ?",
+        "relance": "Moi y en a un que je cite tout le temps. Toi lequel t'a marqué à ce point ?"
       },
       {
-        "accroche": "J ai découvert récemment un auteur qui m a bluffé, et vous, une révélation ces derniers temps ?",
-        "relance": "Moi j adore ces découvertes inattendues, et vous, comment vous tombez sur vos pépites ?"
+        "accroche": "J'ai découvert récemment un auteur qui m'a bluffé, toi une révélation ces derniers temps ?",
+        "relance": "Moi j'adore ces découvertes inattendues. Toi tu tombes sur tes pépites comment ?"
       },
       {
-        "accroche": "On échange souvent des livres autour de moi en ce moment, vous faites tourner les vôtres aussi ?",
-        "relance": "Moi je prête volontiers mais je récupère rarement, et vous, vous prêtez facilement ?"
+        "accroche": "On s'échange souvent des livres autour de moi là, tu fais tourner les tiens aussi ?",
+        "relance": "Moi je prête volontiers mais je récupère rarement. Toi tu prêtes facilement ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez que nos lectures en disent long sur qui on est ?",
-        "relance": "Moi je crois qu on est un peu nos livres, et vous, vous vous reconnaissez dans ce que vous lisez ?"
+        "accroche": "En vrai tu penses que nos lectures en disent long sur qui on est ?",
+        "relance": "Moi je crois qu'on est un peu nos livres. Toi tu te reconnais dans ce que tu lis ?"
       },
       {
-        "accroche": "Vous préférez relire des livres que vous adorez ou toujours découvrir du neuf ?",
-        "relance": "Moi je relis mes préférés comme on revoit des amis, et vous, vous relisez parfois ?"
+        "accroche": "Tu préfères relire des livres que t'adores ou toujours découvrir du neuf ?",
+        "relance": "Moi je relis mes préférés comme on revoit des amis. Toi tu relis parfois ?"
       },
       {
-        "accroche": "C est quoi pour vous le plus beau cadeau qu un livre puisse vous faire ?",
-        "relance": "Moi c est de me faire oublier l heure, et vous, ça vous fait quoi un grand livre ?"
+        "accroche": "C'est quoi pour toi le plus beau cadeau qu'un livre peut te faire ?",
+        "relance": "Moi c'est de me faire oublier l'heure. Toi ça te fait quoi un grand livre ?"
       },
       {
-        "accroche": "Vous croyez qu on peut vraiment connaître quelqu un rien qu à sa bibliothèque ?",
-        "relance": "Moi je fouine toujours celles des autres, et vous, ça vous dit quelque chose sur les gens ?"
+        "accroche": "Tu crois qu'on peut cerner quelqu'un juste avec sa bibliothèque ?",
+        "relance": "Moi je fouine toujours celles des autres. Toi ça te dit un truc sur les gens ?"
       }
     ]
   },
@@ -45551,56 +45551,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit quelque chose d artiste dans le regard, je me trompe ?",
-        "relance": "Moi je gribouille sans jamais oser montrer, et vous, vous créez quelque chose de votre côté ?"
+        "accroche": "T'as un petit quelque chose d'artiste dans le regard, je me trompe ?",
+        "relance": "Moi je gribouille sans jamais oser montrer. Toi tu crées un truc de ton côté ?"
       },
       {
-        "accroche": "On sent chez vous une sensibilité à l esthétique, il y a une forme d art qui vous touche plus ?",
-        "relance": "Moi la musique me bouleverse plus que tout, et vous, qu est ce qui vous remue le plus ?"
+        "accroche": "On sent chez toi une sensibilité au beau, y a une forme d'art qui te touche plus ?",
+        "relance": "Moi la musique me bouleverse plus que tout. Toi qu'est-ce qui te remue le plus ?"
       },
       {
-        "accroche": "Vous dégagez un côté qui remarque les beaux détails, c est un truc à vous ça ?",
-        "relance": "Moi je m arrête tout le temps sur des petits riens, et vous, vous êtes attentif à ça aussi ?"
+        "accroche": "T'as un côté qui remarque les beaux détails, c'est un truc à toi ça ?",
+        "relance": "Moi je m'arrête tout le temps sur des petits riens. Toi t'es attentif à ça aussi ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un qui apprécie les belles choses, vous avez un artiste qui vous inspire ?",
-        "relance": "Moi j en ai un qui me suit depuis des années, et vous, il y a un nom qui vous vient ?"
+        "accroche": "T'as l'air d'apprécier les belles choses, t'as un artiste qui t'inspire ?",
+        "relance": "Moi j'en ai un qui me suit depuis des années. Toi y a un nom qui te vient ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j ai vu une oeuvre qui m est restée en tête, ça vous arrive de ruminer un truc comme ça ?",
-        "relance": "Moi j y repense encore, et vous, une création vous a marqué récemment ?"
+        "accroche": "En ce moment j'ai vu une oeuvre qui m'est restée en tête, ça t'arrive de ruminer un truc comme ça ?",
+        "relance": "Moi j'y repense encore. Toi une création t'a marqué récemment ?"
       },
       {
-        "accroche": "Il y a de plus en plus de belles choses à voir un peu partout, vous êtes sensible à ça vous ?",
-        "relance": "Moi j adore tomber sur de l art par surprise, et vous, ça vous fait lever les yeux aussi ?"
+        "accroche": "Y a de plus en plus de belles choses à voir un peu partout, t'es sensible à ça toi ?",
+        "relance": "Moi j'adore tomber sur de l'art par surprise. Toi ça te fait lever les yeux aussi ?"
       },
       {
-        "accroche": "J ai l impression que la créativité déborde de partout en ce moment, vous ressentez ça aussi ?",
-        "relance": "Moi ça me donne envie de m y mettre, et vous, ça vous inspire ou ça vous impressionne ?"
+        "accroche": "J'ai l'impression que la créa déborde de partout en ce moment, tu ressens ça aussi ?",
+        "relance": "Moi ça me donne envie de m'y mettre. Toi ça t'inspire ou ça t'impressionne ?"
       },
       {
-        "accroche": "On croise de l art dans les endroits les plus inattendus ces temps ci, ça vous surprend vous aussi ?",
-        "relance": "Moi j adore ces surprises visuelles, et vous, vous vous arrêtez ou vous passez votre chemin ?"
+        "accroche": "On croise de l'art dans les endroits les plus inattendus ces temps-ci, ça te surprend toi aussi ?",
+        "relance": "Moi j'adore ces surprises visuelles. Toi tu t'arrêtes ou tu passes ton chemin ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, c est quoi pour vous ce qui fait qu une oeuvre nous touche vraiment ?",
-        "relance": "Moi je crois que ça parle à quelque chose d intime, et vous, ça vous fait quoi une belle oeuvre ?"
+        "accroche": "En vrai c'est quoi pour toi qui fait qu'une oeuvre nous touche vraiment ?",
+        "relance": "Moi je crois que ça parle à un truc intime. Toi ça te fait quoi une belle oeuvre ?"
       },
       {
-        "accroche": "Vous pensez qu il faut s y connaître pour apprécier l art ou que ça se ressent avant tout ?",
-        "relance": "Moi je me fie surtout à l émotion, et vous, vous cherchez à comprendre ou à ressentir ?"
+        "accroche": "Tu penses qu'il faut s'y connaître pour apprécier l'art ou que ça se ressent avant tout ?",
+        "relance": "Moi je me fie surtout à l'émotion. Toi tu cherches à comprendre ou à ressentir ?"
       },
       {
-        "accroche": "Vous croyez que tout le monde a une fibre artistique quelque part ?",
-        "relance": "Moi j en suis convaincu, et vous, vous vous trouvez créatif ou pas du tout ?"
+        "accroche": "Tu crois que tout le monde a une fibre artistique quelque part ?",
+        "relance": "Moi j'en suis convaincu. Toi tu te trouves créatif ou pas du tout ?"
       },
       {
-        "accroche": "C est quoi selon vous, la différence entre quelque chose de joli et quelque chose de vraiment beau ?",
-        "relance": "Moi je crois que c est l émotion qui fait la bascule, et vous, vous le sentez comment ce cap ?"
+        "accroche": "C'est quoi selon toi la différence entre un truc joli et un truc vraiment beau ?",
+        "relance": "Moi je crois que c'est l'émotion qui fait la bascule. Toi tu le sens comment ce cap ?"
       }
     ]
   },
@@ -45623,56 +45623,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un style qui a l air pensé, vous vous intéressez un peu au beau en général ?",
-        "relance": "Moi j essaie de soigner mon petit univers, et vous, vous accordez de l importance à ça ?"
+        "accroche": "T'as un style qui a l'air pensé, tu t'intéresses un peu au beau en général ?",
+        "relance": "Moi j'essaie de soigner mon petit univers. Toi tu donnes de l'importance à ça ?"
       },
       {
-        "accroche": "On dirait que vous avez l oeil, vous êtes plutôt attiré par les couleurs ou par les formes ?",
-        "relance": "Moi je craque toujours pour les couleurs vives, et vous, qu est ce qui attire votre regard ?"
+        "accroche": "On dirait que t'as l'oeil, t'es plutôt attiré par les couleurs ou par les formes ?",
+        "relance": "Moi je craque toujours pour les couleurs vives. Toi qu'est-ce qui attire ton regard ?"
       },
       {
-        "accroche": "Vous semblez apprécier les jolies choses, vous avez un style artistique qui vous parle plus ?",
-        "relance": "Moi j aime bien ce qui est un peu poétique, et vous, votre truc c est plutôt quoi ?"
+        "accroche": "T'as l'air d'apprécier les jolies choses, t'as un style artistique qui te parle plus ?",
+        "relance": "Moi j'aime bien ce qui est un peu poétique. Toi ton truc c'est plutôt quoi ?"
       },
       {
-        "accroche": "Vous donnez l impression de remarquer ce que les autres ne voient pas, ça vous arrive souvent ?",
-        "relance": "Moi je m émerveille pour un rien, et vous, vous êtes du genre à vous arrêter sur les détails ?"
+        "accroche": "Tu remarques ce que les autres voient pas on dirait, ça t'arrive souvent ?",
+        "relance": "Moi je m'émerveille pour un rien. Toi t'es du genre à t'arrêter sur les détails ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "On voit de belles choses un peu partout en ce moment, vous vous êtes déjà arrêté devant récemment ?",
-        "relance": "Moi ça m est arrivé cette semaine, et vous, quelque chose vous a tapé dans l oeil dernièrement ?"
+        "accroche": "On voit de belles choses un peu partout en ce moment, tu t'es déjà arrêté devant récemment ?",
+        "relance": "Moi ça m'est arrivé cette semaine. Toi un truc t'a tapé dans l'oeil dernièrement ?"
       },
       {
-        "accroche": "C est agréable de croiser de l art sans le chercher vous trouvez pas ?",
-        "relance": "Moi ça égaye ma journée à chaque fois, et vous, ça vous met de bonne humeur aussi ?"
+        "accroche": "C'est agréable de croiser de l'art sans le chercher, tu trouves pas ?",
+        "relance": "Moi ça égaye ma journée à chaque fois. Toi ça te met de bonne humeur aussi ?"
       },
       {
-        "accroche": "Il paraît qu il y a plein d expos et d événements sympas en ce moment, vous suivez un peu ça ?",
-        "relance": "Moi j en repère de temps en temps, et vous, vous êtes du genre à y aller ou à passer ?"
+        "accroche": "Il paraît qu'y a plein d'expos et d'événements sympas là, tu suis un peu ça ?",
+        "relance": "Moi j'en repère de temps en temps. Toi t'es du genre à y aller ou à passer ?"
       },
       {
-        "accroche": "Ces temps ci on voit de la créativité partout, ça vous donne envie de bricoler un truc ?",
-        "relance": "Moi ça me démange de créer quelque chose, et vous, vous avez la main artistique ?"
+        "accroche": "Ces temps-ci on voit de la créa partout, ça te donne envie de bricoler un truc ?",
+        "relance": "Moi ça me démange de créer quelque chose. Toi t'as la main artistique ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez que l art c est réservé aux musées ou que c est partout autour de nous ?",
-        "relance": "Moi je le vois un peu partout, et vous, vous le remarquez dans le quotidien ?"
+        "accroche": "En vrai l'art c'est réservé aux musées ou c'est partout autour de nous tu penses ?",
+        "relance": "Moi je le vois un peu partout. Toi tu le remarques dans le quotidien ?"
       },
       {
-        "accroche": "Vous préférez une oeuvre qui vous apaise ou une qui vous secoue un peu ?",
-        "relance": "Moi j aime bien être bousculé, et vous, vous cherchez le calme ou l émotion forte ?"
+        "accroche": "Tu préfères une oeuvre qui t'apaise ou une qui te secoue un peu ?",
+        "relance": "Moi j'aime bien être bousculé. Toi tu cherches le calme ou l'émotion forte ?"
       },
       {
-        "accroche": "C est marrant comme les goûts artistiques varient d une personne à l autre, ça vous étonne ?",
-        "relance": "Moi je trouve ça plutôt chouette, et vous, vous discutez souvent de vos goûts avec les gens ?"
+        "accroche": "C'est marrant comme les goûts artistiques varient d'une personne à l'autre, ça t'étonne ?",
+        "relance": "Moi je trouve ça plutôt chouette. Toi tu discutes souvent de tes goûts avec les gens ?"
       },
       {
-        "accroche": "Vous croyez qu une belle image peut vous rester en tête toute une journée ?",
-        "relance": "Moi ça m arrive régulièrement, et vous, une image vous a déjà accompagné longtemps ?"
+        "accroche": "Tu crois qu'une belle image peut te rester en tête toute une journée ?",
+        "relance": "Moi ça m'arrive régulièrement. Toi une image t'a déjà accompagné longtemps ?"
       }
     ]
   },
@@ -45695,56 +45695,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de vous y connaître en art, vous auriez un conseil pour un débutant comme moi ?",
-        "relance": "Moi je me sens vite largué devant une oeuvre, et vous, comment vous avez appris à apprécier ?"
+        "accroche": "T'as l'air de t'y connaître en art, t'aurais un conseil pour un débutant comme moi ?",
+        "relance": "Moi je me sens vite largué devant une oeuvre. Toi t'as appris à apprécier comment ?"
       },
       {
-        "accroche": "On sent que l art c est votre truc, par où vous me conseilleriez de commencer pour m y mettre ?",
-        "relance": "Moi je ne sais pas trop par quel bout prendre ça, et vous, vous avez commencé comment ?"
+        "accroche": "On sent que l'art c'est ton truc, tu me conseillerais de commencer par où pour m'y mettre ?",
+        "relance": "Moi je sais pas trop par quel bout prendre ça. Toi t'as commencé comment ?"
       },
       {
-        "accroche": "Vous semblez avoir l oeil affûté, comment on fait pour apprendre à regarder vraiment une oeuvre ?",
-        "relance": "Moi je reste souvent en surface, et vous, vous avez une astuce pour aller plus loin ?"
+        "accroche": "T'as l'oeil affûté on dirait, on fait comment pour apprendre à vraiment regarder une oeuvre ?",
+        "relance": "Moi je reste souvent en surface. Toi t'as une astuce pour aller plus loin ?"
       },
       {
-        "accroche": "Vous donnez l impression de savoir reconnaître le beau, ça se travaille ou c est inné selon vous ?",
-        "relance": "Moi je crois que ça m échappe un peu, et vous, vous pensez qu on peut éduquer son regard ?"
+        "accroche": "T'as l'air de savoir reconnaître le beau, ça se travaille ou c'est inné selon toi ?",
+        "relance": "Moi je crois que ça m'échappe un peu. Toi tu penses qu'on peut éduquer son regard ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "J aimerais m intéresser un peu plus à l art mais je ne sais pas où aller, vous conseilleriez quoi pour débuter ?",
-        "relance": "Moi j ai peur de me sentir bête, et vous, ça vous est déjà arrivé de vous lancer sans rien connaître ?"
+        "accroche": "J'aimerais m'intéresser plus à l'art mais je sais pas où aller, tu conseillerais quoi pour débuter ?",
+        "relance": "Moi j'ai peur de me sentir bête. Toi ça t'est déjà arrivé de te lancer sans rien connaître ?"
       },
       {
-        "accroche": "Avec tout ce qu on peut voir aujourd hui, je ne sais pas quoi regarder, vous filtrez comment vous ?",
-        "relance": "Moi je suis vite dépassé par le choix, et vous, vous avez vos repères ?"
+        "accroche": "Avec tout ce qu'on peut voir aujourd'hui je sais pas quoi regarder, tu filtres comment toi ?",
+        "relance": "Moi je suis vite dépassé par le choix. Toi t'as tes repères ?"
       },
       {
-        "accroche": "Je voudrais me cultiver un peu côté art sans que ça devienne une corvée, vous auriez une approche sympa ?",
-        "relance": "Moi je veux garder ça léger, et vous, comment vous rendez ça plaisant ?"
+        "accroche": "Je voudrais me cultiver côté art sans que ça devienne une corvée, t'aurais une approche sympa ?",
+        "relance": "Moi je veux garder ça léger. Toi tu rends ça plaisant comment ?"
       },
       {
-        "accroche": "On m a dit que le mieux c est de suivre ses coups de coeur, vous êtes d accord avec ça ?",
-        "relance": "Moi je manque de confiance dans mes goûts, et vous, vous vous fiez aux vôtres facilement ?"
+        "accroche": "On m'a dit que le mieux c'est de suivre ses coups de coeur, t'es d'accord avec ça ?",
+        "relance": "Moi je manque de confiance dans mes goûts. Toi tu te fies aux tiens facilement ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "À votre avis, faut il comprendre une oeuvre pour l aimer ou l aimer suffit ?",
-        "relance": "Moi je crois que ressentir suffit, et vous, vous cherchez à décoder ou juste à profiter ?"
+        "accroche": "À ton avis faut comprendre une oeuvre pour l'aimer ou l'aimer ça suffit ?",
+        "relance": "Moi je crois que ressentir suffit. Toi tu cherches à décoder ou juste à profiter ?"
       },
       {
-        "accroche": "Vous pensez qu il vaut mieux découvrir l art seul ou accompagné de quelqu un qui s y connaît ?",
-        "relance": "Moi j apprends mieux avec un guide, et vous, vous préférez explorer en solo ?"
+        "accroche": "Tu penses qu'il vaut mieux découvrir l'art seul ou avec quelqu'un qui s'y connaît ?",
+        "relance": "Moi j'apprends mieux avec un guide. Toi tu préfères explorer en solo ?"
       },
       {
-        "accroche": "Selon vous, comment on développe son propre goût sans se laisser dicter ce qu il faut aimer ?",
-        "relance": "Moi je me laisse trop influencer, et vous, vous assumez vos goûts même s ils sortent du lot ?"
+        "accroche": "Selon toi on développe son propre goût sans se laisser dicter ce qu'il faut aimer comment ?",
+        "relance": "Moi je me laisse trop influencer. Toi t'assumes tes goûts même s'ils sortent du lot ?"
       },
       {
-        "accroche": "Vous conseilleriez de commencer par les grands classiques ou par ce qui nous attire spontanément ?",
-        "relance": "Moi j hésite entre les deux, et vous, vous pencheriez pour quelle approche ?"
+        "accroche": "Tu conseillerais de commencer par les grands classiques ou par ce qui nous attire spontanément ?",
+        "relance": "Moi j'hésite entre les deux. Toi tu pencherais pour quelle approche ?"
       }
     ]
   },
@@ -45767,56 +45767,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une énergie de créatif, vous fabriquez ou vous créez des choses de votre côté ?",
-        "relance": "Moi je touche un peu à tout sans rien maîtriser, et vous, vous avez votre domaine à vous ?"
+        "accroche": "T'as une énergie de créatif, tu fabriques ou tu crées des trucs de ton côté ?",
+        "relance": "Moi je touche un peu à tout sans rien maîtriser. Toi t'as ton domaine à toi ?"
       },
       {
-        "accroche": "On dirait quelqu un qui a des idées plein la tête, elles vous viennent d où toutes ces idées ?",
-        "relance": "Moi c est souvent en marchant que ça jaillit, et vous, l inspiration vous prend quand ?"
+        "accroche": "On dirait quelqu'un qui a des idées plein la tête, elles te viennent d'où toutes ces idées ?",
+        "relance": "Moi c'est souvent en marchant que ça jaillit. Toi l'inspi te prend quand ?"
       },
       {
-        "accroche": "Vous dégagez un côté qui aime s exprimer, vous passez par quoi pour ça, les mots, les images ?",
-        "relance": "Moi je passe par le dessin, et vous, votre moyen d expression préféré c est lequel ?"
+        "accroche": "T'as un côté qui aime s'exprimer, tu passes par quoi pour ça, les mots, les images ?",
+        "relance": "Moi je passe par le dessin. Toi ton moyen d'expression préféré c'est lequel ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un qui voit le monde autrement, ça vous suit depuis toujours ce regard ?",
-        "relance": "Moi j ai toujours vu les choses de travers on va dire, et vous, ça vient d où chez vous ?"
+        "accroche": "T'as l'air de quelqu'un qui voit le monde autrement, ça te suit depuis toujours ce regard ?",
+        "relance": "Moi j'ai toujours vu les choses de travers on va dire. Toi ça vient d'où chez toi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j ai une envie folle de me lancer dans un projet créatif, ça vous prend aussi parfois ?",
-        "relance": "Moi j ai dix idées en cours et zéro finie, et vous, vous menez vos projets au bout ?"
+        "accroche": "En ce moment j'ai une envie folle de me lancer dans un projet créa, ça te prend aussi parfois ?",
+        "relance": "Moi j'ai dix idées en cours et zéro finie. Toi tu mènes tes projets au bout ?"
       },
       {
-        "accroche": "On croise tellement de créativité partout maintenant que ça donne envie de s y mettre, vous ressentez ça ?",
-        "relance": "Moi ça me stimule à fond, et vous, ça vous inspire ou ça vous met la pression ?"
+        "accroche": "On croise tellement de créa partout que ça donne envie de s'y mettre, tu ressens ça ?",
+        "relance": "Moi ça me stimule à fond. Toi ça t'inspire ou ça te met la pression ?"
       },
       {
-        "accroche": "J ai vu récemment une création qui m a donné envie d essayer un truc nouveau, ça vous arrive aussi ?",
-        "relance": "Moi je copie souvent pour apprendre, et vous, vous vous inspirez des autres sans complexe ?"
+        "accroche": "J'ai vu récemment une création qui m'a donné envie d'essayer un truc nouveau, ça t'arrive aussi ?",
+        "relance": "Moi je copie souvent pour apprendre. Toi tu t'inspires des autres sans complexe ?"
       },
       {
-        "accroche": "Il y a de plus en plus de gens qui osent partager ce qu ils créent en ce moment, et vous, vous osez ?",
-        "relance": "Moi je galère à montrer ce que je fais, et vous, vous assumez de partager vos créations ?"
+        "accroche": "Y a de plus en plus de gens qui osent partager ce qu'ils créent là, toi t'oses ?",
+        "relance": "Moi je galère à montrer ce que je fais. Toi t'assumes de partager tes créations ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez que créer c est un besoin ou un luxe ?",
-        "relance": "Moi je crois que c est vital pour moi, et vous, vous pourriez vous en passer ?"
+        "accroche": "En vrai tu penses que créer c'est un besoin ou un luxe ?",
+        "relance": "Moi je crois que c'est vital pour moi. Toi tu pourrais t'en passer ?"
       },
       {
-        "accroche": "Vous croyez qu on crée d abord pour soi ou pour être vu par les autres ?",
-        "relance": "Moi je commence pour moi puis j hésite à montrer, et vous, ça compte pour qui vous créez ?"
+        "accroche": "Tu crois qu'on crée d'abord pour soi ou pour être vu par les autres ?",
+        "relance": "Moi je commence pour moi puis j'hésite à montrer. Toi ça compte pour qui tu crées ?"
       },
       {
-        "accroche": "C est quoi pour vous le plus dur, avoir l idée ou la mener jusqu au bout ?",
-        "relance": "Moi c est clairement finir qui me tue, et vous, vous bloquez plutôt où ?"
+        "accroche": "C'est quoi le plus dur pour toi, avoir l'idée ou la mener jusqu'au bout ?",
+        "relance": "Moi c'est clairement finir qui me tue. Toi tu bloques plutôt où ?"
       },
       {
-        "accroche": "Vous pensez qu il faut du talent pour créer ou surtout de la persévérance ?",
-        "relance": "Moi je mise tout sur l acharnement, et vous, vous croyez plus au don ou au travail ?"
+        "accroche": "Tu penses qu'il faut du talent pour créer ou surtout de la persévérance ?",
+        "relance": "Moi je mise tout sur l'acharnement. Toi tu crois plus au don ou au travail ?"
       }
     ]
   },
@@ -45839,56 +45839,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez un petit sourire qui laisse deviner un bon sens de l humour, je me trompe ?",
-        "relance": "Moi j ai un rire un peu trop communicatif, et vous, vous êtes plutôt du genre à rire fort ou en douce ?"
+        "accroche": "T'as un petit sourire qui laisse deviner un bon sens de l'humour, je me trompe ?",
+        "relance": "Moi j'ai un rire un peu trop communicatif. Toi t'es plutôt du genre à rire fort ou en douce ?"
       },
       {
-        "accroche": "On dirait quelqu un qui aime bien blaguer, vous êtes plutôt fin ou plutôt absurde côté humour ?",
-        "relance": "Moi je carbure à l absurde total, et vous, votre style de blague c est quoi ?"
+        "accroche": "On dirait quelqu'un qui aime bien blaguer, t'es plutôt fin ou plutôt absurde côté humour ?",
+        "relance": "Moi je carbure à l'absurde total. Toi ton style de blague c'est quoi ?"
       },
       {
-        "accroche": "Vous dégagez un côté qui ne se prend pas au sérieux, ça vous vient facilement de rire de vous ?",
-        "relance": "Moi je suis ma première cible, et vous, vous savez rire de vous même ?"
+        "accroche": "T'as un côté qui se prend pas au sérieux, ça te vient facile de rire de toi ?",
+        "relance": "Moi je suis ma première cible. Toi tu sais rire de toi-même ?"
       },
       {
-        "accroche": "Vous avez l air de quelqu un qui a toujours une vanne prête, c est le cas ?",
-        "relance": "Moi j en ai souvent une de trop, et vous, vous placez vos blagues ou vous retenez ?"
+        "accroche": "T'as l'air de quelqu'un qui a toujours une vanne prête, c'est le cas ?",
+        "relance": "Moi j'en ai souvent une de trop. Toi tu places tes blagues ou tu retiens ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment j ai vu un truc tellement drôle que j en ris encore, ça vous arrive de rester sur un fou rire ?",
-        "relance": "Moi j y repense au pire moment et je repars, et vous, vous avez ce genre de souvenir qui vous relance ?"
+        "accroche": "En ce moment j'ai vu un truc tellement drôle que j'en ris encore, ça t'arrive de rester sur un fou rire ?",
+        "relance": "Moi j'y repense au pire moment et je repars. Toi t'as ce genre de souvenir qui te relance ?"
       },
       {
-        "accroche": "Il y a des trucs qui tournent en ce moment et qui sont à mourir de rire, vous en avez vu passer ?",
-        "relance": "Moi j en partage sans arrêt à mes proches, et vous, vous êtes du genre à faire suivre les blagues ?"
+        "accroche": "Y a des trucs qui tournent en ce moment et qui sont à mourir de rire, t'en as vu passer ?",
+        "relance": "Moi j'en partage sans arrêt à mes proches. Toi t'es du genre à faire suivre les blagues ?"
       },
       {
-        "accroche": "On a bien besoin de rire un peu ces temps ci vous trouvez pas ?",
-        "relance": "Moi je cherche ma dose quotidienne, et vous, qu est ce qui vous déride en ce moment ?"
+        "accroche": "On a bien besoin de rire un peu ces temps-ci, tu trouves pas ?",
+        "relance": "Moi je cherche ma dose quotidienne. Toi qu'est-ce qui te déride en ce moment ?"
       },
       {
-        "accroche": "J ai entendu une blague récemment qui a fait rire tout le monde, vous en avez une qui marche à tous les coups ?",
-        "relance": "Moi j en ai une que je ressors toujours, et vous, vous avez votre valeur sûre ?"
+        "accroche": "J'ai entendu une blague récemment qui a fait rire tout le monde, t'en as une qui marche à tous les coups ?",
+        "relance": "Moi j'en ai une que je ressors toujours. Toi t'as ta valeur sûre ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez qu on peut rire de tout ou qu il y a des limites ?",
-        "relance": "Moi je crois que ça dépend surtout du ton, et vous, où vous mettez la barre ?"
+        "accroche": "En vrai tu penses qu'on peut rire de tout ou qu'il y a des limites ?",
+        "relance": "Moi je crois que ça dépend surtout du ton. Toi tu mets la barre où ?"
       },
       {
-        "accroche": "Vous trouvez que l humour ça rapproche les gens plus vite que n importe quoi ?",
-        "relance": "Moi je juge les gens à leur rire, et vous, un bon fou rire ça vous suffit pour accrocher ?"
+        "accroche": "Tu trouves que l'humour ça rapproche les gens plus vite que n'importe quoi ?",
+        "relance": "Moi je juge les gens à leur rire. Toi un bon fou rire ça te suffit pour accrocher ?"
       },
       {
-        "accroche": "C est quoi pour vous un bon sens de l humour, savoir faire rire ou savoir en rire ?",
-        "relance": "Moi je préfère savoir en rire, et vous, vous êtes plutôt lanceur ou receveur de blagues ?"
+        "accroche": "C'est quoi pour toi un bon sens de l'humour, savoir faire rire ou savoir en rire ?",
+        "relance": "Moi je préfère savoir en rire. Toi t'es plutôt lanceur ou receveur de blagues ?"
       },
       {
-        "accroche": "Vous pensez que l humour ça se partage vraiment ou que chacun rit de son côté ?",
-        "relance": "Moi je crois qu un rire partagé n a pas de prix, et vous, vous riez mieux seul ou à plusieurs ?"
+        "accroche": "Tu penses que l'humour ça se partage vraiment ou que chacun rit de son côté ?",
+        "relance": "Moi je crois qu'un rire partagé n'a pas de prix. Toi tu ris mieux seul ou à plusieurs ?"
       }
     ]
   },
@@ -45911,56 +45911,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d avoir gardé votre bonne humeur, c est votre secret pour la journée ?",
-        "relance": "Moi je m accroche à la mienne coûte que coûte, et vous, vous faites comment pour rester léger ?"
+        "accroche": "T'as l'air d'avoir gardé ta bonne humeur, c'est ton secret pour la journée ?",
+        "relance": "Moi je m'accroche à la mienne coûte que coûte. Toi tu fais comment pour rester léger ?"
       },
       {
-        "accroche": "On dirait quelqu un qui prend les choses avec le sourire, ça vous vient naturellement ?",
-        "relance": "Moi je force un peu au début puis ça vient, et vous, vous êtes optimiste de nature ?"
+        "accroche": "On dirait quelqu'un qui prend les choses avec le sourire, ça te vient naturellement ?",
+        "relance": "Moi je force un peu au début puis ça vient. Toi t'es optimiste de nature ?"
       },
       {
-        "accroche": "Vous semblez du genre à voir le bon côté des choses, c est un vrai parti pris chez vous ?",
-        "relance": "Moi j essaie mais j y arrive pas toujours, et vous, vous relativisez facilement ?"
+        "accroche": "T'as l'air de voir le bon côté des choses, c'est un vrai parti pris chez toi ?",
+        "relance": "Moi j'essaie mais j'y arrive pas toujours. Toi tu relativises facilement ?"
       },
       {
-        "accroche": "Vous donnez l impression de savoir dédramatiser, vous avez cette petite touche là ?",
-        "relance": "Moi une blague et ça repart, et vous, l humour ça vous sauve les journées aussi ?"
+        "accroche": "T'as l'air de savoir dédramatiser, t'as cette petite touche-là ?",
+        "relance": "Moi une blague et ça repart. Toi l'humour ça te sauve les journées aussi ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Une petite touche d humour ça ne fait jamais de mal une journée comme aujourd hui, vous trouvez pas ?",
-        "relance": "Moi j en cherche toujours un peu, et vous, il vous en faut beaucoup pour sourire ?"
+        "accroche": "Une petite touche d'humour ça fait jamais de mal une journée comme aujourd'hui, tu trouves pas ?",
+        "relance": "Moi j'en cherche toujours un peu. Toi il t'en faut beaucoup pour sourire ?"
       },
       {
-        "accroche": "Il y a des jours où mieux vaut en rire vous ne trouvez pas ?",
-        "relance": "Moi j ai choisi le camp du rire depuis longtemps, et vous, vous prenez ça comment les journées bof ?"
+        "accroche": "Y a des jours où mieux vaut en rire, tu trouves pas ?",
+        "relance": "Moi j'ai choisi le camp du rire depuis longtemps. Toi tu prends ça comment les journées bof ?"
       },
       {
-        "accroche": "On voit passer tellement de trucs drôles en ce moment que ça sauve la journée, vous en croisez aussi ?",
-        "relance": "Moi ça me remonte le moral à chaque fois, et vous, un truc vous a fait rire aujourd hui ?"
+        "accroche": "On voit passer tellement de trucs drôles en ce moment que ça sauve la journée, t'en croises aussi ?",
+        "relance": "Moi ça me remonte le moral à chaque fois. Toi un truc t'a fait rire aujourd'hui ?"
       },
       {
-        "accroche": "C est fou comme une petite blague peut changer une ambiance, ça vous est déjà arrivé de sauver un moment comme ça ?",
-        "relance": "Moi j ai déjà désamorcé un froid avec une vanne, et vous, ça vous vient facile dans ces moments ?"
+        "accroche": "C'est fou comme une petite blague peut changer une ambiance, ça t'est déjà arrivé de sauver un moment comme ça ?",
+        "relance": "Moi j'ai déjà désamorcé un froid avec une vanne. Toi ça te vient facile dans ces moments ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez que l humour c est une façon de voir la vie ou juste un truc en plus ?",
-        "relance": "Moi c est carrément une philosophie, et vous, ça compte à ce point pour vous ?"
+        "accroche": "En vrai tu penses que l'humour c'est une façon de voir la vie ou juste un truc en plus ?",
+        "relance": "Moi c'est carrément une philosophie. Toi ça compte à ce point pour toi ?"
       },
       {
-        "accroche": "Vous croyez que les gens qui rigolent beaucoup vivent mieux ou c est un mythe ?",
-        "relance": "Moi je veux y croire, et vous, vous connaissez quelqu un qui rit de tout ?"
+        "accroche": "Tu crois que les gens qui rigolent beaucoup vivent mieux ou c'est un mythe ?",
+        "relance": "Moi je veux y croire. Toi tu connais quelqu'un qui rit de tout ?"
       },
       {
-        "accroche": "C est marrant comme on ne rit pas tous des mêmes choses, ça vous étonne ?",
-        "relance": "Moi je m amuse de ces différences, et vous, vous avez un humour que peu de gens partagent ?"
+        "accroche": "C'est marrant comme on rit pas tous des mêmes choses, ça t'étonne ?",
+        "relance": "Moi je m'amuse de ces différences. Toi t'as un humour que peu de gens partagent ?"
       },
       {
-        "accroche": "Vous préférez l humour qui fait sourire ou celui qui fait franchement éclater de rire ?",
-        "relance": "Moi j adore le gros fou rire, et vous, vous êtes plutôt sourire discret ou grand éclat ?"
+        "accroche": "Tu préfères l'humour qui fait sourire ou celui qui fait franchement éclater de rire ?",
+        "relance": "Moi j'adore le gros fou rire. Toi t'es plutôt sourire discret ou grand éclat ?"
       }
     ]
   },
@@ -45983,56 +45983,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui sait où trouver de quoi rigoler, vous auriez un bon plan à me filer ?",
-        "relance": "Moi je tourne en rond niveau rigolade en ce moment, et vous, vous puisez votre humour où ?"
+        "accroche": "T'as l'air de savoir où trouver de quoi rigoler, t'aurais un bon plan à me filer ?",
+        "relance": "Moi je tourne en rond niveau rigolade en ce moment. Toi tu puises ton humour où ?"
       },
       {
-        "accroche": "On sent que vous vous y connaissez en trucs drôles, vous me conseilleriez quoi pour me marrer un bon coup ?",
-        "relance": "Moi j ai besoin d une dose de rire, et vous, votre valeur sûre pour rigoler c est quoi ?"
+        "accroche": "On sent que tu t'y connais en trucs drôles, tu me conseillerais quoi pour me marrer un bon coup ?",
+        "relance": "Moi j'ai besoin d'une dose de rire. Toi ta valeur sûre pour rigoler c'est quoi ?"
       },
       {
-        "accroche": "Vous semblez avoir un bon radar à humour, comment vous dénichez ce qui est vraiment drôle ?",
-        "relance": "Moi je tombe souvent sur du tiède, et vous, vous avez l oeil pour le vrai bon truc ?"
+        "accroche": "T'as un bon radar à humour on dirait, tu déniches ce qui est vraiment drôle comment ?",
+        "relance": "Moi je tombe souvent sur du tiède. Toi t'as l'oeil pour le vrai bon truc ?"
       },
       {
-        "accroche": "Vous donnez l air de savoir ce qui fait mouche, vous auriez un humoriste ou un style à me recommander ?",
-        "relance": "Moi je cherche une nouvelle pépite, et vous, il y a un nom qui vous fait toujours rire ?"
+        "accroche": "T'as l'air de savoir ce qui fait mouche, t'aurais un humoriste ou un style à me recommander ?",
+        "relance": "Moi je cherche une nouvelle pépite. Toi y a un nom qui te fait toujours rire ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "J aurais bien besoin de rire un bon coup ces temps ci, vous auriez une reco qui décoiffe ?",
-        "relance": "Moi j ai fait le tour de mes classiques, et vous, vous avez du neuf à me conseiller ?"
+        "accroche": "J'aurais bien besoin de rire un bon coup ces temps-ci, t'aurais une reco qui décoiffe ?",
+        "relance": "Moi j'ai fait le tour de mes classiques. Toi t'as du neuf à me conseiller ?"
       },
       {
-        "accroche": "Avec tout ce qui existe aujourd hui je ne sais plus quoi regarder pour rire, vous triez comment vous ?",
-        "relance": "Moi je perds un temps fou à chercher, et vous, vous allez droit au but ?"
+        "accroche": "Avec tout ce qui existe aujourd'hui je sais plus quoi regarder pour rire, tu tries comment toi ?",
+        "relance": "Moi je perds un temps fou à chercher. Toi tu vas droit au but ?"
       },
       {
-        "accroche": "Je cherche un truc léger pour me changer les idées, vous conseilleriez quoi de vraiment drôle ?",
-        "relance": "Moi j ai besoin de garanti sans prise de tête, et vous, votre remède infaillible c est quoi ?"
+        "accroche": "Je cherche un truc léger pour me changer les idées, tu conseillerais quoi de vraiment drôle ?",
+        "relance": "Moi j'ai besoin de garanti sans prise de tête. Toi ton remède infaillible c'est quoi ?"
       },
       {
-        "accroche": "On m a parlé de plein de trucs marrants récemment mais je suis perdu, vous en avez un à me souffler ?",
-        "relance": "Moi je veux un pari sûr, et vous, vous avez celui qui fait rire tout le monde ?"
+        "accroche": "On m'a parlé de plein de trucs marrants récemment mais je suis perdu, t'en as un à me souffler ?",
+        "relance": "Moi je veux un pari sûr. Toi t'as celui qui fait rire tout le monde ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "À votre avis, l humour ça se cherche ou ça se cultive au quotidien ?",
-        "relance": "Moi je crois qu il faut l entretenir, et vous, vous faites quoi pour garder le sourire ?"
+        "accroche": "À ton avis l'humour ça se cherche ou ça se cultive au quotidien ?",
+        "relance": "Moi je crois qu'il faut l'entretenir. Toi tu fais quoi pour garder le sourire ?"
       },
       {
-        "accroche": "Vous pensez qu on rit mieux devant un truc léger ou devant quelque chose de plus fin ?",
-        "relance": "Moi ça dépend de ma fatigue, et vous, vous choisissez selon votre humeur ?"
+        "accroche": "Tu penses qu'on rit mieux devant un truc léger ou devant quelque chose de plus fin ?",
+        "relance": "Moi ça dépend de ma fatigue. Toi tu choisis selon ton humeur ?"
       },
       {
-        "accroche": "Selon vous, vaut il mieux rire seul dans son coin ou partager ses trouvailles drôles ?",
-        "relance": "Moi je partage tout ce qui me fait rire, et vous, vous gardez pour vous ou vous diffusez ?"
+        "accroche": "Selon toi vaut mieux rire seul dans son coin ou partager ses trouvailles drôles ?",
+        "relance": "Moi je partage tout ce qui me fait rire. Toi tu gardes pour toi ou tu diffuses ?"
       },
       {
-        "accroche": "Vous conseilleriez plutôt un grand classique de l humour ou un truc récent pour se marrer ?",
-        "relance": "Moi j hésite toujours entre les deux, et vous, vous pencheriez pour quoi ?"
+        "accroche": "Tu conseillerais plutôt un grand classique de l'humour ou un truc récent pour se marrer ?",
+        "relance": "Moi j'hésite toujours entre les deux. Toi tu pencherais pour quoi ?"
       }
     ]
   },
@@ -46055,56 +46055,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez une tête à comprendre les blagues au premier degré, ça vous joue des tours parfois ?",
-        "relance": "Moi je prends tout au sérieux et ça finit en fou rire, et vous, vous êtes bon public ou dur à avoir ?"
+        "accroche": "T'as une tête à comprendre les blagues au premier degré, ça te joue des tours parfois ?",
+        "relance": "Moi je prends tout au sérieux et ça finit en fou rire. Toi t'es bon public ou dur à avoir ?"
       },
       {
-        "accroche": "On dirait quelqu un avec qui on peut vanner sans que ça vexe, je me trompe ?",
-        "relance": "Moi j adore les gens qui savent recevoir une taquinerie, et vous, vous encaissez ou vous répliquez ?"
+        "accroche": "On dirait quelqu'un avec qui on peut vanner sans que ça vexe, je me trompe ?",
+        "relance": "Moi j'adore les gens qui savent recevoir une taquinerie. Toi t'encaisses ou tu répliques ?"
       },
       {
-        "accroche": "Vous dégagez un humour un peu pince sans rire, c est votre marque de fabrique ?",
-        "relance": "Moi j ai le même genre décalé, et vous, on comprend toujours quand vous plaisantez ?"
+        "accroche": "T'as un humour un peu pince-sans-rire, c'est ta marque de fabrique ?",
+        "relance": "Moi j'ai le même genre décalé. Toi on comprend toujours quand tu plaisantes ?"
       },
       {
-        "accroche": "Vous avez l air d avoir de la répartie, ça vient tout seul ou vous préparez vos coups ?",
-        "relance": "Moi la bonne vanne me vient toujours trois heures trop tard, et vous, vous êtes rapide sur le coup ?"
+        "accroche": "T'as l'air d'avoir de la répartie, ça vient tout seul ou tu prépares tes coups ?",
+        "relance": "Moi la bonne vanne me vient toujours trois heures trop tard. Toi t'es rapide sur le coup ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Il y a des gens avec qui on rit tout de suite et je le sens un peu là, ça vous fait ça aussi parfois ?",
-        "relance": "Moi je repère vite les complices de rigolade, et vous, ça se sent tout de suite pour vous ?"
+        "accroche": "Y a des gens avec qui on rit tout de suite et je le sens un peu là, ça te fait ça aussi parfois ?",
+        "relance": "Moi je repère vite les complices de rigolade. Toi ça se sent tout de suite pour toi ?"
       },
       {
-        "accroche": "En ce moment j ai croisé des humours tellement différents que c en est drôle, et vous, vous vous adaptez ?",
-        "relance": "Moi je change de registre selon les gens, et vous, vous gardez le même humour partout ?"
+        "accroche": "En ce moment j'ai croisé des humours tellement différents que c'en est drôle, toi tu t'adaptes ?",
+        "relance": "Moi je change de registre selon les gens. Toi tu gardes le même humour partout ?"
       },
       {
-        "accroche": "J ai remarqué qu on accroche vite avec quelqu un qui rit des mêmes trucs, vous avez déjà vécu ça ?",
-        "relance": "Moi c est mon test d amitié numéro un, et vous, l humour ça compte dans vos rencontres ?"
+        "accroche": "J'ai remarqué qu'on accroche vite avec quelqu'un qui rit des mêmes trucs, t'as déjà vécu ça ?",
+        "relance": "Moi c'est mon test d'amitié numéro un. Toi l'humour ça compte dans tes rencontres ?"
       },
       {
-        "accroche": "Ces temps ci j ai l impression que rire ensemble crée un lien direct, vous le ressentez comme ça ?",
-        "relance": "Moi un fou rire partagé et c est gagné, et vous, ça vous suffit pour vous sentir proche de quelqu un ?"
+        "accroche": "Ces temps-ci j'ai l'impression que rire ensemble crée un lien direct, tu le ressens comme ça ?",
+        "relance": "Moi un fou rire partagé et c'est gagné. Toi ça te suffit pour te sentir proche de quelqu'un ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez qu on peut vraiment s entendre avec quelqu un qui n a pas notre humour ?",
-        "relance": "Moi j ai du mal je l avoue, et vous, c est rédhibitoire pour vous ou pas ?"
+        "accroche": "En vrai tu penses qu'on peut vraiment s'entendre avec quelqu'un qui a pas notre humour ?",
+        "relance": "Moi j'ai du mal je l'avoue. Toi c'est rédhibitoire ou pas ?"
       },
       {
-        "accroche": "Vous croyez que l humour en dit plus sur une personne que ses goûts ou ses idées ?",
-        "relance": "Moi je pense que ça révèle beaucoup, et vous, vous jugez les gens à leur humour ?"
+        "accroche": "Tu crois que l'humour en dit plus sur une personne que ses goûts ou ses idées ?",
+        "relance": "Moi je pense que ça révèle beaucoup. Toi tu juges les gens à leur humour ?"
       },
       {
-        "accroche": "C est quoi pour vous la plus belle preuve de complicité, un secret ou un fou rire partagé ?",
-        "relance": "Moi je vote fou rire sans hésiter, et vous, ça se scelle comment une vraie complicité ?"
+        "accroche": "C'est quoi pour toi la plus belle preuve de complicité, un secret ou un fou rire partagé ?",
+        "relance": "Moi je vote fou rire sans hésiter. Toi ça se scelle comment une vraie complicité ?"
       },
       {
-        "accroche": "Vous pensez qu on rit plus facilement en vieillissant ou qu on devient plus difficile ?",
-        "relance": "Moi j espère garder mon rire d enfant, et vous, vous riez toujours autant qu avant ?"
+        "accroche": "Tu penses qu'on rit plus facile en vieillissant ou qu'on devient plus difficile ?",
+        "relance": "Moi j'espère garder mon rire d'enfant. Toi tu ris toujours autant qu'avant ?"
       }
     ]
   },
@@ -46127,56 +46127,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui sait dénicher les bons plans, je me trompe ?",
-        "relance": "Moi je traque les bonnes affaires par jeu, et vous, vous êtes plutôt chasseur de bons plans ou pas du tout ?"
+        "accroche": "T'as l'air de quelqu'un qui sait dénicher les bons plans, je me trompe ?",
+        "relance": "Moi je traque les bonnes affaires par jeu. Toi t'es plutôt chasseur de bons plans ou pas du tout ?"
       },
       {
-        "accroche": "On dirait quelqu un de malin avec son budget, c est un truc naturel chez vous ?",
-        "relance": "Moi j ai appris à la dure à gérer, et vous, vous êtes plutôt fourmi ou cigale ?"
+        "accroche": "On dirait quelqu'un de malin avec son budget, c'est un truc naturel chez toi ?",
+        "relance": "Moi j'ai appris à la dure à gérer. Toi t'es plutôt fourmi ou cigale ?"
       },
       {
-        "accroche": "Vous dégagez un côté débrouillard, vous avez cette philosophie de faire durer les choses ?",
-        "relance": "Moi je répare tout plutôt que racheter, et vous, vous êtes du genre à faire avec ce que vous avez ?"
+        "accroche": "T'as un côté débrouillard, t'as cette philosophie de faire durer les choses ?",
+        "relance": "Moi je répare tout plutôt que racheter. Toi t'es du genre à faire avec ce que t'as ?"
       },
       {
-        "accroche": "Vous semblez du genre à savoir ce qui vaut le coup ou non, ça vous vient d où ce flair ?",
-        "relance": "Moi ça me vient de mon éducation, et vous, vous avez toujours fait attention à ça ?"
+        "accroche": "T'as l'air de savoir ce qui vaut le coup ou non, ça te vient d'où ce flair ?",
+        "relance": "Moi ça me vient de mon éducation. Toi t'as toujours fait attention à ça ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment tout le monde partage ses astuces pour dépenser malin, vous avez la vôtre ?",
-        "relance": "Moi j en teste une nouvelle chaque mois, et vous, vous avez un truc qui marche bien ?"
+        "accroche": "En ce moment tout le monde partage ses astuces pour dépenser malin, t'as la tienne ?",
+        "relance": "Moi j'en teste une nouvelle chaque mois. Toi t'as un truc qui marche bien ?"
       },
       {
-        "accroche": "On parle beaucoup de bien gérer son argent ces temps ci, ça vous inspire des réflexions vous ?",
-        "relance": "Moi ça m a poussé à revoir mes habitudes, et vous, vous avez changé des trucs récemment ?"
+        "accroche": "On parle beaucoup de bien gérer son argent ces temps-ci, ça t'inspire des réflexions toi ?",
+        "relance": "Moi ça m'a poussé à revoir mes habitudes. Toi t'as changé des trucs récemment ?"
       },
       {
-        "accroche": "J ai découvert récemment une petite astuce pour économiser sans se priver, ça vous intéresse ce genre de plan ?",
-        "relance": "Moi j adore échanger ces tuyaux, et vous, vous avez un bon plan à partager ?"
+        "accroche": "J'ai découvert récemment une astuce pour économiser sans se priver, ça t'intéresse ce genre de plan ?",
+        "relance": "Moi j'adore échanger ces tuyaux. Toi t'as un bon plan à partager ?"
       },
       {
-        "accroche": "Ces temps ci j ai l impression qu on est tous devenus un peu plus malins avec nos sous, vous le sentez aussi ?",
-        "relance": "Moi je fais plus attention qu avant, et vous, ça a changé votre façon de faire ?"
+        "accroche": "Ces temps-ci j'ai l'impression qu'on est tous devenus plus malins avec nos sous, tu le sens aussi ?",
+        "relance": "Moi je fais plus attention qu'avant. Toi ça a changé ta façon de faire ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez que l argent c est fait pour être gardé ou pour être dépensé et profiter ?",
-        "relance": "Moi je penche pour en profiter avec mesure, et vous, vous êtes plutôt épargne ou plaisir ?"
+        "accroche": "En vrai tu penses que l'argent c'est fait pour être gardé ou pour être dépensé et profiter ?",
+        "relance": "Moi je penche pour en profiter avec mesure. Toi t'es plutôt épargne ou plaisir ?"
       },
       {
-        "accroche": "Vous croyez qu on a tous appris notre rapport à l argent enfant ou qu on le construit après ?",
-        "relance": "Moi je reproduis clairement ce que j ai vu petit, et vous, ça vous vient de votre famille aussi ?"
+        "accroche": "Tu crois qu'on apprend tous notre rapport à l'argent enfant ou qu'on le construit après ?",
+        "relance": "Moi je reproduis clairement ce que j'ai vu petit. Toi ça te vient de ta famille aussi ?"
       },
       {
-        "accroche": "C est quoi pour vous, dépenser malin, payer moins ou payer pour ce qui dure vraiment ?",
-        "relance": "Moi je préfère payer pour du solide, et vous, vous êtes prix ou qualité d abord ?"
+        "accroche": "C'est quoi pour toi dépenser malin, payer moins ou payer pour ce qui dure vraiment ?",
+        "relance": "Moi je préfère payer pour du solide. Toi t'es prix ou qualité d'abord ?"
       },
       {
-        "accroche": "Vous pensez que le bonheur et l argent ça a un vrai rapport ou pas tant que ça ?",
-        "relance": "Moi je crois que ça aide surtout à enlever des soucis, et vous, vous le voyez comment ce lien ?"
+        "accroche": "Tu penses que le bonheur et l'argent ça a un vrai rapport ou pas tant que ça ?",
+        "relance": "Moi je crois que ça aide surtout à enlever des soucis. Toi tu le vois comment ce lien ?"
       }
     ]
   },
@@ -46199,56 +46199,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air d avoir le nez pour les bonnes affaires, c est un talent chez vous ?",
-        "relance": "Moi je ne rate jamais une promo, et vous, vous êtes plutôt chasseur de bons plans ou tranquille là dessus ?"
+        "accroche": "T'as l'air d'avoir le nez pour les bonnes affaires, c'est un talent chez toi ?",
+        "relance": "Moi je rate jamais une promo. Toi t'es plutôt chasseur de bons plans ou tranquille là-dessus ?"
       },
       {
-        "accroche": "On dirait quelqu un qui aime bien optimiser ses achats, je me trompe ?",
-        "relance": "Moi je compare tout avant d acheter, et vous, vous prenez le temps ou vous foncez ?"
+        "accroche": "On dirait quelqu'un qui aime bien optimiser ses achats, je me trompe ?",
+        "relance": "Moi je compare tout avant d'acheter. Toi tu prends le temps ou tu fonces ?"
       },
       {
-        "accroche": "Vous semblez du genre à connaître les astuces pour payer moins cher, vous en avez une fétiche ?",
-        "relance": "Moi j ai mes petites combines, et vous, vous avez votre truc à vous ?"
+        "accroche": "T'as l'air de connaître les astuces pour payer moins cher, t'en as une fétiche ?",
+        "relance": "Moi j'ai mes petites combines. Toi t'as ton truc à toi ?"
       },
       {
-        "accroche": "Vous donnez l impression de savoir où trouver la bonne affaire, ça vous amuse ce petit jeu ?",
-        "relance": "Moi je prends ça comme un sport, et vous, ça vous procure la même satisfaction ?"
+        "accroche": "T'as l'air de savoir où trouver la bonne affaire, ça t'amuse ce petit jeu ?",
+        "relance": "Moi je prends ça comme un sport. Toi ça te procure la même satisfaction ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment il y a de bonnes affaires un peu partout, vous en avez déniché une sympa récemment ?",
-        "relance": "Moi j ai fait une trouvaille cette semaine, et vous, un bon coup à raconter ?"
+        "accroche": "En ce moment y a de bonnes affaires un peu partout, t'en as déniché une sympa récemment ?",
+        "relance": "Moi j'ai fait une trouvaille cette semaine. Toi un bon coup à raconter ?"
       },
       {
-        "accroche": "C est la saison des promos on dirait, vous êtes du genre à en profiter vous ?",
-        "relance": "Moi je craque toujours un peu trop, et vous, vous résistez ou vous vous laissez tenter ?"
+        "accroche": "C'est la saison des promos on dirait, t'es du genre à en profiter toi ?",
+        "relance": "Moi je craque toujours un peu trop. Toi tu résistes ou tu te laisses tenter ?"
       },
       {
-        "accroche": "On s échange plein d astuces pour économiser en ce moment, vous en avez collecté des bonnes ?",
-        "relance": "Moi j en note à droite à gauche, et vous, vous avez un tuyau qui marche vraiment ?"
+        "accroche": "On s'échange plein d'astuces pour économiser en ce moment, t'en as collecté des bonnes ?",
+        "relance": "Moi j'en note à droite à gauche. Toi t'as un tuyau qui marche vraiment ?"
       },
       {
-        "accroche": "Ces temps ci tout le monde compare avant d acheter, vous faites partie des malins vous aussi ?",
-        "relance": "Moi je passe un temps fou à comparer, et vous, ça vaut le coup selon vous ?"
+        "accroche": "Ces temps-ci tout le monde compare avant d'acheter, tu fais partie des malins toi aussi ?",
+        "relance": "Moi je passe un temps fou à comparer. Toi ça vaut le coup selon toi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous trouvez que chercher les bons plans ça détend ou ça prend la tête ?",
-        "relance": "Moi j y prends un vrai plaisir, et vous, ça vous amuse ou ça vous fatigue ?"
+        "accroche": "En vrai tu trouves que chercher les bons plans ça détend ou ça prend la tête ?",
+        "relance": "Moi j'y prends un vrai plaisir. Toi ça t'amuse ou ça te fatigue ?"
       },
       {
-        "accroche": "Vous préférez économiser sur les petites choses ou sur les gros achats ?",
-        "relance": "Moi je lâche sur les détails et je me bats sur le gros, et vous, vous ciblez quoi ?"
+        "accroche": "Tu préfères économiser sur les petites choses ou sur les gros achats ?",
+        "relance": "Moi je lâche sur les détails et je me bats sur le gros. Toi tu cibles quoi ?"
       },
       {
-        "accroche": "C est marrant comme un bon plan partagé fait toujours plaisir vous trouvez pas ?",
-        "relance": "Moi j adore refiler mes trouvailles, et vous, vous gardez vos bons plans ou vous les partagez ?"
+        "accroche": "C'est marrant comme un bon plan partagé fait toujours plaisir, tu trouves pas ?",
+        "relance": "Moi j'adore refiler mes trouvailles. Toi tu gardes tes bons plans ou tu les partages ?"
       },
       {
-        "accroche": "Vous pensez que faire des économies c est surtout une habitude ou un état d esprit ?",
-        "relance": "Moi je crois que c est un réflexe qu on prend, et vous, ça vous vient facilement ?"
+        "accroche": "Tu penses que faire des économies c'est surtout une habitude ou un état d'esprit ?",
+        "relance": "Moi je crois que c'est un réflexe qu'on prend. Toi ça te vient facilement ?"
       }
     ]
   },
@@ -46271,56 +46271,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de bien gérer votre budget, vous auriez une astuce simple à me partager ?",
-        "relance": "Moi j ai du mal à m y tenir, et vous, vous avez un truc qui vous aide à garder le cap ?"
+        "accroche": "T'as l'air de bien gérer ton budget, t'aurais une astuce simple à me partager ?",
+        "relance": "Moi j'ai du mal à m'y tenir. Toi t'as un truc qui t'aide à garder le cap ?"
       },
       {
-        "accroche": "On sent que vous êtes organisé avec vos sous, comment vous vous y prenez au quotidien ?",
-        "relance": "Moi je suis un peu bordélique là dessus, et vous, vous avez une méthode qui tient la route ?"
+        "accroche": "On sent que t'es organisé avec tes sous, tu t'y prends comment au quotidien ?",
+        "relance": "Moi je suis un peu bordélique là-dessus. Toi t'as une méthode qui tient la route ?"
       },
       {
-        "accroche": "Vous semblez du genre à savoir où mettre son argent utilement, vous conseilleriez quoi pour débuter ?",
-        "relance": "Moi je ne sais jamais par où commencer, et vous, vous avez démarré comment ?"
+        "accroche": "T'as l'air de savoir où mettre son argent utilement, tu conseillerais quoi pour débuter ?",
+        "relance": "Moi je sais jamais par où commencer. Toi t'as démarré comment ?"
       },
       {
-        "accroche": "Vous donnez l impression d avoir de bons réflexes côté finances, ça se travaille ou c est un caractère ?",
-        "relance": "Moi je manque clairement de discipline, et vous, vous pensez que ça s apprend ?"
+        "accroche": "T'as l'air d'avoir de bons réflexes côté finances, ça se travaille ou c'est un caractère ?",
+        "relance": "Moi je manque clairement de discipline. Toi tu penses que ça s'apprend ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "Je cherche à mieux gérer mon budget en ce moment et je rame un peu, vous auriez un conseil de départ ?",
-        "relance": "Moi je ne sais pas trop par quel bout prendre ça, et vous, vous avez une astuce simple ?"
+        "accroche": "Je cherche à mieux gérer mon budget en ce moment et je rame un peu, t'aurais un conseil de départ ?",
+        "relance": "Moi je sais pas trop par quel bout prendre ça. Toi t'as une astuce simple ?"
       },
       {
-        "accroche": "Avec tout ce qu on entend sur l épargne, je suis un peu perdu, vous filtrez comment vous ?",
-        "relance": "Moi je ne sais plus quoi écouter, et vous, vous avez un principe de base qui marche ?"
+        "accroche": "Avec tout ce qu'on entend sur l'épargne je suis un peu perdu, tu filtres comment toi ?",
+        "relance": "Moi je sais plus quoi écouter. Toi t'as un principe de base qui marche ?"
       },
       {
-        "accroche": "J aimerais mettre un peu de côté sans trop me priver, vous auriez une approche à me conseiller ?",
-        "relance": "Moi j ai du mal à trouver l équilibre, et vous, comment vous conciliez les deux ?"
+        "accroche": "J'aimerais mettre un peu de côté sans trop me priver, t'aurais une approche à me conseiller ?",
+        "relance": "Moi j'ai du mal à trouver l'équilibre. Toi tu concilies les deux comment ?"
       },
       {
-        "accroche": "On m a donné plein de conseils contradictoires sur l argent, vous en avez un qui vous semble sûr ?",
-        "relance": "Moi je ne sais plus qui croire, et vous, vous avez une règle qui ne vous a jamais déçu ?"
+        "accroche": "On m'a donné plein de conseils contradictoires sur l'argent, t'en as un qui te semble sûr ?",
+        "relance": "Moi je sais plus qui croire. Toi t'as une règle qui t'a jamais déçu ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "À votre avis, vaut il mieux se priver un peu chaque jour ou faire de gros efforts de temps en temps ?",
-        "relance": "Moi je tiens pas les gros efforts, et vous, qu est ce qui marche le mieux pour vous ?"
+        "accroche": "À ton avis vaut mieux se priver un peu chaque jour ou faire de gros efforts de temps en temps ?",
+        "relance": "Moi je tiens pas les gros efforts. Toi qu'est-ce qui marche le mieux ?"
       },
       {
-        "accroche": "Vous pensez qu il faut suivre chaque dépense ou juste garder une idée globale ?",
-        "relance": "Moi je m épuise à tout noter, et vous, vous êtes plutôt détaillé ou à la louche ?"
+        "accroche": "Tu penses qu'il faut suivre chaque dépense ou juste garder une idée globale ?",
+        "relance": "Moi je m'épuise à tout noter. Toi t'es plutôt détaillé ou à la louche ?"
       },
       {
-        "accroche": "Selon vous, le plus important c est de moins dépenser ou de mieux choisir où on dépense ?",
-        "relance": "Moi je crois que c est surtout mieux choisir, et vous, vous mettez l accent où ?"
+        "accroche": "Selon toi le plus important c'est de moins dépenser ou de mieux choisir où on dépense ?",
+        "relance": "Moi je crois que c'est surtout mieux choisir. Toi tu mets l'accent où ?"
       },
       {
-        "accroche": "Vous conseilleriez plutôt de commencer petit ou de se fixer un vrai objectif ambitieux ?",
-        "relance": "Moi les petits pas me réussissent mieux, et vous, vous fonctionnez comment ?"
+        "accroche": "Tu conseillerais plutôt de commencer petit ou de se fixer un vrai objectif ambitieux ?",
+        "relance": "Moi les petits pas me réussissent mieux. Toi tu fonctionnes comment ?"
       }
     ]
   },
@@ -46343,56 +46343,56 @@ export const SITUATIONS_DATA = [
     "role": "Tous",
     "zoomIn": [
       {
-        "accroche": "Vous avez l air de quelqu un qui sait ce qui compte pour lui, je me trompe ?",
-        "relance": "Moi j ai mis du temps à définir mes priorités, et vous, vous savez où vous voulez mettre votre énergie ?"
+        "accroche": "T'as l'air de quelqu'un qui sait ce qui compte pour lui, je me trompe ?",
+        "relance": "Moi j'ai mis du temps à définir mes priorités. Toi tu sais où tu veux mettre ton énergie ?"
       },
       {
-        "accroche": "On dirait quelqu un qui ne court pas après le superflu, c est un choix assumé chez vous ?",
-        "relance": "Moi j essaie de garder l essentiel, et vous, vous êtes plutôt simplicité ou vous aimez vous faire plaisir ?"
+        "accroche": "On dirait quelqu'un qui court pas après le superflu, c'est un choix assumé chez toi ?",
+        "relance": "Moi j'essaie de garder l'essentiel. Toi t'es plutôt simplicité ou tu aimes te faire plaisir ?"
       },
       {
-        "accroche": "Vous dégagez un côté qui préfère les expériences aux objets, ça vous parle ça ?",
-        "relance": "Moi je claque tout en voyages et souvenirs, et vous, vous investissez plutôt dans quoi ?"
+        "accroche": "T'as un côté qui préfère les expériences aux objets, ça te parle ça ?",
+        "relance": "Moi je claque tout en voyages et souvenirs. Toi t'investis plutôt dans quoi ?"
       },
       {
-        "accroche": "Vous semblez avoir les pieds sur terre avec un vrai sens des priorités, ça vous vient d où ?",
-        "relance": "Moi la vie m a recadré là dessus, et vous, vous avez toujours vu les choses comme ça ?"
+        "accroche": "T'as l'air d'avoir les pieds sur terre avec un vrai sens des priorités, ça te vient d'où ?",
+        "relance": "Moi la vie m'a recadré là-dessus. Toi t'as toujours vu les choses comme ça ?"
       }
     ],
     "contexte": [
       {
-        "accroche": "En ce moment je me pose pas mal de questions sur ce qui vaut vraiment le coup de dépenser, et vous ?",
-        "relance": "Moi je fais le tri dans mes envies, et vous, vous vous demandez ça parfois aussi ?"
+        "accroche": "En ce moment je me pose pas mal de questions sur ce qui vaut vraiment le coup de dépenser, et toi ?",
+        "relance": "Moi je fais le tri dans mes envies. Toi tu te demandes ça parfois aussi ?"
       },
       {
-        "accroche": "On parle beaucoup de consommer autrement ces temps ci, ça résonne chez vous ?",
-        "relance": "Moi ça m a fait revoir mes envies, et vous, ça a changé votre façon de voir les choses ?"
+        "accroche": "On parle beaucoup de consommer autrement ces temps-ci, ça résonne chez toi ?",
+        "relance": "Moi ça m'a fait revoir mes envies. Toi ça a changé ta façon de voir les choses ?"
       },
       {
-        "accroche": "J ai l impression qu on cherche de plus en plus le sens plutôt que la quantité en ce moment, vous le sentez ?",
-        "relance": "Moi je préfère moins mais mieux maintenant, et vous, vous avez fait ce virage aussi ?"
+        "accroche": "J'ai l'impression qu'on cherche de plus en plus le sens plutôt que la quantité là, tu le sens ?",
+        "relance": "Moi je préfère moins mais mieux maintenant. Toi t'as fait ce virage aussi ?"
       },
       {
-        "accroche": "Ces temps ci je réalise que les meilleurs moments coûtent souvent rien, ça vous parle cette idée ?",
-        "relance": "Moi mes plus beaux souvenirs sont gratuits, et vous, les vôtres ça tient à quoi ?"
+        "accroche": "Ces temps-ci je réalise que les meilleurs moments coûtent souvent rien, ça te parle cette idée ?",
+        "relance": "Moi mes plus beaux souvenirs sont gratuits. Toi les tiens ça tient à quoi ?"
       }
     ],
     "zoomOut": [
       {
-        "accroche": "Au fond, vous pensez que l argent achète du confort ou une forme de liberté ?",
-        "relance": "Moi je vise surtout la liberté, et vous, ça représente quoi pour vous au fond ?"
+        "accroche": "En vrai tu penses que l'argent achète du confort ou une forme de liberté ?",
+        "relance": "Moi je vise surtout la liberté. Toi ça représente quoi pour toi au fond ?"
       },
       {
-        "accroche": "Vous croyez qu on peut être vraiment heureux avec peu ou qu il en faut un minimum ?",
-        "relance": "Moi je crois qu il faut juste de quoi être serein, et vous, vous placez le curseur où ?"
+        "accroche": "Tu crois qu'on peut être vraiment heureux avec peu ou qu'il en faut un minimum ?",
+        "relance": "Moi je crois qu'il faut juste de quoi être serein. Toi tu places le curseur où ?"
       },
       {
-        "accroche": "C est quoi pour vous une dépense qui ne se regrette jamais ?",
-        "relance": "Moi c est tout ce qui crée des souvenirs, et vous, vous ne regrettez jamais quoi ?"
+        "accroche": "C'est quoi pour toi une dépense qui ne se regrette jamais ?",
+        "relance": "Moi c'est tout ce qui crée des souvenirs. Toi tu regrettes jamais quoi ?"
       },
       {
-        "accroche": "Vous pensez qu on donne trop d importance à l argent ou juste ce qu il faut ?",
-        "relance": "Moi je trouve qu on lui en donne un peu trop, et vous, vous arrivez à relativiser là dessus ?"
+        "accroche": "Tu penses qu'on donne trop d'importance à l'argent ou juste ce qu'il faut ?",
+        "relance": "Moi je trouve qu'on lui en donne un peu trop. Toi t'arrives à relativiser là-dessus ?"
       }
     ]
   }
